@@ -21,6 +21,7 @@
     "eslint-plugin-prettier": "4.2.1",
     "eslint-plugin-react": "7.32.2",
     "eslint-plugin-react-hooks": "4.6.0",
+    "package-json": "8.1.0",
     "typescript": "5.0.4",
     "vitest": "0.30.1"
   }

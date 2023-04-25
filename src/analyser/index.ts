@@ -22,17 +22,7 @@ async function recursive(
       continue;
     }
 
-    ret.services.push({
-      ...res,
-      tech: {
-        language: new Set(),
-        db: new Set(),
-        hosting: new Set(),
-        sass: new Set(),
-        messaging: new Set(),
-        tool: new Set(),
-      },
-    });
+    ret.services.push(res);
   }
 
   for (const rule of rules) {
@@ -41,7 +31,7 @@ async function recursive(
       continue;
     }
 
-    ret.tech[res.type].add(res.name);
+    ret.tech.add(res.key);
   }
 
   for (const file of files) {
@@ -61,14 +51,7 @@ export async function techAnalyser(
 ): Promise<TechAnalyser> {
   const provider = opts.provider;
   const ret: TechAnalyser = {
-    tech: {
-      language: new Set(),
-      db: new Set(),
-      hosting: new Set(),
-      sass: new Set(),
-      messaging: new Set(),
-      tool: new Set(),
-    },
+    tech: new Set(),
     services: [],
   };
 

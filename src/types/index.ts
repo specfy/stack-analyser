@@ -1,3 +1,5 @@
+import type { AllowedKeys, TechItem } from './techs';
+
 export interface GraphEdge {
   to: string;
   read: boolean;
@@ -7,38 +9,18 @@ export interface GraphEdge {
   portTarget: 'bottom' | 'left' | 'right' | 'top';
 }
 
-export interface RuleTechReturn {
-  name: string;
-  type: TechType;
-}
+export type RuleTechReturn = TechItem;
 
-export type RuleServiceReturn = Omit<Service, 'tech'>;
-
-export type TechType =
-  | 'db'
-  | 'hosting'
-  | 'language'
-  | 'messaging'
-  | 'sass'
-  | 'tool';
-
-export interface TechSummary {
-  language: Set<string>;
-  db: Set<string>;
-  hosting: Set<string>;
-  sass: Set<string>;
-  messaging: Set<string>;
-  tool: Set<string>;
-}
+export type RuleServiceReturn = Service;
 
 export interface Service {
   name: string;
   path: string;
-  tech: TechSummary;
+  tech: Set<AllowedKeys>;
   edges: GraphEdge[];
 }
 
 export interface TechAnalyser {
-  tech: TechSummary;
+  tech: Set<AllowedKeys>;
   services: Service[];
 }

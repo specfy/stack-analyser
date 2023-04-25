@@ -1,7 +1,11 @@
 import path from 'node:path';
 
+import type { FullVersion } from 'package-json';
+
 import type { BaseProvider, ProviderFile } from '../../provider/base';
 import type { RuleServiceReturn } from '../../types';
+
+import { detectDependencies } from './dependencies';
 
 const FILES = ['package.json'];
 
@@ -18,7 +22,7 @@ export async function detectNodeService(
       continue;
     }
 
-    let json;
+    let json: FullVersion;
     try {
       json = JSON.parse(content);
     } catch (e) {
@@ -29,7 +33,9 @@ export async function detectNodeService(
       return false;
     }
 
-    return { name: json.name, path: path.dirname(file.fp), edges: [] };
+    const tech = detectDependencies(json);
+
+    return { name: json.name, path: path.dirname(file.fp), edges: [], tech };
   }
 
   return false;
