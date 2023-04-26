@@ -9,6 +9,8 @@ NodeJs:
   ✔ Detect Hotjar @done(23-04-26 11:17)
   ✔ Detect LogRocket @done(23-04-26 11:18)
   ✔ Detect New Relic @done(23-04-26 11:19)
+  - Amplitude
+  - Google Analytics
 
 Terraform:
   - GCP
@@ -31,7 +33,7 @@ Firebase:
   - DB
 
 Global:
-- Detect Vercel
+☐ Detect Vercel
 - Detect github pages
 - Detect Cloudflare
 - Detect Netlify
@@ -41,6 +43,15 @@ Global:
 - Detect Render
 - Detect Dependabot
 - Detect Renovate
+- Circleci
+- Travisci
+- Codecov
+- Relativeci
+- TeamCity
+- Jenkins
+- Bitrise
+- Cypress
+- Supabase
 
 
 Don't forget:
