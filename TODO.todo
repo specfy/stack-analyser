@@ -3,12 +3,12 @@ Language detection:
 
 NodeJs:
   - Check import of others services
-  - Detect Elasticsearch
-  - Detect Sentry
-  - Detect Datadog
-  - Detect Hotjar
-  - Detect LogRocket
-  - Detect New Relic
+  ✔ Detect Elasticsearch @done(23-04-26 11:20)
+  ✔ Detect Sentry @done(23-04-26 11:15)
+  ✔ Detect Datadog @done(23-04-26 11:14)
+  ✔ Detect Hotjar @done(23-04-26 11:17)
+  ✔ Detect LogRocket @done(23-04-26 11:18)
+  ✔ Detect New Relic @done(23-04-26 11:19)
 
 Terraform:
   - GCP
@@ -24,7 +24,7 @@ Prisma:
   - Type of DB
 
 Docker Compose:
-  - Parse images
+  ✔ Parse images @done(23-04-26 12:09)
 
 Firebase:
   - Hosting

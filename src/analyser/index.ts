@@ -11,7 +11,7 @@ export interface TechAnalyserOptions {
 
 async function recursive(
   provider: BaseProvider,
-  ret: TechAnalyser,
+  pl: TechAnalyser,
   filePath: string
 ): Promise<void> {
   const files = await provider.listDir(filePath);
@@ -23,7 +23,7 @@ async function recursive(
       continue;
     }
 
-    ret.services.push(res);
+    pl.services.push(...res);
   }
 
   // Detect Tech
@@ -33,7 +33,7 @@ async function recursive(
       continue;
     }
 
-    ret.tech.add(res.key);
+    pl.tech.add(res.key);
   }
 
   // Recursively dive in folders
@@ -45,7 +45,7 @@ async function recursive(
       continue;
     }
 
-    await recursive(provider, ret, path.join(filePath, file.name));
+    await recursive(provider, pl, path.join(filePath, file.name));
   }
 }
 
@@ -53,12 +53,12 @@ export async function techAnalyser(
   opts: TechAnalyserOptions
 ): Promise<TechAnalyser> {
   const provider = opts.provider;
-  const ret: TechAnalyser = {
+  const pl: TechAnalyser = {
     tech: new Set(),
     services: [],
   };
 
-  await recursive(provider, ret, '/');
+  await recursive(provider, pl, '/');
 
-  return ret;
+  return pl;
 }

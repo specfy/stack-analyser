@@ -2,6 +2,7 @@ import type { ProviderFile } from '../provider/base';
 import type { RuleTechReturn } from '../types';
 
 import { detectDocker } from './docker';
+import { detectDockerServices } from './docker/service';
 import { detectEslint } from './eslint';
 import { detectNodejs } from './nodejs';
 import { detectNodeService } from './nodejs/service';
@@ -21,4 +22,4 @@ export const rules: Array<
     detectTerraform,
   ];
 
-export const rulesServices = [detectNodeService];
+export const rulesServices = [detectNodeService, detectDockerServices];

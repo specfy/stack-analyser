@@ -17,6 +17,7 @@ export async function detectNodeService(
     if (!FILES.includes(file.name)) {
       continue;
     }
+
     const content = await provider.open(file.fp);
     if (!content) {
       continue;
@@ -33,9 +34,17 @@ export async function detectNodeService(
       return false;
     }
 
-    const tech = detectDependencies(json);
+    const techs = detectDependencies(json);
 
-    return { name: json.name, path: path.dirname(file.fp), edges: [], tech };
+    return [
+      {
+        name: json.name,
+        path: path.dirname(file.fp),
+        edges: [],
+        tech: null,
+        techs,
+      },
+    ];
   }
 
   return false;

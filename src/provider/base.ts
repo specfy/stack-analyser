@@ -30,4 +30,5 @@ export const IGNORED_DIVE_PATHS = [
   'migrations',
   '.vercel',
   '.terraform',
+  'terraform.tfstate.d',
 ];

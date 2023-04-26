@@ -11,12 +11,13 @@ export interface GraphEdge {
 
 export type RuleTechReturn = TechItem;
 
-export type RuleServiceReturn = Service;
+export type RuleServiceReturn = Service[];
 
 export interface Service {
   name: string;
   path: string;
-  tech: Set<AllowedKeys>;
+  tech: AllowedKeys | null;
+  techs: Set<AllowedKeys>;
   edges: GraphEdge[];
 }
 

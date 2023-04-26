@@ -1,8 +1,7 @@
 import type { FullVersion } from 'package-json';
 
 import { listIndexed } from '../../common/techs';
-import type { Service } from '../../types';
-import type { TechItem } from '../../types/techs';
+import type { AllowedKeys, TechItem } from '../../types/techs';
 
 const DEPS: Record<string, TechItem[]> = {
   '@algolia/autocomplete-js': [listIndexed.algolia],
@@ -42,10 +41,10 @@ const DEPS: Record<string, TechItem[]> = {
   vue: [listIndexed.vue],
 };
 
-export function detectDependencies(pkg: FullVersion): Service['tech'] {
+export function detectDependencies(pkg: FullVersion): Set<AllowedKeys> {
   const deps = { ...(pkg.dependencies || {}), ...(pkg.devDependencies || {}) };
 
-  const matched: Service['tech'] = new Set();
+  const matched = new Set<AllowedKeys>();
   for (const dep of Object.keys(deps)) {
     if (!(dep in DEPS)) {
       continue;
