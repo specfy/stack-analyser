@@ -36,6 +36,7 @@ export const list: TechItem[] = [
   { key: 'html', name: 'HTML', type: 'language' },
   { key: 'influxdb', name: 'Influxdb', type: 'db' },
   { key: 'java', name: 'Java', type: 'language' },
+  { key: 'javascript', name: 'JavaScript', type: 'language' },
   { key: 'jest', name: 'Jest', type: 'tool' },
   { key: 'jira', name: 'Jira', type: 'sass' },
   { key: 'koa', name: 'Koa', type: 'tool' },
@@ -69,6 +70,8 @@ export const list: TechItem[] = [
   { key: 'redis', name: 'Redis', type: 'db' },
   { key: 'ruby', name: 'Ruby', type: 'language' },
   { key: 'rust', name: 'Rust', type: 'language' },
+  { key: 'scss', name: 'SCSS', type: 'language' },
+  { key: 'shell', name: 'Shell', type: 'language' },
   { key: 'sentry', name: 'Sentry', type: 'sass' },
   { key: 'slack', name: 'Slack', type: 'sass' },
   { key: 'sequelize', name: 'Sequelize', type: 'tool' },
@@ -93,4 +96,9 @@ export const list: TechItem[] = [
 export const listIndexed: Record<AllowedKeys, TechItem> = {} as any;
 Object.values(list).forEach((v) => {
   listIndexed[v.key] = v;
+});
+
+export const nameToKey: Record<string, AllowedKeys> = {} as any;
+Object.values(list).forEach((v) => {
+  nameToKey[v.name] = v.key;
 });

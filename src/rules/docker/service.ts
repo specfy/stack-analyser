@@ -1,7 +1,7 @@
 import { parse } from 'yaml';
 
+import { Payload } from '../../payload';
 import type { BaseProvider, ProviderFile } from '../../provider/base';
-import type { RuleServiceReturn, Service } from '../../types';
 
 import { detectImages } from './images';
 
@@ -15,7 +15,7 @@ interface DockerComposeService {
 export async function detectDockerServices(
   files: ProviderFile[],
   provider: BaseProvider
-): Promise<RuleServiceReturn | false> {
+): Promise<Payload | false> {
   for (const file of files) {
     if (!FILES.includes(file.name)) {
       continue;
@@ -31,20 +31,21 @@ export async function detectDockerServices(
       return false;
     }
 
-    const services: Service[] = [];
+    const pl = new Payload('virtual', file.fp);
+
     for (const [name, service] of Object.entries<DockerComposeService>(
       parsed.services
     )) {
-      services.push({
-        name: service.container_name || name,
-        path: file.fp,
-        tech: service.image ? detectImages(service.image) : null,
-        techs: new Set(),
-        edges: [],
-      });
+      pl.addService(
+        new Payload(
+          service.container_name || name,
+          file.fp,
+          service.image ? detectImages(service.image) : null
+        )
+      );
     }
 
-    return services;
+    return pl;
   }
 
   return false;

@@ -2,8 +2,8 @@ import path from 'node:path';
 
 import type { FullVersion } from 'package-json';
 
+import { Payload } from '../../payload';
 import type { BaseProvider, ProviderFile } from '../../provider/base';
-import type { RuleServiceReturn } from '../../types';
 
 import { detectDependencies } from './dependencies';
 
@@ -12,7 +12,7 @@ const FILES = ['package.json'];
 export async function detectNodeService(
   files: ProviderFile[],
   provider: BaseProvider
-): Promise<RuleServiceReturn | false> {
+): Promise<Payload | false> {
   for (const file of files) {
     if (!FILES.includes(file.name)) {
       continue;
@@ -36,15 +36,10 @@ export async function detectNodeService(
 
     const techs = detectDependencies(json);
 
-    return [
-      {
-        name: json.name,
-        path: path.dirname(file.fp),
-        edges: [],
-        tech: null,
-        techs,
-      },
-    ];
+    const pl = new Payload(json.name, path.dirname(file.fp));
+    pl.addTech([...techs]);
+
+    return pl;
   }
 
   return false;

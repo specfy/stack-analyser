@@ -16,6 +16,9 @@ describe('techAnalyser', () => {
     });
 
     expect(res.toJson()).toStrictEqual({
+      name: 'main',
+      path: '/',
+      tech: null,
       services: [
         {
           edges: [],
@@ -61,12 +64,31 @@ describe('techAnalyser', () => {
         'docker',
         'stylelint',
         'nodejs',
+        'javascript',
         'fastify',
         'prisma',
         'react',
         'vite',
+        'html',
+        'scss',
+        'css',
+        'shell',
         'terraform',
       ],
+      languages: {
+        CSS: 1,
+        HCL: 31,
+        HTML: 2,
+        JSON: 17,
+        JavaScript: 4,
+        Markdown: 2,
+        Prisma: 1,
+        SCSS: 80,
+        Shell: 3,
+        TypeScript: 427,
+        XML: 1,
+        YAML: 2,
+      },
     });
   });
 });

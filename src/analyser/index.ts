@@ -23,7 +23,7 @@ async function recursive(
       continue;
     }
 
-    res.forEach((service) => pl.addService(service));
+    pl.merge(res);
   }
 
   // Detect Tech
@@ -39,6 +39,7 @@ async function recursive(
   // Recursively dive in folders
   for (const file of files) {
     if (file.type === 'file') {
+      pl.detectLang(file.name);
       continue;
     }
     if (IGNORED_DIVE_PATHS.includes(file.name)) {
@@ -53,7 +54,7 @@ export async function techAnalyser(
   opts: TechAnalyserOptions
 ): Promise<Payload> {
   const provider = opts.provider;
-  const pl = new Payload();
+  const pl = new Payload('main', '/');
 
   await recursive(provider, pl, '/');
 

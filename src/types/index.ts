@@ -24,6 +24,10 @@ export interface Service {
 export type ServiceJson = Modify<Service, { techs: AllowedKeys[] }>;
 
 export interface TechAnalyser {
+  name: string;
+  path: string;
+  tech: AllowedKeys | null;
   techs: AllowedKeys[];
   services: ServiceJson[];
+  languages: Record<string, number>;
 }
