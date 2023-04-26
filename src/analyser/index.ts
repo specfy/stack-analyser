@@ -1,9 +1,9 @@
 import path from 'node:path';
 
+import { Payload } from '../payload';
 import type { BaseProvider } from '../provider/base';
 import { IGNORED_DIVE_PATHS } from '../provider/base';
 import { rules, rulesServices } from '../rules';
-import type { TechAnalyser } from '../types';
 
 export interface TechAnalyserOptions {
   provider: any;
@@ -11,7 +11,7 @@ export interface TechAnalyserOptions {
 
 async function recursive(
   provider: BaseProvider,
-  pl: TechAnalyser,
+  pl: Payload,
   filePath: string
 ): Promise<void> {
   const files = await provider.listDir(filePath);
@@ -23,7 +23,7 @@ async function recursive(
       continue;
     }
 
-    pl.services.push(...res);
+    res.forEach((service) => pl.addService(service));
   }
 
   // Detect Tech
@@ -33,7 +33,7 @@ async function recursive(
       continue;
     }
 
-    pl.tech.add(res.key);
+    pl.addTech(res.key);
   }
 
   // Recursively dive in folders
@@ -51,12 +51,9 @@ async function recursive(
 
 export async function techAnalyser(
   opts: TechAnalyserOptions
-): Promise<TechAnalyser> {
+): Promise<Payload> {
   const provider = opts.provider;
-  const pl: TechAnalyser = {
-    tech: new Set(),
-    services: [],
-  };
+  const pl = new Payload();
 
   await recursive(provider, pl, '/');
 

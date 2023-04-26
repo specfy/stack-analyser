@@ -1,4 +1,5 @@
 import type { AllowedKeys, TechItem } from './techs';
+import type { Modify } from './utils';
 
 export interface GraphEdge {
   to: string;
@@ -20,8 +21,9 @@ export interface Service {
   techs: Set<AllowedKeys>;
   edges: GraphEdge[];
 }
+export type ServiceJson = Modify<Service, { techs: AllowedKeys[] }>;
 
 export interface TechAnalyser {
-  tech: Set<AllowedKeys>;
-  services: Service[];
+  techs: AllowedKeys[];
+  services: ServiceJson[];
 }

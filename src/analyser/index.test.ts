@@ -15,52 +15,58 @@ describe('techAnalyser', () => {
       }),
     });
 
-    expect(res).toStrictEqual({
+    expect(res.toJson()).toStrictEqual({
       services: [
         {
           edges: [],
           name: 'rfc-editor',
           path: '/',
           tech: null,
-          techs: new Set(['eslint', 'prettier', 'typescript']),
+          techs: ['eslint', 'prettier', 'typescript'],
         },
         {
           name: 'db',
           edges: [],
           path: '/docker-compose.yml',
           tech: 'postgresql',
-          techs: new Set(),
+          techs: [],
         },
         {
           edges: [],
           name: 'api',
           path: '/pkgs/api',
           tech: null,
-          techs: new Set(['fastify', 'prisma', 'typescript']),
+          techs: ['fastify', 'prisma', 'typescript'],
         },
         {
           edges: [],
           name: 'app',
           path: '/pkgs/app',
           tech: null,
-          techs: new Set(['react', 'typescript', 'vite']),
+          techs: ['react', 'typescript', 'vite'],
         },
         {
           edges: [],
           name: 'website',
           path: '/pkgs/website',
           tech: null,
-          techs: new Set(['react', 'typescript', 'vite']),
+          techs: ['react', 'typescript', 'vite'],
         },
       ],
-      tech: new Set([
+      techs: [
         'eslint',
+        'prettier',
+        'typescript',
+        'postgresql',
         'docker',
         'stylelint',
         'nodejs',
-        'typescript',
+        'fastify',
+        'prisma',
+        'react',
+        'vite',
         'terraform',
-      ]),
+      ],
     });
   });
 });
