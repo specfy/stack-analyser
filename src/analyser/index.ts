@@ -16,6 +16,7 @@ async function recursive(
 ): Promise<void> {
   const files = await provider.listDir(filePath);
 
+  // Detect services
   for (const rule of rulesServices) {
     const res = await rule(files, provider);
     if (!res) {
@@ -25,6 +26,7 @@ async function recursive(
     ret.services.push(res);
   }
 
+  // Detect Tech
   for (const rule of rules) {
     const res = await rule(files);
     if (!res) {
@@ -34,6 +36,7 @@ async function recursive(
     ret.tech.add(res.key);
   }
 
+  // Recursively dive in folders
   for (const file of files) {
     if (file.type === 'file') {
       continue;

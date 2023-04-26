@@ -1,0 +1,57 @@
+Language detection:
+  - extension to language
+
+NodeJs:
+  - Check import of others services
+  - Detect Elasticsearch
+  - Detect Sentry
+  - Detect Datadog
+  - Detect Hotjar
+  - Detect LogRocket
+  - Detect New Relic
+
+Terraform:
+  - GCP
+    - Kubernetes
+    - Postgres
+    - GCE
+    - Cloud run
+    - GCS
+  - AWS
+    - ???
+
+Prisma:
+  - Type of DB
+
+Docker Compose:
+  - Parse images
+
+Firebase:
+  - Hosting
+  - DB
+
+Global:
+- Detect Vercel
+- Detect github pages
+- Detect Cloudflare
+- Detect Netlify
+- Detect Zeit
+- Detect Fly.io
+- Detect Heroku
+- Detect Render
+- Detect Dependabot
+- Detect Renovate
+
+
+Don't forget:
+- MySQL
+- MariaDB
+- Microsoft SQL Server
+- Oracle DBMS
+- PostgreSQL
+- MongoDB
+- Redis
+- Cassandra
+- Elasticsearch
+- SQLite
+- Snowflake

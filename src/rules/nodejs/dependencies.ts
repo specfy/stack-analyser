@@ -5,18 +5,30 @@ import type { Service } from '../../types';
 import type { TechItem } from '../../types/techs';
 
 const DEPS: Record<string, TechItem[]> = {
+  '@algolia/autocomplete-js': [listIndexed.algolia],
+  '@datadog/browser-logs': [listIndexed.datadog],
+  '@datadog/browser-rum': [listIndexed.datadog],
+  '@datadog/cli': [listIndexed.datadog],
+  '@elastic/elasticsearch': [listIndexed.elasticsearch],
+  '@hotjar/browser': [listIndexed.hotjar],
+  '@sentry/browser': [listIndexed.sentry],
+  '@sentry/tracing': [listIndexed.sentry],
+  '@sentry/node': [listIndexed.sentry],
+  '@sentry/react': [listIndexed.sentry],
+  'dd-trace': [listIndexed.datadog],
+  'node-mailjet': [listIndexed.mailjet],
   algoliasearch: [listIndexed.algolia],
-  angular: [listIndexed.angular],
   amqplib: [listIndexed.rabbitmq],
+  angular: [listIndexed.angular],
   bootstrap: [listIndexed.bootstrap],
   eslint: [listIndexed.eslint],
   express: [listIndexed.express],
   fastify: [listIndexed.fastify],
   jest: [listIndexed.jest],
-  '@algolia/autocomplete-js': [listIndexed.algolia],
+  logrocket: [listIndexed.logrocket],
   mongoose: [listIndexed.mongodb],
   mysql: [listIndexed.mysql],
-  'node-mailjet': [listIndexed.mailjet],
+  newrelic: [listIndexed.newrelic],
   pg: [listIndexed.postgresql],
   prettier: [listIndexed.prettier],
   prisma: [listIndexed.prisma],
@@ -26,8 +38,8 @@ const DEPS: Record<string, TechItem[]> = {
   sqreen: [listIndexed.sqreen],
   tailwind: [listIndexed.tailwind],
   typescript: [listIndexed.typescript],
-  vue: [listIndexed.vue],
   vite: [listIndexed.vite],
+  vue: [listIndexed.vue],
 };
 
 export function detectDependencies(pkg: FullVersion): Service['tech'] {
