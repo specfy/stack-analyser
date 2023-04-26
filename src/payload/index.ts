@@ -2,17 +2,20 @@ import path from 'node:path';
 
 import { languages, others } from '../common/languages';
 import { nameToKey } from '../common/techs';
+import type { BaseProvider } from '../provider/base';
+import { IGNORED_DIVE_PATHS } from '../provider/base';
+import { rules, rulesServices } from '../rules';
 import type { GraphEdge, TechAnalyser } from '../types';
 import type { AllowedKeys } from '../types/techs';
 
 export class Payload {
   public languages: Record<string, number>;
+  public services: Payload[];
+  public path: string;
+  public name: string;
 
-  private name: string;
-  private path: string;
   private edges: GraphEdge[];
   private tech: AllowedKeys | null;
-  private services: Payload[];
   private techs: Set<AllowedKeys>;
 
   constructor(name: string, folderPath: string, tech?: AllowedKeys | null) {
@@ -24,6 +27,53 @@ export class Payload {
     this.services = [];
     this.techs = new Set();
     this.languages = {};
+  }
+
+  async recurse(provider: BaseProvider, filePath: string) {
+    const files = await provider.listDir(filePath);
+
+    let ctx: Payload = this;
+    for (const rule of rulesServices) {
+      const res = await rule(files, provider);
+      if (!res) {
+        continue;
+      }
+
+      if (res.name !== 'virtual') {
+        ctx = res;
+      } else {
+        ctx.merge(res);
+      }
+    }
+
+    // Detect Tech
+    for (const rule of rules) {
+      const res = await rule(files);
+      if (!res) {
+        continue;
+      }
+
+      ctx.addTech(res.key);
+    }
+
+    // Recursively dive in folders
+    for (const file of files) {
+      if (file.type === 'file') {
+        ctx.detectLang(file.name);
+        continue;
+      }
+      if (IGNORED_DIVE_PATHS.includes(file.name)) {
+        continue;
+      }
+
+      const fp = path.join(filePath, file.name);
+
+      await ctx.recurse(provider, fp);
+    }
+
+    if (ctx !== this) {
+      this.merge(ctx);
+    }
   }
 
   addService(service: Payload) {
@@ -81,6 +131,10 @@ export class Payload {
     if (pl.name !== 'virtual') {
       this.addService(pl);
     }
+
+    for (const [lang, count] of Object.entries(pl.languages)) {
+      this.addLang(lang, count);
+    }
   }
 
   toJson(): TechAnalyser {
@@ -88,26 +142,22 @@ export class Payload {
       name: this.name,
       path: this.path,
       tech: this.tech,
+      edges: this.edges,
       services: this.services.map((service) => {
-        return {
-          name: service.name,
-          path: service.path,
-          tech: service.tech,
-          edges: service.edges,
-          techs: [...service.techs],
-        };
+        const { services, ...rest } = service.toJson();
+        return rest;
       }),
-      techs: [...this.techs],
+      techs: [...this.techs].sort(),
       languages: this.languages,
     };
   }
 
-  private addLang(name: string) {
+  private addLang(name: string, count: number = 1) {
     if (!this.languages[name]) {
       this.languages[name] = 0;
     }
 
-    this.languages[name] += 1;
+    this.languages[name] += count;
 
     if (name in nameToKey) {
       this.addTech(nameToKey[name]);
