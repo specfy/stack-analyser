@@ -42,11 +42,21 @@ export function register(rule: Rule) {
     let matcher: TechMatcher;
     if (Array.isArray(rule.files)) {
       matcher = (files) => {
-        return matchFiles(rule.tech, files, rule.files as string[]);
+        return matchFiles(
+          rule.tech,
+          files,
+          rule.files as string[],
+          rule.matchFullPath
+        );
       };
     } else {
       matcher = (files) => {
-        return matchFilesRegex(rule.tech, files, rule.files as RegExp);
+        return matchFilesRegex(
+          rule.tech,
+          files,
+          rule.files as RegExp,
+          rule.matchFullPath
+        );
       };
     }
 

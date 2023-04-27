@@ -52,8 +52,9 @@ Global:
 - TeamCity
 - Jenkins
 - Bitrise
-- Cypress
+✔ Cypress @done(23-04-27 15:21)
 - Supabase
+✔ Github actions @done(23-04-27 15:16)
 
 
 Don't forget:

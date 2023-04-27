@@ -5,10 +5,12 @@ import { listIndexed } from '../techs';
 export function matchFiles(
   key: AllowedKeys,
   files: ProviderFile[],
-  matches: string[]
+  matches: string[],
+  matchFullPath?: boolean
 ) {
   for (const file of files) {
-    if (matches.includes(file.name)) {
+    const name = matchFullPath ? file.fp : file.name;
+    if (matches.includes(name)) {
       return listIndexed[key];
     }
   }
@@ -19,10 +21,12 @@ export function matchFiles(
 export function matchFilesRegex(
   key: AllowedKeys,
   files: ProviderFile[],
-  match: RegExp
+  match: RegExp,
+  matchFullPath?: boolean
 ) {
   for (const file of files) {
-    if (match.test(file.name)) {
+    const name = matchFullPath ? file.fp : file.name;
+    if (match.test(name)) {
       return listIndexed[key];
     }
   }
