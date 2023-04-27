@@ -1,4 +1,4 @@
-import type { AllowedKeys, TechItem } from './techs';
+import type { AllowedKeys } from './techs';
 
 export interface GraphEdge {
   to: string;
@@ -10,10 +10,13 @@ export interface GraphEdge {
 }
 
 export interface TechAnalyser {
+  id: string;
   name: string;
+  type: ComponentType;
   path: string;
   tech: AllowedKeys | null;
   techs: AllowedKeys[];
+  inComponent: string | null;
   components: Array<Omit<TechAnalyser, 'components'>>;
   languages: Record<string, number>;
   edges: GraphEdge[];

@@ -1,9 +1,11 @@
 export type TechType =
+  | 'app'
   | 'ci'
   | 'db'
   | 'hosting'
   | 'language'
   | 'messaging'
+  | 'network'
   | 'sass'
   | 'tool';
 

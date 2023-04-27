@@ -17,23 +17,29 @@ describe('techAnalyser', () => {
 
     expect(res.toJson()).toStrictEqual({
       name: 'main',
+      type: 'project',
       path: '/',
       tech: null,
+      inComponent: null,
       edges: [],
       components: [
         {
           name: 'db',
+          type: 'component',
           edges: [],
           languages: {},
           path: '/docker-compose.yml',
           tech: 'postgresql',
           techs: [],
+          inComponent: null,
         },
         {
           edges: [],
           name: 'api',
+          type: 'component',
           path: '/pkgs/api',
           tech: null,
+          inComponent: null,
           languages: {
             JSON: 3,
             Markdown: 1,
@@ -46,7 +52,9 @@ describe('techAnalyser', () => {
         {
           edges: [],
           name: 'app',
+          type: 'component',
           path: '/pkgs/app',
+          inComponent: expect.any(String),
           tech: null,
           languages: {
             HTML: 1,
@@ -67,7 +75,9 @@ describe('techAnalyser', () => {
         {
           edges: [],
           name: 'website',
+          type: 'component',
           path: '/pkgs/website',
+          inComponent: expect.any(String),
           tech: null,
           languages: {
             CSS: 1,
@@ -86,13 +96,16 @@ describe('techAnalyser', () => {
             'scss',
             'tailwind',
             'typescript',
+            'vercel',
             'vite',
           ],
         },
         {
           edges: [],
           name: 'rfc-editor',
+          type: 'component',
           path: '/',
+          inComponent: expect.any(String), // TODO: fix this inheritance issue
           tech: null,
           languages: {
             CSS: 1,
@@ -130,6 +143,16 @@ describe('techAnalyser', () => {
             'vercel',
             'vite',
           ],
+        },
+        {
+          name: 'vercel',
+          type: 'hosting',
+          languages: {},
+          edges: [],
+          path: '',
+          tech: 'vercel',
+          inComponent: null,
+          techs: [],
         },
       ],
       techs: [

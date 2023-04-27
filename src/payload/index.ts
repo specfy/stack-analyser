@@ -1,24 +1,28 @@
 import path from 'node:path';
 
 import { languages, others } from '../common/languages';
+import { nid } from '../common/nid';
 import { nameToKey } from '../common/techs';
 import type { BaseProvider } from '../provider/base';
 import { IGNORED_DIVE_PATHS } from '../provider/base';
 import { rulesComponents, rulesTechs } from '../rules';
 import type { ComponentType, GraphEdge, TechAnalyser } from '../types';
 import type { AllowedKeys } from '../types/techs';
+
 import '../rules/index';
 
 export class Payload {
+  public id: string;
   public languages: Record<string, number>;
   public components: Payload[];
   public path: string;
   public name: string;
   public type: ComponentType;
+  public techs: Set<AllowedKeys>;
+  public inComponent: string | null;
+  public tech: AllowedKeys | null;
 
   private edges: GraphEdge[];
-  private tech: AllowedKeys | null;
-  private techs: Set<AllowedKeys>;
 
   constructor({
     name,
@@ -31,11 +35,13 @@ export class Payload {
     tech?: AllowedKeys | null;
     type?: ComponentType;
   }) {
+    this.id = nid();
     this.name = name;
     this.path = folderPath;
     this.tech = tech || null;
     this.edges = [];
     this.type = type || 'component';
+    this.inComponent = null;
 
     this.components = [];
     this.techs = new Set();
@@ -90,7 +96,11 @@ export class Payload {
   }
 
   addComponent(service: Payload) {
-    const exist = this.components.find((s) => s.name === service.name);
+    const exist = this.components.find(
+      (s) =>
+        s.name === service.name ||
+        (s.tech && service.tech && s.tech === service.tech)
+    );
     if (exist) {
       // TODO: merge
       return;
@@ -113,6 +123,17 @@ export class Payload {
     }
 
     this.techs.add(tech);
+  }
+
+  addEdges(id: string) {
+    this.edges.push({
+      to: id,
+      portSource: 'right',
+      portTarget: 'left',
+      read: true,
+      write: true,
+      vertices: [],
+    });
   }
 
   detectLang(filename: string) {
@@ -152,10 +173,13 @@ export class Payload {
 
   toJson(): TechAnalyser {
     return {
+      id: this.id,
       name: this.name,
+      type: this.type,
       path: this.path,
       tech: this.tech,
       edges: this.edges,
+      inComponent: this.inComponent,
       components: this.components.map((service) => {
         const { components, ...rest } = service.toJson();
         return rest;
