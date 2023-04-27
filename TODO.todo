@@ -11,6 +11,8 @@ NodeJs:
   ✔ Detect New Relic @done(23-04-26 11:19)
   - Amplitude
   - Google Analytics
+  - strapi
+  ✔ docsearch @done(23-04-27 14:38)
 
 Terraform:
   - GCP
@@ -33,7 +35,7 @@ Firebase:
   - DB
 
 Global:
-☐ Detect Vercel
+✔ Detect Vercel @done(23-04-27 11:02)
 - Detect github pages
 - Detect Cloudflare
 - Detect Netlify
@@ -43,10 +45,10 @@ Global:
 - Detect Render
 - Detect Dependabot
 - Detect Renovate
-- Circleci
-- Travisci
+✔ Circleci @done(23-04-27 11:02)
+✔ Travisci @done(23-04-27 11:04)
 - Codecov
-- Relativeci
+✔ Relativeci @done(23-04-27 11:44)
 - TeamCity
 - Jenkins
 - Bitrise

@@ -4,27 +4,40 @@ import { languages, others } from '../common/languages';
 import { nameToKey } from '../common/techs';
 import type { BaseProvider } from '../provider/base';
 import { IGNORED_DIVE_PATHS } from '../provider/base';
-import { rules, rulesServices } from '../rules';
-import type { GraphEdge, TechAnalyser } from '../types';
+import { rulesComponents, rulesTechs } from '../rules';
+import type { ComponentType, GraphEdge, TechAnalyser } from '../types';
 import type { AllowedKeys } from '../types/techs';
+import '../rules/index';
 
 export class Payload {
   public languages: Record<string, number>;
-  public services: Payload[];
+  public components: Payload[];
   public path: string;
   public name: string;
+  public type: ComponentType;
 
   private edges: GraphEdge[];
   private tech: AllowedKeys | null;
   private techs: Set<AllowedKeys>;
 
-  constructor(name: string, folderPath: string, tech?: AllowedKeys | null) {
+  constructor({
+    name,
+    folderPath,
+    tech,
+    type,
+  }: {
+    name: string;
+    folderPath: string;
+    tech?: AllowedKeys | null;
+    type?: ComponentType;
+  }) {
     this.name = name;
     this.path = folderPath;
     this.tech = tech || null;
     this.edges = [];
+    this.type = type || 'component';
 
-    this.services = [];
+    this.components = [];
     this.techs = new Set();
     this.languages = {};
   }
@@ -33,7 +46,7 @@ export class Payload {
     const files = await provider.listDir(filePath);
 
     let ctx: Payload = this;
-    for (const rule of rulesServices) {
+    for (const rule of rulesComponents) {
       const res = await rule(files, provider);
       if (!res) {
         continue;
@@ -47,8 +60,8 @@ export class Payload {
     }
 
     // Detect Tech
-    for (const rule of rules) {
-      const res = await rule(files);
+    for (const rule of rulesTechs) {
+      const res = rule(files);
       if (!res) {
         continue;
       }
@@ -76,14 +89,14 @@ export class Payload {
     }
   }
 
-  addService(service: Payload) {
-    const exist = this.services.find((s) => s.name === service.name);
+  addComponent(service: Payload) {
+    const exist = this.components.find((s) => s.name === service.name);
     if (exist) {
       // TODO: merge
       return;
     }
 
-    this.services.push(service);
+    this.components.push(service);
     for (const tech of service.techs) {
       this.techs.add(tech);
     }
@@ -126,10 +139,10 @@ export class Payload {
 
   merge(pl: Payload) {
     this.addTech([...pl.techs]);
-    pl.services.forEach((service) => this.addService(service));
+    pl.components.forEach((component) => this.addComponent(component));
 
     if (pl.name !== 'virtual') {
-      this.addService(pl);
+      this.addComponent(pl);
     }
 
     for (const [lang, count] of Object.entries(pl.languages)) {
@@ -143,8 +156,8 @@ export class Payload {
       path: this.path,
       tech: this.tech,
       edges: this.edges,
-      services: this.services.map((service) => {
-        const { services, ...rest } = service.toJson();
+      components: this.components.map((service) => {
+        const { components, ...rest } = service.toJson();
         return rest;
       }),
       techs: [...this.techs].sort(),

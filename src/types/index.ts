@@ -9,14 +9,14 @@ export interface GraphEdge {
   portTarget: 'bottom' | 'left' | 'right' | 'top';
 }
 
-export type RuleTechReturn = TechItem;
-
 export interface TechAnalyser {
   name: string;
   path: string;
   tech: AllowedKeys | null;
   techs: AllowedKeys[];
-  services: Array<Omit<TechAnalyser, 'services'>>;
+  components: Array<Omit<TechAnalyser, 'components'>>;
   languages: Record<string, number>;
   edges: GraphEdge[];
 }
+
+export type ComponentType = 'component' | 'hosting' | 'project' | 'thirdparty';

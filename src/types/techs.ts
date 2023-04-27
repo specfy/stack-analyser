@@ -1,4 +1,5 @@
 export type TechType =
+  | 'ci'
   | 'db'
   | 'hosting'
   | 'language'
@@ -74,6 +75,7 @@ export type AllowedKeys =
   | 'rabbitmq'
   | 'react'
   | 'redis'
+  | 'relativeci'
   | 'ruby'
   | 'rust'
   | 'scss'
@@ -88,6 +90,7 @@ export type AllowedKeys =
   | 'tailwind'
   | 'terraform'
   | 'traefik'
+  | 'travisci'
   | 'typescript'
   | 'vault'
   | 'vercel'

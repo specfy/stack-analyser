@@ -1,25 +1,8 @@
-import type { ProviderFile } from '../provider/base';
-import type { RuleTechReturn } from '../types';
-
-import { detectDocker } from './docker';
-import { detectDockerServices } from './docker/service';
-import { detectEslint } from './eslint';
-import { detectNodejs } from './nodejs';
-import { detectNodeService } from './nodejs/service';
-import { detectStylelint } from './stylelint';
-import { detectTerraform } from './terraform';
-import { detectTypescript } from './typescript';
-
-export const rules: Array<
-  | ((files: ProviderFile[]) => Promise<RuleTechReturn | false>)
-  | ((files: ProviderFile[]) => RuleTechReturn | false)
-> = [
-    detectEslint,
-    detectDocker,
-    detectStylelint,
-    detectNodejs,
-    detectTypescript,
-    detectTerraform,
-  ];
-
-export const rulesServices = [detectNodeService, detectDockerServices];
+import './ci';
+import './db';
+import './hosting';
+import './messaging';
+import './npm';
+import './sass';
+import './spec';
+import './tool';
