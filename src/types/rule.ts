@@ -8,11 +8,11 @@ export type SupportedDeps = 'docker' | 'npm';
 export type RuleDependency = {
   type: SupportedDeps;
 } & (
-    | {
+  | {
       name: string;
     }
-    | { name: RegExp; example: string }
-  );
+  | { name: RegExp; example: string }
+);
 export type Rule = RuleFiles & {
   tech: AllowedKeys;
   dependencies?: RuleDependency[];
@@ -21,20 +21,20 @@ export type Rule = RuleFiles & {
 type RuleFiles =
   | never
   | {
-    files: RegExp;
-    example: string;
-  }
+      files: RegExp;
+      example: string;
+    }
   | {
-    files: string[];
-  }
+      files: string[];
+    }
   | {
-    files?: never;
-  }
+      files?: never;
+    }
   | {
-    matchFullPath: boolean;
-    files: RegExp;
-    example: string;
-  };
+      matchFullPath: boolean;
+      files: RegExp;
+      example: string;
+    };
 
 export type ComponentMatcher = (
   files: ProviderFile[],
