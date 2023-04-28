@@ -96,6 +96,7 @@ export type AllowedKeys =
   | 'socketio'
   | 'sqreen'
   | 'storybook'
+  | 'strapi'
   | 'stylelint'
   | 'swift'
   | 'tailwind'

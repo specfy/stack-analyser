@@ -67,6 +67,7 @@ describe('npm', () => {
       'socketio',
       'sqreen',
       'storybook',
+      'strapi',
       'tailwind',
       'typescript',
       'vercel',

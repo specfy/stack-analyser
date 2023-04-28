@@ -12,6 +12,7 @@ import './sentry';
 import './sequelize';
 import './socketio';
 import './storybook';
+import './strapi';
 import './stylelint';
 import './tailwind';
 import './typescript';

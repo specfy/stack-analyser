@@ -11,7 +11,7 @@ NodeJs:
   ✔ Detect New Relic @done(23-04-26 11:19)
   - Amplitude
   - Google Analytics
-  - strapi
+  ✔ strapi @done(23-04-28 18:24)
   ✔ docsearch @done(23-04-27 14:38)
   - Slack
   - Github API (octokit)
