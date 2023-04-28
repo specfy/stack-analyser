@@ -11,6 +11,7 @@ import './react';
 import './sentry';
 import './sequelize';
 import './socketio';
+import './storybook';
 import './stylelint';
 import './tailwind';
 import './typescript';

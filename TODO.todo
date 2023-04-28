@@ -15,7 +15,7 @@ NodeJs:
   ✔ docsearch @done(23-04-27 14:38)
   - Slack
   - Github API (octokit)
-  - Storybook
+  ✔ Storybook @done(23-04-28 18:10)
   - Webpack
   - Rollup
   - Esbuild
@@ -44,13 +44,13 @@ Global:
 ✔ Detect Vercel @done(23-04-27 11:02)
 - Detect github pages
 - Detect Cloudflare
-- Detect Netlify
+✔ Detect Netlify @done(23-04-28 17:13)
 - Detect Zeit
-- Detect Fly.io
+✔ Detect Fly.io @done(23-04-28 17:13)
 - Detect Heroku
 - Detect Render
 - Detect Dependabot
-- Detect Renovate
+✔ Detect Renovate @done(23-04-28 17:20)
 ✔ Circleci @done(23-04-27 11:02)
 ✔ Travisci @done(23-04-27 11:04)
 - Codecov

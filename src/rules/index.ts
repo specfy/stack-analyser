@@ -2,7 +2,7 @@ import './ci';
 import './db';
 import './hosting';
 import './messaging';
-import './npm';
+import './js';
 import './sass';
 import './spec';
 import './tool';

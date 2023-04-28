@@ -5,13 +5,36 @@ import type { AllowedKeys, TechItem } from './techs';
 
 export type SupportedDeps = 'docker' | 'npm';
 
-export interface Rule {
+export type RuleDependency = {
+  type: SupportedDeps;
+} & (
+    | {
+      name: string;
+    }
+    | { name: RegExp; example: string }
+  );
+export type Rule = RuleFiles & {
   tech: AllowedKeys;
-  matchFullPath?: boolean;
-  files?: RegExp | string[];
-  dependencies?: Array<{ type: SupportedDeps; name: RegExp | string }>;
+  dependencies?: RuleDependency[];
   detect?: ComponentMatcher;
-}
+};
+type RuleFiles =
+  | never
+  | {
+    files: RegExp;
+    example: string;
+  }
+  | {
+    files: string[];
+  }
+  | {
+    files?: never;
+  }
+  | {
+    matchFullPath: boolean;
+    files: RegExp;
+    example: string;
+  };
 
 export type ComponentMatcher = (
   files: ProviderFile[],

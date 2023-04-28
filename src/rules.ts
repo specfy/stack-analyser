@@ -2,6 +2,7 @@ import { matchFiles, matchFilesRegex } from './common/rules/matchFiles';
 import type {
   ComponentMatcher,
   Rule,
+  RuleDependency,
   SupportedDeps,
   TechMatcher,
 } from './types/rule';
@@ -21,6 +22,9 @@ export const dependencies: Record<
   docker: [],
 };
 
+export const rawList: Array<{ ref: RuleDependency } & { type: 'dependency' }> =
+  [];
+
 export function register(rule: Rule) {
   if (registeredTech.has(rule.tech)) {
     throw new Error(`Already registered ${rule.tech}`);
@@ -35,10 +39,11 @@ export function register(rule: Rule) {
           typeof dep.name === 'string' ? new RegExp(`^${dep.name}$`) : dep.name,
         tech: rule.tech,
       });
+      rawList.push({ type: 'dependency', ref: dep });
     });
   }
 
-  if (rule.files) {
+  if (typeof rule.files !== 'undefined') {
     let matcher: TechMatcher;
     if (Array.isArray(rule.files)) {
       matcher = (files) => {
@@ -46,7 +51,7 @@ export function register(rule: Rule) {
           rule.tech,
           files,
           rule.files as string[],
-          rule.matchFullPath
+          'matchFullPath' in rule ? rule.matchFullPath : false
         );
       };
     } else {
@@ -55,7 +60,7 @@ export function register(rule: Rule) {
           rule.tech,
           files,
           rule.files as RegExp,
-          rule.matchFullPath
+          'matchFullPath' in rule ? rule.matchFullPath : false
         );
       };
     }
