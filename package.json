@@ -6,7 +6,8 @@
   "scripts": {
     "build:watch": "tsc -w",
     "dev": "node dist/index.js",
-    "test": "vitest"
+    "test": "vitest",
+    "lint": "eslint --ext .js,.ts,.tsx ."
   },
   "author": "",
   "license": "ISC",

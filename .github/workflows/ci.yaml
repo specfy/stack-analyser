@@ -31,3 +31,9 @@ jobs:
 
       - name: Run Test API
         run: npm run test
+
+      - name: Coverage
+        uses: codecov/codecov-action@v3
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          files: ./pkgs/api/coverage/cobertura-coverage.xml,./pkgs/app/coverage/cobertura-coverage.xml
