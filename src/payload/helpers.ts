@@ -26,15 +26,17 @@ export function findImplicitComponent(pl: Payload, tech: AllowedKeys) {
     group = 'thirdparty';
   }
 
-  pl.addComponent(
-    new Payload({
-      name: tech,
-      tech: tech,
-      folderPath: pl.path,
-      group,
-      parent: pl,
-    })
-  );
+  const comp = new Payload({
+    name: tech,
+    tech: tech,
+    folderPath: pl.path,
+    group,
+    parent: pl,
+  });
+  pl.addComponent(comp);
+  if (group !== 'hosting') {
+    pl.addEdges(comp.id);
+  }
 }
 
 /**

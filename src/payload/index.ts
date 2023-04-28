@@ -168,7 +168,7 @@ export class Payload {
 
   merge(pl: Payload) {
     pl.components.forEach((component) => this.addComponent(component));
-    this.addTechs([...pl.techs]);
+    pl.techs.forEach((tech) => this.techs.add(tech));
 
     if (pl.name !== 'virtual') {
       this.addComponent(pl);
