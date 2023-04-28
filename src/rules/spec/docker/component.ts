@@ -32,16 +32,20 @@ export const detectDockerComponent: ComponentMatcher = async (
 
     const pl = new Payload({ name: 'virtual', folderPath: file.fp });
 
+    // We only register docker service with image and that we know
     for (const [name, service] of Object.entries<DockerComposeService>(
       parsed.services
     )) {
-      let tech: Payload['tech'] = null;
-      if (service.image) {
-        const matched = [...detectDependencies([service.image], 'docker')];
-        if (matched.length > 0) {
-          tech = matched[0];
-        }
+      if (!service.image) {
+        continue;
       }
+
+      const matched = [...detectDependencies([service.image], 'docker')];
+      if (!matched.length) {
+        continue;
+      }
+
+      const tech = matched[0];
 
       pl.addComponent(
         new Payload({

@@ -1,0 +1,10 @@
+{
+  "name": "@fake/app",
+  "version": "1.0.0",
+  "type": "module",
+  "devDependencies": {
+    "react": "4.17.0",
+    "typescript": "5.0.4",
+    "vite": "4.3.3"
+  }
+}

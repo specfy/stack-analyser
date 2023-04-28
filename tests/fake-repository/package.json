@@ -1,0 +1,16 @@
+{
+  "name": "fake",
+  "version": "1.0.0",
+  "type": "module",
+  "workspaces": [
+    "pkgs/app",
+    "pkgs/api"
+  ],
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "5.57.1",
+    "@typescript-eslint/parser": "5.57.1",
+    "eslint": "8.39.0",
+    "prettier": "2.8.7",
+    "typescript": "4.9.5"
+  }
+}

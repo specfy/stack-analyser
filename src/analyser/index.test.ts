@@ -2,16 +2,79 @@ import path from 'node:path';
 
 import { describe, it, expect } from 'vitest';
 
+import { FakeProvider } from '../provider/fake';
 import { FSProvider } from '../provider/fs';
 
 import { techAnalyser } from '.';
 
+const dockerCompose = `version: '3'
+services:
+  db:
+    container_name: db
+    image: postgres:15.1-alpine
+    ports:
+      - '5432:5432'
+    environment:
+      - POSTGRES_PASSWORD=postgres
+`;
+
 describe('techAnalyser', () => {
+  it('should not find anything', async () => {
+    const res = await techAnalyser({
+      provider: new FakeProvider({
+        paths: {
+          '/': [],
+        },
+        files: {},
+      }),
+    });
+
+    expect(res.toJson()).toStrictEqual({
+      id: expect.any(String),
+      name: 'main',
+      group: 'project',
+      components: [],
+      edges: [],
+      inComponent: null,
+      languages: {},
+      path: '/',
+      tech: null,
+      techs: [],
+    });
+  });
+
+  it('should register only component of the same tech', async () => {
+    const res = await techAnalyser({
+      provider: new FakeProvider({
+        paths: {
+          '/': ['package.json', 'docker-compose.yml'],
+        },
+        files: {
+          '/docker-compose.yml': dockerCompose,
+          '/package.json': '{ "name": "test", "dependencies": {"pg": "1.0.0"}',
+        },
+      }),
+    });
+
+    expect(res.toJson().components).toStrictEqual([
+      {
+        edges: [],
+        group: 'component',
+        id: expect.any(String),
+        inComponent: null,
+        languages: {},
+        name: 'db',
+        path: '/docker-compose.yml',
+        tech: 'postgresql',
+        techs: [],
+      },
+    ]);
+  });
+
   it('should run correctly', async () => {
     const res = await techAnalyser({
       provider: new FSProvider({
-        path: path.join(__dirname, '../../../specfy'),
-        ignorePaths: [],
+        path: path.join(__dirname, '../../tests/fake-repository'),
       }),
     });
 
@@ -27,24 +90,20 @@ describe('techAnalyser', () => {
       components: [
         {
           id: expect.any(String),
-          name: 'api',
+          name: '@fake/api',
           edges: [],
           group: 'component',
           path: '/pkgs/api',
           tech: null,
           inComponent: null,
           languages: {
-            JSON: 3,
-            Markdown: 1,
-            Prisma: 1,
-            TypeScript: 186,
-            XML: 1,
+            JSON: 1,
           },
           techs: ['fastify', 'nodejs', 'prisma', 'typescript'],
         },
         {
           id: expect.any(String),
-          name: 'app',
+          name: '@fake/app',
           edges: [],
           group: 'component',
           path: '/pkgs/app',
@@ -52,9 +111,8 @@ describe('techAnalyser', () => {
           tech: null,
           languages: {
             HTML: 1,
-            JSON: 5,
-            SCSS: 79,
-            TypeScript: 234,
+            JSON: 1,
+            SCSS: 1,
           },
           techs: [
             'html',
@@ -79,48 +137,43 @@ describe('techAnalyser', () => {
         },
         {
           id: expect.any(String),
-          name: 'rfc-editor',
+          name: 'fake',
           edges: [],
           group: 'component',
           path: '/',
           inComponent: null,
           tech: null,
           languages: {
-            CSS: 1,
-            HCL: 31,
-            HTML: 2,
-            JSON: 17,
-            JavaScript: 4,
-            Markdown: 2,
-            Prisma: 1,
-            SCSS: 80,
-            Shell: 3,
-            TypeScript: 427,
-            XML: 1,
-            YAML: 2,
+            HTML: 1,
+            JSON: 3,
+            SCSS: 1,
+            YAML: 1,
           },
           techs: [
-            'css',
             'docker',
             'eslint',
             'fastify',
-            'github',
-            'githubactions',
             'html',
-            'javascript',
             'nodejs',
             'prettier',
             'prisma',
             'react',
             'scss',
-            'shell',
-            'stylelint',
-            'tailwind',
-            'terraform',
             'typescript',
             'vercel',
             'vite',
           ],
+        },
+        {
+          id: expect.any(String),
+          name: 'redis',
+          group: 'component',
+          edges: [],
+          languages: {},
+          path: '/docker-compose.yml',
+          tech: 'redis',
+          techs: [],
+          inComponent: null,
         },
         {
           id: expect.any(String),
@@ -133,72 +186,28 @@ describe('techAnalyser', () => {
           inComponent: null,
           techs: [],
         },
-        {
-          id: expect.any(String),
-          name: 'website',
-          edges: [],
-          group: 'component',
-          path: '/pkgs/website',
-          inComponent: expect.any(String),
-          tech: null,
-          languages: {
-            CSS: 1,
-            HTML: 1,
-            JSON: 3,
-            JavaScript: 2,
-            SCSS: 1,
-            TypeScript: 7,
-          },
-          techs: [
-            'css',
-            'html',
-            'javascript',
-            'nodejs',
-            'react',
-            'scss',
-            'tailwind',
-            'typescript',
-            'vercel',
-            'vite',
-          ],
-        },
       ],
       techs: [
-        'css',
         'docker',
         'eslint',
         'fastify',
-        'github',
-        'githubactions',
         'html',
-        'javascript',
         'nodejs',
         'postgresql',
         'prettier',
         'prisma',
         'react',
+        'redis',
         'scss',
-        'shell',
-        'stylelint',
-        'tailwind',
-        'terraform',
         'typescript',
         'vercel',
         'vite',
       ],
       languages: {
-        CSS: 1,
-        HCL: 31,
-        HTML: 2,
-        JSON: 17,
-        JavaScript: 4,
-        Markdown: 2,
-        Prisma: 1,
-        SCSS: 80,
-        Shell: 3,
-        TypeScript: 427,
-        XML: 1,
-        YAML: 2,
+        HTML: 1,
+        JSON: 3,
+        SCSS: 1,
+        YAML: 1,
       },
     });
   });
