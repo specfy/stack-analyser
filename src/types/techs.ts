@@ -100,6 +100,7 @@ export type AllowedKeys =
   | 'stylelint'
   | 'swift'
   | 'tailwind'
+  | 'teamcity'
   | 'terraform'
   | 'traefik'
   | 'travisci'
