@@ -68,14 +68,14 @@ GCP:
 
 
 Don't forget:
-- MySQL
-- MariaDB
+✔ MySQL @done(23-04-28 10:56)
+✔ MariaDB @done(23-04-28 10:56)
 - Microsoft SQL Server
 - Oracle DBMS
-- PostgreSQL
-- MongoDB
-- Redis
-- Cassandra
-- Elasticsearch
+✔ PostgreSQL @done(23-04-28 10:56)
+✔ MongoDB @done(23-04-28 10:56)
+✔ Redis @done(23-04-28 10:56)
+✔ Cassandra @done(23-04-28 10:56)
+✔ Elasticsearch @done(23-04-28 10:56)
 - SQLite
 - Snowflake

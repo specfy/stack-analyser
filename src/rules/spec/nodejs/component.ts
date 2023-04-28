@@ -43,7 +43,7 @@ export const detectNodeComponent: ComponentMatcher = async (
       name: json.name,
       folderPath: path.dirname(file.fp),
     });
-    pl.addTech([...techs]);
+    pl.addTechs([...techs]);
 
     return pl;
   }

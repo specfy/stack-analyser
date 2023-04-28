@@ -48,6 +48,7 @@ export const detectDockerComponent: ComponentMatcher = async (
           name: service.container_name || name,
           folderPath: file.fp,
           tech,
+          parent: pl,
         })
       );
     }

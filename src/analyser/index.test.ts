@@ -54,6 +54,17 @@ describe('techAnalyser', () => {
         },
         {
           id: expect.any(String),
+          name: 'vercel',
+          group: 'hosting',
+          languages: {},
+          edges: [],
+          path: '',
+          tech: 'vercel',
+          inComponent: null,
+          techs: [],
+        },
+        {
+          id: expect.any(String),
           name: 'app',
           edges: [],
           group: 'component',
@@ -111,7 +122,7 @@ describe('techAnalyser', () => {
           edges: [],
           group: 'component',
           path: '/',
-          inComponent: expect.any(String), // TODO: fix this inheritance issue
+          inComponent: null,
           tech: null,
           languages: {
             CSS: 1,
@@ -149,17 +160,6 @@ describe('techAnalyser', () => {
             'vercel',
             'vite',
           ],
-        },
-        {
-          id: expect.any(String),
-          name: 'vercel',
-          group: 'hosting',
-          languages: {},
-          edges: [],
-          path: '',
-          tech: 'vercel',
-          inComponent: null,
-          techs: [],
         },
       ],
       techs: [

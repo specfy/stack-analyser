@@ -10,6 +10,7 @@ import type { ComponentGroup, GraphEdge, TechAnalyser } from '../types';
 import type { AllowedKeys } from '../types/techs';
 
 import '../rules/index';
+import { findHosting, findImplicitComponent } from './helpers';
 
 export class Payload {
   public id: string;
@@ -22,16 +23,19 @@ export class Payload {
   public inComponent: string | null;
   public tech: AllowedKeys | null;
 
+  private parent?: Payload | null;
   private edges: GraphEdge[];
 
   constructor({
     name,
     folderPath,
+    parent,
     tech,
     group,
   }: {
     name: string;
     folderPath: string;
+    parent?: Payload | null;
     tech?: AllowedKeys | null;
     group?: ComponentGroup;
   }) {
@@ -39,13 +43,14 @@ export class Payload {
     this.name = name;
     this.path = folderPath;
     this.tech = tech || null;
-    this.edges = [];
     this.group = group || 'component';
     this.inComponent = null;
-
     this.components = [];
     this.techs = new Set();
     this.languages = {};
+
+    this.parent = parent;
+    this.edges = [];
   }
 
   async recurse(provider: BaseProvider, filePath: string) {
@@ -96,11 +101,12 @@ export class Payload {
   }
 
   addComponent(service: Payload) {
-    const exist = this.components.find(
-      (s) =>
-        s.name === service.name ||
-        (s.tech && service.tech && s.tech === service.tech)
-    );
+    const exist = this.components.find((s) => {
+      if (s.name === service.name) return true;
+      if (s.tech && service.tech && s.tech === service.tech) return true;
+      return false;
+    });
+
     if (exist) {
       // TODO: merge
       return;
@@ -116,13 +122,15 @@ export class Payload {
     }
   }
 
-  addTech(tech: AllowedKeys | AllowedKeys[]) {
-    if (Array.isArray(tech)) {
-      tech.forEach((t) => this.techs.add(t));
-      return;
-    }
+  addTechs(tech: AllowedKeys[]) {
+    tech.forEach((t) => this.addTech(t));
+  }
 
+  addTech(tech: AllowedKeys) {
     this.techs.add(tech);
+
+    findImplicitComponent(this, tech);
+    findHosting(this, tech);
   }
 
   addEdges(id: string) {
@@ -159,8 +167,8 @@ export class Payload {
   }
 
   merge(pl: Payload) {
-    this.addTech([...pl.techs]);
     pl.components.forEach((component) => this.addComponent(component));
+    this.addTechs([...pl.techs]);
 
     if (pl.name !== 'virtual') {
       this.addComponent(pl);
@@ -180,10 +188,14 @@ export class Payload {
       tech: this.tech,
       edges: this.edges,
       inComponent: this.inComponent,
-      components: this.components.map((service) => {
-        const { components, ...rest } = service.toJson();
-        return rest;
-      }),
+      components: this.components
+        .map((service) => {
+          const { components, ...rest } = service.toJson();
+          return rest;
+        })
+        .sort((a, b) => {
+          return a.name > b.name ? 1 : -1;
+        }),
       techs: [...this.techs].sort(),
       languages: this.languages,
     };
