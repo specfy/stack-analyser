@@ -12,7 +12,7 @@ export interface GraphEdge {
 export interface TechAnalyser {
   id: string;
   name: string;
-  type: ComponentType;
+  group: ComponentGroup;
   path: string;
   tech: AllowedKeys | null;
   techs: AllowedKeys[];
@@ -22,4 +22,4 @@ export interface TechAnalyser {
   edges: GraphEdge[];
 }
 
-export type ComponentType = 'component' | 'hosting' | 'project' | 'thirdparty';
+export type ComponentGroup = 'component' | 'hosting' | 'project' | 'thirdparty';

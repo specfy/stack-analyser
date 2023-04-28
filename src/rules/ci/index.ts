@@ -1,5 +1,6 @@
+import './browserstack';
 import './circleci';
-import './travisci';
-import './relativeci';
-import './githubactions';
 import './cypressci';
+import './githubactions';
+import './relativeci';
+import './travisci';

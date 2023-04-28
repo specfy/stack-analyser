@@ -16,16 +16,18 @@ describe('techAnalyser', () => {
     });
 
     expect(res.toJson()).toStrictEqual({
+      id: expect.any(String),
       name: 'main',
-      type: 'project',
+      group: 'project',
       path: '/',
       tech: null,
       inComponent: null,
       edges: [],
       components: [
         {
+          id: expect.any(String),
           name: 'db',
-          type: 'component',
+          group: 'component',
           edges: [],
           languages: {},
           path: '/docker-compose.yml',
@@ -34,9 +36,10 @@ describe('techAnalyser', () => {
           inComponent: null,
         },
         {
-          edges: [],
+          id: expect.any(String),
           name: 'api',
-          type: 'component',
+          edges: [],
+          group: 'component',
           path: '/pkgs/api',
           tech: null,
           inComponent: null,
@@ -50,9 +53,10 @@ describe('techAnalyser', () => {
           techs: ['fastify', 'nodejs', 'prisma', 'typescript'],
         },
         {
-          edges: [],
+          id: expect.any(String),
           name: 'app',
-          type: 'component',
+          edges: [],
+          group: 'component',
           path: '/pkgs/app',
           inComponent: expect.any(String),
           tech: null,
@@ -73,9 +77,10 @@ describe('techAnalyser', () => {
           ],
         },
         {
-          edges: [],
+          id: expect.any(String),
           name: 'website',
-          type: 'component',
+          edges: [],
+          group: 'component',
           path: '/pkgs/website',
           inComponent: expect.any(String),
           tech: null,
@@ -101,9 +106,10 @@ describe('techAnalyser', () => {
           ],
         },
         {
-          edges: [],
+          id: expect.any(String),
           name: 'rfc-editor',
-          type: 'component',
+          edges: [],
+          group: 'component',
           path: '/',
           inComponent: expect.any(String), // TODO: fix this inheritance issue
           tech: null,
@@ -145,8 +151,9 @@ describe('techAnalyser', () => {
           ],
         },
         {
+          id: expect.any(String),
           name: 'vercel',
-          type: 'hosting',
+          group: 'hosting',
           languages: {},
           edges: [],
           path: '',

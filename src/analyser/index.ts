@@ -1,6 +1,6 @@
 import { listIndexed } from '../common/techs';
 import { Payload } from '../payload';
-import type { ComponentType } from '../types';
+import type { ComponentGroup } from '../types';
 
 export interface TechAnalyserOptions {
   provider: any;
@@ -16,16 +16,16 @@ export function findImplicitComponent(pl: Payload) {
       return;
     }
 
-    let type: ComponentType = 'component';
-    if (ref.type === 'hosting') type = 'hosting';
-    else if (ref.type === 'sass') type = 'thirdparty';
+    let group: ComponentGroup = 'component';
+    if (ref.type === 'hosting') group = 'hosting';
+    else if (ref.type === 'sass') group = 'thirdparty';
 
     pl.addComponent(
       new Payload({
         name: tech,
         tech: tech,
         folderPath: '',
-        type,
+        group,
       })
     );
   });
@@ -71,7 +71,7 @@ export async function techAnalyser(
   opts: TechAnalyserOptions
 ): Promise<Payload> {
   const provider = opts.provider;
-  const pl = new Payload({ name: 'main', folderPath: '/', type: 'project' });
+  const pl = new Payload({ name: 'main', folderPath: '/', group: 'project' });
 
   await pl.recurse(provider, '/');
 

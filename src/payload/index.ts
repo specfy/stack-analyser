@@ -6,7 +6,7 @@ import { nameToKey } from '../common/techs';
 import type { BaseProvider } from '../provider/base';
 import { IGNORED_DIVE_PATHS } from '../provider/base';
 import { rulesComponents, rulesTechs } from '../rules';
-import type { ComponentType, GraphEdge, TechAnalyser } from '../types';
+import type { ComponentGroup, GraphEdge, TechAnalyser } from '../types';
 import type { AllowedKeys } from '../types/techs';
 
 import '../rules/index';
@@ -17,7 +17,7 @@ export class Payload {
   public components: Payload[];
   public path: string;
   public name: string;
-  public type: ComponentType;
+  public group: ComponentGroup;
   public techs: Set<AllowedKeys>;
   public inComponent: string | null;
   public tech: AllowedKeys | null;
@@ -28,19 +28,19 @@ export class Payload {
     name,
     folderPath,
     tech,
-    type,
+    group,
   }: {
     name: string;
     folderPath: string;
     tech?: AllowedKeys | null;
-    type?: ComponentType;
+    group?: ComponentGroup;
   }) {
     this.id = nid();
     this.name = name;
     this.path = folderPath;
     this.tech = tech || null;
     this.edges = [];
-    this.type = type || 'component';
+    this.group = group || 'component';
     this.inComponent = null;
 
     this.components = [];
@@ -175,7 +175,7 @@ export class Payload {
     return {
       id: this.id,
       name: this.name,
-      type: this.type,
+      group: this.group,
       path: this.path,
       tech: this.tech,
       edges: this.edges,
