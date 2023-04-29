@@ -52,6 +52,7 @@ export type AllowedKeys =
   | 'influxdb'
   | 'java'
   | 'javascript'
+  | 'jenkins'
   | 'jest'
   | 'jira'
   | 'kibana'

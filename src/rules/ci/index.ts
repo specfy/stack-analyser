@@ -3,6 +3,7 @@ import './circleci';
 import './cypressci';
 import './dependabot';
 import './githubactions';
+import './jenkins';
 import './relativeci';
 import './renovate';
 import './teamcity';

@@ -42,6 +42,7 @@ export const list: TechItem[] = [
   { key: 'influxdb', name: 'Influxdb', type: 'db' },
   { key: 'java', name: 'Java', type: 'language' },
   { key: 'javascript', name: 'JavaScript', type: 'language' },
+  { key: 'jenkins', name: 'Jenkins', type: 'ci' },
   { key: 'jest', name: 'Jest', type: 'tool' },
   { key: 'jira', name: 'Jira', type: 'sass' },
   { key: 'kibana', name: 'Kibana', type: 'app' },

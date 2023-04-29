@@ -41,6 +41,7 @@ describe('npm', () => {
       'docker',
       'elasticsearch',
       'influxdb',
+      'jenkins',
       'mariadb',
       'memcached',
       'mongodb',

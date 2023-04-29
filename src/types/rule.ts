@@ -13,6 +13,7 @@ export type RuleDependency = {
     }
   | { name: RegExp; example: string }
 );
+
 export type Rule = RuleFiles & {
   tech: AllowedKeys;
   dependencies?: RuleDependency[];

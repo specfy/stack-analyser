@@ -47,15 +47,15 @@ Global:
 ✔ Detect Netlify @done(23-04-28 17:13)
 - Detect Zeit
 ✔ Detect Fly.io @done(23-04-28 17:13)
-- Detect Heroku
+- Detect Heroku (did not find any way)
 - Detect Render
-- Detect Dependabot
+✔ Detect Dependabot @done(23-04-29 14:36)
 ✔ Detect Renovate @done(23-04-28 17:20)
 ✔ Circleci @done(23-04-27 11:02)
 ✔ Travisci @done(23-04-27 11:04)
 - Codecov
 ✔ Relativeci @done(23-04-27 11:44)
-- TeamCity
+✔ TeamCity @done(23-04-29 14:36)
 - Jenkins
 - Bitrise
 ✔ Cypress @done(23-04-27 15:21)
