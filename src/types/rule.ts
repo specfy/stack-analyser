@@ -14,13 +14,12 @@ export type RuleDependency = {
   | { name: RegExp; example: string }
 );
 
-export type Rule = RuleFiles & {
+export type Rule = {
   tech: AllowedKeys;
   dependencies?: RuleDependency[];
   detect?: ComponentMatcher;
-};
-type RuleFiles =
-  | never
+} & (RuleFiles | never);
+export type RuleFiles =
   | {
       files: RegExp;
       example: string;
@@ -36,6 +35,8 @@ type RuleFiles =
       files: RegExp;
       example: string;
     };
+
+export type RuleWithFile = Pick<Rule, 'tech'> & RuleFiles;
 
 export type ComponentMatcher = (
   files: ProviderFile[],

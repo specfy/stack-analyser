@@ -3,6 +3,7 @@ import type {
   ComponentMatcher,
   Rule,
   RuleDependency,
+  RuleWithFile,
   SupportedDeps,
   TechMatcher,
 } from './types/rule';
@@ -22,8 +23,10 @@ export const dependencies: Record<
   docker: [],
 };
 
-export const rawList: Array<{ ref: RuleDependency } & { type: 'dependency' }> =
-  [];
+export const rawList: Array<
+  | ({ ref: RuleDependency } & { type: 'dependency' })
+  | ({ ref: RuleWithFile } & { type: 'file' })
+> = [];
 
 export function register(rule: Rule) {
   if (registeredTech.has(rule.tech)) {
@@ -65,6 +68,7 @@ export function register(rule: Rule) {
       };
     }
 
+    rawList.push({ type: 'file', ref: rule });
     rulesTechs.push(matcher);
   }
 
