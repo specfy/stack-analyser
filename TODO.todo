@@ -1,5 +1,7 @@
 Language detection:
-  - extension to language
+  ✔ extension to language @done(23-04-29 14:51)
+
+
 
 NodeJs:
   - Check import of others services
@@ -16,9 +18,11 @@ NodeJs:
   - Slack
   - Github API (octokit)
   ✔ Storybook @done(23-04-28 18:10)
-  - Webpack
-  - Rollup
-  - Esbuild
+  ✔ Webpack @done(23-04-29 14:51)
+  ✔ Rollup @done(23-04-29 14:51)
+  ✔ Esbuild @done(23-04-29 14:51)
+  - Store every dependencies in Payload
+  - Detect link between component a posteriori based on component name
 
 Terraform:
   - GCP
@@ -48,7 +52,7 @@ Global:
 - Detect Zeit
 ✔ Detect Fly.io @done(23-04-28 17:13)
 - Detect Heroku (did not find any way)
-- Detect Render
+✔ Detect Render @done(23-04-29 14:56)
 ✔ Detect Dependabot @done(23-04-29 14:36)
 ✔ Detect Renovate @done(23-04-28 17:20)
 ✔ Circleci @done(23-04-27 11:02)
@@ -56,7 +60,7 @@ Global:
 - Codecov
 ✔ Relativeci @done(23-04-27 11:44)
 ✔ TeamCity @done(23-04-29 14:36)
-- Jenkins
+✔ Jenkins @done(23-04-29 14:45)
 - Bitrise
 ✔ Cypress @done(23-04-27 15:21)
 - Supabase

@@ -39,6 +39,7 @@ describe('npm', () => {
       'cypressci',
       'datadog',
       'elasticsearch',
+      'esbuild',
       'eslint',
       'express',
       'fastify',
@@ -62,6 +63,7 @@ describe('npm', () => {
       'redis',
       'relativeci',
       'renovate',
+      'rollup',
       'sentry',
       'sequelize',
       'socketio',
@@ -73,6 +75,7 @@ describe('npm', () => {
       'vercel',
       'vite',
       'vue',
+      'webpack',
     ]);
   });
 });
