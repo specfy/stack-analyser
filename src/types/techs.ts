@@ -46,6 +46,7 @@ export type AllowedKeys =
   | 'gcp'
   | 'github'
   | 'githubactions'
+  | 'githubpages'
   | 'golang'
   | 'hotjar'
   | 'html'

@@ -32,6 +32,7 @@ describe('npm', () => {
     expect(res.toJson().techs).toStrictEqual([
       'expodev',
       'flyio',
+      'githubpages',
       'netlify',
       'render',
       'vercel',
