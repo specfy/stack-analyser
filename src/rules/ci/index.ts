@@ -1,5 +1,6 @@
 import './browserstack';
 import './circleci';
+import './codesandboxci';
 import './cypressci';
 import './dependabot';
 import './githubactions';
