@@ -189,6 +189,17 @@ describe('techAnalyser', () => {
         },
         {
           id: expect.any(String),
+          name: 'unknown',
+          group: 'component',
+          edges: [],
+          languages: {},
+          path: ['/docker-compose.yml'],
+          tech: null,
+          techs: [],
+          inComponent: null,
+        },
+        {
+          id: expect.any(String),
           name: 'vercel',
           group: 'hosting',
           languages: {},

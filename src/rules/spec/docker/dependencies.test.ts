@@ -12,6 +12,7 @@ for (const item of rawList) {
   if (item.type !== 'dependency' || item.ref.type !== 'docker') {
     continue;
   }
+
   const example =
     'example' in item.ref ? item.ref.example : `${item.ref.name}:0.0.0`;
   const [name] = example.split(':');
@@ -21,7 +22,7 @@ for (const item of rawList) {
 `);
 }
 
-describe('npm', () => {
+describe('docker', () => {
   it('should match everything', async () => {
     const res = await techAnalyser({
       provider: new FakeProvider({
@@ -34,18 +35,22 @@ describe('npm', () => {
       }),
     });
     expect(res.toJson().techs).toStrictEqual([
+      'caddy',
       'cassandra',
       'couchbase',
       'cypressci',
       'docker',
       'elasticsearch',
+      'httpd',
       'influxdb',
       'jenkins',
+      'kibana',
       'mariadb',
       'memcached',
       'mongodb',
       'mysql',
       'neo4j',
+      'nginx',
       'nodejs',
       'percona',
       'postgresql',
@@ -53,6 +58,7 @@ describe('npm', () => {
       'redis',
       'strapi',
       'vault',
+      'zookeeper',
     ]);
   });
 });

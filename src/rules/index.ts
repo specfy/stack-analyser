@@ -1,8 +1,9 @@
+import './app';
 import './ci';
 import './db';
 import './hosting';
-import './messaging';
 import './js';
+import './messaging';
 import './sass';
 import './spec';
 import './tool';
