@@ -37,8 +37,10 @@ describe('npm', () => {
       'azure',
       'gcp',
       'kubernetes',
+      'mongodbatlas',
       'oraclecloud',
       'terraform',
+      'vault',
     ]);
   });
 });

@@ -6,6 +6,7 @@ import './flyio';
 import './gcp';
 import './githubpages';
 import './kubernetes';
+import './mongodbatlas';
 import './netlify';
 import './oraclecloud';
 import './render';

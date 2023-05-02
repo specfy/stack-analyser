@@ -58,6 +58,7 @@ export const list: TechItem[] = [
   { key: 'mariadb', name: 'MariaDB', type: 'db' },
   { key: 'memcached', name: 'Memcached', type: 'db' },
   { key: 'mongodb', name: 'MongoDB', type: 'db' },
+  { key: 'mongodbatlas', name: 'MongoDBAtlas', type: 'hosting' },
   { key: 'mysql', name: 'Mysql', type: 'db' },
   { key: 'neo4j', name: 'Neo4J', type: 'tool' },
   { key: 'netlify', name: 'Netlify', type: 'hosting' },

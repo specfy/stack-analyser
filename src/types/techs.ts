@@ -67,6 +67,7 @@ export type AllowedKeys =
   | 'mariadb'
   | 'memcached'
   | 'mongodb'
+  | 'mongodbatlas'
   | 'mysql'
   | 'neo4j'
   | 'netlify'
