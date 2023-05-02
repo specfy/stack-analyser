@@ -1,5 +1,4 @@
 import { listIndexed } from '../common/techs';
-import type { ComponentGroup } from '../types';
 import type { AllowedKeys } from '../types/techs';
 
 import { Payload } from '.';
@@ -19,22 +18,14 @@ export function findImplicitComponent(pl: Payload, tech: AllowedKeys) {
     return;
   }
 
-  let group: ComponentGroup = 'component';
-  if (ref.type === 'hosting') {
-    group = 'hosting';
-  } else if (ref.type === 'sass') {
-    group = 'thirdparty';
-  }
-
   const comp = new Payload({
     name: tech,
     tech: tech,
     folderPath: pl.path,
-    group,
     parent: pl,
   });
   pl.addComponent(comp);
-  if (group !== 'hosting') {
+  if (comp.group !== 'hosting') {
     pl.addEdges(comp.id);
   }
 }

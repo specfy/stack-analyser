@@ -1,2 +1,1 @@
-import './terraform';
 import './github';

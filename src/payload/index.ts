@@ -2,7 +2,7 @@ import path from 'node:path';
 
 import { languages, others } from '../common/languages';
 import { nid } from '../common/nid';
-import { nameToKey } from '../common/techs';
+import { listIndexed, nameToKey } from '../common/techs';
 import type { BaseProvider } from '../provider/base';
 import { IGNORED_DIVE_PATHS } from '../provider/base';
 import { rulesComponents, rulesTechs } from '../rules';
@@ -31,26 +31,33 @@ export class Payload {
     folderPath,
     parent,
     tech,
-    group,
   }: {
     name: string;
     folderPath: string;
     parent?: Payload | null;
     tech?: AllowedKeys | null;
-    group?: ComponentGroup;
   }) {
     this.id = nid();
     this.name = name;
     this.path = folderPath;
     this.tech = tech || null;
-    this.group = group || 'component';
     this.inComponent = null;
     this.components = [];
     this.techs = new Set();
     this.languages = {};
+    this.group = 'component';
 
     this.parent = parent;
     this.edges = [];
+
+    if (this.tech) {
+      const ref = listIndexed[this.tech];
+      if (ref.type === 'hosting') {
+        this.group = 'hosting';
+      } else if (ref.type === 'sass') {
+        this.group = 'thirdparty';
+      }
+    }
   }
 
   async recurse(provider: BaseProvider, filePath: string) {

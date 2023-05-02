@@ -21,6 +21,7 @@ export const dependencies: Record<
 > = {
   npm: [],
   docker: [],
+  terraform: [],
 };
 
 export const rawList: Array<

@@ -25,14 +25,21 @@ NodeJs:
   - Detect link between component a posteriori based on component name
 
 Terraform:
-  - GCP
-    - Kubernetes
+  ✔ Kubernetes @done(23-05-02 11:45)
+  ✔ GCP @done(23-05-02 11:39)
     - Postgres
     - GCE
     - Cloud run
     - GCS
-  - AWS
+  ✔ AWS @done(23-05-02 11:41)
     - ???
+  ✔ Azure @done(23-05-02 11:41)
+    - ???
+  ✔ alibaba cloud @done(23-05-02 11:46)
+    - ???
+  ✔ oracle cloud @done(23-05-02 11:45)
+    - ???
+
 
 Prisma:
   - Type of DB
@@ -46,10 +53,9 @@ Firebase:
 
 Global:
 ✔ Detect Vercel @done(23-04-27 11:02)
-- Detect github pages
+✔ Detect github pages @done(23-04-29 15:20)
 - Detect Cloudflare
 ✔ Detect Netlify @done(23-04-28 17:13)
-- Detect Zeit
 ✔ Detect Fly.io @done(23-04-28 17:13)
 - Detect Heroku (did not find any way)
 ✔ Detect Render @done(23-04-29 14:56)

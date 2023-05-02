@@ -32,7 +32,7 @@ describe('techAnalyser', () => {
     expect(res.toJson()).toStrictEqual({
       id: expect.any(String),
       name: 'main',
-      group: 'project',
+      group: 'component',
       components: [],
       edges: [],
       inComponent: null,
@@ -74,7 +74,7 @@ describe('techAnalyser', () => {
   it('should run correctly', async () => {
     const res = await techAnalyser({
       provider: new FSProvider({
-        path: path.join(__dirname, '../../tests/fake-repository'),
+        path: path.join(__dirname, '../../tests/__fixtures__'),
       }),
     });
 
@@ -82,7 +82,7 @@ describe('techAnalyser', () => {
     expect(res.toJson()).toStrictEqual({
       id: expect.any(String),
       name: 'main',
-      group: 'project',
+      group: 'component',
       path: '/',
       tech: null,
       inComponent: null,
@@ -126,6 +126,17 @@ describe('techAnalyser', () => {
         },
         {
           id: expect.any(String),
+          name: 'GCP',
+          group: 'hosting',
+          edges: [],
+          languages: {},
+          path: '/terraform/.terraform.lock.hcl',
+          tech: 'gcp',
+          techs: [],
+          inComponent: null,
+        },
+        {
+          id: expect.any(String),
           name: 'db',
           group: 'component',
           edges: [],
@@ -144,6 +155,7 @@ describe('techAnalyser', () => {
           inComponent: null,
           tech: null,
           languages: {
+            HCL: 1,
             HTML: 1,
             JSON: 3,
             SCSS: 1,
@@ -153,12 +165,14 @@ describe('techAnalyser', () => {
             'docker',
             'eslint',
             'fastify',
+            'gcp',
             'html',
             'nodejs',
             'prettier',
             'prisma',
             'react',
             'scss',
+            'terraform',
             'typescript',
             'vercel',
             'vite',
@@ -191,6 +205,7 @@ describe('techAnalyser', () => {
         'docker',
         'eslint',
         'fastify',
+        'gcp',
         'html',
         'nodejs',
         'postgresql',
@@ -199,11 +214,13 @@ describe('techAnalyser', () => {
         'react',
         'redis',
         'scss',
+        'terraform',
         'typescript',
         'vercel',
         'vite',
       ],
       languages: {
+        HCL: 1,
         HTML: 1,
         JSON: 3,
         SCSS: 1,

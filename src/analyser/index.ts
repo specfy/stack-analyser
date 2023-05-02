@@ -8,7 +8,7 @@ export async function techAnalyser(
   opts: TechAnalyserOptions
 ): Promise<Payload> {
   const provider = opts.provider;
-  const pl = new Payload({ name: 'main', folderPath: '/', group: 'project' });
+  const pl = new Payload({ name: 'main', folderPath: '/' });
 
   await pl.recurse(provider, '/');
 

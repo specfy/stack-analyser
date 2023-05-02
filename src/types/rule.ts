@@ -3,7 +3,7 @@ import type { BaseProvider, ProviderFile } from '../provider/base';
 
 import type { AllowedKeys, TechItem } from './techs';
 
-export type SupportedDeps = 'docker' | 'npm';
+export type SupportedDeps = 'docker' | 'npm' | 'terraform';
 
 export type RuleDependency = {
   type: SupportedDeps;

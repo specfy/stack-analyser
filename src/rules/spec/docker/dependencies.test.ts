@@ -1,9 +1,8 @@
 import { describe, expect, it } from 'vitest';
 
-import { techAnalyser } from '../analyser';
-import { FakeProvider } from '../provider/fake';
-import { rawList } from '../rules';
-import '.';
+import { techAnalyser } from '../../../analyser';
+import { FakeProvider } from '../../../provider/fake';
+import { rawList } from '../../../rules';
 
 const dockerCompose: string[] = [
   `version: '3'
