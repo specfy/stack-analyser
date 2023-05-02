@@ -35,6 +35,8 @@ describe('npm', () => {
       'alibabacloud',
       'aws',
       'azure',
+      'elasticsearch',
+      'elasticstack',
       'gcp',
       'kubernetes',
       'mongodbatlas',

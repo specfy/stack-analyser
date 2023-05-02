@@ -1,6 +1,7 @@
 import './alibabacloud';
 import './aws';
 import './azure';
+import './elasticstack';
 import './expodev';
 import './flyio';
 import './gcp';

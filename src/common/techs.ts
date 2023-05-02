@@ -26,6 +26,7 @@ export const list: TechItem[] = [
   { key: 'docker', name: 'Docker', type: 'tool' },
   { key: 'elasticloud', name: 'Elastic Cloud', type: 'sass' },
   { key: 'elasticsearch', name: 'Elasticsearch', type: 'db' },
+  { key: 'elasticstack', name: 'ElasticStack', type: 'hosting' },
   { key: 'elixir', name: 'Elixir', type: 'language' },
   { key: 'esbuild', name: 'Esbuild', type: 'tool' },
   { key: 'eslint', name: 'Eslint', type: 'tool' },

@@ -35,6 +35,7 @@ export type AllowedKeys =
   | 'docker'
   | 'elasticloud'
   | 'elasticsearch'
+  | 'elasticstack'
   | 'elixir'
   | 'esbuild'
   | 'eslint'
