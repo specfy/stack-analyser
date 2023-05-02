@@ -2,8 +2,12 @@ import path from 'node:path';
 
 import { describe, it, expect } from 'vitest';
 
+import { Payload } from '../payload';
+import { flatten } from '../payload/helpers';
 import { FakeProvider } from '../provider/fake';
 import { FSProvider } from '../provider/fs';
+import { cleanSnapshot } from '../tests/helpers';
+import type { TechAnalyser } from '../types';
 
 import { techAnalyser } from '.';
 
@@ -33,13 +37,13 @@ describe('techAnalyser', () => {
       id: expect.any(String),
       name: 'main',
       group: 'component',
-      components: [],
       edges: [],
       inComponent: null,
       languages: {},
       path: ['/'],
       tech: null,
       techs: [],
+      childs: [],
     });
   });
 
@@ -56,17 +60,85 @@ describe('techAnalyser', () => {
       }),
     });
 
-    expect(res.toJson().components[0]).toStrictEqual({
+    const flat = new Payload({ name: 'flat', folderPath: '/' });
+    flatten(res, flat);
+
+    const json: TechAnalyser = JSON.parse(JSON.stringify(flat));
+    expect(json).toStrictEqual({
+      childs: [
+        {
+          childs: [],
+          dependencies: {},
+          edges: [],
+          group: 'component',
+          id: expect.any(String),
+          inComponent: null,
+          languages: {},
+          name: 'db',
+          parent: null,
+          path: ['/docker-compose.yml', '/package.json'],
+          tech: 'postgresql',
+          techs: {},
+        },
+        {
+          childs: [],
+          dependencies: {
+            pg: '1.0.0',
+          },
+          edges: [
+            {
+              portSource: 'right',
+              portTarget: 'left',
+              read: true,
+              to: expect.any(String),
+              vertices: [],
+              write: true,
+            },
+          ],
+          group: 'component',
+          id: expect.any(String),
+          inComponent: null,
+          languages: {
+            JSON: 1,
+            YAML: 1,
+          },
+          name: 'test',
+          parent: null,
+          path: ['/package.json'],
+          tech: null,
+          techs: {},
+        },
+        {
+          childs: [],
+          dependencies: {},
+          edges: [],
+          group: 'component',
+          id: expect.any(String),
+          inComponent: null,
+          languages: {},
+          name: 'main',
+          parent: null,
+          path: ['/'],
+          tech: null,
+          techs: {},
+        },
+      ],
+      dependencies: {},
       edges: [],
       group: 'component',
       id: expect.any(String),
       inComponent: null,
-      languages: {},
-      name: 'db',
-      path: ['/docker-compose.yml', '/package.json'],
-      tech: 'postgresql',
-      techs: [],
+      languages: {
+        JSON: 1,
+        YAML: 1,
+      },
+      name: 'flat',
+      path: ['/'],
+      tech: null,
+      techs: {},
     });
+
+    expect(json.childs[0].id).toEqual(json.childs[1].edges[0].to);
   });
 
   it('should run correctly', async () => {
@@ -76,63 +148,8 @@ describe('techAnalyser', () => {
       }),
     });
 
-    // console.log(res.toJson());
     expect(res.toJson()).toStrictEqual({
-      id: expect.any(String),
-      name: 'main',
-      group: 'component',
-      path: ['/'],
-      tech: null,
-      inComponent: null,
-      edges: [],
-      components: [
-        {
-          id: expect.any(String),
-          name: '@fake/api',
-          edges: [],
-          group: 'component',
-          path: ['/pkgs/api/package.json'],
-          tech: null,
-          inComponent: null,
-          languages: {
-            JSON: 1,
-          },
-          techs: ['fastify', 'nodejs', 'prisma', 'typescript'],
-        },
-        {
-          id: expect.any(String),
-          name: '@fake/app',
-          edges: [],
-          group: 'component',
-          path: ['/pkgs/app/package.json'],
-          inComponent: expect.any(String),
-          tech: null,
-          languages: {
-            HTML: 1,
-            JSON: 1,
-            SCSS: 1,
-          },
-          techs: [
-            'html',
-            'nodejs',
-            'react',
-            'scss',
-            'typescript',
-            'vercel',
-            'vite',
-          ],
-        },
-        {
-          id: expect.any(String),
-          name: 'GCP',
-          group: 'hosting',
-          edges: [],
-          languages: {},
-          path: ['/terraform/.terraform.lock.hcl'],
-          tech: 'gcp',
-          techs: [],
-          inComponent: null,
-        },
+      childs: [
         {
           id: expect.any(String),
           name: 'db',
@@ -143,6 +160,7 @@ describe('techAnalyser', () => {
           tech: 'postgresql',
           techs: [],
           inComponent: null,
+          childs: [],
         },
         {
           id: expect.any(String),
@@ -154,26 +172,93 @@ describe('techAnalyser', () => {
           tech: null,
           languages: {
             HCL: 1,
-            HTML: 1,
-            JSON: 3,
-            SCSS: 1,
+            JSON: 1,
             YAML: 1,
           },
           techs: [
             'docker',
             'eslint',
-            'fastify',
-            'gcp',
-            'html',
             'nodejs',
             'prettier',
-            'prisma',
-            'react',
-            'scss',
             'terraform',
             'typescript',
-            'vercel',
-            'vite',
+          ],
+          childs: [
+            {
+              id: expect.any(String),
+              name: '@fake/api',
+              edges: [],
+              group: 'component',
+              path: ['/pkgs/api/package.json'],
+              tech: null,
+              inComponent: null,
+              languages: {
+                JSON: 1,
+              },
+              techs: ['fastify', 'nodejs', 'prisma', 'typescript'],
+              childs: [],
+            },
+            {
+              id: expect.any(String),
+              name: '@fake/app',
+              edges: [],
+              group: 'component',
+              path: ['/pkgs/app/package.json'],
+              inComponent: expect.any(String),
+              tech: null,
+              languages: {
+                HTML: 1,
+                JSON: 1,
+                SCSS: 1,
+              },
+              techs: [
+                'html',
+                'nodejs',
+                'react',
+                'scss',
+                'typescript',
+                'vercel',
+                'vite',
+              ],
+              childs: [
+                {
+                  id: expect.any(String),
+                  name: 'vercel',
+                  group: 'hosting',
+                  languages: {},
+                  edges: [],
+                  path: ['/pkgs/app/package.json'],
+                  tech: 'vercel',
+                  inComponent: null,
+                  techs: [],
+                  childs: [],
+                },
+              ],
+            },
+            {
+              id: expect.any(String),
+              name: 'GCP',
+              group: 'hosting',
+              languages: {},
+              edges: [],
+              path: ['/terraform/.terraform.lock.hcl'],
+              tech: 'gcp',
+              inComponent: null,
+              techs: [],
+              childs: [],
+            },
+            {
+              id: expect.any(String),
+              name: 'Vercel',
+              group: 'hosting',
+              languages: {},
+              edges: [],
+              path: ['/terraform/.terraform.lock.hcl'],
+              tech: 'vercel',
+              inComponent: null,
+              techs: [],
+              childs: [],
+            },
           ],
         },
         {
@@ -186,6 +271,7 @@ describe('techAnalyser', () => {
           tech: 'redis',
           techs: [],
           inComponent: null,
+          childs: [],
         },
         {
           id: expect.any(String),
@@ -197,44 +283,23 @@ describe('techAnalyser', () => {
           tech: null,
           techs: [],
           inComponent: null,
-        },
-        {
-          id: expect.any(String),
-          name: 'vercel',
-          group: 'hosting',
-          languages: {},
-          edges: [],
-          path: ['/pkgs/app/package.json', '/terraform/.terraform.lock.hcl'],
-          tech: 'vercel',
-          inComponent: null,
-          techs: [],
+          childs: [],
         },
       ],
-      techs: [
-        'docker',
-        'eslint',
-        'fastify',
-        'gcp',
-        'html',
-        'nodejs',
-        'postgresql',
-        'prettier',
-        'prisma',
-        'react',
-        'redis',
-        'scss',
-        'terraform',
-        'typescript',
-        'vercel',
-        'vite',
-      ],
-      languages: {
-        HCL: 1,
-        HTML: 1,
-        JSON: 3,
-        SCSS: 1,
-        YAML: 1,
-      },
+      edges: [],
+      group: 'component',
+      id: expect.any(String),
+      inComponent: null,
+      languages: {},
+      name: 'main',
+      path: ['/'],
+      tech: null,
+      techs: [],
     });
+
+    const flatted = flatten(res);
+    expect(
+      cleanSnapshot(JSON.parse(JSON.stringify(flatted.toJson())))
+    ).toMatchSnapshot();
   });
 });

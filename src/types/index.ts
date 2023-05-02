@@ -17,7 +17,7 @@ export interface TechAnalyser {
   tech: AllowedKeys | null;
   techs: AllowedKeys[];
   inComponent: string | null;
-  components: Array<Omit<TechAnalyser, 'components'>>;
+  childs: TechAnalyser[];
   languages: Record<string, number>;
   edges: GraphEdge[];
 }

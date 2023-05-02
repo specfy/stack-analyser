@@ -45,7 +45,7 @@ export function findHosting(pl: Payload, tech: AllowedKeys) {
     return;
   }
 
-  const find = pl.components.find((c) => c.tech === ref.key);
+  const find = pl.childs.find((c) => c.tech === ref.key);
   if (!find) {
     throw new Error(`cant find hosting ${ref.key}`);
   }
@@ -54,7 +54,7 @@ export function findHosting(pl: Payload, tech: AllowedKeys) {
 }
 
 export function findEdges(pl: Payload) {
-  pl.components.forEach((component) => {
+  pl.childs.forEach((component) => {
     component.techs.forEach((tech) => {
       const ref = listIndexed[tech];
 
@@ -64,7 +64,7 @@ export function findEdges(pl: Payload) {
         ref.type === 'db' ||
         ref.type === 'messaging'
       ) {
-        const find = pl.components.find((c) => c.tech === ref.key);
+        const find = pl.childs.find((c) => c.tech === ref.key);
         if (!find) {
           throw new Error(`cant find sass ${ref.key}`);
         }
@@ -74,4 +74,29 @@ export function findEdges(pl: Payload) {
       }
     });
   });
+}
+
+export function flatten(src: Payload, dest?: Payload): Payload {
+  if (!dest) {
+    dest = new Payload({ name: 'flatten', folderPath: '/' });
+  }
+
+  src.childs.forEach((component) => flatten(component, dest));
+  src.techs.forEach((tech) => dest!.techs.add(tech));
+
+  if (src.tech) {
+    dest.techs.add(src.tech);
+  }
+
+  for (const [lang, count] of Object.entries(src.languages)) {
+    dest.addLang(lang, count);
+  }
+
+  const cp = src.copy();
+  cp.childs = [];
+  dest.addComponent(cp);
+
+  cp.setParent(null);
+
+  return dest;
 }

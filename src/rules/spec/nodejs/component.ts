@@ -41,6 +41,7 @@ export const detectNodeComponent: ComponentMatcher = async (
     const pl = new Payload({
       name: json.name,
       folderPath: file.fp,
+      dependencies: deps,
     });
     pl.addTechs([...techs]);
 

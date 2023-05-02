@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest';
 
 import { techAnalyser } from '../../../analyser';
+import { flatten } from '../../../payload/helpers';
 import { FakeProvider } from '../../../provider/fake';
 import { rawList } from '../../../rules';
 
@@ -34,31 +35,33 @@ describe('docker', () => {
         },
       }),
     });
-    expect(res.toJson().techs).toStrictEqual([
-      'caddy',
-      'cassandra',
-      'couchbase',
-      'cypressci',
-      'docker',
-      'elasticsearch',
-      'httpd',
-      'influxdb',
-      'jenkins',
-      'kibana',
-      'mariadb',
-      'memcached',
-      'mongodb',
-      'mysql',
-      'neo4j',
-      'nginx',
-      'nodejs',
-      'percona',
-      'postgresql',
-      'rabbitmq',
-      'redis',
-      'strapi',
-      'vault',
-      'zookeeper',
-    ]);
+    expect(flatten(res).techs).toStrictEqual(
+      new Set([
+        'caddy',
+        'cassandra',
+        'couchbase',
+        'cypressci',
+        'docker',
+        'elasticsearch',
+        'httpd',
+        'influxdb',
+        'jenkins',
+        'kibana',
+        'mariadb',
+        'memcached',
+        'mongodb',
+        'mysql',
+        'neo4j',
+        'nginx',
+        'nodejs',
+        'percona',
+        'postgresql',
+        'rabbitmq',
+        'redis',
+        'strapi',
+        'vault',
+        'zookeeper',
+      ])
+    );
   });
 });

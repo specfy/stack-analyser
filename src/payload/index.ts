@@ -15,37 +15,43 @@ import { findHosting, findImplicitComponent } from './helpers';
 export class Payload {
   public id: string;
   public languages: Record<string, number>;
-  public components: Payload[];
+  public childs: Payload[];
   public path: string[];
   public name: string;
   public group: ComponentGroup;
   public techs: Set<AllowedKeys>;
   public inComponent: string | null;
   public tech: AllowedKeys | null;
+  public dependencies: Record<string, string>;
+  public edges: GraphEdge[];
 
   private parent?: Payload | null;
-  private edges: GraphEdge[];
 
   constructor({
+    id,
     name,
     folderPath,
     parent,
     tech,
+    dependencies,
   }: {
+    id?: string;
     name: string;
     folderPath: string;
     parent?: Payload | null;
     tech?: AllowedKeys | null;
+    dependencies?: Record<string, string>;
   }) {
-    this.id = nid();
+    this.id = id || nid();
     this.name = name;
     this.path = [folderPath];
     this.tech = tech || null;
     this.inComponent = null;
-    this.components = [];
+    this.childs = [];
     this.techs = new Set();
     this.languages = {};
     this.group = 'component';
+    this.dependencies = dependencies || {};
 
     this.parent = parent;
     this.edges = [];
@@ -72,8 +78,9 @@ export class Payload {
 
       if (res.name !== 'virtual') {
         ctx = res;
+        this.addComponent(res);
       } else {
-        ctx.merge(res);
+        res.childs.forEach((child) => this.addComponent(child));
       }
     }
 
@@ -101,32 +108,34 @@ export class Payload {
 
       await ctx.recurse(provider, fp);
     }
-
-    if (ctx !== this) {
-      this.merge(ctx);
-    }
   }
 
   addComponent(service: Payload) {
-    const exist = this.components.find((s) => {
+    const exist = this.childs.find((s) => {
       if (s.name === service.name) return true;
       if (s.tech && service.tech && s.tech === service.tech) return true;
       return false;
     });
 
     if (exist) {
+      // Log all paths were it was found
       exist.path.push(...service.path);
+
+      // Update edges to point to the initial component
+      if (service.parent) {
+        for (const edge of service.parent.edges) {
+          if (edge.to !== service.id) {
+            continue;
+          }
+
+          edge.to = exist.id;
+        }
+      }
       return;
     }
 
-    this.components.push(service);
-    for (const tech of service.techs) {
-      this.techs.add(tech);
-    }
-
-    if (service.tech) {
-      this.techs.add(service.tech);
-    }
+    service.setParent(this);
+    this.childs.push(service);
   }
 
   addTechs(tech: AllowedKeys[]) {
@@ -151,6 +160,10 @@ export class Payload {
     });
   }
 
+  setParent(pl: Payload | null) {
+    this.parent = pl;
+  }
+
   detectLang(filename: string) {
     const ext = path.extname(filename);
 
@@ -173,17 +186,23 @@ export class Payload {
     }
   }
 
-  merge(pl: Payload) {
-    pl.components.forEach((component) => this.addComponent(component));
-    pl.techs.forEach((tech) => this.techs.add(tech));
+  copy(): Payload {
+    const cp = new Payload({
+      id: this.id,
+      name: this.name,
+      folderPath: this.path[0],
+      parent: this.parent,
+      tech: this.tech,
+      dependencies: this.dependencies,
+    });
+    cp.techs = new Set([...this.techs]);
+    cp.inComponent = this.inComponent;
+    cp.edges = this.edges;
+    cp.path = this.path;
+    cp.languages = this.languages;
+    cp.childs = this.childs;
 
-    if (pl.name !== 'virtual') {
-      this.addComponent(pl);
-    }
-
-    for (const [lang, count] of Object.entries(pl.languages)) {
-      this.addLang(lang, count);
-    }
+    return cp;
   }
 
   toJson(): TechAnalyser {
@@ -195,10 +214,9 @@ export class Payload {
       tech: this.tech,
       edges: this.edges,
       inComponent: this.inComponent,
-      components: this.components
+      childs: this.childs
         .map((service) => {
-          const { components, ...rest } = service.toJson();
-          return rest;
+          return service.toJson();
         })
         .sort((a, b) => {
           return a.name > b.name ? 1 : -1;
@@ -208,7 +226,7 @@ export class Payload {
     };
   }
 
-  private addLang(name: string, count: number = 1) {
+  public addLang(name: string, count: number = 1) {
     if (!this.languages[name]) {
       this.languages[name] = 0;
     }

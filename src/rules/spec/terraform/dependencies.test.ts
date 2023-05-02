@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest';
 
 import { techAnalyser } from '../../../analyser';
+import { flatten } from '../../../payload/helpers';
 import { FakeProvider } from '../../../provider/fake';
 import { rawList } from '../../../rules';
 
@@ -32,24 +33,26 @@ describe('terraform', () => {
       }),
     });
 
-    expect(res.toJson().techs).toStrictEqual([
-      'alibabacloud',
-      'aws',
-      'azure',
-      'datadog',
-      'elasticsearch',
-      'elasticstack',
-      'flyio',
-      'gcp',
-      'github',
-      'helm',
-      'kubernetes',
-      'mongodbatlas',
-      'newrelic',
-      'oraclecloud',
-      'terraform',
-      'vault',
-      'vercel',
-    ]);
+    expect(flatten(res).techs).toStrictEqual(
+      new Set([
+        'alibabacloud',
+        'aws',
+        'azure',
+        'datadog',
+        'elasticsearch',
+        'elasticstack',
+        'flyio',
+        'gcp',
+        'github',
+        'helm',
+        'kubernetes',
+        'mongodbatlas',
+        'newrelic',
+        'oraclecloud',
+        'terraform',
+        'vault',
+        'vercel',
+      ])
+    );
   });
 });
