@@ -37,7 +37,7 @@ describe('techAnalyser', () => {
       edges: [],
       inComponent: null,
       languages: {},
-      path: '/',
+      path: ['/'],
       tech: null,
       techs: [],
     });
@@ -51,24 +51,22 @@ describe('techAnalyser', () => {
         },
         files: {
           '/docker-compose.yml': dockerCompose,
-          '/package.json': '{ "name": "test", "dependencies": {"pg": "1.0.0"}',
+          '/package.json': '{ "name": "test", "dependencies": {"pg": "1.0.0"}}',
         },
       }),
     });
 
-    expect(res.toJson().components).toStrictEqual([
-      {
-        edges: [],
-        group: 'component',
-        id: expect.any(String),
-        inComponent: null,
-        languages: {},
-        name: 'db',
-        path: '/docker-compose.yml',
-        tech: 'postgresql',
-        techs: [],
-      },
-    ]);
+    expect(res.toJson().components[0]).toStrictEqual({
+      edges: [],
+      group: 'component',
+      id: expect.any(String),
+      inComponent: null,
+      languages: {},
+      name: 'db',
+      path: ['/docker-compose.yml', '/package.json'],
+      tech: 'postgresql',
+      techs: [],
+    });
   });
 
   it('should run correctly', async () => {
@@ -83,7 +81,7 @@ describe('techAnalyser', () => {
       id: expect.any(String),
       name: 'main',
       group: 'component',
-      path: '/',
+      path: ['/'],
       tech: null,
       inComponent: null,
       edges: [],
@@ -93,7 +91,7 @@ describe('techAnalyser', () => {
           name: '@fake/api',
           edges: [],
           group: 'component',
-          path: '/pkgs/api',
+          path: ['/pkgs/api/package.json'],
           tech: null,
           inComponent: null,
           languages: {
@@ -106,7 +104,7 @@ describe('techAnalyser', () => {
           name: '@fake/app',
           edges: [],
           group: 'component',
-          path: '/pkgs/app',
+          path: ['/pkgs/app/package.json'],
           inComponent: expect.any(String),
           tech: null,
           languages: {
@@ -130,7 +128,7 @@ describe('techAnalyser', () => {
           group: 'hosting',
           edges: [],
           languages: {},
-          path: '/terraform/.terraform.lock.hcl',
+          path: ['/terraform/.terraform.lock.hcl'],
           tech: 'gcp',
           techs: [],
           inComponent: null,
@@ -141,7 +139,7 @@ describe('techAnalyser', () => {
           group: 'component',
           edges: [],
           languages: {},
-          path: '/docker-compose.yml',
+          path: ['/docker-compose.yml'],
           tech: 'postgresql',
           techs: [],
           inComponent: null,
@@ -151,7 +149,7 @@ describe('techAnalyser', () => {
           name: 'fake',
           edges: [],
           group: 'component',
-          path: '/',
+          path: ['/package.json'],
           inComponent: null,
           tech: null,
           languages: {
@@ -184,7 +182,7 @@ describe('techAnalyser', () => {
           group: 'component',
           edges: [],
           languages: {},
-          path: '/docker-compose.yml',
+          path: ['/docker-compose.yml'],
           tech: 'redis',
           techs: [],
           inComponent: null,
@@ -195,7 +193,7 @@ describe('techAnalyser', () => {
           group: 'hosting',
           languages: {},
           edges: [],
-          path: '/pkgs/app',
+          path: ['/pkgs/app/package.json', '/terraform/.terraform.lock.hcl'],
           tech: 'vercel',
           inComponent: null,
           techs: [],

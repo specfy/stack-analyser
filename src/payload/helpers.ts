@@ -21,7 +21,7 @@ export function findImplicitComponent(pl: Payload, tech: AllowedKeys) {
   const comp = new Payload({
     name: tech,
     tech: tech,
-    folderPath: pl.path,
+    folderPath: pl.path[0],
     parent: pl,
   });
   pl.addComponent(comp);

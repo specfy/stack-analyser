@@ -1,8 +1,6 @@
 Language detection:
   ✔ extension to language @done(23-04-29 14:51)
 
-
-
 NodeJs:
   - Check import of others services
   ✔ Detect Elasticsearch @done(23-04-26 11:20)
@@ -56,6 +54,8 @@ Terraform:
   - Okta
   - Snyk
   - Pagerduty
+  - databricks
+  - ovh
 
 Prisma:
   - Type of DB

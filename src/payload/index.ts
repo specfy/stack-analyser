@@ -16,7 +16,7 @@ export class Payload {
   public id: string;
   public languages: Record<string, number>;
   public components: Payload[];
-  public path: string;
+  public path: string[];
   public name: string;
   public group: ComponentGroup;
   public techs: Set<AllowedKeys>;
@@ -39,7 +39,7 @@ export class Payload {
   }) {
     this.id = nid();
     this.name = name;
-    this.path = folderPath;
+    this.path = [folderPath];
     this.tech = tech || null;
     this.inComponent = null;
     this.components = [];
@@ -115,7 +115,7 @@ export class Payload {
     });
 
     if (exist) {
-      // TODO: merge
+      exist.path.push(...service.path);
       return;
     }
 

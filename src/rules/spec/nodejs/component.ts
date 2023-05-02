@@ -1,5 +1,3 @@
-import path from 'node:path';
-
 import type { FullVersion } from 'package-json';
 
 import { Payload } from '../../../payload';
@@ -26,6 +24,7 @@ export const detectNodeComponent: ComponentMatcher = async (
     try {
       json = JSON.parse(content);
     } catch (e) {
+      console.error('cant parse package.json', file.fp, e);
       return false;
     }
 
@@ -41,7 +40,7 @@ export const detectNodeComponent: ComponentMatcher = async (
 
     const pl = new Payload({
       name: json.name,
-      folderPath: path.dirname(file.fp),
+      folderPath: file.fp,
     });
     pl.addTechs([...techs]);
 

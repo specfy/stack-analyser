@@ -13,7 +13,7 @@ export interface TechAnalyser {
   id: string;
   name: string;
   group: ComponentGroup;
-  path: string;
+  path: string[];
   tech: AllowedKeys | null;
   techs: AllowedKeys[];
   inComponent: string | null;
