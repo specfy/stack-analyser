@@ -35,14 +35,19 @@ describe('npm', () => {
       'alibabacloud',
       'aws',
       'azure',
+      'datadog',
       'elasticsearch',
       'elasticstack',
+      'flyio',
       'gcp',
+      'github',
       'kubernetes',
       'mongodbatlas',
+      'newrelic',
       'oraclecloud',
       'terraform',
       'vault',
+      'vercel',
     ]);
   });
 });

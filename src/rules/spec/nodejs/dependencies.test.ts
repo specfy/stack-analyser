@@ -53,6 +53,7 @@ describe('npm', () => {
       'mysql',
       'neo4j',
       'netlify',
+      'newrelic',
       'nodejs',
       'postgresql',
       'prettier',

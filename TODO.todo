@@ -41,7 +41,21 @@ Terraform:
     - ???
   ✔ Mongo DB Atlas @done(23-05-02 12:09)
   ✔ Elastic stack @done(23-05-02 12:13)
-
+  - CockroachDB
+  - Redis cloud
+  - snowflake
+  - couchbase capella
+  - akamai
+  - digital ocean
+  - scaleway
+  - wavefront
+  - cloudflare
+  - fastly
+  - Heroku
+  - Auth0
+  - Okta
+  - Snyk
+  - Pagerduty
 
 Prisma:
   - Type of DB
