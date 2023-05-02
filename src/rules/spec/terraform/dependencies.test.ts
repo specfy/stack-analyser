@@ -19,7 +19,7 @@ for (const item of rawList) {
 `);
 }
 
-describe('npm', () => {
+describe('terraform', () => {
   it('should match everything', async () => {
     const res = await techAnalyser({
       provider: new FakeProvider({
@@ -31,6 +31,7 @@ describe('npm', () => {
         },
       }),
     });
+
     expect(res.toJson().techs).toStrictEqual([
       'alibabacloud',
       'aws',
@@ -41,6 +42,7 @@ describe('npm', () => {
       'flyio',
       'gcp',
       'github',
+      'helm',
       'kubernetes',
       'mongodbatlas',
       'newrelic',

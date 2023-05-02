@@ -49,6 +49,7 @@ export type AllowedKeys =
   | 'githubactions'
   | 'githubpages'
   | 'golang'
+  | 'helm'
   | 'hotjar'
   | 'html'
   | 'httpd'

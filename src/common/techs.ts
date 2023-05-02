@@ -40,6 +40,7 @@ export const list: TechItem[] = [
   { key: 'githubactions', name: 'Github Actions', type: 'ci' },
   { key: 'githubpages', name: 'Github Pages', type: 'hosting' },
   { key: 'golang', name: 'Go', type: 'language' },
+  { key: 'helm', name: 'Helm', type: 'tool' },
   { key: 'hotjar', name: 'Hotjar', type: 'sass' },
   { key: 'html', name: 'HTML', type: 'language' },
   { key: 'httpd', name: 'Httpd', type: 'app' },
