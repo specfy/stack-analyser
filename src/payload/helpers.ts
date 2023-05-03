@@ -26,7 +26,7 @@ export function findImplicitComponent(pl: Payload, tech: AllowedKeys) {
   });
   pl.addComponent(comp);
   if (comp.group !== 'hosting') {
-    pl.addEdges(comp.id);
+    pl.addEdges(comp);
   }
 }
 
@@ -50,9 +50,37 @@ export function findHosting(pl: Payload, tech: AllowedKeys) {
     throw new Error(`cant find hosting ${ref.key}`);
   }
 
-  pl.inComponent = find.id;
+  pl.inComponent = find;
 }
 
+export function findEdgesInDependencies(pl: Payload) {
+  const names = new Set<string>();
+  pl.childs.forEach((child) => names.add(child.name));
+
+  pl.childs.forEach((child) => {
+    child.dependencies.forEach((dep) => {
+      const name = dep[1];
+      if (!names.has(name)) {
+        return;
+      }
+
+      // Self referencing
+      if (name === child.name || name === child.tech) {
+        return;
+      }
+
+      // Check if we already added an edge about that
+      const already = child.edges.find((edge) => edge.to.name === name);
+      if (already) {
+        return;
+      }
+
+      child.addEdges(pl.childs.find((c) => c.name === name)!);
+    });
+  });
+}
+
+// TODO: is it still necessary?
 export function findEdges(pl: Payload) {
   pl.childs.forEach((component) => {
     component.techs.forEach((tech) => {
@@ -68,7 +96,7 @@ export function findEdges(pl: Payload) {
         if (!find) {
           throw new Error(`cant find sass ${ref.key}`);
         }
-        component.addEdges(find.id);
+        component.addEdges(find);
 
         return;
       }
@@ -76,7 +104,12 @@ export function findEdges(pl: Payload) {
   });
 }
 
+/**
+ * Flatten takes a nested Payload and brings everything down to a single level.
+ * It merges all fields that can be merged and deduplicate resources that are similar.
+ */
 export function flatten(src: Payload, dest?: Payload): Payload {
+  const isRoot = !dest;
   if (!dest) {
     dest = new Payload({ name: 'flatten', folderPath: '/' });
   }
@@ -99,5 +132,8 @@ export function flatten(src: Payload, dest?: Payload): Payload {
 
   cp.setParent(null);
 
+  // if (isRoot) {
+  //   findEdgesInDependencies(dest);
+  // }
   return dest;
 }

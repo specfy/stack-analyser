@@ -85,6 +85,11 @@ exports[`techAnalyser > should run correctly 1`] = `
           "dependencies": [
             [
               "npm",
+              "@fake/api",
+              "1.0.0",
+            ],
+            [
+              "npm",
               "react",
               "4.17.0",
             ],
@@ -318,6 +323,11 @@ exports[`techAnalyser > should run correctly 2`] = `
     {
       "childs": [],
       "dependencies": [
+        [
+          "npm",
+          "@fake/api",
+          "1.0.0",
+        ],
         [
           "npm",
           "react",
@@ -562,6 +572,11 @@ exports[`techAnalyser > should run correctly 2`] = `
       "npm",
       "typescript",
       "5.0.4",
+    ],
+    [
+      "npm",
+      "@fake/api",
+      "1.0.0",
     ],
     [
       "npm",

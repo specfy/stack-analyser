@@ -20,7 +20,7 @@ export class Payload {
   public name: string;
   public group: ComponentGroup;
   public techs: Set<AllowedKeys>;
-  public inComponent: string | null;
+  public inComponent: Payload | null;
   public tech: AllowedKeys | null;
   public dependencies: TechAnalyser['dependencies'];
   public edges: GraphEdge[];
@@ -124,11 +124,11 @@ export class Payload {
       // Update edges to point to the initial component
       if (service.parent) {
         for (const edge of service.parent.edges) {
-          if (edge.to !== service.id) {
+          if (edge.to.id !== service.id) {
             continue;
           }
 
-          edge.to = exist.id;
+          edge.to = exist;
         }
       }
 
@@ -154,9 +154,9 @@ export class Payload {
     findHosting(this, tech);
   }
 
-  addEdges(id: string) {
+  addEdges(pl: Payload) {
     this.edges.push({
-      to: id,
+      to: pl,
       portSource: 'right',
       portTarget: 'left',
       read: true,
@@ -217,8 +217,10 @@ export class Payload {
       group: this.group,
       path: this.path,
       tech: this.tech,
-      edges: this.edges,
-      inComponent: this.inComponent,
+      edges: this.edges.map((edge) => {
+        return { ...edge, to: edge.to.id };
+      }),
+      inComponent: this.inComponent ? this.inComponent.id : null,
       childs: this.childs
         .map((service) => {
           return service.toJson();

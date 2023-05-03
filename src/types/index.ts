@@ -1,8 +1,11 @@
+import type { Payload } from '../payload';
+
 import type { SupportedDeps } from './rule';
 import type { AllowedKeys } from './techs';
+import type { Modify } from './utils';
 
 export interface GraphEdge {
-  to: string;
+  to: Payload;
   read: boolean;
   write: boolean;
   vertices: Array<{ x: number; y: number }>;
@@ -20,7 +23,7 @@ export interface TechAnalyser {
   inComponent: string | null;
   childs: TechAnalyser[];
   languages: Record<string, number>;
-  edges: GraphEdge[];
+  edges: Array<Modify<GraphEdge, { to: string }>>;
   dependencies: Array<[SupportedDeps, string, string]>;
 }
 

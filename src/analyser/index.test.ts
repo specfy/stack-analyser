@@ -61,84 +61,12 @@ describe('techAnalyser', () => {
     });
 
     const flat = flatten(res);
-    const json: TechAnalyser = JSON.parse(JSON.stringify(flat));
+    const json: TechAnalyser = cleanSnapshot(
+      JSON.parse(JSON.stringify(flat.toJson()))
+    );
 
-    expect(json).toStrictEqual({
-      childs: [
-        {
-          childs: [],
-          dependencies: [['docker', 'postgres', '15.1-alpine']],
-          edges: [],
-          group: 'component',
-          id: expect.any(String),
-          inComponent: null,
-          languages: {},
-          name: 'db',
-          parent: null,
-          path: ['/docker-compose.yml', '/package.json'],
-          tech: 'postgresql',
-          techs: {},
-        },
-        {
-          childs: [],
-          dependencies: [['npm', 'pg', '1.0.0']],
-          edges: [
-            {
-              portSource: 'right',
-              portTarget: 'left',
-              read: true,
-              to: expect.any(String),
-              vertices: [],
-              write: true,
-            },
-          ],
-          group: 'component',
-          id: expect.any(String),
-          inComponent: null,
-          languages: {
-            JSON: 1,
-            YAML: 1,
-          },
-          name: 'test',
-          parent: null,
-          path: ['/package.json'],
-          tech: null,
-          techs: {},
-        },
-        {
-          childs: [],
-          dependencies: [],
-          edges: [],
-          group: 'component',
-          id: expect.any(String),
-          inComponent: null,
-          languages: {},
-          name: 'main',
-          parent: null,
-          path: ['/'],
-          tech: null,
-          techs: {},
-        },
-      ],
-      dependencies: [
-        ['docker', 'postgres', '15.1-alpine'],
-        ['npm', 'pg', '1.0.0'],
-      ],
-      edges: [],
-      group: 'component',
-      id: expect.any(String),
-      inComponent: null,
-      languages: {
-        JSON: 1,
-        YAML: 1,
-      },
-      name: 'flatten',
-      path: ['/'],
-      tech: null,
-      techs: {},
-    });
-
-    expect(json.childs[0].id).toEqual(json.childs[1].edges[0].to);
+    expect(json).toMatchSnapshot();
+    expect(flat.childs[0].id).toEqual(flat.childs[1].edges[0].to.id);
   });
 
   it('should run correctly', async () => {
