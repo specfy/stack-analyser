@@ -200,6 +200,7 @@ export class Payload {
     for (const [lang, count] of Object.entries(pl.languages)) {
       this.addLang(lang, count);
     }
+
     pl.techs.forEach((tech) => this.techs.add(tech));
     if (pl.tech) {
       this.techs.add(pl.tech);

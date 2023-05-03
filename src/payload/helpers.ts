@@ -177,6 +177,8 @@ export function flatten(src: Payload): Payload {
     dest.combine(child);
   });
 
+  dest.combine(src);
+
   // for (let index = 0; index < dest.childs.length; index++) {
   //   const child = dest.childs[index];
 

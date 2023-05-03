@@ -35,6 +35,7 @@ describe('docker', () => {
         },
       }),
     });
+
     expect(flatten(res).techs).toStrictEqual(
       new Set([
         'caddy',

@@ -148,6 +148,7 @@ exports[`flatten > should flatten 1`] = `
   "name": "flatten",
   "path": [
     "/",
+    "",
   ],
   "tech": null,
   "techs": [],

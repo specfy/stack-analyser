@@ -1,11 +1,10 @@
 import path from 'node:path';
 
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect, vi, beforeEach } from 'vitest';
 
 import { flatten } from '../payload/helpers';
 import { FakeProvider } from '../provider/fake';
 import { FSProvider } from '../provider/fs';
-import { cleanSnapshot } from '../tests/helpers';
 import type { TechAnalyser } from '../types';
 
 import { techAnalyser } from '.';
@@ -21,7 +20,16 @@ services:
       - POSTGRES_PASSWORD=postgres
 `;
 
+let id = 0;
+vi.mock('../common/nid.ts', () => {
+  return { nid: () => `${id++}` };
+});
+
 describe('techAnalyser', () => {
+  beforeEach(() => {
+    vi.resetAllMocks();
+  });
+
   it('should not find anything', async () => {
     const res = await techAnalyser({
       provider: new FakeProvider({
@@ -61,10 +69,7 @@ describe('techAnalyser', () => {
     });
 
     const flat = flatten(res);
-    const json: TechAnalyser = cleanSnapshot(
-      JSON.parse(JSON.stringify(flat.toJson()))
-    );
-
+    const json: TechAnalyser = JSON.parse(JSON.stringify(flat.toJson()));
     expect(json).toMatchSnapshot();
     expect(flat.childs[0].id).toEqual(flat.childs[1].edges[0].to.id);
   });
@@ -76,7 +81,7 @@ describe('techAnalyser', () => {
       }),
     });
 
-    expect(cleanSnapshot(res.toJson())).toMatchSnapshot();
+    expect(res.toJson()).toMatchSnapshot();
 
     const flatted = flatten(res);
 
@@ -90,8 +95,6 @@ describe('techAnalyser', () => {
     const api = flatted.childs.find((child) => child.name === '@fake/api');
     expect(api!.edges[0].to.id).toBe(datadog.id);
 
-    expect(
-      cleanSnapshot(JSON.parse(JSON.stringify(flatted.toJson())))
-    ).toMatchSnapshot();
+    expect(JSON.parse(JSON.stringify(flatted.toJson()))).toMatchSnapshot();
   });
 });
