@@ -2,7 +2,6 @@ import path from 'node:path';
 
 import { describe, it, expect } from 'vitest';
 
-import { Payload } from '../payload';
 import { flatten } from '../payload/helpers';
 import { FakeProvider } from '../provider/fake';
 import { FSProvider } from '../provider/fs';
@@ -44,6 +43,7 @@ describe('techAnalyser', () => {
       tech: null,
       techs: [],
       childs: [],
+      dependencies: [],
     });
   });
 
@@ -60,15 +60,14 @@ describe('techAnalyser', () => {
       }),
     });
 
-    const flat = new Payload({ name: 'flat', folderPath: '/' });
-    flatten(res, flat);
-
+    const flat = flatten(res);
     const json: TechAnalyser = JSON.parse(JSON.stringify(flat));
+
     expect(json).toStrictEqual({
       childs: [
         {
           childs: [],
-          dependencies: {},
+          dependencies: [['docker', 'postgres', '15.1-alpine']],
           edges: [],
           group: 'component',
           id: expect.any(String),
@@ -82,9 +81,7 @@ describe('techAnalyser', () => {
         },
         {
           childs: [],
-          dependencies: {
-            pg: '1.0.0',
-          },
+          dependencies: [['npm', 'pg', '1.0.0']],
           edges: [
             {
               portSource: 'right',
@@ -110,7 +107,7 @@ describe('techAnalyser', () => {
         },
         {
           childs: [],
-          dependencies: {},
+          dependencies: [],
           edges: [],
           group: 'component',
           id: expect.any(String),
@@ -123,7 +120,10 @@ describe('techAnalyser', () => {
           techs: {},
         },
       ],
-      dependencies: {},
+      dependencies: [
+        ['docker', 'postgres', '15.1-alpine'],
+        ['npm', 'pg', '1.0.0'],
+      ],
       edges: [],
       group: 'component',
       id: expect.any(String),
@@ -132,7 +132,7 @@ describe('techAnalyser', () => {
         JSON: 1,
         YAML: 1,
       },
-      name: 'flat',
+      name: 'flatten',
       path: ['/'],
       tech: null,
       techs: {},
@@ -148,154 +148,7 @@ describe('techAnalyser', () => {
       }),
     });
 
-    expect(res.toJson()).toStrictEqual({
-      childs: [
-        {
-          id: expect.any(String),
-          name: 'db',
-          group: 'component',
-          edges: [],
-          languages: {},
-          path: ['/docker-compose.yml'],
-          tech: 'postgresql',
-          techs: [],
-          inComponent: null,
-          childs: [],
-        },
-        {
-          id: expect.any(String),
-          name: 'fake',
-          edges: [],
-          group: 'component',
-          path: ['/package.json'],
-          inComponent: null,
-          tech: null,
-          languages: {
-            HCL: 1,
-            JSON: 1,
-            YAML: 1,
-          },
-          techs: [
-            'docker',
-            'eslint',
-            'nodejs',
-            'prettier',
-            'terraform',
-            'typescript',
-          ],
-          childs: [
-            {
-              id: expect.any(String),
-              name: '@fake/api',
-              edges: [],
-              group: 'component',
-              path: ['/pkgs/api/package.json'],
-              tech: null,
-              inComponent: null,
-              languages: {
-                JSON: 1,
-              },
-              techs: ['fastify', 'nodejs', 'prisma', 'typescript'],
-              childs: [],
-            },
-            {
-              id: expect.any(String),
-              name: '@fake/app',
-              edges: [],
-              group: 'component',
-              path: ['/pkgs/app/package.json'],
-              inComponent: expect.any(String),
-              tech: null,
-              languages: {
-                HTML: 1,
-                JSON: 1,
-                SCSS: 1,
-              },
-              techs: [
-                'html',
-                'nodejs',
-                'react',
-                'scss',
-                'typescript',
-                'vercel',
-                'vite',
-              ],
-              childs: [
-                {
-                  id: expect.any(String),
-                  name: 'vercel',
-                  group: 'hosting',
-                  languages: {},
-                  edges: [],
-                  path: ['/pkgs/app/package.json'],
-                  tech: 'vercel',
-                  inComponent: null,
-                  techs: [],
-                  childs: [],
-                },
-              ],
-            },
-            {
-              id: expect.any(String),
-              name: 'GCP',
-              group: 'hosting',
-              languages: {},
-              edges: [],
-              path: ['/terraform/.terraform.lock.hcl'],
-              tech: 'gcp',
-              inComponent: null,
-              techs: [],
-              childs: [],
-            },
-            {
-              id: expect.any(String),
-              name: 'Vercel',
-              group: 'hosting',
-              languages: {},
-              edges: [],
-              path: ['/terraform/.terraform.lock.hcl'],
-              tech: 'vercel',
-              inComponent: null,
-              techs: [],
-              childs: [],
-            },
-          ],
-        },
-        {
-          id: expect.any(String),
-          name: 'redis',
-          group: 'component',
-          edges: [],
-          languages: {},
-          path: ['/docker-compose.yml'],
-          tech: 'redis',
-          techs: [],
-          inComponent: null,
-          childs: [],
-        },
-        {
-          id: expect.any(String),
-          name: 'unknown',
-          group: 'component',
-          edges: [],
-          languages: {},
-          path: ['/docker-compose.yml'],
-          tech: null,
-          techs: [],
-          inComponent: null,
-          childs: [],
-        },
-      ],
-      edges: [],
-      group: 'component',
-      id: expect.any(String),
-      inComponent: null,
-      languages: {},
-      name: 'main',
-      path: ['/'],
-      tech: null,
-      techs: [],
-    });
+    expect(cleanSnapshot(res.toJson())).toMatchSnapshot();
 
     const flatted = flatten(res);
     expect(

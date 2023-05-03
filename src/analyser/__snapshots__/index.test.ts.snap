@@ -5,6 +5,297 @@ exports[`techAnalyser > should run correctly 1`] = `
   "childs": [
     {
       "childs": [],
+      "dependencies": [
+        [
+          "docker",
+          "postgres",
+          "14.5-alpine",
+        ],
+      ],
+      "edges": [],
+      "group": "component",
+      "id": "",
+      "inComponent": null,
+      "languages": {},
+      "name": "db",
+      "path": [
+        "/docker-compose.yml",
+      ],
+      "tech": "postgresql",
+      "techs": [],
+    },
+    {
+      "childs": [
+        {
+          "childs": [],
+          "dependencies": [
+            [
+              "npm",
+              "fastify",
+              "4.17.0",
+            ],
+            [
+              "npm",
+              "prisma",
+              "4.13.0",
+            ],
+            [
+              "npm",
+              "typescript",
+              "5.0.4",
+            ],
+          ],
+          "edges": [],
+          "group": "component",
+          "id": "",
+          "inComponent": null,
+          "languages": {
+            "JSON": 1,
+          },
+          "name": "@fake/api",
+          "path": [
+            "/pkgs/api/package.json",
+          ],
+          "tech": null,
+          "techs": [
+            "fastify",
+            "nodejs",
+            "prisma",
+            "typescript",
+          ],
+        },
+        {
+          "childs": [
+            {
+              "childs": [],
+              "dependencies": [],
+              "edges": [],
+              "group": "hosting",
+              "id": "",
+              "inComponent": null,
+              "languages": {},
+              "name": "vercel",
+              "path": [
+                "/pkgs/app/package.json",
+              ],
+              "tech": "vercel",
+              "techs": [],
+            },
+          ],
+          "dependencies": [
+            [
+              "npm",
+              "react",
+              "4.17.0",
+            ],
+            [
+              "npm",
+              "typescript",
+              "5.0.4",
+            ],
+            [
+              "npm",
+              "vite",
+              "4.3.3",
+            ],
+          ],
+          "edges": [],
+          "group": "component",
+          "id": "",
+          "inComponent": "",
+          "languages": {
+            "HTML": 1,
+            "JSON": 1,
+            "SCSS": 1,
+          },
+          "name": "@fake/app",
+          "path": [
+            "/pkgs/app/package.json",
+          ],
+          "tech": null,
+          "techs": [
+            "html",
+            "nodejs",
+            "react",
+            "scss",
+            "typescript",
+            "vercel",
+            "vite",
+          ],
+        },
+        {
+          "childs": [],
+          "dependencies": [
+            [
+              "terraform",
+              "registry.terraform.io/hashicorp/google",
+              "4.61.0",
+            ],
+          ],
+          "edges": [],
+          "group": "hosting",
+          "id": "",
+          "inComponent": null,
+          "languages": {},
+          "name": "GCP",
+          "path": [
+            "/terraform/.terraform.lock.hcl",
+          ],
+          "tech": "gcp",
+          "techs": [],
+        },
+        {
+          "childs": [],
+          "dependencies": [
+            [
+              "terraform",
+              "registry.terraform.io/vercel/vercel",
+              "4.61.0",
+            ],
+          ],
+          "edges": [],
+          "group": "hosting",
+          "id": "",
+          "inComponent": null,
+          "languages": {},
+          "name": "Vercel",
+          "path": [
+            "/terraform/.terraform.lock.hcl",
+          ],
+          "tech": "vercel",
+          "techs": [],
+        },
+      ],
+      "dependencies": [
+        [
+          "npm",
+          "@typescript-eslint/eslint-plugin",
+          "5.57.1",
+        ],
+        [
+          "npm",
+          "@typescript-eslint/parser",
+          "5.57.1",
+        ],
+        [
+          "npm",
+          "eslint",
+          "8.39.0",
+        ],
+        [
+          "npm",
+          "prettier",
+          "2.8.7",
+        ],
+        [
+          "npm",
+          "typescript",
+          "4.9.5",
+        ],
+      ],
+      "edges": [],
+      "group": "component",
+      "id": "",
+      "inComponent": null,
+      "languages": {
+        "HCL": 1,
+        "JSON": 1,
+        "YAML": 1,
+      },
+      "name": "fake",
+      "path": [
+        "/package.json",
+      ],
+      "tech": null,
+      "techs": [
+        "docker",
+        "eslint",
+        "nodejs",
+        "prettier",
+        "terraform",
+        "typescript",
+      ],
+    },
+    {
+      "childs": [],
+      "dependencies": [
+        [
+          "docker",
+          "redis",
+          "7.0.4-alpine",
+        ],
+      ],
+      "edges": [],
+      "group": "component",
+      "id": "",
+      "inComponent": null,
+      "languages": {},
+      "name": "redis",
+      "path": [
+        "/docker-compose.yml",
+      ],
+      "tech": "redis",
+      "techs": [],
+    },
+    {
+      "childs": [],
+      "dependencies": [
+        [
+          "docker",
+          "unknown",
+          "7.17.5",
+        ],
+      ],
+      "edges": [],
+      "group": "component",
+      "id": "",
+      "inComponent": null,
+      "languages": {},
+      "name": "unknown",
+      "path": [
+        "/docker-compose.yml",
+      ],
+      "tech": null,
+      "techs": [],
+    },
+  ],
+  "dependencies": [],
+  "edges": [],
+  "group": "component",
+  "id": "",
+  "inComponent": null,
+  "languages": {},
+  "name": "main",
+  "path": [
+    "/",
+  ],
+  "tech": null,
+  "techs": [],
+}
+`;
+
+exports[`techAnalyser > should run correctly 2`] = `
+{
+  "childs": [
+    {
+      "childs": [],
+      "dependencies": [
+        [
+          "npm",
+          "fastify",
+          "4.17.0",
+        ],
+        [
+          "npm",
+          "prisma",
+          "4.13.0",
+        ],
+        [
+          "npm",
+          "typescript",
+          "5.0.4",
+        ],
+      ],
       "edges": [],
       "group": "component",
       "id": "",
@@ -26,6 +317,23 @@ exports[`techAnalyser > should run correctly 1`] = `
     },
     {
       "childs": [],
+      "dependencies": [
+        [
+          "npm",
+          "react",
+          "4.17.0",
+        ],
+        [
+          "npm",
+          "typescript",
+          "5.0.4",
+        ],
+        [
+          "npm",
+          "vite",
+          "4.3.3",
+        ],
+      ],
       "edges": [],
       "group": "component",
       "id": "",
@@ -52,6 +360,13 @@ exports[`techAnalyser > should run correctly 1`] = `
     },
     {
       "childs": [],
+      "dependencies": [
+        [
+          "terraform",
+          "registry.terraform.io/hashicorp/google",
+          "4.61.0",
+        ],
+      ],
       "edges": [],
       "group": "hosting",
       "id": "",
@@ -66,6 +381,13 @@ exports[`techAnalyser > should run correctly 1`] = `
     },
     {
       "childs": [],
+      "dependencies": [
+        [
+          "docker",
+          "postgres",
+          "14.5-alpine",
+        ],
+      ],
       "edges": [],
       "group": "component",
       "id": "",
@@ -80,6 +402,33 @@ exports[`techAnalyser > should run correctly 1`] = `
     },
     {
       "childs": [],
+      "dependencies": [
+        [
+          "npm",
+          "@typescript-eslint/eslint-plugin",
+          "5.57.1",
+        ],
+        [
+          "npm",
+          "@typescript-eslint/parser",
+          "5.57.1",
+        ],
+        [
+          "npm",
+          "eslint",
+          "8.39.0",
+        ],
+        [
+          "npm",
+          "prettier",
+          "2.8.7",
+        ],
+        [
+          "npm",
+          "typescript",
+          "4.9.5",
+        ],
+      ],
       "edges": [],
       "group": "component",
       "id": "",
@@ -105,6 +454,7 @@ exports[`techAnalyser > should run correctly 1`] = `
     },
     {
       "childs": [],
+      "dependencies": [],
       "edges": [],
       "group": "component",
       "id": "",
@@ -119,6 +469,13 @@ exports[`techAnalyser > should run correctly 1`] = `
     },
     {
       "childs": [],
+      "dependencies": [
+        [
+          "docker",
+          "redis",
+          "7.0.4-alpine",
+        ],
+      ],
       "edges": [],
       "group": "component",
       "id": "",
@@ -133,6 +490,13 @@ exports[`techAnalyser > should run correctly 1`] = `
     },
     {
       "childs": [],
+      "dependencies": [
+        [
+          "docker",
+          "unknown",
+          "7.17.5",
+        ],
+      ],
       "edges": [],
       "group": "component",
       "id": "",
@@ -147,6 +511,13 @@ exports[`techAnalyser > should run correctly 1`] = `
     },
     {
       "childs": [],
+      "dependencies": [
+        [
+          "terraform",
+          "registry.terraform.io/vercel/vercel",
+          "4.61.0",
+        ],
+      ],
       "edges": [],
       "group": "hosting",
       "id": "",
@@ -160,6 +531,88 @@ exports[`techAnalyser > should run correctly 1`] = `
       "tech": "vercel",
       "techs": [],
     },
+  ],
+  "dependencies": [
+    [
+      "docker",
+      "postgres",
+      "14.5-alpine",
+    ],
+    [
+      "docker",
+      "redis",
+      "7.0.4-alpine",
+    ],
+    [
+      "docker",
+      "unknown",
+      "7.17.5",
+    ],
+    [
+      "npm",
+      "fastify",
+      "4.17.0",
+    ],
+    [
+      "npm",
+      "prisma",
+      "4.13.0",
+    ],
+    [
+      "npm",
+      "typescript",
+      "5.0.4",
+    ],
+    [
+      "npm",
+      "react",
+      "4.17.0",
+    ],
+    [
+      "npm",
+      "typescript",
+      "5.0.4",
+    ],
+    [
+      "npm",
+      "vite",
+      "4.3.3",
+    ],
+    [
+      "terraform",
+      "registry.terraform.io/hashicorp/google",
+      "4.61.0",
+    ],
+    [
+      "terraform",
+      "registry.terraform.io/vercel/vercel",
+      "4.61.0",
+    ],
+    [
+      "npm",
+      "@typescript-eslint/eslint-plugin",
+      "5.57.1",
+    ],
+    [
+      "npm",
+      "@typescript-eslint/parser",
+      "5.57.1",
+    ],
+    [
+      "npm",
+      "eslint",
+      "8.39.0",
+    ],
+    [
+      "npm",
+      "prettier",
+      "2.8.7",
+    ],
+    [
+      "npm",
+      "typescript",
+      "4.9.5",
+    ],
   ],
   "edges": [],
   "group": "component",

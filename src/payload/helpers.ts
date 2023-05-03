@@ -83,6 +83,7 @@ export function flatten(src: Payload, dest?: Payload): Payload {
 
   src.childs.forEach((component) => flatten(component, dest));
   src.techs.forEach((tech) => dest!.techs.add(tech));
+  dest.dependencies = [...dest.dependencies, ...src.dependencies];
 
   if (src.tech) {
     dest.techs.add(src.tech);

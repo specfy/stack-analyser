@@ -22,7 +22,7 @@ export class Payload {
   public techs: Set<AllowedKeys>;
   public inComponent: string | null;
   public tech: AllowedKeys | null;
-  public dependencies: Record<string, string>;
+  public dependencies: TechAnalyser['dependencies'];
   public edges: GraphEdge[];
 
   private parent?: Payload | null;
@@ -40,7 +40,7 @@ export class Payload {
     folderPath: string;
     parent?: Payload | null;
     tech?: AllowedKeys | null;
-    dependencies?: Record<string, string>;
+    dependencies?: TechAnalyser['dependencies'];
   }) {
     this.id = id || nid();
     this.name = name;
@@ -51,7 +51,7 @@ export class Payload {
     this.techs = new Set();
     this.languages = {};
     this.group = 'component';
-    this.dependencies = dependencies || {};
+    this.dependencies = dependencies || [];
 
     this.parent = parent;
     this.edges = [];
@@ -131,6 +131,11 @@ export class Payload {
           edge.to = exist.id;
         }
       }
+
+      // Merge dependencies
+      // TODO: deep merge
+      exist.dependencies = [...exist.dependencies, ...service.dependencies];
+
       return;
     }
 
@@ -223,6 +228,7 @@ export class Payload {
         }),
       techs: [...this.techs].sort(),
       languages: this.languages,
+      dependencies: this.dependencies,
     };
   }
 

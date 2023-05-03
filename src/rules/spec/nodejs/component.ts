@@ -2,6 +2,7 @@ import type { FullVersion } from 'package-json';
 
 import { Payload } from '../../../payload';
 import { detectDependencies } from '../../../rules';
+import type { TechAnalyser } from '../../../types';
 import type { ComponentMatcher } from '../../../types/rule';
 
 const FILES = ['package.json'];
@@ -37,11 +38,16 @@ export const detectNodeComponent: ComponentMatcher = async (
       ...(json.devDependencies || {}),
     };
     const techs = detectDependencies(Object.keys(deps), 'npm');
+    const depsFlatten: TechAnalyser['dependencies'] = Object.entries(deps).map(
+      (dep: [string, string]) => {
+        return ['npm', dep[0], dep[1]];
+      }
+    );
 
     const pl = new Payload({
       name: json.name,
       folderPath: file.fp,
-      dependencies: deps,
+      dependencies: depsFlatten,
     });
     pl.addTechs([...techs]);
 

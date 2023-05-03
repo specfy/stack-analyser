@@ -42,6 +42,7 @@ export const detectDockerComponent: ComponentMatcher = async (
       // If we don't match, it's fine because docker is mostly made for services
       // It's better to have few false positive, than a lot of missing components
       const matched = [...detectDependencies([service.image], 'docker')];
+      const [imageName, imageVersion] = service.image.split(':');
 
       pl.addComponent(
         new Payload({
@@ -49,6 +50,7 @@ export const detectDockerComponent: ComponentMatcher = async (
           folderPath: file.fp,
           tech: matched[0],
           parent: pl,
+          dependencies: [['docker', imageName, imageVersion || 'latest']],
         })
       );
     }

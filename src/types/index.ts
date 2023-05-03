@@ -1,3 +1,4 @@
+import type { SupportedDeps } from './rule';
 import type { AllowedKeys } from './techs';
 
 export interface GraphEdge {
@@ -20,6 +21,7 @@ export interface TechAnalyser {
   childs: TechAnalyser[];
   languages: Record<string, number>;
   edges: GraphEdge[];
+  dependencies: Array<[SupportedDeps, string, string]>;
 }
 
 export type ComponentGroup = 'component' | 'hosting' | 'project' | 'thirdparty';

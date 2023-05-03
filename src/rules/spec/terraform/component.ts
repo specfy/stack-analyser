@@ -55,6 +55,9 @@ export const detectTerraformComponent: ComponentMatcher = async (
           folderPath: file.fp,
           tech,
           parent: pl,
+          dependencies: [
+            ['terraform', name, json.provider[name][0].version || 'latest'],
+          ],
         })
       );
     }

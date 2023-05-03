@@ -19,7 +19,7 @@ NodeJs:
   ✔ Webpack @done(23-04-29 14:51)
   ✔ Rollup @done(23-04-29 14:51)
   ✔ Esbuild @done(23-04-29 14:51)
-  - Store every dependencies in Payload
+  ✔ Store every dependencies in Payload @done(23-05-03 10:19)
   - Detect link between component a posteriori based on component name
 
 Terraform:
