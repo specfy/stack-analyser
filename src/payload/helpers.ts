@@ -104,33 +104,104 @@ export function findEdges(pl: Payload) {
   });
 }
 
+function pushChids(src: Payload, dest: Payload) {
+  src.childs.forEach((pl) => {
+    const cp = pl.copy();
+    pushChids(cp, dest);
+    cp.childs = [];
+    dest.childs.push(cp);
+  });
+}
 /**
  * Flatten takes a nested Payload and brings everything down to a single level.
  * It merges all fields that can be merged and deduplicate resources that are similar.
  */
-export function flatten(src: Payload, dest?: Payload): Payload {
-  const isRoot = !dest;
-  if (!dest) {
-    dest = new Payload({ name: 'flatten', folderPath: '/' });
-  }
+export function flatten(src: Payload): Payload {
+  // Generate a flat list of childs
+  const dest = new Payload({ name: 'flatten', folderPath: '/' });
+  pushChids(src, dest);
 
-  src.childs.forEach((component) => flatten(component, dest));
-  src.techs.forEach((tech) => dest!.techs.add(tech));
-  dest.dependencies = [...dest.dependencies, ...src.dependencies];
+  // Find and merge duplicates
+  const duplicates: string[] = [];
+  dest.childs.forEach((childA) => {
+    if (duplicates.includes(childA.id)) {
+      return;
+    }
 
-  if (src.tech) {
-    dest.techs.add(src.tech);
-  }
+    // Check against other child
+    dest.childs.forEach((childB) => {
+      if (childA.id === childB.id) {
+        return;
+      }
+      if (childA.tech === null || childB.tech === null) {
+        return;
+      }
+      if (childA.name !== childB.name && childA.tech !== childB.tech) {
+        return;
+      }
 
-  for (const [lang, count] of Object.entries(src.languages)) {
-    dest.addLang(lang, count);
-  }
+      duplicates.push(childB.id);
+      childA.combine(childB);
 
-  const cp = src.copy();
-  cp.childs = [];
-  dest.addComponent(cp);
+      // Update outdated ref
+      dest.childs.forEach((childC) => {
+        if (childC.inComponent?.id === childB.id) {
+          childC.inComponent = childA;
+        }
+        if (childC.parent?.id === childB.id) {
+          childC.inComponent = childA;
+        }
 
-  cp.setParent(null);
+        childC.edges.forEach((edge) => {
+          if (edge.to.id === childB.id) {
+            edge.to = childA;
+          }
+        });
+      });
+    });
+  });
+
+  // Remove duplicates
+  dest.childs = dest.childs.filter((child) => {
+    return !duplicates.includes(child.id);
+  });
+
+  findEdgesInDependencies(dest);
+
+  // Combine everything with their respective parent
+  dest.childs.forEach((child) => {
+    if (child.parent) {
+      child.parent.combine(child);
+    }
+
+    dest.combine(child);
+  });
+
+  // for (let index = 0; index < dest.childs.length; index++) {
+  //   const child = dest.childs[index];
+
+  //   if (duplicates.includes(child.id)) {
+  //     dest.childs.
+  //   }
+  // }
+
+  // src.childs.forEach((component) => flatten(component, dest));
+  // src.techs.forEach((tech) => dest!.techs.add(tech));
+  // dest.dependencies = [...dest.dependencies, ...src.dependencies];
+
+  // if (src.tech) {
+  //   dest.techs.add(src.tech);
+  // }
+
+  // for (const [lang, count] of Object.entries(src.languages)) {
+  //   dest.addLang(lang, count);
+  // }
+
+  // const cp = src.copy();
+  // cp.childs = [];
+  // dest.addComponent(cp);
+
+  // cp.setParent(null);
 
   // if (isRoot) {
   //   findEdgesInDependencies(dest);

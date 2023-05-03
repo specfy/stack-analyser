@@ -24,8 +24,7 @@ export class Payload {
   public tech: AllowedKeys | null;
   public dependencies: TechAnalyser['dependencies'];
   public edges: GraphEdge[];
-
-  private parent?: Payload | null;
+  public parent?: Payload | null;
 
   constructor({
     id,
@@ -133,7 +132,6 @@ export class Payload {
       }
 
       // Merge dependencies
-      // TODO: deep merge
       exist.dependencies = [...exist.dependencies, ...service.dependencies];
 
       return;
@@ -188,6 +186,23 @@ export class Payload {
 
       this.addLang(lang.group || lang.name);
       return;
+    }
+  }
+
+  combine(pl: Payload): void {
+    // Log all paths were it was found
+    this.path = [...new Set([...this.path, ...pl.path])];
+
+    // Merge dependencies
+    // TODO: dedup
+    this.dependencies = [...this.dependencies, ...pl.dependencies];
+
+    for (const [lang, count] of Object.entries(pl.languages)) {
+      this.addLang(lang, count);
+    }
+    pl.techs.forEach((tech) => this.techs.add(tech));
+    if (pl.tech) {
+      this.techs.add(pl.tech);
     }
   }
 

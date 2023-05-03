@@ -1,5 +1,105 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
+exports[`techAnalyser > should register only component of the same tech 1`] = `
+{
+  "childs": [
+    {
+      "childs": [],
+      "dependencies": [
+        [
+          "docker",
+          "postgres",
+          "15.1-alpine",
+        ],
+      ],
+      "edges": [],
+      "group": "component",
+      "id": "",
+      "inComponent": null,
+      "languages": {},
+      "name": "db",
+      "path": [
+        "/docker-compose.yml",
+        "/package.json",
+      ],
+      "tech": "postgresql",
+      "techs": [
+        "postgresql",
+      ],
+    },
+    {
+      "childs": [],
+      "dependencies": [
+        [
+          "npm",
+          "pg",
+          "1.0.0",
+        ],
+      ],
+      "edges": [
+        {
+          "portSource": "right",
+          "portTarget": "left",
+          "read": true,
+          "to": "",
+          "vertices": [],
+          "write": true,
+        },
+      ],
+      "group": "component",
+      "id": "",
+      "inComponent": null,
+      "languages": {
+        "JSON": 1,
+        "YAML": 1,
+      },
+      "name": "test",
+      "path": [
+        "/package.json",
+      ],
+      "tech": null,
+      "techs": [
+        "docker",
+        "nodejs",
+        "postgresql",
+      ],
+    },
+  ],
+  "dependencies": [
+    [
+      "docker",
+      "postgres",
+      "15.1-alpine",
+    ],
+    [
+      "npm",
+      "pg",
+      "1.0.0",
+    ],
+  ],
+  "edges": [],
+  "group": "component",
+  "id": "",
+  "inComponent": null,
+  "languages": {
+    "JSON": 1,
+    "YAML": 1,
+  },
+  "name": "flatten",
+  "path": [
+    "/",
+    "/docker-compose.yml",
+    "/package.json",
+  ],
+  "tech": null,
+  "techs": [
+    "docker",
+    "nodejs",
+    "postgresql",
+  ],
+}
+`;
+
 exports[`techAnalyser > should run correctly 1`] = `
 {
   "childs": [
@@ -27,8 +127,29 @@ exports[`techAnalyser > should run correctly 1`] = `
     {
       "childs": [
         {
-          "childs": [],
+          "childs": [
+            {
+              "childs": [],
+              "dependencies": [],
+              "edges": [],
+              "group": "thirdparty",
+              "id": "",
+              "inComponent": null,
+              "languages": {},
+              "name": "datadog",
+              "path": [
+                "/pkgs/api/package.json",
+              ],
+              "tech": "datadog",
+              "techs": [],
+            },
+          ],
           "dependencies": [
+            [
+              "npm",
+              "dd-trace",
+              "1.0.1",
+            ],
             [
               "npm",
               "fastify",
@@ -45,7 +166,16 @@ exports[`techAnalyser > should run correctly 1`] = `
               "5.0.4",
             ],
           ],
-          "edges": [],
+          "edges": [
+            {
+              "portSource": "right",
+              "portTarget": "left",
+              "read": true,
+              "to": "",
+              "vertices": [],
+              "write": true,
+            },
+          ],
           "group": "component",
           "id": "",
           "inComponent": null,
@@ -58,6 +188,7 @@ exports[`techAnalyser > should run correctly 1`] = `
           ],
           "tech": null,
           "techs": [
+            "datadog",
             "fastify",
             "nodejs",
             "prisma",
@@ -287,6 +418,11 @@ exports[`techAnalyser > should run correctly 2`] = `
       "dependencies": [
         [
           "npm",
+          "dd-trace",
+          "1.0.1",
+        ],
+        [
+          "npm",
           "fastify",
           "4.17.0",
         ],
@@ -301,7 +437,16 @@ exports[`techAnalyser > should run correctly 2`] = `
           "5.0.4",
         ],
       ],
-      "edges": [],
+      "edges": [
+        {
+          "portSource": "right",
+          "portTarget": "left",
+          "read": true,
+          "to": "",
+          "vertices": [],
+          "write": true,
+        },
+      ],
       "group": "component",
       "id": "",
       "inComponent": null,
@@ -314,6 +459,7 @@ exports[`techAnalyser > should run correctly 2`] = `
       ],
       "tech": null,
       "techs": [
+        "datadog",
         "fastify",
         "nodejs",
         "prisma",
@@ -344,7 +490,16 @@ exports[`techAnalyser > should run correctly 2`] = `
           "4.3.3",
         ],
       ],
-      "edges": [],
+      "edges": [
+        {
+          "portSource": "right",
+          "portTarget": "left",
+          "read": true,
+          "to": "",
+          "vertices": [],
+          "write": true,
+        },
+      ],
       "group": "component",
       "id": "",
       "inComponent": "",
@@ -387,6 +542,21 @@ exports[`techAnalyser > should run correctly 2`] = `
         "/terraform/.terraform.lock.hcl",
       ],
       "tech": "gcp",
+      "techs": [],
+    },
+    {
+      "childs": [],
+      "dependencies": [],
+      "edges": [],
+      "group": "thirdparty",
+      "id": "",
+      "inComponent": null,
+      "languages": {},
+      "name": "datadog",
+      "path": [
+        "/pkgs/api/package.json",
+      ],
+      "tech": "datadog",
       "techs": [],
     },
     {
@@ -445,7 +615,9 @@ exports[`techAnalyser > should run correctly 2`] = `
       "inComponent": null,
       "languages": {
         "HCL": 1,
-        "JSON": 1,
+        "HTML": 1,
+        "JSON": 3,
+        "SCSS": 1,
         "YAML": 1,
       },
       "name": "fake",
@@ -461,21 +633,6 @@ exports[`techAnalyser > should run correctly 2`] = `
         "terraform",
         "typescript",
       ],
-    },
-    {
-      "childs": [],
-      "dependencies": [],
-      "edges": [],
-      "group": "component",
-      "id": "",
-      "inComponent": null,
-      "languages": {},
-      "name": "main",
-      "path": [
-        "/",
-      ],
-      "tech": null,
-      "techs": [],
     },
     {
       "childs": [],
@@ -539,7 +696,9 @@ exports[`techAnalyser > should run correctly 2`] = `
         "/terraform/.terraform.lock.hcl",
       ],
       "tech": "vercel",
-      "techs": [],
+      "techs": [
+        "vercel",
+      ],
     },
   ],
   "dependencies": [
@@ -560,6 +719,11 @@ exports[`techAnalyser > should run correctly 2`] = `
     ],
     [
       "npm",
+      "dd-trace",
+      "1.0.1",
+    ],
+    [
+      "npm",
       "fastify",
       "4.17.0",
     ],
@@ -572,6 +736,11 @@ exports[`techAnalyser > should run correctly 2`] = `
       "npm",
       "typescript",
       "5.0.4",
+    ],
+    [
+      "terraform",
+      "registry.terraform.io/vercel/vercel",
+      "4.61.0",
     ],
     [
       "npm",
@@ -596,11 +765,6 @@ exports[`techAnalyser > should run correctly 2`] = `
     [
       "terraform",
       "registry.terraform.io/hashicorp/google",
-      "4.61.0",
-    ],
-    [
-      "terraform",
-      "registry.terraform.io/vercel/vercel",
       "4.61.0",
     ],
     [
@@ -635,17 +799,23 @@ exports[`techAnalyser > should run correctly 2`] = `
   "inComponent": null,
   "languages": {
     "HCL": 1,
-    "HTML": 1,
-    "JSON": 3,
-    "SCSS": 1,
+    "HTML": 2,
+    "JSON": 5,
+    "SCSS": 2,
     "YAML": 1,
   },
   "name": "flatten",
   "path": [
     "/",
+    "/docker-compose.yml",
+    "/pkgs/api/package.json",
+    "/pkgs/app/package.json",
+    "/terraform/.terraform.lock.hcl",
+    "/package.json",
   ],
   "tech": null,
   "techs": [
+    "datadog",
     "docker",
     "eslint",
     "fastify",

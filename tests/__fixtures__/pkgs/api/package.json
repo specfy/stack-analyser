@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "devDependencies": {
+    "dd-trace": "1.0.1",
     "fastify": "4.17.0",
     "prisma": "4.13.0",
     "typescript": "5.0.4"

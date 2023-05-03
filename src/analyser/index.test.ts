@@ -79,6 +79,17 @@ describe('techAnalyser', () => {
     expect(cleanSnapshot(res.toJson())).toMatchSnapshot();
 
     const flatted = flatten(res);
+
+    // Check that inComponent was updated
+    const vercel = flatted.childs.find((child) => child.name === 'vercel')!;
+    const app = flatted.childs.find((child) => child.name === '@fake/app');
+    expect(app!.inComponent!.id).toBe(vercel.id);
+
+    // Check that edge.to was updated
+    const datadog = flatted.childs.find((child) => child.name === 'datadog')!;
+    const api = flatted.childs.find((child) => child.name === '@fake/api');
+    expect(api!.edges[0].to.id).toBe(datadog.id);
+
     expect(
       cleanSnapshot(JSON.parse(JSON.stringify(flatted.toJson())))
     ).toMatchSnapshot();

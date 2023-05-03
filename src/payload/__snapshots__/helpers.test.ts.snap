@@ -1,0 +1,155 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`findEdgesInDependencies > should find an edge 1`] = `
+Payload {
+  "childs": [
+    Payload {
+      "childs": [],
+      "dependencies": [],
+      "edges": [],
+      "group": "component",
+      "id": "2",
+      "inComponent": null,
+      "languages": {},
+      "name": "2",
+      "parent": undefined,
+      "path": [
+        "/",
+      ],
+      "tech": null,
+      "techs": Set {},
+    },
+    Payload {
+      "childs": [],
+      "dependencies": [
+        [
+          "npm",
+          "2",
+          "0.0.0",
+        ],
+      ],
+      "edges": [
+        {
+          "portSource": "right",
+          "portTarget": "left",
+          "read": true,
+          "to": Payload {
+            "childs": [],
+            "dependencies": [],
+            "edges": [],
+            "group": "component",
+            "id": "2",
+            "inComponent": null,
+            "languages": {},
+            "name": "2",
+            "parent": undefined,
+            "path": [
+              "/",
+            ],
+            "tech": null,
+            "techs": Set {},
+          },
+          "vertices": [],
+          "write": true,
+        },
+      ],
+      "group": "component",
+      "id": "3",
+      "inComponent": null,
+      "languages": {},
+      "name": "3",
+      "parent": undefined,
+      "path": [
+        "/",
+      ],
+      "tech": null,
+      "techs": Set {},
+    },
+  ],
+  "dependencies": [],
+  "edges": [],
+  "group": "component",
+  "id": "1",
+  "inComponent": null,
+  "languages": {},
+  "name": "main",
+  "parent": undefined,
+  "path": [
+    "",
+  ],
+  "tech": null,
+  "techs": Set {},
+}
+`;
+
+exports[`flatten > should flatten 1`] = `
+{
+  "childs": [
+    {
+      "childs": [],
+      "dependencies": [
+        [
+          "npm",
+          "aa",
+          "0.0.0",
+        ],
+      ],
+      "edges": [],
+      "group": "component",
+      "id": "2",
+      "inComponent": null,
+      "languages": {},
+      "name": "2",
+      "path": [
+        "/",
+      ],
+      "tech": null,
+      "techs": [],
+    },
+    {
+      "childs": [],
+      "dependencies": [
+        [
+          "npm",
+          "bb",
+          "0.0.0",
+        ],
+      ],
+      "edges": [],
+      "group": "component",
+      "id": "3",
+      "inComponent": null,
+      "languages": {},
+      "name": "3",
+      "path": [
+        "/",
+      ],
+      "tech": null,
+      "techs": [],
+    },
+  ],
+  "dependencies": [
+    [
+      "npm",
+      "bb",
+      "0.0.0",
+    ],
+    [
+      "npm",
+      "aa",
+      "0.0.0",
+    ],
+  ],
+  "edges": [],
+  "group": "component",
+  "id": "new",
+  "inComponent": null,
+  "languages": {},
+  "name": "flatten",
+  "path": [
+    "/",
+  ],
+  "tech": null,
+  "techs": [],
+}
+`;
