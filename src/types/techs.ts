@@ -110,6 +110,7 @@ export type AllowedKeys =
   | 'tailwind'
   | 'teamcity'
   | 'terraform'
+  | 'terragrunt'
   | 'traefik'
   | 'travisci'
   | 'typescript'

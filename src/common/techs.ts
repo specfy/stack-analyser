@@ -101,6 +101,7 @@ export const list: TechItem[] = [
   { key: 'tailwind', name: 'Tailwind', type: 'tool' },
   { key: 'teamcity', name: 'TeamCity', type: 'ci' },
   { key: 'terraform', name: 'Terraform', type: 'tool' },
+  { key: 'terragrunt', name: 'Terragrunt', type: 'tool' },
   { key: 'traefik', name: 'Traefik', type: 'tool' },
   { key: 'travisci', name: 'TravisCI', type: 'ci' },
   { key: 'typescript', name: 'Typescript', type: 'language' },

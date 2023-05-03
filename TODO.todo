@@ -2,7 +2,7 @@ Language detection:
   ✔ extension to language @done(23-04-29 14:51)
 
 NodeJs:
-  - Check import of others services
+  ✔ Check import of others services @done(23-05-03 15:25)
   ✔ Detect Elasticsearch @done(23-04-26 11:20)
   ✔ Detect Sentry @done(23-04-26 11:15)
   ✔ Detect Datadog @done(23-04-26 11:14)
@@ -20,7 +20,7 @@ NodeJs:
   ✔ Rollup @done(23-04-29 14:51)
   ✔ Esbuild @done(23-04-29 14:51)
   ✔ Store every dependencies in Payload @done(23-05-03 10:19)
-  - Detect link between component a posteriori based on component name
+  ✔ Detect link between component a posteriori based on component name @done(23-05-03 15:25)
 
 Terraform:
   ✔ Kubernetes @done(23-05-02 11:45)
