@@ -24,7 +24,7 @@ describe('findEdgesInDependencies', () => {
 });
 
 describe('flatten', () => {
-  it('should flatten', () => {
+  it('should flatten and merge dependencies', () => {
     const main = new Payload({ id: '1', name: 'main', folderPath: '' });
     const sub = new Payload({
       id: '2',
@@ -47,5 +47,49 @@ describe('flatten', () => {
     flat.id = 'new';
 
     expect(flat.toJson()).toMatchSnapshot();
+  });
+
+  it('should flatten and merge host', () => {
+    const main = new Payload({ id: '1', name: 'main', folderPath: '' });
+
+    // first component
+    const host1 = new Payload({
+      id: '4',
+      name: '4',
+      folderPath: '/',
+      tech: 'vercel',
+    });
+    const sub1 = new Payload({
+      id: '2',
+      name: '2',
+      folderPath: '/',
+    });
+    sub1.childs.push(host1);
+    sub1.inComponent = host1;
+
+    // second component
+    const host2 = new Payload({
+      id: '5',
+      name: '5',
+      folderPath: '/',
+      tech: 'vercel',
+    });
+    const sub2 = new Payload({
+      id: '6',
+      name: '6',
+      folderPath: '/',
+    });
+    sub2.childs.push(host2);
+    sub2.inComponent = host2;
+
+    // Push everything into main
+    main.childs.push(sub1, sub2);
+
+    const flat = flatten(main);
+    flat.id = 'new';
+
+    expect(flat.toJson()).toMatchSnapshot();
+    expect(flat.childs[1].inComponent!.id).toEqual('4');
+    expect(flat.childs[2].inComponent!.id).toEqual('4');
   });
 });

@@ -53,6 +53,13 @@ export function findHosting(pl: Payload, tech: AllowedKeys) {
   pl.inComponent = find;
 }
 
+/**
+ * Some edges can be found in the dependencies, i.e:
+ * - in monorepo or in some language you can have many folders and import another folder.
+ *
+ * We try to find those import, using only the dependencies (not opening the code),
+ * it can lead to some false positive with very generic names.
+ */
 export function findEdgesInDependencies(pl: Payload) {
   const names = new Set<string>();
   pl.childs.forEach((child) => names.add(child.name));
@@ -76,30 +83,6 @@ export function findEdgesInDependencies(pl: Payload) {
       }
 
       child.addEdges(pl.childs.find((c) => c.name === name)!);
-    });
-  });
-}
-
-// TODO: is it still necessary?
-export function findEdges(pl: Payload) {
-  pl.childs.forEach((component) => {
-    component.techs.forEach((tech) => {
-      const ref = listIndexed[tech];
-
-      if (
-        ref.type === 'sass' ||
-        ref.type === 'app' ||
-        ref.type === 'db' ||
-        ref.type === 'messaging'
-      ) {
-        const find = pl.childs.find((c) => c.tech === ref.key);
-        if (!find) {
-          throw new Error(`cant find sass ${ref.key}`);
-        }
-        component.addEdges(find);
-
-        return;
-      }
     });
   });
 }
@@ -179,34 +162,5 @@ export function flatten(src: Payload): Payload {
 
   dest.combine(src);
 
-  // for (let index = 0; index < dest.childs.length; index++) {
-  //   const child = dest.childs[index];
-
-  //   if (duplicates.includes(child.id)) {
-  //     dest.childs.
-  //   }
-  // }
-
-  // src.childs.forEach((component) => flatten(component, dest));
-  // src.techs.forEach((tech) => dest!.techs.add(tech));
-  // dest.dependencies = [...dest.dependencies, ...src.dependencies];
-
-  // if (src.tech) {
-  //   dest.techs.add(src.tech);
-  // }
-
-  // for (const [lang, count] of Object.entries(src.languages)) {
-  //   dest.addLang(lang, count);
-  // }
-
-  // const cp = src.copy();
-  // cp.childs = [];
-  // dest.addComponent(cp);
-
-  // cp.setParent(null);
-
-  // if (isRoot) {
-  //   findEdgesInDependencies(dest);
-  // }
   return dest;
 }
