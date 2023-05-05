@@ -23,6 +23,9 @@ describe('techAnalyser', () => {
   });
 
   it('should list from API', async () => {
+    const sha =
+      process.env.GITHUB_SHA || 'b0f26cec5cbb81eec2994f0e87bb4e78b3ca38f1';
+
     const res = await techAnalyser({
       provider: new GithubAPIProvider({
         path: '/tests/__fixtures__',
@@ -31,7 +34,7 @@ describe('techAnalyser', () => {
         }),
         owner: 'specfy',
         repo: 'tech-analyser',
-        hash: 'b0f26cec5cbb81eec2994f0e87bb4e78b3ca38f1',
+        hash: sha,
       }),
     });
 
