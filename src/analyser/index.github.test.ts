@@ -2,7 +2,7 @@ import path from 'node:path';
 
 import * as dotenv from 'dotenv';
 import { Octokit } from 'octokit';
-import { describe, it, expect, vi, beforeEach } from 'vitest';
+import { describe, it, expect, vi, beforeEach, beforeAll } from 'vitest';
 
 import { FSProvider } from '../provider/fs';
 import { GithubAPIProvider } from '../provider/githubApi';
@@ -10,14 +10,16 @@ import { cleanNestedSnapshot } from '../tests/helpers';
 
 import { analyser } from '.';
 
-dotenv.config();
-
 let id = 0;
 vi.mock('../common/nid.ts', () => {
   return { nid: () => `${id++}` };
 });
 
 describe('analyser', () => {
+  beforeAll(() => {
+    dotenv.config();
+  });
+
   beforeEach(() => {
     vi.resetAllMocks();
   });
@@ -33,6 +35,10 @@ describe('analyser', () => {
           path: '/tests/__fixtures__',
           octokit: new Octokit({
             auth: process.env.GITHUB_TOKEN,
+            request: {
+              timeout: 1000,
+              retries: 0,
+            },
           }),
           owner: 'specfy',
           repo: 'tech-analyser',
