@@ -1,0 +1,11 @@
+*.test.js
+*.test.d.ts
+*.test.d.ts.map
+src/
+tests/
+*.tgz
+.github
+.eslint*
+TODO.todo
+.env
+coverage/

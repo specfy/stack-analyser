@@ -22,36 +22,40 @@ describe('analyser', () => {
     vi.resetAllMocks();
   });
 
-  it('should list from API', async () => {
-    const sha =
-      process.env.GITHUB_SHA || 'b0f26cec5cbb81eec2994f0e87bb4e78b3ca38f1';
+  it(
+    'should list from API',
+    async () => {
+      const sha =
+        process.env.GITHUB_SHA || 'b0f26cec5cbb81eec2994f0e87bb4e78b3ca38f1';
 
-    const res = await analyser({
-      provider: new GithubAPIProvider({
-        path: '/tests/__fixtures__',
-        octokit: new Octokit({
-          auth: process.env.GITHUB_TOKEN,
+      const res = await analyser({
+        provider: new GithubAPIProvider({
+          path: '/tests/__fixtures__',
+          octokit: new Octokit({
+            auth: process.env.GITHUB_TOKEN,
+          }),
+          owner: 'specfy',
+          repo: 'tech-analyser',
+          hash: sha,
         }),
-        owner: 'specfy',
-        repo: 'tech-analyser',
-        hash: sha,
-      }),
-    });
+      });
 
-    expect(res.toJson('')).toMatchSnapshot();
+      expect(res.toJson('')).toMatchSnapshot();
 
-    // Compare the github api and filesystem results
-    // They should output the same thing
-    const resFs = await analyser({
-      provider: new FSProvider({
-        path: path.join(__dirname, '../../tests/__fixtures__'),
-      }),
-    });
+      // Compare the github api and filesystem results
+      // They should output the same thing
+      const resFs = await analyser({
+        provider: new FSProvider({
+          path: path.join(__dirname, '../../tests/__fixtures__'),
+        }),
+      });
 
-    const root = path.join(__dirname, '../..');
+      const root = path.join(__dirname, '../..');
 
-    expect(cleanNestedSnapshot(res.toJson(root))).toStrictEqual(
-      cleanNestedSnapshot(resFs.toJson(root))
-    );
-  });
+      expect(cleanNestedSnapshot(res.toJson(root))).toStrictEqual(
+        cleanNestedSnapshot(resFs.toJson(root))
+      );
+    },
+    { timeout: 10000 }
+  );
 });
