@@ -3,6 +3,7 @@ import path from 'node:path';
 import type { BaseProvider, ProviderFile } from './base';
 
 export class FakeProvider implements BaseProvider {
+  basePath: string;
   private paths;
   private files;
 
@@ -12,6 +13,7 @@ export class FakeProvider implements BaseProvider {
   }) {
     this.paths = opts.paths;
     this.files = opts.files;
+    this.basePath = '/';
   }
 
   listDir(pathRelative: string): Promise<ProviderFile[]> {

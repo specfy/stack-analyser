@@ -10,15 +10,15 @@ export interface FSProviderOptions {
 
 export class FSProvider implements BaseProvider {
   opts;
+  basePath;
 
   constructor(opts: FSProviderOptions) {
     this.opts = opts;
+    this.basePath = opts.path;
   }
 
   async listDir(pathRelative: string): Promise<ProviderFile[]> {
-    const fp = path.join(this.opts.path, pathRelative);
-
-    const files = await fs.readdir(fp, {
+    const files = await fs.readdir(pathRelative, {
       withFileTypes: true,
     });
 
@@ -34,8 +34,7 @@ export class FSProvider implements BaseProvider {
   }
 
   async open(pathRelative: string): Promise<string> {
-    const fp = path.join(this.opts.path, pathRelative);
-    const content = await fs.readFile(fp);
+    const content = await fs.readFile(pathRelative);
 
     return content.toString();
   }

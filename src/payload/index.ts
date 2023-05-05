@@ -6,6 +6,7 @@ import { listIndexed, nameToKey } from '../common/techs';
 import type { BaseProvider } from '../provider/base';
 import { IGNORED_DIVE_PATHS } from '../provider/base';
 import { rulesComponents, rulesTechs } from '../rules';
+import { cleanPath } from '../tests/helpers';
 import type { ComponentGroup, GraphEdge, TechAnalyser } from '../types';
 import type { AllowedKeys } from '../types/techs';
 
@@ -226,12 +227,12 @@ export class Payload {
     return cp;
   }
 
-  toJson(): TechAnalyser {
+  toJson(root: string): TechAnalyser {
     return {
       id: this.id,
       name: this.name,
       group: this.group,
-      path: this.path,
+      path: cleanPath(this.path, root),
       tech: this.tech,
       edges: this.edges.map((edge) => {
         return { ...edge, to: edge.to.id };
@@ -239,7 +240,7 @@ export class Payload {
       inComponent: this.inComponent ? this.inComponent.id : null,
       childs: this.childs
         .map((service) => {
-          return service.toJson();
+          return service.toJson(root);
         })
         .sort((a, b) => {
           return a.name > b.name ? 1 : -1;

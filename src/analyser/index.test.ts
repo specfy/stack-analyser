@@ -40,7 +40,7 @@ describe('techAnalyser', () => {
       }),
     });
 
-    expect(res.toJson()).toStrictEqual({
+    expect(res.toJson('')).toStrictEqual({
       id: expect.any(String),
       name: 'main',
       group: 'component',
@@ -69,19 +69,20 @@ describe('techAnalyser', () => {
     });
 
     const flat = flatten(res);
-    const json: TechAnalyser = JSON.parse(JSON.stringify(flat.toJson()));
+    const json: TechAnalyser = JSON.parse(JSON.stringify(flat.toJson('')));
     expect(json).toMatchSnapshot();
     expect(flat.childs[0].id).toEqual(flat.childs[1].edges[0].to.id);
   });
 
   it('should run correctly', async () => {
+    const root = path.join(__dirname, '../../tests/__fixtures__');
     const res = await techAnalyser({
       provider: new FSProvider({
-        path: path.join(__dirname, '../../tests/__fixtures__'),
+        path: root,
       }),
     });
 
-    expect(res.toJson()).toMatchSnapshot();
+    expect(res.toJson(root)).toMatchSnapshot();
 
     const flatted = flatten(res);
 
@@ -95,6 +96,6 @@ describe('techAnalyser', () => {
     const api = flatted.childs.find((child) => child.name === '@fake/api');
     expect(api!.edges[0].to.id).toBe(datadog.id);
 
-    expect(JSON.parse(JSON.stringify(flatted.toJson()))).toMatchSnapshot();
+    expect(JSON.parse(JSON.stringify(flatted.toJson(root)))).toMatchSnapshot();
   });
 });

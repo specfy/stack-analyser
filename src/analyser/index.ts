@@ -1,7 +1,8 @@
 import { Payload } from '../payload';
+import type { BaseProvider } from '../provider/base';
 
 export interface TechAnalyserOptions {
-  provider: any;
+  provider: BaseProvider;
 }
 
 export async function techAnalyser(
@@ -10,7 +11,7 @@ export async function techAnalyser(
   const provider = opts.provider;
   const pl = new Payload({ name: 'main', folderPath: '/' });
 
-  await pl.recurse(provider, '/');
+  await pl.recurse(provider, provider.basePath);
 
   return pl;
 }

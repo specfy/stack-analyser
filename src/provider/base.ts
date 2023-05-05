@@ -5,6 +5,7 @@ export interface ProviderFile {
 }
 
 export interface BaseProvider {
+  basePath: string;
   listDir: (pathRelative: string) => Promise<ProviderFile[]>;
   open: (path: string) => Promise<string>;
 }
