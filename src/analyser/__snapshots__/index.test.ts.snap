@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`techAnalyser > should register only component of the same tech 1`] = `
+exports[`analyser > should register only component of the same tech 1`] = `
 {
   "childs": [
     {
@@ -110,7 +110,7 @@ exports[`techAnalyser > should register only component of the same tech 1`] = `
 }
 `;
 
-exports[`techAnalyser > should run correctly 1`] = `
+exports[`analyser > should run correctly 1`] = `
 {
   "childs": [
     {
@@ -420,7 +420,7 @@ exports[`techAnalyser > should run correctly 1`] = `
 }
 `;
 
-exports[`techAnalyser > should run correctly 2`] = `
+exports[`analyser > should run correctly 2`] = `
 {
   "childs": [
     {

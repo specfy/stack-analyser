@@ -5,9 +5,9 @@ import { describe, it, expect, vi, beforeEach } from 'vitest';
 import { flatten } from '../payload/helpers';
 import { FakeProvider } from '../provider/fake';
 import { FSProvider } from '../provider/fs';
-import type { TechAnalyser } from '../types';
+import type { Analyser } from '../types';
 
-import { techAnalyser } from '.';
+import { analyser } from '.';
 
 const dockerCompose = `version: '3'
 services:
@@ -25,13 +25,13 @@ vi.mock('../common/nid.ts', () => {
   return { nid: () => `${id++}` };
 });
 
-describe('techAnalyser', () => {
+describe('analyser', () => {
   beforeEach(() => {
     vi.resetAllMocks();
   });
 
   it('should not find anything', async () => {
-    const res = await techAnalyser({
+    const res = await analyser({
       provider: new FakeProvider({
         paths: {
           '/': [],
@@ -56,7 +56,7 @@ describe('techAnalyser', () => {
   });
 
   it('should register only component of the same tech', async () => {
-    const res = await techAnalyser({
+    const res = await analyser({
       provider: new FakeProvider({
         paths: {
           '/': ['package.json', 'docker-compose.yml'],
@@ -69,14 +69,14 @@ describe('techAnalyser', () => {
     });
 
     const flat = flatten(res);
-    const json: TechAnalyser = JSON.parse(JSON.stringify(flat.toJson('')));
+    const json: Analyser = JSON.parse(JSON.stringify(flat.toJson('')));
     expect(json).toMatchSnapshot();
     expect(flat.childs[0].id).toEqual(flat.childs[1].edges[0].to.id);
   });
 
   it('should run correctly', async () => {
     const root = path.join(__dirname, '../../tests/__fixtures__');
-    const res = await techAnalyser({
+    const res = await analyser({
       provider: new FSProvider({
         path: root,
       }),

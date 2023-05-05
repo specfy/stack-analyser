@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 
-import { techAnalyser } from '../../../analyser';
+import { analyser } from '../../../analyser';
 import { flatten } from '../../../payload/helpers';
 import { FakeProvider } from '../../../provider/fake';
 import { rawList } from '../../../rules';
@@ -22,7 +22,7 @@ for (const item of rawList) {
 
 describe('terraform', () => {
   it('should match everything', async () => {
-    const res = await techAnalyser({
+    const res = await analyser({
       provider: new FakeProvider({
         paths: {
           '/': ['.terraform.lock.hcl'],

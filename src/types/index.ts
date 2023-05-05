@@ -13,7 +13,7 @@ export interface GraphEdge {
   portTarget: 'bottom' | 'left' | 'right' | 'top';
 }
 
-export interface TechAnalyser {
+export interface Analyser {
   id: string;
   name: string;
   group: ComponentGroup;
@@ -21,7 +21,7 @@ export interface TechAnalyser {
   tech: AllowedKeys | null;
   techs: AllowedKeys[];
   inComponent: string | null;
-  childs: TechAnalyser[];
+  childs: Analyser[];
   languages: Record<string, number>;
   edges: Array<Modify<GraphEdge, { to: string }>>;
   dependencies: Array<[SupportedDeps, string, string]>;

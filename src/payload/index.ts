@@ -7,7 +7,7 @@ import type { BaseProvider } from '../provider/base';
 import { IGNORED_DIVE_PATHS } from '../provider/base';
 import { rulesComponents, rulesTechs } from '../rules';
 import { cleanPath } from '../tests/helpers';
-import type { ComponentGroup, GraphEdge, TechAnalyser } from '../types';
+import type { ComponentGroup, GraphEdge, Analyser } from '../types';
 import type { AllowedKeys } from '../types/techs';
 
 import '../rules/index';
@@ -23,7 +23,7 @@ export class Payload {
   public techs: Set<AllowedKeys>;
   public inComponent: Payload | null;
   public tech: AllowedKeys | null;
-  public dependencies: TechAnalyser['dependencies'];
+  public dependencies: Analyser['dependencies'];
   public edges: GraphEdge[];
   public parent?: Payload | null;
 
@@ -40,7 +40,7 @@ export class Payload {
     folderPath: string;
     parent?: Payload | null;
     tech?: AllowedKeys | null;
-    dependencies?: TechAnalyser['dependencies'];
+    dependencies?: Analyser['dependencies'];
   }) {
     this.id = id || nid();
     this.name = name;
@@ -227,7 +227,7 @@ export class Payload {
     return cp;
   }
 
-  toJson(root: string): TechAnalyser {
+  toJson(root: string): Analyser {
     return {
       id: this.id,
       name: this.name,

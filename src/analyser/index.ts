@@ -1,13 +1,11 @@
 import { Payload } from '../payload';
 import type { BaseProvider } from '../provider/base';
 
-export interface TechAnalyserOptions {
+export interface AnalyserOptions {
   provider: BaseProvider;
 }
 
-export async function techAnalyser(
-  opts: TechAnalyserOptions
-): Promise<Payload> {
+export async function analyser(opts: AnalyserOptions): Promise<Payload> {
   const provider = opts.provider;
   const pl = new Payload({ name: 'main', folderPath: '/' });
 

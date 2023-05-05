@@ -1,6 +1,6 @@
-import type { TechAnalyser } from '../types';
+import type { Analyser } from '../types';
 
-export function cleanNestedSnapshot(pl: TechAnalyser) {
+export function cleanNestedSnapshot(pl: Analyser) {
   pl.id = '';
   pl.inComponent = '';
 

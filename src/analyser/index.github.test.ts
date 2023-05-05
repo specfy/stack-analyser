@@ -8,7 +8,7 @@ import { FSProvider } from '../provider/fs';
 import { GithubAPIProvider } from '../provider/githubApi';
 import { cleanNestedSnapshot } from '../tests/helpers';
 
-import { techAnalyser } from '.';
+import { analyser } from '.';
 
 dotenv.config();
 
@@ -17,7 +17,7 @@ vi.mock('../common/nid.ts', () => {
   return { nid: () => `${id++}` };
 });
 
-describe('techAnalyser', () => {
+describe('analyser', () => {
   beforeEach(() => {
     vi.resetAllMocks();
   });
@@ -26,7 +26,7 @@ describe('techAnalyser', () => {
     const sha =
       process.env.GITHUB_SHA || 'b0f26cec5cbb81eec2994f0e87bb4e78b3ca38f1';
 
-    const res = await techAnalyser({
+    const res = await analyser({
       provider: new GithubAPIProvider({
         path: '/tests/__fixtures__',
         octokit: new Octokit({
@@ -42,7 +42,7 @@ describe('techAnalyser', () => {
 
     // Compare the github api and filesystem results
     // They should output the same thing
-    const resFs = await techAnalyser({
+    const resFs = await analyser({
       provider: new FSProvider({
         path: path.join(__dirname, '../../tests/__fixtures__'),
       }),

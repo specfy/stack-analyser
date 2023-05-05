@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`techAnalyser > should list from API 1`] = `
+exports[`analyser > should list from API 1`] = `
 {
   "childs": [
     {
