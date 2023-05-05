@@ -46,7 +46,7 @@ describe('flatten', () => {
     expect(flat.id).not.toBe(main.id);
     flat.id = 'new';
 
-    expect(flat.toJson()).toMatchSnapshot();
+    expect(flat.toJson('')).toMatchSnapshot();
   });
 
   it('should flatten and merge host', () => {
@@ -88,7 +88,7 @@ describe('flatten', () => {
     const flat = flatten(main);
     flat.id = 'new';
 
-    expect(flat.toJson()).toMatchSnapshot();
+    expect(flat.toJson('')).toMatchSnapshot();
     expect(flat.childs[1].inComponent!.id).toEqual('4');
     expect(flat.childs[2].inComponent!.id).toEqual('4');
   });

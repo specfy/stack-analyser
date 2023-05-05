@@ -29,7 +29,7 @@ describe('npm', () => {
         files: {},
       }),
     });
-    expect(res.toJson().techs).toStrictEqual([
+    expect(res.toJson('').techs).toStrictEqual([
       'browserstack',
       'circleci',
       'codesandboxci',
