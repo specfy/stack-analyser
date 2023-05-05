@@ -21,7 +21,6 @@ module.exports = {
   publish: ['@semantic-release/github', {
     path: '@semantic-release/npm',
     npmPublish: true,
-    pkgRoot: "dist/"
   }],
   success: [],
   fail: [],
