@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/specfy/stack-analyser/compare/v1.0.0...v1.0.1) (2023-05-05)
+
+
+### Bug Fixes
+
+* **release:** specfy public release ([e31dd4d](https://github.com/specfy/stack-analyser/commit/e31dd4dcb4cba5d4807c05c2715319da75e2a290))
+
 # 1.0.0 (2023-05-05)
 
 
