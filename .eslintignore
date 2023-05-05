@@ -2,3 +2,5 @@ build/
 *.scss.d.ts
 
 dist/
+node_modules/
+coverage/

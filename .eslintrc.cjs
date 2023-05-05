@@ -20,7 +20,7 @@ module.exports = {
       impliedStrict: true,
       jsx: true,
     },
-    project: './tsconfig.json',
+    project: './tsconfig.lint.json',
   },
   settings: {
     'import/extensions': ['.js', '.jsx', '.ts', '.tsx'],
