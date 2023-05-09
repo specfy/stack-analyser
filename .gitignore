@@ -116,3 +116,6 @@ build/
 *.tfstate.*
 
 .firebase
+
+output.json
+dontcommit.*
