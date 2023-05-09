@@ -34,6 +34,7 @@ describe('npm', () => {
       new Set([
         'algolia',
         'angular',
+        'auth0',
         'bootstrap',
         'browserstack',
         'couchbase',

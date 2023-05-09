@@ -4,6 +4,7 @@ export const list: TechItem[] = [
   { key: 'algolia', name: 'Algolia', type: 'sass' },
   { key: 'alibabacloud', name: 'Alibaba Cloud', type: 'hosting' },
   { key: 'angular', name: 'Angular', type: 'language' },
+  { key: 'auth0', name: 'Auth0', type: 'sass' },
   { key: 'aws', name: 'AWS', type: 'hosting' },
   { key: 'azure', name: 'Azure', type: 'hosting' },
   { key: 'bash', name: 'Bash', type: 'language' },

@@ -36,6 +36,7 @@ describe('terraform', () => {
     expect(flatten(res).techs).toStrictEqual(
       new Set([
         'alibabacloud',
+        'auth0',
         'aws',
         'azure',
         'datadog',
