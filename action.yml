@@ -1,0 +1,14 @@
+name: Run Stack Analyser
+author: Specfy
+description: |-
+  Run Specfy's Stack Analyser and send update to Specfy API
+
+inputs:
+  token:
+    description: |-
+      Specfy Project's Token
+    required: true
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'

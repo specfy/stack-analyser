@@ -9,3 +9,4 @@ tests/
 TODO.todo
 .env
 coverage/
+action/

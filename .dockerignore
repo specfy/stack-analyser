@@ -1,0 +1,59 @@
+# Private keys can be in there
+**/.env
+**/personal-service-account.json
+
+# Dependencies
+**/node_modules
+
+# Useless and heavy folders
+**/build
+**/dist
+coverage/
+docs/
+scripts/
+
+# Logs
+**/*.log
+
+# Other useless files in the image
+cypress/
+.git/
+.github/
+.githooks/
+.circleci/
+.firebase/
+.nodemon.json
+.editorconfig
+.gitattributes
+.coveralls.yml
+.prettierignore
+.prettierrc.js
+.eslintrc.js
+.nvmrc
+.npmrc
+.eslintignore
+.eslinrcjs
+.tern-project
+cypress.json
+cloudbuild.yaml
+docker-compose.yml
+MAINTAINERS.md
+README.md
+CHANGELOG.md
+CONTRIBUTING.md
+**/*.test.ts
+**/*.test.tsx
+**/*.integration-test.ts
+**/*.test.js
+**/*.stories.tsx
+**/*.spec.ts
+**/*.spec.js
+**/*.perf.ts
+renovate.json
+**/jest*
+**/.DS_Store
+.vscode
+**/.storybook/
+**/tsconfig.tsbuildinfo
+**/.terraform
+**/terraform
