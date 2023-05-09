@@ -1,3 +1,16 @@
+# [1.1.0](https://github.com/specfy/stack-analyser/compare/v1.0.1...v1.1.0) (2023-05-09)
+
+
+### Bug Fixes
+
+* **release:** rename to .cjs ([c9d572f](https://github.com/specfy/stack-analyser/commit/c9d572fa80b96f086ea6c8bf44f1ef07f7916a2d))
+
+
+### Features
+
+* **cli:** working basic command + tests ([93355b3](https://github.com/specfy/stack-analyser/commit/93355b33af0dbc758c846518e17113b8e912b5cb))
+* export to esm ([0601722](https://github.com/specfy/stack-analyser/commit/0601722ea4c47edbaed5e6c174b6d788db1af968))
+
 ## [1.0.1](https://github.com/specfy/stack-analyser/compare/v1.0.0...v1.0.1) (2023-05-05)
 
 
