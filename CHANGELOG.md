@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/specfy/stack-analyser/compare/v1.1.0...v1.1.1) (2023-05-09)
+
+
+### Bug Fixes
+
+* **cli:** set as executable ([0718ea4](https://github.com/specfy/stack-analyser/commit/0718ea45a075c2195b76abf0a644c98e2954c409))
+
 # [1.1.0](https://github.com/specfy/stack-analyser/compare/v1.0.1...v1.1.0) (2023-05-09)
 
 
