@@ -1,8 +1,8 @@
 import { parse } from 'yaml';
 
-import { Payload } from '../../../payload';
-import { detectDependencies } from '../../../rules';
-import type { ComponentMatcher } from '../../../types/rule';
+import { Payload } from '../../../payload/index.js';
+import { detectDependencies } from '../../../rules.js';
+import type { ComponentMatcher } from '../../../types/rule.js';
 
 const FILES = ['docker-compose.yml'];
 

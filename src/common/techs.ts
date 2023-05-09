@@ -1,4 +1,4 @@
-import type { AllowedKeys, TechItem } from '../types/techs';
+import type { AllowedKeys, TechItem } from '../types/techs.js';
 
 export const list: TechItem[] = [
   { key: 'algolia', name: 'Algolia', type: 'sass' },

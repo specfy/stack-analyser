@@ -1,9 +1,9 @@
 import { describe, expect, it } from 'vitest';
 
-import { analyser } from '../../../analyser';
-import { flatten } from '../../../payload/helpers';
-import { FakeProvider } from '../../../provider/fake';
-import { rawList } from '../../../rules';
+import { analyser } from '../../../analyser/index.js';
+import { flatten } from '../../../payload/helpers.js';
+import { FakeProvider } from '../../../provider/fake.js';
+import { rawList } from '../../../rules.js';
 
 const lockfile: string[] = [``];
 

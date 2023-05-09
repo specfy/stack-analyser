@@ -1,6 +1,6 @@
-import type { ProviderFile } from '../../provider/base';
-import type { AllowedKeys } from '../../types/techs';
-import { listIndexed } from '../techs';
+import type { ProviderFile } from '../../provider/base.js';
+import type { AllowedKeys } from '../../types/techs.js';
+import { listIndexed } from '../techs.js';
 
 export function matchFiles(
   key: AllowedKeys,

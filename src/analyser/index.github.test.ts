@@ -4,11 +4,11 @@ import * as dotenv from 'dotenv';
 import { Octokit } from 'octokit';
 import { describe, it, expect, vi, beforeEach, beforeAll } from 'vitest';
 
-import { FSProvider } from '../provider/fs';
-import { GithubAPIProvider } from '../provider/githubApi';
-import { cleanNestedSnapshot } from '../tests/helpers';
+import { FSProvider } from '../provider/fs.js';
+import { GithubAPIProvider } from '../provider/githubApi.js';
+import { cleanNestedSnapshot } from '../tests/helpers.js';
 
-import { analyser } from '.';
+import { analyser } from './index.js';
 
 let id = 0;
 vi.mock('../common/nid.ts', () => {

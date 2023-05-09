@@ -1,9 +1,9 @@
 import type { FullVersion } from 'package-json';
 
-import { Payload } from '../../../payload';
-import { detectDependencies } from '../../../rules';
-import type { Analyser } from '../../../types';
-import type { ComponentMatcher } from '../../../types/rule';
+import { Payload } from '../../../payload/index.js';
+import { detectDependencies } from '../../../rules.js';
+import type { Analyser } from '../../../types/index.js';
+import type { ComponentMatcher } from '../../../types/rule.js';
 
 const FILES = ['package.json'];
 

@@ -1,4 +1,4 @@
-import type { Analyser } from '../types';
+import type { Analyser } from '../types/index.js';
 
 export function cleanNestedSnapshot(pl: Analyser) {
   pl.id = '';

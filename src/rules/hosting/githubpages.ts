@@ -1,4 +1,4 @@
-import { register } from '../../rules';
+import { register } from '../../rules.js';
 
 register({
   tech: 'githubpages',

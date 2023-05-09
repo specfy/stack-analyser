@@ -1,5 +1,5 @@
-import './caddy';
-import './httpd';
-import './kibana';
-import './nginx';
-import './zookeeper';
+import './caddy.js';
+import './httpd.js';
+import './kibana.js';
+import './nginx.js';
+import './zookeeper.js';

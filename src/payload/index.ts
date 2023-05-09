@@ -1,17 +1,17 @@
 import path from 'node:path';
 
-import { languages, others } from '../common/languages';
-import { nid } from '../common/nid';
-import { listIndexed, nameToKey } from '../common/techs';
-import type { BaseProvider } from '../provider/base';
-import { IGNORED_DIVE_PATHS } from '../provider/base';
-import { rulesComponents, rulesTechs } from '../rules';
-import { cleanPath } from '../tests/helpers';
-import type { ComponentGroup, GraphEdge, Analyser } from '../types';
-import type { AllowedKeys } from '../types/techs';
+import { languages, others } from '../common/languages.js';
+import { nid } from '../common/nid.js';
+import { listIndexed, nameToKey } from '../common/techs.js';
+import type { BaseProvider } from '../provider/base.js';
+import { IGNORED_DIVE_PATHS } from '../provider/base.js';
+import { rulesComponents, rulesTechs } from '../rules.js';
+import { cleanPath } from '../tests/helpers.js';
+import type { ComponentGroup, GraphEdge, Analyser } from '../types/index.js';
+import type { AllowedKeys } from '../types/techs.js';
 
-import '../rules/index';
-import { findHosting, findImplicitComponent } from './helpers';
+import '../rules/index.js';
+import { findHosting, findImplicitComponent } from './helpers.js';
 
 export class Payload {
   public id: string;

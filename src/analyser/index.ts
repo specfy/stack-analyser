@@ -1,5 +1,5 @@
-import { Payload } from '../payload';
-import type { BaseProvider } from '../provider/base';
+import { Payload } from '../payload/index.js';
+import type { BaseProvider } from '../provider/base.js';
 
 export interface AnalyserOptions {
   provider: BaseProvider;

@@ -1,10 +1,10 @@
 import { describe, expect, it } from 'vitest';
 
-import { analyser } from '../analyser';
-import { listIndexed } from '../common/techs';
-import { FakeProvider } from '../provider/fake';
-import { rawList } from '../rules';
-import '.';
+import { analyser } from '../analyser/index.js';
+import { listIndexed } from '../common/techs.js';
+import { FakeProvider } from '../provider/fake.js';
+import { rawList } from '../rules.js';
+import './index.js';
 
 const paths: string[] = [];
 for (const item of rawList) {

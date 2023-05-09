@@ -1,3 +1,3 @@
-import './docker';
-import './nodejs';
-import './terraform';
+import './docker/index.js';
+import './nodejs/index.js';
+import './terraform/index.js';

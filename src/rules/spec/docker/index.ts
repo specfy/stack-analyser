@@ -1,6 +1,6 @@
-import { register } from '../../../rules';
+import { register } from '../../../rules.js';
 
-import { detectDockerComponent } from './component';
+import { detectDockerComponent } from './component.js';
 
 register({
   tech: 'docker',

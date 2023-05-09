@@ -1,8 +1,8 @@
-import type { Payload } from '../payload';
+import type { Payload } from '../payload/index.js';
 
-import type { SupportedDeps } from './rule';
-import type { AllowedKeys } from './techs';
-import type { Modify } from './utils';
+import type { SupportedDeps } from './rule.js';
+import type { AllowedKeys } from './techs.js';
+import type { Modify } from './utils.js';
 
 export interface GraphEdge {
   to: Payload;

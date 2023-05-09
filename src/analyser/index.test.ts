@@ -2,12 +2,12 @@ import path from 'node:path';
 
 import { describe, it, expect, vi, beforeEach } from 'vitest';
 
-import { flatten } from '../payload/helpers';
-import { FakeProvider } from '../provider/fake';
-import { FSProvider } from '../provider/fs';
-import type { Analyser } from '../types';
+import { flatten } from '../payload/helpers.js';
+import { FakeProvider } from '../provider/fake.js';
+import { FSProvider } from '../provider/fs.js';
+import type { Analyser } from '../types/index.js';
 
-import { analyser } from '.';
+import { analyser } from './index.js';
 
 const dockerCompose = `version: '3'
 services:

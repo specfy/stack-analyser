@@ -1,4 +1,4 @@
-import { matchFiles, matchFilesRegex } from './common/rules/matchFiles';
+import { matchFiles, matchFilesRegex } from './common/rules/matchFiles.js';
 import type {
   ComponentMatcher,
   Rule,
@@ -6,8 +6,8 @@ import type {
   RuleWithFile,
   SupportedDeps,
   TechMatcher,
-} from './types/rule';
-import type { AllowedKeys } from './types/techs';
+} from './types/rule.js';
+import type { AllowedKeys } from './types/techs.js';
 
 const registeredTech = new Set<AllowedKeys>();
 

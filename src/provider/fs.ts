@@ -1,7 +1,7 @@
 import fs from 'fs/promises';
 import path from 'node:path';
 
-import type { BaseProvider, ProviderFile } from './base';
+import type { BaseProvider, ProviderFile } from './base.js';
 
 export interface FSProviderOptions {
   path: string;

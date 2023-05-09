@@ -1,8 +1,8 @@
 import { describe, expect, it } from 'vitest';
 
-import { findEdgesInDependencies, flatten } from './helpers';
+import { findEdgesInDependencies, flatten } from './helpers.js';
 
-import { Payload } from '.';
+import { Payload } from './index.js';
 
 describe('findEdgesInDependencies', () => {
   it('should find an edge', () => {

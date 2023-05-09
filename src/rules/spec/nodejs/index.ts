@@ -1,6 +1,6 @@
-import { register } from '../../../rules';
+import { register } from '../../../rules.js';
 
-import { detectNodeComponent } from './component';
+import { detectNodeComponent } from './component.js';
 
 register({
   tech: 'nodejs',

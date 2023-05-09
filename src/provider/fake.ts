@@ -1,6 +1,6 @@
 import path from 'node:path';
 
-import type { BaseProvider, ProviderFile } from './base';
+import type { BaseProvider, ProviderFile } from './base.js';
 
 export class FakeProvider implements BaseProvider {
   basePath: string;

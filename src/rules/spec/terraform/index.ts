@@ -1,6 +1,6 @@
-import { register } from '../../../rules';
+import { register } from '../../../rules.js';
 
-import { detectTerraformComponent } from './component';
+import { detectTerraformComponent } from './component.js';
 
 register({
   tech: 'terraform',

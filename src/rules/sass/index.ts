@@ -1,6 +1,6 @@
-import './algolia';
-import './datadog';
-import './mailjet';
-import './newrelic';
-import './logrocket';
-import './sqreen';
+import './algolia.js';
+import './datadog.js';
+import './mailjet.js';
+import './newrelic.js';
+import './logrocket.js';
+import './sqreen.js';

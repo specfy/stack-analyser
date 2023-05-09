@@ -326,6 +326,7 @@ module.exports = {
     // Import
     'import/extensions': ['error', 'never'],
     'import/no-cycle': 'off', // checked by ts
+    'import/no-unresolved': 'off', // checked by ts
 
     'import/order': [
       'error',

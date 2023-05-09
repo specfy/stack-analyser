@@ -1,7 +1,7 @@
-import type { Payload } from '../payload';
-import type { BaseProvider, ProviderFile } from '../provider/base';
+import type { Payload } from '../payload/index.js';
+import type { BaseProvider, ProviderFile } from '../provider/base.js';
 
-import type { AllowedKeys, TechItem } from './techs';
+import type { AllowedKeys, TechItem } from './techs.js';
 
 export type SupportedDeps = 'docker' | 'npm' | 'terraform';
 

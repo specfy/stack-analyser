@@ -2,10 +2,10 @@ import path from 'node:path';
 
 import * as hcl_parser from 'hcl2-parser';
 
-import { listIndexed } from '../../../common/techs';
-import { Payload } from '../../../payload';
-import { detectDependencies } from '../../../rules';
-import type { ComponentMatcher } from '../../../types/rule';
+import { listIndexed } from '../../../common/techs.js';
+import { Payload } from '../../../payload/index.js';
+import { detectDependencies } from '../../../rules.js';
+import type { ComponentMatcher } from '../../../types/rule.js';
 
 const FILES = ['.terraform.lock.hcl'];
 

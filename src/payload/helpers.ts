@@ -1,7 +1,7 @@
-import { listIndexed } from '../common/techs';
-import type { AllowedKeys } from '../types/techs';
+import { listIndexed } from '../common/techs.js';
+import type { AllowedKeys } from '../types/techs.js';
 
-import { Payload } from '.';
+import { Payload } from './index.js';
 
 /**
  * When receive a tech in a component, we can deduct a new Component that was missing

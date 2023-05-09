@@ -1,1 +1,1 @@
-import './rabbitmq';
+import './rabbitmq.js';

@@ -2,7 +2,7 @@ import path from 'node:path';
 
 import type { Octokit } from 'octokit';
 
-import type { BaseProvider, ProviderFile } from './base';
+import type { BaseProvider, ProviderFile } from './base.js';
 
 export interface GithubAPIProviderOptions {
   path: string;

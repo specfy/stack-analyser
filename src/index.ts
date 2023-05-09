@@ -1,18 +1,23 @@
-import { analyser } from './analyser';
+import { analyser } from './analyser/index.js';
 import {
   listIndexed as listTechIndexed,
   list as listTech,
-} from './common/techs';
-import { Payload } from './payload';
-import { BaseProvider } from './provider/base';
-import { FakeProvider } from './provider/fake';
-import { FSProvider, FSProviderOptions } from './provider/fs';
+} from './common/techs.js';
+import { Payload } from './payload/index.js';
+import { BaseProvider } from './provider/base.js';
+import { FakeProvider } from './provider/fake.js';
+import { FSProvider, FSProviderOptions } from './provider/fs.js';
 import {
   GithubAPIProvider,
   GithubAPIProviderOptions,
-} from './provider/githubApi';
-import { register, detectDependencies, rawList, dependencies } from './rules';
-import { Analyser, ComponentGroup } from './types';
+} from './provider/githubApi.js';
+import {
+  register,
+  detectDependencies,
+  rawList,
+  dependencies,
+} from './rules.js';
+import { Analyser, ComponentGroup } from './types/index.js';
 import {
   SupportedDeps,
   RuleDependency,
@@ -20,8 +25,8 @@ import {
   RuleWithFile,
   ComponentMatcher,
   TechMatcher,
-} from './types/rule';
-import { TechType, AllowedKeys, TechItem } from './types/techs';
+} from './types/rule.js';
+import { TechType, AllowedKeys, TechItem } from './types/techs.js';
 
 export {
   AllowedKeys,
