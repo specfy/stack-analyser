@@ -56,4 +56,5 @@ renovate.json
 **/.storybook/
 **/tsconfig.tsbuildinfo
 **/.terraform
-**/terraform
+prod/
+*.todo
