@@ -39,7 +39,7 @@ const result = await analyser({
 
 const json = result.toJson();
 
-const flatten = flatten(result);
+const flat = flatten(result);
 ```
 
 ## Output
