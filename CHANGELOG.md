@@ -1,3 +1,11 @@
+## [1.1.2](https://github.com/specfy/stack-analyser/compare/v1.1.1...v1.1.2) (2023-05-10)
+
+
+### Bug Fixes
+
+* **action:** try to test it ([66994cb](https://github.com/specfy/stack-analyser/commit/66994cbcbd39a7df12816c4cd73dfbe62f8fc6d7))
+* **docker:** do not remove terraform folder ([77be684](https://github.com/specfy/stack-analyser/commit/77be68499bf39114478d911d37532950d483ebd8))
+
 ## [1.1.1](https://github.com/specfy/stack-analyser/compare/v1.1.0...v1.1.1) (2023-05-09)
 
 
