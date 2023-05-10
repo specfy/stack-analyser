@@ -7,6 +7,7 @@ import { Payload } from './index.js';
 describe('findEdgesInDependencies', () => {
   it('should find an edge', () => {
     const main = new Payload({ id: '1', name: 'main', folderPath: '' });
+    main.id;
     main.childs.push(new Payload({ id: '2', name: '2', folderPath: '/' }));
     main.childs.push(
       new Payload({

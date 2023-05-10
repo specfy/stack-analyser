@@ -1,7 +1,7 @@
 import { parse } from 'yaml';
 
 import { Payload } from '../../../payload/index.js';
-import { detectDependencies } from '../../../rules.js';
+import { detect } from '../../../rules.js';
 import type { ComponentMatcher } from '../../../types/rule.js';
 
 const FILES = ['docker-compose.yml'];
@@ -41,10 +41,10 @@ export const detectDockerComponent: ComponentMatcher = async (
 
       // If we don't match, it's fine because docker is mostly made for services
       // It's better to have few false positive, than a lot of missing components
-      const matched = [...detectDependencies([service.image], 'docker')];
+      const matched = [...detect([service.image], 'docker')];
       const [imageName, imageVersion] = service.image.split(':');
 
-      pl.addComponent(
+      pl.addChild(
         new Payload({
           name: service.container_name || name,
           folderPath: file.fp,

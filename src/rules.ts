@@ -78,10 +78,7 @@ export function register(rule: Rule) {
   }
 }
 
-export function detectDependencies(
-  pkgs: string[],
-  type: SupportedDeps
-): Set<AllowedKeys> {
+export function detect(pkgs: string[], type: SupportedDeps): Set<AllowedKeys> {
   const matched = new Set<AllowedKeys>();
   for (const dep of pkgs) {
     for (const ref of dependencies[type]) {

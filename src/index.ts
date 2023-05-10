@@ -3,6 +3,12 @@ import {
   listIndexed as listTechIndexed,
   list as listTech,
 } from './common/techs.js';
+import {
+  flatten,
+  findEdgesInDependencies,
+  findHosting,
+  findImplicitComponent,
+} from './payload/helpers.js';
 import { Payload } from './payload/index.js';
 import { BaseProvider } from './provider/base.js';
 import { FakeProvider } from './provider/fake.js';
@@ -13,9 +19,9 @@ import {
 } from './provider/githubApi.js';
 import {
   register,
-  detectDependencies,
+  detect,
   rawList,
-  dependencies,
+  dependencies as dependenciesList,
 } from './rules.js';
 import { Analyser, ComponentGroup } from './types/index.js';
 import {
@@ -39,19 +45,29 @@ export {
   FSProviderOptions,
   GithubAPIProvider,
   GithubAPIProviderOptions,
+  Payload,
   Rule,
   RuleDependency,
   RuleWithFile,
   SupportedDeps,
+  TechItem,
   TechMatcher,
   TechType,
-  TechItem,
 };
 
-export { analyser };
+export {
+  analyser,
+  flatten,
+  findEdgesInDependencies,
+  findHosting,
+  findImplicitComponent,
+};
 
-export { Payload };
+export const dependencies = {
+  register,
+  detect,
+  raw: rawList,
+  list: dependenciesList,
+};
 
-export { register, detectDependencies, rawList, dependencies };
-
-export { listTechIndexed, listTech };
+export const tech = { indexed: listTechIndexed, list: listTech };

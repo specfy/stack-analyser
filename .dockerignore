@@ -58,3 +58,4 @@ renovate.json
 **/.terraform
 prod/
 *.todo
+action.yml

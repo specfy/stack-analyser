@@ -7,24 +7,24 @@ import type { BaseProvider } from '../provider/base.js';
 import { IGNORED_DIVE_PATHS } from '../provider/base.js';
 import { rulesComponents, rulesTechs } from '../rules.js';
 import { cleanPath } from '../tests/helpers.js';
-import type { ComponentGroup, GraphEdge, Analyser } from '../types/index.js';
+import type { Analyser, AnalyserJson } from '../types/index.js';
 import type { AllowedKeys } from '../types/techs.js';
 
 import '../rules/index.js';
 import { findHosting, findImplicitComponent } from './helpers.js';
 
-export class Payload {
-  public id: string;
-  public languages: Record<string, number>;
-  public childs: Payload[];
-  public path: string[];
-  public name: string;
-  public group: ComponentGroup;
-  public techs: Set<AllowedKeys>;
-  public inComponent: Payload | null;
-  public tech: AllowedKeys | null;
+export class Payload implements Analyser {
+  public id;
+  public name;
+  public group: Analyser['group'];
+  public path;
+  public tech;
+  public languages: Analyser['languages'];
+  public childs: Analyser['childs'];
+  public techs: Analyser['techs'];
+  public inComponent: Analyser['inComponent'];
   public dependencies: Analyser['dependencies'];
-  public edges: GraphEdge[];
+  public edges: Analyser['edges'];
   public parent?: Payload | null;
 
   constructor({
@@ -35,11 +35,11 @@ export class Payload {
     tech,
     dependencies,
   }: {
-    id?: string;
-    name: string;
+    id?: Analyser['id'];
+    name: Analyser['name'];
     folderPath: string;
     parent?: Payload | null;
-    tech?: AllowedKeys | null;
+    tech?: Analyser['tech'];
     dependencies?: Analyser['dependencies'];
   }) {
     this.id = id || nid();
@@ -66,6 +66,10 @@ export class Payload {
     }
   }
 
+  /**
+   * Analyze a folder recursively.
+   * It will modify the current Payload.
+   */
   async recurse(provider: BaseProvider, filePath: string) {
     const files = await provider.listDir(filePath);
 
@@ -78,9 +82,9 @@ export class Payload {
 
       if (res.name !== 'virtual') {
         ctx = res;
-        this.addComponent(res);
+        this.addChild(res);
       } else {
-        res.childs.forEach((child) => this.addComponent(child));
+        res.childs.forEach((child) => this.addChild(child));
       }
     }
 
@@ -110,7 +114,11 @@ export class Payload {
     }
   }
 
-  addComponent(service: Payload) {
+  /**
+   * Register a child to this Payload.
+   * If a similar child is found at the same level, it will merge them.
+   */
+  addChild(service: Payload) {
     const exist = this.childs.find((s) => {
       if (s.name === service.name) return true;
       if (s.tech && service.tech && s.tech === service.tech) return true;
@@ -142,10 +150,16 @@ export class Payload {
     this.childs.push(service);
   }
 
+  /**
+   * Register a tech.
+   */
   addTechs(tech: AllowedKeys[]) {
     tech.forEach((t) => this.addTech(t));
   }
 
+  /**
+   * Declare this Payload has built with this tech.
+   */
   addTech(tech: AllowedKeys) {
     this.techs.add(tech);
 
@@ -153,6 +167,9 @@ export class Payload {
     findHosting(this, tech);
   }
 
+  /**
+   * Register a relationship between this Payload and an other one.
+   */
   addEdges(pl: Payload) {
     this.edges.push({
       to: pl,
@@ -164,10 +181,31 @@ export class Payload {
     });
   }
 
+  /**
+   * Helper to add a lang entry to languages.
+   */
+  public addLang(name: string, count: number = 1) {
+    if (!this.languages[name]) {
+      this.languages[name] = 0;
+    }
+
+    this.languages[name] += count;
+
+    if (name in nameToKey) {
+      this.addTech(nameToKey[name]);
+    }
+  }
+
+  /**
+   * Register a parent of this Payload
+   */
   setParent(pl: Payload | null) {
     this.parent = pl;
   }
 
+  /**
+   * Detect language of a file at this level.
+   */
   detectLang(filename: string) {
     const ext = path.extname(filename);
 
@@ -190,6 +228,11 @@ export class Payload {
     }
   }
 
+  /**
+   * Merge this Payload and an other one.
+   * There is no failsafe, it will merge whatever is passed even if they are not the same kind.
+   * It's mostly used to flatten folders.
+   */
   combine(pl: Payload): void {
     // Log all paths were it was found
     this.path = [...new Set([...this.path, ...pl.path])];
@@ -208,6 +251,10 @@ export class Payload {
     }
   }
 
+  /**
+   * Create a copy of this Payload.
+   * It's a deep copy, meaning the childs, parent and other stuff will still point to the original references.
+   */
   copy(): Payload {
     const cp = new Payload({
       id: this.id,
@@ -227,7 +274,15 @@ export class Payload {
     return cp;
   }
 
-  toJson(root: string): Analyser {
+  /**
+   *
+   */
+  /**
+   * Output a deep copy in JSON, free of reference.
+   *
+   * @param root Absolute path to remove from output
+   */
+  toJson(root: string = ''): AnalyserJson {
     return {
       id: this.id,
       name: this.name,
@@ -249,17 +304,5 @@ export class Payload {
       languages: this.languages,
       dependencies: this.dependencies,
     };
-  }
-
-  public addLang(name: string, count: number = 1) {
-    if (!this.languages[name]) {
-      this.languages[name] = 0;
-    }
-
-    this.languages[name] += count;
-
-    if (name in nameToKey) {
-      this.addTech(nameToKey[name]);
-    }
   }
 }

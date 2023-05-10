@@ -1,7 +1,7 @@
 import type { FullVersion } from 'package-json';
 
 import { Payload } from '../../../payload/index.js';
-import { detectDependencies } from '../../../rules.js';
+import { detect } from '../../../rules.js';
 import type { Analyser } from '../../../types/index.js';
 import type { ComponentMatcher } from '../../../types/rule.js';
 
@@ -37,7 +37,7 @@ export const detectNodeComponent: ComponentMatcher = async (
       ...(json.dependencies || {}),
       ...(json.devDependencies || {}),
     };
-    const techs = detectDependencies(Object.keys(deps), 'npm');
+    const techs = detect(Object.keys(deps), 'npm');
     const depsFlatten: Analyser['dependencies'] = Object.entries(deps).map(
       (dep: [string, string]) => {
         return ['npm', dep[0], dep[1]];

@@ -1,6 +1,6 @@
-import type { Analyser } from '../types/index.js';
+import type { AnalyserJson } from '../types/index.js';
 
-export function cleanNestedSnapshot(pl: Analyser) {
+export function cleanNestedSnapshot(pl: AnalyserJson) {
   pl.id = '';
   pl.inComponent = '';
 

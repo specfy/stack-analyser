@@ -24,7 +24,7 @@ export function findImplicitComponent(pl: Payload, tech: AllowedKeys) {
     folderPath: pl.path[0],
     parent: pl,
   });
-  pl.addComponent(comp);
+  pl.addChild(comp);
   if (comp.group !== 'hosting') {
     pl.addEdges(comp);
   }

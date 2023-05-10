@@ -5,7 +5,7 @@ import { describe, it, expect, vi, beforeEach } from 'vitest';
 import { flatten } from '../payload/helpers.js';
 import { FakeProvider } from '../provider/fake.js';
 import { FSProvider } from '../provider/fs.js';
-import type { Analyser } from '../types/index.js';
+import type { AnalyserJson } from '../types/index.js';
 
 import { analyser } from './index.js';
 
@@ -69,7 +69,7 @@ describe('analyser', () => {
     });
 
     const flat = flatten(res);
-    const json: Analyser = JSON.parse(JSON.stringify(flat.toJson('')));
+    const json: AnalyserJson = JSON.parse(JSON.stringify(flat.toJson('')));
     expect(json).toMatchSnapshot();
     expect(flat.childs[0].id).toEqual(flat.childs[1].edges[0].to.id);
   });
