@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/specfy/stack-analyser/compare/v1.1.2...v1.1.3) (2023-05-10)
+
+
+### Bug Fixes
+
+* clean up, add missing export, add documentation ([84b2080](https://github.com/specfy/stack-analyser/commit/84b20808ae66af6576e9967020568fc8b5bfd205))
+
 ## [1.1.2](https://github.com/specfy/stack-analyser/compare/v1.1.1...v1.1.2) (2023-05-10)
 
 
