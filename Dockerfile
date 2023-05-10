@@ -61,4 +61,4 @@ COPY --from=tmp --chown=node:node /app/tmp /app
 
 EXPOSE 8080
 
-ENTRYPOINT ["node", "./dist/github-action.js"]
+ENTRYPOINT ["node", "/app/dist/github-action.js"]
