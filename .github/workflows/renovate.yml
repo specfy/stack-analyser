@@ -1,0 +1,21 @@
+name: Renovate
+on:
+  schedule:
+    - cron: '0 14 * * 4'
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Renovate Automatic Branch
+        uses: bodinsamuel/renovate-automatic-branch@v1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          repo-owner: specfy
+          repo-name: stack-analyser
+          branch-base: main
