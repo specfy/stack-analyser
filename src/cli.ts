@@ -62,13 +62,4 @@ program
     }
   });
 
-// program
-//   .command('github')
-//   .description('Extract a Github repository using the API')
-//   .argument('<repository>', 'repository to analyse')
-//   .option('--output', 'output json to a file', 'output.json')
-//   .action(() => {
-//     console.log('action, github');
-//   });
-
 program.parse(process.argv);

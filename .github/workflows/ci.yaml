@@ -33,7 +33,7 @@ jobs:
       - name: Lint
         run: npm run lint
 
-      - name: Run Test API
+      - name: Run Test
         run: npm run test
 
       - name: Build

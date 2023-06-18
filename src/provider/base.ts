@@ -32,4 +32,6 @@ export const IGNORED_DIVE_PATHS = [
   '.vercel',
   '.terraform',
   'terraform.tfstate.d',
+  '__fixtures__',
+  '__snapshots__',
 ];
