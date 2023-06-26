@@ -33,7 +33,7 @@ describe('terraform', () => {
       }),
     });
 
-    expect(flatten(res).techs).toStrictEqual(
+    expect(flatten(res, { merge: true }).techs).toStrictEqual(
       new Set([
         'alibabacloud',
         'auth0',

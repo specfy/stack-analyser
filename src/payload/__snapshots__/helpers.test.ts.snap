@@ -223,3 +223,69 @@ exports[`flatten > should flatten and merge host 1`] = `
   ],
 }
 `;
+
+exports[`flatten > should flatten but not merge 1`] = `
+{
+  "childs": [
+    {
+      "childs": [],
+      "dependencies": [],
+      "edges": [],
+      "group": "component",
+      "id": "2",
+      "inComponent": "4",
+      "languages": {},
+      "name": "2",
+      "path": [
+        "/",
+      ],
+      "tech": null,
+      "techs": [],
+    },
+    {
+      "childs": [],
+      "dependencies": [],
+      "edges": [],
+      "group": "hosting",
+      "id": "4",
+      "inComponent": null,
+      "languages": {},
+      "name": "4",
+      "path": [
+        "/",
+      ],
+      "tech": "vercel",
+      "techs": [
+        "vercel",
+      ],
+    },
+    {
+      "childs": [],
+      "dependencies": [],
+      "edges": [],
+      "group": "component",
+      "id": "6",
+      "inComponent": "4",
+      "languages": {},
+      "name": "6",
+      "path": [
+        "/",
+      ],
+      "tech": null,
+      "techs": [],
+    },
+  ],
+  "dependencies": [],
+  "edges": [],
+  "group": "component",
+  "id": "new",
+  "inComponent": null,
+  "languages": {},
+  "name": "flatten",
+  "path": [
+    "/",
+  ],
+  "tech": null,
+  "techs": [],
+}
+`;

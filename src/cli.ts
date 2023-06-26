@@ -12,6 +12,8 @@ import ora from 'ora';
 import { analyser } from './analyser/index.js';
 import { FSProvider } from './provider/fs.js';
 
+import { flatten } from './index.js';
+
 const program = new Command();
 
 program
@@ -19,6 +21,7 @@ program
   .description('CLI to extract metadata from repository')
   .argument('<path>', 'repository to analyse')
   .option('-o, --output <FILENAME>', 'output json to a file', 'output.json')
+  .option('--flat', 'flatten the output', false)
   .version('1.0.1')
   .action(async (arg, options) => {
     const here = process.cwd();
@@ -55,8 +58,12 @@ program
     spinner.succeed('Analysed');
 
     if (options.output) {
+      const output = options.flat ? flatten(res) : res;
       const file = path.join(here, options.output);
-      await fs.writeFile(file, JSON.stringify(res.toJson(root), undefined, 2));
+      await fs.writeFile(
+        file,
+        JSON.stringify(output.toJson(root), undefined, 2)
+      );
       console.log('');
       console.log('Output', kleur.green(file));
     }

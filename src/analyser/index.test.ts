@@ -68,7 +68,7 @@ describe('analyser', () => {
       }),
     });
 
-    const flat = flatten(res);
+    const flat = flatten(res, { merge: true });
     const json: AnalyserJson = JSON.parse(JSON.stringify(flat.toJson('')));
     expect(json).toMatchSnapshot();
     expect(flat.childs[0].id).toEqual(flat.childs[1].edges[0].to.id);
@@ -84,7 +84,7 @@ describe('analyser', () => {
 
     expect(res.toJson(root)).toMatchSnapshot();
 
-    const flatted = flatten(res);
+    const flatted = flatten(res, { merge: true });
 
     // Check that inComponent was updated
     const vercel = flatted.childs.find((child) => child.name === 'vercel')!;

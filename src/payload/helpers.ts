@@ -95,11 +95,18 @@ function pushChids(src: Payload, dest: Payload) {
     dest.childs.push(cp);
   });
 }
+
 /**
- * Flatten takes a nested Payload and brings everything down to a single level.
- * It merges all fields that can be merged and deduplicate resources that are similar.
+ * flatten takes a nested Payload and brings everything down to a single level.
+ * It deduplicates components that are strictly similar, and keep references in path.
+ *
+ * If merge = true, it merges all fields that can be merged down to the parent (e.g: dependencies).
+ * Merging is only useful to get a summary of everything at the root level.
  */
-export function flatten(src: Payload): Payload {
+export function flatten(
+  src: Payload,
+  { merge = false }: { merge: boolean } = { merge: false }
+): Payload {
   // Generate a flat list of childs
   const dest = new Payload({ name: 'flatten', folderPath: '/' });
   pushChids(src, dest);
@@ -152,15 +159,17 @@ export function flatten(src: Payload): Payload {
   findEdgesInDependencies(dest);
 
   // Combine everything with their respective parent
-  dest.childs.forEach((child) => {
-    if (child.parent) {
-      child.parent.combine(child);
-    }
+  if (merge === true) {
+    dest.childs.forEach((child) => {
+      if (child.parent) {
+        child.parent.combine(child);
+      }
 
-    dest.combine(child);
-  });
+      dest.combine(child);
+    });
 
-  dest.combine(src);
+    dest.combine(src);
+  }
 
   return dest;
 }
