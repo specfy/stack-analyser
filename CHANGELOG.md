@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/specfy/stack-analyser/compare/v1.1.4...v1.1.5) (2023-06-26)
+
+
+### Bug Fixes
+
+* **flatten:** allow to not merge ([412140d](https://github.com/specfy/stack-analyser/commit/412140d023642d3bb159b956b457daf13f0d6a53))
+
 ## [1.1.4](https://github.com/specfy/stack-analyser/compare/v1.1.3...v1.1.4) (2023-06-23)
 
 
