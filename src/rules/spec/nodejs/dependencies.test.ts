@@ -48,6 +48,7 @@ describe('npm', () => {
       'eslint',
       'express',
       'fastify',
+      'gcp',
       'hotjar',
       'influxdb',
       'koa',
