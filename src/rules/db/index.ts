@@ -1,5 +1,6 @@
 import './cassandra.js';
 import './couchbase.js';
+import './dynamodb.js';
 import './elasticsearch.js';
 import './influxdb.js';
 import './mariadb.js';
@@ -7,7 +8,7 @@ import './memcached.js';
 import './mongo.js';
 import './mysql.js';
 import './neo4j.js';
+import './percona.js';
 import './postgres.js';
 import './redis.js';
-import './percona.js';
 import './vault.js';

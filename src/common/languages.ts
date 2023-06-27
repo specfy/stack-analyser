@@ -122,12 +122,6 @@ export const rawList: ListItem[] = [
     type: 'programming',
   },
   {
-    extensions: ['.txt'],
-    group: null,
-    name: 'Adblock Filter List',
-    type: 'data',
-  },
-  {
     extensions: ['.afm'],
     group: null,
     name: 'Adobe Font Metrics',
@@ -955,12 +949,6 @@ export const rawList: ListItem[] = [
     type: 'data',
   },
   {
-    extensions: ['.html'],
-    group: 'HTML',
-    name: 'Ecmarkup',
-    type: 'markup',
-  },
-  {
     extensions: ['.editorconfig'],
     group: 'INI',
     name: 'EditorConfig',
@@ -1490,7 +1478,7 @@ export const rawList: ListItem[] = [
     type: 'data',
   },
   {
-    extensions: ['.hack', '.hh', '.hhi', '.php'],
+    extensions: ['.hack', '.hh', '.hhi'],
     group: null,
     name: 'Hack',
     type: 'programming',
@@ -3905,12 +3893,6 @@ export const rawList: ListItem[] = [
     type: 'programming',
   },
   {
-    extensions: ['.txt'],
-    group: null,
-    name: 'Vim Help File',
-    type: 'prose',
-  },
-  {
     extensions: ['.vim', '.vba', '.vimrc', '.vmb'],
     group: null,
     name: 'Vim Script',
@@ -4134,7 +4116,6 @@ export const rawList: ListItem[] = [
       '.sw',
       '.targets',
       '.tml',
-      '.ts',
       '.tsx',
       '.ui',
       '.urdf',

@@ -33,6 +33,7 @@ describe('npm', () => {
       'expodev',
       'flyio',
       'githubpages',
+      'heroku',
       'netlify',
       'render',
       'vercel',

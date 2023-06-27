@@ -6,6 +6,7 @@ import './expodev.js';
 import './flyio.js';
 import './gcp.js';
 import './githubpages.js';
+import './heroku.js';
 import './kubernetes.js';
 import './mongodbatlas.js';
 import './netlify.js';

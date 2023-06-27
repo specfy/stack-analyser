@@ -36,33 +36,34 @@ describe('docker', () => {
       }),
     });
 
-    expect(flatten(res, { merge: true }).techs).toStrictEqual(
-      new Set([
-        'caddy',
-        'cassandra',
-        'couchbase',
-        'cypressci',
-        'docker',
-        'elasticsearch',
-        'httpd',
-        'influxdb',
-        'jenkins',
-        'kibana',
-        'mariadb',
-        'memcached',
-        'mongodb',
-        'mysql',
-        'neo4j',
-        'nginx',
-        'nodejs',
-        'percona',
-        'postgresql',
-        'rabbitmq',
-        'redis',
-        'strapi',
-        'vault',
-        'zookeeper',
-      ])
-    );
+    expect(
+      Array.from(flatten(res, { merge: true }).techs).sort()
+    ).toStrictEqual([
+      'caddy',
+      'cassandra',
+      'couchbase',
+      'cypressci',
+      'docker',
+      'dynamodb',
+      'elasticsearch',
+      'httpd',
+      'influxdb',
+      'jenkins',
+      'kibana',
+      'mariadb',
+      'memcached',
+      'mongodb',
+      'mysql',
+      'neo4j',
+      'nginx',
+      'nodejs',
+      'percona',
+      'postgresql',
+      'rabbitmq',
+      'redis',
+      'strapi',
+      'vault',
+      'zookeeper',
+    ]);
   });
 });
