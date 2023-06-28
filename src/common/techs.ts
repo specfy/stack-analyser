@@ -38,6 +38,7 @@ export const list: TechItem[] = [
   { key: 'expodev', name: 'Expo.dev', type: 'hosting' },
   { key: 'express', name: 'Express', type: 'tool' },
   { key: 'fastify', name: 'Fastify', type: 'tool' },
+  { key: 'firebase', name: 'Firebase', type: 'hosting' },
   { key: 'flyio', name: 'Fly.io', type: 'hosting' },
   { key: 'gce', name: 'GCE', type: 'hosting' },
   { key: 'gcp', name: 'GCP', type: 'hosting' },

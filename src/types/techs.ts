@@ -47,6 +47,7 @@ export type AllowedKeys =
   | 'expodev'
   | 'express'
   | 'fastify'
+  | 'firebase'
   | 'flyio'
   | 'gce'
   | 'gcp'
