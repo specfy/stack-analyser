@@ -7,14 +7,14 @@ import { Payload } from '../../../payload/index.js';
 import { detect } from '../../../rules.js';
 import type { ComponentMatcher } from '../../../types/rule.js';
 
-const FILES = ['.terraform.lock.hcl'];
+const LOCKFILE = '.terraform.lock.hcl';
 
 export const detectTerraformComponent: ComponentMatcher = async (
   files,
   provider
 ) => {
   for (const file of files) {
-    if (!FILES.includes(file.name)) {
+    if (file.name !== LOCKFILE) {
       continue;
     }
 

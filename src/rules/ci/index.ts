@@ -4,6 +4,7 @@ import './codesandboxci.js';
 import './cypressci.js';
 import './dependabot.js';
 import './githubactions.js';
+import './gitlabci.js';
 import './jenkins.js';
 import './relativeci.js';
 import './renovate.js';

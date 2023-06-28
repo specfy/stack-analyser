@@ -50,6 +50,7 @@ export type AllowedKeys =
   | 'github'
   | 'githubactions'
   | 'githubpages'
+  | 'gitlabci'
   | 'golang'
   | 'helm'
   | 'heroku'

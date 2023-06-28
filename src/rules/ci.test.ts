@@ -36,6 +36,7 @@ describe('ci', () => {
       'cypressci',
       'dependabot',
       'githubactions',
+      'gitlabci',
       'javascript',
       'jenkins',
       'relativeci',
