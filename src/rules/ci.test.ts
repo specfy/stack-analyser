@@ -45,7 +45,7 @@ describe('ci', () => {
     ]);
   });
 
-  it.only('enforce that we match .github', async () => {
+  it('enforce that we match .github', async () => {
     const res = await analyser({
       provider: new FakeProvider({
         paths: {
