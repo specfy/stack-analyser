@@ -24,6 +24,7 @@ export type AllowedKeys =
   | 'caddy'
   | 'cassandra'
   | 'circleci'
+  | 'cirrusci'
   | 'codesandboxci'
   | 'couchbase'
   | 'cplusplus'

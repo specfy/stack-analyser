@@ -1,6 +1,7 @@
 import './appveyor.js';
 import './browserstack.js';
 import './circleci.js';
+import './cirrusci.js';
 import './codesandboxci.js';
 import './cypressci.js';
 import './dependabot.js';

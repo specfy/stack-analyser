@@ -15,6 +15,7 @@ export const list: TechItem[] = [
   { key: 'caddy', name: 'Caddy', type: 'app' },
   { key: 'cassandra', name: 'Cassandra', type: 'db' },
   { key: 'circleci', name: 'CircleCi', type: 'ci' },
+  { key: 'cirrusci', name: 'CirrusCi', type: 'ci' },
   { key: 'codesandboxci', name: 'CodesandboxCI', type: 'ci' },
   { key: 'couchbase', name: 'Couchbase', type: 'db' },
   { key: 'cplusplus', name: 'C++', type: 'language' },

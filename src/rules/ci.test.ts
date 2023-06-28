@@ -33,6 +33,7 @@ describe('ci', () => {
       'appveyor',
       'browserstack',
       'circleci',
+      'cirrusci',
       'codesandboxci',
       'cypressci',
       'dependabot',
