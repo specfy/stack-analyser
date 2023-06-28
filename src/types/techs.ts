@@ -13,6 +13,7 @@ export type AllowedKeys =
   | 'algolia'
   | 'alibabacloud'
   | 'angular'
+  | 'appveyor'
   | 'auth0'
   | 'aws'
   | 'azure'

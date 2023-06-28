@@ -1,3 +1,4 @@
+import './appveyor.js';
 import './browserstack.js';
 import './circleci.js';
 import './codesandboxci.js';

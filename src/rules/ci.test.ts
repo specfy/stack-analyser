@@ -30,6 +30,7 @@ describe('ci', () => {
       }),
     });
     expect(res.toJson('').techs).toStrictEqual([
+      'appveyor',
       'browserstack',
       'circleci',
       'codesandboxci',
