@@ -38,11 +38,11 @@
   },
   "dependencies": {
     "@actions/core": "1.10.0",
+    "@cdktf/hcl2json": "0.17.0",
     "@octokit/plugin-retry": "^4.1.3",
     "commander": "10.0.1",
     "dotenv": "16.0.3",
     "figures": "5.0.0",
-    "hcl2-parser": "1.0.3",
     "kleur": "4.1.5",
     "nanoid": "4.0.2",
     "octokit": "2.0.14",

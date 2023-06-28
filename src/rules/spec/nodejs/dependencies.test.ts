@@ -49,6 +49,7 @@ describe('npm', () => {
       'express',
       'fastify',
       'gcp',
+      'github',
       'hotjar',
       'influxdb',
       'koa',

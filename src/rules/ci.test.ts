@@ -19,7 +19,7 @@ for (const item of rawList) {
   paths.push('example' in item.ref ? item.ref.example : item.ref.files[0]);
 }
 
-describe('npm', () => {
+describe('ci', () => {
   it('should match everything', async () => {
     const res = await analyser({
       provider: new FakeProvider({
@@ -43,5 +43,21 @@ describe('npm', () => {
       'teamcity',
       'travisci',
     ]);
+  });
+
+  it.only('enforce that we match .github', async () => {
+    const res = await analyser({
+      provider: new FakeProvider({
+        paths: {
+          '/': ['.github/'],
+          '/.github': ['workflows/'],
+          '/.github/workflows': ['main.yml'],
+        },
+        files: {
+          '/.github/workflows/main.yml': '',
+        },
+      }),
+    });
+    expect(res.toJson('').techs).toStrictEqual(['github', 'githubactions']);
   });
 });

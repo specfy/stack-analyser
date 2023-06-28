@@ -1,6 +1,6 @@
 import path from 'node:path';
 
-import * as hcl_parser from 'hcl2-parser';
+import { parse } from '@cdktf/hcl2json';
 
 import { listIndexed } from '../../../common/techs.js';
 import { Payload } from '../../../payload/index.js';
@@ -25,8 +25,9 @@ export const detectTerraformComponent: ComponentMatcher = async (
 
     let json: Record<string, any>;
     try {
-      json = hcl_parser.parseToObject(content)[0];
+      json = await parse(file.fp, content);
     } catch (err) /* istanbul ignore next */ {
+      console.warn('Failed to parse HCL', err);
       return false;
     }
 

@@ -24,9 +24,10 @@ export class FakeProvider implements BaseProvider {
     const files = this.paths[pathRelative].sort();
     return Promise.resolve(
       files.map((file) => {
+        const isDir = file.endsWith('/');
         return {
-          name: file,
-          type: file.endsWith('/') ? 'dir' : 'file',
+          name: isDir ? file.substring(0, file.length - 1) : file,
+          type: isDir ? 'dir' : 'file',
           fp: path.join(pathRelative, file),
         };
       })
