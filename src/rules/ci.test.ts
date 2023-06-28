@@ -31,6 +31,7 @@ describe('ci', () => {
     });
     expect(res.toJson('').techs).toStrictEqual([
       'appveyor',
+      'azureci',
       'browserstack',
       'circleci',
       'cirrusci',

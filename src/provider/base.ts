@@ -27,6 +27,8 @@ export const IGNORED_DIVE_PATHS = [
 
   // -- Dot folder
   '.artifacts',
+  '.assets',
+  '.azure',
   '.azure-pipelines',
   '.dynamodb',
   '.fusebox',

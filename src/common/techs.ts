@@ -8,6 +8,7 @@ export const list: TechItem[] = [
   { key: 'auth0', name: 'Auth0', type: 'sass' },
   { key: 'aws', name: 'AWS', type: 'hosting' },
   { key: 'azure', name: 'Azure', type: 'hosting' },
+  { key: 'azureci', name: 'AzureCi', type: 'ci' },
   { key: 'bash', name: 'Bash', type: 'language' },
   { key: 'bootstrap', name: 'Bootstrap', type: 'tool' },
   { key: 'browserstack', name: 'Browserstack', type: 'ci' },

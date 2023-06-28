@@ -17,6 +17,7 @@ export type AllowedKeys =
   | 'auth0'
   | 'aws'
   | 'azure'
+  | 'azureci'
   | 'bash'
   | 'bootstrap'
   | 'browserstack'
