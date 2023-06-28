@@ -1,5 +1,8 @@
 # Stack Analyser
 
+[![Main](https://github.com/specfy/stack-analyser/actions/workflows/ci.yml/badge.svg)](https://github.com/specfy/specfy/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/specfy/stack-analyser/branch/main/graph/badge.svg?token=6L5O79P9UI)](https://codecov.io/gh/specfy/stack-analyser)
+
 This library provide a simple way to extract dependencies, and metadata from any repository and languages.
 
 It will dive into any folders, read package.json, docker-compose.yml, go.mod, etc. Determines relationship between folders and services, and output a comprehensive list of dependencies, services and the link between them.
