@@ -88,6 +88,7 @@ export type AllowedKeys =
   | 'percona'
   | 'php'
   | 'pingdom'
+  | 'platformsh'
   | 'postgresql'
   | 'powershell'
   | 'prettier'

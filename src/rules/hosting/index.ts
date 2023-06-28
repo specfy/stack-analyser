@@ -11,5 +11,6 @@ import './kubernetes.js';
 import './mongodbatlas.js';
 import './netlify.js';
 import './oraclecloud.js';
+import './platformsh.js';
 import './render.js';
 import './vercel.js';

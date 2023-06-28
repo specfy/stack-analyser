@@ -79,6 +79,7 @@ export const list: TechItem[] = [
   { key: 'percona', name: 'Percona', type: 'db' },
   { key: 'php', name: 'PHP', type: 'language' },
   { key: 'pingdom', name: 'Pingdom', type: 'sass' },
+  { key: 'platformsh', name: 'Platform.sh', type: 'hosting' },
   { key: 'postgresql', name: 'Postgresql', type: 'db' },
   { key: 'powershell', name: 'Powershell', type: 'language' },
   { key: 'prettier', name: 'Prettier', type: 'tool' },

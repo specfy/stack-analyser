@@ -19,8 +19,8 @@ for (const item of rawList) {
   paths.push('example' in item.ref ? item.ref.example : item.ref.files[0]);
 }
 
-describe('npm', () => {
-  it('should match everything', async () => {
+describe('hosting', () => {
+  it('should match everything with files', async () => {
     const res = await analyser({
       provider: new FakeProvider({
         paths: {
@@ -35,6 +35,7 @@ describe('npm', () => {
       'githubpages',
       'heroku',
       'netlify',
+      'platformsh',
       'render',
       'vercel',
     ]);
