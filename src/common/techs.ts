@@ -83,6 +83,7 @@ export const list: TechItem[] = [
   { key: 'python', name: 'Python', type: 'language' },
   { key: 'rabbitmq', name: 'RabbitMQ', type: 'messaging' },
   { key: 'react', name: 'React', type: 'language' },
+  { key: 'reactemail', name: 'React Email', type: 'tool' },
   { key: 'redis', name: 'Redis', type: 'db' },
   { key: 'relativeci', name: 'RelativeCI', type: 'ci' },
   { key: 'render', name: 'Render', type: 'hosting' },

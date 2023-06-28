@@ -92,6 +92,7 @@ export type AllowedKeys =
   | 'python'
   | 'rabbitmq'
   | 'react'
+  | 'reactemail'
   | 'redis'
   | 'relativeci'
   | 'render'

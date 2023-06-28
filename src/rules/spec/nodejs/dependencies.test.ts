@@ -68,6 +68,7 @@ describe('npm', () => {
       'prisma',
       'rabbitmq',
       'react',
+      'reactemail',
       'redis',
       'relativeci',
       'renovate',
