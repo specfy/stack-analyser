@@ -1,6 +1,6 @@
 # Stack Analyser
 
-[![Main](https://github.com/specfy/stack-analyser/actions/workflows/ci.yml/badge.svg)](https://github.com/specfy/specfy/actions/workflows/ci.yml)
+[![Main](https://github.com/specfy/stack-analyser/actions/workflows/ci.yaml/badge.svg)](https://github.com/specfy/stack-analyser/actions/workflows/ci.yaml)
 [![codecov](https://codecov.io/gh/specfy/stack-analyser/branch/main/graph/badge.svg?token=6L5O79P9UI)](https://codecov.io/gh/specfy/stack-analyser)
 
 This library provide a simple way to extract dependencies, and metadata from any repository and languages.
