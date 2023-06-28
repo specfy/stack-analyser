@@ -44,6 +44,7 @@ describe('ci', () => {
       'jenkins',
       'relativeci',
       'renovate',
+      'styleci',
       'teamcity',
       'travisci',
     ]);

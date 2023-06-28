@@ -104,6 +104,7 @@ export const list: TechItem[] = [
   { key: 'sqreen', name: 'Sqreen', type: 'sass' },
   { key: 'storybook', name: 'Storybook', type: 'tool' },
   { key: 'strapi', name: 'Strapi', type: 'tool' },
+  { key: 'styleci', name: 'StyleCi', type: 'ci' },
   { key: 'stylelint', name: 'Stylelint', type: 'tool' },
   { key: 'swift', name: 'Swift', type: 'language' },
   { key: 'tailwind', name: 'Tailwind', type: 'tool' },

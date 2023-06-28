@@ -113,6 +113,7 @@ export type AllowedKeys =
   | 'sqreen'
   | 'storybook'
   | 'strapi'
+  | 'styleci'
   | 'stylelint'
   | 'swift'
   | 'tailwind'

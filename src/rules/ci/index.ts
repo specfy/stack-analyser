@@ -1,4 +1,5 @@
 import './appveyor.js';
+import './azureci.js';
 import './browserstack.js';
 import './circleci.js';
 import './cirrusci.js';
@@ -10,5 +11,6 @@ import './gitlabci.js';
 import './jenkins.js';
 import './relativeci.js';
 import './renovate.js';
+import './styleci.js';
 import './teamcity.js';
 import './travisci.js';
