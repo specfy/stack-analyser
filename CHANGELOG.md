@@ -1,3 +1,11 @@
+## [1.1.6](https://github.com/specfy/stack-analyser/compare/v1.1.5...v1.1.6) (2023-06-28)
+
+
+### Bug Fixes
+
+* dotted path, tests, proper parser for hcl ([8be13a6](https://github.com/specfy/stack-analyser/commit/8be13a65504b9fce70216a399fb793fee8a11e92))
+* **tests:** use pre release that fix a bug with performance ([ef1b779](https://github.com/specfy/stack-analyser/commit/ef1b779a7fb0cf8023fe8fa2ca08a8c1be3c277c))
+
 ## [1.1.5](https://github.com/specfy/stack-analyser/compare/v1.1.4...v1.1.5) (2023-06-26)
 
 
