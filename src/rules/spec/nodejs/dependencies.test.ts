@@ -75,6 +75,7 @@ describe('npm', () => {
       'rollup',
       'sentry',
       'sequelize',
+      'snyk',
       'socketio',
       'sqreen',
       'storybook',
