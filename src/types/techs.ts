@@ -52,6 +52,7 @@ export type AllowedKeys =
   | 'gce'
   | 'gcp.cloudrun'
   | 'gcp.gce'
+  | 'gcp.gcs'
   | 'gcp.pubsub'
   | 'gcp'
   | 'github.actions'

@@ -1,0 +1,35 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`terraform (lockfile) > should match everything 1`] = `
+[
+  "alibabacloud",
+  "auth0",
+  "aws",
+  "azure",
+  "datadog",
+  "elasticsearch",
+  "elasticstack",
+  "flyio",
+  "gcp",
+  "github",
+  "helm",
+  "kubernetes",
+  "mongodbatlas",
+  "newrelic",
+  "oraclecloud",
+  "terraform",
+  "vault",
+  "vercel",
+]
+`;
+
+exports[`terraform (resource) > should match everything 1`] = `
+[
+  "gcp",
+  "gcp.cloudrun",
+  "gcp.gce",
+  "gcp.gcs",
+  "gcp.pubsub",
+  "terraform",
+]
+`;

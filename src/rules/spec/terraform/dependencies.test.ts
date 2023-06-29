@@ -34,29 +34,9 @@ describe('terraform (lockfile)', () => {
       }),
     });
 
-    const match: AllowedKeys[] = [
-      'alibabacloud',
-      'auth0',
-      'aws',
-      'azure',
-      'datadog',
-      'elasticsearch',
-      'elasticstack',
-      'flyio',
-      'gcp',
-      'github',
-      'helm',
-      'kubernetes',
-      'mongodbatlas',
-      'newrelic',
-      'oraclecloud',
-      'terraform',
-      'vault',
-      'vercel',
-    ];
     expect(
       Array.from(flatten(res, { merge: true }).techs).sort()
-    ).toStrictEqual(match);
+    ).toMatchSnapshot();
   });
 
   it('should match nothing', async () => {
@@ -109,15 +89,9 @@ describe('terraform (resource)', () => {
       }),
     });
 
-    const match: AllowedKeys[] = [
-      'gcp.cloudrun',
-      'gcp.gce',
-      'gcp.pubsub',
-      'terraform',
-    ];
     expect(
       Array.from(flatten(res, { merge: true }).techs).sort()
-    ).toStrictEqual(match);
+    ).toMatchSnapshot();
   });
 
   it('should match nothing', async () => {

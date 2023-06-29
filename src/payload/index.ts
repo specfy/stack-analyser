@@ -128,6 +128,18 @@ export class Payload implements Analyser {
       return false;
     });
 
+    if (service.tech?.includes('.')) {
+      const [host] = service.tech.split('.');
+      const tech = listIndexed[host as AllowedKeys];
+      const pl = new Payload({
+        name: tech.name,
+        folderPath: service.path[0],
+        tech: tech.key,
+      });
+      this.addChild(pl);
+      service.inComponent = pl;
+    }
+
     if (exist) {
       // Log all paths were it was found
       exist.path.push(...service.path);

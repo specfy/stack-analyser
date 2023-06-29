@@ -1,0 +1,50 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Payload > should detect nested dependencies 1`] = `
+{
+  "childs": [
+    {
+      "childs": [],
+      "dependencies": [],
+      "edges": [],
+      "group": "hosting",
+      "id": "2",
+      "inComponent": null,
+      "languages": {},
+      "name": "GCP",
+      "path": [
+        "/",
+      ],
+      "tech": "gcp",
+      "techs": [],
+    },
+    {
+      "childs": [],
+      "dependencies": [],
+      "edges": [],
+      "group": "component",
+      "id": "1",
+      "inComponent": "2",
+      "languages": {},
+      "name": "PubSub",
+      "path": [
+        "/",
+      ],
+      "tech": "gcp.pubsub",
+      "techs": [],
+    },
+  ],
+  "dependencies": [],
+  "edges": [],
+  "group": "component",
+  "id": "0",
+  "inComponent": null,
+  "languages": {},
+  "name": "root",
+  "path": [
+    "/",
+  ],
+  "tech": null,
+  "techs": [],
+}
+`;

@@ -1,7 +1,6 @@
 import { describe, expect, it } from 'vitest';
 
 import { analyser } from '../../../analyser/index.js';
-import type { AllowedKeys } from '../../../index.js';
 import { flatten } from '../../../payload/helpers.js';
 import { FakeProvider } from '../../../provider/fake.js';
 import { rawList } from '../../../rules.js';
@@ -37,35 +36,8 @@ describe('docker', () => {
       }),
     });
 
-    const match: AllowedKeys[] = [
-      'caddy',
-      'cassandra',
-      'couchbase',
-      'cypressci',
-      'docker',
-      'dynamodb',
-      'elasticsearch',
-      'httpd',
-      'influxdb',
-      'jenkins',
-      'kibana',
-      'mariadb',
-      'memcached',
-      'mongodb',
-      'mysql',
-      'neo4j',
-      'nginx',
-      'nodejs',
-      'percona',
-      'postgresql',
-      'rabbitmq',
-      'redis',
-      'strapi',
-      'vault',
-      'zookeeper',
-    ];
     expect(
       Array.from(flatten(res, { merge: true }).techs).sort()
-    ).toStrictEqual(match);
+    ).toMatchSnapshot();
   });
 });

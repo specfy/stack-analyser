@@ -1,0 +1,31 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`docker > should match everything 1`] = `
+[
+  "caddy",
+  "cassandra",
+  "couchbase",
+  "cypressci",
+  "docker",
+  "dynamodb",
+  "elasticsearch",
+  "httpd",
+  "influxdb",
+  "jenkins",
+  "kibana",
+  "mariadb",
+  "memcached",
+  "mongodb",
+  "mysql",
+  "neo4j",
+  "nginx",
+  "nodejs",
+  "percona",
+  "postgresql",
+  "rabbitmq",
+  "redis",
+  "strapi",
+  "vault",
+  "zookeeper",
+]
+`;
