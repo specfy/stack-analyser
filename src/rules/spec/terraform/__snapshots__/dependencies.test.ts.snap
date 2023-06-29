@@ -26,6 +26,7 @@ exports[`terraform (lockfile) > should match everything 1`] = `
 exports[`terraform (resource) > should match everything 1`] = `
 [
   "gcp",
+  "gcp.bigquery",
   "gcp.cloudrun",
   "gcp.gce",
   "gcp.gcs",

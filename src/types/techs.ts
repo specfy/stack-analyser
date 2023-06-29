@@ -50,6 +50,7 @@ export type AllowedKeys =
   | 'firebase'
   | 'flyio'
   | 'gce'
+  | 'gcp.bigquery'
   | 'gcp.cloudrun'
   | 'gcp.gce'
   | 'gcp.gcs'

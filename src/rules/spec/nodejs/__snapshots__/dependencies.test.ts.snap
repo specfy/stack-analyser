@@ -18,6 +18,7 @@ exports[`npm > should match everything 1`] = `
   "express",
   "fastify",
   "gcp",
+  "gcp.bigquery",
   "gcp.cloudrun",
   "gcp.gce",
   "gcp.gcs",

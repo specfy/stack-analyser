@@ -46,6 +46,7 @@ export const list: TechItem[] = [
   { key: 'gcp.pubsub', name: 'PubSub', type: 'messaging' },
   { key: 'gcp.gce', name: 'Compute Engine', type: 'hosting' },
   { key: 'gcp.gcs', name: 'Cloud Storage', type: 'hosting' },
+  { key: 'gcp.bigquery', name: 'Big Query', type: 'db' },
   { key: 'gitlabci', name: 'Gitlab CI', type: 'ci' },
   { key: 'github', name: 'Github', type: 'tool' },
   { key: 'github.actions', name: 'Github Actions', type: 'ci' },

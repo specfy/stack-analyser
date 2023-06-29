@@ -14,7 +14,7 @@ NodeJs:
   ✔ strapi @done(23-04-28 18:24)
   ✔ docsearch @done(23-04-27 14:38)
   - Slack
-  - Github API (octokit)
+  ✔ Github API (octokit) @done(23-06-29 12:20)
   ✔ Storybook @done(23-04-28 18:10)
   ✔ Webpack @done(23-04-29 14:51)
   ✔ Rollup @done(23-04-29 14:51)
@@ -26,9 +26,9 @@ Terraform:
   ✔ Kubernetes @done(23-05-02 11:45)
   ✔ GCP @done(23-05-02 11:39)
     - Postgres
-    - GCE
-    - Cloud run
-    - GCS
+    ✔ GCE @done(23-06-29 12:20)
+    ✔ Cloud run @done(23-06-29 12:20)
+    ✔ GCS @done(23-06-29 12:20)
   ✔ AWS @done(23-05-02 11:41)
     - ???
   ✔ Azure @done(23-05-02 11:41)
@@ -65,7 +65,7 @@ Docker Compose:
   ✔ Parse images @done(23-04-26 12:09)
 
 Firebase:
-  - Hosting
+  ✔ Hosting @done(23-06-29 12:21)
   - DB
 
 Global:
@@ -74,7 +74,7 @@ Global:
 - Detect Cloudflare
 ✔ Detect Netlify @done(23-04-28 17:13)
 ✔ Detect Fly.io @done(23-04-28 17:13)
-- Detect Heroku (did not find any way)
+✔ Detect Heroku (did not find any way) @done(23-06-29 12:21)
 ✔ Detect Render @done(23-04-29 14:56)
 ✔ Detect Dependabot @done(23-04-29 14:36)
 ✔ Detect Renovate @done(23-04-28 17:20)
@@ -89,9 +89,9 @@ Global:
 - Supabase
 ✔ Github actions @done(23-04-27 15:16)
 GCP:
-  - Big Query
-  - Cloud storage
-  - Pub Sub
+  ✔ Big Query @done(23-06-29 14:41)
+  ✔ Cloud storage @done(23-06-29 12:21)
+  ✔ Pub Sub @done(23-06-29 12:21)
 
 
 Don't forget:
