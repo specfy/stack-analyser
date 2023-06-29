@@ -1,3 +1,27 @@
+# [1.2.0](https://github.com/specfy/stack-analyser/compare/v1.1.6...v1.2.0) (2023-06-29)
+
+
+### Bug Fixes
+
+* **nested:** id was incorrect since it could be reused multiple times ([9c3784c](https://github.com/specfy/stack-analyser/commit/9c3784cb02fada733cab792d897eaddec66d7394))
+* **rules:** add AppVeyor ([a25479d](https://github.com/specfy/stack-analyser/commit/a25479da8610c9561639cc86535f09c6a4666333))
+* **rules:** add AzureCi ([a9baa7b](https://github.com/specfy/stack-analyser/commit/a9baa7b3e20f83dbf280e8a330e03f385212916d))
+* **rules:** add CirrusCi ([5feaee1](https://github.com/specfy/stack-analyser/commit/5feaee19dbb66dd9cfebc9247513985eef6c3d2a))
+* **rules:** add Firebase ([9ef7d9e](https://github.com/specfy/stack-analyser/commit/9ef7d9e5f180dcfa470857b07f1704aca7eaa713))
+* **rules:** Add Gitlab CI ([37d39e2](https://github.com/specfy/stack-analyser/commit/37d39e20ef499455c5f5745a10de73931bfbb66b))
+* **rules:** add Platform.sh ([8dd9bf3](https://github.com/specfy/stack-analyser/commit/8dd9bf395b3dd426351b841581093ddf5f7b6ed7))
+* **rules:** add Snyk ([a6d4a1b](https://github.com/specfy/stack-analyser/commit/a6d4a1bac3cf16008170a923eef91b02de5314bf))
+* **rules:** add StyleCi ([e076585](https://github.com/specfy/stack-analyser/commit/e07658529eab621640b689cf6faa227551cfdca8))
+* **rules:** add variant for CircleCi ([f63447a](https://github.com/specfy/stack-analyser/commit/f63447ac1332bd03ea31ef42923badfabfd5210a))
+* **rules:** allow to match multiple files and multiple resource per file ([3d202da](https://github.com/specfy/stack-analyser/commit/3d202da288d846cb2bc31843029e2beb5df9c700))
+* **rules:** rename some to prepare for nested rule ([86360e3](https://github.com/specfy/stack-analyser/commit/86360e3ef5959c2c835de31178f5da812abc41bf))
+
+
+### Features
+
+* **rules:** detect Terraform resource name ([58327d6](https://github.com/specfy/stack-analyser/commit/58327d6b54aaab53cb2d877b710582c98a9c469b))
+* **rules:** nested rules (dotted rules) automatically create the parent component associated ([88e06b2](https://github.com/specfy/stack-analyser/commit/88e06b2df5a982538f1e61bbef0be10fd8090fa8))
+
 ## [1.1.6](https://github.com/specfy/stack-analyser/compare/v1.1.5...v1.1.6) (2023-06-28)
 
 
