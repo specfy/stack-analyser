@@ -45,6 +45,6 @@ export type RuleWithFile = Pick<Rule, 'tech'> & RuleFiles;
 export type ComponentMatcher = (
   files: ProviderFile[],
   provider: BaseProvider
-) => Promise<Payload | false>;
+) => Promise<Payload | Payload[] | false>;
 
 export type TechMatcher = (files: ProviderFile[]) => TechItem | false;

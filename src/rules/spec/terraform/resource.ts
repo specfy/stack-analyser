@@ -13,6 +13,7 @@ export const detectTerraformResource: ComponentMatcher = async (
   files,
   provider
 ) => {
+  const pls: Payload[] = [];
   for (const file of files) {
     if (!FILE.test(file.name)) {
       continue;
@@ -28,11 +29,11 @@ export const detectTerraformResource: ComponentMatcher = async (
       json = await parse(file.fp, content);
     } catch (err) /* istanbul ignore next */ {
       console.warn('Failed to parse HCL', err);
-      return false;
+      continue;
     }
 
     if (!('resource' in json)) {
-      return false;
+      continue;
     }
 
     const pl = new Payload({
@@ -60,8 +61,8 @@ export const detectTerraformResource: ComponentMatcher = async (
       );
     }
 
-    return pl;
+    pls.push(pl);
   }
 
-  return false;
+  return pls.length > 0 ? pls : false;
 };

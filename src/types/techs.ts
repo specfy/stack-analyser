@@ -51,6 +51,7 @@ export type AllowedKeys =
   | 'flyio'
   | 'gce'
   | 'gcp.cloudrun'
+  | 'gcp.gce'
   | 'gcp.pubsub'
   | 'gcp'
   | 'github'

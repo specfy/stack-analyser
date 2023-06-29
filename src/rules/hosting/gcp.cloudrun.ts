@@ -8,5 +8,9 @@ register({
       type: 'terraform.resource',
       name: 'google_cloud_run_v2_service',
     },
+    {
+      type: 'terraform.resource',
+      name: 'google_cloud_run_v2_job',
+    },
   ],
 });

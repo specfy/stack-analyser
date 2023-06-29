@@ -80,11 +80,14 @@ export class Payload implements Analyser {
         continue;
       }
 
-      if (res.name !== 'virtual') {
-        ctx = res;
-        this.addChild(res);
-      } else {
-        res.childs.forEach((child) => this.addChild(child));
+      const resArray = Array.isArray(res) ? res : [res];
+      for (const pl of resArray) {
+        if (pl.name !== 'virtual') {
+          ctx = pl;
+          this.addChild(pl);
+        } else {
+          pl.childs.forEach((child) => this.addChild(child));
+        }
       }
     }
 

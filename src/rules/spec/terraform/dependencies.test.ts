@@ -91,6 +91,6 @@ describe('terraform (resource)', () => {
 
     expect(
       Array.from(flatten(res, { merge: true }).techs).sort()
-    ).toStrictEqual(['gcp.cloudrun', 'gcp.pubsub', 'terraform']);
+    ).toStrictEqual(['gcp.cloudrun', 'gcp.gce', 'gcp.pubsub', 'terraform']);
   });
 });
