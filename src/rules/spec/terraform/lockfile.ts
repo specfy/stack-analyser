@@ -9,7 +9,7 @@ import type { ComponentMatcher } from '../../../types/rule.js';
 
 const LOCKFILE = '.terraform.lock.hcl';
 
-export const detectTerraformComponent: ComponentMatcher = async (
+export const detectTerraformLockfile: ComponentMatcher = async (
   files,
   provider
 ) => {
@@ -35,7 +35,6 @@ export const detectTerraformComponent: ComponentMatcher = async (
       return false;
     }
 
-    // const techs = detect(Object.keys(json.provider), 'terraform');
     const pl = new Payload({
       name: 'virtual',
       folderPath: path.dirname(file.fp),

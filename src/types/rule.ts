@@ -3,7 +3,11 @@ import type { BaseProvider, ProviderFile } from '../provider/base.js';
 
 import type { AllowedKeys, TechItem } from './techs.js';
 
-export type SupportedDeps = 'docker' | 'npm' | 'terraform';
+export type SupportedDeps =
+  | 'docker'
+  | 'npm'
+  | 'terraform.resource'
+  | 'terraform';
 
 export type RuleDependency = {
   type: SupportedDeps;
@@ -17,7 +21,7 @@ export type RuleDependency = {
 export type Rule = {
   tech: AllowedKeys;
   dependencies?: RuleDependency[];
-  detect?: ComponentMatcher;
+  detect?: ComponentMatcher | ComponentMatcher[];
 } & (RuleFiles | never);
 export type RuleFiles =
   | {

@@ -22,6 +22,7 @@ export const dependencies: Record<
   npm: [],
   docker: [],
   terraform: [],
+  'terraform.resource': [],
 };
 
 export const rawList: Array<
@@ -74,7 +75,9 @@ export function register(rule: Rule) {
   }
 
   if (rule.detect) {
-    rulesComponents.push(rule.detect);
+    rulesComponents.push(
+      ...(Array.isArray(rule.detect) ? rule.detect : [rule.detect])
+    );
   }
 }
 

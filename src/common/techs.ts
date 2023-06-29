@@ -42,6 +42,8 @@ export const list: TechItem[] = [
   { key: 'flyio', name: 'Fly.io', type: 'hosting' },
   { key: 'gce', name: 'GCE', type: 'hosting' },
   { key: 'gcp', name: 'GCP', type: 'hosting' },
+  { key: 'gcp.cloudrun', name: 'Cloud Run', type: 'hosting' },
+  { key: 'gcp.pubsub', name: 'PubSub', type: 'messaging' },
   { key: 'gitlabci', name: 'Gitlab CI', type: 'ci' },
   { key: 'github', name: 'Github', type: 'tool' },
   { key: 'githubactions', name: 'Github Actions', type: 'ci' },

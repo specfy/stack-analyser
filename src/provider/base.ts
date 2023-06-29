@@ -41,7 +41,9 @@ export const IGNORED_DIVE_PATHS = [
   // needed to detect github actions
   // '.github',
   '.gitlab',
+  '.gradle',
   '.log',
+  '.metadata',
   '.npm',
   '.nuxt',
   '.react-email',
