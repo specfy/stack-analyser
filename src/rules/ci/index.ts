@@ -1,12 +1,12 @@
 import './appveyor.js';
-import './azureci.js';
+import './azure.ci.js';
 import './browserstack.js';
 import './circleci.js';
 import './cirrusci.js';
 import './codesandboxci.js';
 import './cypressci.js';
 import './dependabot.js';
-import './githubactions.js';
+import './github.actions.js';
 import './gitlabci.js';
 import './jenkins.js';
 import './relativeci.js';

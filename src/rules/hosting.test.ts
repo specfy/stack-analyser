@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest';
 
 import { analyser } from '../analyser/index.js';
 import { listIndexed } from '../common/techs.js';
+import type { AllowedKeys } from '../index.js';
 import { FakeProvider } from '../provider/fake.js';
 import { rawList } from '../rules.js';
 import './index.js';
@@ -29,15 +30,16 @@ describe('hosting', () => {
         files: {},
       }),
     });
-    expect(res.toJson('').techs).toStrictEqual([
+    const match: AllowedKeys[] = [
       'expodev',
       'flyio',
-      'githubpages',
+      'github.pages',
       'heroku',
       'netlify',
       'platformsh',
       'render',
       'vercel',
-    ]);
+    ];
+    expect(res.toJson('').techs).toStrictEqual(match);
   });
 });

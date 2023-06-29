@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest';
 
 import { analyser } from '../analyser/index.js';
 import { listIndexed } from '../common/techs.js';
+import type { AllowedKeys } from '../index.js';
 import { FakeProvider } from '../provider/fake.js';
 import { rawList } from '../rules.js';
 import './index.js';
@@ -29,16 +30,16 @@ describe('ci', () => {
         files: {},
       }),
     });
-    expect(res.toJson('').techs).toStrictEqual([
+    const match: AllowedKeys[] = [
       'appveyor',
-      'azureci',
+      'azure.ci',
       'browserstack',
       'circleci',
       'cirrusci',
       'codesandboxci',
       'cypressci',
       'dependabot',
-      'githubactions',
+      'github.actions',
       'gitlabci',
       'javascript',
       'jenkins',
@@ -47,7 +48,8 @@ describe('ci', () => {
       'styleci',
       'teamcity',
       'travisci',
-    ]);
+    ];
+    expect(res.toJson('').techs).toStrictEqual(match);
   });
 
   it('enforce that we match .github', async () => {
@@ -63,6 +65,7 @@ describe('ci', () => {
         },
       }),
     });
-    expect(res.toJson('').techs).toStrictEqual(['github', 'githubactions']);
+    const match: AllowedKeys[] = ['github', 'github.actions'];
+    expect(res.toJson('').techs).toStrictEqual(match);
   });
 });

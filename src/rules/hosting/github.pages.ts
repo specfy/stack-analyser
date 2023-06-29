@@ -1,6 +1,6 @@
 import { register } from '../../rules.js';
 
 register({
-  tech: 'githubpages',
+  tech: 'github.pages',
   files: ['_config.yml'],
 });
