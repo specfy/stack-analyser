@@ -23,6 +23,7 @@ exports[`npm > should match everything 1`] = `
   "gcp.gce",
   "gcp.gcs",
   "gcp.pubsub",
+  "gcp.sql",
   "github",
   "hotjar",
   "influxdb",

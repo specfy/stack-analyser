@@ -55,6 +55,7 @@ export type AllowedKeys =
   | 'gcp.gce'
   | 'gcp.gcs'
   | 'gcp.pubsub'
+  | 'gcp.sql'
   | 'gcp'
   | 'github.actions'
   | 'github.pages'

@@ -9,6 +9,7 @@ import './mongo.js';
 import './mysql.js';
 import './neo4j.js';
 import './gcp.bigquery.js';
+import './gcp.sql.js';
 import './percona.js';
 import './postgres.js';
 import './redis.js';
