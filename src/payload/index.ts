@@ -121,7 +121,7 @@ export class Payload implements Analyser {
    * Register a child to this Payload.
    * If a similar child is found at the same level, it will merge them.
    */
-  addChild(service: Payload) {
+  addChild(service: Payload): Payload {
     const exist = this.childs.find((s) => {
       if (s.name === service.name) return true;
       if (s.tech && service.tech && s.tech === service.tech) return true;
@@ -136,8 +136,8 @@ export class Payload implements Analyser {
         folderPath: service.path[0],
         tech: tech.key,
       });
-      this.addChild(pl);
-      service.inComponent = pl;
+      const child = this.addChild(pl);
+      service.inComponent = child;
     }
 
     if (exist) {
@@ -158,11 +158,12 @@ export class Payload implements Analyser {
       // Merge dependencies
       exist.dependencies = [...exist.dependencies, ...service.dependencies];
 
-      return;
+      return exist;
     }
 
     service.setParent(this);
     this.childs.push(service);
+    return service;
   }
 
   /**
