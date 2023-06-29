@@ -7,6 +7,7 @@ import './flyio.js';
 import './gcp.cloudrun.js';
 import './gcp.gce.js';
 import './gcp.gcs.js';
+import './gcp.gke.js';
 import './gcp.js';
 import './github.pages.js';
 import './heroku.js';

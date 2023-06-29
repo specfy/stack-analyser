@@ -54,6 +54,7 @@ export type AllowedKeys =
   | 'gcp.cloudrun'
   | 'gcp.gce'
   | 'gcp.gcs'
+  | 'gcp.gke'
   | 'gcp.pubsub'
   | 'gcp.sql'
   | 'gcp'
