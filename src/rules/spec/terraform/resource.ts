@@ -27,7 +27,7 @@ export const detectTerraformResource: ComponentMatcher = async (
     let json: Record<string, any>;
     try {
       json = await parse(file.fp, content);
-    } catch (err) /* istanbul ignore next */ {
+    } catch (err) {
       console.warn('Failed to parse HCL', err);
       continue;
     }

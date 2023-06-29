@@ -58,6 +58,24 @@ describe('terraform (lockfile)', () => {
       Array.from(flatten(res, { merge: true }).techs).sort()
     ).toStrictEqual(match);
   });
+
+  it('should match nothing', async () => {
+    const res = await analyser({
+      provider: new FakeProvider({
+        paths: {
+          '/': ['.terraform.lock.hcl'],
+        },
+        files: {
+          '/.terraform.lock.hcl': '',
+        },
+      }),
+    });
+
+    const match: AllowedKeys[] = ['terraform'];
+    expect(
+      Array.from(flatten(res, { merge: true }).techs).sort()
+    ).toStrictEqual(match);
+  });
 });
 
 describe('terraform (resource)', () => {
@@ -97,6 +115,31 @@ describe('terraform (resource)', () => {
       'gcp.pubsub',
       'terraform',
     ];
+    expect(
+      Array.from(flatten(res, { merge: true }).techs).sort()
+    ).toStrictEqual(match);
+  });
+
+  it('should match nothing', async () => {
+    const resource: string[] = [
+      `
+    resource "unknown" "foobar" {
+      name     = "hello"
+    }`,
+    ];
+
+    const res = await analyser({
+      provider: new FakeProvider({
+        paths: {
+          '/': ['main.tf'],
+        },
+        files: {
+          '/main.tf': resource.join(''),
+        },
+      }),
+    });
+
+    const match: AllowedKeys[] = ['terraform'];
     expect(
       Array.from(flatten(res, { merge: true }).techs).sort()
     ).toStrictEqual(match);

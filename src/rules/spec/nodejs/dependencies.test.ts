@@ -93,4 +93,21 @@ describe('npm', () => {
       Array.from(flatten(res, { merge: true }).techs).sort()
     ).toStrictEqual(match);
   });
+
+  it('should match nothing', async () => {
+    const res = await analyser({
+      provider: new FakeProvider({
+        paths: {
+          '/': ['package.json'],
+        },
+        files: {
+          '/package.json': JSON.stringify({ foo: 'bar' }),
+        },
+      }),
+    });
+    const match: AllowedKeys[] = ['nodejs'];
+    expect(
+      Array.from(flatten(res, { merge: true }).techs).sort()
+    ).toStrictEqual(match);
+  });
 });
