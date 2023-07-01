@@ -7,7 +7,7 @@ on:
 
 jobs:
   ci:
-    container: node:18.13.0
+    container: node:19.9.0
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
