@@ -104,7 +104,6 @@ const flat = flatten(result);
             {
               "id": "sJrI0o0uPKbu",
               "name": "datadog",
-              "group": "thirdparty",
               "path": [ "pkgs/api/package.json" ],
               "tech": "datadog",
               "edges": [],
