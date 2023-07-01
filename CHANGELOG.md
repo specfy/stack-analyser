@@ -1,3 +1,17 @@
+# [1.3.0](https://github.com/specfy/stack-analyser/compare/v1.2.0...v1.3.0) (2023-07-01)
+
+
+### Bug Fixes
+
+* **rules:** add BigQuery ([2e99b69](https://github.com/specfy/stack-analyser/commit/2e99b698789ea2fd24c8140fe35dcdb95ccadc36))
+* **rules:** add GCP Cloud Sql ([d81b1c0](https://github.com/specfy/stack-analyser/commit/d81b1c0f720ff3b7747cfe0fc1b5a6965e3f4fca))
+* **rules:** add GKE ([272ee8e](https://github.com/specfy/stack-analyser/commit/272ee8e8c646a0635c21b39bdc492992dc2fcca1))
+
+
+### Features
+
+* remove group from output. it was abritrary and not useful ([02b2b48](https://github.com/specfy/stack-analyser/commit/02b2b48a21e2bbc9c10e15f0693714b161a0528d))
+
 # [1.2.0](https://github.com/specfy/stack-analyser/compare/v1.1.6...v1.2.0) (2023-06-29)
 
 
