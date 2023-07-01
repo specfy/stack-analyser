@@ -15,7 +15,7 @@ jobs:
       - name: Renovate Automatic Branch
         uses: bodinsamuel/renovate-automatic-branch@v1
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
           repo-owner: specfy
           repo-name: stack-analyser
           branch-base: main
