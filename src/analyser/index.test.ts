@@ -43,7 +43,6 @@ describe('analyser', () => {
     expect(res.toJson('')).toStrictEqual({
       id: expect.any(String),
       name: 'main',
-      group: 'component',
       edges: [],
       inComponent: null,
       languages: {},

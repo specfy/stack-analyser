@@ -50,7 +50,7 @@ export const list: TechItem[] = [
   { key: 'gcp.gke', name: 'GKE', type: 'hosting' },
   { key: 'gcp.sql', name: 'Cloud SQL', type: 'db' },
   { key: 'gitlabci', name: 'Gitlab CI', type: 'ci' },
-  { key: 'github', name: 'Github', type: 'tool' },
+  { key: 'github', name: 'Github', type: 'sass' },
   { key: 'github.actions', name: 'Github Actions', type: 'ci' },
   { key: 'github.pages', name: 'Github Pages', type: 'hosting' },
   { key: 'golang', name: 'Go', type: 'language' },

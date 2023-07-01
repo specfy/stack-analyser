@@ -25,11 +25,6 @@ export interface Analyser {
   name: string;
 
   /**
-   * To which main group this payload belongs to.
-   */
-  group: ComponentGroup;
-
-  /**
    * Where this payload was found.
    * When flatten() it will contain all path that were deduplicated
    */
@@ -87,5 +82,3 @@ export type AnalyserJson = Modify<
     edges: Array<Modify<GraphEdge, { to: string }>>;
   }
 >;
-
-export type ComponentGroup = 'component' | 'hosting' | 'project' | 'thirdparty';

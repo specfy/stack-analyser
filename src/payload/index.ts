@@ -16,7 +16,6 @@ import { findHosting, findImplicitComponent } from './helpers.js';
 export class Payload implements Analyser {
   public id;
   public name;
-  public group: Analyser['group'];
   public path;
   public tech;
   public languages: Analyser['languages'];
@@ -50,20 +49,10 @@ export class Payload implements Analyser {
     this.childs = [];
     this.techs = new Set();
     this.languages = {};
-    this.group = 'component';
     this.dependencies = dependencies || [];
 
     this.parent = parent;
     this.edges = [];
-
-    if (this.tech) {
-      const ref = listIndexed[this.tech];
-      if (ref.type === 'hosting') {
-        this.group = 'hosting';
-      } else if (ref.type === 'sass') {
-        this.group = 'thirdparty';
-      }
-    }
   }
 
   /**
@@ -302,7 +291,6 @@ export class Payload implements Analyser {
     return {
       id: this.id,
       name: this.name,
-      group: this.group,
       path: cleanPath(this.path, root),
       tech: this.tech,
       edges: this.edges.map((edge) => {
