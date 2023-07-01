@@ -53,7 +53,6 @@ const flat = flatten(result);
 {
   "id": "Lo8J6eL6Spyl",
   "name": "main",
-  "group": "component",
   "path": [ "/" ],
   "tech": null,
   "edges": [],
@@ -62,7 +61,6 @@ const flat = flatten(result);
     {
       "id": "JLeNdGFoScFs",
       "name": "db",
-      "group": "component",
       "path": [ "docker-compose.yml" ],
       "tech": "postgresql",
       "edges": [],
@@ -77,7 +75,6 @@ const flat = flatten(result);
     {
       "id": "Cxg6Ih3uojKa",
       "name": "fake",
-      "group": "component",
       "path": [ "package.json" ],
       "tech": null,
       "edges": [],
@@ -86,7 +83,6 @@ const flat = flatten(result);
         {
           "id": "Xlm5pmCeLiZU",
           "name": "@fake/api",
-          "group": "component",
           "path": [ "pkgs/api/package.json" ],
           "tech": null,
           "edges": [
@@ -128,7 +124,6 @@ const flat = flatten(result);
         {
           "id": "xWkAHdSWE0Zj",
           "name": "@fake/app",
-          "group": "component",
           "path": [ "pkgs/app/package.json" ],
           "tech": null,
           "edges": [],
@@ -137,7 +132,6 @@ const flat = flatten(result);
             {
               "id": "GfhHGANwmv2p",
               "name": "vercel",
-              "group": "hosting",
               "path": [ "pkgs/app/package.json" ],
               "tech": "vercel",
               "edges": [],
@@ -179,7 +173,6 @@ const flat = flatten(result);
     {
       "id": "KMaBy6d6OuQy",
       "name": "redis",
-      "group": "component",
       "path": [ "docker-compose.yml" ],
       "tech": "redis",
       "edges": [],
@@ -194,7 +187,6 @@ const flat = flatten(result);
     {
       "id": "DurTAUqSoZNe",
       "name": "unknown",
-      "group": "component",
       "path": [ "docker-compose.yml" ],
       "tech": null,
       "edges": [],
