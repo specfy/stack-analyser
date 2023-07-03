@@ -5,7 +5,7 @@ export function cleanNestedSnapshot(pl: AnalyserJson) {
   pl.inComponent = '';
 
   pl.childs.forEach((child) => cleanNestedSnapshot(child));
-  pl.edges.forEach((edge) => (edge.to = ''));
+  pl.edges.forEach((edge) => (edge.target = ''));
 
   return pl;
 }

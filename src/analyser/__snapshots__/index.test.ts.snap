@@ -37,11 +37,8 @@ exports[`analyser > should register only component of the same tech 1`] = `
       ],
       "edges": [
         {
-          "portSource": "right",
-          "portTarget": "left",
           "read": true,
-          "to": "3",
-          "vertices": [],
+          "target": "3",
           "write": true,
         },
       ],
@@ -173,11 +170,8 @@ exports[`analyser > should run correctly 1`] = `
           ],
           "edges": [
             {
-              "portSource": "right",
-              "portTarget": "left",
               "read": true,
-              "to": "14",
-              "vertices": [],
+              "target": "14",
               "write": true,
             },
           ],
@@ -435,11 +429,8 @@ exports[`analyser > should run correctly 2`] = `
       ],
       "edges": [
         {
-          "portSource": "right",
-          "portTarget": "left",
           "read": true,
-          "to": "14",
-          "vertices": [],
+          "target": "14",
           "write": true,
         },
       ],
@@ -487,11 +478,8 @@ exports[`analyser > should run correctly 2`] = `
       ],
       "edges": [
         {
-          "portSource": "right",
-          "portTarget": "left",
           "read": true,
-          "to": "13",
-          "vertices": [],
+          "target": "13",
           "write": true,
         },
       ],

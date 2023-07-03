@@ -70,7 +70,7 @@ describe('analyser', () => {
     const flat = flatten(res, { merge: true });
     const json: AnalyserJson = JSON.parse(JSON.stringify(flat.toJson('')));
     expect(json).toMatchSnapshot();
-    expect(flat.childs[0].id).toEqual(flat.childs[1].edges[0].to.id);
+    expect(flat.childs[0].id).toEqual(flat.childs[1].edges[0].target.id);
   });
 
   it('should run correctly', async () => {
@@ -90,10 +90,10 @@ describe('analyser', () => {
     const app = flatted.childs.find((child) => child.name === '@fake/app');
     expect(app!.inComponent!.id).toBe(vercel.id);
 
-    // Check that edge.to was updated
+    // Check that edge.target was updated
     const datadog = flatted.childs.find((child) => child.name === 'datadog')!;
     const api = flatted.childs.find((child) => child.name === '@fake/api');
-    expect(api!.edges[0].to.id).toBe(datadog.id);
+    expect(api!.edges[0].target.id).toBe(datadog.id);
 
     expect(JSON.parse(JSON.stringify(flatted.toJson(root)))).toMatchSnapshot();
   });

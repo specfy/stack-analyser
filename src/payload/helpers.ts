@@ -77,7 +77,7 @@ export function findEdgesInDependencies(pl: Payload) {
       }
 
       // Check if we already added an edge about that
-      const already = child.edges.find((edge) => edge.to.name === name);
+      const already = child.edges.find((edge) => edge.target.name === name);
       if (already) {
         return;
       }
@@ -143,8 +143,8 @@ export function flatten(
         }
 
         childC.edges.forEach((edge) => {
-          if (edge.to.id === childB.id) {
-            edge.to = childA;
+          if (edge.target.id === childB.id) {
+            edge.target = childA;
           }
         });
       });

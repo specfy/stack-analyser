@@ -29,10 +29,8 @@ Payload {
       ],
       "edges": [
         {
-          "portSource": "right",
-          "portTarget": "left",
           "read": true,
-          "to": Payload {
+          "target": Payload {
             "childs": [],
             "dependencies": [],
             "edges": [],
@@ -47,7 +45,6 @@ Payload {
             "tech": null,
             "techs": Set {},
           },
-          "vertices": [],
           "write": true,
         },
       ],

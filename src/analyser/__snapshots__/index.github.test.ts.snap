@@ -66,11 +66,8 @@ exports[`analyser > should list from API 1`] = `
           ],
           "edges": [
             {
-              "portSource": "right",
-              "portTarget": "left",
               "read": true,
-              "to": "7",
-              "vertices": [],
+              "target": "7",
               "write": true,
             },
           ],
