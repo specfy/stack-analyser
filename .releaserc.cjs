@@ -12,6 +12,7 @@ module.exports = {
       path: '@semantic-release/git',
       assets: [
         'package.json',
+        'package-lock.json',
         'CHANGELOG.md',
       ],
       message:
