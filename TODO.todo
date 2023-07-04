@@ -47,10 +47,10 @@ Terraform:
   - digital ocean
   - scaleway
   - wavefront
-  - cloudflare
+  ✔ cloudflare @done(23-07-04 14:55)
   - fastly
   - Heroku
-  - Auth0
+  ✔ Auth0 @done(23-07-04 14:58)
   - Okta
   - Snyk
   - Pagerduty

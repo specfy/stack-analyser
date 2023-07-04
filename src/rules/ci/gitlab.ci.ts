@@ -1,6 +1,6 @@
 import { register } from '../../rules.js';
 
 register({
-  tech: 'gitlabci',
+  tech: 'gitlab.ci',
   files: ['.gitlab-ci.yml'],
 });
