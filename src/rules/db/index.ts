@@ -1,6 +1,6 @@
 import './cassandra.js';
 import './couchbase.js';
-import './dynamodb.js';
+import './aws.dynamodb.js';
 import './elasticsearch.js';
 import './influxdb.js';
 import './mariadb.js';

@@ -1,7 +1,7 @@
 import { register } from '../../rules.js';
 
 register({
-  tech: 'dynamodb',
+  tech: 'aws.dynamodb',
   dependencies: [
     { type: 'npm', name: '@aws-sdk/client-dynamodb' },
     {
