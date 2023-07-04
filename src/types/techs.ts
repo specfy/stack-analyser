@@ -28,6 +28,7 @@ export type AllowedKeys =
   | 'circleci'
   | 'cirrusci'
   | 'cloudflare'
+  | 'cockroachdb'
   | 'codesandboxci'
   | 'couchbase'
   | 'cplusplus'
