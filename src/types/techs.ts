@@ -104,6 +104,7 @@ export type AllowedKeys =
   | 'powershell'
   | 'prettier'
   | 'prisma'
+  | 'prismacloud'
   | 'python'
   | 'rabbitmq'
   | 'react'

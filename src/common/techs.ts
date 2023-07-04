@@ -96,6 +96,7 @@ export const list: TechItem[] = [
   { key: 'powershell', name: 'Powershell', type: 'language' },
   { key: 'prettier', name: 'Prettier', type: 'tool' },
   { key: 'prisma', name: 'Prisma', type: 'tool' },
+  { key: 'prismacloud', name: 'PrismaCloud', type: 'tool' },
   { key: 'python', name: 'Python', type: 'language' },
   { key: 'rabbitmq', name: 'RabbitMQ', type: 'messaging' },
   { key: 'react', name: 'React', type: 'language' },
