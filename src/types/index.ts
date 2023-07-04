@@ -5,12 +5,9 @@ import type { AllowedKeys } from './techs.js';
 import type { Modify } from './utils.js';
 
 export interface GraphEdge {
-  to: Payload;
+  target: Payload;
   read: boolean;
   write: boolean;
-  vertices: Array<{ x: number; y: number }>;
-  portSource: 'bottom' | 'left' | 'right' | 'top';
-  portTarget: 'bottom' | 'left' | 'right' | 'top';
 }
 
 export interface Analyser {
@@ -23,11 +20,6 @@ export interface Analyser {
    * Best-effort name of this payload
    */
   name: string;
-
-  /**
-   * To which main group this payload belongs to.
-   */
-  group: ComponentGroup;
 
   /**
    * Where this payload was found.
@@ -84,8 +76,6 @@ export type AnalyserJson = Modify<
     childs: AnalyserJson[];
     techs: AllowedKeys[];
     inComponent: string | null;
-    edges: Array<Modify<GraphEdge, { to: string }>>;
+    edges: Array<Modify<GraphEdge, { target: string }>>;
   }
 >;
-
-export type ComponentGroup = 'component' | 'hosting' | 'project' | 'thirdparty';

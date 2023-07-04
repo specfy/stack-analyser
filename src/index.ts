@@ -23,7 +23,7 @@ import {
   rawList,
   dependencies as dependenciesList,
 } from './rules.js';
-import { Analyser, AnalyserJson, ComponentGroup } from './types/index.js';
+import { Analyser, AnalyserJson } from './types/index.js';
 import {
   SupportedDeps,
   RuleDependency,
@@ -39,7 +39,6 @@ export {
   Analyser,
   AnalyserJson,
   BaseProvider,
-  ComponentGroup,
   ComponentMatcher,
   FakeProvider,
   FSProvider,

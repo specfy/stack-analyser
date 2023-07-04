@@ -1,6 +1,6 @@
 {
   "extends": [
-    "algolia"
+    "github>algolia/renovate-config-algolia"
   ],
   "baseBranches": [
     "chore/renovateBaseBranch"

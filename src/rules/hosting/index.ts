@@ -15,6 +15,8 @@ import './kubernetes.js';
 import './mongodbatlas.js';
 import './netlify.js';
 import './oraclecloud.js';
+import './ovh.js';
 import './platformsh.js';
 import './render.js';
+import './scaleway.js';
 import './vercel.js';

@@ -51,19 +51,108 @@ const flat = flatten(result);
 
 ```json
 {
-  "id": "Lo8J6eL6Spyl",
-  "name": "main",
-  "group": "component",
-  "path": [ "/" ],
+  "id": "44xNl6ZWgpp1",
+  "name": "flatten",
+  "path": ["/"],
   "tech": null,
   "edges": [],
   "inComponent": null,
+  "techs": [],
+  "languages": {},
+  "dependencies": [],
   "childs": [
     {
-      "id": "JLeNdGFoScFs",
+      "id": "XAPpH2jgrRQq",
+      "name": "@fake/api",
+      "path": [
+        "pkgs/api/package.json"
+      ],
+      "tech": null,
+      "edges": [
+        {
+          "target": "0ijEqmU6TTVP",
+          "read": true,
+          "write": true
+        }
+      ],
+      "inComponent": null,
+      "childs": [],
+      "techs": [ "datadog", "fastify", "nodejs", "prisma", "typescript" ],
+      "languages": {
+        "JSON": 1
+      },
+      "dependencies": [
+        [ "npm","dd-trace","1.0.1" ],
+        [ "npm", "fastify", "4.17.0" ],
+        [ "npm", "prisma", "4.13.0" ],
+        [ "npm", "typescript", "5.0.4" ]
+      ]
+    },
+    {
+      "id": "KDaUcHH5fbvW",
+      "name": "@fake/app",
+      "path": [
+        "pkgs/app/package.json"
+      ],
+      "tech": null,
+      "edges": [
+        {
+          "target": "XAPpH2jgrRQq",
+          "read": true,
+          "write": true
+        }
+      ],
+      "inComponent": "MXFXwFMcCeaa",
+      "childs": [],
+      "techs": [ "html", "nodejs", "react", "scss", "typescript", "vercel", "vite" ],
+      "languages": {
+        "JSON": 1,
+        "HTML": 1,
+        "SCSS": 1
+      },
+      "dependencies": [
+        [ "npm", "@fake/api", "1.0.0" ],
+        [ "npm", "react", "4.17.0" ],
+        [ "npm", "typescript", "5.0.4" ],
+        [ "npm", "vite", "4.3.3" ]
+      ]
+    },
+    {
+      "id": "GiMSHgVZxp0w",
+      "name": "GCP",
+      "path": [
+        "terraform/.terraform.lock.hcl"
+      ],
+      "tech": "gcp",
+      "edges": [],
+      "inComponent": null,
+      "childs": [],
+      "techs": [],
+      "languages": {},
+      "dependencies": [
+        [ "terraform", "registry.terraform.io/hashicorp/google", "4.61.0" ]
+      ]
+    },
+    {
+      "id": "0ijEqmU6TTVP",
+      "name": "datadog",
+      "path": [
+        "pkgs/api/package.json"
+      ],
+      "tech": "datadog",
+      "edges": [],
+      "inComponent": null,
+      "childs": [],
+      "techs": [],
+      "languages": {},
+      "dependencies": []
+    },
+    {
+      "id": "PLIJw7dSPiYm",
       "name": "db",
-      "group": "component",
-      "path": [ "docker-compose.yml" ],
+      "path": [
+        "docker-compose.yml"
+      ],
       "tech": "postgresql",
       "edges": [],
       "inComponent": null,
@@ -75,94 +164,15 @@ const flat = flatten(result);
       ]
     },
     {
-      "id": "Cxg6Ih3uojKa",
+      "id": "qx9C1IK1eyqQ",
       "name": "fake",
-      "group": "component",
-      "path": [ "package.json" ],
+      "path": [
+        "package.json"
+      ],
       "tech": null,
       "edges": [],
       "inComponent": null,
-      "childs": [
-        {
-          "id": "Xlm5pmCeLiZU",
-          "name": "@fake/api",
-          "group": "component",
-          "path": [ "pkgs/api/package.json" ],
-          "tech": null,
-          "edges": [
-            {
-              "to": "sJrI0o0uPKbu",
-              "portSource": "right",
-              "portTarget": "left",
-              "read": true,
-              "write": true,
-              "vertices": []
-            }
-          ],
-          "inComponent": null,
-          "childs": [
-            {
-              "id": "sJrI0o0uPKbu",
-              "name": "datadog",
-              "group": "thirdparty",
-              "path": [ "pkgs/api/package.json" ],
-              "tech": "datadog",
-              "edges": [],
-              "inComponent": null,
-              "childs": [],
-              "techs": [],
-              "languages": {},
-              "dependencies": []
-            }
-          ],
-          "techs": [ "datadog", "fastify", "nodejs", "prisma", "typescript" ],
-          "languages": {
-            "JSON": 1
-          },
-          "dependencies": [
-            [ "npm", "dd-trace", "1.0.1" ],
-            [ "npm", "fastify", "4.17.0" ],
-            [ "npm", "prisma", "4.13.0" ],
-            [ "npm", "typescript", "5.0.4" ]
-          ]
-        },
-        {
-          "id": "xWkAHdSWE0Zj",
-          "name": "@fake/app",
-          "group": "component",
-          "path": [ "pkgs/app/package.json" ],
-          "tech": null,
-          "edges": [],
-          "inComponent": "GfhHGANwmv2p",
-          "childs": [
-            {
-              "id": "GfhHGANwmv2p",
-              "name": "vercel",
-              "group": "hosting",
-              "path": [ "pkgs/app/package.json" ],
-              "tech": "vercel",
-              "edges": [],
-              "inComponent": null,
-              "childs": [],
-              "techs": [],
-              "languages": {},
-              "dependencies": []
-            }
-          ],
-          "techs": [ "html", "nodejs", "react", "scss", "typescript", "vercel", "vite" ],
-          "languages": {
-            "JSON": 1,
-            "HTML": 1,
-            "SCSS": 1
-          },
-          "dependencies": [
-            [ "npm", "@fake/api", "1.0.0" ],
-            [ "npm", "react", "4.17.0" ],
-            [ "npm", "typescript", "5.0.4" ],
-            [ "npm", "vite", "4.3.3" ]
-          ]
-        }
-      ],
+      "childs": [],
       "techs": [ "docker", "eslint", "nodejs", "prettier", "terraform", "typescript" ],
       "languages": {
         "YAML": 1,
@@ -178,10 +188,11 @@ const flat = flatten(result);
       ]
     },
     {
-      "id": "KMaBy6d6OuQy",
+      "id": "Z7w2sPVvm4uv",
       "name": "redis",
-      "group": "component",
-      "path": [ "docker-compose.yml" ],
+      "path": [
+        "docker-compose.yml"
+      ],
       "tech": "redis",
       "edges": [],
       "inComponent": null,
@@ -193,10 +204,11 @@ const flat = flatten(result);
       ]
     },
     {
-      "id": "DurTAUqSoZNe",
+      "id": "UNzMqaOoqExN",
       "name": "unknown",
-      "group": "component",
-      "path": [ "docker-compose.yml" ],
+      "path": [
+        "docker-compose.yml"
+      ],
       "tech": null,
       "edges": [],
       "inComponent": null,
@@ -206,10 +218,24 @@ const flat = flatten(result);
       "dependencies": [
         [ "docker", "unknown", "7.17.5" ]
       ]
+    },
+    {
+      "id": "MXFXwFMcCeaa",
+      "name": "vercel",
+      "path": [
+        "pkgs/app/package.json",
+        "terraform/.terraform.lock.hcl"
+      ],
+      "tech": "vercel",
+      "edges": [],
+      "inComponent": null,
+      "childs": [],
+      "techs": [ "vercel"],
+      "languages": {},
+      "dependencies": [
+        [ "terraform", "registry.terraform.io/vercel/vercel", "4.61.0" ]
+      ]
     }
-  ],
-  "techs": [],
-  "languages": {},
-  "dependencies": []
+  ]
 }
 ```

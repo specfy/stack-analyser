@@ -39,23 +39,23 @@ Terraform:
     - ???
   ✔ Mongo DB Atlas @done(23-05-02 12:09)
   ✔ Elastic stack @done(23-05-02 12:13)
-  - CockroachDB
+  ✔ CockroachDB @done(23-07-04 14:52)
   - Redis cloud
-  - snowflake
+  ✔ snowflake @done(23-07-04 14:54)
   - couchbase capella
   - akamai
   - digital ocean
-  - scaleway
+  ✔ scaleway @done(23-07-04 15:09)
   - wavefront
-  - cloudflare
+  ✔ cloudflare @done(23-07-04 14:55)
   - fastly
-  - Heroku
-  - Auth0
+  ✔ Heroku @done(23-07-04 15:04)
+  ✔ Auth0 @done(23-07-04 14:58)
   - Okta
-  - Snyk
-  - Pagerduty
+  ✔ Snyk @done(23-07-04 15:06)
+  ✔ Pagerduty @done(23-07-04 15:06)
   - databricks
-  - ovh
+  ✔ ovh @done(23-07-04 15:13)
   ✔ helm @done(23-05-02 18:26)
 
 Prisma:
@@ -71,7 +71,7 @@ Firebase:
 Global:
 ✔ Detect Vercel @done(23-04-27 11:02)
 ✔ Detect github pages @done(23-04-29 15:20)
-- Detect Cloudflare
+✔ Detect Cloudflare @done(23-07-04 15:13)
 ✔ Detect Netlify @done(23-04-28 17:13)
 ✔ Detect Fly.io @done(23-04-28 17:13)
 ✔ Detect Heroku (did not find any way) @done(23-06-29 12:21)
@@ -105,4 +105,4 @@ Don't forget:
 ✔ Cassandra @done(23-04-28 10:56)
 ✔ Elasticsearch @done(23-04-28 10:56)
 - SQLite
-- Snowflake
+✔ Snowflake @done(23-07-04 15:13)

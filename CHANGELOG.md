@@ -1,3 +1,40 @@
+## [1.3.2](https://github.com/specfy/stack-analyser/compare/v1.3.1...v1.3.2) (2023-07-04)
+
+
+### Bug Fixes
+
+* **rules:** add Cloudflare provider ([5567105](https://github.com/specfy/stack-analyser/commit/556710593390a39dd48039bfbf990f47e76ea847))
+* **rules:** add CockroachDB ([712b0ca](https://github.com/specfy/stack-analyser/commit/712b0ca077d827a55df445824548049e15b53980))
+* **rules:** add Gitlab ([b77f844](https://github.com/specfy/stack-analyser/commit/b77f844bfa486eb41be7ddae6d578fc8b76b47f4))
+* **rules:** add OVH ([e3a8694](https://github.com/specfy/stack-analyser/commit/e3a8694ad8f56724b414ca8392c7766af7518791))
+* **rules:** add Pagerduty ([6e2d034](https://github.com/specfy/stack-analyser/commit/6e2d034b7b0fff1381368e17f8b6eafd6bbbabbe))
+* **rules:** add PrismaCloud ([4f428e4](https://github.com/specfy/stack-analyser/commit/4f428e412a4a9b5ab20aa4226703dd4f85c8af48))
+* **rules:** add Scaleway ([d6fc701](https://github.com/specfy/stack-analyser/commit/d6fc701d595526927ba933522e18a312af24d9e1))
+* **rules:** add Snowflake ([53ea5d7](https://github.com/specfy/stack-analyser/commit/53ea5d79873d35d29e98fde711daa538c35ba47f))
+* **rules:** clean some incorrect rules ([3c862f6](https://github.com/specfy/stack-analyser/commit/3c862f62ce98261b2d6473b451c4cdc8b6586c2f))
+* **snyk:** add terraform ([37439b3](https://github.com/specfy/stack-analyser/commit/37439b3557b32f22df0c91ddc34212cab0101f78))
+
+## [1.3.1](https://github.com/specfy/stack-analyser/compare/v1.3.0...v1.3.1) (2023-07-03)
+
+
+### Bug Fixes
+
+* **edges:** remove unecessary properties ([c074e38](https://github.com/specfy/stack-analyser/commit/c074e3891d08c1298abb2ebfec444deea283fdd7))
+
+# [1.3.0](https://github.com/specfy/stack-analyser/compare/v1.2.0...v1.3.0) (2023-07-01)
+
+
+### Bug Fixes
+
+* **rules:** add BigQuery ([2e99b69](https://github.com/specfy/stack-analyser/commit/2e99b698789ea2fd24c8140fe35dcdb95ccadc36))
+* **rules:** add GCP Cloud Sql ([d81b1c0](https://github.com/specfy/stack-analyser/commit/d81b1c0f720ff3b7747cfe0fc1b5a6965e3f4fca))
+* **rules:** add GKE ([272ee8e](https://github.com/specfy/stack-analyser/commit/272ee8e8c646a0635c21b39bdc492992dc2fcca1))
+
+
+### Features
+
+* remove group from output. it was abritrary and not useful ([02b2b48](https://github.com/specfy/stack-analyser/commit/02b2b48a21e2bbc9c10e15f0693714b161a0528d))
+
 # [1.2.0](https://github.com/specfy/stack-analyser/compare/v1.1.6...v1.2.0) (2023-06-29)
 
 
