@@ -7,21 +7,21 @@ import { FakeProvider } from '../provider/fake.js';
 import { rawList } from '../rules.js';
 import './index.js';
 
-const paths: string[] = [];
-for (const item of rawList) {
-  if (
-    item.type !== 'file' ||
-    listIndexed[item.ref.tech].type !== 'ci' ||
-    !item.ref.files
-  ) {
-    continue;
-  }
-
-  paths.push('example' in item.ref ? item.ref.example : item.ref.files[0]);
-}
-
 describe('ci', () => {
   it('should match everything', async () => {
+    const paths: string[] = [];
+    for (const item of rawList) {
+      if (
+        item.type !== 'file' ||
+        listIndexed[item.ref.tech].type !== 'ci' ||
+        !item.ref.files
+      ) {
+        continue;
+      }
+
+      paths.push('example' in item.ref ? item.ref.example : item.ref.files[0]);
+    }
+
     const res = await analyser({
       provider: new FakeProvider({
         paths: {
@@ -30,26 +30,7 @@ describe('ci', () => {
         files: {},
       }),
     });
-    const match: AllowedKeys[] = [
-      'appveyor',
-      'azure.ci',
-      'browserstack',
-      'circleci',
-      'cirrusci',
-      'codesandboxci',
-      'cypressci',
-      'dependabot',
-      'github.actions',
-      'gitlabci',
-      'javascript',
-      'jenkins',
-      'relativeci',
-      'renovate',
-      'styleci',
-      'teamcity',
-      'travisci',
-    ];
-    expect(res.toJson('').techs).toStrictEqual(match);
+    expect(res.toJson('').techs).toMatchSnapshot();
   });
 
   it('enforce that we match .github', async () => {

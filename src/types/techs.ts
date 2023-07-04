@@ -27,6 +27,7 @@ export type AllowedKeys =
   | 'cassandra'
   | 'circleci'
   | 'cirrusci'
+  | 'cloudflare'
   | 'codesandboxci'
   | 'couchbase'
   | 'cplusplus'

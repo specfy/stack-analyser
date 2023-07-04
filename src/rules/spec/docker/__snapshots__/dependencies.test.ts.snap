@@ -2,12 +2,13 @@
 
 exports[`docker > should match everything 1`] = `
 [
+  "aws",
+  "aws.dynamodb",
   "caddy",
   "cassandra",
   "couchbase",
   "cypressci",
   "docker",
-  "dynamodb",
   "elasticsearch",
   "httpd",
   "influxdb",
