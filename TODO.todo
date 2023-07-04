@@ -52,8 +52,8 @@ Terraform:
   ✔ Heroku @done(23-07-04 15:04)
   ✔ Auth0 @done(23-07-04 14:58)
   - Okta
-  - Snyk
-  - Pagerduty
+  ✔ Snyk @done(23-07-04 15:06)
+  ✔ Pagerduty @done(23-07-04 15:06)
   - databricks
   - ovh
   ✔ helm @done(23-05-02 18:26)
