@@ -41,7 +41,7 @@ Terraform:
   ✔ Elastic stack @done(23-05-02 12:13)
   ✔ CockroachDB @done(23-07-04 14:52)
   - Redis cloud
-  - snowflake
+  ✔ snowflake @done(23-07-04 14:54)
   - couchbase capella
   - akamai
   - digital ocean

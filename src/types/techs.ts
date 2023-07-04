@@ -118,6 +118,7 @@ export type AllowedKeys =
   | 'sequelize'
   | 'shell'
   | 'slack'
+  | 'snowflake'
   | 'snyk'
   | 'socketio'
   | 'sqreen'

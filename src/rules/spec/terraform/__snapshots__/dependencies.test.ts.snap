@@ -18,6 +18,7 @@ exports[`terraform (lockfile) > should match everything 1`] = `
   "mongodbatlas",
   "newrelic",
   "oraclecloud",
+  "snowflake",
   "terraform",
   "vault",
   "vercel",

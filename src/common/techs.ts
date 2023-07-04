@@ -109,6 +109,7 @@ export const list: TechItem[] = [
   { key: 'sentry', name: 'Sentry', type: 'sass' },
   { key: 'sequelize', name: 'Sequelize', type: 'tool' },
   { key: 'shell', name: 'Shell', type: 'language' },
+  { key: 'snowflake', name: 'Snowflake', type: 'db' },
   { key: 'snyk', name: 'Snyk', type: 'sass' },
   { key: 'slack', name: 'Slack', type: 'sass' },
   { key: 'socketio', name: 'Socket.io', type: 'tool' },
