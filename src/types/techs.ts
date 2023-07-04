@@ -115,6 +115,7 @@ export type AllowedKeys =
   | 'rollup'
   | 'ruby'
   | 'rust'
+  | 'scaleway'
   | 'scss'
   | 'sentry'
   | 'sequelize'

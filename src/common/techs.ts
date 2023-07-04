@@ -108,6 +108,7 @@ export const list: TechItem[] = [
   { key: 'ruby', name: 'Ruby', type: 'language' },
   { key: 'rust', name: 'Rust', type: 'language' },
   { key: 'scss', name: 'SCSS', type: 'language' },
+  { key: 'scaleway', name: 'Scaleway', type: 'hosting' },
   { key: 'sentry', name: 'Sentry', type: 'sass' },
   { key: 'sequelize', name: 'Sequelize', type: 'tool' },
   { key: 'shell', name: 'Shell', type: 'language' },

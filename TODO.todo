@@ -45,7 +45,7 @@ Terraform:
   - couchbase capella
   - akamai
   - digital ocean
-  - scaleway
+  ✔ scaleway @done(23-07-04 15:09)
   - wavefront
   ✔ cloudflare @done(23-07-04 14:55)
   - fastly

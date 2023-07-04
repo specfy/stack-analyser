@@ -17,4 +17,5 @@ import './netlify.js';
 import './oraclecloud.js';
 import './platformsh.js';
 import './render.js';
+import './scaleway.js';
 import './vercel.js';
