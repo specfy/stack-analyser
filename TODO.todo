@@ -49,7 +49,7 @@ Terraform:
   - wavefront
   ✔ cloudflare @done(23-07-04 14:55)
   - fastly
-  - Heroku
+  ✔ Heroku @done(23-07-04 15:04)
   ✔ Auth0 @done(23-07-04 14:58)
   - Okta
   - Snyk

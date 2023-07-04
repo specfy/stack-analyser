@@ -95,6 +95,7 @@ export type AllowedKeys =
   | 'nodejs'
   | 'oraclecloud'
   | 'ovh'
+  | 'pagerduty'
   | 'percona'
   | 'php'
   | 'pingdom'

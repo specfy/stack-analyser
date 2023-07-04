@@ -87,6 +87,7 @@ export const list: TechItem[] = [
   { key: 'nodejs', name: 'NodeJS', type: 'language' },
   { key: 'oraclecloud', name: 'Oracle Cloud', type: 'hosting' },
   { key: 'ovh', name: 'OVH', type: 'hosting' },
+  { key: 'pagerduty', name: 'Pagerduty', type: 'tool' },
   { key: 'percona', name: 'Percona', type: 'db' },
   { key: 'php', name: 'PHP', type: 'language' },
   { key: 'pingdom', name: 'Pingdom', type: 'sass' },
