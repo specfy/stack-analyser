@@ -2,6 +2,7 @@ import path from 'node:path';
 
 import { parse } from '@cdktf/hcl2json';
 
+import { l } from '../../../common/log.js';
 import { listIndexed } from '../../../common/techs.js';
 import { Payload } from '../../../payload/index.js';
 import { detect } from '../../../rules.js';
@@ -27,7 +28,7 @@ export const detectTerraformLockfile: ComponentMatcher = async (
     try {
       json = await parse(file.fp, content);
     } catch (err) {
-      console.warn('Failed to parse HCL', err);
+      l.warn('Failed to parse HCL', file.fp, err);
       return false;
     }
 

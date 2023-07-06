@@ -1,5 +1,35 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
+exports[`docker > should match a non standard docker compose 1`] = `
+[
+  "aws",
+  "aws.dynamodb",
+  "caddy",
+  "cassandra",
+  "couchbase",
+  "cypressci",
+  "elasticsearch",
+  "httpd",
+  "influxdb",
+  "jenkins",
+  "kibana",
+  "mariadb",
+  "memcached",
+  "mongodb",
+  "mysql",
+  "neo4j",
+  "nginx",
+  "nodejs",
+  "percona",
+  "postgresql",
+  "rabbitmq",
+  "redis",
+  "strapi",
+  "vault",
+  "zookeeper",
+]
+`;
+
 exports[`docker > should match everything 1`] = `
 [
   "aws",

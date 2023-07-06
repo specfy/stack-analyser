@@ -4,7 +4,7 @@ import { Payload } from '../../../payload/index.js';
 import { detect } from '../../../rules.js';
 import type { ComponentMatcher } from '../../../types/rule.js';
 
-const FILES = ['docker-compose.yml'];
+const FILES_REG = /^docker-compose(.*)?\.yml/;
 
 interface DockerComposeService {
   image?: string;
@@ -16,7 +16,7 @@ export const detectDockerComponent: ComponentMatcher = async (
   provider
 ) => {
   for (const file of files) {
-    if (!FILES.includes(file.name)) {
+    if (!FILES_REG.test(file.name)) {
       continue;
     }
 

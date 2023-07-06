@@ -15,11 +15,14 @@ describe(
 
       const root = path.join(__dirname, '../');
       const file = path.join(__dirname, './cli.ts');
-      const res = await execFileAsync('ts-node', [file, './'], {});
+      const res = await execFileAsync('ts-node', [file, './'], {
+        env: { ...process.env, LOG_LEVEL: 'info' },
+      });
 
-      expect(res.stdout).toStrictEqual(`▶ ${root}
-
-Output ${root}output.json
+      // TODO: change consola formatter
+      expect(res.stdout).toEqual(`[log] ▶ Path ${root}
+[log]
+[log] Output ${root}output.json
 `);
 
       const stat = await fs.stat(path.join(root, 'output.json'));

@@ -40,4 +40,21 @@ describe('docker', () => {
       Array.from(flatten(res, { merge: true }).techs).sort()
     ).toMatchSnapshot();
   });
+
+  it('should match a non standard docker compose', async () => {
+    const res = await analyser({
+      provider: new FakeProvider({
+        paths: {
+          '/': ['docker-compose.dev.yml'],
+        },
+        files: {
+          '/docker-compose.dev.yml': dockerCompose.join(''),
+        },
+      }),
+    });
+
+    expect(
+      Array.from(flatten(res, { merge: true }).techs).sort()
+    ).toMatchSnapshot();
+  });
 });

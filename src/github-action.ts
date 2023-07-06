@@ -1,16 +1,18 @@
 import core from '@actions/core';
 
+import { l } from './common/log.js';
+
 import { analyser, FSProvider } from './index.js';
 
 try {
-  console.log('Starting Stack Analyser');
+  l.log('Starting Stack Analyser');
 
   const token = core.getInput('token', {
     required: true,
   });
   const workspace = process.env.GITHUB_WORKSPACE!;
-  console.log('hello', token);
-  console.log('workspace', workspace);
+  l.log('hello', token);
+  l.log('workspace', workspace);
 
   const res = await analyser({
     provider: new FSProvider({
@@ -19,9 +21,9 @@ try {
     }),
   });
 
-  console.log('Result:', res.toJson(workspace));
+  l.log('Result:', res.toJson(workspace));
 
-  console.log('Done');
+  l.log('Done');
 } catch (error: unknown) {
   if (error instanceof Error) {
     core.setFailed(error.message);

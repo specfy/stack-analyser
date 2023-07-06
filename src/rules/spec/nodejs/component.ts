@@ -1,5 +1,6 @@
 import type { FullVersion } from 'package-json';
 
+import { l } from '../../../common/log.js';
 import { Payload } from '../../../payload/index.js';
 import { detect } from '../../../rules.js';
 import type { Analyser } from '../../../types/index.js';
@@ -25,7 +26,7 @@ export const detectNodeComponent: ComponentMatcher = async (
     try {
       json = JSON.parse(content);
     } catch (e) {
-      console.error('cant parse package.json', file.fp, e);
+      l.warn('Failed to parse package.json', file.fp, e);
       return false;
     }
 

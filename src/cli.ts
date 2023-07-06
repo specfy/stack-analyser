@@ -3,6 +3,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import timer from 'node:timers/promises';
+import { fileURLToPath } from 'node:url';
 
 import { Command } from 'commander';
 import figures from 'figures';
@@ -10,11 +11,18 @@ import kleur from 'kleur';
 import ora from 'ora';
 
 import { analyser } from './analyser/index.js';
+import { l } from './common/log.js';
 import { FSProvider } from './provider/fs.js';
 
 import { flatten } from './index.js';
 
 const program = new Command();
+
+const filename = fileURLToPath(import.meta.url);
+const dirname = path.dirname(filename);
+const pkg = JSON.parse(
+  (await fs.readFile(path.join(dirname, './../package.json'))).toString()
+);
 
 program
   .name('stack-analyser')
@@ -22,29 +30,32 @@ program
   .argument('<path>', 'repository to analyse')
   .option('-o, --output <FILENAME>', 'output json to a file', 'output.json')
   .option('--flat', 'flatten the output', false)
-  .version('1.0.1')
+  .version(pkg.version)
   .action(async (arg, options) => {
-    const here = process.cwd();
-    const root = path.join(here, arg);
+    const pathAtExecution = process.cwd();
+    const root = path.join(pathAtExecution, arg);
+
+    l.debug('Version', pkg.version);
 
     try {
       const stat = await fs.stat(root);
       if (!stat.isDirectory()) {
-        console.log(
+        l.log(
           kleur.bold().red(figures.cross),
           `Path "${root}" is not a folder`
         );
         process.exit(1);
       }
     } catch (e) {
-      console.log(
-        kleur.bold().red(figures.cross),
-        `Path "${root}" does not exist`
-      );
+      l.log(kleur.bold().red(figures.cross), `Path "${root}" does not exist`);
       process.exit(1);
     }
 
-    console.log(kleur.bold().magenta(figures.triangleRight), kleur.cyan(root));
+    l.log(
+      kleur.bold().magenta(figures.triangleRight),
+      'Path',
+      kleur.cyan(root)
+    );
 
     const spinner = ora(`Analysing`).start();
 
@@ -59,13 +70,13 @@ program
 
     if (options.output) {
       const output = options.flat ? flatten(res) : res;
-      const file = path.join(here, options.output);
+      const file = path.join(pathAtExecution, options.output);
       await fs.writeFile(
         file,
         JSON.stringify(output.toJson(root), undefined, 2)
       );
-      console.log('');
-      console.log('Output', kleur.green(file));
+      l.log('');
+      l.log('Output', kleur.green(file));
     }
   });
 
