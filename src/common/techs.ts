@@ -7,6 +7,7 @@ export const list: TechItem[] = [
   { key: 'appveyor', name: 'AppVeyor', type: 'ci' },
   { key: 'auth0', name: 'Auth0', type: 'sass' },
   { key: 'aws', name: 'AWS', type: 'hosting' },
+  { key: 'aws.s3', name: 'S3', type: 'hosting' },
   { key: 'azure', name: 'Azure', type: 'hosting' },
   { key: 'azure.ci', name: 'AzureCi', type: 'ci' },
   { key: 'bash', name: 'Bash', type: 'language' },
