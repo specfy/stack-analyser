@@ -118,6 +118,7 @@ export const list: TechItem[] = [
   { key: 'slack', name: 'Slack', type: 'sass' },
   { key: 'socketio', name: 'Socket.io', type: 'tool' },
   { key: 'sqreen', name: 'Sqreen', type: 'sass' },
+  { key: 'sqlite', name: 'Sqlite', type: 'db' },
   { key: 'storybook', name: 'Storybook', type: 'tool' },
   { key: 'strapi', name: 'Strapi', type: 'tool' },
   { key: 'styleci', name: 'StyleCi', type: 'ci' },

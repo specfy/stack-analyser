@@ -52,6 +52,7 @@ exports[`npm > should match everything 1`] = `
   "sequelize",
   "snyk",
   "socketio",
+  "sqlite",
   "sqreen",
   "storybook",
   "strapi",

@@ -125,6 +125,7 @@ export type AllowedKeys =
   | 'snowflake'
   | 'snyk'
   | 'socketio'
+  | 'sqlite'
   | 'sqreen'
   | 'storybook'
   | 'strapi'

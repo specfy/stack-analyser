@@ -14,5 +14,6 @@ import './neo4j.js';
 import './percona.js';
 import './postgres.js';
 import './redis.js';
+import './sqlite.js';
 import './snowflake.js';
 import './vault.js';
