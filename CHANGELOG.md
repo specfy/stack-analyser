@@ -1,3 +1,13 @@
+## [1.3.3](https://github.com/specfy/stack-analyser/compare/v1.3.2...v1.3.3) (2023-07-06)
+
+
+### Bug Fixes
+
+* dependencies 2023-07-04 ([#2](https://github.com/specfy/stack-analyser/issues/2)) ([6a27bf8](https://github.com/specfy/stack-analyser/commit/6a27bf89b638181afc40b10d14c6a5fbd991985e))
+* **rules:** add Sqlite ([494b585](https://github.com/specfy/stack-analyser/commit/494b58578963ee632d6944af9380274a120a545c))
+* **rules:** support for yml->yaml ([145bbd8](https://github.com/specfy/stack-analyser/commit/145bbd8870d94ce1c6b0d2343e2b687358dbaf53))
+* support more docker-compose filenames, use consola to support logLevel ([3e7c222](https://github.com/specfy/stack-analyser/commit/3e7c222a6675114a1cefe19f32df893ea1e92054))
+
 ## [1.3.2](https://github.com/specfy/stack-analyser/compare/v1.3.1...v1.3.2) (2023-07-04)
 
 
