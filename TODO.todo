@@ -30,13 +30,9 @@ Terraform:
     ✔ Cloud run @done(23-06-29 12:20)
     ✔ GCS @done(23-06-29 12:20)
   ✔ AWS @done(23-05-02 11:41)
-    - ???
   ✔ Azure @done(23-05-02 11:41)
-    - ???
   ✔ alibaba cloud @done(23-05-02 11:46)
-    - ???
   ✔ oracle cloud @done(23-05-02 11:45)
-    - ???
   ✔ Mongo DB Atlas @done(23-05-02 12:09)
   ✔ Elastic stack @done(23-05-02 12:13)
   ✔ CockroachDB @done(23-07-04 14:52)
@@ -88,13 +84,22 @@ Global:
 ✔ Cypress @done(23-04-27 15:21)
 - Supabase
 ✔ Github actions @done(23-04-27 15:16)
+- scalingo
+- crowdin
+- Vagrant
+
 GCP:
   ✔ Big Query @done(23-06-29 14:41)
   ✔ Cloud storage @done(23-06-29 12:21)
   ✔ Pub Sub @done(23-06-29 12:21)
 
+Languages Support:
+  ✔ NodeJs @done(23-07-06 18:46)
+  - Ruby
+  - Go
+  - Java
 
-Don't forget:
+DB:
 ✔ MySQL @done(23-04-28 10:56)
 ✔ MariaDB @done(23-04-28 10:56)
 - Microsoft SQL Server
@@ -103,6 +108,6 @@ Don't forget:
 ✔ MongoDB @done(23-04-28 10:56)
 ✔ Redis @done(23-04-28 10:56)
 ✔ Cassandra @done(23-04-28 10:56)
-✔ Elasticsearch @done(23-04-28 10:56)
-- SQLite
+✔ Elasticsearch @done(23-04-28 1ƒcro0:56)
+✔ SQLite @done(23-07-06 18:40)
 ✔ Snowflake @done(23-07-04 15:13)

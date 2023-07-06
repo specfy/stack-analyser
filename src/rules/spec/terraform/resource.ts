@@ -8,7 +8,7 @@ import { Payload } from '../../../payload/index.js';
 import { detect } from '../../../rules.js';
 import type { ComponentMatcher } from '../../../types/rule.js';
 
-const FILE = /.tf$/;
+const FILE = /\.tf$/;
 
 export const detectTerraformResource: ComponentMatcher = async (
   files,
