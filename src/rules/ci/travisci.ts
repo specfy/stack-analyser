@@ -2,5 +2,5 @@ import { register } from '../../rules.js';
 
 register({
   tech: 'travisci',
-  files: ['.travis.yml'],
+  files: ['.travis.yml', '.travis.yaml'],
 });

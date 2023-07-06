@@ -4,7 +4,7 @@ import { Payload } from '../../../payload/index.js';
 import { detect } from '../../../rules.js';
 import type { ComponentMatcher } from '../../../types/rule.js';
 
-const FILES_REG = /^docker-compose(.*)?\.yml/;
+const FILES_REG = /^docker-compose(.*)?\.y(a)?ml$/;
 
 interface DockerComposeService {
   image?: string;

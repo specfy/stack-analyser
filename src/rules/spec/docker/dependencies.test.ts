@@ -41,20 +41,41 @@ describe('docker', () => {
     ).toMatchSnapshot();
   });
 
-  it('should match a non standard docker compose', async () => {
+  it.each([
+    'docker-compose.dev.yml',
+    'docker-compose-prod.yml',
+    'docker-compose.yaml',
+  ])('should match: %s', async (filename) => {
     const res = await analyser({
       provider: new FakeProvider({
         paths: {
-          '/': ['docker-compose.dev.yml'],
+          '/': [filename],
         },
         files: {
-          '/docker-compose.dev.yml': dockerCompose.join(''),
+          [`/${filename}`]: dockerCompose.join(''),
+        },
+      }),
+    });
+
+    expect(
+      Array.from(flatten(res, { merge: true }).techs).length
+    ).toBeGreaterThan(0);
+  });
+
+  it('should ignore file', async () => {
+    const res = await analyser({
+      provider: new FakeProvider({
+        paths: {
+          '/': ['docker-compose.yml.example'],
+        },
+        files: {
+          '/docker-compose.yml.example': dockerCompose.join(''),
         },
       }),
     });
 
     expect(
       Array.from(flatten(res, { merge: true }).techs).sort()
-    ).toMatchSnapshot();
+    ).toStrictEqual([]);
   });
 });
