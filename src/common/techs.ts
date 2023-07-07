@@ -33,6 +33,7 @@ export const list: TechItem[] = [
   { key: 'digitalocean', name: 'Digital Ocean', type: 'hosting' },
   { key: 'docker', name: 'Docker', type: 'tool' },
   { key: 'aws.dynamodb', name: 'DynamoDB', type: 'db' },
+  { key: 'equinix', name: 'Equinix', type: 'hosting' },
   { key: 'elasticloud', name: 'Elastic Cloud', type: 'sass' },
   { key: 'elasticsearch', name: 'Elasticsearch', type: 'db' },
   { key: 'elasticstack', name: 'ElasticStack', type: 'hosting' },

@@ -45,6 +45,7 @@ export type AllowedKeys =
   | 'elasticsearch'
   | 'elasticstack'
   | 'elixir'
+  | 'equinix'
   | 'esbuild'
   | 'eslint'
   | 'expodev'

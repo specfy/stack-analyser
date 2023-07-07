@@ -3,6 +3,7 @@ import './aws.js';
 import './aws.s3.js';
 import './azure.js';
 import './elasticstack.js';
+import './equinix.js';
 import './expodev.js';
 import './flyio.js';
 import './gcp.cloudrun.js';
