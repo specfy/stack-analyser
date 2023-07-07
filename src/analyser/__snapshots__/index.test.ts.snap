@@ -71,16 +71,6 @@ exports[`analyser > should register only component of the same tech 1`] = `
       "pg",
       "1.0.0",
     ],
-    [
-      "docker",
-      "postgres",
-      "15.1-alpine",
-    ],
-    [
-      "npm",
-      "pg",
-      "1.0.0",
-    ],
   ],
   "edges": [],
   "id": "6",
@@ -729,11 +719,6 @@ exports[`analyser > should run correctly 2`] = `
     ],
     [
       "npm",
-      "typescript",
-      "5.0.4",
-    ],
-    [
-      "npm",
       "vite",
       "4.3.3",
     ],
@@ -741,46 +726,6 @@ exports[`analyser > should run correctly 2`] = `
       "terraform",
       "registry.terraform.io/hashicorp/google",
       "4.61.0",
-    ],
-    [
-      "npm",
-      "@typescript-eslint/eslint-plugin",
-      "5.57.1",
-    ],
-    [
-      "npm",
-      "@typescript-eslint/parser",
-      "5.57.1",
-    ],
-    [
-      "npm",
-      "eslint",
-      "8.39.0",
-    ],
-    [
-      "npm",
-      "prettier",
-      "2.8.7",
-    ],
-    [
-      "npm",
-      "typescript",
-      "4.9.5",
-    ],
-    [
-      "docker",
-      "postgres",
-      "14.5-alpine",
-    ],
-    [
-      "docker",
-      "redis",
-      "7.0.4-alpine",
-    ],
-    [
-      "docker",
-      "unknown",
-      "7.17.5",
     ],
     [
       "npm",

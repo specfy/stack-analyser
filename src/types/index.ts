@@ -10,6 +10,8 @@ export interface GraphEdge {
   write: boolean;
 }
 
+export type Dependency = [SupportedDeps, string, string];
+
 export interface Analyser {
   /**
    * Unique random id for this payload
@@ -67,7 +69,7 @@ export interface Analyser {
   /**
    * List all dependencies wether or not they matched a rule.
    */
-  dependencies: Array<[SupportedDeps, string, string]>;
+  dependencies: Dependency[];
 }
 
 export type AnalyserJson = Modify<

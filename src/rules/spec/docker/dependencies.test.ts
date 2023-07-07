@@ -78,4 +78,24 @@ describe('docker', () => {
       Array.from(flatten(res, { merge: true }).techs).sort()
     ).toStrictEqual([]);
   });
+
+  it('should not extract variables', async () => {
+    const res = await analyser({
+      provider: new FakeProvider({
+        paths: {
+          '/': ['docker-compose.yml'],
+        },
+        files: {
+          '/docker-compose.yml': `version: '3'
+services:
+  boots:
+    image: $BOOTS_IMAGE`,
+        },
+      }),
+    });
+
+    expect(
+      Array.from(flatten(res, { merge: true }).dependencies).sort()
+    ).toStrictEqual([]);
+  });
 });

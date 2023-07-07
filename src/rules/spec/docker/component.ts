@@ -43,6 +43,9 @@ export const detectDockerComponent: ComponentMatcher = async (
       // It's better to have few false positive, than a lot of missing components
       const matched = [...detect([service.image], 'docker')];
       const [imageName, imageVersion] = service.image.split(':');
+      if (imageName.startsWith('$')) {
+        continue;
+      }
 
       pl.addChild(
         new Payload({
