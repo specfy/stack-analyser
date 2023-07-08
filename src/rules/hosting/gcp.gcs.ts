@@ -5,5 +5,6 @@ register({
   dependencies: [
     { type: 'npm', name: '@google-cloud/storage' },
     { type: 'terraform.resource', name: 'google_storage_bucket' },
+    { type: 'gomod', name: 'cloud.google.com/go/storage ' },
   ],
 });

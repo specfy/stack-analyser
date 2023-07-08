@@ -47,3 +47,13 @@ exports[`terraform (resource) > should match everything 1`] = `
   "terraform",
 ]
 `;
+
+exports[`terraform (resource) > should match nothing but register dependencies 1`] = `
+[
+  [
+    "terraform",
+    "helloworld",
+    "0.0.0",
+  ],
+]
+`;

@@ -6,21 +6,21 @@ import { flatten } from '../../../payload/helpers.js';
 import { FakeProvider } from '../../../provider/fake.js';
 import { rawList } from '../../../rules.js';
 
-const dependencies: Record<string, string> = {};
-for (const item of rawList) {
-  if (item.type !== 'dependency' || item.ref.type !== 'npm') {
-    continue;
-  }
-  dependencies['example' in item.ref ? item.ref.example : item.ref.name] =
-    '0.0.0';
-}
-const packageJson = {
-  name: 'test',
-  dependencies,
-};
-
 describe('npm', () => {
   it('should match everything', async () => {
+    const dependencies: Record<string, string> = {};
+    for (const item of rawList) {
+      if (item.type !== 'dependency' || item.ref.type !== 'npm') {
+        continue;
+      }
+      dependencies['example' in item.ref ? item.ref.example : item.ref.name] =
+        '0.0.0';
+    }
+    const packageJson = {
+      name: 'test',
+      dependencies,
+    };
+
     const res = await analyser({
       provider: new FakeProvider({
         paths: {
