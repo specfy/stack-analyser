@@ -13,6 +13,7 @@ export default defineConfig({
     coverage: {
       enabled: true,
       reporter: ['cobertura'],
+      provider: 'v8',
     },
   },
   json: {},
