@@ -2,6 +2,7 @@ Language detection:
   ✔ extension to language @done(23-04-29 14:51)
 
 NodeJs:
+  ✔ NodeJs @done(23-07-06 18:46)
   ✔ Check import of others services @done(23-05-03 15:25)
   ✔ Detect Elasticsearch @done(23-04-26 11:20)
   ✔ Detect Sentry @done(23-04-26 11:15)
@@ -21,6 +22,7 @@ NodeJs:
   ✔ Esbuild @done(23-04-29 14:51)
   ✔ Store every dependencies in Payload @done(23-05-03 10:19)
   ✔ Detect link between component a posteriori based on component name @done(23-05-03 15:25)
+  - Deno
 
 Terraform:
   ✔ Kubernetes @done(23-05-02 11:45)
@@ -30,13 +32,9 @@ Terraform:
     ✔ Cloud run @done(23-06-29 12:20)
     ✔ GCS @done(23-06-29 12:20)
   ✔ AWS @done(23-05-02 11:41)
-    - ???
   ✔ Azure @done(23-05-02 11:41)
-    - ???
   ✔ alibaba cloud @done(23-05-02 11:46)
-    - ???
   ✔ oracle cloud @done(23-05-02 11:45)
-    - ???
   ✔ Mongo DB Atlas @done(23-05-02 12:09)
   ✔ Elastic stack @done(23-05-02 12:13)
   ✔ CockroachDB @done(23-07-04 14:52)
@@ -57,6 +55,8 @@ Terraform:
   - databricks
   ✔ ovh @done(23-07-04 15:13)
   ✔ helm @done(23-05-02 18:26)
+  - VMware
+  - Oracle Cloud Infrastructure (OCI)
 
 Prisma:
   - Type of DB
@@ -66,43 +66,89 @@ Docker Compose:
 
 Firebase:
   ✔ Hosting @done(23-06-29 12:21)
-  - DB
+  - Firebase Realtime Database
+  - Firestore
 
 Global:
-✔ Detect Vercel @done(23-04-27 11:02)
-✔ Detect github pages @done(23-04-29 15:20)
-✔ Detect Cloudflare @done(23-07-04 15:13)
-✔ Detect Netlify @done(23-04-28 17:13)
-✔ Detect Fly.io @done(23-04-28 17:13)
-✔ Detect Heroku (did not find any way) @done(23-06-29 12:21)
-✔ Detect Render @done(23-04-29 14:56)
-✔ Detect Dependabot @done(23-04-29 14:36)
-✔ Detect Renovate @done(23-04-28 17:20)
-✔ Circleci @done(23-04-27 11:02)
-✔ Travisci @done(23-04-27 11:04)
-- Codecov
-✔ Relativeci @done(23-04-27 11:44)
-✔ TeamCity @done(23-04-29 14:36)
-✔ Jenkins @done(23-04-29 14:45)
-- Bitrise
-✔ Cypress @done(23-04-27 15:21)
-- Supabase
-✔ Github actions @done(23-04-27 15:16)
+  ✔ Detect Vercel @done(23-04-27 11:02)
+  ✔ Detect github pages @done(23-04-29 15:20)
+  ✔ Detect Cloudflare @done(23-07-04 15:13)
+  ✔ Detect Netlify @done(23-04-28 17:13)
+  ✔ Detect Fly.io @done(23-04-28 17:13)
+  ✔ Detect Heroku (did not find any way) @done(23-06-29 12:21)
+  ✔ Detect Render @done(23-04-29 14:56)
+  ✔ Detect Dependabot @done(23-04-29 14:36)
+  ✔ Detect Renovate @done(23-04-28 17:20)
+  ✔ Circleci @done(23-04-27 11:02)
+  ✔ Travisci @done(23-04-27 11:04)
+  - Codecov
+  ✔ Relativeci @done(23-04-27 11:44)
+  ✔ TeamCity @done(23-04-29 14:36)
+  ✔ Jenkins @done(23-04-29 14:45)
+  - Bitrise
+  ✔ Cypress @done(23-04-27 15:21)
+  ✔ Github actions @done(23-04-27 15:16)
+  - scalingo
+  - crowdin
+  - Vagrant
+  - Kafka
+  - Electron
+  - Ansible
+
 GCP:
   ✔ Big Query @done(23-06-29 14:41)
   ✔ Cloud storage @done(23-06-29 12:21)
   ✔ Pub Sub @done(23-06-29 12:21)
 
+Go:
+  ✔ Lockfile @done(23-07-07 22:36)
+  - Detect service
 
-Don't forget:
-✔ MySQL @done(23-04-28 10:56)
-✔ MariaDB @done(23-04-28 10:56)
-- Microsoft SQL Server
-- Oracle DBMS
-✔ PostgreSQL @done(23-04-28 10:56)
-✔ MongoDB @done(23-04-28 10:56)
-✔ Redis @done(23-04-28 10:56)
-✔ Cassandra @done(23-04-28 10:56)
-✔ Elasticsearch @done(23-04-28 10:56)
-- SQLite
-✔ Snowflake @done(23-07-04 15:13)
+Java:
+  - Lockfile
+  - Dectect service
+
+Ruby:
+  - Lockfile
+  - Detect service
+  - Rails
+
+PHP:
+  - Lockfile
+  - Detect service
+  - WordPress
+  - Composer
+
+Rust:
+  - Lockfile
+  - Detect service
+
+Python:
+  - Pipfile
+  -
+
+C#:
+  - Lockfile
+  - Detect service
+
+C++:
+  - Lockfile
+  - Detect service
+
+Scripts:
+  - Also gather available commands ?
+
+DB:
+  ✔ MySQL @done(23-04-28 10:56)
+  ✔ MariaDB @done(23-04-28 10:56)
+  - Microsoft SQL Server
+  - Oracle DBMS
+  ✔ PostgreSQL @done(23-04-28 10:56)
+  ✔ MongoDB @done(23-04-28 10:56)
+  ✔ Redis @done(23-04-28 10:56)
+  ✔ Cassandra @done(23-04-28 10:56)
+  ✔ Elasticsearch @done(23-04-28 1ƒcro0:56)
+  ✔ SQLite @done(23-07-06 18:40)
+  ✔ Snowflake @done(23-07-04 15:13)
+  - Supabase
+  - Neo4J

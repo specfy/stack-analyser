@@ -94,7 +94,7 @@ describe('terraform (resource)', () => {
     ).toMatchSnapshot();
   });
 
-  it('should match nothing', async () => {
+  it('should match in tf file', async () => {
     const resource: string[] = [
       `
     resource "unknown" "foobar" {
@@ -114,8 +114,29 @@ describe('terraform (resource)', () => {
     });
 
     const match: AllowedKeys[] = ['terraform'];
-    expect(
-      Array.from(flatten(res, { merge: true }).techs).sort()
-    ).toStrictEqual(match);
+    const merged = flatten(res, { merge: true });
+    expect(Array.from(merged.techs).sort()).toStrictEqual(match);
+  });
+
+  it('should match nothing but register dependencies', async () => {
+    const res = await analyser({
+      provider: new FakeProvider({
+        paths: {
+          '/': ['.terraform.lock.hcl'],
+        },
+        files: {
+          '/.terraform.lock.hcl': `
+          provider "helloworld" {
+            version = "0.0.0"
+          }
+          `,
+        },
+      }),
+    });
+
+    const match: AllowedKeys[] = ['terraform'];
+    const merged = flatten(res, { merge: true });
+    expect(Array.from(merged.techs).sort()).toStrictEqual(match);
+    expect(Array.from(merged.dependencies).sort()).toMatchSnapshot();
   });
 });

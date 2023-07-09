@@ -5,6 +5,7 @@ import type { AllowedKeys, TechItem } from './techs.js';
 
 export type SupportedDeps =
   | 'docker'
+  | 'gomod'
   | 'npm'
   | 'terraform.resource'
   | 'terraform';

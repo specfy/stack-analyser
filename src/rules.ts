@@ -23,6 +23,7 @@ export const dependencies: Record<
   docker: [],
   terraform: [],
   'terraform.resource': [],
+  gomod: [],
 };
 
 export const rawList: Array<

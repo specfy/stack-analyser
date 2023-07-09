@@ -6,6 +6,7 @@ import { l } from '../../../common/log.js';
 import { listIndexed } from '../../../common/techs.js';
 import { Payload } from '../../../payload/index.js';
 import { detect } from '../../../rules.js';
+import type { Dependency } from '../../../types/index.js';
 import type { ComponentMatcher } from '../../../types/rule.js';
 
 const LOCKFILE = '.terraform.lock.hcl';
@@ -40,10 +41,17 @@ export const detectTerraformLockfile: ComponentMatcher = async (
       name: 'virtual',
       folderPath: path.dirname(file.fp),
     });
+    const dependencies: Dependency[] = [];
 
     // We only register docker service with image and that we know
     for (const name of Object.keys(json.provider)) {
       const matched = [...detect([name], 'terraform')];
+      dependencies.push([
+        'terraform',
+        name,
+        json.provider[name][0].version || 'latest',
+      ]);
+
       if (!matched.length) {
         continue;
       }
@@ -62,6 +70,7 @@ export const detectTerraformLockfile: ComponentMatcher = async (
         })
       );
     }
+    pl.dependencies = dependencies;
 
     return pl;
   }

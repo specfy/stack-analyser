@@ -10,6 +10,7 @@ exports[`terraform (lockfile) > should match everything 1`] = `
   "datadog",
   "elasticsearch",
   "elasticstack",
+  "equinix",
   "flyio",
   "gcp",
   "github",
@@ -44,5 +45,15 @@ exports[`terraform (resource) > should match everything 1`] = `
   "gcp.pubsub",
   "gcp.sql",
   "terraform",
+]
+`;
+
+exports[`terraform (resource) > should match nothing but register dependencies 1`] = `
+[
+  [
+    "terraform",
+    "helloworld",
+    "0.0.0",
+  ],
 ]
 `;

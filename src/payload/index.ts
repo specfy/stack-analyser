@@ -7,7 +7,7 @@ import type { BaseProvider } from '../provider/base.js';
 import { IGNORED_DIVE_PATHS } from '../provider/base.js';
 import { rulesComponents, rulesTechs } from '../rules.js';
 import { cleanPath } from '../tests/helpers.js';
-import type { Analyser, AnalyserJson } from '../types/index.js';
+import type { Analyser, AnalyserJson, Dependency } from '../types/index.js';
 import type { AllowedKeys } from '../types/techs.js';
 
 import '../rules/index.js';
@@ -76,6 +76,7 @@ export class Payload implements Analyser {
           this.addChild(pl);
         } else {
           pl.childs.forEach((child) => this.addChild(child));
+          this.combineDependencies(pl);
         }
       }
     }
@@ -230,6 +231,14 @@ export class Payload implements Analyser {
     }
   }
 
+  combineDependencies(pl: Payload): void {
+    // Merge dependencies
+    const dedup = new Map<string, Dependency>();
+    this.dependencies.forEach((dep) => dedup.set(dep.join('_'), dep));
+    pl.dependencies.forEach((dep) => dedup.set(dep.join('_'), dep));
+    this.dependencies = Array.from(dedup.values());
+  }
+
   /**
    * Merge this Payload and an other one.
    * There is no failsafe, it will merge whatever is passed even if they are not the same kind.
@@ -240,8 +249,7 @@ export class Payload implements Analyser {
     this.path = [...new Set([...this.path, ...pl.path])];
 
     // Merge dependencies
-    // TODO: dedup
-    this.dependencies = [...this.dependencies, ...pl.dependencies];
+    this.combineDependencies(pl);
 
     for (const [lang, count] of Object.entries(pl.languages)) {
       this.addLang(lang, count);
