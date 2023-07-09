@@ -1,3 +1,17 @@
+## [1.3.4](https://github.com/specfy/stack-analyser/compare/v1.3.3...v1.3.4) (2023-07-09)
+
+
+### Bug Fixes
+
+* dedup dependencies, ignore docker variables ([7819bd9](https://github.com/specfy/stack-analyser/commit/7819bd98783d87f0aa3b2a826be5f9c9531ab949))
+* dependencies 2023-07-09 ([#11](https://github.com/specfy/stack-analyser/issues/11)) ([b0e9dc2](https://github.com/specfy/stack-analyser/commit/b0e9dc2a73a90297686d6ed3266af0419a9b83d0))
+* pin dependencies ([d5bf6e6](https://github.com/specfy/stack-analyser/commit/d5bf6e691089be859f98b2a92bc64c2e5edbc20c))
+* remove unnecessary packages ([3c1cfcd](https://github.com/specfy/stack-analyser/commit/3c1cfcd8efb43d27896fd64ac0402a7b95e12966))
+* **rules:** add Equinix ([47906e5](https://github.com/specfy/stack-analyser/commit/47906e54681fa4812f133913219cac76b9eacc2f))
+* **rules:** add S3 ([733692b](https://github.com/specfy/stack-analyser/commit/733692b5c14ba0511309be34315b4d4bb489b7a9))
+* **rules:** support for go.mod, combine dependencies when receiving a virtual Payload (only useful for lockfiles not attached to a service) ([c1b4820](https://github.com/specfy/stack-analyser/commit/c1b4820378dea609264bd834fb3929635547a603))
+* **tf:** regex was too permissive ([7b3180b](https://github.com/specfy/stack-analyser/commit/7b3180bc505c991cbf7f8840dfcfa02dc8daf6fb))
+
 ## [1.3.3](https://github.com/specfy/stack-analyser/compare/v1.3.2...v1.3.3) (2023-07-06)
 
 
