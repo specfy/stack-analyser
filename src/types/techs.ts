@@ -7,6 +7,7 @@ export type TechType =
   | 'messaging'
   | 'network'
   | 'sass'
+  | 'storage'
   | 'tool';
 
 export type AllowedKeys =

@@ -94,6 +94,7 @@ Global:
   - Kafka
   - Electron
   - Ansible
+  - certbot
 
 GCP:
   ✔ Big Query @done(23-06-29 14:41)
@@ -152,3 +153,5 @@ DB:
   ✔ Snowflake @done(23-07-04 15:13)
   - Supabase
   - Neo4J
+  - typesense
+  - qdrant
