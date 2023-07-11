@@ -56,7 +56,7 @@ Terraform:
   ✔ ovh @done(23-07-04 15:13)
   ✔ helm @done(23-05-02 18:26)
   - VMware
-  - Oracle Cloud Infrastructure (OCI)
+  ✔ Oracle Cloud Infrastructure (OCI) @done(23-07-11 18:29)
 
 Prisma:
   - Type of DB
