@@ -39,6 +39,7 @@ exports[`npm > should match everything 1`] = `
   "netlify",
   "newrelic",
   "nodejs",
+  "okta",
   "oraclecloud",
   "postgresql",
   "prettier",

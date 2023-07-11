@@ -4,6 +4,7 @@ import './datadog.js';
 import './logrocket.js';
 import './mailjet.js';
 import './newrelic.js';
+import './okta.js';
 import './slack.js';
 import './snyk.js';
 import './sqreen.js';

@@ -96,6 +96,7 @@ export type AllowedKeys =
   | 'newrelic'
   | 'nginx'
   | 'nodejs'
+  | 'okta'
   | 'oraclecloud'
   | 'ovh'
   | 'pagerduty'

@@ -49,7 +49,7 @@ Terraform:
   - fastly
   ✔ Heroku @done(23-07-04 15:04)
   ✔ Auth0 @done(23-07-04 14:58)
-  - Okta
+  ✔ Okta @done(23-07-11 18:32)
   ✔ Snyk @done(23-07-04 15:06)
   ✔ Pagerduty @done(23-07-04 15:06)
   - databricks
