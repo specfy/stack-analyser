@@ -14,10 +14,6 @@ import { BaseProvider } from './provider/base.js';
 import { FakeProvider } from './provider/fake.js';
 import { FSProvider, FSProviderOptions } from './provider/fs.js';
 import {
-  GithubAPIProvider,
-  GithubAPIProviderOptions,
-} from './provider/githubApi.js';
-import {
   register,
   detect,
   rawList,
@@ -43,8 +39,6 @@ export {
   FakeProvider,
   FSProvider,
   FSProviderOptions,
-  GithubAPIProvider,
-  GithubAPIProviderOptions,
   Payload,
   Rule,
   RuleDependency,
