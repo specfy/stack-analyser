@@ -1,3 +1,13 @@
+## [1.3.6](https://github.com/specfy/stack-analyser/compare/v1.3.5...v1.3.6) (2023-07-11)
+
+
+### Bug Fixes
+
+* remove github provider as it is more and more impossible to do it without the filesystem ([a87e769](https://github.com/specfy/stack-analyser/commit/a87e76982c3fc7076bd3d9d6de480c944dd81d9a))
+* **rules:** add Okta ([56d0627](https://github.com/specfy/stack-analyser/commit/56d062703e683e759ac2d89e38a4afac8b9087d8))
+* **rules:** add Slack ([c9eb2d9](https://github.com/specfy/stack-analyser/commit/c9eb2d9942b8c5fec9c9e2991f98a7dbcf3fcae4))
+* **rules:** oci has an npm package ([259e7f5](https://github.com/specfy/stack-analyser/commit/259e7f50690124825ccc0c6fde5a1410f3ec0c9e))
+
 ## [1.3.5](https://github.com/specfy/stack-analyser/compare/v1.3.4...v1.3.5) (2023-07-11)
 
 
