@@ -1,3 +1,10 @@
+## [1.3.5](https://github.com/specfy/stack-analyser/compare/v1.3.4...v1.3.5) (2023-07-11)
+
+
+### Bug Fixes
+
+* **rules:** introduce storage type to differentiate from hosting ([b0d642f](https://github.com/specfy/stack-analyser/commit/b0d642f52fb25bf1e919d949c79b68ffb7f24b0c))
+
 ## [1.3.4](https://github.com/specfy/stack-analyser/compare/v1.3.3...v1.3.4) (2023-07-09)
 
 
