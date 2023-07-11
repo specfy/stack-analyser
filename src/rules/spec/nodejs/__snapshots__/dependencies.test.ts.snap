@@ -51,6 +51,7 @@ exports[`npm > should match everything 1`] = `
   "rollup",
   "sentry",
   "sequelize",
+  "slack",
   "snyk",
   "socketio",
   "sqlite",

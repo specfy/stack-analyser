@@ -14,7 +14,7 @@ NodeJs:
   - Google Analytics
   ✔ strapi @done(23-04-28 18:24)
   ✔ docsearch @done(23-04-27 14:38)
-  - Slack
+  ✔ Slack @done(23-07-11 18:26)
   ✔ Github API (octokit) @done(23-06-29 12:20)
   ✔ Storybook @done(23-04-28 18:10)
   ✔ Webpack @done(23-04-29 14:51)

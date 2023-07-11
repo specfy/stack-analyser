@@ -25,6 +25,7 @@ exports[`terraform (lockfile) > should match everything 1`] = `
   "pagerduty",
   "prismacloud",
   "scaleway",
+  "slack",
   "snowflake",
   "snyk",
   "terraform",
