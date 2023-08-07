@@ -28,6 +28,7 @@ Set {
   "fastly",
   "firebase",
   "gcp.cloudrun",
+  "gcp.functions",
   "gcp.gce",
   "gcp.gcs",
   "heroku",
@@ -155,6 +156,11 @@ exports[`ruby (component) > should match everything 2`] = `
   ],
   [
     "ruby",
+    "functions_framework ",
+    "1.0.0",
+  ],
+  [
+    "ruby",
     "gitlab",
     "1.0.0",
   ],
@@ -186,6 +192,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "google-cloud-dns",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "google-cloud-functions-v1",
     "1.0.0",
   ],
   [

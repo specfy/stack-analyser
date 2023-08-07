@@ -26,6 +26,7 @@ exports[`npm > should match everything 1`] = `
   "gcp.cloudrun",
   "gcp.datastore",
   "gcp.dns",
+  "gcp.functions",
   "gcp.gce",
   "gcp.gcs",
   "gcp.pubsub",
