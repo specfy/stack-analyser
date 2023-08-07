@@ -17,7 +17,7 @@ require (
     ];
 
     for (const item of rawList) {
-      if (item.type !== 'dependency' || item.ref.type !== 'gomod') {
+      if (item.type !== 'dependency' || item.ref.type !== 'golang') {
         continue;
       }
 

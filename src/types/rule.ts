@@ -6,7 +6,7 @@ import type { AllowedKeys, TechItem } from './techs.js';
 export type SupportedDeps =
   | 'deno'
   | 'docker'
-  | 'gomod'
+  | 'golang'
   | 'npm'
   | 'ruby'
   | 'rust'

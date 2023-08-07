@@ -8,7 +8,7 @@ register({
       type: 'terraform.resource',
       name: 'google_pubsub_topic',
     },
-    { type: 'gomod', name: 'cloud.google.com/go/pubsub' },
+    { type: 'golang', name: 'cloud.google.com/go/pubsub' },
     { type: 'rust', name: 'google-cloud-pubsub' },
     { type: 'ruby', name: 'google-cloud-pubsub' },
   ],

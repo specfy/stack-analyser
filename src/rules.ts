@@ -22,7 +22,7 @@ export const dependencies: Record<
   'terraform.resource': [],
   deno: [],
   docker: [],
-  gomod: [],
+  golang: [],
   npm: [],
   ruby: [],
   rust: [],

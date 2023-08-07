@@ -10,12 +10,12 @@ Set {
 exports[`golang (lockfile) > should match everything 2`] = `
 [
   [
-    "gomod",
+    "golang",
     "github.com/aws/aws-sdk-go",
     "v1.0.0",
   ],
   [
-    "gomod",
+    "golang",
     "github.com/aws/aws-sdk-go-v2",
     "v1.0.0",
   ],

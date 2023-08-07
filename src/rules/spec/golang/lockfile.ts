@@ -40,8 +40,8 @@ export const detectGolangLockfile: ComponentMatcher = async (
         continue;
       }
 
-      dependencies.push(['gomod', url, version]);
-      const matched = [...detect([url], 'gomod')];
+      dependencies.push(['golang', url, version]);
+      const matched = [...detect([url], 'golang')];
       if (!matched.length) {
         continue;
       }
