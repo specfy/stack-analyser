@@ -99,6 +99,7 @@ export const list: TechItem[] = [
   { key: 'platformsh', name: 'Platform.sh', type: 'hosting' },
   { key: 'postgresql', name: 'Postgresql', type: 'db' },
   { key: 'powershell', name: 'Powershell', type: 'language' },
+  { key: 'puppeteer', name: 'Puppeteer', type: 'tool' },
   { key: 'prettier', name: 'Prettier', type: 'tool' },
   { key: 'prisma', name: 'Prisma', type: 'tool' },
   { key: 'prismacloud', name: 'PrismaCloud', type: 'tool' },

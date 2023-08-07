@@ -49,6 +49,7 @@ exports[`npm > should match everything 1`] = `
   "postgresql",
   "prettier",
   "prisma",
+  "puppeteer",
   "rabbitmq",
   "react",
   "reactemail",

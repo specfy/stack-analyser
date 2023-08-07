@@ -112,6 +112,7 @@ export type AllowedKeys =
   | 'prettier'
   | 'prisma'
   | 'prismacloud'
+  | 'puppeteer'
   | 'python'
   | 'rabbitmq'
   | 'react'

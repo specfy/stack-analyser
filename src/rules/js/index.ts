@@ -8,6 +8,7 @@ import './hotjar.js';
 import './koa.js';
 import './prettier.js';
 import './prisma.js';
+import './puppeteer.js';
 import './react.js';
 import './reactEmail.js';
 import './rollup.js';
