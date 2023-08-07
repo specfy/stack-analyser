@@ -58,6 +58,7 @@ export const list: TechItem[] = [
   { key: 'gcp.maps', name: 'Maps', type: 'api' },
   { key: 'gcp.language', name: 'Language', type: 'api' },
   { key: 'gcp.secretmanager', name: 'Secret manager', type: 'db' },
+  { key: 'gcp.speech', name: 'Speech', type: 'api' },
   { key: 'gcp.pubsub', name: 'PubSub', type: 'messaging' },
   { key: 'gcp.gce', name: 'Compute Engine', type: 'hosting' },
   { key: 'gcp.gcs', name: 'Cloud Storage', type: 'storage' },

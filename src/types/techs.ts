@@ -73,6 +73,7 @@ export type AllowedKeys =
   | 'gcp.maps'
   | 'gcp.pubsub'
   | 'gcp.secretmanager'
+  | 'gcp.speech'
   | 'gcp.sql'
   | 'gcp'
   | 'github.actions'
