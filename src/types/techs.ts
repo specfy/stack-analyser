@@ -1,4 +1,5 @@
 export type TechType =
+  | 'api'
   | 'app'
   | 'ci'
   | 'db'
@@ -6,7 +7,7 @@ export type TechType =
   | 'language'
   | 'messaging'
   | 'network'
-  | 'sass'
+  | 'saas'
   | 'storage'
   | 'tool';
 

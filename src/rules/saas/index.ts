@@ -6,6 +6,8 @@ import './logrocket.js';
 import './mailjet.js';
 import './newrelic.js';
 import './okta.js';
+import './pagerduty.js';
+import './prismacloud.js';
 import './sentry.js';
 import './slack.js';
 import './snyk.js';
