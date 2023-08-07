@@ -31,6 +31,7 @@ exports[`npm > should match everything 1`] = `
   "gcp.gce",
   "gcp.gcs",
   "gcp.language",
+  "gcp.maps",
   "gcp.pubsub",
   "gcp.secretmanager",
   "gcp.sql",
