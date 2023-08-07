@@ -11,10 +11,7 @@ interface Lockfile {
   remote?: Record<string, string>;
 }
 
-export const detectNodeComponent: ComponentMatcher = async (
-  files,
-  provider
-) => {
+export const detectDenoLockfile: ComponentMatcher = async (files, provider) => {
   for (const file of files) {
     if (!FILES.includes(file.name)) {
       continue;

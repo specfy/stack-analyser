@@ -1,0 +1,26 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`terraform (resource) > should match everything 1`] = `
+[
+  "datadog",
+  "gcp",
+  "gcp.bigquery",
+  "gcp.cloudrun",
+  "gcp.gce",
+  "gcp.gcs",
+  "gcp.gke",
+  "gcp.pubsub",
+  "gcp.sql",
+  "terraform",
+]
+`;
+
+exports[`terraform (resource) > should match nothing but register dependencies 1`] = `
+[
+  [
+    "terraform",
+    "helloworld",
+    "0.0.0",
+  ],
+]
+`;

@@ -1,6 +1,6 @@
 import { register } from '../../../rules.js';
 
-import { detectNodeComponent } from './component.js';
+import { detectDenoLockfile } from './lockfile.js';
 
 register({
   tech: 'deno',
@@ -8,5 +8,5 @@ register({
   dependencies: [
     { type: 'docker', name: /denoland\/deno/, example: 'denoland/deno:0.0.0' },
   ],
-  detect: detectNodeComponent,
+  detect: detectDenoLockfile,
 });
