@@ -14,7 +14,7 @@
     "lint": "eslint --ext .js,.ts,.tsx ."
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
