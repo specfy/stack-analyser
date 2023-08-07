@@ -5,6 +5,7 @@ import './azure.js';
 import './elasticstack.js';
 import './equinix.js';
 import './expodev.js';
+import './fastly.js';
 import './flyio.js';
 import './gcp.cloudrun.js';
 import './gcp.gce.js';
