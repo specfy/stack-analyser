@@ -30,6 +30,7 @@ Set {
   "redis",
   "snowflake",
   "sqlite",
+  "gcp.dataproc",
   "aws.s3",
   "azure",
   "fastly",
@@ -199,6 +200,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "google-cloud-compute",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "google-cloud-dataproc-v1",
     "1.0.0",
   ],
   [

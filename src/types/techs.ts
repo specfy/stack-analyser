@@ -63,6 +63,7 @@ export type AllowedKeys =
   | 'gcp.bigtable'
   | 'gcp.cloudbuild'
   | 'gcp.cloudrun'
+  | 'gcp.dataproc'
   | 'gcp.datastore'
   | 'gcp.dns'
   | 'gcp.functions'
