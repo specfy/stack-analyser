@@ -60,6 +60,7 @@ export type AllowedKeys =
   | 'flyio'
   | 'gcp.bigquery'
   | 'gcp.bigtable'
+  | 'gcp.cloudbuild'
   | 'gcp.cloudrun'
   | 'gcp.datastore'
   | 'gcp.dns'

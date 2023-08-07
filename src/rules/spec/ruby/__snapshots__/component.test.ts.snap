@@ -181,6 +181,11 @@ exports[`ruby (component) > should match everything 2`] = `
   ],
   [
     "ruby",
+    "google-cloud-build-v1",
+    "1.0.0",
+  ],
+  [
+    "ruby",
     "google-cloud-compute",
     "1.0.0",
   ],

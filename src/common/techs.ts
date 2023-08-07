@@ -53,6 +53,7 @@ export const list: TechItem[] = [
   { key: 'gcp.datastore', name: 'Datastore', type: 'db' },
   { key: 'gcp.cloudrun', name: 'Cloud Run', type: 'hosting' },
   { key: 'gcp.functions', name: 'Functions', type: 'hosting' },
+  { key: 'gcp.cloudbuild', name: 'Cloud Build', type: 'tool' },
   { key: 'gcp.pubsub', name: 'PubSub', type: 'messaging' },
   { key: 'gcp.gce', name: 'Compute Engine', type: 'hosting' },
   { key: 'gcp.gcs', name: 'Cloud Storage', type: 'storage' },
