@@ -110,7 +110,7 @@ Java:
   - Dectect service
 
 Ruby:
-  - Lockfile
+  ✔ Lockfile @done(23-08-07 16:07)
   - Detect service
   - Rails
 
@@ -121,8 +121,8 @@ PHP:
   - Composer
 
 Rust:
-  - Lockfile
-  - Detect service
+  ✔ Lockfile @done(23-08-07 16:07)
+  ✔ Detect service @done(23-08-07 16:07)
 
 Python:
   - Pipfile
@@ -152,6 +152,6 @@ DB:
   ✔ SQLite @done(23-07-06 18:40)
   ✔ Snowflake @done(23-07-04 15:13)
   - Supabase
-  - Neo4J
+  ✔ Neo4J @done(23-08-07 16:08)
   - typesense
   - qdrant

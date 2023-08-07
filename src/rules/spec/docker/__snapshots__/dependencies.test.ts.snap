@@ -26,6 +26,7 @@ exports[`docker > should match everything 1`] = `
   "postgresql",
   "rabbitmq",
   "redis",
+  "ruby",
   "strapi",
   "zookeeper",
 ]

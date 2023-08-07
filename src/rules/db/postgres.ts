@@ -7,5 +7,6 @@ register({
     { type: 'npm', name: /postgres/, example: '@mikro-orm/postgresql' },
     { type: 'docker', name: /postgres/, example: 'postgres:0.0.0' },
     { type: 'rust', name: 'postgres' },
+    { type: 'ruby', name: 'pg' },
   ],
 });

@@ -10,5 +10,6 @@ register({
     },
     { type: 'gomod', name: 'cloud.google.com/go/pubsub' },
     { type: 'rust', name: 'google-cloud-pubsub' },
+    { type: 'ruby', name: 'google-cloud-pubsub' },
   ],
 });

@@ -8,5 +8,6 @@ register({
     { type: 'rust', name: 'sqlite' },
     { type: 'rust', name: 'rusqlite' },
     { type: 'rust', name: 'libsqlite3-sys' },
+    { type: 'ruby', name: 'sqlite3' },
   ],
 });

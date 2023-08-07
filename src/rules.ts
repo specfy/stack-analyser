@@ -19,12 +19,13 @@ export const dependencies: Record<
   SupportedDeps,
   Array<{ match: RegExp; tech: AllowedKeys }>
 > = {
-  npm: [],
-  docker: [],
-  terraform: [],
   'terraform.resource': [],
+  docker: [],
   gomod: [],
+  npm: [],
+  ruby: [],
   rust: [],
+  terraform: [],
 };
 
 export const rawList: Array<

@@ -5,5 +5,6 @@ register({
   dependencies: [
     { type: 'npm', name: /^oci-/, example: 'oci-sdk' },
     { type: 'terraform', name: 'registry.terraform.io/oracle/oci' },
+    { type: 'ruby', name: 'oci' },
   ],
 });

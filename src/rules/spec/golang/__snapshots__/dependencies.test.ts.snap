@@ -3,9 +3,6 @@
 exports[`golang (lockfile) > should match everything 1`] = `
 Set {
   "aws",
-  "azure",
-  "gcp",
-  "gcp.pubsub",
   "golang",
 }
 `;
@@ -14,17 +11,12 @@ exports[`golang (lockfile) > should match everything 2`] = `
 [
   [
     "gomod",
-    "cloud.google.com/go/pubsub",
-    "v1.0.0",
-  ],
-  [
-    "gomod",
-    "github.com/Azure/azure-sdk-for-go",
-    "v1.0.0",
-  ],
-  [
-    "gomod",
     "github.com/aws/aws-sdk-go",
+    "v1.0.0",
+  ],
+  [
+    "gomod",
+    "github.com/aws/aws-sdk-go-v2",
     "v1.0.0",
   ],
 ]

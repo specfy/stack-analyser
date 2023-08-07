@@ -5,5 +5,6 @@ register({
   dependencies: [
     { type: 'npm', name: 'newrelic' },
     { type: 'terraform', name: 'registry.terraform.io/newrelic/newrelic' },
+    { type: 'ruby', name: 'newrelic_rpm' },
   ],
 });

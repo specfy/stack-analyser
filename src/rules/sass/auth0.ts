@@ -4,8 +4,10 @@ register({
   tech: 'auth0',
   dependencies: [
     { type: 'npm', name: 'auth0' },
-    { type: 'npm', name: /@auth0\//, example: '@auth0/auth0-react' },
+    { type: 'npm', name: /^@auth0\//, example: '@auth0/auth0-react' },
     { type: 'terraform', name: 'registry.terraform.io/auth0/auth0' },
     { type: 'rust', name: 'auth0' },
+    { type: 'ruby', name: 'auth0' },
+    { type: 'ruby', name: 'omniauth-auth0' },
   ],
 });

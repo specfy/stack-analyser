@@ -8,5 +8,7 @@ register({
     { type: 'docker', name: /redis/, example: 'redis:0.0.0' },
     { type: 'rust', name: 'redis' },
     { type: 'rust', name: 'redis-async' },
+    { type: 'ruby', name: 'redis' },
+    { type: 'ruby', name: 'redis-client' },
   ],
 });

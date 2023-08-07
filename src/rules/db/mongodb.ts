@@ -7,5 +7,6 @@ register({
     { type: 'npm', name: /mongodb/, example: '@mikro-orm/mongodb' },
     { type: 'docker', name: /mongo/, example: 'mongo:0.0.0' },
     { type: 'rust', name: 'mongodb' },
+    { type: 'ruby', name: 'mongo' },
   ],
 });

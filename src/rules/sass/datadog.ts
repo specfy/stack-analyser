@@ -11,5 +11,7 @@ register({
     { type: 'terraform.resource', name: 'datadog_monitor' },
     { type: 'rust', name: 'ddtrace' },
     { type: 'rust', name: 'datadog-apm' },
+    { type: 'ruby', name: 'ddtrace' },
+    { type: 'ruby', name: /datadog/, example: 'datadog-lambda' },
   ],
 });

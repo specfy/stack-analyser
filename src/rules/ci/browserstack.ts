@@ -3,5 +3,8 @@ import { register } from '../../rules.js';
 register({
   tech: 'browserstack',
   files: ['browserstack.json'],
-  dependencies: [{ type: 'npm', name: 'browserstack' }],
+  dependencies: [
+    { type: 'npm', name: 'browserstack' },
+    { type: 'ruby', name: 'browserstack-local' },
+  ],
 });

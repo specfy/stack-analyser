@@ -3,6 +3,7 @@
 exports[`hosting > should match everything with files 1`] = `
 [
   "expodev",
+  "firebase",
   "flyio",
   "github.pages",
   "heroku",

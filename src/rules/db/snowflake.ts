@@ -9,5 +9,6 @@ register({
     },
     { type: 'rust', name: 'snowflake' },
     { type: 'rust', name: 'rs-snowflake' },
+    { type: 'ruby', name: 'sequel-snowflake' },
   ],
 });

@@ -12,5 +12,10 @@ register({
       type: 'terraform.resource',
       name: 'google_sql_database',
     },
+    {
+      type: 'ruby',
+      name: /^google-apis-sql/,
+      example: 'google-apis-sqladmin_v1beta4',
+    },
   ],
 });

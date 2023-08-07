@@ -13,5 +13,6 @@ register({
       name: 'google_bigquery_table',
     },
     { type: 'rust', name: 'gcp-bigquery-client' },
+    { type: 'ruby', name: 'google-cloud-bigquery' },
   ],
 });

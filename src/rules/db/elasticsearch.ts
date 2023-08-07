@@ -11,5 +11,7 @@ register({
     },
     { type: 'rust', name: 'elasticsearch' },
     { type: 'rust', name: 'aws-sdk-elasticsearch' },
+    { type: 'ruby', name: 'elasticsearch' },
+    { type: 'ruby', name: 'aws-sdk-elasticsearchservice' },
   ],
 });

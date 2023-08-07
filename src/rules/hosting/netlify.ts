@@ -6,5 +6,6 @@ register({
   dependencies: [
     { type: 'npm', name: 'netlify' },
     { type: 'npm', name: 'netlify-cli' },
+    { type: 'npm', name: /^@netlify\//, example: '@netlify/plugin-emails' },
   ],
 });

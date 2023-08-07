@@ -6,5 +6,7 @@ register({
     { type: 'npm', name: '@google-cloud/storage' },
     { type: 'terraform.resource', name: 'google_storage_bucket' },
     { type: 'gomod', name: 'cloud.google.com/go/storage ' },
+    { type: 'ruby', name: 'google-cloud-storage' },
+    { type: 'rust', name: 'google-cloud-storage' },
   ],
 });

@@ -7,5 +7,6 @@ register({
     { type: 'docker', name: /influxdb/, example: 'influxdb:0.0.0' },
     { type: 'rust', name: 'influxdb' },
     { type: 'rust', name: 'influxdb2' },
+    { type: 'ruby', name: 'influxdb-client' },
   ],
 });
