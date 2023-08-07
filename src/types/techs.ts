@@ -75,6 +75,7 @@ export type AllowedKeys =
   | 'gcp.secretmanager'
   | 'gcp.speech'
   | 'gcp.sql'
+  | 'gcp.translate'
   | 'gcp'
   | 'github.actions'
   | 'github.pages'

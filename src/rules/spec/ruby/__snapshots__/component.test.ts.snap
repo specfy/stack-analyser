@@ -7,6 +7,7 @@ Set {
   "gcp.language",
   "gcp.maps",
   "gcp.speech",
+  "gcp.translate",
   "zookeeper",
   "aws",
   "aws.dynamodb",
@@ -247,6 +248,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "google-cloud-storage",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "google-cloud-translate-v1",
     "1.0.0",
   ],
   [

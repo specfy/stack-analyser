@@ -37,6 +37,7 @@ exports[`npm > should match everything 1`] = `
   "gcp.secretmanager",
   "gcp.speech",
   "gcp.sql",
+  "gcp.translate",
   "github",
   "hotjar",
   "influxdb",
