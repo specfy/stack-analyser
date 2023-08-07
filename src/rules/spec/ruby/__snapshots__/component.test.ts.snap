@@ -3,6 +3,7 @@
 exports[`ruby (component) > should match everything 1`] = `
 Set {
   "gcp",
+  "gcp.aiplatform",
   "gcp.language",
   "gcp.maps",
   "zookeeper",
@@ -170,6 +171,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "google-apis-sqladmin_v1beta4",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "google-cloud-ai_platform-v1",
     "1.0.0",
   ],
   [

@@ -4,6 +4,7 @@ exports[`terraform (resource) > should match everything 1`] = `
 [
   "datadog",
   "gcp",
+  "gcp.aiplatform",
   "gcp.bigquery",
   "gcp.bigtable",
   "gcp.cloudbuild",

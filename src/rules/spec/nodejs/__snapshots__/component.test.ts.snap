@@ -21,6 +21,7 @@ exports[`npm > should match everything 1`] = `
   "fastly",
   "firebase",
   "gcp",
+  "gcp.aiplatform",
   "gcp.bigquery",
   "gcp.bigtable",
   "gcp.cloudbuild",

@@ -58,6 +58,7 @@ export type AllowedKeys =
   | 'fastly'
   | 'firebase'
   | 'flyio'
+  | 'gcp.aiplatform'
   | 'gcp.bigquery'
   | 'gcp.bigtable'
   | 'gcp.cloudbuild'
