@@ -9,6 +9,7 @@ Set {
   "elasticsearch",
   "gcp",
   "gcp.bigquery",
+  "gcp.bigtable",
   "gcp.sql",
   "influxdb",
   "mariadb",
@@ -161,6 +162,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "google-cloud-bigquery",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "google-cloud-bigtable",
     "1.0.0",
   ],
   [

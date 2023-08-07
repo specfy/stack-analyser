@@ -22,6 +22,7 @@ exports[`npm > should match everything 1`] = `
   "firebase",
   "gcp",
   "gcp.bigquery",
+  "gcp.bigtable",
   "gcp.cloudrun",
   "gcp.gce",
   "gcp.gcs",

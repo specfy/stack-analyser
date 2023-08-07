@@ -4,6 +4,7 @@ import './cockroachdb.js';
 import './couchbase.js';
 import './elasticsearch.js';
 import './gcp.bigquery.js';
+import './gcp.bigtable.js';
 import './gcp.sql.js';
 import './influxdb.js';
 import './mariadb.js';

@@ -57,6 +57,7 @@ export type AllowedKeys =
   | 'firebase'
   | 'flyio'
   | 'gcp.bigquery'
+  | 'gcp.bigtable'
   | 'gcp.cloudrun'
   | 'gcp.gce'
   | 'gcp.gcs'
