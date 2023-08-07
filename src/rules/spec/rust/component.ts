@@ -71,7 +71,7 @@ export const detectRustComponent: ComponentMatcher = async (
           return [
             'rustcargo',
             name,
-            `path:${value.path}${value.version || ''}`,
+            `path:${value.path}${value.version ? `:${value.version}` : ''}`,
           ];
         }
         if ('git' in value) {

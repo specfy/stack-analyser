@@ -225,3 +225,38 @@ exports[`rust (component) > should match everything 2`] = `
   ],
 ]
 `;
+
+exports[`rust (component) > should match foreign dependencies 1`] = `
+[
+  [
+    "rustcargo",
+    "anyhow",
+    "1.0.56",
+  ],
+  [
+    "rustcargo",
+    "axum",
+    "0.6.1",
+  ],
+  [
+    "rustcargo",
+    "foobar",
+    "^1.0.0",
+  ],
+  [
+    "rustcargo",
+    "hello",
+    "path:../world:1.0.0",
+  ],
+  [
+    "rustcargo",
+    "redis_cluster_async",
+    "git:https://github.com/redis-rs/redis-cluster-async.git#e6fe168",
+  ],
+  [
+    "rustcargo",
+    "test",
+    "path:../test",
+  ],
+]
+`;
