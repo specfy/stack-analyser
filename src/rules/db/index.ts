@@ -16,4 +16,4 @@ import './postgres.js';
 import './redis.js';
 import './sqlite.js';
 import './snowflake.js';
-import './hashicorp.vault.js';
+import './hashicorp_vault.js';
