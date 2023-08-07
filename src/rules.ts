@@ -20,6 +20,7 @@ export const dependencies: Record<
   Array<{ match: RegExp; tech: AllowedKeys }>
 > = {
   'terraform.resource': [],
+  deno: [],
   docker: [],
   gomod: [],
   npm: [],

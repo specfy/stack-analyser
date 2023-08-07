@@ -9,5 +9,10 @@ register({
     { type: 'rust', name: 'rusqlite' },
     { type: 'rust', name: 'libsqlite3-sys' },
     { type: 'ruby', name: 'sqlite3' },
+    {
+      type: 'deno',
+      name: /\/x\/sqlite3@/,
+      example: 'https://deno.land/x/sqlite3@1.3.5/lib/shim.ts',
+    },
   ],
 });

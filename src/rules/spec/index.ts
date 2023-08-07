@@ -1,3 +1,4 @@
+import './deno/index.js';
 import './docker/index.js';
 import './golang/index.js';
 import './nodejs/index.js';

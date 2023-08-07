@@ -4,6 +4,7 @@ import type { BaseProvider, ProviderFile } from '../provider/base.js';
 import type { AllowedKeys, TechItem } from './techs.js';
 
 export type SupportedDeps =
+  | 'deno'
   | 'docker'
   | 'gomod'
   | 'npm'

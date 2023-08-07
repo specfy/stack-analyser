@@ -39,6 +39,7 @@ export type AllowedKeys =
   | 'cypressci'
   | 'dart'
   | 'datadog'
+  | 'deno'
   | 'dependabot'
   | 'digitalocean'
   | 'docker'

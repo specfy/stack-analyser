@@ -28,6 +28,7 @@ export const list: TechItem[] = [
   { key: 'cypressci', name: 'CypressCI', type: 'ci' },
   { key: 'dart', name: 'Dart', type: 'language' },
   { key: 'datadog', name: 'Datadog', type: 'sass' },
+  { key: 'deno', name: 'Deno', type: 'language' },
   { key: 'dependabot', name: 'Dependabot', type: 'ci' },
   { key: 'digitalocean', name: 'Digital Ocean', type: 'hosting' },
   { key: 'docker', name: 'Docker', type: 'tool' },

@@ -22,7 +22,7 @@ NodeJs:
   ✔ Esbuild @done(23-04-29 14:51)
   ✔ Store every dependencies in Payload @done(23-05-03 10:19)
   ✔ Detect link between component a posteriori based on component name @done(23-05-03 15:25)
-  - Deno
+  ✔ Deno @done(23-08-07 17:20)
 
 Terraform:
   ✔ Kubernetes @done(23-05-02 11:45)
@@ -134,6 +134,10 @@ C#:
 
 C++:
   - Lockfile
+  - Detect service
+
+Deno:
+  ✔ Lockfile @done(23-08-07 17:20)
   - Detect service
 
 Scripts:

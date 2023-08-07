@@ -60,6 +60,7 @@ export const detectRustComponent: ComponentMatcher = async (
       ...(json.dependencies || {}),
       ...(json['dev-dependencies'] || {}),
       ...(json['build-dependencies'] || {}),
+      ...(json['workspace.dependencies'] || {}),
     };
     const techs = detect(Object.keys(deps), 'rust');
     const depsFlatten: Analyser['dependencies'] = Object.entries(deps).map(

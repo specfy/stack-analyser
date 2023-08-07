@@ -125,7 +125,7 @@ exports[`analyser > should run correctly 1`] = `
               "childs": [],
               "dependencies": [],
               "edges": [],
-              "id": "14",
+              "id": "16",
               "inComponent": null,
               "languages": {},
               "name": "datadog",
@@ -161,11 +161,11 @@ exports[`analyser > should run correctly 1`] = `
           "edges": [
             {
               "read": true,
-              "target": "14",
+              "target": "16",
               "write": true,
             },
           ],
-          "id": "13",
+          "id": "15",
           "inComponent": null,
           "languages": {
             "JSON": 1,
@@ -189,7 +189,7 @@ exports[`analyser > should run correctly 1`] = `
               "childs": [],
               "dependencies": [],
               "edges": [],
-              "id": "16",
+              "id": "18",
               "inComponent": null,
               "languages": {},
               "name": "vercel",
@@ -223,8 +223,8 @@ exports[`analyser > should run correctly 1`] = `
             ],
           ],
           "edges": [],
-          "id": "15",
-          "inComponent": "16",
+          "id": "17",
+          "inComponent": "18",
           "languages": {
             "HTML": 1,
             "JSON": 1,
@@ -255,7 +255,7 @@ exports[`analyser > should run correctly 1`] = `
             ],
           ],
           "edges": [],
-          "id": "20",
+          "id": "22",
           "inComponent": null,
           "languages": {},
           "name": "GCP",
@@ -275,7 +275,7 @@ exports[`analyser > should run correctly 1`] = `
             ],
           ],
           "edges": [],
-          "id": "21",
+          "id": "23",
           "inComponent": null,
           "languages": {},
           "name": "Vercel",
@@ -283,6 +283,20 @@ exports[`analyser > should run correctly 1`] = `
             "/terraform/.terraform.lock.hcl",
           ],
           "tech": "vercel",
+          "techs": [],
+        },
+        {
+          "childs": [],
+          "dependencies": [],
+          "edges": [],
+          "id": "14",
+          "inComponent": null,
+          "languages": {},
+          "name": "postgresql",
+          "path": [
+            "/deno/deno.lock",
+          ],
+          "tech": "postgresql",
           "techs": [],
         },
         {
@@ -295,14 +309,14 @@ exports[`analyser > should run correctly 1`] = `
             ],
           ],
           "edges": [],
-          "id": "18",
+          "id": "20",
           "inComponent": null,
           "languages": {
             "TOML": 1,
           },
           "name": "rust-server",
           "path": [
-            "/pkgs/rust/Cargo.toml",
+            "/rust/Cargo.toml",
           ],
           "tech": null,
           "techs": [
@@ -335,6 +349,11 @@ exports[`analyser > should run correctly 1`] = `
           "npm",
           "typescript",
           "4.9.5",
+        ],
+        [
+          "deno",
+          "https://deno.land/x/postgres@v0.17.0/mod.ts",
+          "23a1a36928f1b6d3b0170aaa67de09af12aa998525f608ff7331b9fb364cbde6",
         ],
         [
           "ruby",
@@ -371,6 +390,7 @@ exports[`analyser > should run correctly 1`] = `
       ],
       "tech": null,
       "techs": [
+        "deno",
         "docker",
         "eslint",
         "nodejs",
@@ -465,11 +485,11 @@ exports[`analyser > should run correctly 2`] = `
       "edges": [
         {
           "read": true,
-          "target": "14",
+          "target": "16",
           "write": true,
         },
       ],
-      "id": "13",
+      "id": "15",
       "inComponent": null,
       "languages": {
         "JSON": 1,
@@ -514,12 +534,12 @@ exports[`analyser > should run correctly 2`] = `
       "edges": [
         {
           "read": true,
-          "target": "13",
+          "target": "15",
           "write": true,
         },
       ],
-      "id": "15",
-      "inComponent": "16",
+      "id": "17",
+      "inComponent": "18",
       "languages": {
         "HTML": 1,
         "JSON": 1,
@@ -550,7 +570,7 @@ exports[`analyser > should run correctly 2`] = `
         ],
       ],
       "edges": [],
-      "id": "20",
+      "id": "22",
       "inComponent": null,
       "languages": {},
       "name": "GCP",
@@ -564,7 +584,7 @@ exports[`analyser > should run correctly 2`] = `
       "childs": [],
       "dependencies": [],
       "edges": [],
-      "id": "14",
+      "id": "16",
       "inComponent": null,
       "languages": {},
       "name": "datadog",
@@ -590,9 +610,12 @@ exports[`analyser > should run correctly 2`] = `
       "name": "db",
       "path": [
         "/docker-compose.yml",
+        "/deno/deno.lock",
       ],
       "tech": "postgresql",
-      "techs": [],
+      "techs": [
+        "postgresql",
+      ],
     },
     {
       "childs": [],
@@ -621,6 +644,11 @@ exports[`analyser > should run correctly 2`] = `
           "npm",
           "typescript",
           "4.9.5",
+        ],
+        [
+          "deno",
+          "https://deno.land/x/postgres@v0.17.0/mod.ts",
+          "23a1a36928f1b6d3b0170aaa67de09af12aa998525f608ff7331b9fb364cbde6",
         ],
         [
           "ruby",
@@ -660,6 +688,7 @@ exports[`analyser > should run correctly 2`] = `
       ],
       "tech": null,
       "techs": [
+        "deno",
         "docker",
         "eslint",
         "nodejs",
@@ -699,14 +728,14 @@ exports[`analyser > should run correctly 2`] = `
         ],
       ],
       "edges": [],
-      "id": "18",
+      "id": "20",
       "inComponent": null,
       "languages": {
         "TOML": 1,
       },
       "name": "rust-server",
       "path": [
-        "/pkgs/rust/Cargo.toml",
+        "/rust/Cargo.toml",
       ],
       "tech": null,
       "techs": [
@@ -743,7 +772,7 @@ exports[`analyser > should run correctly 2`] = `
         ],
       ],
       "edges": [],
-      "id": "16",
+      "id": "18",
       "inComponent": null,
       "languages": {},
       "name": "vercel",
@@ -849,6 +878,11 @@ exports[`analyser > should run correctly 2`] = `
       "4.9.5",
     ],
     [
+      "deno",
+      "https://deno.land/x/postgres@v0.17.0/mod.ts",
+      "23a1a36928f1b6d3b0170aaa67de09af12aa998525f608ff7331b9fb364cbde6",
+    ],
+    [
       "ruby",
       "rails",
       "6.1.7.4",
@@ -860,7 +894,7 @@ exports[`analyser > should run correctly 2`] = `
     ],
   ],
   "edges": [],
-  "id": "22",
+  "id": "24",
   "inComponent": null,
   "languages": {
     "HCL": 2,
@@ -874,15 +908,17 @@ exports[`analyser > should run correctly 2`] = `
   "path": [
     "/",
     "/docker-compose.yml",
+    "/deno/deno.lock",
     "/pkgs/api/package.json",
     "/pkgs/app/package.json",
     "/terraform/.terraform.lock.hcl",
-    "/pkgs/rust/Cargo.toml",
+    "/rust/Cargo.toml",
     "/package.json",
   ],
   "tech": null,
   "techs": [
     "datadog",
+    "deno",
     "docker",
     "eslint",
     "fastify",
