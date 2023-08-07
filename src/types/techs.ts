@@ -76,6 +76,7 @@ export type AllowedKeys =
   | 'gcp.speech'
   | 'gcp.sql'
   | 'gcp.translate'
+  | 'gcp.vision'
   | 'gcp'
   | 'github.actions'
   | 'github.pages'

@@ -38,6 +38,7 @@ exports[`npm > should match everything 1`] = `
   "gcp.speech",
   "gcp.sql",
   "gcp.translate",
+  "gcp.vision",
   "github",
   "hotjar",
   "influxdb",

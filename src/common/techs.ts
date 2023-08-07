@@ -60,6 +60,7 @@ export const list: TechItem[] = [
   { key: 'gcp.secretmanager', name: 'Secret manager', type: 'db' },
   { key: 'gcp.translate', name: 'Translate', type: 'api' },
   { key: 'gcp.speech', name: 'Speech', type: 'api' },
+  { key: 'gcp.vision', name: 'Vision', type: 'api' },
   { key: 'gcp.pubsub', name: 'PubSub', type: 'messaging' },
   { key: 'gcp.gce', name: 'Compute Engine', type: 'hosting' },
   { key: 'gcp.gcs', name: 'Cloud Storage', type: 'storage' },
