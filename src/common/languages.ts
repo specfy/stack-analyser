@@ -1999,12 +1999,6 @@ export const rawList: ListItem[] = [
     type: 'data',
   },
   {
-    extensions: ['.mod'],
-    group: null,
-    name: 'Linux Kernel Module',
-    type: 'data',
-  },
-  {
     extensions: ['.liquid'],
     group: null,
     name: 'Liquid',

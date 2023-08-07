@@ -1,0 +1,38 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`golang > should match a service 1`] = `
+{
+  "childs": [
+    {
+      "childs": [],
+      "dependencies": [],
+      "edges": [],
+      "id": "",
+      "inComponent": "",
+      "languages": {
+        "Go": 1,
+      },
+      "name": "server",
+      "path": [
+        "/cmd/server/main.go",
+      ],
+      "tech": "golang",
+      "techs": [
+        "golang",
+        "rust",
+      ],
+    },
+  ],
+  "dependencies": [],
+  "edges": [],
+  "id": "",
+  "inComponent": "",
+  "languages": {},
+  "name": "flatten",
+  "path": [
+    "/",
+  ],
+  "tech": null,
+  "techs": [],
+}
+`;

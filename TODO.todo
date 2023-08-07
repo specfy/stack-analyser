@@ -103,7 +103,7 @@ GCP:
 
 Go:
   ✔ Lockfile @done(23-07-07 22:36)
-  - Detect service
+  ✔ Detect service @done(23-08-07 18:26)
 
 Java:
   - Lockfile
