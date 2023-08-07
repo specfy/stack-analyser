@@ -1,7 +1,9 @@
-import { register } from '../../rules.js';
+import { register } from '../../register.js';
 
 register({
   tech: 'mongodb',
+  name: 'MongoDB',
+  type: 'db',
   dependencies: [
     { type: 'npm', name: /mongoose/, example: 'mongoose' },
     { type: 'npm', name: /mongodb/, example: '@mikro-orm/mongodb' },

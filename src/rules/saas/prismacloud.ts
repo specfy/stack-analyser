@@ -1,7 +1,9 @@
-import { register } from '../../rules.js';
+import { register } from '../../register.js';
 
 register({
   tech: 'prismacloud',
+  name: 'Prisma Cloud',
+  type: 'saas',
   dependencies: [
     {
       type: 'terraform',

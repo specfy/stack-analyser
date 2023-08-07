@@ -1,7 +1,9 @@
-import { register } from '../../rules.js';
+import { register } from '../../register.js';
 
 register({
   tech: 'gcp.gcs',
+  name: 'Storage',
+  type: 'storage',
   dependencies: [
     { type: 'npm', name: '@google-cloud/storage' },
     { type: 'terraform.resource', name: 'google_storage_bucket' },

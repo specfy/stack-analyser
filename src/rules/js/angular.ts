@@ -1,7 +1,9 @@
-import { register } from '../../rules.js';
+import { register } from '../../register.js';
 
 register({
   tech: 'angular',
+  name: 'Angular',
+  type: 'language',
   files: ['angular.json'],
   dependencies: [
     { type: 'npm', name: 'angular' },

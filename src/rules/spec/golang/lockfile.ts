@@ -1,7 +1,7 @@
 import path from 'node:path';
 
+import { matchDependencies } from '../../../matchDependencies.js';
 import { Payload } from '../../../payload/index.js';
-import { detect } from '../../../rules.js';
 import type { Dependency } from '../../../types/index.js';
 import type { ComponentMatcher } from '../../../types/rule.js';
 
@@ -41,7 +41,7 @@ export const detectGolangLockfile: ComponentMatcher = async (
       }
 
       dependencies.push(['golang', url, version]);
-      const matched = [...detect([url], 'golang')];
+      const matched = [...matchDependencies([url], 'golang')];
       if (!matched.length) {
         continue;
       }

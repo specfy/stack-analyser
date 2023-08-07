@@ -1,7 +1,9 @@
-import { register } from '../../rules.js';
+import { register } from '../../register.js';
 
 register({
   tech: 'cloudflare',
+  name: 'Cloudflare',
+  type: 'hosting',
   dependencies: [
     {
       type: 'npm',

@@ -1,7 +1,9 @@
-import { register } from '../../rules.js';
+import { register } from '../../register.js';
 
 register({
   tech: 'postgresql',
+  name: 'Postgres',
+  type: 'db',
   dependencies: [
     { type: 'npm', name: 'pg' },
     { type: 'npm', name: /postgres/, example: '@mikro-orm/postgresql' },

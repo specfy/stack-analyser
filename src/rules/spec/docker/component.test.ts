@@ -1,9 +1,11 @@
 import { describe, expect, it } from 'vitest';
 
 import { analyser } from '../../../analyser/index.js';
+import { rawList } from '../../../loader.js';
 import { flatten } from '../../../payload/helpers.js';
 import { FakeProvider } from '../../../provider/fake.js';
-import { rawList } from '../../../rules.js';
+
+import '../../../autoload.js';
 
 const dockerCompose: string[] = [
   `version: '3'

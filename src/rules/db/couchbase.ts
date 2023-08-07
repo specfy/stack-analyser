@@ -1,7 +1,9 @@
-import { register } from '../../rules.js';
+import { register } from '../../register.js';
 
 register({
   tech: 'couchbase',
+  name: 'Couchbase',
+  type: 'db',
   dependencies: [
     { type: 'npm', name: 'couchbase' },
     { type: 'docker', name: /couchbase/, example: 'couchbase:0.0.0' },

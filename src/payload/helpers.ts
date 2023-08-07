@@ -1,4 +1,4 @@
-import { listIndexed } from '../common/techs.js';
+import { listIndexed } from '../register.js';
 import type { AllowedKeys } from '../types/techs.js';
 
 import { Payload } from './index.js';
@@ -45,9 +45,9 @@ export function findHosting(pl: Payload, tech: AllowedKeys) {
     return;
   }
 
-  const find = pl.childs.find((c) => c.tech === ref.key);
+  const find = pl.childs.find((c) => c.tech === ref.tech);
   if (!find) {
-    throw new Error(`cant find hosting ${ref.key}`);
+    throw new Error(`cant find hosting ${ref.tech}`);
   }
 
   pl.inComponent = find;

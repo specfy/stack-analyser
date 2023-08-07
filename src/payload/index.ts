@@ -2,15 +2,14 @@ import path from 'node:path';
 
 import { languages, others } from '../common/languages.js';
 import { nid } from '../common/nid.js';
-import { listIndexed, nameToKey } from '../common/techs.js';
+import { rulesComponents, rulesTechs } from '../loader.js';
 import type { BaseProvider } from '../provider/base.js';
 import { IGNORED_DIVE_PATHS } from '../provider/base.js';
-import { rulesComponents, rulesTechs } from '../rules.js';
+import { listIndexed, nameToKey } from '../register.js';
 import { cleanPath } from '../tests/helpers.js';
 import type { Analyser, AnalyserJson, Dependency } from '../types/index.js';
 import type { AllowedKeys } from '../types/techs.js';
 
-import '../rules/index.js';
 import { findHosting, findImplicitComponent } from './helpers.js';
 
 export class Payload implements Analyser {
@@ -88,7 +87,7 @@ export class Payload implements Analyser {
         continue;
       }
 
-      ctx.addTech(res.key);
+      ctx.addTech(res.tech);
     }
 
     // Recursively dive in folders
@@ -124,7 +123,7 @@ export class Payload implements Analyser {
       const pl = new Payload({
         name: tech.name,
         folderPath: service.path[0],
-        tech: tech.key,
+        tech: tech.tech,
       });
       const child = this.addChild(pl);
       service.inComponent = child;

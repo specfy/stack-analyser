@@ -2,6 +2,8 @@ import { describe, expect, it, vi } from 'vitest';
 
 import { Payload } from './index.js';
 
+import '../autoload.js';
+
 let id = 0;
 vi.mock('../common/nid.ts', () => {
   return { nid: () => `${id++}` };

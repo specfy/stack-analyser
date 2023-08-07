@@ -1,7 +1,9 @@
-import { register } from '../../rules.js';
+import { register } from '../../register.js';
 
 register({
   tech: 'auth0',
+  name: 'Auth0',
+  type: 'saas',
   dependencies: [
     { type: 'npm', name: 'auth0' },
     { type: 'npm', name: /^@auth0\//, example: '@auth0/auth0-react' },

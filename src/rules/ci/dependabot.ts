@@ -1,7 +1,9 @@
-import { register } from '../../rules.js';
+import { register } from '../../register.js';
 
 register({
   tech: 'dependabot',
+  name: 'Dependabot',
+  type: 'ci',
   matchFullPath: true,
   files: /.github\/dependabot.y(a)?ml/,
   example: '.github/dependabot.yml',

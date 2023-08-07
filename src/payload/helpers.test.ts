@@ -4,6 +4,8 @@ import { findEdgesInDependencies, flatten } from './helpers.js';
 
 import { Payload } from './index.js';
 
+import '../autoload.js';
+
 describe('findEdgesInDependencies', () => {
   it('should find an edge', () => {
     const main = new Payload({ id: '1', name: 'main', folderPath: '' });

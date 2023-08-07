@@ -1,7 +1,9 @@
-import { register } from '../../rules.js';
+import { register } from '../../register.js';
 
 register({
   tech: 'vercel',
+  name: 'Vercel',
+  type: 'hosting',
   files: ['.vercel', 'vercel.json'],
   dependencies: [
     { type: 'npm', name: 'vercel' },

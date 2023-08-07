@@ -1,8 +1,8 @@
 import toml from 'toml';
 
 import { l } from '../../../common/log.js';
+import { matchDependencies } from '../../../matchDependencies.js';
 import { Payload } from '../../../payload/index.js';
-import { detect } from '../../../rules.js';
 import type { Analyser } from '../../../types/index.js';
 import type { ComponentMatcher } from '../../../types/rule.js';
 
@@ -62,7 +62,7 @@ export const detectRustComponent: ComponentMatcher = async (
       ...(json['build-dependencies'] || {}),
       ...(json['workspace.dependencies'] || {}),
     };
-    const techs = detect(Object.keys(deps), 'rust');
+    const techs = matchDependencies(Object.keys(deps), 'rust');
     const depsFlatten: Analyser['dependencies'] = Object.entries(deps).map(
       ([name, value]) => {
         if (typeof value === 'string') {

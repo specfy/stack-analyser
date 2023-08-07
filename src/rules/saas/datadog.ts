@@ -1,7 +1,9 @@
-import { register } from '../../rules.js';
+import { register } from '../../register.js';
 
 register({
   tech: 'datadog',
+  name: 'Datadog',
+  type: 'saas',
   dependencies: [
     { type: 'npm', name: /^@datadog\//, example: '@datadog/cli' },
     { type: 'npm', name: 'dd-trace' },

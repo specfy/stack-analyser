@@ -1,5 +1,5 @@
+import { matchDependencies } from '../../../matchDependencies.js';
 import { Payload } from '../../../payload/index.js';
-import { detect } from '../../../rules.js';
 import type { Analyser } from '../../../types/index.js';
 import type { ComponentMatcher } from '../../../types/rule.js';
 
@@ -36,7 +36,7 @@ export const detectRubyComponent: ComponentMatcher = async (
       deps[match[1]] = match[3] || 'latest';
     }
 
-    const techs = detect(Object.keys(deps), 'ruby');
+    const techs = matchDependencies(Object.keys(deps), 'ruby');
     const depsFlatten: Analyser['dependencies'] = Object.entries(deps).map(
       ([name, value]) => {
         return ['ruby', name, value];

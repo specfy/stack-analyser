@@ -2,9 +2,11 @@ import { describe, expect, it } from 'vitest';
 
 import { analyser } from '../../../analyser/index.js';
 import type { AllowedKeys } from '../../../index.js';
+import { rawList } from '../../../loader.js';
 import { flatten } from '../../../payload/helpers.js';
 import { FakeProvider } from '../../../provider/fake.js';
-import { rawList } from '../../../rules.js';
+
+import '../../../autoload.js';
 
 describe('npm', () => {
   it('should match everything', async () => {
@@ -47,7 +49,7 @@ describe('npm', () => {
         },
       }),
     });
-    const match: AllowedKeys[] = ['nodejs'];
+    const match: AllowedKeys[] = ['javascript'];
     expect(
       Array.from(flatten(res, { merge: true }).techs).sort()
     ).toStrictEqual(match);

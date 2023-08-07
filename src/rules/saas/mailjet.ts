@@ -1,7 +1,9 @@
-import { register } from '../../rules.js';
+import { register } from '../../register.js';
 
 register({
   tech: 'mailjet',
+  name: 'Mailjet',
+  type: 'saas',
   dependencies: [
     { type: 'npm', name: 'node-mailjet' },
     { type: 'rust', name: 'mailjet-rs' },

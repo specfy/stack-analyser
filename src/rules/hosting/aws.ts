@@ -1,7 +1,9 @@
-import { register } from '../../rules.js';
+import { register } from '../../register.js';
 
 register({
   tech: 'aws',
+  name: 'AWS',
+  type: 'hosting',
   dependencies: [
     { type: 'npm', name: 'aws-sdk' },
     { type: 'npm', name: /^@aws-sdk\//, example: '@aws-sdk/client-s3' },

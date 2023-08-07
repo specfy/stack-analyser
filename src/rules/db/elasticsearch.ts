@@ -1,7 +1,9 @@
-import { register } from '../../rules.js';
+import { register } from '../../register.js';
 
 register({
   tech: 'elasticsearch',
+  name: 'Elasticsearch',
+  type: 'db',
   dependencies: [
     { type: 'npm', name: '@elastic/elasticsearch' },
     { type: 'docker', name: /elasticsearch/, example: 'elasticsearch:0.0.0' },

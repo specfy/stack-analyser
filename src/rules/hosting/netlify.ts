@@ -1,7 +1,9 @@
-import { register } from '../../rules.js';
+import { register } from '../../register.js';
 
 register({
   tech: 'netlify',
+  name: 'Netlify',
+  type: 'hosting',
   files: ['netlify.toml'],
   dependencies: [
     { type: 'npm', name: 'netlify' },

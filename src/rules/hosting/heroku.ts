@@ -1,7 +1,9 @@
-import { register } from '../../rules.js';
+import { register } from '../../register.js';
 
 register({
   tech: 'heroku',
+  name: 'Heroku',
+  type: 'hosting',
   files: ['app.json'],
   dependencies: [
     { type: 'terraform', name: 'registry.terraform.io/heroku/heroku' },

@@ -1,7 +1,9 @@
-import { register } from '../../rules.js';
+import { register } from '../../register.js';
 
 register({
   tech: 'cypressci',
+  name: 'CypressCI',
+  type: 'ci',
   files: /cypress.config.(js|ts|mjs|cjs)/,
   example: 'cypress.config.js',
   dependencies: [

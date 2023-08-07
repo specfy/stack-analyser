@@ -1,7 +1,9 @@
-import { register } from '../../rules.js';
+import { register } from '../../register.js';
 
 register({
   tech: 'gcp.functions',
+  name: 'Functions',
+  type: 'hosting',
   dependencies: [
     { type: 'npm', name: '@google-cloud/functions-framework' },
     {

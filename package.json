@@ -7,13 +7,14 @@
   "typings": "./dist/index.d.ts",
   "type": "module",
   "scripts": {
+    "prebuild": "ts-node --esm src/scripts/prebuild.ts",
     "build:watch": "tsc -w",
     "build": "tsc",
     "dev": "node dist/index.js",
     "test": "vitest",
     "lint": "eslint --ext .js,.ts,.tsx ."
   },
-  "author": "",
+  "author": "Samuel Bodin",
   "license": "MIT",
   "publishConfig": {
     "access": "public"

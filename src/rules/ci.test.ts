@@ -1,11 +1,12 @@
 import { describe, expect, it } from 'vitest';
 
 import { analyser } from '../analyser/index.js';
-import { listIndexed } from '../common/techs.js';
 import type { AllowedKeys } from '../index.js';
+import { rawList } from '../loader.js';
 import { FakeProvider } from '../provider/fake.js';
-import { rawList } from '../rules.js';
-import './index.js';
+import { listIndexed } from '../register.js';
+
+import '../autoload.js';
 
 describe('ci', () => {
   it('should match everything', async () => {

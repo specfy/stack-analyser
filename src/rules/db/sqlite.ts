@@ -1,7 +1,9 @@
-import { register } from '../../rules.js';
+import { register } from '../../register.js';
 
 register({
   tech: 'sqlite',
+  name: 'SQLite',
+  type: 'db',
   files: ['schema.sqlite'],
   dependencies: [
     { type: 'npm', name: 'sqlite3' },

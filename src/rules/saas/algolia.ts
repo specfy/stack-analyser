@@ -1,7 +1,9 @@
-import { register } from '../../rules.js';
+import { register } from '../../register.js';
 
 register({
   tech: 'algolia',
+  name: 'Algolia',
+  type: 'saas',
   dependencies: [
     { type: 'npm', name: /^@algolia\//, example: '@algolia/client' },
     { type: 'npm', name: 'algoliasearch' },

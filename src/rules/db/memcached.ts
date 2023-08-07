@@ -1,7 +1,9 @@
-import { register } from '../../rules.js';
+import { register } from '../../register.js';
 
 register({
   tech: 'memcached',
+  name: 'Memcached',
+  type: 'db',
   dependencies: [
     { type: 'npm', name: 'memcached' },
     { type: 'docker', name: /memcached/, example: 'memcached:0.0.0' },

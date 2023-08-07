@@ -1,7 +1,9 @@
-import { register } from '../../rules.js';
+import { register } from '../../register.js';
 
 register({
   tech: 'cockroachdb',
+  name: 'CockroachDB',
+  type: 'db',
   dependencies: [
     {
       type: 'terraform',

@@ -1,4 +1,5 @@
 import { matchFiles, matchFilesRegex } from './common/rules/matchFiles.js';
+import { registeredRules } from './register.js';
 import type {
   ComponentMatcher,
   Rule,
@@ -8,8 +9,6 @@ import type {
   TechMatcher,
 } from './types/rule.js';
 import type { AllowedKeys } from './types/techs.js';
-
-const registeredTech = new Set<AllowedKeys>();
 
 export const rulesTechs: TechMatcher[] = [];
 
@@ -34,13 +33,13 @@ export const rawList: Array<
   | ({ ref: RuleWithFile } & { type: 'file' })
 > = [];
 
-export function register(rule: Rule) {
-  if (registeredTech.has(rule.tech)) {
-    throw new Error(`Already registered ${rule.tech}`);
+export function loadAllRules() {
+  for (const rule of registeredRules) {
+    loadOne(rule);
   }
+}
 
-  registeredTech.add(rule.tech);
-
+export function loadOne(rule: Rule) {
   if (rule.dependencies) {
     rule.dependencies.map((dep) => {
       dependencies[dep.type].push({
@@ -83,17 +82,4 @@ export function register(rule: Rule) {
       ...(Array.isArray(rule.detect) ? rule.detect : [rule.detect])
     );
   }
-}
-
-export function detect(pkgs: string[], type: SupportedDeps): Set<AllowedKeys> {
-  const matched = new Set<AllowedKeys>();
-  for (const dep of pkgs) {
-    for (const ref of dependencies[type]) {
-      if (ref.match.test(dep)) {
-        matched.add(ref.tech);
-      }
-    }
-  }
-
-  return matched;
 }

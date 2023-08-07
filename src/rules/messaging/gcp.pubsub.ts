@@ -1,7 +1,9 @@
-import { register } from '../../rules.js';
+import { register } from '../../register.js';
 
 register({
   tech: 'gcp.pubsub',
+  name: 'PubSub',
+  type: 'messaging',
   dependencies: [
     { type: 'npm', name: '@google-cloud/pubsub' },
     {

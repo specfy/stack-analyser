@@ -1,7 +1,9 @@
-import { register } from '../../rules.js';
+import { register } from '../../register.js';
 
 register({
   tech: 'fastly',
+  name: 'Fastly',
+  type: 'hosting',
   dependencies: [
     { type: 'rust', name: 'fastly-api' },
     {

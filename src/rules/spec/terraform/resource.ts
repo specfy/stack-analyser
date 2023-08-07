@@ -3,9 +3,9 @@ import path from 'node:path';
 import { parse } from '@cdktf/hcl2json';
 
 import { l } from '../../../common/log.js';
-import { listIndexed } from '../../../common/techs.js';
+import { matchDependencies } from '../../../matchDependencies.js';
 import { Payload } from '../../../payload/index.js';
-import { detect } from '../../../rules.js';
+import { listIndexed } from '../../../register.js';
 import type { ComponentMatcher } from '../../../types/rule.js';
 
 const FILE = /\.tf$/;
@@ -44,7 +44,7 @@ export const detectTerraformResource: ComponentMatcher = async (
 
     // We only register docker service with image and that we know
     for (const name of Object.keys(json.resource)) {
-      const matched = [...detect([name], 'terraform.resource')];
+      const matched = [...matchDependencies([name], 'terraform.resource')];
       if (!matched.length) {
         continue;
       }

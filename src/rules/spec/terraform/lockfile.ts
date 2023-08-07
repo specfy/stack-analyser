@@ -3,9 +3,9 @@ import path from 'node:path';
 import { parse } from '@cdktf/hcl2json';
 
 import { l } from '../../../common/log.js';
-import { listIndexed } from '../../../common/techs.js';
+import { matchDependencies } from '../../../matchDependencies.js';
 import { Payload } from '../../../payload/index.js';
-import { detect } from '../../../rules.js';
+import { listIndexed } from '../../../register.js';
 import type { Dependency } from '../../../types/index.js';
 import type { ComponentMatcher } from '../../../types/rule.js';
 
@@ -45,7 +45,7 @@ export const detectTerraformLockfile: ComponentMatcher = async (
 
     // We only register docker service with image and that we know
     for (const name of Object.keys(json.provider)) {
-      const matched = [...detect([name], 'terraform')];
+      const matched = [...matchDependencies([name], 'terraform')];
       dependencies.push([
         'terraform',
         name,

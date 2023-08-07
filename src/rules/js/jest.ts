@@ -1,7 +1,9 @@
-import { register } from '../../rules.js';
+import { register } from '../../register.js';
 
 register({
   tech: 'jest',
+  name: 'Jest',
+  type: 'tool',
   files: /jest.config.(js|ts|mjs|cjs|json)/,
   example: 'jest.config.ts',
   dependencies: [

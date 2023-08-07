@@ -1,7 +1,9 @@
-import { register } from '../../rules.js';
+import { register } from '../../register.js';
 
 register({
   tech: 'gcp.maps',
+  name: 'Google Maps',
+  type: 'api',
   dependencies: [
     { type: 'npm', name: '@google-cloud/maps' },
     { type: 'terraform.resource', name: '' },

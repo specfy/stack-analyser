@@ -1,7 +1,9 @@
-import { register } from '../../rules.js';
+import { register } from '../../register.js';
 
 register({
   tech: 'gcp.bigtable',
+  name: 'BigTable',
+  type: 'db',
   dependencies: [
     { type: 'npm', name: '@google-cloud/bigtable' },
     {

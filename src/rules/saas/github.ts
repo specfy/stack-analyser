@@ -1,7 +1,9 @@
-import { register } from '../../rules.js';
+import { register } from '../../register.js';
 
 register({
   tech: 'github',
+  name: 'Github',
+  type: 'saas',
   files: ['.github'],
   dependencies: [
     { type: 'npm', name: 'octokit' },

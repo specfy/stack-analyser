@@ -1,7 +1,9 @@
-import { register } from '../../rules.js';
+import { register } from '../../register.js';
 
 register({
   tech: 'influxdb',
+  name: 'InfluxDB',
+  type: 'db',
   dependencies: [
     { type: 'npm', name: '@influxdata/influxdb-client' },
     { type: 'docker', name: /influxdb/, example: 'influxdb:0.0.0' },

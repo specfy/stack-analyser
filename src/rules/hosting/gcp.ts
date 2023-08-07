@@ -1,7 +1,9 @@
-import { register } from '../../rules.js';
+import { register } from '../../register.js';
 
 register({
   tech: 'gcp',
+  name: 'Google Cloud Platform',
+  type: 'hosting',
   dependencies: [
     { type: 'npm', name: 'googleapis' },
     { type: 'npm', name: /^@google-cloud\//, example: '@google-cloud/storage' },

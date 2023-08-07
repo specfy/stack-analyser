@@ -10,7 +10,7 @@ exports[`Payload > should detect nested dependencies 1`] = `
       "id": "2",
       "inComponent": null,
       "languages": {},
-      "name": "GCP",
+      "name": "Google Cloud Platform",
       "path": [
         "/",
       ],

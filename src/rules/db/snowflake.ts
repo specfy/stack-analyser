@@ -1,7 +1,9 @@
-import { register } from '../../rules.js';
+import { register } from '../../register.js';
 
 register({
   tech: 'snowflake',
+  name: 'Snowflake',
+  type: 'db',
   dependencies: [
     {
       type: 'terraform',

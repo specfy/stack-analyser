@@ -9,6 +9,8 @@ import type { AnalyserJson } from '../types/index.js';
 
 import { analyser } from './index.js';
 
+import '../autoload.js';
+
 const dockerCompose = `version: '3'
 services:
   db:

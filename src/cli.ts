@@ -12,9 +12,10 @@ import ora from 'ora';
 
 import { analyser } from './analyser/index.js';
 import { l } from './common/log.js';
+import { flatten } from './payload/helpers.js';
 import { FSProvider } from './provider/fs.js';
 
-import { flatten } from './index.js';
+import './autoload.js';
 
 const program = new Command();
 

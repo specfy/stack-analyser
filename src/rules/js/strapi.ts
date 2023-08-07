@@ -1,7 +1,9 @@
-import { register } from '../../rules.js';
+import { register } from '../../register.js';
 
 register({
   tech: 'strapi',
+  name: 'Strapi',
+  type: 'tool',
   dependencies: [
     { type: 'npm', name: 'strapi' },
     { type: 'npm', name: '@strapi/strapi' },

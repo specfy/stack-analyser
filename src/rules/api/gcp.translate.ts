@@ -1,7 +1,9 @@
-import { register } from '../../rules.js';
+import { register } from '../../register.js';
 
 register({
   tech: 'gcp.translate',
+  name: 'Translate',
+  type: 'api',
   dependencies: [
     { type: 'npm', name: '@google-cloud/translate' },
     { type: 'terraform.resource', name: '' },

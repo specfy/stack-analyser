@@ -1,7 +1,7 @@
 import type { Payload } from '../payload/index.js';
 import type { BaseProvider, ProviderFile } from '../provider/base.js';
 
-import type { AllowedKeys, TechItem } from './techs.js';
+import type { AllowedKeys, TechType } from './techs.js';
 
 export type SupportedDeps =
   | 'deno'
@@ -24,6 +24,8 @@ export type RuleDependency = {
 
 export type Rule = {
   tech: AllowedKeys;
+  name: string;
+  type: TechType;
   dependencies?: RuleDependency[];
   detect?: ComponentMatcher | ComponentMatcher[];
 } & (RuleFiles | never);
@@ -51,4 +53,4 @@ export type ComponentMatcher = (
   provider: BaseProvider
 ) => Promise<Payload | Payload[] | false>;
 
-export type TechMatcher = (files: ProviderFile[]) => TechItem | false;
+export type TechMatcher = (files: ProviderFile[]) => Rule | false;

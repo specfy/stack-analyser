@@ -1,7 +1,9 @@
-import { register } from '../../rules.js';
+import { register } from '../../register.js';
 
 register({
   tech: 'gcp.language',
+  name: 'Language',
+  type: 'api',
   dependencies: [
     { type: 'npm', name: '@google-cloud/language' },
     {

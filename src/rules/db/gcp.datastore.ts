@@ -1,7 +1,9 @@
-import { register } from '../../rules.js';
+import { register } from '../../register.js';
 
 register({
   tech: 'gcp.datastore',
+  name: 'Datastore',
+  type: 'db',
   dependencies: [
     { type: 'npm', name: '@google-cloud/datastore' },
     {

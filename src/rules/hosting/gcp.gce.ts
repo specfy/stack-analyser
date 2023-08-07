@@ -1,7 +1,9 @@
-import { register } from '../../rules.js';
+import { register } from '../../register.js';
 
 register({
   tech: 'gcp.gce',
+  name: 'Compute',
+  type: 'hosting',
   dependencies: [
     { type: 'npm', name: '@google-cloud/compute' },
     { type: 'terraform.resource', name: 'google_compute_instance' },

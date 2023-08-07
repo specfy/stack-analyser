@@ -1,7 +1,9 @@
-import { register } from '../../rules.js';
+import { register } from '../../register.js';
 
 register({
   tech: 'slack',
+  name: 'Slack',
+  type: 'saas',
   dependencies: [
     { type: 'npm', name: '@slack/web-api' },
     { type: 'terraform', name: 'registry.terraform.io/pablovarela/slack' },

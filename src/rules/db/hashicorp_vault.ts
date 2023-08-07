@@ -1,7 +1,9 @@
-import { register } from '../../rules.js';
+import { register } from '../../register.js';
 
 register({
   tech: 'hashicorp_vault',
+  name: 'Vault',
+  type: 'db',
   dependencies: [
     { type: 'docker', name: /vault/, example: 'vault:0.0.0' },
     { type: 'terraform', name: 'registry.terraform.io/hashicorp/vault' },

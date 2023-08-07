@@ -1,7 +1,9 @@
-import { register } from '../../rules.js';
+import { register } from '../../register.js';
 
 register({
   tech: 'gcp.aiplatform',
+  name: 'AI Platform',
+  type: 'api',
   dependencies: [
     { type: 'npm', name: '@google-cloud/aiplatform' },
     { type: 'terraform.resource', name: 'google_vertex_ai_index' },

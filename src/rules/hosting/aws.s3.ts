@@ -1,7 +1,9 @@
-import { register } from '../../rules.js';
+import { register } from '../../register.js';
 
 register({
   tech: 'aws.s3',
+  name: 'S3',
+  type: 'storage',
   dependencies: [
     { type: 'npm', name: '@aws-sdk/client-s3' },
     { type: 'docker', name: 'adobe/s3mock' },

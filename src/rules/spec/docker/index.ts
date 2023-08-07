@@ -1,9 +1,11 @@
-import { register } from '../../../rules.js';
+import { register } from '../../../register.js';
 
 import { detectDockerComponent } from './component.js';
 
 register({
   tech: 'docker',
+  name: 'Docker',
+  type: 'tool',
   files: [
     '.dockerignore',
     'Dockerfile',

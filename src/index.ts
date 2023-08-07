@@ -1,8 +1,8 @@
+/* eslint-disable import/extensions */
 import { analyser } from './analyser/index.js';
-import {
-  listIndexed as listTechIndexed,
-  list as listTech,
-} from './common/techs.js';
+import { listIndexed, listTech } from './common/techs.generated.js';
+import { rawList, dependencies as dependenciesList } from './loader.js';
+import { matchDependencies } from './matchDependencies.js';
 import {
   flatten,
   findEdgesInDependencies,
@@ -13,12 +13,7 @@ import { Payload } from './payload/index.js';
 import { BaseProvider } from './provider/base.js';
 import { FakeProvider } from './provider/fake.js';
 import { FSProvider, FSProviderOptions } from './provider/fs.js';
-import {
-  register,
-  detect,
-  rawList,
-  dependencies as dependenciesList,
-} from './rules.js';
+import { register, registeredRules, registeredTech } from './register.js';
 import { Analyser, AnalyserJson } from './types/index.js';
 import {
   SupportedDeps,
@@ -57,11 +52,18 @@ export {
   findImplicitComponent,
 };
 
-export const dependencies = {
+export const rules = {
   register,
-  detect,
+  list: registeredRules,
+};
+export const dependencies = {
+  detect: matchDependencies,
   raw: rawList,
   list: dependenciesList,
 };
 
-export const tech = { indexed: listTechIndexed, list: listTech };
+export const tech = {
+  indexed: listIndexed,
+  list: listTech,
+  keys: registeredTech,
+};

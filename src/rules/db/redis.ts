@@ -1,7 +1,9 @@
-import { register } from '../../rules.js';
+import { register } from '../../register.js';
 
 register({
   tech: 'redis',
+  name: 'Redis',
+  type: 'db',
   dependencies: [
     { type: 'npm', name: 'redis' },
     { type: 'npm', name: 'ioredis' },

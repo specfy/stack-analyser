@@ -1,7 +1,9 @@
-import { register } from '../../rules.js';
+import { register } from '../../register.js';
 
 register({
   tech: 'kubernetes',
+  name: 'Kubernetes',
+  type: 'hosting',
   dependencies: [
     { type: 'terraform', name: 'registry.terraform.io/hashicorp/kubernetes' },
     { type: 'rust', name: 'k8s-openapi' },

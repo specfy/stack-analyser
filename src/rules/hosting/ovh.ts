@@ -1,7 +1,9 @@
-import { register } from '../../rules.js';
+import { register } from '../../register.js';
 
 register({
   tech: 'ovh',
+  name: 'OVH',
+  type: 'hosting',
   dependencies: [
     { type: 'terraform', name: 'registry.terraform.io/ovh/ovh' },
     {

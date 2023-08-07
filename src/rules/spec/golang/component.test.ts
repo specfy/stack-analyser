@@ -5,6 +5,8 @@ import { flatten } from '../../../payload/helpers.js';
 import { FakeProvider } from '../../../provider/fake.js';
 import { cleanNestedSnapshot } from '../../../tests/helpers.js';
 
+import '../../../autoload.js';
+
 describe('golang', () => {
   it('should match a service', async () => {
     const res = await analyser({

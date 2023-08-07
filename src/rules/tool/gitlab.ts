@@ -1,7 +1,9 @@
-import { register } from '../../rules.js';
+import { register } from '../../register.js';
 
 register({
   tech: 'gitlab',
+  name: 'Gitlab',
+  type: 'tool',
   dependencies: [
     { type: 'terraform', name: 'registry.terraform.io/gitlabhq/gitlab' },
     { type: 'rust', name: 'gitlab' },

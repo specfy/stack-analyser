@@ -1,7 +1,9 @@
-import { register } from '../../rules.js';
+import { register } from '../../register.js';
 
 register({
   tech: 'stylelint',
+  name: 'Stylelint',
+  type: 'tool',
   files: [
     '.stylelint',
     '.stylelintrc.cjs',
