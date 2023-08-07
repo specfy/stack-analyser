@@ -59,6 +59,7 @@ export type AllowedKeys =
   | 'gcp.bigquery'
   | 'gcp.bigtable'
   | 'gcp.cloudrun'
+  | 'gcp.datastore'
   | 'gcp.gce'
   | 'gcp.gcs'
   | 'gcp.gke'

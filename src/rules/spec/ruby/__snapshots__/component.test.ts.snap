@@ -10,7 +10,9 @@ Set {
   "gcp",
   "gcp.bigquery",
   "gcp.bigtable",
+  "gcp.datastore",
   "gcp.sql",
+  "hashicorp_vault",
   "influxdb",
   "mariadb",
   "memcached",
@@ -18,9 +20,8 @@ Set {
   "mysql",
   "postgresql",
   "redis",
-  "sqlite",
   "snowflake",
-  "hashicorp_vault",
+  "sqlite",
   "aws.s3",
   "azure",
   "fastly",
@@ -172,6 +173,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "google-cloud-compute",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "google-cloud-datastore",
     "1.0.0",
   ],
   [

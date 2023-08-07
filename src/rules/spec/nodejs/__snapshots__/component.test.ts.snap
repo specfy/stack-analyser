@@ -24,6 +24,7 @@ exports[`npm > should match everything 1`] = `
   "gcp.bigquery",
   "gcp.bigtable",
   "gcp.cloudrun",
+  "gcp.datastore",
   "gcp.gce",
   "gcp.gcs",
   "gcp.pubsub",
