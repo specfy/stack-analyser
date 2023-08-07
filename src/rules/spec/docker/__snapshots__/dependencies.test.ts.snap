@@ -10,6 +10,7 @@ exports[`docker > should match everything 1`] = `
   "cypressci",
   "docker",
   "elasticsearch",
+  "hashicorp_vault",
   "httpd",
   "influxdb",
   "jenkins",
@@ -26,7 +27,6 @@ exports[`docker > should match everything 1`] = `
   "rabbitmq",
   "redis",
   "strapi",
-  "vault",
   "zookeeper",
 ]
 `;

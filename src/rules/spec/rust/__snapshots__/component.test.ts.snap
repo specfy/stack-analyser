@@ -18,7 +18,7 @@ Set {
   "redis",
   "sqlite",
   "snowflake",
-  "vault",
+  "hashicorp_vault",
   "fastly",
   "rabbitmq",
   "gcp.pubsub",
