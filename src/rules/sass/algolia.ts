@@ -17,5 +17,6 @@ register({
     { type: 'npm', name: '@docsearch/css' },
     { type: 'npm', name: '@docsearch/js' },
     { type: 'npm', name: 'docsearch.js' },
+    { type: 'rustcargo', name: 'algoliasearch' },
   ],
 });

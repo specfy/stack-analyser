@@ -9,5 +9,7 @@ register({
     { type: 'terraform.resource', name: 'datadog_metric_metadata' },
     { type: 'terraform.resource', name: 'datadog_application_key' },
     { type: 'terraform.resource', name: 'datadog_monitor' },
+    { type: 'rustcargo', name: 'ddtrace' },
+    { type: 'rustcargo', name: 'datadog-apm' },
   ],
 });

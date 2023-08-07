@@ -8,7 +8,7 @@ import './gcp.sql.js';
 import './influxdb.js';
 import './mariadb.js';
 import './memcached.js';
-import './mongo.js';
+import './mongodb.js';
 import './mysql.js';
 import './neo4j.js';
 import './percona.js';

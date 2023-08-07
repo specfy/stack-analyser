@@ -7,6 +7,7 @@ export type SupportedDeps =
   | 'docker'
   | 'gomod'
   | 'npm'
+  | 'rustcargo'
   | 'terraform.resource'
   | 'terraform';
 

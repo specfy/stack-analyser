@@ -4,5 +4,6 @@ register({
   tech: 'gitlab',
   dependencies: [
     { type: 'terraform', name: 'registry.terraform.io/gitlabhq/gitlab' },
+    { type: 'rustcargo', name: 'gitlab' },
   ],
 });

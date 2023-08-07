@@ -11,7 +11,6 @@ import './prisma.js';
 import './react.js';
 import './reactEmail.js';
 import './rollup.js';
-import './sentry.js';
 import './sequelize.js';
 import './socketio.js';
 import './storybook.js';

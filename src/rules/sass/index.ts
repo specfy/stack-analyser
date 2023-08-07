@@ -8,3 +8,4 @@ import './okta.js';
 import './slack.js';
 import './snyk.js';
 import './sqreen.js';
+import './sentry.js';

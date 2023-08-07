@@ -52,6 +52,7 @@ export type AllowedKeys =
   | 'expodev'
   | 'express'
   | 'fastify'
+  | 'fastly'
   | 'firebase'
   | 'flyio'
   | 'gcp.bigquery'

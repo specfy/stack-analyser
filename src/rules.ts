@@ -24,6 +24,7 @@ export const dependencies: Record<
   terraform: [],
   'terraform.resource': [],
   gomod: [],
+  rustcargo: [],
 };
 
 export const rawList: Array<
