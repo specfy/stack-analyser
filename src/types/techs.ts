@@ -68,6 +68,7 @@ export type AllowedKeys =
   | 'gcp.gce'
   | 'gcp.gcs'
   | 'gcp.gke'
+  | 'gcp.language'
   | 'gcp.pubsub'
   | 'gcp.secretmanager'
   | 'gcp.sql'

@@ -1,3 +1,4 @@
+import './api/index.js';
 import './app/index.js';
 import './ci/index.js';
 import './db/index.js';

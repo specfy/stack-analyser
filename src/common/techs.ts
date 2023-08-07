@@ -54,6 +54,7 @@ export const list: TechItem[] = [
   { key: 'gcp.cloudrun', name: 'Cloud Run', type: 'hosting' },
   { key: 'gcp.functions', name: 'Functions', type: 'hosting' },
   { key: 'gcp.cloudbuild', name: 'Cloud Build', type: 'tool' },
+  { key: 'gcp.language', name: 'Language', type: 'api' },
   { key: 'gcp.secretmanager', name: 'Secret manager', type: 'db' },
   { key: 'gcp.pubsub', name: 'PubSub', type: 'messaging' },
   { key: 'gcp.gce', name: 'Compute Engine', type: 'hosting' },
