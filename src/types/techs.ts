@@ -69,6 +69,7 @@ export type AllowedKeys =
   | 'gcp.gcs'
   | 'gcp.gke'
   | 'gcp.pubsub'
+  | 'gcp.secretmanager'
   | 'gcp.sql'
   | 'gcp'
   | 'github.actions'

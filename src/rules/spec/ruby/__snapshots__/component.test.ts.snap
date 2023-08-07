@@ -11,6 +11,7 @@ Set {
   "gcp.bigquery",
   "gcp.bigtable",
   "gcp.datastore",
+  "gcp.secretmanager",
   "gcp.sql",
   "hashicorp_vault",
   "influxdb",
@@ -217,6 +218,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "google-cloud-run_v2",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "google-cloud-secret_manager-v1",
     "1.0.0",
   ],
   [
