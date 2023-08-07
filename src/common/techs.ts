@@ -49,6 +49,7 @@ export const list: TechItem[] = [
   { key: 'gcp', name: 'GCP', type: 'hosting' },
   { key: 'gcp.bigquery', name: 'Big Query', type: 'db' },
   { key: 'gcp.bigtable', name: 'Big Table', type: 'db' },
+  { key: 'gcp.dns', name: 'DNS', type: 'network' },
   { key: 'gcp.datastore', name: 'Datastore', type: 'db' },
   { key: 'gcp.cloudrun', name: 'Cloud Run', type: 'hosting' },
   { key: 'gcp.pubsub', name: 'PubSub', type: 'messaging' },

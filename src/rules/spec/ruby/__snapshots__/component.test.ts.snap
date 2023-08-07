@@ -34,6 +34,7 @@ Set {
   "oraclecloud",
   "rabbitmq",
   "gcp.pubsub",
+  "gcp.dns",
   "algolia",
   "auth0",
   "datadog",
@@ -178,6 +179,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "google-cloud-datastore",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "google-cloud-dns",
     "1.0.0",
   ],
   [

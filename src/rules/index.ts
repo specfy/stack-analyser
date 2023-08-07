@@ -4,6 +4,7 @@ import './db/index.js';
 import './hosting/index.js';
 import './js/index.js';
 import './messaging/index.js';
+import './network/index.js';
 import './sass/index.js';
 import './spec/index.js';
 import './tool/index.js';
