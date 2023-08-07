@@ -12,6 +12,6 @@ register({
       type: 'terraform.resource',
       name: 'google_bigquery_table',
     },
-    { type: 'rustcargo', name: 'gcp-bigquery-client' },
+    { type: 'rust', name: 'gcp-bigquery-client' },
   ],
 });

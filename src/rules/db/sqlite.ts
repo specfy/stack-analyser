@@ -5,8 +5,8 @@ register({
   files: ['schema.sqlite'],
   dependencies: [
     { type: 'npm', name: 'sqlite3' },
-    { type: 'rustcargo', name: 'sqlite' },
-    { type: 'rustcargo', name: 'rusqlite' },
-    { type: 'rustcargo', name: 'libsqlite3-sys' },
+    { type: 'rust', name: 'sqlite' },
+    { type: 'rust', name: 'rusqlite' },
+    { type: 'rust', name: 'libsqlite3-sys' },
   ],
 });

@@ -5,6 +5,6 @@ register({
   dependencies: [
     { type: 'npm', name: 'amqplib' },
     { type: 'docker', name: /rabbitmq/, example: 'rabbitmq:0.0.0' },
-    { type: 'rustcargo', name: 'rabbitmq-stream-client' },
+    { type: 'rust', name: 'rabbitmq-stream-client' },
   ],
 });

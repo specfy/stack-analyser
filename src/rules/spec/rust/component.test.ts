@@ -17,7 +17,7 @@ version = "1.8.0"
     ];
 
     for (const item of rawList) {
-      if (item.type !== 'dependency' || item.ref.type !== 'rustcargo') {
+      if (item.type !== 'dependency' || item.ref.type !== 'rust') {
         continue;
       }
 

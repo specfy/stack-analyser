@@ -61,27 +61,27 @@ export const detectRustComponent: ComponentMatcher = async (
       ...(json['dev-dependencies'] || {}),
       ...(json['build-dependencies'] || {}),
     };
-    const techs = detect(Object.keys(deps), 'rustcargo');
+    const techs = detect(Object.keys(deps), 'rust');
     const depsFlatten: Analyser['dependencies'] = Object.entries(deps).map(
       ([name, value]) => {
         if (typeof value === 'string') {
-          return ['rustcargo', name, value];
+          return ['rust', name, value];
         }
         if ('path' in value) {
           return [
-            'rustcargo',
+            'rust',
             name,
             `path:${value.path}${value.version ? `:${value.version}` : ''}`,
           ];
         }
         if ('git' in value) {
           return [
-            'rustcargo',
+            'rust',
             name,
             `git:${value.git}#${value.branch || value.rev || 'latest'}`,
           ];
         }
-        return ['rustcargo', name, value.version || 'latest'];
+        return ['rust', name, value.version || 'latest'];
       }
     );
 

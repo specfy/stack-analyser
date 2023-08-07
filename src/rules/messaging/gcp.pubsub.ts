@@ -9,6 +9,6 @@ register({
       name: 'google_pubsub_topic',
     },
     { type: 'gomod', name: 'cloud.google.com/go/pubsub' },
-    { type: 'rustcargo', name: 'google-cloud-pubsub' },
+    { type: 'rust', name: 'google-cloud-pubsub' },
   ],
 });

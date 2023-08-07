@@ -289,7 +289,7 @@ exports[`analyser > should run correctly 1`] = `
           "childs": [],
           "dependencies": [
             [
-              "rustcargo",
+              "rust",
               "dotenv",
               "0.15.0",
             ],
@@ -671,7 +671,7 @@ exports[`analyser > should run correctly 2`] = `
       "childs": [],
       "dependencies": [
         [
-          "rustcargo",
+          "rust",
           "dotenv",
           "0.15.0",
         ],
@@ -792,7 +792,7 @@ exports[`analyser > should run correctly 2`] = `
       "4.3.3",
     ],
     [
-      "rustcargo",
+      "rust",
       "dotenv",
       "0.15.0",
     ],

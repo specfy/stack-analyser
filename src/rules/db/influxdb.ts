@@ -5,7 +5,7 @@ register({
   dependencies: [
     { type: 'npm', name: '@influxdata/influxdb-client' },
     { type: 'docker', name: /influxdb/, example: 'influxdb:0.0.0' },
-    { type: 'rustcargo', name: 'influxdb' },
-    { type: 'rustcargo', name: 'influxdb2' },
+    { type: 'rust', name: 'influxdb' },
+    { type: 'rust', name: 'influxdb2' },
   ],
 });

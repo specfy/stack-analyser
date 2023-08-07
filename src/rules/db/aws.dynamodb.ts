@@ -9,6 +9,6 @@ register({
       name: /amazon\/dynamodb-local/,
       example: 'amazon/dynamodb-local:0.0.0',
     },
-    { type: 'rustcargo', name: 'aws-sdk-dynamodb' },
+    { type: 'rust', name: 'aws-sdk-dynamodb' },
   ],
 });

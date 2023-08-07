@@ -5,6 +5,6 @@ register({
   dependencies: [
     { type: 'npm', name: /@okta\//, example: '@okta/okta-signin-widget' },
     { type: 'terraform', name: 'registry.terraform.io/okta/okta' },
-    { type: 'rustcargo', name: 'okta' },
+    { type: 'rust', name: 'okta' },
   ],
 });

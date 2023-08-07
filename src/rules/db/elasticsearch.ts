@@ -9,7 +9,7 @@ register({
       type: 'terraform',
       name: 'registry.terraform.io/phillbaker/elasticsearch',
     },
-    { type: 'rustcargo', name: 'elasticsearch' },
-    { type: 'rustcargo', name: 'aws-sdk-elasticsearch' },
+    { type: 'rust', name: 'elasticsearch' },
+    { type: 'rust', name: 'aws-sdk-elasticsearch' },
   ],
 });

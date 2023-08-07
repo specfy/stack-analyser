@@ -5,7 +5,7 @@ register({
   dependencies: [
     { type: 'npm', name: 'memcached' },
     { type: 'docker', name: /memcached/, example: 'memcached:0.0.0' },
-    { type: 'rustcargo', name: 'memcache-async' },
-    { type: 'rustcargo', name: 'memcache' },
+    { type: 'rust', name: 'memcache-async' },
+    { type: 'rust', name: 'memcache' },
   ],
 });

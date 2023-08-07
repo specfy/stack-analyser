@@ -4,6 +4,6 @@ register({
   tech: 'sentry',
   dependencies: [
     { type: 'npm', name: /@sentry\//, example: '@sentry/browser' },
-    { type: 'rustcargo', name: 'sentry' },
+    { type: 'rust', name: 'sentry' },
   ],
 });
