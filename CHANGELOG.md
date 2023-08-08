@@ -1,3 +1,40 @@
+# [1.4.0](https://github.com/specfy/stack-analyser/compare/v1.3.6...v1.4.0) (2023-08-08)
+
+
+### Bug Fixes
+
+* dependencies 2023-07-16 ([#21](https://github.com/specfy/stack-analyser/issues/21)) ([0a9003f](https://github.com/specfy/stack-analyser/commit/0a9003fa563557218a723b1c7b2701f3cdb6fcf7))
+* dependencies 2023-07-23 ([#26](https://github.com/specfy/stack-analyser/issues/26)) ([86c3bf4](https://github.com/specfy/stack-analyser/commit/86c3bf45193173bc2c450944aa173e32804957b2))
+* namespace Vault to avoid conflict ([4f0ac2e](https://github.com/specfy/stack-analyser/commit/4f0ac2e82949bf214fb96a43424912e3046806ce))
+* rename gomod to golang ([d4a0cd3](https://github.com/specfy/stack-analyser/commit/d4a0cd389506857cf14d5d5cd39bc4279328cdb3))
+* rename rustcargo to rust since it's the official package manager ([31e3513](https://github.com/specfy/stack-analyser/commit/31e3513d1d62ede8dea9043c1ab64b9b0be0cee5))
+* **rules:** add Fastly ([d816405](https://github.com/specfy/stack-analyser/commit/d8164054e64c6678bce2d697dea58bddffb0fa6f))
+* **rules:** add GCP Ai Platform ([da08aef](https://github.com/specfy/stack-analyser/commit/da08aef300a83eec81b0a7f557d4c73b81304d45))
+* **rules:** add GCP BigTable ([521dc76](https://github.com/specfy/stack-analyser/commit/521dc7684fc0124674906075de535dd2f5124946))
+* **rules:** add GCP Cloud Build ([9e038c4](https://github.com/specfy/stack-analyser/commit/9e038c43a912e19c3a604ca676bb691c13c7969c))
+* **rules:** add GCP Dataproc ([95267e5](https://github.com/specfy/stack-analyser/commit/95267e5055beed0afab90e511328bd635bb923f1))
+* **rules:** add GCP Datastore ([849a31c](https://github.com/specfy/stack-analyser/commit/849a31c589842268270389ed6488499ddfe9ac40))
+* **rules:** add GCP DNS ([bae5e74](https://github.com/specfy/stack-analyser/commit/bae5e74e2d804621d874820953df27ae11038947))
+* **rules:** add GCP Functions ([dc51d87](https://github.com/specfy/stack-analyser/commit/dc51d87b1781f75aa5a1577ac4d0266289023468))
+* **rules:** add GCP Language ([df0103c](https://github.com/specfy/stack-analyser/commit/df0103c884fdf5c98c55b48119004190e47ef7cc))
+* **rules:** add GCP Secret Manager ([855ada5](https://github.com/specfy/stack-analyser/commit/855ada5708fc901a91723be49cf64200535c2c31))
+* **rules:** add GCP Speech ([55020f6](https://github.com/specfy/stack-analyser/commit/55020f6f9e241a3a5ee71e78fa074336446fa8cf))
+* **rules:** add GCP Translate ([8e29414](https://github.com/specfy/stack-analyser/commit/8e294141b86d0a855c3ea1c685dd28505dd5c137))
+* **rules:** add GCP Vision ([5f8fcd5](https://github.com/specfy/stack-analyser/commit/5f8fcd5f5ae3129766cb34f601bd7edbb561f2fa))
+* **rules:** add Google Maps ([adf585c](https://github.com/specfy/stack-analyser/commit/adf585ceb5b1ff9e2d0619e0d52656c1d09e438c))
+* **rules:** add Puppeteer ([a737e2d](https://github.com/specfy/stack-analyser/commit/a737e2dcaa7c31c39b890ecb1f0376d73edb7a77))
+* **rules:** broader match for DB ([9766a0d](https://github.com/specfy/stack-analyser/commit/9766a0df4746b229e819d8fe77a0f4178ffdc722))
+* **rust:** cover more edge cases ([2c2276e](https://github.com/specfy/stack-analyser/commit/2c2276e794a8d0b4b1d3f116daf7506e84893978))
+
+
+### Features
+
+* Add support for Rust, update all previously declared packages ([e6fb2f0](https://github.com/specfy/stack-analyser/commit/e6fb2f0dd342108b5fdda97140408394dc1a87c0))
+* **golang:** detect Service ([b60a8a3](https://github.com/specfy/stack-analyser/commit/b60a8a30497d43d6fd2c15ae3688192473c2db79))
+* now support Ruby (dependencies only) ([57e162c](https://github.com/specfy/stack-analyser/commit/57e162cdb7c3e30a7ccb246ed2ccaf296eb6773a))
+* **rules:** declare metadata along rules, auto generate list on prebuild ([c0077f3](https://github.com/specfy/stack-analyser/commit/c0077f3c8865474142aee4b00cb1e7d6529f54b3))
+* support Deno (only dependencies) ([a12ec0d](https://github.com/specfy/stack-analyser/commit/a12ec0da253d03dac295395adf9868f870a299ca))
+
 ## [1.3.6](https://github.com/specfy/stack-analyser/compare/v1.3.5...v1.3.6) (2023-07-11)
 
 
