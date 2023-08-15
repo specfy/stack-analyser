@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/specfy/stack-analyser/compare/v1.4.0...v1.4.1) (2023-08-15)
+
+
+### Bug Fixes
+
+* expose autoloader ([f524090](https://github.com/specfy/stack-analyser/commit/f524090308519ce426c02bd03ed1477c15bf2c1a))
+
 # [1.4.0](https://github.com/specfy/stack-analyser/compare/v1.3.6...v1.4.0) (2023-08-08)
 
 
