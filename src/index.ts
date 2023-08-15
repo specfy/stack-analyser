@@ -1,7 +1,12 @@
 /* eslint-disable import/extensions */
 import { analyser } from './analyser/index.js';
 import { listIndexed, listTech } from './common/techs.generated.js';
-import { rawList, dependencies as dependenciesList } from './loader.js';
+import {
+  rawList,
+  dependencies as dependenciesList,
+  loadAllRules,
+  loadOne,
+} from './loader.js';
 import { matchDependencies } from './matchDependencies.js';
 import {
   flatten,
@@ -55,6 +60,8 @@ export {
 export const rules = {
   register,
   list: registeredRules,
+  loadAllRules,
+  loadOne,
 };
 export const dependencies = {
   detect: matchDependencies,
