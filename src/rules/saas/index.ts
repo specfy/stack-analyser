@@ -6,6 +6,7 @@ import './logrocket.js';
 import './mailjet.js';
 import './newrelic.js';
 import './okta.js';
+import './openai.js';
 import './pagerduty.js';
 import './prismacloud.js';
 import './resend.js';

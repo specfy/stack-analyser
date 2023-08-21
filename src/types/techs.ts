@@ -115,6 +115,7 @@ export type AllowedKeys =
   | 'nginx'
   | 'nodejs'
   | 'okta'
+  | 'openai'
   | 'oraclecloud'
   | 'ovh'
   | 'pagerduty'
