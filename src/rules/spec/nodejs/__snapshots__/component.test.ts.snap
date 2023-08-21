@@ -69,6 +69,7 @@ exports[`npm > should match everything 1`] = `
   "redis",
   "relativeci",
   "renovate",
+  "resend",
   "rollup",
   "scaleway",
   "sentry",

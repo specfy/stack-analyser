@@ -32,9 +32,10 @@ npm install -ED @specfy/stack-analyser
 ```
 
 ```ts
-import { analyser, FSProvider, flatten, loadAllRules } from "@specfy/stack-analyser"
+import { analyser, FSProvider, flatten, rules } from "@specfy/stack-analyser"
 
-loadAllRules();
+rules.loadAll();
+
 const result = await analyser({
   provider: new FSProvider({
     path: '/my/repository/path/',

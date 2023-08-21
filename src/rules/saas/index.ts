@@ -8,6 +8,7 @@ import './newrelic.js';
 import './okta.js';
 import './pagerduty.js';
 import './prismacloud.js';
+import './resend.js';
 import './sentry.js';
 import './slack.js';
 import './snyk.js';

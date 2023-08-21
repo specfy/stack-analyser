@@ -136,6 +136,7 @@ export type AllowedKeys =
   | 'relativeci'
   | 'render'
   | 'renovate'
+  | 'resend'
   | 'rollup'
   | 'ruby'
   | 'rust'

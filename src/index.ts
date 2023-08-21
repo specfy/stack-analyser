@@ -60,7 +60,7 @@ export {
 export const rules = {
   register,
   list: registeredRules,
-  loadAllRules,
+  loadAll: loadAllRules,
   loadOne,
 };
 export const dependencies = {
