@@ -5,6 +5,7 @@ Set {
   "zookeeper",
   "aws",
   "aws.dynamodb",
+  "aws.rds",
   "cassandra",
   "couchbase",
   "elasticsearch",
@@ -73,6 +74,11 @@ exports[`rust (component) > should match everything 2`] = `
   [
     "rust",
     "aws-sdk-elasticsearch",
+    "1.0.0",
+  ],
+  [
+    "rust",
+    "aws-sdk-rds",
     "1.0.0",
   ],
   [

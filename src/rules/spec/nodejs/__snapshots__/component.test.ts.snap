@@ -8,6 +8,7 @@ exports[`npm > should match everything 1`] = `
   "aws",
   "aws.dynamodb",
   "aws.ec2",
+  "aws.rds",
   "aws.s3",
   "bootstrap",
   "browserstack",

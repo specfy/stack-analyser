@@ -12,6 +12,7 @@ Set {
   "zookeeper",
   "aws",
   "aws.dynamodb",
+  "aws.rds",
   "couchbase",
   "elasticsearch",
   "gcp.bigquery",
@@ -96,6 +97,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "aws-sdk-elasticsearchservice",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "aws-sdk-rds",
     "1.0.0",
   ],
   [
