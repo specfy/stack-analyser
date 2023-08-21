@@ -11,5 +11,6 @@ register({
       name: 'google_datastore_index',
     },
     { type: 'ruby', name: 'google-cloud-datastore' },
+    { type: 'golang', name: 'cloud.google.com/go/datastore' },
   ],
 });

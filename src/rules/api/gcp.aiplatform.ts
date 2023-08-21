@@ -12,5 +12,6 @@ register({
       name: /^google-cloud-ai_platform/,
       example: 'google-cloud-ai_platform-v1',
     },
+    { type: 'golang', name: 'cloud.google.com/go/aiplatform' },
   ],
 });

@@ -14,5 +14,11 @@ register({
     { type: 'rust', name: 'aws-sdk-lambda' },
     { type: 'rust', name: 'lambda_runtime' },
     { type: 'ruby', name: 'aws-sdk-lambda' },
+    { type: 'golang', name: 'github.com/aws/aws-sdk-go-v2/service/lambda' },
+    {
+      type: 'terraform.resource',
+      name: /^aws_lambda/,
+      example: 'aws_lambda_alias',
+    },
   ],
 });

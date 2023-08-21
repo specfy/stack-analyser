@@ -15,5 +15,6 @@ register({
       name: /^google-cloud-secret_manager/,
       example: 'google-cloud-secret_manager-v1',
     },
+    { type: 'golang', name: 'cloud.google.com/go/secretmanager' },
   ],
 });

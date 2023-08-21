@@ -12,5 +12,6 @@ register({
       name: /^google-cloud-build/,
       example: 'google-cloud-build-v1',
     },
+    { type: 'golang', name: 'cloud.google.com/go/cloudbuild' },
   ],
 });

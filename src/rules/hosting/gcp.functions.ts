@@ -16,5 +16,6 @@ register({
       example: 'google-cloud-functions-v1',
     },
     { type: 'ruby', name: 'functions_framework ' },
+    { type: 'golang', name: 'cloud.google.com/go/functions' },
   ],
 });

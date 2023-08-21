@@ -9,24 +9,23 @@ import '../../../autoload.js';
 
 describe('golang (lockfile)', () => {
   it('should match everything', async () => {
-    const lockfile: string[] = [
-      `
-module github.com/specfy/specfy
-
-go 1.19
-require (
-`,
-    ];
-
+    const deps = [];
     for (const item of rawList) {
       if (item.type !== 'dependency' || item.ref.type !== 'golang') {
         continue;
       }
 
       const example = 'example' in item.ref ? item.ref.example : item.ref.name;
-      lockfile.push(`	${example} v1.0.0\n`);
+      deps.push(`	${example} v1.0.0`);
     }
-    lockfile.push(')');
+    const lockfile: string[] = [
+      `module github.com/specfy/specfy
+
+go 1.19
+require (
+${deps.join('\n')}
+)`,
+    ];
 
     const res = await analyser({
       provider: new FakeProvider({

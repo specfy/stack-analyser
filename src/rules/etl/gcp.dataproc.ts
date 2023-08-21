@@ -16,5 +16,6 @@ register({
       name: /^google-cloud-dataproc/,
       example: 'google-cloud-dataproc-v1',
     },
+    { type: 'golang', name: 'cloud.google.com/go/dataproc' },
   ],
 });

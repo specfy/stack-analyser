@@ -12,5 +12,6 @@ register({
       name: /^google-cloud-translate/,
       example: 'google-cloud-translate-v1',
     },
+    { type: 'golang', name: 'cloud.google.com/go/translate' },
   ],
 });

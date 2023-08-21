@@ -9,5 +9,11 @@ register({
     { type: 'docker', name: 'adobe/s3mock' },
     { type: 'rust', name: 'aws-sdk-s3' },
     { type: 'ruby', name: 'aws-sdk-s3' },
+    { type: 'golang', name: 'github.com/aws/aws-sdk-go-v2/service/s3' },
+    {
+      type: 'terraform.resource',
+      name: /^aws_s3/,
+      example: 'aws_s3_bucket',
+    },
   ],
 });

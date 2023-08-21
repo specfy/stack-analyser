@@ -6,7 +6,7 @@ import type { Dependency } from '../../../types/index.js';
 import type { ComponentMatcher } from '../../../types/rule.js';
 
 const LOCKFILE = 'go.mod';
-const lineReg = /[\t](.+)\sv(.+)/g;
+const lineReg = /[\t](.+)\sv(.+)/;
 
 export const detectGolangLockfile: ComponentMatcher = async (
   files,

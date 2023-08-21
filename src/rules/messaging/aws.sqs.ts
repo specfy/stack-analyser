@@ -8,5 +8,11 @@ register({
     { type: 'npm', name: '@aws-sdk/client-sqs' },
     { type: 'rust', name: 'aws-sdk-sqs' },
     { type: 'ruby', name: 'aws-sdk-sqs' },
+    { type: 'golang', name: 'github.com/aws/aws-sdk-go-v2/service/sqs' },
+    {
+      type: 'terraform.resource',
+      name: /^aws_sqs/,
+      example: 'aws_sqs_queue',
+    },
   ],
 });

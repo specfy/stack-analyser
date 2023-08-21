@@ -16,5 +16,6 @@ register({
     },
     { type: 'rust', name: 'gcp-bigquery-client' },
     { type: 'ruby', name: 'google-cloud-bigquery' },
+    { type: 'golang', name: 'cloud.google.com/go/bigquery' },
   ],
 });

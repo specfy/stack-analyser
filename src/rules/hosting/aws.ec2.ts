@@ -8,5 +8,11 @@ register({
     { type: 'npm', name: '@aws-sdk/client-ec2' },
     { type: 'rust', name: 'aws-sdk-ec2' },
     { type: 'ruby', name: 'aws-sdk-ec2' },
+    { type: 'golang', name: 'github.com/aws/aws-sdk-go-v2/service/ec2' },
+    {
+      type: 'terraform.resource',
+      name: /^aws_ec2/,
+      example: 'aws_ec2_instance_type',
+    },
   ],
 });

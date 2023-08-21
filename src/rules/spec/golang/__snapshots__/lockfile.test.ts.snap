@@ -3,6 +3,33 @@
 exports[`golang (lockfile) > should match everything 1`] = `
 [
   "aws",
+  "aws.dynamodb",
+  "aws.ec2",
+  "aws.elasticache",
+  "aws.glacier",
+  "aws.lambda",
+  "aws.rds",
+  "aws.s3",
+  "aws.sns",
+  "aws.sqs",
+  "azure",
+  "gcp",
+  "gcp.aiplatform",
+  "gcp.bigquery",
+  "gcp.bigtable",
+  "gcp.cloudrun",
+  "gcp.dataproc",
+  "gcp.datastore",
+  "gcp.functions",
+  "gcp.gce",
+  "gcp.gcs",
+  "gcp.language",
+  "gcp.maps",
+  "gcp.pubsub",
+  "gcp.secretmanager",
+  "gcp.speech",
+  "gcp.translate",
+  "gcp.vision",
   "golang",
 ]
 `;
@@ -11,12 +38,147 @@ exports[`golang (lockfile) > should match everything 2`] = `
 [
   [
     "golang",
+    "cloud.google.com/go/aiplatform",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "cloud.google.com/go/bigquery",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "cloud.google.com/go/bigtable",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "cloud.google.com/go/cloudbuild",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "cloud.google.com/go/compute",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "cloud.google.com/go/dataproc",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "cloud.google.com/go/datastore",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "cloud.google.com/go/functions",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "cloud.google.com/go/language",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "cloud.google.com/go/maps",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "cloud.google.com/go/pubsub",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "cloud.google.com/go/run",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "cloud.google.com/go/secretmanager",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "cloud.google.com/go/speech",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "cloud.google.com/go/storage",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "cloud.google.com/go/translate",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "cloud.google.com/go/vision",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/Azure/azure-sdk-for-go",
+    "v1.0.0",
+  ],
+  [
+    "golang",
     "github.com/aws/aws-sdk-go",
     "v1.0.0",
   ],
   [
     "golang",
     "github.com/aws/aws-sdk-go-v2",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/aws/aws-sdk-go-v2/service/dynamodb",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/aws/aws-sdk-go-v2/service/ec2",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/aws/aws-sdk-go-v2/service/elasticache",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/aws/aws-sdk-go-v2/service/glacier",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/aws/aws-sdk-go-v2/service/lambda",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/aws/aws-sdk-go-v2/service/rds",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/aws/aws-sdk-go-v2/service/s3",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/aws/aws-sdk-go-v2/service/sns",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/aws/aws-sdk-go-v2/service/sqs",
     "v1.0.0",
   ],
 ]

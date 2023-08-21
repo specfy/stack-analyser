@@ -8,5 +8,14 @@ register({
     { type: 'npm', name: '@aws-sdk/client-elasticache' },
     { type: 'rust', name: 'aws-sdk-elasticache' },
     { type: 'ruby', name: 'aws-sdk-elasticache' },
+    {
+      type: 'golang',
+      name: 'github.com/aws/aws-sdk-go-v2/service/elasticache',
+    },
+    {
+      type: 'terraform.resource',
+      name: /^aws_elasticache/,
+      example: 'aws_elasticache_cluster',
+    },
   ],
 });

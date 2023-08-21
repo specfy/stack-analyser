@@ -24,5 +24,6 @@ register({
       name: /^google-cloud-run_v/,
       example: 'google-cloud-run_v2',
     },
+    { type: 'golang', name: 'cloud.google.com/go/run' },
   ],
 });

@@ -11,5 +11,6 @@ register({
       name: /^google-cloud-vision/,
       example: 'google-cloud-vision-v1',
     },
+    { type: 'golang', name: 'cloud.google.com/go/vision' },
   ],
 });

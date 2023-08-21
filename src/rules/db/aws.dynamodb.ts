@@ -21,5 +21,14 @@ register({
       name: /^aws-sdk-dynamodb/,
       example: 'aws-sdk-dynamodbstreams',
     },
+    {
+      type: 'golang',
+      name: 'github.com/aws/aws-sdk-go-v2/service/dynamodb',
+    },
+    {
+      type: 'terraform.resource',
+      name: /^aws_dynamodb/,
+      example: 'aws_dynamodb_table',
+    },
   ],
 });

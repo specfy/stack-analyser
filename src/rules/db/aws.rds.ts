@@ -9,5 +9,11 @@ register({
     { type: 'npm', name: '@aws-sdk/middleware-sdk-rds' },
     { type: 'rust', name: 'aws-sdk-rds' },
     { type: 'ruby', name: 'aws-sdk-rds' },
+    { type: 'golang', name: 'github.com/aws/aws-sdk-go-v2/service/rds' },
+    {
+      type: 'terraform.resource',
+      name: /^aws_rds/,
+      example: 'aws_rds_cluster',
+    },
   ],
 });

@@ -8,5 +8,11 @@ register({
     { type: 'npm', name: '@aws-sdk/client-sns' },
     { type: 'rust', name: 'aws-sdk-sns' },
     { type: 'ruby', name: 'aws-sdk-sns' },
+    { type: 'golang', name: 'github.com/aws/aws-sdk-go-v2/service/sns' },
+    {
+      type: 'terraform.resource',
+      name: /^aws_sns/,
+      example: 'aws_sns_topic',
+    },
   ],
 });

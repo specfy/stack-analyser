@@ -2,6 +2,16 @@
 
 exports[`terraform (resource) > should match everything 1`] = `
 [
+  "aws",
+  "aws.dynamodb",
+  "aws.ec2",
+  "aws.elasticache",
+  "aws.glacier",
+  "aws.lambda",
+  "aws.rds",
+  "aws.s3",
+  "aws.sns",
+  "aws.sqs",
   "datadog",
   "gcp",
   "gcp.aiplatform",
