@@ -1,6 +1,5 @@
 *.test.js
 *.test.d.ts
-*.test.d.ts.map
 src/
 tests/
 *.tgz
@@ -10,3 +9,6 @@ TODO.todo
 .env
 coverage/
 action/
+__snapshots__/
+__fixtures__/
+*.ts.map

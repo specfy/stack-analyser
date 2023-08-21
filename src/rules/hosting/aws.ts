@@ -13,5 +13,6 @@ register({
     { type: 'golang', name: 'github.com/aws/aws-sdk-go-v2' },
     { type: 'rust', name: /^aws-sdk/, example: 'aws-sdk-e2' },
     { type: 'ruby', name: /^aws-sdk/, example: 'aws-sdk-e2' },
+    { type: 'docker', name: 'amazon/aws-cli' },
   ],
 });

@@ -40,7 +40,7 @@ require (
     });
 
     const merged = flatten(res, { merge: true });
-    expect(merged.techs).toMatchSnapshot();
+    expect(Array.from(merged.techs).sort()).toMatchSnapshot();
     expect(Array.from(merged.dependencies).sort()).toMatchSnapshot();
   });
 });

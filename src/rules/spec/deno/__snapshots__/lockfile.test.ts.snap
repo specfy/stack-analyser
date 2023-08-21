@@ -7,3 +7,18 @@ exports[`deno > should match everything 1`] = `
   "sqlite",
 ]
 `;
+
+exports[`deno > should match everything 2`] = `
+[
+  [
+    "deno",
+    "https://deno.land/x/postgres@v0.17.0/mod.ts",
+    "60cb4ec8bd335bf241ef785ccec51e809d576ff8e8d29da43d2273b69ce2a6ff",
+  ],
+  [
+    "deno",
+    "https://deno.land/x/sqlite3@1.3.5/lib/shim.ts",
+    "60cb4ec8bd335bf241ef785ccec51e809d576ff8e8d29da43d2273b69ce2a6ff",
+  ],
+]
+`;

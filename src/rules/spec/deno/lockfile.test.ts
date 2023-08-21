@@ -32,8 +32,9 @@ describe('deno', () => {
         },
       }),
     });
-    expect(
-      Array.from(flatten(res, { merge: true }).techs).sort()
-    ).toMatchSnapshot();
+
+    const merged = flatten(res, { merge: true });
+    expect(Array.from(merged.techs).sort()).toMatchSnapshot();
+    expect(Array.from(merged.dependencies).sort()).toMatchSnapshot();
   });
 });
