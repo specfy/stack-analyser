@@ -8,6 +8,7 @@ exports[`npm > should match everything 1`] = `
   "aws",
   "aws.dynamodb",
   "aws.ec2",
+  "aws.lambda",
   "aws.rds",
   "aws.s3",
   "bootstrap",
@@ -120,6 +121,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@aws-sdk/client-ec2",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@aws-sdk/client-lambda",
     "0.0.0",
   ],
   [

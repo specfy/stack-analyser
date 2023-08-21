@@ -1,6 +1,7 @@
 import './alibabacloud.js';
-import './aws.js';
 import './aws.ec2.js';
+import './aws.js';
+import './aws.lambda.js';
 import './aws.s3.js';
 import './azure.js';
 import './elasticstack.js';

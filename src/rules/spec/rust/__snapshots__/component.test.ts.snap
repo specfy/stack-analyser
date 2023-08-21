@@ -7,6 +7,7 @@ exports[`rust (component) > should match everything 1`] = `
   "aws",
   "aws.dynamodb",
   "aws.ec2",
+  "aws.lambda",
   "aws.rds",
   "aws.s3",
   "azure",
@@ -74,6 +75,11 @@ exports[`rust (component) > should match everything 2`] = `
   [
     "rust",
     "aws-sdk-elasticsearch",
+    "1.0.0",
+  ],
+  [
+    "rust",
+    "aws-sdk-lambda",
     "1.0.0",
   ],
   [
@@ -174,6 +180,11 @@ exports[`rust (component) > should match everything 2`] = `
   [
     "rust",
     "k8s-openapi",
+    "1.0.0",
+  ],
+  [
+    "rust",
+    "lambda_runtime",
     "1.0.0",
   ],
   [

@@ -4,6 +4,7 @@ exports[`docker > should match everything 1`] = `
 [
   "aws",
   "aws.dynamodb",
+  "aws.lambda",
   "caddy",
   "cassandra",
   "couchbase",
@@ -44,6 +45,11 @@ exports[`docker > should match everything 2`] = `
     "docker",
     "amazon/aws-cli",
     "0.0.0",
+  ],
+  [
+    "docker",
+    "amazon/aws-lambda-python",
+    "latest",
   ],
   [
     "docker",
