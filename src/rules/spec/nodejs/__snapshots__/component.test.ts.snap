@@ -13,6 +13,7 @@ exports[`npm > should match everything 1`] = `
   "couchbase",
   "cypressci",
   "datadog",
+  "deferrun",
   "elasticsearch",
   "esbuild",
   "eslint",

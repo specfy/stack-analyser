@@ -1,6 +1,7 @@
 import './algolia.js';
 import './auth0.js';
 import './datadog.js';
+import './deferrun.js';
 import './github.js';
 import './logrocket.js';
 import './mailjet.js';
