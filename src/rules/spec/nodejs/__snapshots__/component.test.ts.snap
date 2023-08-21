@@ -13,6 +13,7 @@ exports[`npm > should match everything 1`] = `
   "aws.rds",
   "aws.s3",
   "aws.sns",
+  "aws.sqs",
   "bootstrap",
   "browserstack",
   "couchbase",
@@ -148,6 +149,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@aws-sdk/client-sns",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@aws-sdk/client-sqs",
     "0.0.0",
   ],
   [

@@ -25,6 +25,7 @@ export type AllowedKeys =
   | 'aws.rds'
   | 'aws.s3'
   | 'aws.sns'
+  | 'aws.sqs'
   | 'aws'
   | 'azure.ci'
   | 'azure'
