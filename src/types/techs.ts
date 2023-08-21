@@ -19,6 +19,7 @@ export type AllowedKeys =
   | 'appveyor'
   | 'auth0'
   | 'aws.dynamodb'
+  | 'aws.ec2'
   | 'aws.s3'
   | 'aws'
   | 'azure.ci'
