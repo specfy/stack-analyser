@@ -1,5 +1,6 @@
 import './alibabacloud.js';
 import './aws.ec2.js';
+import './aws.glacier.js';
 import './aws.js';
 import './aws.lambda.js';
 import './aws.s3.js';
