@@ -20,6 +20,7 @@ export type AllowedKeys =
   | 'auth0'
   | 'aws.dynamodb'
   | 'aws.ec2'
+  | 'aws.elasticache'
   | 'aws.glacier'
   | 'aws.lambda'
   | 'aws.rds'

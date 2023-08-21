@@ -1,4 +1,5 @@
 import './aws.dynamodb.js';
+import './aws.elasticache.js';
 import './aws.rds.js';
 import './cassandra.js';
 import './cockroachdb.js';
