@@ -43,6 +43,7 @@ exports[`npm > should match everything 1`] = `
   "gcp.vision",
   "github",
   "hotjar",
+  "huggingface",
   "influxdb",
   "javascript",
   "koa",

@@ -3,6 +3,7 @@ import './auth0.js';
 import './datadog.js';
 import './deferrun.js';
 import './github.js';
+import './huggingface.js';
 import './logrocket.js';
 import './mailjet.js';
 import './newrelic.js';
