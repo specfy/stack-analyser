@@ -11,6 +11,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "aws.lambda",
   "aws.rds",
   "aws.s3",
+  "aws.sns",
   "azure",
   "couchbase",
   "datadog",
@@ -119,6 +120,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "aws-sdk-s3",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "aws-sdk-sns",
     "1.0.0",
   ],
   [

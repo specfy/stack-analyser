@@ -24,6 +24,7 @@ export type AllowedKeys =
   | 'aws.lambda'
   | 'aws.rds'
   | 'aws.s3'
+  | 'aws.sns'
   | 'aws'
   | 'azure.ci'
   | 'azure'
