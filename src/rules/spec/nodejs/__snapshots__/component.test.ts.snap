@@ -83,6 +83,7 @@ exports[`npm > should match everything 1`] = `
   "renovate",
   "resend",
   "rollup",
+  "salesforce",
   "scaleway",
   "sentry",
   "sequelize",
@@ -372,6 +373,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@salesforce/kit",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@scaleway/sdk",
     "0.0.0",
   ],
@@ -513,6 +519,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "ioredis",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "jsforce",
     "0.0.0",
   ],
   [

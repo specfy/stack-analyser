@@ -154,6 +154,7 @@ export type AllowedKeys =
   | 'rollup'
   | 'ruby'
   | 'rust'
+  | 'salesforce'
   | 'scaleway'
   | 'scss'
   | 'sentry'

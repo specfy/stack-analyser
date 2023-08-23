@@ -16,6 +16,7 @@ import './pagerduty.js';
 import './placekit.js';
 import './prismacloud.js';
 import './resend.js';
+import './salesforce.js';
 import './sentry.js';
 import './shopify.js';
 import './slack.js';
