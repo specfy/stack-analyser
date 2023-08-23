@@ -95,6 +95,7 @@ exports[`npm > should match everything 1`] = `
   "sqreen",
   "storybook",
   "strapi",
+  "supabase",
   "tailwind",
   "typescript",
   "vercel",
@@ -399,6 +400,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@strapi/strapi",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@supabase/supabase.js",
     "0.0.0",
   ],
   [
