@@ -2,7 +2,7 @@ import { register } from '../../register.js';
 
 register({
   tech: 'aws.dynamodb',
-  name: 'DynamoDB',
+  name: 'AWS DynamoDB',
   type: 'db',
   dependencies: [
     {

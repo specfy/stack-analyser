@@ -2,7 +2,7 @@ import { register } from '../../register.js';
 
 register({
   tech: 'gcp.translate',
-  name: 'Translate',
+  name: 'Google Translate',
   type: 'api',
   dependencies: [
     { type: 'npm', name: '@google-cloud/translate' },

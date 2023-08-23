@@ -2,7 +2,7 @@ import { register } from '../../register.js';
 
 register({
   tech: 'gcp.speech',
-  name: 'Speech',
+  name: 'Google Speech',
   type: 'api',
   dependencies: [
     { type: 'npm', name: '@google-cloud/speech' },

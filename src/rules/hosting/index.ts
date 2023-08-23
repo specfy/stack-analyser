@@ -24,5 +24,6 @@ import './ovh.js';
 import './platformsh.js';
 import './render.js';
 import './scaleway.js';
+import './supabase.functions.js';
 import './supabase.js';
 import './vercel.js';

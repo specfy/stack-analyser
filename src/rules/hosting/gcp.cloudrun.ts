@@ -2,7 +2,7 @@ import { register } from '../../register.js';
 
 register({
   tech: 'gcp.cloudrun',
-  name: 'Cloud Run',
+  name: 'Google Cloud Run',
   type: 'hosting',
   dependencies: [
     { type: 'npm', name: '@google-cloud/run' },

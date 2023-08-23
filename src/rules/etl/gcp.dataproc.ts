@@ -2,7 +2,7 @@ import { register } from '../../register.js';
 
 register({
   tech: 'gcp.dataproc',
-  name: 'Dataproc',
+  name: 'Google Dataproc',
   type: 'etl',
   dependencies: [
     { type: 'npm', name: '@google-cloud/dataproc' },

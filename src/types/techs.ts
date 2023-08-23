@@ -171,6 +171,7 @@ export type AllowedKeys =
   | 'strapi'
   | 'styleci'
   | 'stylelint'
+  | 'supabase.functions'
   | 'supabase.postgres'
   | 'supabase.storage'
   | 'supabase'

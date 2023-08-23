@@ -2,7 +2,7 @@ import { register } from '../../register.js';
 
 register({
   tech: 'aws.lambda',
-  name: 'Lambda',
+  name: 'AWS Lambda',
   type: 'hosting',
   dependencies: [
     { type: 'npm', name: '@aws-sdk/client-lambda' },

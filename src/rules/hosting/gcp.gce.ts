@@ -2,7 +2,7 @@ import { register } from '../../register.js';
 
 register({
   tech: 'gcp.gce',
-  name: 'Compute',
+  name: 'Google Compute',
   type: 'hosting',
   dependencies: [
     { type: 'npm', name: '@google-cloud/compute' },

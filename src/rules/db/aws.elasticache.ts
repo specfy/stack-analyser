@@ -2,7 +2,7 @@ import { register } from '../../register.js';
 
 register({
   tech: 'aws.elasticache',
-  name: 'ElastiCache',
+  name: 'AWS ElastiCache',
   type: 'db',
   dependencies: [
     { type: 'npm', name: '@aws-sdk/client-elasticache' },

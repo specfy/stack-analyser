@@ -2,7 +2,7 @@ import { register } from '../../register.js';
 
 register({
   tech: 'gcp.functions',
-  name: 'Functions',
+  name: 'Google Functions',
   type: 'hosting',
   dependencies: [
     { type: 'npm', name: '@google-cloud/functions-framework' },

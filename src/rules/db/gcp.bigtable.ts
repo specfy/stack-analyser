@@ -2,7 +2,7 @@ import { register } from '../../register.js';
 
 register({
   tech: 'gcp.bigtable',
-  name: 'BigTable',
+  name: 'Google BigTable',
   type: 'db',
   dependencies: [
     { type: 'npm', name: '@google-cloud/bigtable' },

@@ -2,7 +2,7 @@ import { register } from '../../register.js';
 
 register({
   tech: 'cassandra',
-  name: 'Cassandra',
+  name: 'AWS Cassandra',
   type: 'db',
   dependencies: [
     { type: 'docker', name: /cassandra/, example: 'cassandra:0.0.0' },

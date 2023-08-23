@@ -2,7 +2,7 @@ import { register } from '../../register.js';
 
 register({
   tech: 'aws.rds',
-  name: 'RDS',
+  name: 'AWS RDS',
   type: 'db',
   dependencies: [
     { type: 'npm', name: '@aws-sdk/client-rds' },
