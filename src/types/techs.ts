@@ -183,6 +183,7 @@ export type AllowedKeys =
   | 'vue'
   | 'webpack'
   | 'zapier'
+  | 'zendesk'
   | 'zookeeper'
   | 'zoom';
 

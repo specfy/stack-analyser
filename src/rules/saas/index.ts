@@ -21,3 +21,4 @@ import './shopify.js';
 import './slack.js';
 import './snyk.js';
 import './sqreen.js';
+import './zendesk.js';
