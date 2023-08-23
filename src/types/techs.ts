@@ -158,6 +158,7 @@ export type AllowedKeys =
   | 'sentry'
   | 'sequelize'
   | 'shell'
+  | 'shopify'
   | 'slack'
   | 'snowflake'
   | 'snyk'

@@ -86,6 +86,7 @@ exports[`npm > should match everything 1`] = `
   "scaleway",
   "sentry",
   "sequelize",
+  "shopify",
   "slack",
   "snyk",
   "socketio",
@@ -377,6 +378,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@sentry/browser",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@shopify/shopify-api",
     "0.0.0",
   ],
   [
