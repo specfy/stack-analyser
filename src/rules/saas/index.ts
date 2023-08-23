@@ -4,6 +4,7 @@ import './datadog.js';
 import './deferrun.js';
 import './discord.js';
 import './github.js';
+import './hubspot.js';
 import './huggingface.js';
 import './logrocket.js';
 import './mailjet.js';

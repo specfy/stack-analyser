@@ -100,6 +100,7 @@ export type AllowedKeys =
   | 'hotjar'
   | 'html'
   | 'httpd'
+  | 'hubspot'
   | 'huggingface'
   | 'influxdb'
   | 'java'

@@ -301,6 +301,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@hubspot/api-client",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@huggingface/inference",
     "0.0.0",
   ],
