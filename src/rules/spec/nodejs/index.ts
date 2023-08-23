@@ -3,7 +3,7 @@ import { register } from '../../../register.js';
 import { detectNodeComponent } from './component.js';
 
 register({
-  tech: 'javascript',
+  tech: 'nodejs',
   name: 'NodeJS',
   type: 'language',
   files: ['package.json', '.nvmrc'],

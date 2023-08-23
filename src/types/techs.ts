@@ -52,6 +52,7 @@ export type AllowedKeys =
   | 'deno'
   | 'dependabot'
   | 'digitalocean'
+  | 'discord'
   | 'docker'
   | 'elasticloud'
   | 'elasticsearch'

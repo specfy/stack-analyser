@@ -50,7 +50,7 @@ describe('npm', () => {
         },
       }),
     });
-    const match: AllowedKeys[] = ['javascript'];
+    const match: AllowedKeys[] = ['nodejs'];
     expect(
       Array.from(flatten(res, { merge: true }).techs).sort()
     ).toStrictEqual(match);

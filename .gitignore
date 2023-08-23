@@ -120,3 +120,4 @@ build/
 output.json
 dontcommit.*
 action/
+*.generated.ts

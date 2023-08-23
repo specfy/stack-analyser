@@ -21,6 +21,7 @@ exports[`npm > should match everything 1`] = `
   "cypressci",
   "datadog",
   "deferrun",
+  "discord",
   "elasticsearch",
   "esbuild",
   "eslint",
@@ -52,7 +53,6 @@ exports[`npm > should match everything 1`] = `
   "hotjar",
   "huggingface",
   "influxdb",
-  "javascript",
   "koa",
   "kubernetes",
   "logrocket",
@@ -64,6 +64,7 @@ exports[`npm > should match everything 1`] = `
   "neo4j",
   "netlify",
   "newrelic",
+  "nodejs",
   "okta",
   "openai",
   "oraclecloud",
@@ -430,6 +431,16 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "dd-trace",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "discord-interactions",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "discord.js",
     "0.0.0",
   ],
   [

@@ -55,7 +55,7 @@ exports[`analyser > should register only component of the same tech 1`] = `
       "tech": null,
       "techs": [
         "docker",
-        "javascript",
+        "nodejs",
         "postgresql",
       ],
     },
@@ -88,7 +88,7 @@ exports[`analyser > should register only component of the same tech 1`] = `
   "tech": null,
   "techs": [
     "docker",
-    "javascript",
+    "nodejs",
     "postgresql",
   ],
 }
@@ -178,7 +178,7 @@ exports[`analyser > should run correctly 1`] = `
           "techs": [
             "datadog",
             "fastify",
-            "javascript",
+            "nodejs",
             "prisma",
             "typescript",
           ],
@@ -236,7 +236,7 @@ exports[`analyser > should run correctly 1`] = `
           ],
           "tech": null,
           "techs": [
-            "javascript",
+            "nodejs",
             "react",
             "typescript",
             "vercel",
@@ -417,7 +417,7 @@ exports[`analyser > should run correctly 1`] = `
         "docker",
         "eslint",
         "golang",
-        "javascript",
+        "nodejs",
         "prettier",
         "ruby",
         "terraform",
@@ -526,7 +526,7 @@ exports[`analyser > should run correctly 2`] = `
       "techs": [
         "datadog",
         "fastify",
-        "javascript",
+        "nodejs",
         "prisma",
         "typescript",
       ],
@@ -575,7 +575,7 @@ exports[`analyser > should run correctly 2`] = `
       ],
       "tech": null,
       "techs": [
-        "javascript",
+        "nodejs",
         "react",
         "typescript",
         "vercel",
@@ -721,7 +721,7 @@ exports[`analyser > should run correctly 2`] = `
         "docker",
         "eslint",
         "golang",
-        "javascript",
+        "nodejs",
         "prettier",
         "ruby",
         "terraform",
@@ -981,7 +981,7 @@ exports[`analyser > should run correctly 2`] = `
     "fastify",
     "gcp",
     "golang",
-    "javascript",
+    "nodejs",
     "postgresql",
     "prettier",
     "prisma",
