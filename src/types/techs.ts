@@ -17,6 +17,7 @@ export type AllowedKeys =
   | 'alibabacloud'
   | 'angular'
   | 'appveyor'
+  | 'atlassian'
   | 'auth0'
   | 'aws.dynamodb'
   | 'aws.ec2'

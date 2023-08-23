@@ -1,4 +1,5 @@
 import './algolia.js';
+import './atlassian.js';
 import './auth0.js';
 import './datadog.js';
 import './deferrun.js';
