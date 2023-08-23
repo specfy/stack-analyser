@@ -11,6 +11,7 @@ import './newrelic.js';
 import './okta.js';
 import './openai.js';
 import './pagerduty.js';
+import './placekit.js';
 import './prismacloud.js';
 import './resend.js';
 import './sentry.js';

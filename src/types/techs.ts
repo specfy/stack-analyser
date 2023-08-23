@@ -132,6 +132,7 @@ export type AllowedKeys =
   | 'percona'
   | 'php'
   | 'pingdom'
+  | 'placekit'
   | 'platformsh'
   | 'postgresql'
   | 'powershell'
