@@ -96,6 +96,7 @@ exports[`npm > should match everything 1`] = `
   "storybook",
   "strapi",
   "supabase",
+  "supabase.postgres",
   "supabase.storage",
   "tailwind",
   "typescript",
@@ -401,6 +402,26 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@strapi/strapi",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@supabase/pg-admin-js",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@supabase/postgres-meta",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@supabase/postgrest-js",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@supabase/realtime-js",
     "0.0.0",
   ],
   [
