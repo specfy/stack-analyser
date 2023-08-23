@@ -1,3 +1,33 @@
+## [1.4.2](https://github.com/specfy/stack-analyser/compare/v1.4.1...v1.4.2) (2023-08-23)
+
+
+### Bug Fixes
+
+* missing golang and terraform definition for aws/gcp ([87a5764](https://github.com/specfy/stack-analyser/commit/87a57647cf753f8845115f62efc7f3376e36b221))
+* **rules:** add Atlassian ([dac8e1d](https://github.com/specfy/stack-analyser/commit/dac8e1da55d18fa351252624a79c65402070165a))
+* **rules:** add AWS EC2 ([bd878dc](https://github.com/specfy/stack-analyser/commit/bd878dc379f24fce74a62ecfc1bfc046d67f3b3d))
+* **rules:** add Aws.ElastiCache ([4f1ab2f](https://github.com/specfy/stack-analyser/commit/4f1ab2f418b3de89e27e6fef851085663d3d8dd3))
+* **rules:** add Aws.Glacier ([8769633](https://github.com/specfy/stack-analyser/commit/876963302790ee0f8c6db6c1b206a33bb974df1d))
+* **rules:** add Aws.lambda ([ad09ac5](https://github.com/specfy/stack-analyser/commit/ad09ac56e2b6dcf682a7c4534b7ff2147d658695))
+* **rules:** add AWS.RDS ([53a4158](https://github.com/specfy/stack-analyser/commit/53a4158af1495c098d1af0fd5d097d01604c67fb))
+* **rules:** add Aws.SNS ([8cd3929](https://github.com/specfy/stack-analyser/commit/8cd3929d0b3469a847fb6441a8746b92f916eb38))
+* **rules:** add Aws.SQS ([5f1d9dc](https://github.com/specfy/stack-analyser/commit/5f1d9dc129d593fb0cbe999a7ec4bf6accf14021))
+* **rules:** add Defer.run ([7344c2c](https://github.com/specfy/stack-analyser/commit/7344c2c6e5b1c6c6a2b96de932eb28378d191df4))
+* **rules:** add Discord, nodejs now returns 'nodejs' stack not javascript ([74956aa](https://github.com/specfy/stack-analyser/commit/74956aa85214b31b83ba64fbc28d3bd88bdb1e39))
+* **rules:** add Hubspot ([ae48c62](https://github.com/specfy/stack-analyser/commit/ae48c6299cbd0856e2f5a9390a89f8d9e9b1fc1c))
+* **rules:** add HuggingFace ([e37651f](https://github.com/specfy/stack-analyser/commit/e37651fe86b0dce897f751cff0cd81fa4dd06373))
+* **rules:** add OpenAI ([f487888](https://github.com/specfy/stack-analyser/commit/f48788856419e4fa83ab093c889a6f9af0237593))
+* **rules:** add Placekit ([22c4afc](https://github.com/specfy/stack-analyser/commit/22c4afc2b18ab2bd4e2b671044673aaeb1ca170f))
+* **rules:** add Resend ([8323512](https://github.com/specfy/stack-analyser/commit/8323512838db996af0566dbb81c46e47424b021c))
+* **rules:** add Salesforce ([e19c870](https://github.com/specfy/stack-analyser/commit/e19c8702388c727bc7a979851535c71b9775275c))
+* **rules:** add Shopify ([8aee041](https://github.com/specfy/stack-analyser/commit/8aee041bf96a3a4c1332321b1760a0d1ae7ac661))
+* **rules:** add Supabase ([d9e0225](https://github.com/specfy/stack-analyser/commit/d9e0225f7c1a5ee6b4780026bf45202688569398))
+* **rules:** add Supabase Functions ([9a6f7e0](https://github.com/specfy/stack-analyser/commit/9a6f7e04c7c12a262e47d3f9898de91dcab1665d))
+* **rules:** add Supabase Postgres ([9bd56ce](https://github.com/specfy/stack-analyser/commit/9bd56ceb1e5c7d26aeea2c5f75a88eb2b72969b5))
+* **rules:** add Supabase Storage, add new folder for storage category ([d4ea9a1](https://github.com/specfy/stack-analyser/commit/d4ea9a12702e12f49b243a8406590f48694edd36))
+* **rules:** add Zendesk ([6429c7b](https://github.com/specfy/stack-analyser/commit/6429c7b29fbafb5332d7f13453f4b55f8b9fcdc0))
+* **tests:** order snapshot ([8723b90](https://github.com/specfy/stack-analyser/commit/8723b90eb1cd03b84d6cde84f96abe6f55d40a1d))
+
 ## [1.4.1](https://github.com/specfy/stack-analyser/compare/v1.4.0...v1.4.1) (2023-08-15)
 
 
