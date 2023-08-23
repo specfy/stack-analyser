@@ -96,6 +96,7 @@ exports[`npm > should match everything 1`] = `
   "storybook",
   "strapi",
   "supabase",
+  "supabase.storage",
   "tailwind",
   "typescript",
   "vercel",
@@ -400,6 +401,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@strapi/strapi",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@supabase/storage-js",
     "0.0.0",
   ],
   [

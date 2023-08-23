@@ -9,4 +9,5 @@ import './messaging/index.js';
 import './network/index.js';
 import './saas/index.js';
 import './spec/index.js';
+import './storage/index.js';
 import './tool/index.js';

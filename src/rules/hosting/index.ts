@@ -1,9 +1,7 @@
 import './alibabacloud.js';
 import './aws.ec2.js';
-import './aws.glacier.js';
 import './aws.js';
 import './aws.lambda.js';
-import './aws.s3.js';
 import './azure.js';
 import './elasticstack.js';
 import './equinix.js';
@@ -14,7 +12,6 @@ import './flyio.js';
 import './gcp.cloudrun.js';
 import './gcp.functions.js';
 import './gcp.gce.js';
-import './gcp.gcs.js';
 import './gcp.gke.js';
 import './gcp.js';
 import './github.pages.js';

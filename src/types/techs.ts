@@ -171,6 +171,7 @@ export type AllowedKeys =
   | 'strapi'
   | 'styleci'
   | 'stylelint'
+  | 'supabase.storage'
   | 'supabase'
   | 'swift'
   | 'tailwind'
