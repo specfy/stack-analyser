@@ -15,7 +15,7 @@ import {
   findImplicitComponent,
 } from './payload/helpers.js';
 import { Payload } from './payload/index.js';
-import { BaseProvider } from './provider/base.js';
+import { BaseProvider, ProviderFile } from './provider/base.js';
 import { FakeProvider } from './provider/fake.js';
 import { FSProvider, FSProviderOptions } from './provider/fs.js';
 import { register, registeredRules, registeredTech } from './register.js';
@@ -40,6 +40,7 @@ export {
   FSProvider,
   FSProviderOptions,
   Payload,
+  ProviderFile,
   Rule,
   RuleDependency,
   RuleWithFile,
