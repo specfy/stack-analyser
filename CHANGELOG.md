@@ -1,3 +1,11 @@
+## [1.4.3](https://github.com/specfy/stack-analyser/compare/v1.4.2...v1.4.3) (2023-08-29)
+
+
+### Bug Fixes
+
+* missing type export ([abe4b4a](https://github.com/specfy/stack-analyser/commit/abe4b4a7d771995b3886c16a63af22a439f87917))
+* **output:** add a reason prop for each matched component for debugging ([9762b26](https://github.com/specfy/stack-analyser/commit/9762b268d2dca1a69da75fc813188bf1c2b0b3aa))
+
 ## [1.4.2](https://github.com/specfy/stack-analyser/compare/v1.4.1...v1.4.2) (2023-08-23)
 
 
