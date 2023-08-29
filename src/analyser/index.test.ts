@@ -73,7 +73,7 @@ describe('analyser', () => {
     const flat = flatten(res, { merge: true });
     const json: AnalyserJson = JSON.parse(JSON.stringify(flat.toJson('')));
     expect(json).toMatchSnapshot();
-    expect(flat.childs[0].id).toEqual(flat.childs[1].edges[0].target.id);
+    expect(flat.childs[0].id).toBe(flat.childs[1].edges[0].target.id);
   });
 
   it('should run correctly', async () => {

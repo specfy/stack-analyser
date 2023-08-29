@@ -28,10 +28,10 @@ describe('Payload', () => {
       new Payload({ name: 'PubSub', folderPath: '/', tech: 'gcp.pubsub' })
     );
 
-    expect(root.childs[0].name).toEqual('GCP manual');
-    expect(root.childs[0].id).toEqual('4');
-    expect(root.childs[1].name).toEqual('PubSub');
-    expect(root.childs[1].id).toEqual('5');
-    expect(root.childs[1].inComponent!.id).toEqual('4');
+    expect(root.childs[0].name).toBe('GCP manual');
+    expect(root.childs[0].id).toBe('4');
+    expect(root.childs[1].name).toBe('PubSub');
+    expect(root.childs[1].id).toBe('5');
+    expect(root.childs[1].inComponent!.id).toBe('4');
   });
 });

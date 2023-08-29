@@ -92,8 +92,8 @@ describe('flatten', () => {
     flat.id = 'new';
 
     expect(flat.toJson('')).toMatchSnapshot();
-    expect(flat.childs[1].inComponent!.id).toEqual('4');
-    expect(flat.childs[2].inComponent!.id).toEqual('4');
+    expect(flat.childs[1].inComponent!.id).toBe('4');
+    expect(flat.childs[2].inComponent!.id).toBe('4');
   });
 
   it('should flatten but not merge', () => {
@@ -136,7 +136,7 @@ describe('flatten', () => {
     flat.id = 'new';
 
     expect(flat.toJson('')).toMatchSnapshot();
-    expect(flat.childs[1].inComponent!.id).toEqual('4');
-    expect(flat.childs[2].inComponent!.id).toEqual('4');
+    expect(flat.childs[1].inComponent!.id).toBe('4');
+    expect(flat.childs[2].inComponent!.id).toBe('4');
   });
 });

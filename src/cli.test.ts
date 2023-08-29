@@ -20,7 +20,7 @@ describe(
       });
 
       // TODO: change consola formatter
-      expect(res.stdout).toEqual(`[log] ▶ Path ${root}
+      expect(res.stdout).toBe(`[log] ▶ Path ${root}
 [log]
 [log] Output ${root}output.json
 `);

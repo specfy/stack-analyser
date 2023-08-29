@@ -7,9 +7,10 @@ module.exports = {
     'plugin:import/errors',
     'plugin:import/warnings',
     'plugin:prettier/recommended',
+    "plugin:vitest/recommended"
   ],
   parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint', 'import'],
+  plugins: ['@typescript-eslint', 'import', 'vitest'],
   root: true,
   parserOptions: {
     ecmaVersion: 2018,
