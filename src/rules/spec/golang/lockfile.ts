@@ -41,12 +41,12 @@ export const detectGolangLockfile: ComponentMatcher = async (
       }
 
       dependencies.push(['golang', url, version]);
-      const matched = [...matchDependencies([url], 'golang')];
-      if (!matched.length) {
+      const matched = matchDependencies([url], 'golang');
+      if (matched.size <= 0) {
         continue;
       }
 
-      pl.addTech(matched[0]);
+      pl.addTechs(matched);
     }
 
     pl.dependencies = [...dependencies];

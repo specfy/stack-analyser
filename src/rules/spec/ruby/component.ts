@@ -43,7 +43,7 @@ export const detectRubyComponent: ComponentMatcher = async (
       }
     );
 
-    pl.addTechs([...techs]);
+    pl.addTechs(techs);
     pl.dependencies = depsFlatten;
 
     return pl;

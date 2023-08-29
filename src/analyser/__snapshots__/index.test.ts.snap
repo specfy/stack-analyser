@@ -21,6 +21,7 @@ exports[`analyser > should register only component of the same tech 1`] = `
         "/docker-compose.yml",
         "/package.json",
       ],
+      "reason": [],
       "tech": "postgresql",
       "techs": [
         "postgresql",
@@ -52,6 +53,7 @@ exports[`analyser > should register only component of the same tech 1`] = `
       "path": [
         "/package.json",
       ],
+      "reason": [],
       "tech": null,
       "techs": [
         "docker",
@@ -85,6 +87,7 @@ exports[`analyser > should register only component of the same tech 1`] = `
     "/docker-compose.yml",
     "/package.json",
   ],
+  "reason": [],
   "tech": null,
   "techs": [
     "docker",
@@ -114,6 +117,9 @@ exports[`analyser > should run correctly 1`] = `
       "path": [
         "/docker-compose.yml",
       ],
+      "reason": [
+        "postgresql matched: /postgres/",
+      ],
       "tech": "postgresql",
       "techs": [],
     },
@@ -131,6 +137,9 @@ exports[`analyser > should run correctly 1`] = `
               "name": "datadog",
               "path": [
                 "/pkgs/api/package.json",
+              ],
+              "reason": [
+                "datadog matched: /^dd-trace$/",
               ],
               "tech": "datadog",
               "techs": [],
@@ -174,6 +183,13 @@ exports[`analyser > should run correctly 1`] = `
           "path": [
             "/pkgs/api/package.json",
           ],
+          "reason": [
+            "datadog matched: /^dd-trace$/",
+            "fastify matched: /^fastify$/",
+            "prisma matched: /^prisma$/",
+            "typescript matched: /^typescript$/",
+            "matched file: package.json",
+          ],
           "tech": null,
           "techs": [
             "datadog",
@@ -195,6 +211,9 @@ exports[`analyser > should run correctly 1`] = `
               "name": "vercel",
               "path": [
                 "/pkgs/app/package.json",
+              ],
+              "reason": [
+                "matched file: .vercel",
               ],
               "tech": "vercel",
               "techs": [],
@@ -234,6 +253,13 @@ exports[`analyser > should run correctly 1`] = `
           "path": [
             "/pkgs/app/package.json",
           ],
+          "reason": [
+            "react matched: /^react$/",
+            "typescript matched: /^typescript$/",
+            "vite matched: /^vite$/",
+            "matched file: .vercel",
+            "matched file: package.json",
+          ],
           "tech": null,
           "techs": [
             "nodejs",
@@ -260,6 +286,9 @@ exports[`analyser > should run correctly 1`] = `
           "path": [
             "/terraform/.terraform.lock.hcl",
           ],
+          "reason": [
+            "gcp matched: /^registry.terraform.io\\\\/hashicorp\\\\/google$/",
+          ],
           "tech": "gcp",
           "techs": [],
         },
@@ -280,6 +309,9 @@ exports[`analyser > should run correctly 1`] = `
           "path": [
             "/terraform/.terraform.lock.hcl",
           ],
+          "reason": [
+            "vercel matched: /^registry.terraform.io\\\\/vercel\\\\/vercel$/",
+          ],
           "tech": "vercel",
           "techs": [],
         },
@@ -293,6 +325,9 @@ exports[`analyser > should run correctly 1`] = `
           "name": "postgresql",
           "path": [
             "/deno/deno.lock",
+          ],
+          "reason": [
+            "postgresql matched: /\\\\/x\\\\/postgres@/",
           ],
           "tech": "postgresql",
           "techs": [],
@@ -316,6 +351,9 @@ exports[`analyser > should run correctly 1`] = `
           "path": [
             "/rust/Cargo.toml",
           ],
+          "reason": [
+            "matched file: Cargo.toml",
+          ],
           "tech": null,
           "techs": [
             "rust",
@@ -333,6 +371,10 @@ exports[`analyser > should run correctly 1`] = `
           "name": "server",
           "path": [
             "/golang/cmd/server/main.go",
+          ],
+          "reason": [
+            "matched file: main.go",
+            "matched file: main.go",
           ],
           "tech": "golang",
           "techs": [
@@ -411,6 +453,17 @@ exports[`analyser > should run correctly 1`] = `
       "path": [
         "/package.json",
       ],
+      "reason": [
+        "eslint matched: /^eslint$/",
+        "prettier matched: /^prettier$/",
+        "typescript matched: /^typescript$/",
+        "matched file: docker-compose.yml",
+        "matched file: package.json",
+        "matched file: deno.lock",
+        "matched file: go.mod",
+        "matched file: Gemfile",
+        "matched file: .terraform.lock.hcl",
+      ],
       "tech": null,
       "techs": [
         "deno",
@@ -441,6 +494,9 @@ exports[`analyser > should run correctly 1`] = `
       "path": [
         "/docker-compose.yml",
       ],
+      "reason": [
+        "redis matched: /redis/",
+      ],
       "tech": "redis",
       "techs": [],
     },
@@ -461,6 +517,9 @@ exports[`analyser > should run correctly 1`] = `
       "path": [
         "/docker-compose.yml",
       ],
+      "reason": [
+        "matched: unknown",
+      ],
       "tech": null,
       "techs": [],
     },
@@ -474,6 +533,7 @@ exports[`analyser > should run correctly 1`] = `
   "path": [
     "/",
   ],
+  "reason": [],
   "tech": null,
   "techs": [],
 }
@@ -522,6 +582,7 @@ exports[`analyser > should run correctly 2`] = `
       "path": [
         "/pkgs/api/package.json",
       ],
+      "reason": [],
       "tech": null,
       "techs": [
         "datadog",
@@ -573,6 +634,7 @@ exports[`analyser > should run correctly 2`] = `
       "path": [
         "/pkgs/app/package.json",
       ],
+      "reason": [],
       "tech": null,
       "techs": [
         "nodejs",
@@ -599,6 +661,7 @@ exports[`analyser > should run correctly 2`] = `
       "path": [
         "/terraform/.terraform.lock.hcl",
       ],
+      "reason": [],
       "tech": "gcp",
       "techs": [],
     },
@@ -613,6 +676,7 @@ exports[`analyser > should run correctly 2`] = `
       "path": [
         "/pkgs/api/package.json",
       ],
+      "reason": [],
       "tech": "datadog",
       "techs": [],
     },
@@ -634,6 +698,7 @@ exports[`analyser > should run correctly 2`] = `
         "/docker-compose.yml",
         "/deno/deno.lock",
       ],
+      "reason": [],
       "tech": "postgresql",
       "techs": [
         "postgresql",
@@ -715,6 +780,7 @@ exports[`analyser > should run correctly 2`] = `
       "path": [
         "/package.json",
       ],
+      "reason": [],
       "tech": null,
       "techs": [
         "deno",
@@ -745,6 +811,7 @@ exports[`analyser > should run correctly 2`] = `
       "path": [
         "/docker-compose.yml",
       ],
+      "reason": [],
       "tech": "redis",
       "techs": [],
     },
@@ -767,6 +834,7 @@ exports[`analyser > should run correctly 2`] = `
       "path": [
         "/rust/Cargo.toml",
       ],
+      "reason": [],
       "tech": null,
       "techs": [
         "rust",
@@ -785,6 +853,7 @@ exports[`analyser > should run correctly 2`] = `
       "path": [
         "/golang/cmd/server/main.go",
       ],
+      "reason": [],
       "tech": "golang",
       "techs": [
         "golang",
@@ -808,6 +877,7 @@ exports[`analyser > should run correctly 2`] = `
       "path": [
         "/docker-compose.yml",
       ],
+      "reason": [],
       "tech": null,
       "techs": [],
     },
@@ -829,6 +899,7 @@ exports[`analyser > should run correctly 2`] = `
         "/pkgs/app/package.json",
         "/terraform/.terraform.lock.hcl",
       ],
+      "reason": [],
       "tech": "vercel",
       "techs": [
         "vercel",
@@ -972,6 +1043,7 @@ exports[`analyser > should run correctly 2`] = `
     "/rust/Cargo.toml",
     "/package.json",
   ],
+  "reason": [],
   "tech": null,
   "techs": [
     "datadog",

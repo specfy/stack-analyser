@@ -53,4 +53,4 @@ export type ComponentMatcher = (
   provider: BaseProvider
 ) => Promise<Payload | Payload[] | false>;
 
-export type TechMatcher = (files: ProviderFile[]) => Rule | false;
+export type TechMatcher = (files: ProviderFile[]) => false | [Rule, string];

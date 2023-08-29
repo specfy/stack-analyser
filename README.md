@@ -241,3 +241,7 @@ const flat = flatten(result);
   ]
 }
 ```
+
+## Contributing
+
+Every contribution is welcome. Check our [Contributing](./CONTRIBUTING.md) guide.

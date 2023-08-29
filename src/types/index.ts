@@ -79,5 +79,6 @@ export type AnalyserJson = Modify<
     techs: AllowedKeys[];
     inComponent: string | null;
     edges: Array<Modify<GraphEdge, { target: string }>>;
+    reason: string[];
   }
 >;

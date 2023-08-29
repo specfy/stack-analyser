@@ -5,6 +5,7 @@ exports[`docker > should match everything 1`] = `
   "aws",
   "aws.dynamodb",
   "aws.lambda",
+  "aws.s3",
   "caddy",
   "cassandra",
   "couchbase",

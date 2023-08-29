@@ -50,7 +50,7 @@ export const detectDenoLockfile: ComponentMatcher = async (files, provider) => {
       folderPath: file.fp,
       dependencies: depsFlatten,
     });
-    pl.addTechs([...techs]);
+    pl.addTechs(techs);
 
     return pl;
   }

@@ -53,6 +53,7 @@ describe('analyser', () => {
       techs: [],
       childs: [],
       dependencies: [],
+      reason: [],
     });
   });
 

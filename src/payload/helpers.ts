@@ -12,7 +12,11 @@ import { Payload } from './index.js';
  *
  * Obviously there could be some false positive.
  */
-export function findImplicitComponent(pl: Payload, tech: AllowedKeys) {
+export function findImplicitComponent(
+  pl: Payload,
+  tech: AllowedKeys,
+  reason: string[]
+) {
   const ref = listIndexed[tech];
   if (ref.type === 'ci' || ref.type === 'language' || ref.type === 'tool') {
     return;
@@ -23,6 +27,7 @@ export function findImplicitComponent(pl: Payload, tech: AllowedKeys) {
     tech: tech,
     folderPath: pl.path[0],
     parent: pl,
+    reason,
   });
   pl.addChild(comp);
   if (ref.type !== 'hosting') {

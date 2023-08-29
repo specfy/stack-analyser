@@ -5,12 +5,16 @@ import type { AllowedKeys, SupportedDeps } from './index.js';
 export function matchDependencies(
   pkgs: string[],
   type: SupportedDeps
-): Set<AllowedKeys> {
-  const matched = new Set<AllowedKeys>();
+): Map<AllowedKeys, string[]> {
+  const matched = new Map<AllowedKeys, string[]>();
   for (const dep of pkgs) {
     for (const ref of dependencies[type]) {
       if (ref.match.test(dep)) {
-        matched.add(ref.tech);
+        if (matched.has(ref.tech)) {
+          matched.set(ref.tech, [...matched.get(ref.tech)!, `matched: ${ref}`]);
+        } else {
+          matched.set(ref.tech, [`${ref.tech} matched: ${ref.match}`]);
+        }
       }
     }
   }

@@ -24,6 +24,7 @@ export class Payload implements Analyser {
   public dependencies: Analyser['dependencies'];
   public edges: Analyser['edges'];
   public parent?: Payload | null;
+  public reason: string[];
 
   constructor({
     id,
@@ -32,6 +33,7 @@ export class Payload implements Analyser {
     parent,
     tech,
     dependencies,
+    reason,
   }: {
     id?: Analyser['id'];
     name: Analyser['name'];
@@ -39,6 +41,7 @@ export class Payload implements Analyser {
     parent?: Payload | null;
     tech?: Analyser['tech'];
     dependencies?: Analyser['dependencies'];
+    reason?: string[] | string;
   }) {
     this.id = id || nid();
     this.name = name;
@@ -49,6 +52,11 @@ export class Payload implements Analyser {
     this.techs = new Set();
     this.languages = {};
     this.dependencies = dependencies || [];
+    this.reason = Array.isArray(reason)
+      ? reason
+      : typeof reason === 'string'
+      ? [reason]
+      : [];
 
     this.parent = parent;
     this.edges = [];
@@ -87,7 +95,7 @@ export class Payload implements Analyser {
         continue;
       }
 
-      ctx.addTech(res.tech);
+      ctx.addTech(res[0].tech, [`matched file: ${res[1]}`]);
     }
 
     // Recursively dive in folders
@@ -120,10 +128,12 @@ export class Payload implements Analyser {
     if (service.tech?.includes('.')) {
       const [host] = service.tech.split('.');
       const tech = listIndexed[host as AllowedKeys];
+
       const pl = new Payload({
         name: tech.name,
         folderPath: service.path[0],
         tech: tech.tech,
+        reason: `implicit: ${service.tech}`,
       });
       const child = this.addChild(pl);
       service.inComponent = child;
@@ -158,17 +168,20 @@ export class Payload implements Analyser {
   /**
    * Register a tech.
    */
-  addTechs(tech: AllowedKeys[]) {
-    tech.forEach((t) => this.addTech(t));
+  addTechs(tech: Map<AllowedKeys, string[]>) {
+    Array.from(tech.entries()).forEach(([key, reason]) => {
+      this.addTech(key, reason);
+    });
   }
 
   /**
    * Declare this Payload has built with this tech.
    */
-  addTech(tech: AllowedKeys) {
+  addTech(tech: AllowedKeys, reason: string[]) {
     this.techs.add(tech);
+    this.reason.push(...reason);
 
-    findImplicitComponent(this, tech);
+    findImplicitComponent(this, tech, reason);
     findHosting(this, tech);
   }
 
@@ -194,7 +207,9 @@ export class Payload implements Analyser {
     this.languages[name] += count;
 
     if (name in nameToKey) {
-      this.addTech(nameToKey[name]);
+      if (!this.techs.has(nameToKey[name])) {
+        this.addTech(nameToKey[name], []);
+      }
     }
   }
 
@@ -311,6 +326,7 @@ export class Payload implements Analyser {
       techs: [...this.techs].sort(),
       languages: this.languages,
       dependencies: this.dependencies,
+      reason: this.reason,
     };
   }
 }

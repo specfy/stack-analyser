@@ -50,7 +50,7 @@ export const detectNodeComponent: ComponentMatcher = async (
       folderPath: file.fp,
       dependencies: depsFlatten,
     });
-    pl.addTechs([...techs]);
+    pl.addTechs(techs);
 
     return pl;
   }

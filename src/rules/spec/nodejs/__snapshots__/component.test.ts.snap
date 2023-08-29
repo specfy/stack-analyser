@@ -332,11 +332,6 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
-    "@mikro-orm/postgresql",
-    "0.0.0",
-  ],
-  [
-    "npm",
     "@netlify/plugin-emails",
     "0.0.0",
   ],

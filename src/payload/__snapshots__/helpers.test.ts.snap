@@ -15,6 +15,7 @@ Payload {
       "path": [
         "/",
       ],
+      "reason": [],
       "tech": null,
       "techs": Set {},
     },
@@ -42,6 +43,7 @@ Payload {
             "path": [
               "/",
             ],
+            "reason": [],
             "tech": null,
             "techs": Set {},
           },
@@ -56,6 +58,7 @@ Payload {
       "path": [
         "/",
       ],
+      "reason": [],
       "tech": null,
       "techs": Set {},
     },
@@ -70,6 +73,7 @@ Payload {
   "path": [
     "",
   ],
+  "reason": [],
   "tech": null,
   "techs": Set {},
 }
@@ -95,6 +99,7 @@ exports[`flatten > should flatten and merge dependencies 1`] = `
       "path": [
         "/",
       ],
+      "reason": [],
       "tech": null,
       "techs": [],
     },
@@ -115,6 +120,7 @@ exports[`flatten > should flatten and merge dependencies 1`] = `
       "path": [
         "/",
       ],
+      "reason": [],
       "tech": null,
       "techs": [],
     },
@@ -140,6 +146,7 @@ exports[`flatten > should flatten and merge dependencies 1`] = `
     "/",
     "",
   ],
+  "reason": [],
   "tech": null,
   "techs": [],
 }
@@ -159,6 +166,7 @@ exports[`flatten > should flatten and merge host 1`] = `
       "path": [
         "/",
       ],
+      "reason": [],
       "tech": null,
       "techs": [],
     },
@@ -173,6 +181,7 @@ exports[`flatten > should flatten and merge host 1`] = `
       "path": [
         "/",
       ],
+      "reason": [],
       "tech": "vercel",
       "techs": [
         "vercel",
@@ -189,6 +198,7 @@ exports[`flatten > should flatten and merge host 1`] = `
       "path": [
         "/",
       ],
+      "reason": [],
       "tech": null,
       "techs": [],
     },
@@ -203,6 +213,7 @@ exports[`flatten > should flatten and merge host 1`] = `
     "/",
     "",
   ],
+  "reason": [],
   "tech": null,
   "techs": [
     "vercel",
@@ -224,6 +235,7 @@ exports[`flatten > should flatten but not merge 1`] = `
       "path": [
         "/",
       ],
+      "reason": [],
       "tech": null,
       "techs": [],
     },
@@ -238,6 +250,7 @@ exports[`flatten > should flatten but not merge 1`] = `
       "path": [
         "/",
       ],
+      "reason": [],
       "tech": "vercel",
       "techs": [
         "vercel",
@@ -254,6 +267,7 @@ exports[`flatten > should flatten but not merge 1`] = `
       "path": [
         "/",
       ],
+      "reason": [],
       "tech": null,
       "techs": [],
     },
@@ -267,6 +281,7 @@ exports[`flatten > should flatten but not merge 1`] = `
   "path": [
     "/",
   ],
+  "reason": [],
   "tech": null,
   "techs": [],
 }

@@ -60,13 +60,14 @@ export const detectTerraformLockfile: ComponentMatcher = async (
 
       pl.addChild(
         new Payload({
-          name: listIndexed[tech].name,
+          name: listIndexed[tech[0]].name,
           folderPath: file.fp,
-          tech,
+          tech: tech[0],
           parent: pl,
           dependencies: [
             ['terraform', name, json.provider[name][0].version || 'latest'],
           ],
+          reason: tech[1][0],
         })
       );
     }

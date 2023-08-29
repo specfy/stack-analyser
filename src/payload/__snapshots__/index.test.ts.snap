@@ -14,6 +14,9 @@ exports[`Payload > should detect nested dependencies 1`] = `
       "path": [
         "/",
       ],
+      "reason": [
+        "implicit: gcp.pubsub",
+      ],
       "tech": "gcp",
       "techs": [],
     },
@@ -28,6 +31,7 @@ exports[`Payload > should detect nested dependencies 1`] = `
       "path": [
         "/",
       ],
+      "reason": [],
       "tech": "gcp.pubsub",
       "techs": [],
     },
@@ -41,6 +45,7 @@ exports[`Payload > should detect nested dependencies 1`] = `
   "path": [
     "/",
   ],
+  "reason": [],
   "tech": null,
   "techs": [],
 }

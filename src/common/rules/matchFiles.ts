@@ -1,3 +1,4 @@
+import type { Rule } from '../../index.js';
 import type { ProviderFile } from '../../provider/base.js';
 import { listIndexed } from '../../register.js';
 import type { AllowedKeys } from '../../types/techs.js';
@@ -7,11 +8,11 @@ export function matchFiles(
   files: ProviderFile[],
   matches: string[],
   matchFullPath?: boolean
-) {
+): false | [Rule, string] {
   for (const file of files) {
     const name = matchFullPath ? file.fp : file.name;
     if (matches.includes(name)) {
-      return listIndexed[key];
+      return [listIndexed[key], name];
     }
   }
 
@@ -23,11 +24,11 @@ export function matchFilesRegex(
   files: ProviderFile[],
   match: RegExp,
   matchFullPath?: boolean
-) {
+): false | [Rule, string] {
   for (const file of files) {
     const name = matchFullPath ? file.fp : file.name;
     if (match.test(name)) {
-      return listIndexed[key];
+      return [listIndexed[key], name];
     }
   }
 

@@ -6,7 +6,6 @@ register({
   type: 'db',
   dependencies: [
     { type: 'npm', name: 'pg' },
-    { type: 'npm', name: /postgres/, example: '@mikro-orm/postgresql' },
     { type: 'docker', name: /postgres/, example: 'postgres:0.0.0' },
     { type: 'rust', name: 'postgres' },
     { type: 'ruby', name: 'pg' },
