@@ -134,6 +134,7 @@ exports[`all > should match everything 1`] = `
   "snowflake",
   "snyk",
   "socketio",
+  "splunk",
   "sqlite",
   "sqreen",
   "storybook",

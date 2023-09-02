@@ -24,6 +24,7 @@ import './sentry.js';
 import './shopify.js';
 import './slack.js';
 import './snyk.js';
+import './splunk.js';
 import './sqreen.js';
 import './zendesk.js';
 import './zuora.js';
