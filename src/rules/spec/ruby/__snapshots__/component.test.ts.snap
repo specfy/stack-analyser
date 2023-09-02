@@ -44,6 +44,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "heroku",
   "influxdb",
   "kubernetes",
+  "mailchimp",
   "mailjet",
   "mariadb",
   "memcached",
@@ -69,6 +70,16 @@ exports[`ruby (component) > should match everything 1`] = `
 
 exports[`ruby (component) > should match everything 2`] = `
 [
+  [
+    "ruby",
+    "MailchimpMarketing",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "MailchimpTransactional",
+    "1.0.0",
+  ],
   [
     "ruby",
     "algolia",

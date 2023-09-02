@@ -9,6 +9,7 @@ import './github.js';
 import './hubspot.js';
 import './huggingface.js';
 import './logrocket.js';
+import './mailchimp.js';
 import './mailjet.js';
 import './newrelic.js';
 import './okta.js';
