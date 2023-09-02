@@ -210,6 +210,7 @@ export type AllowedKeys =
   | 'vercel'
   | 'vite'
   | 'vue'
+  | 'webflow'
   | 'webpack'
   | 'wiz'
   | 'zapier'
