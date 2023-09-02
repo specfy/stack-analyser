@@ -170,6 +170,7 @@ export type AllowedKeys =
   | 'splunk'
   | 'sqlite'
   | 'sqreen'
+  | 'squareup'
   | 'storybook'
   | 'strapi'
   | 'styleci'

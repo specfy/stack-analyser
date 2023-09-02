@@ -24,6 +24,7 @@ import './salesforce.js';
 import './sentry.js';
 import './shopify.js';
 import './slack.js';
+import './squareup.js';
 import './snyk.js';
 import './splunk.js';
 import './sqreen.js';

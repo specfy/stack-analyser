@@ -138,6 +138,7 @@ exports[`all > should match everything 1`] = `
   "splunk",
   "sqlite",
   "sqreen",
+  "squareup",
   "storybook",
   "strapi",
   "styleci",
