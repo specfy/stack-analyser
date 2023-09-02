@@ -26,3 +26,4 @@ import './snyk.js';
 import './sqreen.js';
 import './zendesk.js';
 import './zuora.js';
+import './zoom.js';

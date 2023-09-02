@@ -155,6 +155,7 @@ exports[`all > should match everything 1`] = `
   "webpack",
   "zendesk",
   "zookeeper",
+  "zoom",
   "zuora",
 ]
 `;
