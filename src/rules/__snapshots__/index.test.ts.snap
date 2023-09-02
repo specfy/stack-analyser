@@ -81,6 +81,7 @@ exports[`all > should match everything 1`] = `
   "gitlab.ci",
   "golang",
   "googleanalytics",
+  "grafana",
   "hashicorp_vault",
   "helm",
   "heroku",

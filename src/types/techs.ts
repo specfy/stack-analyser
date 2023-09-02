@@ -103,6 +103,7 @@ export type AllowedKeys =
   | 'gitlab'
   | 'golang'
   | 'googleanalytics'
+  | 'grafana'
   | 'hashicorp_vault'
   | 'helm'
   | 'heroku'
