@@ -25,3 +25,4 @@ import './slack.js';
 import './snyk.js';
 import './sqreen.js';
 import './zendesk.js';
+import './zuora.js';

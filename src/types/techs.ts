@@ -191,7 +191,8 @@ export type AllowedKeys =
   | 'zapier'
   | 'zendesk'
   | 'zookeeper'
-  | 'zoom';
+  | 'zoom'
+  | 'zuora';
 
 export interface TechItem {
   key: AllowedKeys;
