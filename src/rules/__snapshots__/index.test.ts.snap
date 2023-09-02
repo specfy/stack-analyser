@@ -155,6 +155,7 @@ exports[`all > should match everything 1`] = `
   "travisci",
   "typescript",
   "vercel",
+  "vercel.analytics",
   "vite",
   "vue",
   "webpack",

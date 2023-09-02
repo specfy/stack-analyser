@@ -189,6 +189,7 @@ export type AllowedKeys =
   | 'traefik'
   | 'travisci'
   | 'typescript'
+  | 'vercel.analytics'
   | 'vercel'
   | 'vite'
   | 'vue'
