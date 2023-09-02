@@ -193,6 +193,7 @@ export type AllowedKeys =
   | 'vercel.ai'
   | 'vercel.analytics'
   | 'vercel.kv'
+  | 'vercel.postgres'
   | 'vercel'
   | 'vite'
   | 'vue'
