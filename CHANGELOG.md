@@ -1,3 +1,24 @@
+## [1.4.4](https://github.com/specfy/stack-analyser/compare/v1.4.3...v1.4.4) (2023-09-02)
+
+
+### Bug Fixes
+
+* **rules:** add Adobe ([4cea447](https://github.com/specfy/stack-analyser/commit/4cea447c34cd78ca3b0ffedc72c48ad9c0d888e8))
+* **rules:** add Amplitude ([9e1dd14](https://github.com/specfy/stack-analyser/commit/9e1dd149b1e7eebb783b225ef1f69ba767f77a57))
+* **rules:** add Dropbox ([2a24b97](https://github.com/specfy/stack-analyser/commit/2a24b97995e71aef97121da58c937778734e1eac))
+* **rules:** add Google Analytics ([eedf231](https://github.com/specfy/stack-analyser/commit/eedf231665f246ff74a218fa72d8f5da44191e0c))
+* **rules:** add Mailchimp ([17ac7b9](https://github.com/specfy/stack-analyser/commit/17ac7b94e084310cb41ace10bcf7586302b3dfa9))
+* **rules:** add Pingdom ([9e3cfeb](https://github.com/specfy/stack-analyser/commit/9e3cfeb1b65b00e05e8cb43d61d0a5f994065c0e))
+* **rules:** add Splunk ([38186a3](https://github.com/specfy/stack-analyser/commit/38186a3a128f29d7321d9d6f8507fdf03496fbab))
+* **rules:** add Square ([4e1dd64](https://github.com/specfy/stack-analyser/commit/4e1dd648e96b03ad0b42daf153ff6e8260b12472))
+* **rules:** add Vercel AI ([66a0e7a](https://github.com/specfy/stack-analyser/commit/66a0e7aeef9a01389f71bf8102a0c2920c30c175))
+* **rules:** add Vercel Analytics ([95f0af8](https://github.com/specfy/stack-analyser/commit/95f0af8f43f2fc1dcc8b19ec73e71dc16e0208d3))
+* **rules:** add Vercel Blob ([2937fbe](https://github.com/specfy/stack-analyser/commit/2937fbee279a56392a6d470bcf7b43b6b9faa7c1))
+* **rules:** add Vercel KV ([f389227](https://github.com/specfy/stack-analyser/commit/f389227d241149748a376866ef9427f90dfaf843))
+* **rules:** add Vercel Postgres ([a1e0bdd](https://github.com/specfy/stack-analyser/commit/a1e0bdd1e22b6de119a7a2a3e0f95a72f6bec5a2))
+* **rules:** add Zoom ([93eb820](https://github.com/specfy/stack-analyser/commit/93eb82027d3a3c42f5cf4db1abd6dc8ba6fd5126))
+* **rules:** add Zuora ([44a7a59](https://github.com/specfy/stack-analyser/commit/44a7a59fff402f79b9e27ea84ce56b9ef35242f4))
+
 ## [1.4.3](https://github.com/specfy/stack-analyser/compare/v1.4.2...v1.4.3) (2023-08-29)
 
 
