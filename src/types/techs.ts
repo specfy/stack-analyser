@@ -130,6 +130,7 @@ export type AllowedKeys =
   | 'mailjet'
   | 'mariadb'
   | 'memcached'
+  | 'mixpanel'
   | 'mongodb'
   | 'mongodbatlas'
   | 'mysql'

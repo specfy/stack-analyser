@@ -102,6 +102,7 @@ exports[`all > should match everything 1`] = `
   "mailjet",
   "mariadb",
   "memcached",
+  "mixpanel",
   "mongodb",
   "mongodbatlas",
   "mysql",
