@@ -12,6 +12,7 @@ import './gitbook.js';
 import './github.js';
 import './hubspot.js';
 import './huggingface.js';
+import './klaviyo.js';
 import './logrocket.js';
 import './mailchimp.js';
 import './mailjet.js';

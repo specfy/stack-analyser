@@ -91,6 +91,7 @@ exports[`all > should match everything 1`] = `
   "influxdb",
   "jenkins",
   "kibana",
+  "klaviyo",
   "koa",
   "kubernetes",
   "logrocket",

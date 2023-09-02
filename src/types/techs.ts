@@ -118,6 +118,7 @@ export type AllowedKeys =
   | 'jest'
   | 'jira'
   | 'kibana'
+  | 'klaviyo'
   | 'koa'
   | 'kotlin'
   | 'kubernetes'
