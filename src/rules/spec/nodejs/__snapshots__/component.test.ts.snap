@@ -104,6 +104,7 @@ exports[`npm > should match everything 1`] = `
   "tailwind",
   "typescript",
   "vercel",
+  "vercel.ai",
   "vercel.analytics",
   "vite",
   "vue",
@@ -451,6 +452,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@supabase/supabase.js",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@vercel/ai",
     "0.0.0",
   ],
   [
