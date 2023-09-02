@@ -8,6 +8,7 @@ import './datadog.js';
 import './deferrun.js';
 import './discord.js';
 import './dropbox.js';
+import './figma.js';
 import './gitbook.js';
 import './github.js';
 import './hubspot.js';

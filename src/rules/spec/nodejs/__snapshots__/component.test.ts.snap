@@ -30,6 +30,7 @@ exports[`npm > should match everything 1`] = `
   "express",
   "fastify",
   "fastly",
+  "figma",
   "firebase",
   "gcp",
   "gcp.aiplatform",
@@ -217,6 +218,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@fastly/performance-observer-polyfill",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@figma/plugin-typings",
     "0.0.0",
   ],
   [

@@ -50,6 +50,7 @@ exports[`all > should match everything 1`] = `
   "express",
   "fastify",
   "fastly",
+  "figma",
   "firebase",
   "flyio",
   "gcp",
