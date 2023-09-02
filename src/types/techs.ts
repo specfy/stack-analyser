@@ -17,6 +17,7 @@ export type AllowedKeys =
   | 'adobe'
   | 'algolia'
   | 'alibabacloud'
+  | 'amplitude'
   | 'angular'
   | 'appveyor'
   | 'atlassian'

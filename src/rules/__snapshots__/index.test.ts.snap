@@ -5,6 +5,7 @@ exports[`all > should match everything 1`] = `
   "adobe",
   "algolia",
   "alibabacloud",
+  "amplitude",
   "angular",
   "appveyor",
   "atlassian",

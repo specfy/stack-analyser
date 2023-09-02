@@ -3,6 +3,7 @@
 exports[`npm > should match everything 1`] = `
 [
   "algolia",
+  "amplitude",
   "angular",
   "auth0",
   "aws",
@@ -115,6 +116,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@algolia/client",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@amplitude/analytics-browser",
     "0.0.0",
   ],
   [
@@ -455,6 +461,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "algoliasearch",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "amplitude-js",
     "0.0.0",
   ],
   [
