@@ -5,7 +5,10 @@
 
 This library provide a simple way to extract dependencies, and metadata from any repository and languages.
 
-It will dive into any folders, read package.json, docker-compose.yml, go.mod, etc. Determines relationship between folders and services, and output a comprehensive list of dependencies, services and the link between them.
+It will dive into any folders, read package.json, docker-compose.yml, go.mod, etc. Determines relationship between folders and services, and output a comprehensive list of dependencies, services and the link between them. The set of rules inside this repos allows the detection of specific technology or saas used.
+
+This library is directly used by [Specfy.io](https://specfy.io) to create always up-to-date technological documentation.
+It can be helpful for other to get all dependencies or Saas used in a given GitHub repository.
 
 ## Usage
 
@@ -28,28 +31,37 @@ npx @specfy/stack-analyser <PATH> [--output=<filename>]
 ## Install
 
 ```sh
-npm install -ED @specfy/stack-analyser
+npm install -E @specfy/stack-analyser
 ```
 
 ```ts
 import { analyser, FSProvider, flatten, rules } from "@specfy/stack-analyser"
 
+// Load default rules
 rules.loadAll();
 
+// Analyze a folder
 const result = await analyser({
   provider: new FSProvider({
     path: '/my/repository/path/',
   }),
 });
 
+// Output to JSON
 const json = result.toJson();
 
+// Reduce the nested JSON to a flat list of deduplicated childs
 const flat = flatten(result);
 ```
 
 ## Output
 
 > Example of output when running the CLI against ./tests/__fixtures__
+
+The exact types `AnalyserJson` can be found [here](./src/types/index.ts)
+
+<details>
+  <summary>Output</summary>
 
 ```json
 {
@@ -241,6 +253,8 @@ const flat = flatten(result);
   ]
 }
 ```
+
+</details>
 
 ## Contributing
 

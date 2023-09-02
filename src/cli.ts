@@ -28,7 +28,7 @@ const pkg = JSON.parse(
 program
   .name('stack-analyser')
   .description('CLI to extract metadata from repository')
-  .argument('<path>', 'repository to analyse')
+  .argument('<path>', 'repository to analyse', './')
   .option('-o, --output <FILENAME>', 'output json to a file', 'output.json')
   .option('--flat', 'flatten the output', false)
   .version(pkg.version)
