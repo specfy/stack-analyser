@@ -1,4 +1,5 @@
 export type TechType =
+  | 'analytics'
   | 'api'
   | 'app'
   | 'ci'
@@ -97,6 +98,7 @@ export type AllowedKeys =
   | 'gitlab.ci'
   | 'gitlab'
   | 'golang'
+  | 'googleanalytics'
   | 'hashicorp_vault'
   | 'helm'
   | 'heroku'
