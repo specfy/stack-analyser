@@ -192,6 +192,7 @@ export type AllowedKeys =
   | 'typescript'
   | 'vercel.ai'
   | 'vercel.analytics'
+  | 'vercel.blob'
   | 'vercel.kv'
   | 'vercel.postgres'
   | 'vercel'

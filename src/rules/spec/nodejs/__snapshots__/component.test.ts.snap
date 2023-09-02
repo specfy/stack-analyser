@@ -106,6 +106,7 @@ exports[`npm > should match everything 1`] = `
   "vercel",
   "vercel.ai",
   "vercel.analytics",
+  "vercel.blob",
   "vercel.kv",
   "vercel.postgres",
   "vite",
@@ -464,6 +465,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@vercel/analytics",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@vercel/blob",
     "0.0.0",
   ],
   [

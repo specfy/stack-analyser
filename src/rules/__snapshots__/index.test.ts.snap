@@ -158,6 +158,7 @@ exports[`all > should match everything 1`] = `
   "vercel",
   "vercel.ai",
   "vercel.analytics",
+  "vercel.blob",
   "vercel.kv",
   "vercel.postgres",
   "vite",
