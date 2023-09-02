@@ -89,6 +89,7 @@ exports[`npm > should match everything 1`] = `
   "rollup",
   "salesforce",
   "scaleway",
+  "sendgrid",
   "sentry",
   "sequelize",
   "shopify",
@@ -409,6 +410,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@scaleway/sdk",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@sendgrid/mail",
     "0.0.0",
   ],
   [

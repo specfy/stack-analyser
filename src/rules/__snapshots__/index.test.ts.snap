@@ -134,6 +134,7 @@ exports[`all > should match everything 1`] = `
   "rust",
   "salesforce",
   "scaleway",
+  "sendgrid",
   "sentry",
   "sequelize",
   "shopify",

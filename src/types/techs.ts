@@ -166,6 +166,7 @@ export type AllowedKeys =
   | 'salesforce'
   | 'scaleway'
   | 'scss'
+  | 'sendgrid'
   | 'sentry'
   | 'sequelize'
   | 'shell'
