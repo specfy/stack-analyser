@@ -1,3 +1,4 @@
+import './adobe.js';
 import './algolia.js';
 import './atlassian.js';
 import './auth0.js';

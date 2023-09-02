@@ -6,6 +6,6 @@ import '../autoload.js';
 
 describe('all', () => {
   it('should match everything', async () => {
-    expect(Array.from(registeredTech.values())).toMatchSnapshot();
+    expect(Array.from(registeredTech.values()).sort()).toMatchSnapshot();
   });
 });

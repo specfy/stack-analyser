@@ -13,6 +13,7 @@ export type TechType =
   | 'tool';
 
 export type AllowedKeys =
+  | 'adobe'
   | 'algolia'
   | 'alibabacloud'
   | 'angular'
