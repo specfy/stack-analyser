@@ -2,6 +2,7 @@
 
 exports[`npm > should match everything 1`] = `
 [
+  "airtable",
   "algolia",
   "amplitude",
   "angular",
@@ -487,6 +488,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@vercel/postgres",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "airtable",
     "0.0.0",
   ],
   [

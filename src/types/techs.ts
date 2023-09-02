@@ -15,6 +15,7 @@ export type TechType =
 
 export type AllowedKeys =
   | 'adobe'
+  | 'airtable'
   | 'algolia'
   | 'alibabacloud'
   | 'amplitude'

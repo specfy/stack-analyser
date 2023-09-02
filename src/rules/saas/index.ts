@@ -1,4 +1,5 @@
 import './adobe.js';
+import './airtable.js';
 import './algolia.js';
 import './atlassian.js';
 import './auth0.js';
