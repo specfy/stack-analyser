@@ -48,6 +48,7 @@ exports[`all > should match everything 1`] = `
   "eslint",
   "expodev",
   "express",
+  "fabric",
   "fastify",
   "fastly",
   "figma",

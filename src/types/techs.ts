@@ -70,6 +70,7 @@ export type AllowedKeys =
   | 'eslint'
   | 'expodev'
   | 'express'
+  | 'fabric'
   | 'fastify'
   | 'fastly'
   | 'figma'
