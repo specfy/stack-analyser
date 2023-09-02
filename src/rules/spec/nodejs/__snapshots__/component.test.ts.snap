@@ -76,6 +76,7 @@ exports[`npm > should match everything 1`] = `
   "pagerduty",
   "placekit",
   "postgresql",
+  "postman",
   "prettier",
   "prisma",
   "puppeteer",
@@ -690,6 +691,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "newman",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "newrelic",
     "0.0.0",
   ],
@@ -716,6 +722,16 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "pg",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "postman-collection",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "postman-request",
     "0.0.0",
   ],
   [

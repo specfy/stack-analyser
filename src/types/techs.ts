@@ -147,6 +147,7 @@ export type AllowedKeys =
   | 'placekit'
   | 'platformsh'
   | 'postgresql'
+  | 'postman'
   | 'powershell'
   | 'prettier'
   | 'prisma'
