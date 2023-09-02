@@ -192,6 +192,7 @@ export type AllowedKeys =
   | 'typescript'
   | 'vercel.ai'
   | 'vercel.analytics'
+  | 'vercel.kv'
   | 'vercel'
   | 'vite'
   | 'vue'
