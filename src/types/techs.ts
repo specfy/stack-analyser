@@ -136,6 +136,7 @@ export type AllowedKeys =
   | 'newrelic'
   | 'nginx'
   | 'nodejs'
+  | 'notion'
   | 'okta'
   | 'openai'
   | 'oraclecloud'

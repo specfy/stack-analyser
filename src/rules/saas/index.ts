@@ -17,6 +17,7 @@ import './logrocket.js';
 import './mailchimp.js';
 import './mailjet.js';
 import './newrelic.js';
+import './notion.js';
 import './okta.js';
 import './openai.js';
 import './pagerduty.js';
