@@ -93,6 +93,7 @@ export type AllowedKeys =
   | 'gcp.translate'
   | 'gcp.vision'
   | 'gcp'
+  | 'gitbook'
   | 'github.actions'
   | 'github.pages'
   | 'github'

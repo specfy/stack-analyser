@@ -50,6 +50,7 @@ exports[`npm > should match everything 1`] = `
   "gcp.sql",
   "gcp.translate",
   "gcp.vision",
+  "gitbook",
   "github",
   "hotjar",
   "huggingface",
@@ -215,6 +216,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@firebase/auth",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@gitbook/api",
     "0.0.0",
   ],
   [

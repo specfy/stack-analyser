@@ -71,6 +71,7 @@ exports[`all > should match everything 1`] = `
   "gcp.sql",
   "gcp.translate",
   "gcp.vision",
+  "gitbook",
   "github",
   "github.actions",
   "github.pages",
