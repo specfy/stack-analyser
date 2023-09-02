@@ -98,6 +98,7 @@ exports[`npm > should match everything 1`] = `
   "socketio",
   "sqlite",
   "sqreen",
+  "squarespace",
   "storybook",
   "strapi",
   "stripe",
@@ -430,6 +431,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@slack/web-api",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@squarespace/server",
     "0.0.0",
   ],
   [

@@ -32,6 +32,7 @@ import './slack.js';
 import './snyk.js';
 import './splunk.js';
 import './sqreen.js';
+import './squarespace.js';
 import './squareup.js';
 import './stripe.js';
 import './twilio.js';
