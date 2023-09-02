@@ -144,6 +144,7 @@ exports[`all > should match everything 1`] = `
   "squareup",
   "storybook",
   "strapi",
+  "stripe",
   "styleci",
   "stylelint",
   "supabase",

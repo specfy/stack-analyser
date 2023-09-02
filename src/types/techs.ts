@@ -177,6 +177,7 @@ export type AllowedKeys =
   | 'squareup'
   | 'storybook'
   | 'strapi'
+  | 'stripe'
   | 'styleci'
   | 'stylelint'
   | 'supabase.functions'
