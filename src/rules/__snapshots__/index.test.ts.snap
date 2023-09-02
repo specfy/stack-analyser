@@ -24,6 +24,7 @@ exports[`all > should match everything 1`] = `
   "azure",
   "azure.ci",
   "bootstrap",
+  "box",
   "browserstack",
   "caddy",
   "cassandra",

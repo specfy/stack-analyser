@@ -37,6 +37,7 @@ export type AllowedKeys =
   | 'azure'
   | 'bash'
   | 'bootstrap'
+  | 'box'
   | 'browserstack'
   | 'c'
   | 'caddy'
