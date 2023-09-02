@@ -203,6 +203,7 @@ export type AllowedKeys =
   | 'vite'
   | 'vue'
   | 'webpack'
+  | 'wiz'
   | 'zapier'
   | 'zendesk'
   | 'zookeeper'

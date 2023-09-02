@@ -32,6 +32,7 @@ import './stripe.js';
 import './snyk.js';
 import './splunk.js';
 import './sqreen.js';
+import './wiz.js';
 import './zendesk.js';
 import './zuora.js';
 import './zoom.js';
