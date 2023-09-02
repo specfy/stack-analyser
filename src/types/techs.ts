@@ -56,6 +56,7 @@ export type AllowedKeys =
   | 'digitalocean'
   | 'discord'
   | 'docker'
+  | 'dropbox'
   | 'elasticloud'
   | 'elasticsearch'
   | 'elasticstack'

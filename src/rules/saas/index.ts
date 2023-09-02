@@ -5,6 +5,7 @@ import './auth0.js';
 import './datadog.js';
 import './deferrun.js';
 import './discord.js';
+import './dropbox.js';
 import './github.js';
 import './hubspot.js';
 import './huggingface.js';
