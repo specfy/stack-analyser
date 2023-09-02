@@ -105,6 +105,7 @@ exports[`npm > should match everything 1`] = `
   "supabase.postgres",
   "supabase.storage",
   "tailwind",
+  "twilio",
   "typescript",
   "vercel",
   "vercel.ai",
@@ -467,6 +468,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@twilio/cli-core",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@vercel/ai",
     "0.0.0",
   ],
@@ -793,6 +799,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "tailwindcss",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "twilio",
     "0.0.0",
   ],
   [

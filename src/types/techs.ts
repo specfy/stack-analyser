@@ -194,6 +194,7 @@ export type AllowedKeys =
   | 'terragrunt'
   | 'traefik'
   | 'travisci'
+  | 'twilio'
   | 'typescript'
   | 'vercel.ai'
   | 'vercel.analytics'
