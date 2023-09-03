@@ -3,6 +3,7 @@
 exports[`rust (component) > should match everything 1`] = `
 [
   "algolia",
+  "apache_cassandra",
   "auth0",
   "aws",
   "aws.dynamodb",
@@ -15,7 +16,6 @@ exports[`rust (component) > should match everything 1`] = `
   "aws.sns",
   "aws.sqs",
   "azure",
-  "cassandra",
   "couchbase",
   "datadog",
   "elasticsearch",

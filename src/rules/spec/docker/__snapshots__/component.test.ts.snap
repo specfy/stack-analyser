@@ -4,6 +4,7 @@ exports[`docker > should match everything 1`] = `
 [
   "airbyte",
   "apache_airflow",
+  "apache_cassandra",
   "apache_couchdb",
   "apache_spark",
   "aws",
@@ -11,7 +12,6 @@ exports[`docker > should match everything 1`] = `
   "aws.lambda",
   "aws.s3",
   "caddy",
-  "cassandra",
   "clickhouse",
   "couchbase",
   "cypressci",
