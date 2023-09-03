@@ -44,6 +44,7 @@ import './stripe.js';
 import './twilio.js';
 import './webflow.js';
 import './wiz.js';
+import './zapier.js';
 import './zendesk.js';
 import './zoom.js';
 import './zuora.js';

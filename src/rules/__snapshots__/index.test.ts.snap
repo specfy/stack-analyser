@@ -190,6 +190,7 @@ exports[`all > should match everything 1`] = `
   "webflow",
   "webpack",
   "wiz",
+  "zapier",
   "zendesk",
   "zookeeper",
   "zoom",
