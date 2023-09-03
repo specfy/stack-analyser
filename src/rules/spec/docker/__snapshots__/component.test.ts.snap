@@ -4,6 +4,7 @@ exports[`docker > should match everything 1`] = `
 [
   "airbyte",
   "apache_airflow",
+  "apache_couchdb",
   "apache_spark",
   "aws",
   "aws.dynamodb",
@@ -71,6 +72,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "apache/airflow",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "apache/couchdb",
     "0.0.0",
   ],
   [
