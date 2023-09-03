@@ -1,3 +1,20 @@
+## [1.4.6](https://github.com/specfy/stack-analyser/compare/v1.4.5...v1.4.6) (2023-09-03)
+
+
+### Bug Fixes
+
+* **rules:** add Airbyte ([2a3ee10](https://github.com/specfy/stack-analyser/commit/2a3ee100b133c3dc358a9a58c127fb5649e8bdbf))
+* **rules:** add Apache Airflow' ([d8d3bfb](https://github.com/specfy/stack-analyser/commit/d8d3bfbcdbded823a46aeb2eccfe3f5da10f5fb4))
+* **rules:** add Apache CouchDB ([1ff6a0b](https://github.com/specfy/stack-analyser/commit/1ff6a0b4466acaaf48c85c5381f047e058602a02))
+* **rules:** add Apache Kafka ([2b3de25](https://github.com/specfy/stack-analyser/commit/2b3de25d4e173cb7ac026d4f036b161ee67cbe71))
+* **rules:** add Apache Spark ([a3b838d](https://github.com/specfy/stack-analyser/commit/a3b838ddd78f3369e945cb36394ed47a836c5066))
+* **rules:** add Bitbucket ([56dece1](https://github.com/specfy/stack-analyser/commit/56dece120591ce6aed6389ed903f96028550e632))
+* **rules:** add Contentful ([1309869](https://github.com/specfy/stack-analyser/commit/1309869e5b2f53217ce1875297678d7395ca3b15))
+* **rules:** add LogSnag ([5b6a8cf](https://github.com/specfy/stack-analyser/commit/5b6a8cf8f0ff239e549a1e55558a703a75d66d10))
+* **rules:** add Twitter/X ([82dcde7](https://github.com/specfy/stack-analyser/commit/82dcde7cc017cb1d8c2c8ea97e1fa2354a56553e))
+* **rules:** add Zapier ([4ba1229](https://github.com/specfy/stack-analyser/commit/4ba12296403dcc41f66714adde664acc52cb0635))
+* **rules:** cassandra is apache ([903bd3b](https://github.com/specfy/stack-analyser/commit/903bd3bf531dc5d0f8b691529ca8f99f7b6457cb))
+
 ## [1.4.5](https://github.com/specfy/stack-analyser/compare/v1.4.4...v1.4.5) (2023-09-03)
 
 
