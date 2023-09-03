@@ -121,6 +121,7 @@ exports[`all > should match everything 1`] = `
   "pingdom",
   "placekit",
   "platformsh",
+  "plausible",
   "postgresql",
   "postman",
   "prettier",

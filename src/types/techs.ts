@@ -150,6 +150,7 @@ export type AllowedKeys =
   | 'pingdom'
   | 'placekit'
   | 'platformsh'
+  | 'plausible'
   | 'postgresql'
   | 'postman'
   | 'powershell'
