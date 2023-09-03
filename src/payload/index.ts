@@ -128,15 +128,16 @@ export class Payload implements Analyser {
     if (service.tech?.includes('.')) {
       const [host] = service.tech.split('.');
       const tech = listIndexed[host as AllowedKeys];
-
-      const pl = new Payload({
-        name: tech.name,
-        folderPath: service.path[0],
-        tech: tech.tech,
-        reason: `implicit: ${service.tech}`,
-      });
-      const child = this.addChild(pl);
-      service.inComponent = child;
+      if (tech.type === 'hosting') {
+        const pl = new Payload({
+          name: tech.name,
+          folderPath: service.path[0],
+          tech: tech.tech,
+          reason: `implicit: ${service.tech}`,
+        });
+        const child = this.addChild(pl);
+        service.inComponent = child;
+      }
     }
 
     if (exist) {
