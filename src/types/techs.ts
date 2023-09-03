@@ -213,6 +213,7 @@ export type AllowedKeys =
   | 'traefik'
   | 'travisci'
   | 'twilio'
+  | 'twitter'
   | 'typescript'
   | 'vercel.ai'
   | 'vercel.analytics'

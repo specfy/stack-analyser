@@ -42,6 +42,7 @@ import './squarespace.js';
 import './squareup.js';
 import './stripe.js';
 import './twilio.js';
+import './twitter.js';
 import './webflow.js';
 import './wiz.js';
 import './zapier.js';

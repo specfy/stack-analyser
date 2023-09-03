@@ -178,6 +178,7 @@ exports[`all > should match everything 1`] = `
   "terragrunt",
   "travisci",
   "twilio",
+  "twitter",
   "typescript",
   "vercel",
   "vercel.ai",
