@@ -1,3 +1,10 @@
+## [1.4.8](https://github.com/specfy/stack-analyser/compare/v1.4.7...v1.4.8) (2023-09-03)
+
+
+### Bug Fixes
+
+* implicit component were not created with the correct name ([234b4cc](https://github.com/specfy/stack-analyser/commit/234b4cc56d1412165769fb23ee489eb19fd00dd7))
+
 ## [1.4.7](https://github.com/specfy/stack-analyser/compare/v1.4.6...v1.4.7) (2023-09-03)
 
 
