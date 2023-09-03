@@ -8,6 +8,7 @@ exports[`docker > should match everything 1`] = `
   "aws.s3",
   "caddy",
   "cassandra",
+  "clickhouse",
   "couchbase",
   "cypressci",
   "deno",
@@ -67,6 +68,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "cassandra",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "clickhouse/clickhouse-server",
     "0.0.0",
   ],
   [

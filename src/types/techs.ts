@@ -44,6 +44,7 @@ export type AllowedKeys =
   | 'cassandra'
   | 'circleci'
   | 'cirrusci'
+  | 'clickhouse'
   | 'cloudflare'
   | 'cockroachdb'
   | 'codesandboxci'
