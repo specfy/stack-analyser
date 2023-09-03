@@ -39,6 +39,7 @@ exports[`all > should match everything 1`] = `
   "clickhouse",
   "cockroachdb",
   "codesandboxci",
+  "contenful",
   "couchbase",
   "cypressci",
   "datadog",

@@ -5,6 +5,7 @@ import './atlassian.js';
 import './auth0.js';
 import './bitbucket.js';
 import './box.js';
+import './contentful.js';
 import './datadog.js';
 import './deferrun.js';
 import './discord.js';

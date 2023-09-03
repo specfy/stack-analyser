@@ -54,6 +54,7 @@ export type AllowedKeys =
   | 'cloudflare'
   | 'cockroachdb'
   | 'codesandboxci'
+  | 'contenful'
   | 'couchbase'
   | 'cplusplus'
   | 'csharp'
