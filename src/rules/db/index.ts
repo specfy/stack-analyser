@@ -1,3 +1,4 @@
+import './apache_spark.js';
 import './aws.dynamodb.js';
 import './aws.elasticache.js';
 import './aws.rds.js';

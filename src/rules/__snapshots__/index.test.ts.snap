@@ -10,6 +10,7 @@ exports[`all > should match everything 1`] = `
   "amplitude",
   "angular",
   "apache_airflow",
+  "apache_spark",
   "appveyor",
   "atlassian",
   "auth0",

@@ -22,6 +22,7 @@ export type AllowedKeys =
   | 'amplitude'
   | 'angular'
   | 'apache_airflow'
+  | 'apache_spark'
   | 'appveyor'
   | 'atlassian'
   | 'auth0'
