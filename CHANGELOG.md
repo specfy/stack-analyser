@@ -1,3 +1,27 @@
+## [1.4.5](https://github.com/specfy/stack-analyser/compare/v1.4.4...v1.4.5) (2023-09-03)
+
+
+### Bug Fixes
+
+* **rules:** add Airtable ([4bd132c](https://github.com/specfy/stack-analyser/commit/4bd132cf2267f58b635fd36d2149d17b051662fd))
+* **rules:** add Box ([cdb4501](https://github.com/specfy/stack-analyser/commit/cdb45010a3136711324e52e34b87b70eb1451ae0))
+* **rules:** add Clickhouse ([b61cf67](https://github.com/specfy/stack-analyser/commit/b61cf677508aa30c63b0cd42e8895e465a785b32))
+* **rules:** add Fabric ([95ff764](https://github.com/specfy/stack-analyser/commit/95ff764650c0af3cdf8aaa2f09d321f78245128c))
+* **rules:** add Figma ([02baeca](https://github.com/specfy/stack-analyser/commit/02baecacc0afb166e64f3ce7bf3d2b9b6cd206e5))
+* **rules:** add Gitbook ([8a74016](https://github.com/specfy/stack-analyser/commit/8a74016e28e4ed517e1f3fa465488f473a48150d))
+* **rules:** add Grafana ([4b8d5f7](https://github.com/specfy/stack-analyser/commit/4b8d5f7ec1b11fecf360f570074b9c339a43f81f))
+* **rules:** add Klaviyo ([9f6f69f](https://github.com/specfy/stack-analyser/commit/9f6f69fce83eb64d5a1d39963c36c3c4edefd6b9))
+* **rules:** add Mixpanel ([c4d1d28](https://github.com/specfy/stack-analyser/commit/c4d1d283367ee73ee6cfee1693db089c8bb47437))
+* **rules:** add Notion ([ec1381c](https://github.com/specfy/stack-analyser/commit/ec1381ce3a66a188b5a7c2081423242d30200a79))
+* **rules:** add Plausible ([e524128](https://github.com/specfy/stack-analyser/commit/e5241283845572e918c14092ab2c26d3815c1c8d))
+* **rules:** add Postman ([ecceae3](https://github.com/specfy/stack-analyser/commit/ecceae3582c36b8edb2811b1a5c174ebe6f4031d))
+* **rules:** add Sendgrid ([e562560](https://github.com/specfy/stack-analyser/commit/e562560b353f3240e1e450e5fc54dd25bbafd192))
+* **rules:** add Squarespace ([8cc8a1d](https://github.com/specfy/stack-analyser/commit/8cc8a1d07e2d50e6bb33122eba7b9c6e5d5fb34c))
+* **rules:** add Stripe ([d2c845f](https://github.com/specfy/stack-analyser/commit/d2c845f565cde9d42634b14144b4daf1f09ba472))
+* **rules:** add Twilio ([40b1f9f](https://github.com/specfy/stack-analyser/commit/40b1f9f45f10e3c6fbc8807a1447459707db311c))
+* **rules:** add Webflow ([0373511](https://github.com/specfy/stack-analyser/commit/0373511391bec106ffd6b71ab4975cbc59e839f5))
+* **rules:** add Wiz ([813e20a](https://github.com/specfy/stack-analyser/commit/813e20a722be4754207dd2c9da24c332fbc8107f))
+
 ## [1.4.4](https://github.com/specfy/stack-analyser/compare/v1.4.3...v1.4.4) (2023-09-02)
 
 
