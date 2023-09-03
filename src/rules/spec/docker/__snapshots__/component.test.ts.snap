@@ -2,6 +2,7 @@
 
 exports[`docker > should match everything 1`] = `
 [
+  "airbyte",
   "aws",
   "aws.dynamodb",
   "aws.lambda",
@@ -44,6 +45,11 @@ exports[`docker > should match everything 2`] = `
     "docker",
     "adobe/s3mock",
     "0.0.0",
+  ],
+  [
+    "docker",
+    "airbyte/worker",
+    "latest",
   ],
   [
     "docker",
