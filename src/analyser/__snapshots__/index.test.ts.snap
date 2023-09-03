@@ -134,7 +134,7 @@ exports[`analyser > should run correctly 1`] = `
               "id": "18",
               "inComponent": null,
               "languages": {},
-              "name": "datadog",
+              "name": "Datadog",
               "path": [
                 "/pkgs/api/package.json",
               ],
@@ -208,7 +208,7 @@ exports[`analyser > should run correctly 1`] = `
               "id": "20",
               "inComponent": null,
               "languages": {},
-              "name": "vercel",
+              "name": "Vercel",
               "path": [
                 "/pkgs/app/package.json",
               ],
@@ -294,6 +294,23 @@ exports[`analyser > should run correctly 1`] = `
         },
         {
           "childs": [],
+          "dependencies": [],
+          "edges": [],
+          "id": "14",
+          "inComponent": null,
+          "languages": {},
+          "name": "Postgres",
+          "path": [
+            "/deno/deno.lock",
+          ],
+          "reason": [
+            "postgresql matched: /\\\\/x\\\\/postgres@/",
+          ],
+          "tech": "postgresql",
+          "techs": [],
+        },
+        {
+          "childs": [],
           "dependencies": [
             [
               "terraform",
@@ -313,23 +330,6 @@ exports[`analyser > should run correctly 1`] = `
             "vercel matched: /^registry.terraform.io\\\\/vercel\\\\/vercel$/",
           ],
           "tech": "vercel",
-          "techs": [],
-        },
-        {
-          "childs": [],
-          "dependencies": [],
-          "edges": [],
-          "id": "14",
-          "inComponent": null,
-          "languages": {},
-          "name": "postgresql",
-          "path": [
-            "/deno/deno.lock",
-          ],
-          "reason": [
-            "postgresql matched: /\\\\/x\\\\/postgres@/",
-          ],
-          "tech": "postgresql",
           "techs": [],
         },
         {
@@ -646,6 +646,21 @@ exports[`analyser > should run correctly 2`] = `
     },
     {
       "childs": [],
+      "dependencies": [],
+      "edges": [],
+      "id": "18",
+      "inComponent": null,
+      "languages": {},
+      "name": "Datadog",
+      "path": [
+        "/pkgs/api/package.json",
+      ],
+      "reason": [],
+      "tech": "datadog",
+      "techs": [],
+    },
+    {
+      "childs": [],
       "dependencies": [
         [
           "terraform",
@@ -667,18 +682,27 @@ exports[`analyser > should run correctly 2`] = `
     },
     {
       "childs": [],
-      "dependencies": [],
+      "dependencies": [
+        [
+          "terraform",
+          "registry.terraform.io/vercel/vercel",
+          "4.61.0",
+        ],
+      ],
       "edges": [],
-      "id": "18",
+      "id": "20",
       "inComponent": null,
       "languages": {},
-      "name": "datadog",
+      "name": "Vercel",
       "path": [
-        "/pkgs/api/package.json",
+        "/pkgs/app/package.json",
+        "/terraform/.terraform.lock.hcl",
       ],
       "reason": [],
-      "tech": "datadog",
-      "techs": [],
+      "tech": "vercel",
+      "techs": [
+        "vercel",
+      ],
     },
     {
       "childs": [],
@@ -880,30 +904,6 @@ exports[`analyser > should run correctly 2`] = `
       "reason": [],
       "tech": null,
       "techs": [],
-    },
-    {
-      "childs": [],
-      "dependencies": [
-        [
-          "terraform",
-          "registry.terraform.io/vercel/vercel",
-          "4.61.0",
-        ],
-      ],
-      "edges": [],
-      "id": "20",
-      "inComponent": null,
-      "languages": {},
-      "name": "vercel",
-      "path": [
-        "/pkgs/app/package.json",
-        "/terraform/.terraform.lock.hcl",
-      ],
-      "reason": [],
-      "tech": "vercel",
-      "techs": [
-        "vercel",
-      ],
     },
   ],
   "dependencies": [
