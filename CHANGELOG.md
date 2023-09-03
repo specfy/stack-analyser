@@ -1,3 +1,10 @@
+## [1.4.7](https://github.com/specfy/stack-analyser/compare/v1.4.6...v1.4.7) (2023-09-03)
+
+
+### Bug Fixes
+
+* do not implicitly add host if the first name is not an host ([edd4b23](https://github.com/specfy/stack-analyser/commit/edd4b23c334b79cc8106dc945ef4c09fd9a6c6a8))
+
 ## [1.4.6](https://github.com/specfy/stack-analyser/compare/v1.4.5...v1.4.6) (2023-09-03)
 
 
