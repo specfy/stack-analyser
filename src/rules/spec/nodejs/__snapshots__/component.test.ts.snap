@@ -61,6 +61,7 @@ exports[`npm > should match everything 1`] = `
   "koa",
   "kubernetes",
   "logrocket",
+  "logsnag",
   "mailchimp",
   "mailjet",
   "mariadb",
@@ -665,6 +666,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "logrocket",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "logsnag",
     "0.0.0",
   ],
   [

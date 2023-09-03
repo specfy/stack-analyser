@@ -99,6 +99,7 @@ exports[`all > should match everything 1`] = `
   "koa",
   "kubernetes",
   "logrocket",
+  "logsnag",
   "mailchimp",
   "mailjet",
   "mariadb",

@@ -127,6 +127,7 @@ export type AllowedKeys =
   | 'kotlin'
   | 'kubernetes'
   | 'logrocket'
+  | 'logsnag'
   | 'mailchimp'
   | 'mailjet'
   | 'mariadb'
