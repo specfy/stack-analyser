@@ -3,6 +3,7 @@
 exports[`docker > should match everything 1`] = `
 [
   "airbyte",
+  "apache_airflow",
   "aws",
   "aws.dynamodb",
   "aws.lambda",
@@ -64,6 +65,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "amazon/dynamodb-local",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "apache/airflow",
     "0.0.0",
   ],
   [

@@ -21,6 +21,7 @@ export type AllowedKeys =
   | 'alibabacloud'
   | 'amplitude'
   | 'angular'
+  | 'apache_airflow'
   | 'appveyor'
   | 'atlassian'
   | 'auth0'

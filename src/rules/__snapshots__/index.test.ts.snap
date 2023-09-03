@@ -9,6 +9,7 @@ exports[`all > should match everything 1`] = `
   "alibabacloud",
   "amplitude",
   "angular",
+  "apache_airflow",
   "appveyor",
   "atlassian",
   "auth0",
