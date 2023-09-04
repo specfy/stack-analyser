@@ -49,6 +49,7 @@ exports[`all > should match everything 1`] = `
   "cypressci",
   "databricks",
   "datadog",
+  "dataiku",
   "deferrun",
   "deno",
   "dependabot",
