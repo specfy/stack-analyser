@@ -78,6 +78,7 @@ export type AllowedKeys =
   | 'docker'
   | 'docusign'
   | 'dropbox'
+  | 'dynatrace'
   | 'elasticloud'
   | 'elasticsearch'
   | 'elasticstack'

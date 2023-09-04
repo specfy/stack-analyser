@@ -12,6 +12,7 @@ import './deferrun.js';
 import './discord.js';
 import './docusign.js';
 import './dropbox.js';
+import './dynatrace.js';
 import './fabric.js';
 import './figma.js';
 import './gitbook.js';

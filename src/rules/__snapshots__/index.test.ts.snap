@@ -60,6 +60,7 @@ exports[`all > should match everything 1`] = `
   "docker",
   "docusign",
   "dropbox",
+  "dynatrace",
   "elasticsearch",
   "elasticstack",
   "equinix",
