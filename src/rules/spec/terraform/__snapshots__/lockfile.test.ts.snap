@@ -36,6 +36,7 @@ exports[`terraform (lockfile) > should match everything 1`] = `
   "snowflake",
   "snyk",
   "splunk",
+  "tencentcloud",
   "terraform",
   "vercel",
 ]

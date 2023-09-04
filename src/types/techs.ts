@@ -210,6 +210,7 @@ export type AllowedKeys =
   | 'swift'
   | 'tailwind'
   | 'teamcity'
+  | 'tencentcloud'
   | 'terraform'
   | 'terragrunt'
   | 'traefik'

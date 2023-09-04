@@ -176,6 +176,7 @@ exports[`all > should match everything 1`] = `
   "supabase.storage",
   "tailwind",
   "teamcity",
+  "tencentcloud",
   "terraform",
   "terragrunt",
   "travisci",
