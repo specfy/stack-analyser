@@ -69,6 +69,7 @@ exports[`all > should match everything 1`] = `
   "expodev",
   "express",
   "fabric",
+  "facebook",
   "fastify",
   "fastly",
   "figma",

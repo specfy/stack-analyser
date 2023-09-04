@@ -89,6 +89,7 @@ export type AllowedKeys =
   | 'expodev'
   | 'express'
   | 'fabric'
+  | 'facebook'
   | 'fastify'
   | 'fastly'
   | 'figma'

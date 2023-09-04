@@ -14,6 +14,7 @@ import './docusign.js';
 import './dropbox.js';
 import './dynatrace.js';
 import './fabric.js';
+import './facebook.js';
 import './figma.js';
 import './gitbook.js';
 import './github.js';
