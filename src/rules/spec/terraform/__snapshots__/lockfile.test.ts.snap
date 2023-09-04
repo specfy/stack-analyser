@@ -2,11 +2,15 @@
 
 exports[`terraform (lockfile) > should match everything 1`] = `
 [
+  "airbyte",
   "alibabacloud",
+  "apache_kafka",
   "auth0",
   "aws",
   "azure",
+  "clickhouse",
   "cockroachdb",
+  "couchbase",
   "datadog",
   "elasticsearch",
   "elasticstack",
@@ -15,6 +19,7 @@ exports[`terraform (lockfile) > should match everything 1`] = `
   "gcp",
   "github",
   "gitlab",
+  "grafana",
   "hashicorp_vault",
   "helm",
   "heroku",
@@ -30,6 +35,7 @@ exports[`terraform (lockfile) > should match everything 1`] = `
   "slack",
   "snowflake",
   "snyk",
+  "splunk",
   "terraform",
   "vercel",
 ]

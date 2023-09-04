@@ -9,5 +9,9 @@ register({
     { type: 'docker', name: /couchbase/, example: 'couchbase:0.0.0' },
     { type: 'rust', name: 'couchbase' },
     { type: 'ruby', name: 'couchbase' },
+    {
+      type: 'terraform',
+      name: 'registry.terraform.io/couchbasecloud/couchbasecapella',
+    },
   ],
 });
