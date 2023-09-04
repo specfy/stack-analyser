@@ -13,6 +13,8 @@ exports[`terraform (resource) > should match everything 1`] = `
   "aws.sns",
   "aws.sqs",
   "datadog",
+  "firebase",
+  "firebase.firestore",
   "gcp",
   "gcp.aiplatform",
   "gcp.bigquery",

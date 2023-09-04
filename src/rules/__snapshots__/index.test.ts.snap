@@ -61,6 +61,7 @@ exports[`all > should match everything 1`] = `
   "fastly",
   "figma",
   "firebase",
+  "firebase.firestore",
   "flyio",
   "gcp",
   "gcp.aiplatform",

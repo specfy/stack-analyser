@@ -8,6 +8,7 @@ import './clickhouse.js';
 import './cockroachdb.js';
 import './couchbase.js';
 import './elasticsearch.js';
+import './firebase.firestore.js';
 import './gcp.bigquery.js';
 import './gcp.bigtable.js';
 import './gcp.datastore.js';

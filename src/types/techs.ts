@@ -82,6 +82,7 @@ export type AllowedKeys =
   | 'fastify'
   | 'fastly'
   | 'figma'
+  | 'firebase.firestore'
   | 'firebase'
   | 'flyio'
   | 'gcp.aiplatform'
