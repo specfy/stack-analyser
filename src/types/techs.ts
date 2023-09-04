@@ -24,6 +24,7 @@ export type AllowedKeys =
   | 'apache_airflow'
   | 'apache_cassandra'
   | 'apache_couchdb'
+  | 'apache_flink'
   | 'apache_kafka'
   | 'apache_spark'
   | 'appveyor'
