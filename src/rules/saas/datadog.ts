@@ -7,6 +7,7 @@ register({
   dependencies: [
     { type: 'npm', name: /^@datadog\//, example: '@datadog/cli' },
     { type: 'npm', name: 'dd-trace' },
+    { type: 'npm', name: 'datadog-metrics' },
     { type: 'terraform', name: 'registry.terraform.io/datadog/datadog' },
     { type: 'terraform.resource', name: 'datadog_metric_metadata' },
     { type: 'terraform.resource', name: 'datadog_application_key' },
