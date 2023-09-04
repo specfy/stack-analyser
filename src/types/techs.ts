@@ -76,6 +76,7 @@ export type AllowedKeys =
   | 'discord'
   | 'discourse'
   | 'docker'
+  | 'docusign'
   | 'dropbox'
   | 'elasticloud'
   | 'elasticsearch'

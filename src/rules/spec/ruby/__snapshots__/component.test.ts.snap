@@ -18,6 +18,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "cloudflare",
   "couchbase",
   "datadog",
+  "docusign",
   "elasticsearch",
   "fastly",
   "firebase",
@@ -204,6 +205,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "dependabot-common",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "docusign_esign",
     "1.0.0",
   ],
   [

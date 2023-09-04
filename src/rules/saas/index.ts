@@ -10,6 +10,7 @@ import './crowdin.js';
 import './datadog.js';
 import './deferrun.js';
 import './discord.js';
+import './docusign.js';
 import './dropbox.js';
 import './fabric.js';
 import './figma.js';

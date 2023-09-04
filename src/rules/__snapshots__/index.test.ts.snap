@@ -58,6 +58,7 @@ exports[`all > should match everything 1`] = `
   "discord",
   "discourse",
   "docker",
+  "docusign",
   "dropbox",
   "elasticsearch",
   "elasticstack",
