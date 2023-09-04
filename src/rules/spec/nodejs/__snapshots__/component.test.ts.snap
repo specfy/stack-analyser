@@ -20,6 +20,7 @@ exports[`npm > should match everything 1`] = `
   "bootstrap",
   "browserstack",
   "clickhouse",
+  "cloudflare",
   "couchbase",
   "cypressci",
   "datadog",
@@ -201,6 +202,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@clickhouse/client",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@cloudflare/kv-asset-handler",
     "0.0.0",
   ],
   [

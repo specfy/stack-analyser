@@ -15,6 +15,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "aws.sns",
   "aws.sqs",
   "azure",
+  "cloudflare",
   "couchbase",
   "datadog",
   "elasticsearch",
@@ -168,6 +169,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "circleci",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "cloudflare-rails",
     "1.0.0",
   ],
   [
