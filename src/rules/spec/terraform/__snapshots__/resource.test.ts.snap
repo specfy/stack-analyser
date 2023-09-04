@@ -3,6 +3,7 @@
 exports[`terraform (resource) > should match everything 1`] = `
 [
   "aws",
+  "aws.amplify_hosting",
   "aws.dynamodb",
   "aws.ec2",
   "aws.elasticache",

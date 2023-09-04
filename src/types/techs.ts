@@ -32,6 +32,7 @@ export type AllowedKeys =
   | 'appveyor'
   | 'atlassian'
   | 'auth0'
+  | 'aws.amplify_hosting'
   | 'aws.dynamodb'
   | 'aws.ec2'
   | 'aws.elasticache'

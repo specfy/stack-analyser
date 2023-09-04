@@ -21,6 +21,7 @@ exports[`all > should match everything 1`] = `
   "atlassian",
   "auth0",
   "aws",
+  "aws.amplify_hosting",
   "aws.dynamodb",
   "aws.ec2",
   "aws.elasticache",
