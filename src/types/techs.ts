@@ -60,6 +60,7 @@ export type AllowedKeys =
   | 'contenful'
   | 'couchbase'
   | 'cplusplus'
+  | 'crowdin'
   | 'csharp'
   | 'css'
   | 'cypressci'

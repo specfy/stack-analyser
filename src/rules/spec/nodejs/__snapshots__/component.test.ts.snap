@@ -22,6 +22,7 @@ exports[`npm > should match everything 1`] = `
   "clickhouse",
   "cloudflare",
   "couchbase",
+  "crowdin",
   "cypressci",
   "datadog",
   "deferrun",
@@ -207,6 +208,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@cloudflare/kv-asset-handler",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@crowdin/crowdin-api-client",
     "0.0.0",
   ],
   [
