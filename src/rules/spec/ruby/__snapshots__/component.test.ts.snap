@@ -7,6 +7,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "aws",
   "aws.dynamodb",
   "aws.ec2",
+  "aws.ecs",
   "aws.elasticache",
   "aws.glacier",
   "aws.lambda",
@@ -110,6 +111,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "aws-sdk-ec2",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "aws-sdk-ecs",
     "1.0.0",
   ],
   [

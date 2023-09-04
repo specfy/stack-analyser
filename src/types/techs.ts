@@ -35,6 +35,7 @@ export type AllowedKeys =
   | 'aws.amplify_hosting'
   | 'aws.dynamodb'
   | 'aws.ec2'
+  | 'aws.ecs'
   | 'aws.elasticache'
   | 'aws.fargate'
   | 'aws.glacier'
