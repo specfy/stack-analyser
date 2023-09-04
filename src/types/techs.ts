@@ -27,6 +27,7 @@ export type AllowedKeys =
   | 'apache_flink'
   | 'apache_kafka'
   | 'apache_spark'
+  | 'apache_storm'
   | 'appveyor'
   | 'atlassian'
   | 'auth0'

@@ -1,4 +1,5 @@
 import './airbyte.js';
 import './apache_airflow.js';
 import './apache_flink.js';
+import './apache_storm.js';
 import './gcp.dataproc.js';
