@@ -74,6 +74,7 @@ export type AllowedKeys =
   | 'dependabot'
   | 'digitalocean'
   | 'discord'
+  | 'discourse'
   | 'docker'
   | 'dropbox'
   | 'elasticloud'

@@ -20,6 +20,7 @@ exports[`docker > should match everything 1`] = `
   "couchbase",
   "cypressci",
   "deno",
+  "discourse",
   "docker",
   "elasticsearch",
   "grafana",
@@ -105,6 +106,11 @@ exports[`docker > should match everything 2`] = `
   ],
   [
     "docker",
+    "bitnami/discourse",
+    "0.0.0",
+  ],
+  [
+    "docker",
     "bitnami/kafka",
     "0.0.0",
   ],
@@ -136,6 +142,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "denoland/deno",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "discourse/base",
     "0.0.0",
   ],
   [
