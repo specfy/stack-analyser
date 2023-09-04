@@ -25,6 +25,7 @@ exports[`all > should match everything 1`] = `
   "aws.dynamodb",
   "aws.ec2",
   "aws.elasticache",
+  "aws.fargate",
   "aws.glacier",
   "aws.lambda",
   "aws.rds",

@@ -36,6 +36,7 @@ export type AllowedKeys =
   | 'aws.dynamodb'
   | 'aws.ec2'
   | 'aws.elasticache'
+  | 'aws.fargate'
   | 'aws.glacier'
   | 'aws.lambda'
   | 'aws.rds'
