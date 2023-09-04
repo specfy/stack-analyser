@@ -68,6 +68,7 @@ export type AllowedKeys =
   | 'databricks'
   | 'datadog'
   | 'dataiku'
+  | 'datastax'
   | 'deferrun'
   | 'deno'
   | 'dependabot'

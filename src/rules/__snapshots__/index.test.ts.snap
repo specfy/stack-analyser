@@ -50,6 +50,7 @@ exports[`all > should match everything 1`] = `
   "databricks",
   "datadog",
   "dataiku",
+  "datastax",
   "deferrun",
   "deno",
   "dependabot",

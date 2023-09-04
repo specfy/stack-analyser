@@ -14,6 +14,7 @@ exports[`terraform (lockfile) > should match everything 1`] = `
   "couchbase",
   "databricks",
   "datadog",
+  "datastax",
   "digitalocean",
   "elasticsearch",
   "elasticstack",

@@ -8,6 +8,7 @@ import './aws.rds.js';
 import './clickhouse.js';
 import './cockroachdb.js';
 import './couchbase.js';
+import './datastax.js';
 import './elasticsearch.js';
 import './firebase.firestore.js';
 import './gcp.bigquery.js';
