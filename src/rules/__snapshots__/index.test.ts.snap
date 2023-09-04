@@ -47,6 +47,7 @@ exports[`all > should match everything 1`] = `
   "couchbase",
   "crowdin",
   "cypressci",
+  "databricks",
   "datadog",
   "deferrun",
   "deno",

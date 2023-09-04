@@ -65,6 +65,7 @@ export type AllowedKeys =
   | 'css'
   | 'cypressci'
   | 'dart'
+  | 'databricks'
   | 'datadog'
   | 'deferrun'
   | 'deno'
