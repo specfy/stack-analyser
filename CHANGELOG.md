@@ -1,3 +1,28 @@
+## [1.4.9](https://github.com/specfy/stack-analyser/compare/v1.4.8...v1.4.9) (2023-09-04)
+
+
+### Bug Fixes
+
+* **rules:** add Apache Flink ([c97479a](https://github.com/specfy/stack-analyser/commit/c97479a3acb4f0ca959255047c523805878f1b30))
+* **rules:** add Apache Iceberg ([0887243](https://github.com/specfy/stack-analyser/commit/0887243d667dbbd4ce49f55e075bc0ead322caa4))
+* **rules:** add Apache Storm ([949c655](https://github.com/specfy/stack-analyser/commit/949c655990a1d76c4475319cac36641b4c4cc9a2))
+* **rules:** add AWS Amplify Hosting ([ff1aed2](https://github.com/specfy/stack-analyser/commit/ff1aed29e594bfb27bd204db3ff7e16feac8f7ff))
+* **rules:** add AWS ECS ([1c40cea](https://github.com/specfy/stack-analyser/commit/1c40cea1ea2d6991909fceef1d718d45be31f60a))
+* **rules:** add AWS Fargate ([1510e40](https://github.com/specfy/stack-analyser/commit/1510e40c84ce44fbd811f3a91ac6eba6c5dbedb5))
+* **rules:** add Crowdin ([05c8c32](https://github.com/specfy/stack-analyser/commit/05c8c3269f6c5871a7ea6cadb4f881a53d9fda71))
+* **rules:** add Databricks ([127e17f](https://github.com/specfy/stack-analyser/commit/127e17f126639e122b388fb7dcecd3db8e95498c))
+* **rules:** add Dataiku ([f596cd5](https://github.com/specfy/stack-analyser/commit/f596cd5cffd2326ca47adcdcafc629916f27ae01))
+* **rules:** add Datastax ([fd8a612](https://github.com/specfy/stack-analyser/commit/fd8a612509bca5a9b97b1eadaeea555b95754514))
+* **rules:** add Digital Ocean ([0de015b](https://github.com/specfy/stack-analyser/commit/0de015ba3d8309b9be5ea5ba8c22ca05882b74e3))
+* **rules:** add Discourse ([4e2af20](https://github.com/specfy/stack-analyser/commit/4e2af202c9afba1f7587119e515d91bb864516f7))
+* **rules:** add Docusign ([736f516](https://github.com/specfy/stack-analyser/commit/736f5168014aaf46f2dbf01923a1ad3d91cf5591))
+* **rules:** add Dynatrace ([5395ba3](https://github.com/specfy/stack-analyser/commit/5395ba3996e8708fb986d7aad07f9ebc65a708af))
+* **rules:** add Facebook ([f41b2f5](https://github.com/specfy/stack-analyser/commit/f41b2f592e1f669558aa5f29ceaf24ffe5d027c3))
+* **rules:** add Firebase Firestore ([a968586](https://github.com/specfy/stack-analyser/commit/a96858694c9a0d3ae1e0bc4ad42228e4d6d241bd))
+* **rules:** add missing package for Datadog ([07e0750](https://github.com/specfy/stack-analyser/commit/07e075065ecbd14a2651cc4e96465caf44312fc7))
+* **rules:** add some missing Terraform provider ([b3dd1bc](https://github.com/specfy/stack-analyser/commit/b3dd1bcaa19e0450ed17a446a43214d2f3b5d02c))
+* **rules:** add Tencent Cloud ([9ca03d1](https://github.com/specfy/stack-analyser/commit/9ca03d1f0b70a77a56120bb6e320da1d9ca5a668))
+
 ## [1.4.8](https://github.com/specfy/stack-analyser/compare/v1.4.7...v1.4.8) (2023-09-03)
 
 
