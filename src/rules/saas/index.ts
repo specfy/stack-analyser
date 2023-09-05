@@ -3,6 +3,7 @@ import './airtable.js';
 import './algolia.js';
 import './atlassian.js';
 import './auth0.js';
+import './bigcommerce.js';
 import './bitbucket.js';
 import './box.js';
 import './contentful.js';

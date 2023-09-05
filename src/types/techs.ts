@@ -49,6 +49,7 @@ export type AllowedKeys =
   | 'azure.ci'
   | 'azure'
   | 'bash'
+  | 'bigcommerce'
   | 'bitbucket'
   | 'bootstrap'
   | 'box'

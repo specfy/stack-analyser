@@ -36,6 +36,7 @@ exports[`all > should match everything 1`] = `
   "aws.sqs",
   "azure",
   "azure.ci",
+  "bigcommerce",
   "bitbucket",
   "bootstrap",
   "box",
