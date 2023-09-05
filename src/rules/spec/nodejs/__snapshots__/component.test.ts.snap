@@ -97,6 +97,7 @@ exports[`npm > should match everything 1`] = `
   "resend",
   "rollup",
   "salesforce",
+  "sanity",
   "scaleway",
   "sendgrid",
   "sentry",
@@ -836,6 +837,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "rollup",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "sanity",
     "0.0.0",
   ],
   [

@@ -166,6 +166,7 @@ exports[`all > should match everything 1`] = `
   "ruby",
   "rust",
   "salesforce",
+  "sanity",
   "scaleway",
   "sendgrid",
   "sentry",

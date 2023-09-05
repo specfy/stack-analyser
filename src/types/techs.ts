@@ -195,6 +195,7 @@ export type AllowedKeys =
   | 'ruby'
   | 'rust'
   | 'salesforce'
+  | 'sanity'
   | 'scaleway'
   | 'scss'
   | 'sendgrid'
