@@ -9,6 +9,7 @@ exports[`npm > should match everything 1`] = `
   "angular",
   "auth0",
   "aws",
+  "aws.amplify_hosting",
   "aws.dynamodb",
   "aws.ec2",
   "aws.ecs",
@@ -128,6 +129,7 @@ exports[`npm > should match everything 1`] = `
   "supabase.storage",
   "sveltejs",
   "tailwind",
+  "tinybird",
   "twilio",
   "typescript",
   "vercel",
@@ -163,6 +165,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@auth0/auth0-react",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@aws-amplify/ui-react",
     "0.0.0",
   ],
   [
@@ -547,6 +554,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@tinybirdco/next-tinybird",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@twilio/cli-core",
     "0.0.0",
   ],
@@ -608,6 +620,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "auth0",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "aws-amplify",
     "0.0.0",
   ],
   [

@@ -206,6 +206,7 @@ exports[`all > should match everything 1`] = `
   "tencentcloud",
   "terraform",
   "terragrunt",
+  "tinybird",
   "travisci",
   "twilio",
   "twitter",

@@ -238,6 +238,7 @@ export type AllowedKeys =
   | 'tencentcloud'
   | 'terraform'
   | 'terragrunt'
+  | 'tinybird'
   | 'traefik'
   | 'travisci'
   | 'twilio'
