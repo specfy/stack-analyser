@@ -6,6 +6,7 @@ import './eslint.js';
 import './express.js';
 import './fastify.js';
 import './koa.js';
+import './meteorjs.js';
 import './nextjs.js';
 import './prettier.js';
 import './prisma.js';
