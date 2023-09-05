@@ -226,6 +226,7 @@ export type AllowedKeys =
   | 'supabase.postgres'
   | 'supabase.storage'
   | 'supabase'
+  | 'sveltejs'
   | 'swift'
   | 'tailwind'
   | 'teamcity'

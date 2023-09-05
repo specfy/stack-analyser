@@ -20,6 +20,7 @@ import './socketio.js';
 import './storybook.js';
 import './strapi.js';
 import './stylelint.js';
+import './sveltejs.js';
 import './tailwind.js';
 import './typescript.js';
 import './vite.js';

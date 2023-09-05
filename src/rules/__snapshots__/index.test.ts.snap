@@ -196,6 +196,7 @@ exports[`all > should match everything 1`] = `
   "supabase.functions",
   "supabase.postgres",
   "supabase.storage",
+  "sveltejs",
   "tailwind",
   "teamcity",
   "tencentcloud",

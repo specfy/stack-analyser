@@ -122,6 +122,7 @@ exports[`npm > should match everything 1`] = `
   "supabase.functions",
   "supabase.postgres",
   "supabase.storage",
+  "sveltejs",
   "tailwind",
   "twilio",
   "typescript",
@@ -537,6 +538,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@sveltejs/vite-plugin-svelte",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@twilio/cli-core",
     "0.0.0",
   ],
@@ -938,6 +944,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "stripe",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "svelte",
     "0.0.0",
   ],
   [
