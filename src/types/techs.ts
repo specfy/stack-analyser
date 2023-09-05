@@ -19,6 +19,7 @@ export type AllowedKeys =
   | 'airtable'
   | 'algolia'
   | 'alibabacloud'
+  | 'alpinejs'
   | 'amplitude'
   | 'angular'
   | 'apache_airflow'

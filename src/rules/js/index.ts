@@ -1,3 +1,4 @@
+import './alpinejs.js';
 import './angular.js';
 import './bootstrap.js';
 import './emberjs.js';
