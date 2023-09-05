@@ -21,6 +21,7 @@ import './github.js';
 import './hotjar.js';
 import './hubspot.js';
 import './huggingface.js';
+import './hypertune.js';
 import './klaviyo.js';
 import './logrocket.js';
 import './mailchimp.js';

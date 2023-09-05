@@ -65,6 +65,7 @@ exports[`npm > should match everything 1`] = `
   "github",
   "hotjar",
   "huggingface",
+  "hypertune",
   "influxdb",
   "koa",
   "kubernetes",
@@ -745,6 +746,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "googleapis",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "hypertune",
     "0.0.0",
   ],
   [

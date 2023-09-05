@@ -118,6 +118,7 @@ exports[`all > should match everything 1`] = `
   "httpd",
   "hubspot",
   "huggingface",
+  "hypertune",
   "influxdb",
   "jenkins",
   "kibana",

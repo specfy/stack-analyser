@@ -139,6 +139,7 @@ export type AllowedKeys =
   | 'httpd'
   | 'hubspot'
   | 'huggingface'
+  | 'hypertune'
   | 'influxdb'
   | 'java'
   | 'javascript'
