@@ -155,6 +155,7 @@ exports[`all > should match everything 1`] = `
   "percona",
   "pingdom",
   "placekit",
+  "planetscale",
   "platformsh",
   "plausible",
   "postgresql",

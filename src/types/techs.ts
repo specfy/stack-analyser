@@ -182,6 +182,7 @@ export type AllowedKeys =
   | 'php'
   | 'pingdom'
   | 'placekit'
+  | 'planetscale'
   | 'platformsh'
   | 'plausible'
   | 'postgresql'

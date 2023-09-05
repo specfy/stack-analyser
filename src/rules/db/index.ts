@@ -24,6 +24,7 @@ import './mongodb.js';
 import './mysql.js';
 import './neo4j.js';
 import './percona.js';
+import './planetscale.js';
 import './postgres.js';
 import './redis.js';
 import './snowflake.js';
