@@ -47,6 +47,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "heroku",
   "influxdb",
   "kubernetes",
+  "launchdarkly",
   "mailchimp",
   "mailjet",
   "mariadb",
@@ -361,6 +362,16 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "kubeclient",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "launchdarkly-server-sdk",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "ldclient-rb",
     "1.0.0",
   ],
   [

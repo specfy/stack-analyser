@@ -33,6 +33,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "gcp.translate",
   "gcp.vision",
   "golang",
+  "launchdarkly",
 ]
 `;
 
@@ -191,6 +192,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/aws/aws-sdk-go-v2/service/sqs",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/launchdarkly/go-sdk-common/v3",
     "v1.0.0",
   ],
 ]

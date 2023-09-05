@@ -69,6 +69,7 @@ exports[`npm > should match everything 1`] = `
   "influxdb",
   "koa",
   "kubernetes",
+  "launchdarkly",
   "logrocket",
   "logsnag",
   "mailchimp",
@@ -406,6 +407,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@kubernetes/client-node",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@launchdarkly/cloudflare-server-sdk",
     "0.0.0",
   ],
   [
@@ -771,6 +777,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "koa",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "launchdarkly-react-client-sdk",
     "0.0.0",
   ],
   [

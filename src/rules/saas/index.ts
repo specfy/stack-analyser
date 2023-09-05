@@ -23,6 +23,7 @@ import './hubspot.js';
 import './huggingface.js';
 import './hypertune.js';
 import './klaviyo.js';
+import './launchdarkly.js';
 import './logrocket.js';
 import './mailchimp.js';
 import './mailjet.js';

@@ -31,6 +31,7 @@ exports[`rust (component) > should match everything 1`] = `
   "hashicorp_vault",
   "influxdb",
   "kubernetes",
+  "launchdarkly",
   "mailjet",
   "memcached",
   "mongodb",
@@ -221,6 +222,11 @@ exports[`rust (component) > should match everything 2`] = `
   [
     "rust",
     "lambda_runtime",
+    "1.0.0",
+  ],
+  [
+    "rust",
+    "launchdarkly-server-sdk",
     "1.0.0",
   ],
   [

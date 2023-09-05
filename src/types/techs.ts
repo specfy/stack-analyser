@@ -151,6 +151,7 @@ export type AllowedKeys =
   | 'koa'
   | 'kotlin'
   | 'kubernetes'
+  | 'launchdarkly'
   | 'logrocket'
   | 'logsnag'
   | 'mailchimp'
