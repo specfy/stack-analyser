@@ -10,6 +10,7 @@ import './meteorjs.js';
 import './mithriljs.js';
 import './nextjs.js';
 import './nuxtjs.js';
+import './preactjs.js';
 import './prettier.js';
 import './prisma.js';
 import './puppeteer.js';

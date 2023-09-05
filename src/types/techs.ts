@@ -183,6 +183,7 @@ export type AllowedKeys =
   | 'postgresql'
   | 'postman'
   | 'powershell'
+  | 'preactjs'
   | 'prettier'
   | 'prisma'
   | 'prismacloud'

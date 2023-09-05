@@ -155,6 +155,7 @@ exports[`all > should match everything 1`] = `
   "plausible",
   "postgresql",
   "postman",
+  "preactjs",
   "prettier",
   "prisma",
   "prismacloud",

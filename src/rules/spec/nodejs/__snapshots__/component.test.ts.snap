@@ -90,6 +90,7 @@ exports[`npm > should match everything 1`] = `
   "placekit",
   "postgresql",
   "postman",
+  "preactjs",
   "prettier",
   "prisma",
   "puppeteer",
@@ -856,6 +857,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "postman-request",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "preact",
     "0.0.0",
   ],
   [
