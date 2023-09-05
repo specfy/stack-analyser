@@ -18,6 +18,7 @@ import './facebook.js';
 import './figma.js';
 import './gitbook.js';
 import './github.js';
+import './hotjar.js';
 import './hubspot.js';
 import './huggingface.js';
 import './klaviyo.js';

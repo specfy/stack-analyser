@@ -5,7 +5,6 @@ import './esbuild.js';
 import './eslint.js';
 import './express.js';
 import './fastify.js';
-import './hotjar.js';
 import './koa.js';
 import './nextjs.js';
 import './prettier.js';
