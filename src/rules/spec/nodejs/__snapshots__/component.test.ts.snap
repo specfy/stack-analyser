@@ -581,6 +581,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@types/aws-lambda",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@upstash/kafka",
     "0.0.0",
   ],
