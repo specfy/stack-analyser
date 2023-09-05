@@ -9,6 +9,7 @@ import './koa.js';
 import './meteorjs.js';
 import './mithriljs.js';
 import './nextjs.js';
+import './nuxtjs.js';
 import './prettier.js';
 import './prisma.js';
 import './puppeteer.js';

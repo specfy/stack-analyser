@@ -167,6 +167,7 @@ export type AllowedKeys =
   | 'nginx'
   | 'nodejs'
   | 'notion'
+  | 'nuxtjs'
   | 'okta'
   | 'openai'
   | 'oraclecloud'

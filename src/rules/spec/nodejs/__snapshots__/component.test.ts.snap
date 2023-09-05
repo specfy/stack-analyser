@@ -81,6 +81,7 @@ exports[`npm > should match everything 1`] = `
   "newrelic",
   "nextjs",
   "nodejs",
+  "nuxtjs",
   "okta",
   "openai",
   "oraclecloud",
@@ -819,6 +820,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "node-mailjet",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "nuxt",
     "0.0.0",
   ],
   [
