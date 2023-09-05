@@ -33,4 +33,5 @@ import './sitecore.js';
 import './supabase.functions.js';
 import './supabase.js';
 import './tencentcloud.js';
+import './upstash.js';
 import './vercel.js';

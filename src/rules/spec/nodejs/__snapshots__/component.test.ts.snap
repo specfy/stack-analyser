@@ -135,6 +135,10 @@ exports[`npm > should match everything 1`] = `
   "tinybird",
   "twilio",
   "typescript",
+  "upstash",
+  "upstash.kafka",
+  "upstash.qstash",
+  "upstash.redis",
   "vercel",
   "vercel.ai",
   "vercel.analytics",
@@ -573,6 +577,21 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@twilio/cli-core",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@upstash/kafka",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@upstash/qstash",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@upstash/redis",
     "0.0.0",
   ],
   [

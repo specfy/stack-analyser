@@ -30,6 +30,7 @@ import './redis.js';
 import './snowflake.js';
 import './sqlite.js';
 import './supabase.postgres.js';
+import './upstash.redis.js';
 import './vercel.blob.js';
 import './vercel.kv.js';
 import './vercel.postgres.js';
