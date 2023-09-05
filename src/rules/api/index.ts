@@ -4,4 +4,5 @@ import './gcp.maps.js';
 import './gcp.speech.js';
 import './gcp.translate.js';
 import './gcp.vision.js';
+import './sitecore.xmcloud.js';
 import './vercel.ai.js';

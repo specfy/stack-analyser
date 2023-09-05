@@ -172,6 +172,8 @@ exports[`all > should match everything 1`] = `
   "sentry",
   "sequelize",
   "shopify",
+  "sitecore",
+  "sitecore.xmlcloud",
   "slack",
   "snowflake",
   "snyk",

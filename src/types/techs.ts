@@ -203,6 +203,8 @@ export type AllowedKeys =
   | 'sequelize'
   | 'shell'
   | 'shopify'
+  | 'sitecore.xmlcloud'
+  | 'sitecore'
   | 'slack'
   | 'snowflake'
   | 'snyk'

@@ -103,6 +103,8 @@ exports[`npm > should match everything 1`] = `
   "sentry",
   "sequelize",
   "shopify",
+  "sitecore",
+  "sitecore.xmlcloud",
   "slack",
   "snyk",
   "socketio",
@@ -467,6 +469,16 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@shopify/shopify-api",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@sitecore-jss/sitecore-jss",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@sitecore-jss/sitecore-jss-nextjs",
     "0.0.0",
   ],
   [

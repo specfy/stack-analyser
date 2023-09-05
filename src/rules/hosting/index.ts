@@ -29,6 +29,7 @@ import './ovh.js';
 import './platformsh.js';
 import './render.js';
 import './scaleway.js';
+import './sitecore.js';
 import './supabase.functions.js';
 import './supabase.js';
 import './tencentcloud.js';
