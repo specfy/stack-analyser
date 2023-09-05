@@ -1,5 +1,6 @@
 import './angular.js';
 import './bootstrap.js';
+import './emberjs.js';
 import './esbuild.js';
 import './eslint.js';
 import './express.js';
