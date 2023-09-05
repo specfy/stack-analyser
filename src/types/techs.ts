@@ -161,6 +161,7 @@ export type AllowedKeys =
   | 'neo4j'
   | 'netlify'
   | 'newrelic'
+  | 'nextjs'
   | 'nginx'
   | 'nodejs'
   | 'notion'

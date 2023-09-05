@@ -6,6 +6,7 @@ import './express.js';
 import './fastify.js';
 import './hotjar.js';
 import './koa.js';
+import './nextjs.js';
 import './prettier.js';
 import './prisma.js';
 import './puppeteer.js';
