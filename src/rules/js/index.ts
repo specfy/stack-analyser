@@ -7,6 +7,7 @@ import './express.js';
 import './fastify.js';
 import './koa.js';
 import './meteorjs.js';
+import './mithriljs.js';
 import './nextjs.js';
 import './prettier.js';
 import './prisma.js';

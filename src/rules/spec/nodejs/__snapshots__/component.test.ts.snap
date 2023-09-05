@@ -73,6 +73,7 @@ exports[`npm > should match everything 1`] = `
   "mariadb",
   "memcached",
   "meteorjs",
+  "mithriljs",
   "mongodb",
   "mysql",
   "neo4j",
@@ -762,6 +763,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "meteor-node-stubs",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "mithril",
     "0.0.0",
   ],
   [

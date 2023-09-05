@@ -155,6 +155,7 @@ export type AllowedKeys =
   | 'mariadb'
   | 'memcached'
   | 'meteorjs'
+  | 'mithriljs'
   | 'mixpanel'
   | 'mongodb'
   | 'mongodbatlas'

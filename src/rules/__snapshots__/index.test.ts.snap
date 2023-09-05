@@ -130,6 +130,7 @@ exports[`all > should match everything 1`] = `
   "mariadb",
   "memcached",
   "meteorjs",
+  "mithriljs",
   "mixpanel",
   "mongodb",
   "mongodbatlas",
