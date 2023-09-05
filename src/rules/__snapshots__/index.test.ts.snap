@@ -183,6 +183,7 @@ exports[`all > should match everything 1`] = `
   "snowflake",
   "snyk",
   "socketio",
+  "solidjs",
   "splunk",
   "sqlite",
   "sqreen",

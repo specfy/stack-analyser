@@ -113,6 +113,7 @@ exports[`npm > should match everything 1`] = `
   "slack",
   "snyk",
   "socketio",
+  "solidjs",
   "sqlite",
   "sqreen",
   "squarespace",
@@ -925,6 +926,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "socket.io",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "solid-js",
     "0.0.0",
   ],
   [

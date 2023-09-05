@@ -18,6 +18,7 @@ import './reactEmail.js';
 import './rollup.js';
 import './sequelize.js';
 import './socketio.js';
+import './solidjs.js';
 import './storybook.js';
 import './strapi.js';
 import './stylelint.js';
