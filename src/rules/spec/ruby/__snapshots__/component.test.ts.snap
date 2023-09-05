@@ -66,6 +66,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "sentry",
   "slack",
   "snowflake",
+  "splitio",
   "sqlite",
   "sqreen",
   "zookeeper",
@@ -462,6 +463,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "slack-ruby-client",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "splitclient-rb",
     "1.0.0",
   ],
   [

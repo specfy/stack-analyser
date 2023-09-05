@@ -34,6 +34,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "gcp.vision",
   "golang",
   "launchdarkly",
+  "splitio",
 ]
 `;
 
@@ -197,6 +198,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/launchdarkly/go-sdk-common/v3",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/splitio/go-client/v6",
     "v1.0.0",
   ],
 ]

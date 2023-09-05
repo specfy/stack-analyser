@@ -188,6 +188,7 @@ exports[`all > should match everything 1`] = `
   "snyk",
   "socketio",
   "solidjs",
+  "splitio",
   "splunk",
   "sqlite",
   "sqreen",

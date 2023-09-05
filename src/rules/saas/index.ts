@@ -44,6 +44,7 @@ import './sentry.js';
 import './shopify.js';
 import './slack.js';
 import './snyk.js';
+import './splitio.js';
 import './splunk.js';
 import './sqreen.js';
 import './squarespace.js';

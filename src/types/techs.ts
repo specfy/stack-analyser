@@ -219,6 +219,7 @@ export type AllowedKeys =
   | 'snyk'
   | 'socketio'
   | 'solidjs'
+  | 'splitio'
   | 'splunk'
   | 'sqlite'
   | 'sqreen'
