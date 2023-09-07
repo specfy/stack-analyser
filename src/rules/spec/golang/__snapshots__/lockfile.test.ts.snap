@@ -14,6 +14,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "aws.sns",
   "aws.sqs",
   "azure",
+  "brevo",
   "clickhouse",
   "elasticsearch",
   "gcp",
@@ -236,6 +237,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/elastic/go-elasticsearch",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/getbrevo/brevo-go",
     "v1.0.0",
   ],
   [

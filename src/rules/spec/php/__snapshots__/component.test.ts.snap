@@ -19,6 +19,7 @@ exports[`php > should match everything 1`] = `
   "aws.sqs",
   "bigcommerce",
   "bitbucket",
+  "brevo",
   "clickhouse",
   "cloudflare",
   "cockroachdb",
@@ -303,6 +304,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "fastly/magento2",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "getbrevo/brevo-php",
     "0.0.0",
   ],
   [
@@ -648,6 +654,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "sendgrid/sendgrid",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "sendinblue/api-v3-sdk",
     "0.0.0",
   ],
   [

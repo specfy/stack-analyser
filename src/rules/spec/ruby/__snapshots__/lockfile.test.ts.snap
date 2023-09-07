@@ -16,6 +16,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "aws.sns",
   "aws.sqs",
   "azure",
+  "brevo",
   "cloudflare",
   "couchbase",
   "datadog",
@@ -500,6 +501,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "sequel-snowflake",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "sib-api-v3-sdk",
     "1.0.0",
   ],
   [

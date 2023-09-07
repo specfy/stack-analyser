@@ -21,6 +21,7 @@ exports[`npm > should match everything 1`] = `
   "aws.sns",
   "aws.sqs",
   "bootstrap",
+  "brevo",
   "browserstack",
   "clickhouse",
   "cloudflare",
@@ -299,6 +300,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@getbrevo/brevo",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@gitbook/api",
     "0.0.0",
   ],
@@ -530,6 +536,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@sendgrid/mail",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@sendinblue/client",
     "0.0.0",
   ],
   [

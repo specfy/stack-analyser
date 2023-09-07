@@ -6,6 +6,7 @@ import './auth0.js';
 import './bigcommerce.js';
 import './bitbucket.js';
 import './box.js';
+import './brevo.js';
 import './contentful.js';
 import './crowdin.js';
 import './datadog.js';

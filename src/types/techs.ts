@@ -53,6 +53,7 @@ export type AllowedKeys =
   | 'bitbucket'
   | 'bootstrap'
   | 'box'
+  | 'brevo'
   | 'browserstack'
   | 'c'
   | 'caddy'
