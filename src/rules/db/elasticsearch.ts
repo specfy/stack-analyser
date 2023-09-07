@@ -16,5 +16,6 @@ register({
     { type: 'ruby', name: 'elasticsearch' },
     { type: 'ruby', name: 'aws-sdk-elasticsearchservice' },
     { type: 'php', name: 'elasticsearch/elasticsearch' },
+    { type: 'php', name: 'ruflin/Elastica' },
   ],
 });

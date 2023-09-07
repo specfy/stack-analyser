@@ -73,6 +73,7 @@ exports[`php > should match everything 1`] = `
   "ovh",
   "pagerduty",
   "php",
+  "phpstan",
   "phpunit",
   "postgresql",
   "rabbitmq",
@@ -88,7 +89,9 @@ exports[`php > should match everything 1`] = `
   "tencentcloud",
   "twigphp",
   "twilio",
+  "woocommerce",
   "wordpress",
+  "yii2",
   "zookeeper",
 ]
 `;
@@ -168,6 +171,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "auth0/login",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "automattic/woocommerce",
     "0.0.0",
   ],
   [
@@ -567,6 +575,11 @@ exports[`php > should match everything 2`] = `
   ],
   [
     "php",
+    "phpstan/phpstan",
+    "0.0.0",
+  ],
+  [
+    "php",
     "phpunit/phpunit",
     "0.0.0",
   ],
@@ -583,6 +596,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "roots/wordpress",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "ruflin/Elastica",
     "0.0.0",
   ],
   [
@@ -667,7 +685,7 @@ exports[`php > should match everything 2`] = `
   ],
   [
     "php",
-    "symfony/yaml",
+    "symfony/symfony",
     "0.0.0",
   ],
   [
@@ -688,6 +706,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "wp-cli/wp-cli",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "yiisoft/yii2",
     "0.0.0",
   ],
   [
