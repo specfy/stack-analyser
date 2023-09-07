@@ -8,10 +8,7 @@ const FILES = ['Gemfile'];
 const NEW_LINE_REG = /\r?\n/;
 const DEP_REG = /gem "(.+)",\s+("(.+)")?/;
 
-export const detectRubyComponent: ComponentMatcher = async (
-  files,
-  provider
-) => {
+export const detectRubyLockfile: ComponentMatcher = async (files, provider) => {
   for (const file of files) {
     if (!FILES.includes(file.name)) {
       continue;

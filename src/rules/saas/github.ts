@@ -2,7 +2,7 @@ import { register } from '../../register.js';
 
 register({
   tech: 'github',
-  name: 'Github',
+  name: 'GitHub',
   type: 'saas',
   files: ['.github'],
   dependencies: [

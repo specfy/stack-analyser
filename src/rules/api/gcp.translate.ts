@@ -13,5 +13,6 @@ register({
       example: 'google-cloud-translate-v1',
     },
     { type: 'golang', name: 'cloud.google.com/go/translate' },
+    { type: 'php', name: 'google/cloud-translate' },
   ],
 });

@@ -37,6 +37,7 @@ exports[`docker > should match everything 1`] = `
   "nginx",
   "nodejs",
   "percona",
+  "php",
   "plausible",
   "postgresql",
   "rabbitmq",
@@ -217,6 +218,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "percona",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "php",
     "0.0.0",
   ],
   [

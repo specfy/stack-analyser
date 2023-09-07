@@ -153,6 +153,7 @@ exports[`all > should match everything 1`] = `
   "ovh",
   "pagerduty",
   "percona",
+  "php",
   "pingdom",
   "placekit",
   "planetscale",

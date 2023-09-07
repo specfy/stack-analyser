@@ -16,5 +16,6 @@ register({
     },
     { type: 'ruby', name: 'google-cloud-bigtable' },
     { type: 'golang', name: 'cloud.google.com/go/bigtable' },
+    { type: 'php', name: 'google/cloud-bigtable' },
   ],
 });
