@@ -25,6 +25,7 @@ import './heroku.js';
 import './kubernetes.js';
 import './mongodbatlas.js';
 import './netlify.js';
+import './nextcloud.js';
 import './oraclecloud.js';
 import './ovh.js';
 import './platformsh.js';

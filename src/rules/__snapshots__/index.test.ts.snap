@@ -152,6 +152,7 @@ exports[`all > should match everything 1`] = `
   "neo4j",
   "netlify",
   "newrelic",
+  "nextcloud",
   "nextjs",
   "nginx",
   "nodejs",

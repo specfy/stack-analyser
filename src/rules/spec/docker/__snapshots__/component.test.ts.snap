@@ -35,6 +35,7 @@ exports[`docker > should match everything 1`] = `
   "mongodb",
   "mysql",
   "neo4j",
+  "nextcloud",
   "nginx",
   "nodejs",
   "percona",
@@ -209,6 +210,16 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "neo4j",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "nextcloud/aio-nextcloud",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "nextcloud/all-in-one",
     "0.0.0",
   ],
   [
