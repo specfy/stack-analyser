@@ -48,6 +48,7 @@ exports[`npm > should match everything 1`] = `
   "gcp.bigtable",
   "gcp.cloudbuild",
   "gcp.cloudrun",
+  "gcp.dataflow",
   "gcp.dataproc",
   "gcp.datastore",
   "gcp.dialogflow",
@@ -328,6 +329,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@google-cloud/compute",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@google-cloud/dataflow",
     "0.0.0",
   ],
   [

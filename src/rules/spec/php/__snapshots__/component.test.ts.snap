@@ -38,6 +38,7 @@ exports[`php > should match everything 1`] = `
   "gcp.bigtable",
   "gcp.cloudbuild",
   "gcp.cloudrun",
+  "gcp.dataflow",
   "gcp.dataproc",
   "gcp.datastore",
   "gcp.dialogflow",
@@ -341,6 +342,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "google/cloud-compute",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "google/cloud-dataflow",
     "0.0.0",
   ],
   [

@@ -108,6 +108,7 @@ export type AllowedKeys =
   | 'gcp.bigtable'
   | 'gcp.cloudbuild'
   | 'gcp.cloudrun'
+  | 'gcp.dataflow'
   | 'gcp.dataproc'
   | 'gcp.datastore'
   | 'gcp.dialogflow'
