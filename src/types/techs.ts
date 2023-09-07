@@ -110,6 +110,7 @@ export type AllowedKeys =
   | 'gcp.cloudrun'
   | 'gcp.dataproc'
   | 'gcp.datastore'
+  | 'gcp.dialogflow'
   | 'gcp.dns'
   | 'gcp.functions'
   | 'gcp.gce'

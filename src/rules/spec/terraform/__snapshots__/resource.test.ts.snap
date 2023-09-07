@@ -25,6 +25,7 @@ exports[`terraform (resource) > should match everything 1`] = `
   "gcp.cloudrun",
   "gcp.dataproc",
   "gcp.datastore",
+  "gcp.dialogflow",
   "gcp.dns",
   "gcp.functions",
   "gcp.gce",

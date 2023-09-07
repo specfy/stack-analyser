@@ -50,6 +50,7 @@ exports[`npm > should match everything 1`] = `
   "gcp.cloudrun",
   "gcp.dataproc",
   "gcp.datastore",
+  "gcp.dialogflow",
   "gcp.dns",
   "gcp.functions",
   "gcp.gce",
@@ -335,6 +336,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@google-cloud/datastore",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@google-cloud/dialogflow",
     "0.0.0",
   ],
   [

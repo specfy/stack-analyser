@@ -30,6 +30,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "gcp.cloudrun",
   "gcp.dataproc",
   "gcp.datastore",
+  "gcp.dialogflow",
   "gcp.dns",
   "gcp.functions",
   "gcp.gce",
@@ -285,6 +286,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "google-cloud-datastore",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "google-cloud-dialogflow-v1",
     "1.0.0",
   ],
   [

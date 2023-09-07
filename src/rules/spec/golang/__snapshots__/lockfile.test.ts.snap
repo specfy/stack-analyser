@@ -22,6 +22,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "gcp.cloudrun",
   "gcp.dataproc",
   "gcp.datastore",
+  "gcp.dialogflow",
   "gcp.functions",
   "gcp.gce",
   "gcp.gcs",
@@ -75,6 +76,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "cloud.google.com/go/datastore",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "cloud.google.com/go/dialogflow",
     "v1.0.0",
   ],
   [
