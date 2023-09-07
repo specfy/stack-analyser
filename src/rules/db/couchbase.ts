@@ -13,5 +13,6 @@ register({
       type: 'terraform',
       name: 'registry.terraform.io/couchbasecloud/couchbasecapella',
     },
+    { type: 'php', name: 'couchbase/couchbase' },
   ],
 });

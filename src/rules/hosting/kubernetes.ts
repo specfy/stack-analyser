@@ -9,5 +9,6 @@ register({
     { type: 'rust', name: 'k8s-openapi' },
     { type: 'ruby', name: 'kubeclient' },
     { type: 'npm', name: '@kubernetes/client-node' },
+    { type: 'php', name: 'kubernetes/php-client' },
   ],
 });

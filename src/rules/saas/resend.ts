@@ -4,5 +4,8 @@ register({
   tech: 'resend',
   name: 'Resend',
   type: 'saas',
-  dependencies: [{ type: 'npm', name: 'resend' }],
+  dependencies: [
+    { type: 'npm', name: 'resend' },
+    { type: 'php', name: 'resend/resend-php' },
+  ],
 });

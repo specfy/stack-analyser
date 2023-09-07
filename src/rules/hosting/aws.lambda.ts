@@ -21,5 +21,6 @@ register({
       name: /^aws_lambda/,
       example: 'aws_lambda_alias',
     },
+    { type: 'php', name: 'async-aws/lambda' },
   ],
 });

@@ -12,5 +12,6 @@ register({
       type: 'terraform',
       name: 'registry.terraform.io/ClickHouse/clickhouse',
     },
+    { type: 'php', name: 'smi2/phpclickhouse' },
   ],
 });

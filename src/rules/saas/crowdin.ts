@@ -11,5 +11,6 @@ register({
       name: /^@crowdin\//,
       example: '@crowdin/crowdin-api-client',
     },
+    { type: 'php', name: 'crowdin/crowdin-api-client' },
   ],
 });

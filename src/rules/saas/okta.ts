@@ -9,5 +9,6 @@ register({
     { type: 'terraform', name: 'registry.terraform.io/okta/okta' },
     { type: 'rust', name: 'okta' },
     { type: 'ruby', name: 'oktakit' },
+    { type: 'php', name: 'socialiteproviders/okta' },
   ],
 });

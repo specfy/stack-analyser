@@ -27,5 +27,7 @@ register({
       type: 'terraform',
       name: 'registry.terraform.io/launchdarkly/launchdarkly',
     },
+    { type: 'php', name: 'launchdarkly/server-sdk' },
+    { type: 'php', name: 'launchdarkly/launchdarkly-php' },
   ],
 });

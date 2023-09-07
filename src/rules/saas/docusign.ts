@@ -7,5 +7,6 @@ register({
   dependencies: [
     { type: 'npm', name: 'docusign-esign' },
     { type: 'ruby', name: 'docusign_esign' },
+    { type: 'php', name: 'docusign/esign-client' },
   ],
 });
