@@ -141,6 +141,7 @@ exports[`all > should match everything 1`] = `
   "mailchimp",
   "mailjet",
   "mariadb",
+  "matomo",
   "meilisearch",
   "memcached",
   "meteorjs",

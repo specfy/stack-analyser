@@ -30,6 +30,7 @@ exports[`docker > should match everything 1`] = `
   "jenkins",
   "kibana",
   "mariadb",
+  "matomo",
   "meilisearch",
   "memcached",
   "mongodb",
@@ -119,6 +120,11 @@ exports[`docker > should match everything 2`] = `
   ],
   [
     "docker",
+    "bitnami/matomo",
+    "0.0.0",
+  ],
+  [
+    "docker",
     "caddy",
     "0.0.0",
   ],
@@ -190,6 +196,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "mariadb",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "matomo",
     "0.0.0",
   ],
   [
