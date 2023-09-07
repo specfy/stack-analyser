@@ -16,5 +16,7 @@ register({
     { type: 'rust', name: 'datadog-apm' },
     { type: 'ruby', name: 'ddtrace' },
     { type: 'ruby', name: /datadog/, example: 'datadog-lambda' },
+    { type: 'php', name: 'datadog/php-datadogstatsd' },
+    { type: 'php', name: 'datadog/dd-trace' },
   ],
 });

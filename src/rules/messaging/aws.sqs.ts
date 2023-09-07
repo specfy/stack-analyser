@@ -14,5 +14,6 @@ register({
       name: /^aws_sqs/,
       example: 'aws_sqs_queue',
     },
+    { type: 'php', name: 'async-aws/sqs' },
   ],
 });

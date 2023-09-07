@@ -9,5 +9,6 @@ register({
     { type: 'docker', name: /rabbitmq/, example: 'rabbitmq:0.0.0' },
     { type: 'rust', name: 'rabbitmq-stream-client' },
     { type: 'ruby', name: 'bunny' },
+    { type: 'php', name: 'php-amqplib/php-amqplib' },
   ],
 });

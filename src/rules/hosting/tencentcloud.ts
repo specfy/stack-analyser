@@ -9,5 +9,6 @@ register({
       type: 'terraform',
       name: 'registry.terraform.io/tencentcloudstack/tencentcloud',
     },
+    { type: 'php', name: 'encentcloud/tencentcloud-sdk-php' },
   ],
 });

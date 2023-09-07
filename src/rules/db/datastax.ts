@@ -9,5 +9,6 @@ register({
       type: 'terraform',
       name: 'registry.terraform.io/datastax/astra',
     },
+    { type: 'php', name: 'datastax/php-driver' },
   ],
 });

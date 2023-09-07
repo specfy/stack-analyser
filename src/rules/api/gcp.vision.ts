@@ -12,5 +12,6 @@ register({
       example: 'google-cloud-vision-v1',
     },
     { type: 'golang', name: 'cloud.google.com/go/vision' },
+    { type: 'php', name: 'google/cloud-vision' },
   ],
 });

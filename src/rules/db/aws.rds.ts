@@ -15,5 +15,6 @@ register({
       name: /^aws_rds/,
       example: 'aws_rds_cluster',
     },
+    { type: 'php', name: 'async-aws/rds-data-service' },
   ],
 });

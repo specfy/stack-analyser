@@ -24,6 +24,7 @@ exports[`npm > should match everything 1`] = `
   "browserstack",
   "clickhouse",
   "cloudflare",
+  "contenful",
   "couchbase",
   "crowdin",
   "cypressci",
@@ -681,6 +682,16 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "contentful",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "contentful-management",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "couchbase",
     "0.0.0",
   ],
@@ -767,6 +778,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "fastly",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "fastly/fastly",
     "0.0.0",
   ],
   [

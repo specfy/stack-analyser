@@ -17,5 +17,7 @@ register({
     },
     { type: 'ruby', name: 'functions_framework ' },
     { type: 'golang', name: 'cloud.google.com/go/functions' },
+    { type: 'php', name: 'google/cloud-functions-framework' },
+    { type: 'php', name: 'google/cloud-functions' },
   ],
 });

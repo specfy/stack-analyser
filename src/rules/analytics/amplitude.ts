@@ -7,5 +7,6 @@ register({
   dependencies: [
     { type: 'npm', name: 'amplitude-js' },
     { type: 'npm', name: '@amplitude/analytics-browser' },
+    { type: 'php', name: 'zumba/amplitude-php' },
   ],
 });

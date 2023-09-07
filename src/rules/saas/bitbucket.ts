@@ -4,4 +4,5 @@ register({
   tech: 'bitbucket',
   name: 'Bitbucket',
   type: 'saas',
+  dependencies: [{ type: 'php', name: 'bitbucket/client' }],
 });

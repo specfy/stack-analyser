@@ -9,5 +9,6 @@ register({
     { type: 'terraform.resource', name: 'google_compute_instance' },
     { type: 'ruby', name: 'google-cloud-compute' },
     { type: 'golang', name: 'cloud.google.com/go/compute' },
+    { type: 'php', name: 'google/cloud-compute' },
   ],
 });

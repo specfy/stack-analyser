@@ -13,5 +13,6 @@ register({
       example: 'google-cloud-build-v1',
     },
     { type: 'golang', name: 'cloud.google.com/go/cloudbuild' },
+    { type: 'php', name: 'google/cloud-build' },
   ],
 });

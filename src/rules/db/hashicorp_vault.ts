@@ -9,5 +9,6 @@ register({
     { type: 'terraform', name: 'registry.terraform.io/hashicorp/vault' },
     { type: 'rust', name: 'hashicorp_vault' },
     { type: 'ruby', name: 'vault' },
+    { type: 'php', name: 'csharpru/vault-php' },
   ],
 });

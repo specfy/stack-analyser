@@ -8,6 +8,7 @@ export type SupportedDeps =
   | 'docker'
   | 'golang'
   | 'npm'
+  | 'php'
   | 'ruby'
   | 'rust'
   | 'terraform.resource'
