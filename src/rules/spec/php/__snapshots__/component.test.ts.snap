@@ -46,6 +46,7 @@ exports[`php > should match everything 1`] = `
   "gcp.gcs",
   "gcp.kms",
   "gcp.language",
+  "gcp.memorystore",
   "gcp.pubsub",
   "gcp.secretmanager",
   "gcp.spanner",
@@ -385,6 +386,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "google/cloud-pubsub",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "google/cloud-redis",
     "0.0.0",
   ],
   [

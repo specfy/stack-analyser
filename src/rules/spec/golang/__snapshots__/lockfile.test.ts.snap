@@ -29,6 +29,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "gcp.kms",
   "gcp.language",
   "gcp.maps",
+  "gcp.memorystore",
   "gcp.pubsub",
   "gcp.secretmanager",
   "gcp.spanner",
@@ -107,6 +108,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "cloud.google.com/go/pubsub",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "cloud.google.com/go/redis",
     "v1.0.0",
   ],
   [

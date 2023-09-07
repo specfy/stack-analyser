@@ -14,6 +14,7 @@ import './firebase.firestore.js';
 import './gcp.bigquery.js';
 import './gcp.bigtable.js';
 import './gcp.datastore.js';
+import './gcp.memorystore.js';
 import './gcp.secretmanager.js';
 import './gcp.sql.js';
 import './gcp.spanner.js';

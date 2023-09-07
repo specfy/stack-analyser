@@ -38,6 +38,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "gcp.kms",
   "gcp.language",
   "gcp.maps",
+  "gcp.memorystore",
   "gcp.pubsub",
   "gcp.secretmanager",
   "gcp.spanner",
@@ -317,6 +318,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "google-cloud-pubsub",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "google-cloud-redis-v1",
     "1.0.0",
   ],
   [
