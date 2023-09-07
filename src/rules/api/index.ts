@@ -1,5 +1,6 @@
 import './gcp.aiplatform.js';
 import './gcp.dialogflow.js';
+import './gcp.kms.js';
 import './gcp.language.js';
 import './gcp.maps.js';
 import './gcp.speech.js';

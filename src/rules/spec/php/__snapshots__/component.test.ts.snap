@@ -44,6 +44,7 @@ exports[`php > should match everything 1`] = `
   "gcp.functions",
   "gcp.gce",
   "gcp.gcs",
+  "gcp.kms",
   "gcp.language",
   "gcp.pubsub",
   "gcp.secretmanager",
@@ -369,6 +370,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "google/cloud-functions-framework",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "google/cloud-kms",
     "0.0.0",
   ],
   [

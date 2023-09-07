@@ -35,6 +35,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "gcp.functions",
   "gcp.gce",
   "gcp.gcs",
+  "gcp.kms",
   "gcp.language",
   "gcp.maps",
   "gcp.pubsub",
@@ -301,6 +302,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "google-cloud-functions-v1",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "google-cloud-kms-v1",
     "1.0.0",
   ],
   [

@@ -55,6 +55,7 @@ exports[`npm > should match everything 1`] = `
   "gcp.functions",
   "gcp.gce",
   "gcp.gcs",
+  "gcp.kms",
   "gcp.language",
   "gcp.maps",
   "gcp.pubsub",
@@ -351,6 +352,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@google-cloud/functions-framework",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@google-cloud/kms",
     "0.0.0",
   ],
   [

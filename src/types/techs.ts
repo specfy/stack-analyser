@@ -116,6 +116,7 @@ export type AllowedKeys =
   | 'gcp.gce'
   | 'gcp.gcs'
   | 'gcp.gke'
+  | 'gcp.kms'
   | 'gcp.language'
   | 'gcp.maps'
   | 'gcp.pubsub'
