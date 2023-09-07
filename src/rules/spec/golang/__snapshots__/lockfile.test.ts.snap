@@ -15,6 +15,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "aws.sqs",
   "azure",
   "clickhouse",
+  "elasticsearch",
   "gcp",
   "gcp.aiplatform",
   "gcp.bigquery",
@@ -40,6 +41,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "gcp.vision",
   "golang",
   "launchdarkly",
+  "meilisearch",
   "splitio",
 ]
 `;
@@ -233,7 +235,17 @@ exports[`golang (lockfile) > should match everything 2`] = `
   ],
   [
     "golang",
+    "github.com/elastic/go-elasticsearch",
+    "v1.0.0",
+  ],
+  [
+    "golang",
     "github.com/launchdarkly/go-sdk-common/v3",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/meilisearch/meilisearch-go",
     "v1.0.0",
   ],
   [

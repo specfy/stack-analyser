@@ -30,6 +30,7 @@ exports[`docker > should match everything 1`] = `
   "jenkins",
   "kibana",
   "mariadb",
+  "meilisearch",
   "memcached",
   "mongodb",
   "mysql",
@@ -153,6 +154,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "elasticsearch",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "getmeili/meilisearch",
     "0.0.0",
   ],
   [

@@ -70,6 +70,7 @@ exports[`php > should match everything 1`] = `
   "magento",
   "mailchimp",
   "mailjet",
+  "meilisearch",
   "mixpanel",
   "mongodb",
   "newrelic",
@@ -552,6 +553,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "martin-georgiev/postgresql-for-doctrine",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "meilisearch/meilisearch-php ",
     "0.0.0",
   ],
   [

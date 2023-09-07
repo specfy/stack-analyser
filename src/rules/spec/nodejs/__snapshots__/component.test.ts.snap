@@ -82,6 +82,7 @@ exports[`npm > should match everything 1`] = `
   "mailchimp",
   "mailjet",
   "mariadb",
+  "meilisearch",
   "memcached",
   "meteorjs",
   "mithriljs",
@@ -464,6 +465,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@mailchimp/mailchimp_transactional",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@meilisearch/instant-meilisearch",
     "0.0.0",
   ],
   [
@@ -879,6 +885,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "mariadb",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "meilisearch",
     "0.0.0",
   ],
   [

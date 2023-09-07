@@ -33,6 +33,7 @@ exports[`rust (component) > should match everything 1`] = `
   "kubernetes",
   "launchdarkly",
   "mailjet",
+  "meilisearch",
   "memcached",
   "mongodb",
   "mysql",
@@ -237,6 +238,11 @@ exports[`rust (component) > should match everything 2`] = `
   [
     "rust",
     "mailjet-rs",
+    "1.0.0",
+  ],
+  [
+    "rust",
+    "meilisearch-sdk",
     "1.0.0",
   ],
   [

@@ -57,6 +57,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "mailchimp",
   "mailjet",
   "mariadb",
+  "meilisearch",
   "memcached",
   "mongodb",
   "mysql",
@@ -229,6 +230,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "elasticsearch",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "elastimeilisearchcsearch",
     "1.0.0",
   ],
   [

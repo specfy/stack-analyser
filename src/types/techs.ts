@@ -167,6 +167,7 @@ export type AllowedKeys =
   | 'mailchimp'
   | 'mailjet'
   | 'mariadb'
+  | 'meilisearch'
   | 'memcached'
   | 'meteorjs'
   | 'mithriljs'

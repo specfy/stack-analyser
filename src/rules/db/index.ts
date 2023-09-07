@@ -21,6 +21,7 @@ import './gcp.spanner.js';
 import './hashicorp_vault.js';
 import './influxdb.js';
 import './mariadb.js';
+import './meilisearch.js';
 import './memcached.js';
 import './mongodb.js';
 import './mysql.js';

@@ -17,5 +17,6 @@ register({
     { type: 'ruby', name: 'aws-sdk-elasticsearchservice' },
     { type: 'php', name: 'elasticsearch/elasticsearch' },
     { type: 'php', name: 'ruflin/Elastica' },
+    { type: 'golang', name: 'github.com/elastic/go-elasticsearch' },
   ],
 });
