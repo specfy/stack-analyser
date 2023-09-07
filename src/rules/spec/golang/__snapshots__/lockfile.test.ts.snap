@@ -31,6 +31,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "gcp.secretmanager",
   "gcp.spanner",
   "gcp.speech",
+  "gcp.tasks",
   "gcp.translate",
   "gcp.vision",
   "golang",
@@ -119,6 +120,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "cloud.google.com/go/storage",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "cloud.google.com/go/tasks",
     "v1.0.0",
   ],
   [

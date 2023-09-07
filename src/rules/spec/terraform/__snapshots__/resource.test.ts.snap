@@ -35,6 +35,7 @@ exports[`terraform (resource) > should match everything 1`] = `
   "gcp.secretmanager",
   "gcp.spanner",
   "gcp.sql",
+  "gcp.tasks",
   "terraform",
 ]
 `;

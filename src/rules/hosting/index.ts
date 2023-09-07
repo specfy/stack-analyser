@@ -18,6 +18,7 @@ import './gcp.cloudrun.js';
 import './gcp.functions.js';
 import './gcp.gce.js';
 import './gcp.gke.js';
+import './gcp.tasks.js';
 import './gcp.js';
 import './github.pages.js';
 import './heroku.js';

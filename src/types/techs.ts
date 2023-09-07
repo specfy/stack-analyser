@@ -122,6 +122,7 @@ export type AllowedKeys =
   | 'gcp.spanner'
   | 'gcp.speech'
   | 'gcp.sql'
+  | 'gcp.tasks'
   | 'gcp.translate'
   | 'gcp.vision'
   | 'gcp'

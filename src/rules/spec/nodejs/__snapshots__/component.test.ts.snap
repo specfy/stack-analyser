@@ -61,6 +61,7 @@ exports[`npm > should match everything 1`] = `
   "gcp.spanner",
   "gcp.speech",
   "gcp.sql",
+  "gcp.tasks",
   "gcp.translate",
   "gcp.vision",
   "gitbook",
@@ -384,6 +385,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@google-cloud/storage",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@google-cloud/tasks",
     "0.0.0",
   ],
   [

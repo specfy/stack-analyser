@@ -11,6 +11,10 @@ register({
       name: 'google_cloudfunctions_function',
     },
     {
+      type: 'terraform.resource',
+      name: 'google_cloudfunctions2_function',
+    },
+    {
       type: 'ruby',
       name: /^google-cloud-functions/,
       example: 'google-cloud-functions-v1',
