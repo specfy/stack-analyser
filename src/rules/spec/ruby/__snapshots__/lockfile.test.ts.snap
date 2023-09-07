@@ -38,6 +38,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "gcp.maps",
   "gcp.pubsub",
   "gcp.secretmanager",
+  "gcp.spanner",
   "gcp.speech",
   "gcp.sql",
   "gcp.translate",
@@ -318,6 +319,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "google-cloud-secret_manager-v1",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "google-cloud-spanner-v1",
     "1.0.0",
   ],
   [

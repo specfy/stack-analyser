@@ -16,6 +16,7 @@ import './gcp.bigtable.js';
 import './gcp.datastore.js';
 import './gcp.secretmanager.js';
 import './gcp.sql.js';
+import './gcp.spanner.js';
 import './hashicorp_vault.js';
 import './influxdb.js';
 import './mariadb.js';

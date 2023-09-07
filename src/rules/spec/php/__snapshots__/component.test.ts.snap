@@ -46,6 +46,7 @@ exports[`php > should match everything 1`] = `
   "gcp.language",
   "gcp.pubsub",
   "gcp.secretmanager",
+  "gcp.spanner",
   "gcp.speech",
   "gcp.sql",
   "gcp.translate",
@@ -381,6 +382,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "google/cloud-secret-manager",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "google/cloud-spanner",
     "0.0.0",
   ],
   [

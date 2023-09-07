@@ -119,6 +119,7 @@ export type AllowedKeys =
   | 'gcp.maps'
   | 'gcp.pubsub'
   | 'gcp.secretmanager'
+  | 'gcp.spanner'
   | 'gcp.speech'
   | 'gcp.sql'
   | 'gcp.translate'
