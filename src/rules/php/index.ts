@@ -1,6 +1,7 @@
 import './doctrinephp.js';
 import './laravel.js';
 import './magento.js';
+import './phppest.js';
 import './phpstan.js';
 import './phpunit.js';
 import './symfony.js';

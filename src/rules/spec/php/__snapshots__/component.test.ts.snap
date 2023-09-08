@@ -81,6 +81,7 @@ exports[`php > should match everything 1`] = `
   "ovh",
   "pagerduty",
   "php",
+  "phppest",
   "phpstan",
   "phpunit",
   "postgresql",
@@ -609,6 +610,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "ovh/ovh",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "pestphp/pest",
     "0.0.0",
   ],
   [

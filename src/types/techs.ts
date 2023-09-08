@@ -193,6 +193,7 @@ export type AllowedKeys =
   | 'pagerduty'
   | 'percona'
   | 'php'
+  | 'phppest'
   | 'phpstan'
   | 'phpunit'
   | 'pingdom'

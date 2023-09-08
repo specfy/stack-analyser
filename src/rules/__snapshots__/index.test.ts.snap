@@ -167,6 +167,7 @@ exports[`all > should match everything 1`] = `
   "pagerduty",
   "percona",
   "php",
+  "phppest",
   "phpstan",
   "phpunit",
   "pingdom",
