@@ -3,7 +3,7 @@ import { parse } from 'yaml';
 import { l } from '../../../common/log.js';
 import { matchDependencies } from '../../../matchDependencies.js';
 import { Payload } from '../../../payload/index.js';
-import type { Analyser, Dependency } from '../../../types/index.js';
+import type { Dependency } from '../../../types/index.js';
 import type { ComponentMatcher } from '../../../types/rule.js';
 
 export const FILE_REG = /.github\/workflows\/.+\.y(a)?ml/;
