@@ -26,5 +26,6 @@ register({
     },
     { type: 'golang', name: 'cloud.google.com/go/run' },
     { type: 'php', name: 'google/cloud-run' },
+    { type: 'githubAction', name: 'google-github-actions/deploy-cloudrun' },
   ],
 });

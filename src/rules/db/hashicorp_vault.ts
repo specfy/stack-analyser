@@ -10,5 +10,6 @@ register({
     { type: 'rust', name: 'hashicorp_vault' },
     { type: 'ruby', name: 'vault' },
     { type: 'php', name: 'csharpru/vault-php' },
+    { type: 'githubAction', name: 'hashicorp/vault-action' },
   ],
 });

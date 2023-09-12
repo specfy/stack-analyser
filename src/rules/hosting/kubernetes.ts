@@ -10,5 +10,9 @@ register({
     { type: 'ruby', name: 'kubeclient' },
     { type: 'npm', name: '@kubernetes/client-node' },
     { type: 'php', name: 'kubernetes/php-client' },
+    { type: 'githubAction', name: 'azure/setup-kubectl' },
+    { type: 'githubAction', name: 'azure/k8s-set-context' },
+    { type: 'githubAction', name: 'azure/k8s-deploy' },
+    { type: 'githubAction', name: 'azure/k8s-create-secret' },
   ],
 });

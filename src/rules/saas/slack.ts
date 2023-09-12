@@ -10,5 +10,6 @@ register({
     { type: 'rust', name: 'slack-morphism' },
     { type: 'ruby', name: 'slack-ruby-client' },
     { type: 'php', name: 'laravel/slack-notification-channel' },
+    { type: 'githubAction', name: 'slackapi/slack-github-action' },
   ],
 });

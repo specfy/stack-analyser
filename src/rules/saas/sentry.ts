@@ -12,5 +12,6 @@ register({
     { type: 'php', name: 'sentry/sentry-symfony' },
     { type: 'php', name: 'sentry/sentry-laravel' },
     { type: 'php', name: 'sentry/sdk' },
+    { type: 'githubAction', name: 'getsentry/action-release' },
   ],
 });

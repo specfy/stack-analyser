@@ -17,5 +17,9 @@ register({
     },
     { type: 'golang', name: 'cloud.google.com/go/secretmanager' },
     { type: 'php', name: 'google/cloud-secret-manager' },
+    {
+      type: 'githubAction',
+      name: 'google-github-actions/get-secretmanager-secrets',
+    },
   ],
 });

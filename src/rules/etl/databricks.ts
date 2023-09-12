@@ -9,5 +9,6 @@ register({
       type: 'terraform',
       name: 'registry.terraform.io/databricks/databricks',
     },
+    { type: 'githubAction', name: 'databricks/run-notebook' },
   ],
 });

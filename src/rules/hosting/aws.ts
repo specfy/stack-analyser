@@ -14,5 +14,6 @@ register({
     { type: 'ruby', name: /^aws-sdk/, example: 'aws-sdk-e2' },
     { type: 'docker', name: 'amazon/aws-cli' },
     { type: 'php', name: 'aws/aws-sdk-php' },
+    { type: 'githubAction', name: 'aws-actions/configure-aws-credentials' },
   ],
 });

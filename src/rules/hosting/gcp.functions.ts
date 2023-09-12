@@ -23,5 +23,9 @@ register({
     { type: 'golang', name: 'cloud.google.com/go/functions' },
     { type: 'php', name: 'google/cloud-functions-framework' },
     { type: 'php', name: 'google/cloud-functions' },
+    {
+      type: 'githubAction',
+      name: 'google-github-actions/deploy-cloud-functions',
+    },
   ],
 });
