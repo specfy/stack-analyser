@@ -10,5 +10,6 @@ register({
       type: 'npm',
       name: 'discord-interactions',
     },
+    { type: 'githubAction', name: 'Ilshidur/action-discord' },
   ],
 });

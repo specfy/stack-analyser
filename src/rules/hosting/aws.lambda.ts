@@ -22,5 +22,6 @@ register({
       example: 'aws_lambda_alias',
     },
     { type: 'php', name: 'async-aws/lambda' },
+    { type: 'githubAction', name: 'appleboy/lambda-action' },
   ],
 });

@@ -11,5 +11,6 @@ register({
     { type: 'terraform', name: 'registry.terraform.io/vercel/vercel' },
     { type: 'rust', name: /^vercel_/, example: 'vercel_runtime' },
     { type: 'githubAction', name: 'snaplet/vercel-action' },
+    { type: 'githubAction', name: 'amondnet/vercel-action' },
   ],
 });

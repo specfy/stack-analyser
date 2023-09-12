@@ -19,5 +19,6 @@ register({
     { type: 'php', name: 'datadog/php-datadogstatsd' },
     { type: 'php', name: 'datadog/dd-trace' },
     { type: 'githubAction', name: 'DataDog/synthetics-ci-github-action' },
+    { type: 'githubAction', name: 'datadog/agent-github-action' },
   ],
 });

@@ -17,5 +17,6 @@ register({
     },
     { type: 'php', name: 'async-aws/s3' },
     { type: 'php', name: 'async-aws/simple-s3' },
+    { type: 'githubAction', name: 'jakejarvis/s3-sync-action' },
   ],
 });
