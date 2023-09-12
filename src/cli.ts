@@ -34,7 +34,7 @@ program
   .version(pkg.version)
   .action(async (arg, options) => {
     const pathAtExecution = process.cwd();
-    const root = path.join(pathAtExecution, arg);
+    const root = path.isAbsolute(arg) ? arg : path.join(pathAtExecution, arg);
 
     l.debug('Version', pkg.version);
 

@@ -1,0 +1,29 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`docker > should match all dependencies 1`] = `
+[
+  "github",
+  "github.actions",
+  "postgresql",
+]
+`;
+
+exports[`docker > should match all dependencies 2`] = `
+[
+  [
+    "docker",
+    "node",
+    "18.17.1",
+  ],
+  [
+    "docker",
+    "postgres",
+    "15.4-alpine",
+  ],
+  [
+    "githubAction",
+    "relative-ci/agent-action",
+    "1",
+  ],
+]
+`;

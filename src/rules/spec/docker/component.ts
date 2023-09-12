@@ -1,5 +1,6 @@
 import { parse } from 'yaml';
 
+import { l } from '../../../common/log.js';
 import { matchDependencies } from '../../../matchDependencies.js';
 import { Payload } from '../../../payload/index.js';
 import type { ComponentMatcher } from '../../../types/rule.js';
@@ -22,11 +23,13 @@ export const detectDockerComponent: ComponentMatcher = async (
 
     const content = await provider.open(file.fp);
     if (!content) {
+      l.warn('Failed to open Docker file', file.fp);
       continue;
     }
 
     const parsed = parse(content, {});
     if (!parsed?.services) {
+      l.warn('Failed to parse Docker file', file.fp);
       return false;
     }
 

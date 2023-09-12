@@ -27,6 +27,7 @@ export const dependencies: Record<
   ruby: [],
   rust: [],
   terraform: [],
+  githubAction: [],
 };
 
 export const rawList: Array<
