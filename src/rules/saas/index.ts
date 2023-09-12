@@ -54,6 +54,7 @@ import './squareup.js';
 import './stripe.js';
 import './twilio.js';
 import './twitter.js';
+import './vialink.js';
 import './webflow.js';
 import './wiz.js';
 import './zapier.js';

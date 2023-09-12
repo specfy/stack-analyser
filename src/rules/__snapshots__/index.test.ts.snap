@@ -246,6 +246,7 @@ exports[`all > should match everything 1`] = `
   "vercel.blob",
   "vercel.kv",
   "vercel.postgres",
+  "vialink",
   "vite",
   "vue",
   "webflow",

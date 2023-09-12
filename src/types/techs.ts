@@ -278,6 +278,7 @@ export type AllowedKeys =
   | 'vercel.kv'
   | 'vercel.postgres'
   | 'vercel'
+  | 'vialink'
   | 'vite'
   | 'vue'
   | 'webflow'
