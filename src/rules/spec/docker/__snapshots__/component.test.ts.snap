@@ -47,6 +47,7 @@ exports[`docker > should match everything 1`] = `
   "redis",
   "ruby",
   "strapi",
+  "trufflesecurity",
   "zookeeper",
 ]
 `;
@@ -240,6 +241,11 @@ exports[`docker > should match everything 2`] = `
   ],
   [
     "docker",
+    "node",
+    "0.0.0",
+  ],
+  [
+    "docker",
     "nodejs",
     "0.0.0",
   ],
@@ -281,6 +287,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "strapi",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "trufflesecurity/trufflehog",
     "0.0.0",
   ],
   [

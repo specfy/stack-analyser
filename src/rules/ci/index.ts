@@ -13,3 +13,4 @@ import './renovate.js';
 import './styleci.js';
 import './teamcity.js';
 import './travisci.js';
+import './trufflesecurity.js';

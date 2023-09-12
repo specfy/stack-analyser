@@ -231,6 +231,7 @@ exports[`all > should match everything 1`] = `
   "terragrunt",
   "tinybird",
   "travisci",
+  "trufflesecurity",
   "twigphp",
   "twilio",
   "twitter",

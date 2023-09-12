@@ -25,5 +25,10 @@ exports[`docker > should match all dependencies 2`] = `
     "relative-ci/agent-action",
     "1",
   ],
+  [
+    "githubAction",
+    "trufflesecurity/trufflehog",
+    "1",
+  ],
 ]
 `;
