@@ -101,6 +101,7 @@ exports[`php > should match everything 1`] = `
   "woocommerce",
   "wordpress",
   "yii2",
+  "yousign",
   "zookeeper",
 ]
 `;
@@ -130,6 +131,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "alibabacloud/sdk",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "androk/yousign-api",
     "0.0.0",
   ],
   [

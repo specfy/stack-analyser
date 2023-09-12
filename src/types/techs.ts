@@ -288,6 +288,7 @@ export type AllowedKeys =
   | 'wordpress'
   | 'yii2'
   | 'yii2'
+  | 'yousign'
   | 'zapier'
   | 'zendesk'
   | 'zookeeper'

@@ -57,6 +57,7 @@ import './twitter.js';
 import './vialink.js';
 import './webflow.js';
 import './wiz.js';
+import './yousign.js';
 import './zapier.js';
 import './zendesk.js';
 import './zoom.js';
