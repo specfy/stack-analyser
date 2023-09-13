@@ -6,6 +6,7 @@ import { flatten } from '../../../payload/helpers.js';
 import { FakeProvider } from '../../../provider/fake.js';
 
 import '../../../autoload.js';
+import { detectGithubActionsComponent } from './component.js';
 
 describe('docker', () => {
   it('should match all dependencies', async () => {
@@ -66,5 +67,23 @@ jobs:
     const merged = flatten(res, { merge: true });
     expect(Array.from(merged.techs).sort()).toMatchSnapshot();
     expect(Array.from(merged.dependencies).sort()).toMatchSnapshot();
+  });
+
+  it('should gracefully fail to parse', async () => {
+    const res = await detectGithubActionsComponent(
+      [{ fp: '/.github/workflows/main.yml', name: 'main.yml', type: 'file' }],
+      new FakeProvider({
+        paths: {
+          '/': ['.github/'],
+          '/.github': ['workflows/'],
+          '/.github/workflows': ['main.yml'],
+        },
+        files: {
+          '/.github/workflows/main.yml': '',
+        },
+      })
+    );
+
+    expect(res).toBe(false);
   });
 });
