@@ -95,7 +95,9 @@ export class Payload implements Analyser {
         continue;
       }
 
-      ctx.addTech(res[0].tech, [`matched file: ${res[1]}`]);
+      ctx.addTech(res[0].tech, [
+        `matched file: ${res[1].replace(provider.basePath, '')}`,
+      ]);
     }
 
     // Recursively dive in folders
