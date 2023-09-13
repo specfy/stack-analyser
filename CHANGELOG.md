@@ -1,3 +1,21 @@
+## [1.4.11](https://github.com/specfy/stack-analyser/compare/v1.4.10...v1.4.11) (2023-09-08)
+
+
+### Bug Fixes
+
+* **rules:** add Brevo ([b0b1597](https://github.com/specfy/stack-analyser/commit/b0b15979ceaaf7af9613d3870011b3c91ee52c4f))
+* **rules:** add GCP Dataflow' ([999ab11](https://github.com/specfy/stack-analyser/commit/999ab11197334bffd8bb1cb75e3e5b7792583d1d))
+* **rules:** add GCP Dialogflow ([2bfbdc4](https://github.com/specfy/stack-analyser/commit/2bfbdc4ac314d939939aa7b1da52047df6ee681f))
+* **rules:** add GCP KMS ([acea79b](https://github.com/specfy/stack-analyser/commit/acea79bcdf275b9bde2f96a7a7131237e90f950d))
+* **rules:** add GCP Memorystore (redis) ([3afd321](https://github.com/specfy/stack-analyser/commit/3afd32133aa744c98ffa383a48718a21dbbc6b99))
+* **rules:** add GCP Spanner ([d5beec7](https://github.com/specfy/stack-analyser/commit/d5beec7b5ffa6da13a8c0fdc60caa304b29f6fa1))
+* **rules:** add GCP Tasks ([ea1dd29](https://github.com/specfy/stack-analyser/commit/ea1dd29939e95e533dc2129fb69169578cbbefba))
+* **rules:** add Matomo ([d7cfaae](https://github.com/specfy/stack-analyser/commit/d7cfaaeecf48546cadc194c48dcc76ac0c34596c))
+* **rules:** add Meilisearch ([d46929d](https://github.com/specfy/stack-analyser/commit/d46929d245905d9fe3a619d3fe21d87cf9a7d3e4))
+* **rules:** add Nextcloud ([07da83f](https://github.com/specfy/stack-analyser/commit/07da83f88daeed93fefbbe6e2fdab79189cd25de))
+* **rules:** add PHP Pest ([b9181b5](https://github.com/specfy/stack-analyser/commit/b9181b56564d092e659043b3c0a526f51409b01e))
+* **rules:** add support for PHP ([#32](https://github.com/specfy/stack-analyser/issues/32)) ([85d0e17](https://github.com/specfy/stack-analyser/commit/85d0e1758f7b3351e863a4b3c75cc26cad7c3084))
+
 ## [1.4.10](https://github.com/specfy/stack-analyser/compare/v1.4.9...v1.4.10) (2023-09-05)
 
 
