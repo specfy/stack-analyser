@@ -29,6 +29,7 @@ exports[`docker > should match all dependencies 1`] = `
   "github.pages",
   "hashicorp_vault",
   "heroku",
+  "jira",
   "kubernetes",
   "launchdarkly",
   "netlify",
@@ -134,6 +135,36 @@ exports[`docker > should match all dependencies 2`] = `
   ],
   [
     "githubAction",
+    "atlassian/gajira-cli",
+    "1",
+  ],
+  [
+    "githubAction",
+    "atlassian/gajira-comment",
+    "1",
+  ],
+  [
+    "githubAction",
+    "atlassian/gajira-create",
+    "1",
+  ],
+  [
+    "githubAction",
+    "atlassian/gajira-find-issue-key",
+    "1",
+  ],
+  [
+    "githubAction",
+    "atlassian/gajira-todo",
+    "1",
+  ],
+  [
+    "githubAction",
+    "atlassian/gajira-transition",
+    "1",
+  ],
+  [
+    "githubAction",
     "aws-actions/amazon-eks-fargate",
     "1",
   ],
@@ -235,6 +266,11 @@ exports[`docker > should match all dependencies 2`] = `
   [
     "githubAction",
     "getsentry/action-release",
+    "1",
+  ],
+  [
+    "githubAction",
+    "github/ghas-jira-integration",
     "1",
   ],
   [

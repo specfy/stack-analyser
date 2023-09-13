@@ -76,6 +76,7 @@ exports[`npm > should match everything 1`] = `
   "huggingface",
   "hypertune",
   "influxdb",
+  "jira",
   "koa",
   "kubernetes",
   "launchdarkly",
@@ -867,6 +868,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "ioredis",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "jira.js",
     "0.0.0",
   ],
   [

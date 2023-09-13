@@ -28,6 +28,7 @@ exports[`docker > should match everything 1`] = `
   "httpd",
   "influxdb",
   "jenkins",
+  "jira",
   "kibana",
   "mariadb",
   "matomo",
@@ -107,6 +108,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "apache/storm",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "atlassian/jira-software",
     "0.0.0",
   ],
   [

@@ -53,6 +53,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "hashicorp_vault",
   "heroku",
   "influxdb",
+  "jira",
   "kubernetes",
   "launchdarkly",
   "mailchimp",
@@ -406,6 +407,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "jenkins_api_client",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "jira-ruby",
     "1.0.0",
   ],
   [

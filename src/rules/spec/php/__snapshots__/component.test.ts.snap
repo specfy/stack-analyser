@@ -64,6 +64,7 @@ exports[`php > should match everything 1`] = `
   "heroku",
   "hubspot",
   "influxdb",
+  "jira",
   "klaviyo",
   "kubernetes",
   "laravel",
@@ -536,6 +537,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "launchdarkly/server-sdk",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "lesstif/php-jira-rest-client",
     "0.0.0",
   ],
   [

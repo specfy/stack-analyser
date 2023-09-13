@@ -132,6 +132,7 @@ exports[`all > should match everything 1`] = `
   "hypertune",
   "influxdb",
   "jenkins",
+  "jira",
   "kibana",
   "klaviyo",
   "koa",
