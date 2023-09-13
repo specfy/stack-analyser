@@ -111,6 +111,11 @@ exports[`ruby (component) > should match everything 2`] = `
   ],
   [
     "ruby",
+    "aws-sdk-codebuild",
+    "1.0.0",
+  ],
+  [
+    "ruby",
     "aws-sdk-dynamodbstreams",
     "1.0.0",
   ],

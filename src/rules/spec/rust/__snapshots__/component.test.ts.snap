@@ -6,6 +6,7 @@ exports[`rust (component) > should match everything 1`] = `
   "apache_cassandra",
   "auth0",
   "aws",
+  "aws.codebuild",
   "aws.dynamodb",
   "aws.ec2",
   "aws.ecs",
@@ -63,6 +64,11 @@ exports[`rust (component) > should match everything 2`] = `
   [
     "rust",
     "auth0",
+    "1.0.0",
+  ],
+  [
+    "rust",
+    "aws-sdk-codebuild",
     "1.0.0",
   ],
   [

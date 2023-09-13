@@ -183,6 +183,11 @@ exports[`docker > should match all dependencies 2`] = `
   ],
   [
     "githubAction",
+    "aws-actions/aws-codebuild-run-build",
+    "1",
+  ],
+  [
+    "githubAction",
     "aws-actions/configure-aws-credentials",
     "1",
   ],
