@@ -16,5 +16,6 @@ register({
       name: /^@fastly\//,
       example: '@fastly/performance-observer-polyfill',
     },
+    { type: 'npm', name: 'fastly/fastly' },
   ],
 });

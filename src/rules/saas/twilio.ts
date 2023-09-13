@@ -7,5 +7,7 @@ register({
   dependencies: [
     { type: 'npm', name: 'twilio' },
     { type: 'npm', name: /^@twilio\//, example: '@twilio/cli-core' },
+    { type: 'php', name: 'twilio/sdk' },
+    { type: 'githubAction', name: 'twilio-labs/actions-sms' },
   ],
 });

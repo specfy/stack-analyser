@@ -6,8 +6,10 @@ import type { AllowedKeys, TechType } from './techs.js';
 export type SupportedDeps =
   | 'deno'
   | 'docker'
+  | 'githubAction'
   | 'golang'
   | 'npm'
+  | 'php'
   | 'ruby'
   | 'rust'
   | 'terraform.resource'

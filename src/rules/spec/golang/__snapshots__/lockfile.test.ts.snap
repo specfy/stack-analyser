@@ -5,6 +5,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "aws",
   "aws.dynamodb",
   "aws.ec2",
+  "aws.ecs",
   "aws.elasticache",
   "aws.glacier",
   "aws.lambda",
@@ -13,25 +14,36 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "aws.sns",
   "aws.sqs",
   "azure",
+  "brevo",
   "clickhouse",
+  "elasticsearch",
   "gcp",
   "gcp.aiplatform",
   "gcp.bigquery",
   "gcp.bigtable",
   "gcp.cloudrun",
+  "gcp.dataflow",
   "gcp.dataproc",
   "gcp.datastore",
+  "gcp.dialogflow",
   "gcp.functions",
   "gcp.gce",
   "gcp.gcs",
+  "gcp.kms",
   "gcp.language",
   "gcp.maps",
+  "gcp.memorystore",
   "gcp.pubsub",
   "gcp.secretmanager",
+  "gcp.spanner",
   "gcp.speech",
+  "gcp.tasks",
   "gcp.translate",
   "gcp.vision",
   "golang",
+  "launchdarkly",
+  "meilisearch",
+  "splitio",
 ]
 `;
 
@@ -64,6 +76,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   ],
   [
     "golang",
+    "cloud.google.com/go/dataflow",
+    "v1.0.0",
+  ],
+  [
+    "golang",
     "cloud.google.com/go/dataproc",
     "v1.0.0",
   ],
@@ -74,7 +91,17 @@ exports[`golang (lockfile) > should match everything 2`] = `
   ],
   [
     "golang",
+    "cloud.google.com/go/dialogflow",
+    "v1.0.0",
+  ],
+  [
+    "golang",
     "cloud.google.com/go/functions",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "cloud.google.com/go/kms",
     "v1.0.0",
   ],
   [
@@ -94,6 +121,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   ],
   [
     "golang",
+    "cloud.google.com/go/redis",
+    "v1.0.0",
+  ],
+  [
+    "golang",
     "cloud.google.com/go/run",
     "v1.0.0",
   ],
@@ -104,12 +136,22 @@ exports[`golang (lockfile) > should match everything 2`] = `
   ],
   [
     "golang",
+    "cloud.google.com/go/spanner",
+    "v1.0.0",
+  ],
+  [
+    "golang",
     "cloud.google.com/go/speech",
     "v1.0.0",
   ],
   [
     "golang",
     "cloud.google.com/go/storage",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "cloud.google.com/go/tasks",
     "v1.0.0",
   ],
   [
@@ -154,6 +196,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   ],
   [
     "golang",
+    "github.com/aws/aws-sdk-go-v2/service/ecs",
+    "v1.0.0",
+  ],
+  [
+    "golang",
     "github.com/aws/aws-sdk-go-v2/service/elasticache",
     "v1.0.0",
   ],
@@ -185,6 +232,31 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/aws/aws-sdk-go-v2/service/sqs",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/elastic/go-elasticsearch",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/getbrevo/brevo-go",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/launchdarkly/go-sdk-common/v3",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/meilisearch/meilisearch-go",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/splitio/go-client/v6",
     "v1.0.0",
   ],
 ]

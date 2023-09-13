@@ -23,9 +23,11 @@ export const dependencies: Record<
   docker: [],
   golang: [],
   npm: [],
+  php: [],
   ruby: [],
   rust: [],
   terraform: [],
+  githubAction: [],
 };
 
 export const rawList: Array<

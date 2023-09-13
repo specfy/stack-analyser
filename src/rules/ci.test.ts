@@ -28,7 +28,9 @@ describe('ci', () => {
         paths: {
           '/': paths,
         },
-        files: {},
+        files: {
+          '/.github/workflows/ci.yml': '', // we open this file
+        },
       }),
     });
     expect(res.toJson('').techs).toMatchSnapshot();

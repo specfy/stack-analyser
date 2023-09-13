@@ -9,4 +9,5 @@ register({
   type: 'language',
   files: ['go.mod', 'main.go'],
   detect: [detectGolangLockfile, detectGolangComponent],
+  dependencies: [],
 });

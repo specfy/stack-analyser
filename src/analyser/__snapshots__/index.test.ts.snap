@@ -131,10 +131,10 @@ exports[`analyser > should run correctly 1`] = `
               "childs": [],
               "dependencies": [],
               "edges": [],
-              "id": "18",
+              "id": "23",
               "inComponent": null,
               "languages": {},
-              "name": "datadog",
+              "name": "Datadog",
               "path": [
                 "/pkgs/api/package.json",
               ],
@@ -170,11 +170,11 @@ exports[`analyser > should run correctly 1`] = `
           "edges": [
             {
               "read": true,
-              "target": "18",
+              "target": "23",
               "write": true,
             },
           ],
-          "id": "17",
+          "id": "22",
           "inComponent": null,
           "languages": {
             "JSON": 1,
@@ -205,10 +205,10 @@ exports[`analyser > should run correctly 1`] = `
               "childs": [],
               "dependencies": [],
               "edges": [],
-              "id": "20",
+              "id": "25",
               "inComponent": null,
               "languages": {},
-              "name": "vercel",
+              "name": "Vercel",
               "path": [
                 "/pkgs/app/package.json",
               ],
@@ -242,8 +242,8 @@ exports[`analyser > should run correctly 1`] = `
             ],
           ],
           "edges": [],
-          "id": "19",
-          "inComponent": "20",
+          "id": "24",
+          "inComponent": "25",
           "languages": {
             "HTML": 1,
             "JSON": 1,
@@ -271,6 +271,23 @@ exports[`analyser > should run correctly 1`] = `
         },
         {
           "childs": [],
+          "dependencies": [],
+          "edges": [],
+          "id": "13",
+          "inComponent": null,
+          "languages": {},
+          "name": "GitHub",
+          "path": [
+            "/package.json",
+          ],
+          "reason": [
+            "matched file: .github",
+          ],
+          "tech": "github",
+          "techs": [],
+        },
+        {
+          "childs": [],
           "dependencies": [
             [
               "terraform",
@@ -279,7 +296,7 @@ exports[`analyser > should run correctly 1`] = `
             ],
           ],
           "edges": [],
-          "id": "24",
+          "id": "29",
           "inComponent": null,
           "languages": {},
           "name": "Google Cloud Platform",
@@ -294,6 +311,23 @@ exports[`analyser > should run correctly 1`] = `
         },
         {
           "childs": [],
+          "dependencies": [],
+          "edges": [],
+          "id": "16",
+          "inComponent": null,
+          "languages": {},
+          "name": "Postgres",
+          "path": [
+            "/deno/deno.lock",
+          ],
+          "reason": [
+            "postgresql matched: /\\\\/x\\\\/postgres@/",
+          ],
+          "tech": "postgresql",
+          "techs": [],
+        },
+        {
+          "childs": [],
           "dependencies": [
             [
               "terraform",
@@ -302,7 +336,7 @@ exports[`analyser > should run correctly 1`] = `
             ],
           ],
           "edges": [],
-          "id": "25",
+          "id": "30",
           "inComponent": null,
           "languages": {},
           "name": "Vercel",
@@ -317,23 +351,6 @@ exports[`analyser > should run correctly 1`] = `
         },
         {
           "childs": [],
-          "dependencies": [],
-          "edges": [],
-          "id": "14",
-          "inComponent": null,
-          "languages": {},
-          "name": "postgresql",
-          "path": [
-            "/deno/deno.lock",
-          ],
-          "reason": [
-            "postgresql matched: /\\\\/x\\\\/postgres@/",
-          ],
-          "tech": "postgresql",
-          "techs": [],
-        },
-        {
-          "childs": [],
           "dependencies": [
             [
               "rust",
@@ -342,7 +359,7 @@ exports[`analyser > should run correctly 1`] = `
             ],
           ],
           "edges": [],
-          "id": "22",
+          "id": "27",
           "inComponent": null,
           "languages": {
             "TOML": 1,
@@ -363,7 +380,7 @@ exports[`analyser > should run correctly 1`] = `
           "childs": [],
           "dependencies": [],
           "edges": [],
-          "id": "16",
+          "id": "18",
           "inComponent": null,
           "languages": {
             "Go": 1,
@@ -380,6 +397,262 @@ exports[`analyser > should run correctly 1`] = `
           "techs": [
             "golang",
             "rust",
+          ],
+        },
+        {
+          "childs": [
+            {
+              "childs": [],
+              "dependencies": [],
+              "edges": [],
+              "id": "21",
+              "inComponent": null,
+              "languages": {},
+              "name": "Algolia",
+              "path": [
+                "/php/composer.json",
+              ],
+              "reason": [
+                "algolia matched: /^algolia\\\\/algoliasearch-client-php$/",
+              ],
+              "tech": "algolia",
+              "techs": [],
+            },
+            {
+              "childs": [],
+              "dependencies": [],
+              "edges": [],
+              "id": "20",
+              "inComponent": null,
+              "languages": {},
+              "name": "Redis",
+              "path": [
+                "/php/composer.json",
+              ],
+              "reason": [
+                "redis matched: /^predis\\\\/predis$/",
+              ],
+              "tech": "redis",
+              "techs": [],
+            },
+          ],
+          "dependencies": [
+            [
+              "php",
+              "mockery/mockery",
+              "~1.0",
+            ],
+            [
+              "php",
+              "phpunit/phpunit",
+              "^9.0",
+            ],
+            [
+              "php",
+              "php-mock/php-mock-mockery",
+              "^1.3",
+            ],
+            [
+              "php",
+              "dms/phpunit-arraysubset-asserts",
+              "^0.2.1",
+            ],
+            [
+              "php",
+              "fakerphp/faker",
+              "^1.13",
+            ],
+            [
+              "php",
+              "slevomat/coding-standard",
+              "^7.0",
+            ],
+            [
+              "php",
+              "nunomaduro/larastan",
+              "^2.1",
+            ],
+            [
+              "php",
+              "laravel/tinker",
+              "^2.7",
+            ],
+            [
+              "php",
+              "php",
+              ">=8.0",
+            ],
+            [
+              "php",
+              "laravel/framework",
+              "^9.0",
+            ],
+            [
+              "php",
+              "james-heinrich/getid3",
+              "^1.9",
+            ],
+            [
+              "php",
+              "guzzlehttp/guzzle",
+              "^7.0.1",
+            ],
+            [
+              "php",
+              "aws/aws-sdk-php-laravel",
+              "^3.1",
+            ],
+            [
+              "php",
+              "pusher/pusher-php-server",
+              "^4.0",
+            ],
+            [
+              "php",
+              "predis/predis",
+              "~1.0",
+            ],
+            [
+              "php",
+              "jackiedo/dotenv-editor",
+              "^2.0",
+            ],
+            [
+              "php",
+              "ext-exif",
+              "*",
+            ],
+            [
+              "php",
+              "ext-gd",
+              "*",
+            ],
+            [
+              "php",
+              "ext-fileinfo",
+              "*",
+            ],
+            [
+              "php",
+              "ext-json",
+              "*",
+            ],
+            [
+              "php",
+              "ext-SimpleXML",
+              "*",
+            ],
+            [
+              "php",
+              "daverandom/resume",
+              "^0.0.3",
+            ],
+            [
+              "php",
+              "laravel/helpers",
+              "^1.0",
+            ],
+            [
+              "php",
+              "intervention/image",
+              "^2.5",
+            ],
+            [
+              "php",
+              "doctrine/dbal",
+              "^3.0",
+            ],
+            [
+              "php",
+              "lstrojny/functional-php",
+              "^1.14",
+            ],
+            [
+              "php",
+              "teamtnt/laravel-scout-tntsearch-driver",
+              "^11.1",
+            ],
+            [
+              "php",
+              "algolia/algoliasearch-client-php",
+              "^3.3",
+            ],
+            [
+              "php",
+              "laravel/ui",
+              "^3.2",
+            ],
+            [
+              "php",
+              "webmozart/assert",
+              "^1.10",
+            ],
+            [
+              "php",
+              "laravel/sanctum",
+              "^2.15",
+            ],
+            [
+              "php",
+              "laravel/scout",
+              "^9.4",
+            ],
+            [
+              "php",
+              "nunomaduro/collision",
+              "^6.2",
+            ],
+            [
+              "php",
+              "jwilsson/spotify-web-api-php",
+              "^5.2",
+            ],
+            [
+              "php",
+              "meilisearch/meilisearch-php",
+              "^0.24.0",
+            ],
+            [
+              "php",
+              "http-interop/http-factory-guzzle",
+              "^1.2",
+            ],
+          ],
+          "edges": [
+            {
+              "read": true,
+              "target": "20",
+              "write": true,
+            },
+            {
+              "read": true,
+              "target": "21",
+              "write": true,
+            },
+          ],
+          "id": "19",
+          "inComponent": null,
+          "languages": {
+            "JSON": 1,
+          },
+          "name": "symfony/translation",
+          "path": [
+            "/php/composer.json",
+          ],
+          "reason": [
+            "phpunit matched: /^phpunit\\\\/phpunit$/",
+            "laravel matched: /^laravel\\\\/framework$/",
+            "redis matched: /^predis\\\\/predis$/",
+            "algolia matched: /^algolia\\\\/algoliasearch-client-php$/",
+            "matched file: composer.json",
+          ],
+          "tech": null,
+          "techs": [
+            "algolia",
+            "laravel",
+            "php",
+            "phpunit",
+            "redis",
           ],
         },
       ],
@@ -408,6 +681,26 @@ exports[`analyser > should run correctly 1`] = `
           "npm",
           "typescript",
           "4.9.5",
+        ],
+        [
+          "githubAction",
+          "actions/checkout",
+          "v3",
+        ],
+        [
+          "githubAction",
+          "actions/setup-node",
+          "v3",
+        ],
+        [
+          "githubAction",
+          "codecov/codecov-action",
+          "v3",
+        ],
+        [
+          "docker",
+          "node",
+          "18.17.0",
         ],
         [
           "deno",
@@ -440,14 +733,20 @@ exports[`analyser > should run correctly 1`] = `
           "4.61.0",
         ],
       ],
-      "edges": [],
+      "edges": [
+        {
+          "read": true,
+          "target": "13",
+          "write": true,
+        },
+      ],
       "id": "12",
       "inComponent": null,
       "languages": {
         "AMPL": 1,
         "HCL": 1,
         "JSON": 1,
-        "YAML": 1,
+        "YAML": 2,
       },
       "name": "fake",
       "path": [
@@ -457,8 +756,10 @@ exports[`analyser > should run correctly 1`] = `
         "eslint matched: /^eslint$/",
         "prettier matched: /^prettier$/",
         "typescript matched: /^typescript$/",
+        "matched file: .github",
         "matched file: docker-compose.yml",
         "matched file: package.json",
+        "matched file: /.github/workflows/test.yaml",
         "matched file: deno.lock",
         "matched file: go.mod",
         "matched file: Gemfile",
@@ -469,6 +770,8 @@ exports[`analyser > should run correctly 1`] = `
         "deno",
         "docker",
         "eslint",
+        "github",
+        "github.actions",
         "golang",
         "nodejs",
         "prettier",
@@ -569,11 +872,11 @@ exports[`analyser > should run correctly 2`] = `
       "edges": [
         {
           "read": true,
-          "target": "18",
+          "target": "23",
           "write": true,
         },
       ],
-      "id": "17",
+      "id": "22",
       "inComponent": null,
       "languages": {
         "JSON": 1,
@@ -619,12 +922,12 @@ exports[`analyser > should run correctly 2`] = `
       "edges": [
         {
           "read": true,
-          "target": "17",
+          "target": "22",
           "write": true,
         },
       ],
-      "id": "19",
-      "inComponent": "20",
+      "id": "24",
+      "inComponent": "25",
       "languages": {
         "HTML": 1,
         "JSON": 1,
@@ -646,6 +949,51 @@ exports[`analyser > should run correctly 2`] = `
     },
     {
       "childs": [],
+      "dependencies": [],
+      "edges": [],
+      "id": "21",
+      "inComponent": null,
+      "languages": {},
+      "name": "Algolia",
+      "path": [
+        "/php/composer.json",
+      ],
+      "reason": [],
+      "tech": "algolia",
+      "techs": [],
+    },
+    {
+      "childs": [],
+      "dependencies": [],
+      "edges": [],
+      "id": "23",
+      "inComponent": null,
+      "languages": {},
+      "name": "Datadog",
+      "path": [
+        "/pkgs/api/package.json",
+      ],
+      "reason": [],
+      "tech": "datadog",
+      "techs": [],
+    },
+    {
+      "childs": [],
+      "dependencies": [],
+      "edges": [],
+      "id": "13",
+      "inComponent": null,
+      "languages": {},
+      "name": "GitHub",
+      "path": [
+        "/package.json",
+      ],
+      "reason": [],
+      "tech": "github",
+      "techs": [],
+    },
+    {
+      "childs": [],
       "dependencies": [
         [
           "terraform",
@@ -654,7 +1002,7 @@ exports[`analyser > should run correctly 2`] = `
         ],
       ],
       "edges": [],
-      "id": "24",
+      "id": "29",
       "inComponent": null,
       "languages": {},
       "name": "Google Cloud Platform",
@@ -667,18 +1015,27 @@ exports[`analyser > should run correctly 2`] = `
     },
     {
       "childs": [],
-      "dependencies": [],
+      "dependencies": [
+        [
+          "terraform",
+          "registry.terraform.io/vercel/vercel",
+          "4.61.0",
+        ],
+      ],
       "edges": [],
-      "id": "18",
+      "id": "25",
       "inComponent": null,
       "languages": {},
-      "name": "datadog",
+      "name": "Vercel",
       "path": [
-        "/pkgs/api/package.json",
+        "/pkgs/app/package.json",
+        "/terraform/.terraform.lock.hcl",
       ],
       "reason": [],
-      "tech": "datadog",
-      "techs": [],
+      "tech": "vercel",
+      "techs": [
+        "vercel",
+      ],
     },
     {
       "childs": [],
@@ -733,6 +1090,26 @@ exports[`analyser > should run correctly 2`] = `
           "4.9.5",
         ],
         [
+          "githubAction",
+          "actions/checkout",
+          "v3",
+        ],
+        [
+          "githubAction",
+          "actions/setup-node",
+          "v3",
+        ],
+        [
+          "githubAction",
+          "codecov/codecov-action",
+          "v3",
+        ],
+        [
+          "docker",
+          "node",
+          "18.17.0",
+        ],
+        [
           "deno",
           "https://deno.land/x/postgres@v0.17.0/mod.ts",
           "23a1a36928f1b6d3b0170aaa67de09af12aa998525f608ff7331b9fb364cbde6",
@@ -763,7 +1140,13 @@ exports[`analyser > should run correctly 2`] = `
           "4.61.0",
         ],
       ],
-      "edges": [],
+      "edges": [
+        {
+          "read": true,
+          "target": "13",
+          "write": true,
+        },
+      ],
       "id": "12",
       "inComponent": null,
       "languages": {
@@ -771,10 +1154,10 @@ exports[`analyser > should run correctly 2`] = `
         "Go": 1,
         "HCL": 1,
         "HTML": 1,
-        "JSON": 3,
+        "JSON": 4,
         "SCSS": 1,
         "TOML": 1,
-        "YAML": 1,
+        "YAML": 2,
       },
       "name": "fake",
       "path": [
@@ -786,6 +1169,8 @@ exports[`analyser > should run correctly 2`] = `
         "deno",
         "docker",
         "eslint",
+        "github",
+        "github.actions",
         "golang",
         "nodejs",
         "prettier",
@@ -810,10 +1195,13 @@ exports[`analyser > should run correctly 2`] = `
       "name": "redis",
       "path": [
         "/docker-compose.yml",
+        "/php/composer.json",
       ],
       "reason": [],
       "tech": "redis",
-      "techs": [],
+      "techs": [
+        "redis",
+      ],
     },
     {
       "childs": [],
@@ -825,7 +1213,7 @@ exports[`analyser > should run correctly 2`] = `
         ],
       ],
       "edges": [],
-      "id": "22",
+      "id": "27",
       "inComponent": null,
       "languages": {
         "TOML": 1,
@@ -844,7 +1232,7 @@ exports[`analyser > should run correctly 2`] = `
       "childs": [],
       "dependencies": [],
       "edges": [],
-      "id": "16",
+      "id": "18",
       "inComponent": null,
       "languages": {
         "Go": 1,
@@ -858,6 +1246,221 @@ exports[`analyser > should run correctly 2`] = `
       "techs": [
         "golang",
         "rust",
+      ],
+    },
+    {
+      "childs": [],
+      "dependencies": [
+        [
+          "php",
+          "mockery/mockery",
+          "~1.0",
+        ],
+        [
+          "php",
+          "phpunit/phpunit",
+          "^9.0",
+        ],
+        [
+          "php",
+          "php-mock/php-mock-mockery",
+          "^1.3",
+        ],
+        [
+          "php",
+          "dms/phpunit-arraysubset-asserts",
+          "^0.2.1",
+        ],
+        [
+          "php",
+          "fakerphp/faker",
+          "^1.13",
+        ],
+        [
+          "php",
+          "slevomat/coding-standard",
+          "^7.0",
+        ],
+        [
+          "php",
+          "nunomaduro/larastan",
+          "^2.1",
+        ],
+        [
+          "php",
+          "laravel/tinker",
+          "^2.7",
+        ],
+        [
+          "php",
+          "php",
+          ">=8.0",
+        ],
+        [
+          "php",
+          "laravel/framework",
+          "^9.0",
+        ],
+        [
+          "php",
+          "james-heinrich/getid3",
+          "^1.9",
+        ],
+        [
+          "php",
+          "guzzlehttp/guzzle",
+          "^7.0.1",
+        ],
+        [
+          "php",
+          "aws/aws-sdk-php-laravel",
+          "^3.1",
+        ],
+        [
+          "php",
+          "pusher/pusher-php-server",
+          "^4.0",
+        ],
+        [
+          "php",
+          "predis/predis",
+          "~1.0",
+        ],
+        [
+          "php",
+          "jackiedo/dotenv-editor",
+          "^2.0",
+        ],
+        [
+          "php",
+          "ext-exif",
+          "*",
+        ],
+        [
+          "php",
+          "ext-gd",
+          "*",
+        ],
+        [
+          "php",
+          "ext-fileinfo",
+          "*",
+        ],
+        [
+          "php",
+          "ext-json",
+          "*",
+        ],
+        [
+          "php",
+          "ext-SimpleXML",
+          "*",
+        ],
+        [
+          "php",
+          "daverandom/resume",
+          "^0.0.3",
+        ],
+        [
+          "php",
+          "laravel/helpers",
+          "^1.0",
+        ],
+        [
+          "php",
+          "intervention/image",
+          "^2.5",
+        ],
+        [
+          "php",
+          "doctrine/dbal",
+          "^3.0",
+        ],
+        [
+          "php",
+          "lstrojny/functional-php",
+          "^1.14",
+        ],
+        [
+          "php",
+          "teamtnt/laravel-scout-tntsearch-driver",
+          "^11.1",
+        ],
+        [
+          "php",
+          "algolia/algoliasearch-client-php",
+          "^3.3",
+        ],
+        [
+          "php",
+          "laravel/ui",
+          "^3.2",
+        ],
+        [
+          "php",
+          "webmozart/assert",
+          "^1.10",
+        ],
+        [
+          "php",
+          "laravel/sanctum",
+          "^2.15",
+        ],
+        [
+          "php",
+          "laravel/scout",
+          "^9.4",
+        ],
+        [
+          "php",
+          "nunomaduro/collision",
+          "^6.2",
+        ],
+        [
+          "php",
+          "jwilsson/spotify-web-api-php",
+          "^5.2",
+        ],
+        [
+          "php",
+          "meilisearch/meilisearch-php",
+          "^0.24.0",
+        ],
+        [
+          "php",
+          "http-interop/http-factory-guzzle",
+          "^1.2",
+        ],
+      ],
+      "edges": [
+        {
+          "read": true,
+          "target": "10",
+          "write": true,
+        },
+        {
+          "read": true,
+          "target": "21",
+          "write": true,
+        },
+      ],
+      "id": "19",
+      "inComponent": null,
+      "languages": {
+        "JSON": 1,
+      },
+      "name": "symfony/translation",
+      "path": [
+        "/php/composer.json",
+      ],
+      "reason": [],
+      "tech": null,
+      "techs": [
+        "algolia",
+        "laravel",
+        "php",
+        "phpunit",
+        "redis",
       ],
     },
     {
@@ -881,30 +1484,6 @@ exports[`analyser > should run correctly 2`] = `
       "tech": null,
       "techs": [],
     },
-    {
-      "childs": [],
-      "dependencies": [
-        [
-          "terraform",
-          "registry.terraform.io/vercel/vercel",
-          "4.61.0",
-        ],
-      ],
-      "edges": [],
-      "id": "20",
-      "inComponent": null,
-      "languages": {},
-      "name": "vercel",
-      "path": [
-        "/pkgs/app/package.json",
-        "/terraform/.terraform.lock.hcl",
-      ],
-      "reason": [],
-      "tech": "vercel",
-      "techs": [
-        "vercel",
-      ],
-    },
   ],
   "dependencies": [
     [
@@ -921,6 +1500,186 @@ exports[`analyser > should run correctly 2`] = `
       "docker",
       "unknown",
       "7.17.5",
+    ],
+    [
+      "php",
+      "mockery/mockery",
+      "~1.0",
+    ],
+    [
+      "php",
+      "phpunit/phpunit",
+      "^9.0",
+    ],
+    [
+      "php",
+      "php-mock/php-mock-mockery",
+      "^1.3",
+    ],
+    [
+      "php",
+      "dms/phpunit-arraysubset-asserts",
+      "^0.2.1",
+    ],
+    [
+      "php",
+      "fakerphp/faker",
+      "^1.13",
+    ],
+    [
+      "php",
+      "slevomat/coding-standard",
+      "^7.0",
+    ],
+    [
+      "php",
+      "nunomaduro/larastan",
+      "^2.1",
+    ],
+    [
+      "php",
+      "laravel/tinker",
+      "^2.7",
+    ],
+    [
+      "php",
+      "php",
+      ">=8.0",
+    ],
+    [
+      "php",
+      "laravel/framework",
+      "^9.0",
+    ],
+    [
+      "php",
+      "james-heinrich/getid3",
+      "^1.9",
+    ],
+    [
+      "php",
+      "guzzlehttp/guzzle",
+      "^7.0.1",
+    ],
+    [
+      "php",
+      "aws/aws-sdk-php-laravel",
+      "^3.1",
+    ],
+    [
+      "php",
+      "pusher/pusher-php-server",
+      "^4.0",
+    ],
+    [
+      "php",
+      "predis/predis",
+      "~1.0",
+    ],
+    [
+      "php",
+      "jackiedo/dotenv-editor",
+      "^2.0",
+    ],
+    [
+      "php",
+      "ext-exif",
+      "*",
+    ],
+    [
+      "php",
+      "ext-gd",
+      "*",
+    ],
+    [
+      "php",
+      "ext-fileinfo",
+      "*",
+    ],
+    [
+      "php",
+      "ext-json",
+      "*",
+    ],
+    [
+      "php",
+      "ext-SimpleXML",
+      "*",
+    ],
+    [
+      "php",
+      "daverandom/resume",
+      "^0.0.3",
+    ],
+    [
+      "php",
+      "laravel/helpers",
+      "^1.0",
+    ],
+    [
+      "php",
+      "intervention/image",
+      "^2.5",
+    ],
+    [
+      "php",
+      "doctrine/dbal",
+      "^3.0",
+    ],
+    [
+      "php",
+      "lstrojny/functional-php",
+      "^1.14",
+    ],
+    [
+      "php",
+      "teamtnt/laravel-scout-tntsearch-driver",
+      "^11.1",
+    ],
+    [
+      "php",
+      "algolia/algoliasearch-client-php",
+      "^3.3",
+    ],
+    [
+      "php",
+      "laravel/ui",
+      "^3.2",
+    ],
+    [
+      "php",
+      "webmozart/assert",
+      "^1.10",
+    ],
+    [
+      "php",
+      "laravel/sanctum",
+      "^2.15",
+    ],
+    [
+      "php",
+      "laravel/scout",
+      "^9.4",
+    ],
+    [
+      "php",
+      "nunomaduro/collision",
+      "^6.2",
+    ],
+    [
+      "php",
+      "jwilsson/spotify-web-api-php",
+      "^5.2",
+    ],
+    [
+      "php",
+      "meilisearch/meilisearch-php",
+      "^0.24.0",
+    ],
+    [
+      "php",
+      "http-interop/http-factory-guzzle",
+      "^1.2",
     ],
     [
       "npm",
@@ -998,6 +1757,26 @@ exports[`analyser > should run correctly 2`] = `
       "4.9.5",
     ],
     [
+      "githubAction",
+      "actions/checkout",
+      "v3",
+    ],
+    [
+      "githubAction",
+      "actions/setup-node",
+      "v3",
+    ],
+    [
+      "githubAction",
+      "codecov/codecov-action",
+      "v3",
+    ],
+    [
+      "docker",
+      "node",
+      "18.17.0",
+    ],
+    [
       "deno",
       "https://deno.land/x/postgres@v0.17.0/mod.ts",
       "23a1a36928f1b6d3b0170aaa67de09af12aa998525f608ff7331b9fb364cbde6",
@@ -1019,41 +1798,48 @@ exports[`analyser > should run correctly 2`] = `
     ],
   ],
   "edges": [],
-  "id": "26",
+  "id": "31",
   "inComponent": null,
   "languages": {
     "AMPL": 2,
     "Go": 3,
     "HCL": 2,
     "HTML": 3,
-    "JSON": 8,
+    "JSON": 11,
     "SCSS": 3,
     "TOML": 3,
-    "YAML": 2,
+    "YAML": 4,
   },
   "name": "flatten",
   "path": [
     "/",
     "/docker-compose.yml",
     "/deno/deno.lock",
+    "/php/composer.json",
+    "/package.json",
     "/golang/cmd/server/main.go",
     "/pkgs/api/package.json",
     "/pkgs/app/package.json",
     "/terraform/.terraform.lock.hcl",
     "/rust/Cargo.toml",
-    "/package.json",
   ],
   "reason": [],
   "tech": null,
   "techs": [
+    "algolia",
     "datadog",
     "deno",
     "docker",
     "eslint",
     "fastify",
     "gcp",
+    "github",
+    "github.actions",
     "golang",
+    "laravel",
     "nodejs",
+    "php",
+    "phpunit",
     "postgresql",
     "prettier",
     "prisma",

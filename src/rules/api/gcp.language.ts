@@ -12,5 +12,6 @@ register({
       example: 'google-cloud-language-v1',
     },
     { type: 'golang', name: 'cloud.google.com/go/language' },
+    { type: 'php', name: 'google/cloud-language' },
   ],
 });

@@ -10,5 +10,8 @@ register({
     { type: 'terraform', name: 'registry.terraform.io/hashicorp/google' },
     { type: 'ruby', name: /^google-cloud-/, example: 'google-cloud-storage' },
     { type: 'rust', name: /^google-cloud-/, example: 'google-cloud-metadata' },
+    { type: 'php', name: 'google/cloud' },
+    { type: 'githubAction', name: 'google-github-actions/auth' },
+    { type: 'githubAction', name: 'google-github-actions/setup-gcloud' },
   ],
 });

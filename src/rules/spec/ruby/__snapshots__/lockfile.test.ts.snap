@@ -7,6 +7,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "aws",
   "aws.dynamodb",
   "aws.ec2",
+  "aws.ecs",
   "aws.elasticache",
   "aws.glacier",
   "aws.lambda",
@@ -15,8 +16,11 @@ exports[`ruby (component) > should match everything 1`] = `
   "aws.sns",
   "aws.sqs",
   "azure",
+  "brevo",
+  "cloudflare",
   "couchbase",
   "datadog",
+  "docusign",
   "elasticsearch",
   "fastly",
   "firebase",
@@ -25,18 +29,24 @@ exports[`ruby (component) > should match everything 1`] = `
   "gcp.bigquery",
   "gcp.bigtable",
   "gcp.cloudrun",
+  "gcp.dataflow",
   "gcp.dataproc",
   "gcp.datastore",
+  "gcp.dialogflow",
   "gcp.dns",
   "gcp.functions",
   "gcp.gce",
   "gcp.gcs",
+  "gcp.kms",
   "gcp.language",
   "gcp.maps",
+  "gcp.memorystore",
   "gcp.pubsub",
   "gcp.secretmanager",
+  "gcp.spanner",
   "gcp.speech",
   "gcp.sql",
+  "gcp.tasks",
   "gcp.translate",
   "gcp.vision",
   "github",
@@ -44,9 +54,11 @@ exports[`ruby (component) > should match everything 1`] = `
   "heroku",
   "influxdb",
   "kubernetes",
+  "launchdarkly",
   "mailchimp",
   "mailjet",
   "mariadb",
+  "meilisearch",
   "memcached",
   "mongodb",
   "mysql",
@@ -62,6 +74,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "sentry",
   "slack",
   "snowflake",
+  "splitio",
   "sqlite",
   "sqreen",
   "zookeeper",
@@ -108,6 +121,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "aws-sdk-ec2",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "aws-sdk-ecs",
     "1.0.0",
   ],
   [
@@ -172,6 +190,11 @@ exports[`ruby (component) > should match everything 2`] = `
   ],
   [
     "ruby",
+    "cloudflare-rails",
+    "1.0.0",
+  ],
+  [
+    "ruby",
     "couchbase",
     "1.0.0",
   ],
@@ -202,7 +225,17 @@ exports[`ruby (component) > should match everything 2`] = `
   ],
   [
     "ruby",
+    "docusign_esign",
+    "1.0.0",
+  ],
+  [
+    "ruby",
     "elasticsearch",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "elastimeilisearchcsearch",
     "1.0.0",
   ],
   [
@@ -257,12 +290,22 @@ exports[`ruby (component) > should match everything 2`] = `
   ],
   [
     "ruby",
+    "google-cloud-dataflow-v1",
+    "1.0.0",
+  ],
+  [
+    "ruby",
     "google-cloud-dataproc-v1",
     "1.0.0",
   ],
   [
     "ruby",
     "google-cloud-datastore",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "google-cloud-dialogflow-v1",
     "1.0.0",
   ],
   [
@@ -277,12 +320,22 @@ exports[`ruby (component) > should match everything 2`] = `
   ],
   [
     "ruby",
+    "google-cloud-kms-v1",
+    "1.0.0",
+  ],
+  [
+    "ruby",
     "google-cloud-language-v1",
     "1.0.0",
   ],
   [
     "ruby",
     "google-cloud-pubsub",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "google-cloud-redis-v1",
     "1.0.0",
   ],
   [
@@ -302,12 +355,22 @@ exports[`ruby (component) > should match everything 2`] = `
   ],
   [
     "ruby",
+    "google-cloud-spanner-v1",
+    "1.0.0",
+  ],
+  [
+    "ruby",
     "google-cloud-speech-v1",
     "1.0.0",
   ],
   [
     "ruby",
     "google-cloud-storage",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "google-cloud-tasks-v1",
     "1.0.0",
   ],
   [
@@ -343,6 +406,16 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "kubeclient",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "launchdarkly-server-sdk",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "ldclient-rb",
     "1.0.0",
   ],
   [
@@ -432,7 +505,17 @@ exports[`ruby (component) > should match everything 2`] = `
   ],
   [
     "ruby",
+    "sib-api-v3-sdk",
+    "1.0.0",
+  ],
+  [
+    "ruby",
     "slack-ruby-client",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "splitclient-rb",
     "1.0.0",
   ],
   [

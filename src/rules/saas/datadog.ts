@@ -7,6 +7,7 @@ register({
   dependencies: [
     { type: 'npm', name: /^@datadog\//, example: '@datadog/cli' },
     { type: 'npm', name: 'dd-trace' },
+    { type: 'npm', name: 'datadog-metrics' },
     { type: 'terraform', name: 'registry.terraform.io/datadog/datadog' },
     { type: 'terraform.resource', name: 'datadog_metric_metadata' },
     { type: 'terraform.resource', name: 'datadog_application_key' },
@@ -15,5 +16,9 @@ register({
     { type: 'rust', name: 'datadog-apm' },
     { type: 'ruby', name: 'ddtrace' },
     { type: 'ruby', name: /datadog/, example: 'datadog-lambda' },
+    { type: 'php', name: 'datadog/php-datadogstatsd' },
+    { type: 'php', name: 'datadog/dd-trace' },
+    { type: 'githubAction', name: 'DataDog/synthetics-ci-github-action' },
+    { type: 'githubAction', name: 'datadog/agent-github-action' },
   ],
 });

@@ -17,5 +17,6 @@ register({
       name: /^aws_elasticache/,
       example: 'aws_elasticache_cluster',
     },
+    { type: 'php', name: 'atyagi/elasticache-laravel' },
   ],
 });

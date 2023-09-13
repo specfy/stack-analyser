@@ -4,4 +4,5 @@ register({
   tech: 'squareup',
   name: 'Square',
   type: 'saas',
+  dependencies: [{ type: 'php', name: 'square/square' }],
 });

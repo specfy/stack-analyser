@@ -9,5 +9,6 @@ register({
       type: 'terraform',
       name: 'registry.terraform.io/cockroachdb/cockroach',
     },
+    { type: 'php', name: 'nbj/cockroachdb-laravel' },
   ],
 });

@@ -7,5 +7,6 @@ register({
   dependencies: [
     { type: 'npm', name: '@scaleway/sdk' },
     { type: 'terraform', name: 'registry.terraform.io/scaleway/scaleway' },
+    { type: 'githubAction', name: 'scaleway/action-scw' },
   ],
 });

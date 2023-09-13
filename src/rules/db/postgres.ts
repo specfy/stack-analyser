@@ -14,5 +14,6 @@ register({
       name: /\/x\/postgres@/,
       example: 'https://deno.land/x/postgres@v0.17.0/mod.ts',
     },
+    { type: 'php', name: 'martin-georgiev/postgresql-for-doctrine' },
   ],
 });

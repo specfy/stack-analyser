@@ -10,5 +10,6 @@ register({
       type: 'npm',
       name: '@ovh-api/api',
     },
+    { type: 'php', name: 'ovh/ovh' },
   ],
 });

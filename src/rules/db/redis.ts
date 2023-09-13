@@ -12,5 +12,8 @@ register({
     { type: 'rust', name: 'redis-async' },
     { type: 'ruby', name: 'redis' },
     { type: 'ruby', name: 'redis-client' },
+    { type: 'php', name: 'predis/predis' },
+    { type: 'php', name: 'snc/redis-bundle' },
+    { type: 'php', name: 'colinmollenhour/cache-backend-redis' },
   ],
 });

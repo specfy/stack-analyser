@@ -16,5 +16,10 @@ register({
       example: 'google-cloud-secret_manager-v1',
     },
     { type: 'golang', name: 'cloud.google.com/go/secretmanager' },
+    { type: 'php', name: 'google/cloud-secret-manager' },
+    {
+      type: 'githubAction',
+      name: 'google-github-actions/get-secretmanager-secrets',
+    },
   ],
 });

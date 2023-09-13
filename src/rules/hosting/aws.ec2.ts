@@ -14,5 +14,9 @@ register({
       name: /^aws_ec2/,
       example: 'aws_ec2_instance_type',
     },
+    {
+      type: 'githubAction',
+      name: 'bitovi/github-actions-deploy-docker-to-ec2',
+    },
   ],
 });

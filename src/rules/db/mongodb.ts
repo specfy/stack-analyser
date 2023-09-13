@@ -10,5 +10,6 @@ register({
     { type: 'docker', name: /mongo/, example: 'mongo:0.0.0' },
     { type: 'rust', name: 'mongodb' },
     { type: 'ruby', name: 'mongo' },
+    { type: 'php', name: 'mongodb/mongodb' },
   ],
 });

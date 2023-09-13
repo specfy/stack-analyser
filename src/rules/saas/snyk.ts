@@ -11,5 +11,10 @@ register({
       type: 'terraform',
       name: 'registry.terraform.io/snyk-terraform-assets/snyk',
     },
+    {
+      type: 'githubAction',
+      name: /^snyk\/actions\//,
+      example: 'snyk/actions/php',
+    },
   ],
 });
