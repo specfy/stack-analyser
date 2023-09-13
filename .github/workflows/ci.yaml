@@ -7,7 +7,7 @@ on:
 
 jobs:
   ci:
-    container: node:18.17.0
+    container: node:18.17.1@sha256:933bcfad91e9052a02bc29eb5aa29033e542afac4174f9524b79066d97b23c24
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
@@ -17,7 +17,7 @@ jobs:
 
     steps:
       - name: Check out repository code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Install Node
         uses: actions/setup-node@v3
