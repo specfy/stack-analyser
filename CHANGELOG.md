@@ -1,3 +1,25 @@
+# [1.5.0](https://github.com/specfy/stack-analyser/compare/v1.4.11...v1.5.0) (2023-09-13)
+
+
+### Bug Fixes
+
+*  bad copy pasta ([5528203](https://github.com/specfy/stack-analyser/commit/5528203869555b5e36f631347fb36b0fc7355df5))
+* dependencies 2023-09-06 ([#31](https://github.com/specfy/stack-analyser/issues/31)) ([a29aa70](https://github.com/specfy/stack-analyser/commit/a29aa7028c7e0295a7ff56757b54615c7a62cc0c))
+* **docker:** add tests to ensure no component without image is registered ([e7325af](https://github.com/specfy/stack-analyser/commit/e7325af13cec880955dabd728cc1d47ec963433e))
+* **rules:** add Cloudflare Pages ([eb1ee23](https://github.com/specfy/stack-analyser/commit/eb1ee23b82fd0d9ffab84c6d16425247607927b6))
+* **rules:** add Cloudflare Workers ([a4574c9](https://github.com/specfy/stack-analyser/commit/a4574c9c0eba3b1337fdafcda003d7386f6451ec))
+* **rules:** add Codecov ([6c20b0f](https://github.com/specfy/stack-analyser/commit/6c20b0f479dd55828564b1b9316307362fb0e9be))
+* **rules:** add Coveralls ([ccb4352](https://github.com/specfy/stack-analyser/commit/ccb435243c1b5e59551c7159f06bfc91fd874472))
+* **rules:** add Jira ([a813809](https://github.com/specfy/stack-analyser/commit/a8138097767f51210ea99711fce40ae6c13616ba))
+* **rules:** add more packages for Slack ([171fa12](https://github.com/specfy/stack-analyser/commit/171fa12c50eaf2ccd79ea5aabb723aabee6b3356))
+* **rules:** add Vialink ([831b854](https://github.com/specfy/stack-analyser/commit/831b85445f0260f69b20a34df93f4a30fc1dc9ea))
+* **rules:** add Yousign ([120c32f](https://github.com/specfy/stack-analyser/commit/120c32f5f632f63db49b963567d527e4ba9c925c))
+
+
+### Features
+
+* parse GitHub Actions ([#48](https://github.com/specfy/stack-analyser/issues/48)) ([4d2a4ad](https://github.com/specfy/stack-analyser/commit/4d2a4adc3e6e3e382b71b2d3a0c637e788f503c6))
+
 ## [1.4.11](https://github.com/specfy/stack-analyser/compare/v1.4.10...v1.4.11) (2023-09-08)
 
 
