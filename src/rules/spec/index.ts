@@ -1,5 +1,6 @@
 import './deno/index.js';
 import './docker/index.js';
+import './githubActions/index.js';
 import './golang/index.js';
 import './nodejs/index.js';
 import './php/index.js';

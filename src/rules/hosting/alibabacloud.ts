@@ -8,5 +8,6 @@ register({
     { type: 'terraform', name: 'registry.terraform.io/aliyun/alicloud' },
     { type: 'php', name: 'alibabacloud/sdk' },
     { type: 'php', name: 'alibabacloud/client' },
+    { type: 'githubAction', name: 'aliyun/acr-login' },
   ],
 });

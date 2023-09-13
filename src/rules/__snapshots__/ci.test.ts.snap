@@ -18,5 +18,6 @@ exports[`ci > should match everything 1`] = `
   "styleci",
   "teamcity",
   "travisci",
+  "trufflesecurity",
 ]
 `;

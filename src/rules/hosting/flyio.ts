@@ -7,5 +7,6 @@ register({
   files: ['fly.toml'],
   dependencies: [
     { type: 'terraform', name: 'registry.terraform.io/fly-apps/fly' },
+    { type: 'githubAction', name: 'superfly/flyctl-actions/setup-flyctl' },
   ],
 });

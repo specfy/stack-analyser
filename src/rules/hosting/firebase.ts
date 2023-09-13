@@ -10,5 +10,10 @@ register({
     { type: 'rust', name: 'firebase-rs' },
     { type: 'npm', name: 'firebase' },
     { type: 'npm', name: /^@firebase\//, example: '@firebase/auth' },
+    { type: 'githubAction', name: 'w9jds/firebase-action' },
+    {
+      type: 'githubAction',
+      name: 'wzieba/Firebase-Distribution-Github-Action',
+    },
   ],
 });

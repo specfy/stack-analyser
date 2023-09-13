@@ -263,6 +263,7 @@ export type AllowedKeys =
   | 'tinybird'
   | 'traefik'
   | 'travisci'
+  | 'trufflesecurity'
   | 'twigphp'
   | 'twilio'
   | 'twitter'

@@ -13,4 +13,5 @@ register({
     'docker-compose.yaml',
   ],
   detect: detectDockerComponent,
+  dependencies: [{ type: 'githubAction', name: 'docker/login-action' }],
 });

@@ -29,5 +29,6 @@ register({
     },
     { type: 'php', name: 'launchdarkly/server-sdk' },
     { type: 'php', name: 'launchdarkly/launchdarkly-php' },
+    { type: 'githubAction', name: 'launchdarkly/find-code-references' },
   ],
 });

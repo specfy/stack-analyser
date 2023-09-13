@@ -9,5 +9,7 @@ register({
       type: 'terraform',
       name: 'registry.terraform.io/digitalocean/digitalocean',
     },
+    { type: 'githubAction', name: 'digitalocean/app_action' },
+    { type: 'githubAction', name: 'digitalocean/action-doctl' },
   ],
 });
