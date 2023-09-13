@@ -133,6 +133,16 @@ exports[`docker > should match all dependencies 2`] = `
   ],
   [
     "githubAction",
+    "ansible-community/ansible-test-gh-action",
+    "1",
+  ],
+  [
+    "githubAction",
+    "ansible/ansible-lint",
+    "1",
+  ],
+  [
+    "githubAction",
     "appleboy/lambda-action",
     "1",
   ],

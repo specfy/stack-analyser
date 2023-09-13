@@ -22,6 +22,7 @@ export type AllowedKeys =
   | 'alpinejs'
   | 'amplitude'
   | 'angular'
+  | 'ansible'
   | 'apache_airflow'
   | 'apache_cassandra'
   | 'apache_couchdb'

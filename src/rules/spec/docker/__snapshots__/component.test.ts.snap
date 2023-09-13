@@ -3,6 +3,7 @@
 exports[`docker > should match everything 1`] = `
 [
   "airbyte",
+  "ansible",
   "apache_airflow",
   "apache_cassandra",
   "apache_couchdb",
@@ -64,6 +65,11 @@ exports[`docker > should match everything 2`] = `
     "docker",
     "airbyte/worker",
     "latest",
+  ],
+  [
+    "docker",
+    "alpinelinux/ansible",
+    "0.0.0",
   ],
   [
     "docker",
@@ -263,6 +269,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "php",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "pipelinecomponents/ansible-lint",
     "0.0.0",
   ],
   [
