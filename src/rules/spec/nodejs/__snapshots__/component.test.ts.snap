@@ -147,6 +147,7 @@ exports[`npm > should match everything 1`] = `
   "supabase.storage",
   "sveltejs",
   "tailwind",
+  "terraform",
   "tinybird",
   "twilio",
   "typescript",
@@ -747,6 +748,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "browserstack",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "cdktf",
     "0.0.0",
   ],
   [

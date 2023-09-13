@@ -11,6 +11,8 @@ register({
   dependencies: [
     { type: 'githubAction', name: 'hashicorp/setup-terraform' },
     { type: 'githubAction', name: 'hashicorp/terraform-cdk-action' },
+    { type: 'npm', name: 'cdktf' },
+    // {type: 'python', name: 'cdktf'}
   ],
   detect: [detectTerraformLockfile, detectTerraformResource],
 });
