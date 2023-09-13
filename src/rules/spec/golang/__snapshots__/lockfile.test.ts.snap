@@ -259,5 +259,10 @@ exports[`golang (lockfile) > should match everything 2`] = `
     "github.com/splitio/go-client/v6",
     "v1.0.0",
   ],
+  [
+    "golang",
+    "goveralls",
+    "v1.0.0",
+  ],
 ]
 `;

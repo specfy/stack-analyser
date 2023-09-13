@@ -200,6 +200,11 @@ exports[`ruby (component) > should match everything 2`] = `
   ],
   [
     "ruby",
+    "coveralls-ruby-reborn",
+    "1.0.0",
+  ],
+  [
+    "ruby",
     "cypress-on-rails",
     "1.0.0",
   ],

@@ -27,6 +27,7 @@ exports[`npm > should match everything 1`] = `
   "cloudflare",
   "contenful",
   "couchbase",
+  "coveralls",
   "crowdin",
   "cypressci",
   "datadog",
@@ -965,6 +966,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "node-coveralls",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "node-mailjet",
     "0.0.0",
   ],
@@ -991,6 +997,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "pg",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "php-coveralls",
     "0.0.0",
   ],
   [

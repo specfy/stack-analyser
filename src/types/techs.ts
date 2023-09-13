@@ -66,6 +66,7 @@ export type AllowedKeys =
   | 'codesandboxci'
   | 'contenful'
   | 'couchbase'
+  | 'coveralls'
   | 'cplusplus'
   | 'crowdin'
   | 'csharp'

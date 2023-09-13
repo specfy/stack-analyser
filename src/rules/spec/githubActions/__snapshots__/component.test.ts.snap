@@ -194,6 +194,11 @@ exports[`docker > should match all dependencies 2`] = `
   ],
   [
     "githubAction",
+    "coverallsapp/github-action",
+    "1",
+  ],
+  [
+    "githubAction",
     "cypress-io/github-action",
     "1",
   ],
