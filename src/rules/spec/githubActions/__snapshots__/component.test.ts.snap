@@ -11,6 +11,7 @@ exports[`docker > should match all dependencies 1`] = `
   "aws.s3",
   "azure",
   "cloudflare",
+  "cloudflare.pages",
   "cloudflare.workers",
   "databricks",
   "datadog",
@@ -218,6 +219,11 @@ exports[`docker > should match all dependencies 2`] = `
   [
     "githubAction",
     "bitovi/github-actions-deploy-docker-to-ec2",
+    "1",
+  ],
+  [
+    "githubAction",
+    "cloudflare/pages-action",
     "1",
   ],
   [

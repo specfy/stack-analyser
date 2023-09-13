@@ -7,6 +7,7 @@ import './aws.js';
 import './aws.lambda.js';
 import './azure.js';
 import './cloudflare.js';
+import './cloudflare.pages.js';
 import './cloudflare.workers.js';
 import './digitalocean.js';
 import './elasticstack.js';

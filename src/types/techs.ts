@@ -60,6 +60,7 @@ export type AllowedKeys =
   | 'circleci'
   | 'cirrusci'
   | 'clickhouse'
+  | 'cloudflare.pages'
   | 'cloudflare.workers'
   | 'cloudflare'
   | 'cockroachdb'

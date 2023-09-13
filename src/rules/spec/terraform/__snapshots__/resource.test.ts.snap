@@ -15,6 +15,7 @@ exports[`terraform (resource) > should match everything 1`] = `
   "aws.sns",
   "aws.sqs",
   "cloudflare",
+  "cloudflare.pages",
   "cloudflare.workers",
   "datadog",
   "firebase",
