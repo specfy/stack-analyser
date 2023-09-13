@@ -44,6 +44,7 @@ exports[`docker > should match everything 1`] = `
   "percona",
   "php",
   "plausible",
+  "playwright",
   "postgresql",
   "rabbitmq",
   "redis",
@@ -214,6 +215,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "matomo",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "mcr.microsoft.com/playwright",
     "0.0.0",
   ],
   [

@@ -206,6 +206,7 @@ export type AllowedKeys =
   | 'planetscale'
   | 'platformsh'
   | 'plausible'
+  | 'playwright'
   | 'postgresql'
   | 'postman'
   | 'powershell'

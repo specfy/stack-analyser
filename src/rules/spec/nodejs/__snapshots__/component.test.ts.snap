@@ -104,6 +104,7 @@ exports[`npm > should match everything 1`] = `
   "ovh",
   "pagerduty",
   "placekit",
+  "playwright",
   "postgresql",
   "postman",
   "preactjs",
@@ -1019,6 +1020,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "php-coveralls",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "playwright",
     "0.0.0",
   ],
   [
