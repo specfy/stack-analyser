@@ -115,6 +115,11 @@ exports[`php > should match everything 2`] = `
   ],
   [
     "php",
+    "alek13/slack",
+    "0.0.0",
+  ],
+  [
+    "php",
     "algolia/algoliasearch-client-php",
     "0.0.0",
   ],
@@ -490,6 +495,11 @@ exports[`php > should match everything 2`] = `
   ],
   [
     "php",
+    "jolicode/slack-php-api",
+    "0.0.0",
+  ],
+  [
+    "php",
     "klaviyo/magento2-extension",
     "0.0.0",
   ],
@@ -561,6 +571,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "mailjet/mailjet-apiv3-php",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "maknz/slack",
     "0.0.0",
   ],
   [
