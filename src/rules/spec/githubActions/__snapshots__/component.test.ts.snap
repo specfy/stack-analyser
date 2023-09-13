@@ -10,6 +10,8 @@ exports[`docker > should match all dependencies 1`] = `
   "aws.lambda",
   "aws.s3",
   "azure",
+  "cloudflare",
+  "cloudflare.workers",
   "databricks",
   "datadog",
   "digitalocean",
@@ -216,6 +218,11 @@ exports[`docker > should match all dependencies 2`] = `
   [
     "githubAction",
     "bitovi/github-actions-deploy-docker-to-ec2",
+    "1",
+  ],
+  [
+    "githubAction",
+    "cloudflare/wrangler-action",
     "1",
   ],
   [

@@ -2,6 +2,7 @@
 
 exports[`hosting > should match everything with files 1`] = `
 [
+  "cloudflare.workers",
   "expodev",
   "firebase",
   "flyio",

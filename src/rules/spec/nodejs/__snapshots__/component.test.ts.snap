@@ -25,6 +25,7 @@ exports[`npm > should match everything 1`] = `
   "browserstack",
   "clickhouse",
   "cloudflare",
+  "cloudflare.workers",
   "contenful",
   "couchbase",
   "coveralls",
@@ -487,6 +488,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@miniflare/cache",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@netlify/plugin-emails",
     "0.0.0",
   ],
@@ -927,6 +933,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "miniflare",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "mithril",
     "0.0.0",
   ],
@@ -1173,6 +1184,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "webpack",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "wrangler",
     "0.0.0",
   ],
 ]
