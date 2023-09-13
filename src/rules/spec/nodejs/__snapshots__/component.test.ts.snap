@@ -81,6 +81,7 @@ exports[`npm > should match everything 1`] = `
   "koa",
   "kubernetes",
   "launchdarkly",
+  "lighthouse",
   "logrocket",
   "logsnag",
   "mailchimp",
@@ -895,6 +896,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "launchdarkly-react-client-sdk",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "lighthouse",
     "0.0.0",
   ],
   [

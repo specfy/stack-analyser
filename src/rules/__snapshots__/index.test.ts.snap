@@ -142,6 +142,7 @@ exports[`all > should match everything 1`] = `
   "kubernetes",
   "laravel",
   "launchdarkly",
+  "lighthouse",
   "logrocket",
   "logsnag",
   "magento",

@@ -167,6 +167,7 @@ export type AllowedKeys =
   | 'kubernetes'
   | 'laravel'
   | 'launchdarkly'
+  | 'lighthouse'
   | 'logrocket'
   | 'logsnag'
   | 'magento'

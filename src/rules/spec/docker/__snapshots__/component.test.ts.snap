@@ -31,6 +31,7 @@ exports[`docker > should match everything 1`] = `
   "jenkins",
   "jira",
   "kibana",
+  "lighthouse",
   "mariadb",
   "matomo",
   "meilisearch",
@@ -175,6 +176,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "elasticsearch",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "femtopixel/google-lighthouse",
     "0.0.0",
   ],
   [

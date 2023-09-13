@@ -288,6 +288,11 @@ exports[`docker > should match all dependencies 2`] = `
   ],
   [
     "githubAction",
+    "foo-software/lighthouse-check-action",
+    "1",
+  ],
+  [
+    "githubAction",
     "getsentry/action-release",
     "1",
   ],
@@ -349,6 +354,11 @@ exports[`docker > should match all dependencies 2`] = `
   [
     "githubAction",
     "hashicorp/vault-action",
+    "1",
+  ],
+  [
+    "githubAction",
+    "jakejarvis/lighthouse-action",
     "1",
   ],
   [
@@ -419,6 +429,11 @@ exports[`docker > should match all dependencies 2`] = `
   [
     "githubAction",
     "superfly/flyctl-actions/setup-flyctl",
+    "1",
+  ],
+  [
+    "githubAction",
+    "treosh/lighthouse-ci-action",
     "1",
   ],
   [
