@@ -14,5 +14,7 @@ register({
       name: /^aws_sns/,
       example: 'aws_sns_topic',
     },
+    { type: 'php', name: 'aws/aws-php-sns-message-validator' },
+    { type: 'php', name: 'async-aws/sns' },
   ],
 });

@@ -95,7 +95,9 @@ export class Payload implements Analyser {
         continue;
       }
 
-      ctx.addTech(res[0].tech, [`matched file: ${res[1]}`]);
+      ctx.addTech(res[0].tech, [
+        `matched file: ${res[1].replace(provider.basePath, '')}`,
+      ]);
     }
 
     // Recursively dive in folders
@@ -128,15 +130,16 @@ export class Payload implements Analyser {
     if (service.tech?.includes('.')) {
       const [host] = service.tech.split('.');
       const tech = listIndexed[host as AllowedKeys];
-
-      const pl = new Payload({
-        name: tech.name,
-        folderPath: service.path[0],
-        tech: tech.tech,
-        reason: `implicit: ${service.tech}`,
-      });
-      const child = this.addChild(pl);
-      service.inComponent = child;
+      if (tech.type === 'hosting') {
+        const pl = new Payload({
+          name: tech.name,
+          folderPath: service.path[0],
+          tech: tech.tech,
+          reason: `implicit: ${service.tech}`,
+        });
+        const child = this.addChild(pl);
+        service.inComponent = child;
+      }
     }
 
     if (exist) {

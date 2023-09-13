@@ -9,5 +9,6 @@ register({
     { type: 'terraform', name: 'registry.terraform.io/PagerDuty/pagerduty' },
     { type: 'rust', name: 'pagerduty-rs' },
     { type: 'ruby', name: 'pagerduty' },
+    { type: 'php', name: 'adilbaig/pagerduty' },
   ],
 });

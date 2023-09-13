@@ -30,5 +30,7 @@ register({
       name: /^aws_dynamodb/,
       example: 'aws_dynamodb_table',
     },
+    { type: 'php', name: 'baopham/dynamodb' },
+    { type: 'php', name: 'async-aws/dynamo-db' },
   ],
 });

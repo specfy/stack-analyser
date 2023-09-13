@@ -1,3 +1,104 @@
+## [1.4.11](https://github.com/specfy/stack-analyser/compare/v1.4.10...v1.4.11) (2023-09-08)
+
+
+### Bug Fixes
+
+* **rules:** add Brevo ([b0b1597](https://github.com/specfy/stack-analyser/commit/b0b15979ceaaf7af9613d3870011b3c91ee52c4f))
+* **rules:** add GCP Dataflow' ([999ab11](https://github.com/specfy/stack-analyser/commit/999ab11197334bffd8bb1cb75e3e5b7792583d1d))
+* **rules:** add GCP Dialogflow ([2bfbdc4](https://github.com/specfy/stack-analyser/commit/2bfbdc4ac314d939939aa7b1da52047df6ee681f))
+* **rules:** add GCP KMS ([acea79b](https://github.com/specfy/stack-analyser/commit/acea79bcdf275b9bde2f96a7a7131237e90f950d))
+* **rules:** add GCP Memorystore (redis) ([3afd321](https://github.com/specfy/stack-analyser/commit/3afd32133aa744c98ffa383a48718a21dbbc6b99))
+* **rules:** add GCP Spanner ([d5beec7](https://github.com/specfy/stack-analyser/commit/d5beec7b5ffa6da13a8c0fdc60caa304b29f6fa1))
+* **rules:** add GCP Tasks ([ea1dd29](https://github.com/specfy/stack-analyser/commit/ea1dd29939e95e533dc2129fb69169578cbbefba))
+* **rules:** add Matomo ([d7cfaae](https://github.com/specfy/stack-analyser/commit/d7cfaaeecf48546cadc194c48dcc76ac0c34596c))
+* **rules:** add Meilisearch ([d46929d](https://github.com/specfy/stack-analyser/commit/d46929d245905d9fe3a619d3fe21d87cf9a7d3e4))
+* **rules:** add Nextcloud ([07da83f](https://github.com/specfy/stack-analyser/commit/07da83f88daeed93fefbbe6e2fdab79189cd25de))
+* **rules:** add PHP Pest ([b9181b5](https://github.com/specfy/stack-analyser/commit/b9181b56564d092e659043b3c0a526f51409b01e))
+* **rules:** add support for PHP ([#32](https://github.com/specfy/stack-analyser/issues/32)) ([85d0e17](https://github.com/specfy/stack-analyser/commit/85d0e1758f7b3351e863a4b3c75cc26cad7c3084))
+
+## [1.4.10](https://github.com/specfy/stack-analyser/compare/v1.4.9...v1.4.10) (2023-09-05)
+
+
+### Bug Fixes
+
+* **rules:** add AlpineJS ([3bc003b](https://github.com/specfy/stack-analyser/commit/3bc003b96a40f20b1ba5f6a78948fd5d449b502d))
+* **rules:** add BigCommerce ([144f5f8](https://github.com/specfy/stack-analyser/commit/144f5f8a78d6bfa58235f5e8eab8a15ac50c7592))
+* **rules:** add Emberjs ([636f6d8](https://github.com/specfy/stack-analyser/commit/636f6d8ab6a3338543acfeb73be44b7f0930196b))
+* **rules:** add Hypertune ([b5104ca](https://github.com/specfy/stack-analyser/commit/b5104cad4f0c17d0e09da47c362bc50d4a1776b2))
+* **rules:** add LaunchDarkly ([8a15eb3](https://github.com/specfy/stack-analyser/commit/8a15eb33df337705a0e00c8c8f399b93da245693))
+* **rules:** add Meteorjs ([2dc5aef](https://github.com/specfy/stack-analyser/commit/2dc5aef403af44ed6a75fa015a51ecb30255800c))
+* **rules:** add Mithriljs ([4a2b025](https://github.com/specfy/stack-analyser/commit/4a2b0251f047d7a6133f01a10890c4de63c22934))
+* **rules:** add Next.js ([2f1f094](https://github.com/specfy/stack-analyser/commit/2f1f09458e894baea2ef562648307a16c9aa14e0))
+* **rules:** add npm package to aws amplify ([1d94ad6](https://github.com/specfy/stack-analyser/commit/1d94ad66297d49cf50837c16a81869d29ede00b3))
+* **rules:** add npm package to AWS Lambda" ([c21735e](https://github.com/specfy/stack-analyser/commit/c21735e2cd01950dc87bc0efe811451f65fa9587))
+* **rules:** add NuxtJs ([f32ca43](https://github.com/specfy/stack-analyser/commit/f32ca4305e496359297e74f43ee371fc7e5c769f))
+* **rules:** add Planetscale ([78c85bd](https://github.com/specfy/stack-analyser/commit/78c85bdcacdab185f259f7295ae3599dcd7d63b9))
+* **rules:** add PreactJS ([e0893ab](https://github.com/specfy/stack-analyser/commit/e0893ab37ee2d2620130668c47528948ff3317c9))
+* **rules:** add Sanity ([0bb6370](https://github.com/specfy/stack-analyser/commit/0bb63703250cc2ccdc444dcc94de9a5f51a04992))
+* **rules:** add Sitecore ([72be68d](https://github.com/specfy/stack-analyser/commit/72be68d404c970abca23bd1a22057dd736fcad52))
+* **rules:** add SolidJS ([a68bbd9](https://github.com/specfy/stack-analyser/commit/a68bbd977d62d7791fb0e327d06232b18bee83e3))
+* **rules:** add Splitio ([39fa9db](https://github.com/specfy/stack-analyser/commit/39fa9db41269b936f2c33cc2a6e7f86427c46f98))
+* **rules:** add Sveltejs ([433fbb9](https://github.com/specfy/stack-analyser/commit/433fbb99ab2443b7442e330c43ef2945b5ce5c9d))
+* **rules:** add Tinybirdco ([21a6b66](https://github.com/specfy/stack-analyser/commit/21a6b66f3463a791720af6195ad7af5466abf3bb))
+* **rules:** add Upstash ([97cf805](https://github.com/specfy/stack-analyser/commit/97cf805d365e0aaf9b03a4c0db9c077be687cbed))
+* **rules:** hotjar is a saas ([f597fdc](https://github.com/specfy/stack-analyser/commit/f597fdcd275a4a2eee6494610ac3ed460a07b944))
+
+## [1.4.9](https://github.com/specfy/stack-analyser/compare/v1.4.8...v1.4.9) (2023-09-04)
+
+
+### Bug Fixes
+
+* **rules:** add Apache Flink ([c97479a](https://github.com/specfy/stack-analyser/commit/c97479a3acb4f0ca959255047c523805878f1b30))
+* **rules:** add Apache Iceberg ([0887243](https://github.com/specfy/stack-analyser/commit/0887243d667dbbd4ce49f55e075bc0ead322caa4))
+* **rules:** add Apache Storm ([949c655](https://github.com/specfy/stack-analyser/commit/949c655990a1d76c4475319cac36641b4c4cc9a2))
+* **rules:** add AWS Amplify Hosting ([ff1aed2](https://github.com/specfy/stack-analyser/commit/ff1aed29e594bfb27bd204db3ff7e16feac8f7ff))
+* **rules:** add AWS ECS ([1c40cea](https://github.com/specfy/stack-analyser/commit/1c40cea1ea2d6991909fceef1d718d45be31f60a))
+* **rules:** add AWS Fargate ([1510e40](https://github.com/specfy/stack-analyser/commit/1510e40c84ce44fbd811f3a91ac6eba6c5dbedb5))
+* **rules:** add Crowdin ([05c8c32](https://github.com/specfy/stack-analyser/commit/05c8c3269f6c5871a7ea6cadb4f881a53d9fda71))
+* **rules:** add Databricks ([127e17f](https://github.com/specfy/stack-analyser/commit/127e17f126639e122b388fb7dcecd3db8e95498c))
+* **rules:** add Dataiku ([f596cd5](https://github.com/specfy/stack-analyser/commit/f596cd5cffd2326ca47adcdcafc629916f27ae01))
+* **rules:** add Datastax ([fd8a612](https://github.com/specfy/stack-analyser/commit/fd8a612509bca5a9b97b1eadaeea555b95754514))
+* **rules:** add Digital Ocean ([0de015b](https://github.com/specfy/stack-analyser/commit/0de015ba3d8309b9be5ea5ba8c22ca05882b74e3))
+* **rules:** add Discourse ([4e2af20](https://github.com/specfy/stack-analyser/commit/4e2af202c9afba1f7587119e515d91bb864516f7))
+* **rules:** add Docusign ([736f516](https://github.com/specfy/stack-analyser/commit/736f5168014aaf46f2dbf01923a1ad3d91cf5591))
+* **rules:** add Dynatrace ([5395ba3](https://github.com/specfy/stack-analyser/commit/5395ba3996e8708fb986d7aad07f9ebc65a708af))
+* **rules:** add Facebook ([f41b2f5](https://github.com/specfy/stack-analyser/commit/f41b2f592e1f669558aa5f29ceaf24ffe5d027c3))
+* **rules:** add Firebase Firestore ([a968586](https://github.com/specfy/stack-analyser/commit/a96858694c9a0d3ae1e0bc4ad42228e4d6d241bd))
+* **rules:** add missing package for Datadog ([07e0750](https://github.com/specfy/stack-analyser/commit/07e075065ecbd14a2651cc4e96465caf44312fc7))
+* **rules:** add some missing Terraform provider ([b3dd1bc](https://github.com/specfy/stack-analyser/commit/b3dd1bcaa19e0450ed17a446a43214d2f3b5d02c))
+* **rules:** add Tencent Cloud ([9ca03d1](https://github.com/specfy/stack-analyser/commit/9ca03d1f0b70a77a56120bb6e320da1d9ca5a668))
+
+## [1.4.8](https://github.com/specfy/stack-analyser/compare/v1.4.7...v1.4.8) (2023-09-03)
+
+
+### Bug Fixes
+
+* implicit component were not created with the correct name ([234b4cc](https://github.com/specfy/stack-analyser/commit/234b4cc56d1412165769fb23ee489eb19fd00dd7))
+
+## [1.4.7](https://github.com/specfy/stack-analyser/compare/v1.4.6...v1.4.7) (2023-09-03)
+
+
+### Bug Fixes
+
+* do not implicitly add host if the first name is not an host ([edd4b23](https://github.com/specfy/stack-analyser/commit/edd4b23c334b79cc8106dc945ef4c09fd9a6c6a8))
+
+## [1.4.6](https://github.com/specfy/stack-analyser/compare/v1.4.5...v1.4.6) (2023-09-03)
+
+
+### Bug Fixes
+
+* **rules:** add Airbyte ([2a3ee10](https://github.com/specfy/stack-analyser/commit/2a3ee100b133c3dc358a9a58c127fb5649e8bdbf))
+* **rules:** add Apache Airflow' ([d8d3bfb](https://github.com/specfy/stack-analyser/commit/d8d3bfbcdbded823a46aeb2eccfe3f5da10f5fb4))
+* **rules:** add Apache CouchDB ([1ff6a0b](https://github.com/specfy/stack-analyser/commit/1ff6a0b4466acaaf48c85c5381f047e058602a02))
+* **rules:** add Apache Kafka ([2b3de25](https://github.com/specfy/stack-analyser/commit/2b3de25d4e173cb7ac026d4f036b161ee67cbe71))
+* **rules:** add Apache Spark ([a3b838d](https://github.com/specfy/stack-analyser/commit/a3b838ddd78f3369e945cb36394ed47a836c5066))
+* **rules:** add Bitbucket ([56dece1](https://github.com/specfy/stack-analyser/commit/56dece120591ce6aed6389ed903f96028550e632))
+* **rules:** add Contentful ([1309869](https://github.com/specfy/stack-analyser/commit/1309869e5b2f53217ce1875297678d7395ca3b15))
+* **rules:** add LogSnag ([5b6a8cf](https://github.com/specfy/stack-analyser/commit/5b6a8cf8f0ff239e549a1e55558a703a75d66d10))
+* **rules:** add Twitter/X ([82dcde7](https://github.com/specfy/stack-analyser/commit/82dcde7cc017cb1d8c2c8ea97e1fa2354a56553e))
+* **rules:** add Zapier ([4ba1229](https://github.com/specfy/stack-analyser/commit/4ba12296403dcc41f66714adde664acc52cb0635))
+* **rules:** cassandra is apache ([903bd3b](https://github.com/specfy/stack-analyser/commit/903bd3bf531dc5d0f8b691529ca8f99f7b6457cb))
+
 ## [1.4.5](https://github.com/specfy/stack-analyser/compare/v1.4.4...v1.4.5) (2023-09-03)
 
 

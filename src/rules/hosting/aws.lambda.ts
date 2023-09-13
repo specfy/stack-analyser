@@ -5,6 +5,7 @@ register({
   name: 'AWS Lambda',
   type: 'hosting',
   dependencies: [
+    { type: 'npm', name: '@types/aws-lambda' },
     { type: 'npm', name: '@aws-sdk/client-lambda' },
     {
       type: 'docker',
@@ -20,5 +21,7 @@ register({
       name: /^aws_lambda/,
       example: 'aws_lambda_alias',
     },
+    { type: 'php', name: 'async-aws/lambda' },
+    { type: 'githubAction', name: 'appleboy/lambda-action' },
   ],
 });

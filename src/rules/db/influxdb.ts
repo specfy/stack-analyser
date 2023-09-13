@@ -10,5 +10,6 @@ register({
     { type: 'rust', name: 'influxdb' },
     { type: 'rust', name: 'influxdb2' },
     { type: 'ruby', name: 'influxdb-client' },
+    { type: 'php', name: 'influxdata/influxdb-client-php' },
   ],
 });

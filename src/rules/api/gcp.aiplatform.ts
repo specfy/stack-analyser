@@ -13,5 +13,6 @@ register({
       example: 'google-cloud-ai_platform-v1',
     },
     { type: 'golang', name: 'cloud.google.com/go/aiplatform' },
+    { type: 'php', name: 'google/cloud-ai-platform' },
   ],
 });

@@ -259,3 +259,17 @@ The exact types `AnalyserJson` can be found [here](./src/types/index.ts)
 ## Contributing
 
 Every contribution is welcome. Check our [Contributing](./CONTRIBUTING.md) guide.
+
+## Versioning
+
+There is 2 things versioned in this package, the exposed API and the Data extraction.
+
+The __API is following semver__:
+
+- Breaking changes in the API will result in a new MAJOR.
+- Anything else will result in a MINOR `feat`, or a PATCH `fix`
+
+The __Data is following semver without MAJOR__:
+
+- Breaking changes in the Data will result in a new MINOR. A breaking change can be: removal of a tech, change in the tech category, removal of pattern for a tech, new data sources. `feat(rules)`
+- Anything else will result in a PATCH `fix(rules)`

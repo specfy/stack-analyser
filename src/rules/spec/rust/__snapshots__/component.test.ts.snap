@@ -8,6 +8,7 @@ exports[`rust (component) > should match everything 1`] = `
   "aws",
   "aws.dynamodb",
   "aws.ec2",
+  "aws.ecs",
   "aws.elasticache",
   "aws.glacier",
   "aws.lambda",
@@ -16,6 +17,7 @@ exports[`rust (component) > should match everything 1`] = `
   "aws.sns",
   "aws.sqs",
   "azure",
+  "cloudflare",
   "couchbase",
   "datadog",
   "elasticsearch",
@@ -29,7 +31,9 @@ exports[`rust (component) > should match everything 1`] = `
   "hashicorp_vault",
   "influxdb",
   "kubernetes",
+  "launchdarkly",
   "mailjet",
+  "meilisearch",
   "memcached",
   "mongodb",
   "mysql",
@@ -74,6 +78,11 @@ exports[`rust (component) > should match everything 2`] = `
   [
     "rust",
     "aws-sdk-ec2",
+    "1.0.0",
+  ],
+  [
+    "rust",
+    "aws-sdk-ecs",
     "1.0.0",
   ],
   [
@@ -124,6 +133,11 @@ exports[`rust (component) > should match everything 2`] = `
   [
     "rust",
     "cassandra-cpp",
+    "1.0.0",
+  ],
+  [
+    "rust",
+    "cloudflare",
     "1.0.0",
   ],
   [
@@ -213,12 +227,22 @@ exports[`rust (component) > should match everything 2`] = `
   ],
   [
     "rust",
+    "launchdarkly-server-sdk",
+    "1.0.0",
+  ],
+  [
+    "rust",
     "libsqlite3-sys",
     "1.0.0",
   ],
   [
     "rust",
     "mailjet-rs",
+    "1.0.0",
+  ],
+  [
+    "rust",
+    "meilisearch-sdk",
     "1.0.0",
   ],
   [

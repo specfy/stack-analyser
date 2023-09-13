@@ -11,5 +11,7 @@ register({
     { type: 'rust', name: 'auth0' },
     { type: 'ruby', name: 'auth0' },
     { type: 'ruby', name: 'omniauth-auth0' },
+    { type: 'php', name: 'auth0/auth0-php' },
+    { type: 'php', name: 'auth0/login' },
   ],
 });

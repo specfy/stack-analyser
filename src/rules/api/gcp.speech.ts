@@ -12,5 +12,6 @@ register({
       example: 'google-cloud-speech-v1',
     },
     { type: 'golang', name: 'cloud.google.com/go/speech' },
+    { type: 'php', name: 'google/cloud-speech' },
   ],
 });

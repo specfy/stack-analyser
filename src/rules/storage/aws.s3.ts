@@ -15,5 +15,8 @@ register({
       name: /^aws_s3/,
       example: 'aws_s3_bucket',
     },
+    { type: 'php', name: 'async-aws/s3' },
+    { type: 'php', name: 'async-aws/simple-s3' },
+    { type: 'githubAction', name: 'jakejarvis/s3-sync-action' },
   ],
 });

@@ -13,5 +13,6 @@ register({
     { type: 'terraform', name: 'registry.terraform.io/cloudflare/cloudflare' },
     { type: 'rust', name: 'cloudflare' },
     { type: 'ruby', name: 'cloudflare-rails' },
+    { type: 'php', name: 'cloudflare/sdk' },
   ],
 });

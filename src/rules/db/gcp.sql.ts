@@ -19,5 +19,6 @@ register({
       name: /^google-apis-sql/,
       example: 'google-apis-sqladmin_v1beta4',
     },
+    { type: 'php', name: 'google/cloud-sql-admin' },
   ],
 });

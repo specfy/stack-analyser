@@ -6,5 +6,9 @@ register({
   type: 'etl',
   dependencies: [
     { type: 'docker', name: /^airbyte\//, example: 'airbyte/worker' },
+    {
+      type: 'terraform',
+      name: 'registry.terraform.io/airbytehq/airbyte',
+    },
   ],
 });

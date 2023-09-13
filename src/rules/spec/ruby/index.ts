@@ -1,6 +1,6 @@
 import { register } from '../../../register.js';
 
-import { detectRubyComponent } from './component.js';
+import { detectRubyLockfile } from './lockfile.js';
 
 register({
   tech: 'ruby',
@@ -8,5 +8,5 @@ register({
   type: 'language',
   files: ['Gemfile', 'Rakefile', '.ruby-version'],
   dependencies: [{ type: 'docker', name: /ruby/, example: 'ruby:0.0.0' }],
-  detect: detectRubyComponent,
+  detect: detectRubyLockfile,
 });

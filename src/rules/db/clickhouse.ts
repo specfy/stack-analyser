@@ -8,5 +8,10 @@ register({
     { type: 'npm', name: /^@clickhouse\//, example: '@clickhouse/client' },
     { type: 'docker', name: 'clickhouse/clickhouse-server' },
     { type: 'golang', name: 'github.com/ClickHouse/clickhouse-go' },
+    {
+      type: 'terraform',
+      name: 'registry.terraform.io/ClickHouse/clickhouse',
+    },
+    { type: 'php', name: 'smi2/phpclickhouse' },
   ],
 });

@@ -5,4 +5,5 @@ register({
   name: 'Expo.dev',
   type: 'hosting',
   files: ['expo.dev'],
+  dependencies: [{ type: 'githubAction', name: 'expo/expo-github-action' }],
 });

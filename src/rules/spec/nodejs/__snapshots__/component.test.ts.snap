@@ -4,12 +4,15 @@ exports[`npm > should match everything 1`] = `
 [
   "airtable",
   "algolia",
+  "alpinejs",
   "amplitude",
   "angular",
   "auth0",
   "aws",
+  "aws.amplify_hosting",
   "aws.dynamodb",
   "aws.ec2",
+  "aws.ecs",
   "aws.elasticache",
   "aws.glacier",
   "aws.lambda",
@@ -18,14 +21,21 @@ exports[`npm > should match everything 1`] = `
   "aws.sns",
   "aws.sqs",
   "bootstrap",
+  "brevo",
   "browserstack",
   "clickhouse",
+  "cloudflare",
+  "contenful",
   "couchbase",
+  "crowdin",
   "cypressci",
   "datadog",
   "deferrun",
   "discord",
+  "docusign",
+  "dynatrace",
   "elasticsearch",
+  "emberjs",
   "esbuild",
   "eslint",
   "express",
@@ -39,39 +49,52 @@ exports[`npm > should match everything 1`] = `
   "gcp.bigtable",
   "gcp.cloudbuild",
   "gcp.cloudrun",
+  "gcp.dataflow",
   "gcp.dataproc",
   "gcp.datastore",
+  "gcp.dialogflow",
   "gcp.dns",
   "gcp.functions",
   "gcp.gce",
   "gcp.gcs",
+  "gcp.kms",
   "gcp.language",
   "gcp.maps",
+  "gcp.memorystore",
   "gcp.pubsub",
   "gcp.secretmanager",
+  "gcp.spanner",
   "gcp.speech",
   "gcp.sql",
+  "gcp.tasks",
   "gcp.translate",
   "gcp.vision",
   "gitbook",
   "github",
   "hotjar",
   "huggingface",
+  "hypertune",
   "influxdb",
   "koa",
   "kubernetes",
+  "launchdarkly",
   "logrocket",
   "logsnag",
   "mailchimp",
   "mailjet",
   "mariadb",
+  "meilisearch",
   "memcached",
+  "meteorjs",
+  "mithriljs",
   "mongodb",
   "mysql",
   "neo4j",
   "netlify",
   "newrelic",
+  "nextjs",
   "nodejs",
+  "nuxtjs",
   "okta",
   "openai",
   "oraclecloud",
@@ -80,6 +103,7 @@ exports[`npm > should match everything 1`] = `
   "placekit",
   "postgresql",
   "postman",
+  "preactjs",
   "prettier",
   "prisma",
   "puppeteer",
@@ -92,14 +116,19 @@ exports[`npm > should match everything 1`] = `
   "resend",
   "rollup",
   "salesforce",
+  "sanity",
   "scaleway",
   "sendgrid",
   "sentry",
   "sequelize",
   "shopify",
+  "sitecore",
+  "sitecore.xmlcloud",
   "slack",
   "snyk",
   "socketio",
+  "solidjs",
+  "splitio",
   "sqlite",
   "sqreen",
   "squarespace",
@@ -110,9 +139,15 @@ exports[`npm > should match everything 1`] = `
   "supabase.functions",
   "supabase.postgres",
   "supabase.storage",
+  "sveltejs",
   "tailwind",
+  "tinybird",
   "twilio",
   "typescript",
+  "upstash",
+  "upstash.kafka",
+  "upstash.qstash",
+  "upstash.redis",
   "vercel",
   "vercel.ai",
   "vercel.analytics",
@@ -150,12 +185,22 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@aws-amplify/ui-react",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@aws-sdk/client-dynamodb-streams",
     "0.0.0",
   ],
   [
     "npm",
     "@aws-sdk/client-ec2",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@aws-sdk/client-ecs",
     "0.0.0",
   ],
   [
@@ -205,6 +250,16 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@cloudflare/kv-asset-handler",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@crowdin/crowdin-api-client",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@datadog/cli",
     "0.0.0",
   ],
@@ -216,6 +271,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@docsearch/react",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@dynatrace/opentelemetry-core",
     "0.0.0",
   ],
   [
@@ -236,6 +296,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@firebase/auth",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@getbrevo/brevo",
     "0.0.0",
   ],
   [
@@ -275,6 +340,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@google-cloud/dataflow",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@google-cloud/dataproc",
     "0.0.0",
   ],
@@ -285,12 +355,22 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@google-cloud/dialogflow",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@google-cloud/dns",
     "0.0.0",
   ],
   [
     "npm",
     "@google-cloud/functions-framework",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@google-cloud/kms",
     "0.0.0",
   ],
   [
@@ -310,6 +390,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@google-cloud/redis",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@google-cloud/run",
     "0.0.0",
   ],
@@ -320,12 +405,22 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@google-cloud/spanner",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@google-cloud/speech",
     "0.0.0",
   ],
   [
     "npm",
     "@google-cloud/storage",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@google-cloud/tasks",
     "0.0.0",
   ],
   [
@@ -365,12 +460,22 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@launchdarkly/cloudflare-server-sdk",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@mailchimp/mailchimp_marketing",
     "0.0.0",
   ],
   [
     "npm",
     "@mailchimp/mailchimp_transactional",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@meilisearch/instant-meilisearch",
     "0.0.0",
   ],
   [
@@ -435,6 +540,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@sendinblue/client",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@sentry/browser",
     "0.0.0",
   ],
@@ -445,7 +555,22 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@sitecore-jss/sitecore-jss",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@sitecore-jss/sitecore-jss-nextjs",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@slack/web-api",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@splitsoftware/splitio",
     "0.0.0",
   ],
   [
@@ -495,7 +620,37 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@sveltejs/vite-plugin-svelte",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@tinybirdco/next-tinybird",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@twilio/cli-core",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@types/aws-lambda",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@upstash/kafka",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@upstash/qstash",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@upstash/redis",
     "0.0.0",
   ],
   [
@@ -535,6 +690,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "alpinejs",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "amplitude-js",
     "0.0.0",
   ],
@@ -555,6 +715,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "aws-amplify",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "aws-sdk",
     "0.0.0",
   ],
@@ -570,6 +735,16 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "contentful",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "contentful-management",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "couchbase",
     "0.0.0",
   ],
@@ -581,6 +756,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "cypress",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "datadog-metrics",
     "0.0.0",
   ],
   [
@@ -601,6 +781,31 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "docsearch.js",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "docusign-esign",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "ember",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "ember-cli",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "ember-data",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "ember-source",
     "0.0.0",
   ],
   [
@@ -630,6 +835,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "fastly/fastly",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "firebase",
     "0.0.0",
   ],
@@ -641,6 +851,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "googleapis",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "hypertune",
     "0.0.0",
   ],
   [
@@ -665,6 +880,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "launchdarkly-react-client-sdk",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "logrocket",
     "0.0.0",
   ],
@@ -680,7 +900,27 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "meilisearch",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "memcached",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "meteor",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "meteor-node-stubs",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "mithril",
     "0.0.0",
   ],
   [
@@ -720,7 +960,17 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "next",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "node-mailjet",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "nuxt",
     "0.0.0",
   ],
   [
@@ -751,6 +1001,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "postman-request",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "preact",
     "0.0.0",
   ],
   [
@@ -805,6 +1060,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "sanity",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "sequelize",
     "0.0.0",
   ],
@@ -816,6 +1076,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "socket.io",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "solid-js",
     "0.0.0",
   ],
   [
@@ -841,6 +1106,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "stripe",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "svelte",
     "0.0.0",
   ],
   [

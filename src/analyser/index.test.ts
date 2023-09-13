@@ -89,12 +89,12 @@ describe('analyser', () => {
     const flatted = flatten(res, { merge: true });
 
     // Check that inComponent was updated
-    const vercel = flatted.childs.find((child) => child.name === 'vercel')!;
+    const vercel = flatted.childs.find((child) => child.name === 'Vercel')!;
     const app = flatted.childs.find((child) => child.name === '@fake/app');
     expect(app!.inComponent!.id).toBe(vercel.id);
 
     // Check that edge.target was updated
-    const datadog = flatted.childs.find((child) => child.name === 'datadog')!;
+    const datadog = flatted.childs.find((child) => child.name === 'Datadog')!;
     const api = flatted.childs.find((child) => child.name === '@fake/api');
     expect(api!.edges[0].target.id).toBe(datadog.id);
 

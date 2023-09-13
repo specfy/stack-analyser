@@ -9,5 +9,6 @@ register({
     { type: 'npm', name: '@supabase/pg-admin-js' },
     { type: 'npm', name: '@supabase/postgres-meta' },
     { type: 'npm', name: '@supabase/realtime-js' },
+    { type: 'githubAction', name: 'supabase/embeddings-generator' },
   ],
 });

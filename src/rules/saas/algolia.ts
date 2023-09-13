@@ -18,5 +18,12 @@ register({
     { type: 'rust', name: 'algoliasearch' },
     { type: 'ruby', name: 'algolia' },
     { type: 'ruby', name: 'algoliasearch-rails' },
+    { type: 'php', name: 'algolia/algoliasearch-client-php' },
+    { type: 'php', name: 'algolia/scout-extended' },
+    { type: 'githubAction', name: 'algolia/setup-algolia-cli' },
+    {
+      type: 'githubAction',
+      name: 'algolia/algoliasearch-crawler-github-actions',
+    },
   ],
 });

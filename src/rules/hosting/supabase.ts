@@ -6,5 +6,6 @@ register({
   type: 'hosting',
   dependencies: [
     { type: 'npm', name: /^@scaleway\//, example: '@supabase/supabase.js' },
+    { type: 'githubAction', name: 'supabase/setup-cli' },
   ],
 });

@@ -6,8 +6,11 @@ exports[`docker > should match everything 1`] = `
   "apache_airflow",
   "apache_cassandra",
   "apache_couchdb",
+  "apache_flink",
+  "apache_iceberg",
   "apache_kafka",
   "apache_spark",
+  "apache_storm",
   "aws",
   "aws.dynamodb",
   "aws.lambda",
@@ -17,6 +20,7 @@ exports[`docker > should match everything 1`] = `
   "couchbase",
   "cypressci",
   "deno",
+  "discourse",
   "docker",
   "elasticsearch",
   "grafana",
@@ -26,19 +30,24 @@ exports[`docker > should match everything 1`] = `
   "jenkins",
   "kibana",
   "mariadb",
+  "matomo",
+  "meilisearch",
   "memcached",
   "mongodb",
   "mysql",
   "neo4j",
+  "nextcloud",
   "nginx",
   "nodejs",
   "percona",
+  "php",
   "plausible",
   "postgresql",
   "rabbitmq",
   "redis",
   "ruby",
   "strapi",
+  "trufflesecurity",
   "zookeeper",
 ]
 `;
@@ -82,12 +91,37 @@ exports[`docker > should match everything 2`] = `
   ],
   [
     "docker",
+    "apache/flink",
+    "0.0.0",
+  ],
+  [
+    "docker",
     "apache/spark",
     "0.0.0",
   ],
   [
     "docker",
+    "apache/spark-iceberg",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "apache/storm",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "bitnami/discourse",
+    "0.0.0",
+  ],
+  [
+    "docker",
     "bitnami/kafka",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "bitnami/matomo",
     "0.0.0",
   ],
   [
@@ -122,7 +156,17 @@ exports[`docker > should match everything 2`] = `
   ],
   [
     "docker",
+    "discourse/base",
+    "0.0.0",
+  ],
+  [
+    "docker",
     "elasticsearch",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "getmeili/meilisearch",
     "0.0.0",
   ],
   [
@@ -157,6 +201,11 @@ exports[`docker > should match everything 2`] = `
   ],
   [
     "docker",
+    "matomo",
+    "0.0.0",
+  ],
+  [
+    "docker",
     "memcached",
     "0.0.0",
   ],
@@ -177,7 +226,22 @@ exports[`docker > should match everything 2`] = `
   ],
   [
     "docker",
+    "nextcloud/aio-nextcloud",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "nextcloud/all-in-one",
+    "0.0.0",
+  ],
+  [
+    "docker",
     "nginx",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "node",
     "0.0.0",
   ],
   [
@@ -188,6 +252,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "percona",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "php",
     "0.0.0",
   ],
   [
@@ -218,6 +287,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "strapi",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "trufflesecurity/trufflehog",
     "0.0.0",
   ],
   [

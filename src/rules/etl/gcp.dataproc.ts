@@ -17,5 +17,6 @@ register({
       example: 'google-cloud-dataproc-v1',
     },
     { type: 'golang', name: 'cloud.google.com/go/dataproc' },
+    { type: 'php', name: 'google/cloud-dataproc' },
   ],
 });
