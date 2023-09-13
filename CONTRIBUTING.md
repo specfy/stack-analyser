@@ -86,7 +86,7 @@ A rule name should be:
 
 ## Add a new language / lockfile parser?
 
-Easiest is to follow what others spec are doing. Here is the generic todo list.
+Easiest is to follow what others spec are doing; here is the generic todo list.
 
 - Go to folder `src/rules/spec/`
 - Create your folder with the appropriate name
