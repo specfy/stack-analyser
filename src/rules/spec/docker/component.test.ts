@@ -100,4 +100,24 @@ services:
       Array.from(flatten(res, { merge: true }).dependencies).sort()
     ).toStrictEqual([]);
   });
+
+  it('should not match component without image', async () => {
+    const res = await analyser({
+      provider: new FakeProvider({
+        paths: {
+          '/': ['docker-compose.yml'],
+        },
+        files: {
+          '/docker-compose.yml': `version: '3'
+services:
+  boots:
+    build: .`,
+        },
+      }),
+    });
+
+    expect(
+      Array.from(flatten(res, { merge: true }).dependencies).sort()
+    ).toStrictEqual([]);
+  });
 });
