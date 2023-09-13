@@ -5,7 +5,6 @@ register({
   name: 'Cloudflare Pages',
   type: 'hosting',
   dependencies: [
-    { type: 'npm', name: 'wrangler' },
     {
       type: 'terraform.resource',
       name: /^cloudflare_pages_/,

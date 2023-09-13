@@ -25,7 +25,6 @@ exports[`npm > should match everything 1`] = `
   "browserstack",
   "clickhouse",
   "cloudflare",
-  "cloudflare.pages",
   "cloudflare.workers",
   "contenful",
   "couchbase",
