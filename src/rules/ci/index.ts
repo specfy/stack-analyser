@@ -3,6 +3,7 @@ import './azure.ci.js';
 import './browserstack.js';
 import './circleci.js';
 import './cirrusci.js';
+import './codecov.js';
 import './codesandboxci.js';
 import './cypressci.js';
 import './dependabot.js';

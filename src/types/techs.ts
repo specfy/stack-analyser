@@ -62,6 +62,7 @@ export type AllowedKeys =
   | 'clickhouse'
   | 'cloudflare'
   | 'cockroachdb'
+  | 'codecov'
   | 'codesandboxci'
   | 'contenful'
   | 'couchbase'
