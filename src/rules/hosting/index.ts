@@ -10,6 +10,7 @@ import './cloudflare.js';
 import './cloudflare.pages.js';
 import './cloudflare.workers.js';
 import './digitalocean.js';
+import './elasticcloud.js';
 import './elasticstack.js';
 import './equinix.js';
 import './expodev.js';
