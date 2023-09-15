@@ -19,6 +19,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "elasticsearch",
   "gcp",
   "gcp.aiplatform",
+  "gcp.appengine",
   "gcp.bigquery",
   "gcp.bigtable",
   "gcp.cloudrun",
@@ -53,6 +54,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "cloud.google.com/go/aiplatform",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "cloud.google.com/go/appengine",
     "v1.0.0",
   ],
   [

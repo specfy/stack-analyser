@@ -113,6 +113,7 @@ export type AllowedKeys =
   | 'firebase'
   | 'flyio'
   | 'gcp.aiplatform'
+  | 'gcp.appengine'
   | 'gcp.bigquery'
   | 'gcp.bigtable'
   | 'gcp.cloudbuild'

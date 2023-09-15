@@ -17,6 +17,7 @@ import './expodev.js';
 import './fastly.js';
 import './firebase.js';
 import './flyio.js';
+import './gcp.appengine.js';
 import './gcp.cloudrun.js';
 import './gcp.functions.js';
 import './gcp.gce.js';

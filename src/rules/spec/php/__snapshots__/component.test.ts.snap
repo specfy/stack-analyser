@@ -35,6 +35,7 @@ exports[`php > should match everything 1`] = `
   "firebase.firestore",
   "gcp",
   "gcp.aiplatform",
+  "gcp.appengine",
   "gcp.bigquery",
   "gcp.bigtable",
   "gcp.cloudbuild",
@@ -334,6 +335,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "google/analytics-data",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "google/appengine-php-sdk",
     "0.0.0",
   ],
   [

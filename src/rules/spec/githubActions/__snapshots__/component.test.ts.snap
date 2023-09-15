@@ -21,6 +21,7 @@ exports[`docker > should match all dependencies 1`] = `
   "firebase",
   "flyio",
   "gcp",
+  "gcp.appengine",
   "gcp.cloudrun",
   "gcp.functions",
   "gcp.gce",
@@ -309,6 +310,11 @@ exports[`docker > should match all dependencies 2`] = `
   [
     "githubAction",
     "google-github-actions/auth",
+    "1",
+  ],
+  [
+    "githubAction",
+    "google-github-actions/deploy-appengine",
     "1",
   ],
   [

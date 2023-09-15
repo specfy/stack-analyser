@@ -26,6 +26,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "firebase",
   "gcp",
   "gcp.aiplatform",
+  "gcp.appengine",
   "gcp.bigquery",
   "gcp.bigtable",
   "gcp.cloudrun",
@@ -104,6 +105,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "algoliasearch-rails",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "appengine",
     "1.0.0",
   ],
   [

@@ -23,6 +23,7 @@ exports[`terraform (resource) > should match everything 1`] = `
   "firebase.firestore",
   "gcp",
   "gcp.aiplatform",
+  "gcp.appengine",
   "gcp.bigquery",
   "gcp.bigtable",
   "gcp.cloudbuild",

@@ -94,6 +94,7 @@ exports[`all > should match everything 1`] = `
   "flyio",
   "gcp",
   "gcp.aiplatform",
+  "gcp.appengine",
   "gcp.bigquery",
   "gcp.bigtable",
   "gcp.cloudbuild",

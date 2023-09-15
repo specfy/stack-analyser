@@ -49,6 +49,7 @@ exports[`npm > should match everything 1`] = `
   "firebase",
   "gcp",
   "gcp.aiplatform",
+  "gcp.appengine",
   "gcp.bigquery",
   "gcp.bigtable",
   "gcp.cloudbuild",
@@ -326,6 +327,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@google-cloud/aiplatform",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@google-cloud/appengine-admin",
     "0.0.0",
   ],
   [
