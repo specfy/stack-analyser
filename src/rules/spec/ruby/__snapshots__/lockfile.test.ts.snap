@@ -69,6 +69,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "oraclecloud",
   "pagerduty",
   "postgresql",
+  "postmark",
   "rabbitmq",
   "redis",
   "ruby",
@@ -492,6 +493,16 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "platform-api",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "postmark",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "postmark-rails",
     "1.0.0",
   ],
   [

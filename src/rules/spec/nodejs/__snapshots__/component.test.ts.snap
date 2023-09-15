@@ -109,6 +109,7 @@ exports[`npm > should match everything 1`] = `
   "playwright",
   "postgresql",
   "postman",
+  "postmark",
   "preactjs",
   "prettier",
   "prisma",
@@ -1047,12 +1048,22 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "postman-cli",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "postman-collection",
     "0.0.0",
   ],
   [
     "npm",
     "postman-request",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "postmark",
     "0.0.0",
   ],
   [

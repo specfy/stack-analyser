@@ -86,6 +86,7 @@ exports[`php > should match everything 1`] = `
   "phpstan",
   "phpunit",
   "postgresql",
+  "postmark",
   "rabbitmq",
   "redis",
   "resend",
@@ -787,6 +788,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "twilio/sdk",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "wildbit/postmark-php",
     "0.0.0",
   ],
   [

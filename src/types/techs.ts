@@ -211,6 +211,7 @@ export type AllowedKeys =
   | 'playwright'
   | 'postgresql'
   | 'postman'
+  | 'postmark'
   | 'powershell'
   | 'preactjs'
   | 'prettier'

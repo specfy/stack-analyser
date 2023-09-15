@@ -186,6 +186,7 @@ exports[`all > should match everything 1`] = `
   "playwright",
   "postgresql",
   "postman",
+  "postmark",
   "preactjs",
   "prettier",
   "prisma",
