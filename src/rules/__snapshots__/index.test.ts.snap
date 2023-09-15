@@ -76,6 +76,7 @@ exports[`all > should match everything 1`] = `
   "dynatrace",
   "elasticsearch",
   "elasticstack",
+  "electron",
   "emberjs",
   "equinix",
   "esbuild",

@@ -95,6 +95,7 @@ export type AllowedKeys =
   | 'elasticloud'
   | 'elasticsearch'
   | 'elasticstack'
+  | 'electron'
   | 'elixir'
   | 'emberjs'
   | 'equinix'

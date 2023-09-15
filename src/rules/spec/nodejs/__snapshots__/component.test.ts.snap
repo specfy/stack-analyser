@@ -38,6 +38,7 @@ exports[`npm > should match everything 1`] = `
   "docusign",
   "dynatrace",
   "elasticsearch",
+  "electron",
   "emberjs",
   "esbuild",
   "eslint",
@@ -809,6 +810,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "docusign-esign",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "electron",
     "0.0.0",
   ],
   [
