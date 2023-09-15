@@ -164,6 +164,7 @@ export type AllowedKeys =
   | 'jest'
   | 'jira'
   | 'kibana'
+  | 'klarna'
   | 'klaviyo'
   | 'koa'
   | 'kotlin'

@@ -25,6 +25,7 @@ import './hubspot.js';
 import './huggingface.js';
 import './hypertune.js';
 import './jira.js';
+import './klarna.js';
 import './klaviyo.js';
 import './launchdarkly.js';
 import './lemonsqueezy.js';

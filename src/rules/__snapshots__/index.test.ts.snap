@@ -140,6 +140,7 @@ exports[`all > should match everything 1`] = `
   "jenkins",
   "jira",
   "kibana",
+  "klarna",
   "klaviyo",
   "koa",
   "kubernetes",
