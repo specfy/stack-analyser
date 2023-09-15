@@ -19,6 +19,7 @@ import './fabric.js';
 import './facebook.js';
 import './figma.js';
 import './gitbook.js';
+import './gitguardian.js';
 import './github.js';
 import './hotjar.js';
 import './hubspot.js';

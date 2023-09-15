@@ -141,6 +141,7 @@ export type AllowedKeys =
   | 'gcp.vision'
   | 'gcp'
   | 'gitbook'
+  | 'gitguardian'
   | 'github.actions'
   | 'github.pages'
   | 'github'

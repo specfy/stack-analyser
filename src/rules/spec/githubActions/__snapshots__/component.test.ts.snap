@@ -28,6 +28,7 @@ exports[`docker > should match all dependencies 1`] = `
   "gcp.gcs",
   "gcp.gke",
   "gcp.secretmanager",
+  "gitguardian",
   "github",
   "github.actions",
   "github.pages",
@@ -80,6 +81,11 @@ exports[`docker > should match all dependencies 2`] = `
   [
     "githubAction",
     "DataDog/synthetics-ci-github-action",
+    "1",
+  ],
+  [
+    "githubAction",
+    "GitGuardian/ggshield-action",
     "1",
   ],
   [

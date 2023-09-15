@@ -41,6 +41,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "gcp.tasks",
   "gcp.translate",
   "gcp.vision",
+  "gitguardian",
   "golang",
   "launchdarkly",
   "lemonsqueezy",
@@ -183,6 +184,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   ],
   [
     "golang",
+    "github.com/Gaardsholt/go-gitguardian",
+    "v1.0.0",
+  ],
+  [
+    "golang",
     "github.com/NdoleStudio/lemonsqueezy-go",
     "v1.0.0",
   ],
@@ -259,6 +265,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/getbrevo/brevo-go",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/hashicorp/terraform-plugin-sdk/v2",
     "v1.0.0",
   ],
   [
