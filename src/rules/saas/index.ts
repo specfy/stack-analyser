@@ -27,6 +27,7 @@ import './hypertune.js';
 import './jira.js';
 import './klaviyo.js';
 import './launchdarkly.js';
+import './lemonsqueezy.js';
 import './logrocket.js';
 import './mailchimp.js';
 import './mailjet.js';

@@ -69,6 +69,7 @@ exports[`php > should match everything 1`] = `
   "kubernetes",
   "laravel",
   "launchdarkly",
+  "lemonsqueezy",
   "magento",
   "mailchimp",
   "mailjet",
@@ -538,6 +539,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "launchdarkly/server-sdk",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "lemonsqueezy/laravel",
     "0.0.0",
   ],
   [

@@ -42,6 +42,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "gcp.vision",
   "golang",
   "launchdarkly",
+  "lemonsqueezy",
   "meilisearch",
   "splitio",
 ]
@@ -172,6 +173,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/ClickHouse/clickhouse-go",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/NdoleStudio/lemonsqueezy-go",
     "v1.0.0",
   ],
   [

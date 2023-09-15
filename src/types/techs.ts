@@ -170,6 +170,7 @@ export type AllowedKeys =
   | 'kubernetes'
   | 'laravel'
   | 'launchdarkly'
+  | 'lemonsqueezy'
   | 'lighthouse'
   | 'logrocket'
   | 'logsnag'
