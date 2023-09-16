@@ -1,6 +1,7 @@
 import './alpinejs.js';
 import './angular.js';
 import './bootstrap.js';
+import './electron.js';
 import './emberjs.js';
 import './esbuild.js';
 import './eslint.js';

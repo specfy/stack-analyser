@@ -26,6 +26,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "firebase",
   "gcp",
   "gcp.aiplatform",
+  "gcp.appengine",
   "gcp.bigquery",
   "gcp.bigtable",
   "gcp.cloudrun",
@@ -56,6 +57,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "jira",
   "kubernetes",
   "launchdarkly",
+  "lemonsqueezy",
   "mailchimp",
   "mailjet",
   "mariadb",
@@ -69,6 +71,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "oraclecloud",
   "pagerduty",
   "postgresql",
+  "postmark",
   "rabbitmq",
   "redis",
   "ruby",
@@ -102,6 +105,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "algoliasearch-rails",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "appengine",
     "1.0.0",
   ],
   [
@@ -436,6 +444,11 @@ exports[`ruby (component) > should match everything 2`] = `
   ],
   [
     "ruby",
+    "lemonsqueezy",
+    "1.0.0",
+  ],
+  [
+    "ruby",
     "mailjet",
     "1.0.0",
   ],
@@ -492,6 +505,16 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "platform-api",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "postmark",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "postmark-rails",
     "1.0.0",
   ],
   [

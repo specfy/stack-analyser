@@ -35,6 +35,7 @@ exports[`php > should match everything 1`] = `
   "firebase.firestore",
   "gcp",
   "gcp.aiplatform",
+  "gcp.appengine",
   "gcp.bigquery",
   "gcp.bigtable",
   "gcp.cloudbuild",
@@ -69,6 +70,7 @@ exports[`php > should match everything 1`] = `
   "kubernetes",
   "laravel",
   "launchdarkly",
+  "lemonsqueezy",
   "magento",
   "mailchimp",
   "mailjet",
@@ -86,6 +88,7 @@ exports[`php > should match everything 1`] = `
   "phpstan",
   "phpunit",
   "postgresql",
+  "postmark",
   "rabbitmq",
   "redis",
   "resend",
@@ -336,6 +339,11 @@ exports[`php > should match everything 2`] = `
   ],
   [
     "php",
+    "google/appengine-php-sdk",
+    "0.0.0",
+  ],
+  [
+    "php",
     "google/cloud",
     "0.0.0",
   ],
@@ -537,6 +545,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "launchdarkly/server-sdk",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "lemonsqueezy/laravel",
     "0.0.0",
   ],
   [
@@ -787,6 +800,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "twilio/sdk",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "wildbit/postmark-php",
     "0.0.0",
   ],
   [

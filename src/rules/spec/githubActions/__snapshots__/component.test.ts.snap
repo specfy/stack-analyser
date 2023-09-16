@@ -21,12 +21,14 @@ exports[`docker > should match all dependencies 1`] = `
   "firebase",
   "flyio",
   "gcp",
+  "gcp.appengine",
   "gcp.cloudrun",
   "gcp.functions",
   "gcp.gce",
   "gcp.gcs",
   "gcp.gke",
   "gcp.secretmanager",
+  "gitguardian",
   "github",
   "github.actions",
   "github.pages",
@@ -79,6 +81,11 @@ exports[`docker > should match all dependencies 2`] = `
   [
     "githubAction",
     "DataDog/synthetics-ci-github-action",
+    "1",
+  ],
+  [
+    "githubAction",
+    "GitGuardian/ggshield-action",
     "1",
   ],
   [
@@ -309,6 +316,11 @@ exports[`docker > should match all dependencies 2`] = `
   [
     "githubAction",
     "google-github-actions/auth",
+    "1",
+  ],
+  [
+    "githubAction",
+    "google-github-actions/deploy-appengine",
     "1",
   ],
   [
