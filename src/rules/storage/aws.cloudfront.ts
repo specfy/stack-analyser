@@ -5,7 +5,8 @@ register({
   name: 'AWS CloudFront',
   type: 'storage',
   dependencies: [
-    { type: 'npm', name: '@aws-sdk/aws-cloudfront' },
+    { type: 'npm', name: '@aws-cdk/aws-cloudfront' },
+    { type: 'npm', name: '@aws-sdk/client-cloudfront' },
     { type: 'rust', name: 'aws-sdk-cloudfront' },
     { type: 'ruby', name: 'aws-sdk-cloudfront' },
     { type: 'ruby', name: 'cloudfront-signer' },

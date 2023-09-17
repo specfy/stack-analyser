@@ -5,7 +5,8 @@ register({
   name: 'AWS EFS',
   type: 'storage',
   dependencies: [
-    { type: 'npm', name: '@aws-sdk/aws-efs' },
+    { type: 'npm', name: '@aws-cdk/aws-efs' },
+    { type: 'npm', name: '@aws-sdk/client-efs' },
     { type: 'rust', name: 'aws-sdk-efs' },
     { type: 'ruby', name: 'aws-sdk-efs' },
     { type: 'golang', name: 'github.com/aws/aws-sdk-go-v2/service/efs' },

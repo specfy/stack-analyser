@@ -5,6 +5,7 @@ register({
   name: 'AWS ECS',
   type: 'hosting',
   dependencies: [
+    { type: 'npm', name: '@aws-cdk/aws-ecs' },
     { type: 'npm', name: '@aws-sdk/client-ecs' },
     { type: 'rust', name: 'aws-sdk-ecs' },
     { type: 'ruby', name: 'aws-sdk-ecs' },

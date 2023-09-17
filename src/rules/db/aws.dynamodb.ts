@@ -5,6 +5,7 @@ register({
   name: 'AWS DynamoDB',
   type: 'db',
   dependencies: [
+    { type: 'npm', name: '@aws-cdk/aws-dynamodb' },
     {
       type: 'npm',
       name: /^@aws-sdk\/client-dynamodb/,

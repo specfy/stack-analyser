@@ -5,6 +5,7 @@ register({
   name: 'AWS RDS',
   type: 'db',
   dependencies: [
+    { type: 'npm', name: '@aws-cdk/aws-rds' },
     { type: 'npm', name: '@aws-sdk/client-rds' },
     { type: 'npm', name: '@aws-sdk/middleware-sdk-rds' },
     { type: 'rust', name: 'aws-sdk-rds' },

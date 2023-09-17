@@ -5,6 +5,8 @@ register({
   name: 'AWS Lambda',
   type: 'hosting',
   dependencies: [
+    { type: 'npm', name: 'is-lambda' },
+    { type: 'npm', name: '@aws-cdk/aws-lambda' },
     { type: 'npm', name: '@types/aws-lambda' },
     { type: 'npm', name: '@aws-sdk/client-lambda' },
     {

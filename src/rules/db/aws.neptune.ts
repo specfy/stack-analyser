@@ -5,7 +5,8 @@ register({
   name: 'AWS Neptune',
   type: 'db',
   dependencies: [
-    { type: 'npm', name: '@aws-sdk/aws-neptune' },
+    { type: 'npm', name: '@aws-cdk/aws-neptune' },
+    { type: 'npm', name: '@aws-sdk/client-neptune' },
     { type: 'rust', name: 'aws-sdk-neptune' },
     { type: 'ruby', name: 'aws-sdk-neptune' },
     { type: 'golang', name: 'github.com/aws/aws-sdk-go-v2/service/neptune' },

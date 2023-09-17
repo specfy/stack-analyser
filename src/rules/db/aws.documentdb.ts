@@ -6,6 +6,7 @@ register({
   type: 'db',
   dependencies: [
     { type: 'npm', name: '@aws-sdk/client-docdb' },
+    { type: 'npm', name: '@aws-cdk/aws-docdb' },
     { type: 'rust', name: 'aws-sdk-docdb' },
     { type: 'ruby', name: 'aws-sdk-docdb' },
     { type: 'golang', name: 'github.com/aws/aws-sdk-go-v2/service/docdb' },

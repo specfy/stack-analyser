@@ -208,27 +208,82 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
-    "@aws-sdk/aws-cloudfront",
+    "@aws-cdk/aws-cloudfront",
     "0.0.0",
   ],
   [
     "npm",
-    "@aws-sdk/aws-ebs",
+    "@aws-cdk/aws-docdb",
     "0.0.0",
   ],
   [
     "npm",
-    "@aws-sdk/aws-efs",
+    "@aws-cdk/aws-dynamodb",
     "0.0.0",
   ],
   [
     "npm",
-    "@aws-sdk/aws-neptune",
+    "@aws-cdk/aws-ebs",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@aws-cdk/aws-ec2",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@aws-cdk/aws-ecs",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@aws-cdk/aws-efs",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@aws-cdk/aws-elasticache",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@aws-cdk/aws-lambda",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@aws-cdk/aws-neptune",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@aws-cdk/aws-rds",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@aws-cdk/aws-redshift",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@aws-cdk/aws-sns",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@aws-cdk/aws-sqs",
     "0.0.0",
   ],
   [
     "npm",
     "@aws-sdk/aws-redshift",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@aws-sdk/client-cloudfront",
     "0.0.0",
   ],
   [
@@ -248,12 +303,22 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@aws-sdk/client-ebs",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@aws-sdk/client-ec2",
     "0.0.0",
   ],
   [
     "npm",
     "@aws-sdk/client-ecs",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@aws-sdk/client-efs",
     "0.0.0",
   ],
   [
@@ -269,6 +334,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@aws-sdk/client-lambda",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@aws-sdk/client-neptune",
     "0.0.0",
   ],
   [
@@ -939,6 +1009,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "ioredis",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "is-lambda",
     "0.0.0",
   ],
   [

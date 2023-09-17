@@ -5,6 +5,7 @@ register({
   name: 'AWS Redshift',
   type: 'db',
   dependencies: [
+    { type: 'npm', name: '@aws-cdk/aws-redshift' },
     { type: 'npm', name: '@aws-sdk/aws-redshift' },
     { type: 'rust', name: 'aws-sdk-redshift' },
     { type: 'ruby', name: 'aws-sdk-redshift' },

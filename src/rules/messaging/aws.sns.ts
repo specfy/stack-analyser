@@ -5,6 +5,7 @@ register({
   name: 'SNS',
   type: 'messaging',
   dependencies: [
+    { type: 'npm', name: '@aws-cdk/aws-sns' },
     { type: 'npm', name: '@aws-sdk/client-sns' },
     { type: 'rust', name: 'aws-sdk-sns' },
     { type: 'ruby', name: 'aws-sdk-sns' },
