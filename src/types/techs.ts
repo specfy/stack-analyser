@@ -47,6 +47,7 @@ export type AllowedKeys =
   | 'aws.glacier'
   | 'aws.lambda'
   | 'aws.rds'
+  | 'aws.redshift'
   | 'aws.s3'
   | 'aws.sns'
   | 'aws.sqs'
