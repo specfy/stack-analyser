@@ -13,6 +13,7 @@ exports[`npm > should match everything 1`] = `
   "aws.cloudfront",
   "aws.codebuild",
   "aws.dynamodb",
+  "aws.ebs",
   "aws.ec2",
   "aws.ecs",
   "aws.elasticache",
@@ -204,6 +205,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@aws-sdk/aws-cloudfront",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@aws-sdk/aws-ebs",
     "0.0.0",
   ],
   [

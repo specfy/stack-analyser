@@ -17,6 +17,5 @@ register({
     },
     { type: 'php', name: 'dreamonkey/laravel-cloudfront-url-signer' },
     { type: 'githubAction', name: 'chetan/invalidate-cloudfront-action' },
-    { type: 'githubAction', name: 'chetan/invalidate-cloudfront-action' },
   ],
 });

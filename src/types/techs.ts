@@ -38,6 +38,7 @@ export type AllowedKeys =
   | 'aws.cloudfront'
   | 'aws.codebuild'
   | 'aws.dynamodb'
+  | 'aws.ebs'
   | 'aws.ec2'
   | 'aws.ecs'
   | 'aws.elasticache'
