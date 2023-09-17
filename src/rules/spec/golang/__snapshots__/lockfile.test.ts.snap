@@ -4,6 +4,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
 [
   "aws",
   "aws.cloudfront",
+  "aws.documentdb",
   "aws.dynamodb",
   "aws.ebs",
   "aws.ec2",
@@ -218,6 +219,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/aws/aws-sdk-go-v2/service/codebuild",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/aws/aws-sdk-go-v2/service/docdb",
     "v1.0.0",
   ],
   [

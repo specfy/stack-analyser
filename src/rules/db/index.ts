@@ -2,6 +2,7 @@ import './apache_cassandra.js';
 import './apache_couchdb.js';
 import './apache_iceberg.js';
 import './apache_spark.js';
+import './aws.documentdb.js';
 import './aws.dynamodb.js';
 import './aws.elasticache.js';
 import './aws.neptune.js';

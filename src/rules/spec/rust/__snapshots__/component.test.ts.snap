@@ -8,6 +8,7 @@ exports[`rust (component) > should match everything 1`] = `
   "aws",
   "aws.cloudfront",
   "aws.codebuild",
+  "aws.documentdb",
   "aws.dynamodb",
   "aws.ebs",
   "aws.ec2",
@@ -79,6 +80,11 @@ exports[`rust (component) > should match everything 2`] = `
   [
     "rust",
     "aws-sdk-codebuild",
+    "1.0.0",
+  ],
+  [
+    "rust",
+    "aws-sdk-docdb",
     "1.0.0",
   ],
   [

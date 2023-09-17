@@ -6,6 +6,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "auth0",
   "aws",
   "aws.cloudfront",
+  "aws.documentdb",
   "aws.dynamodb",
   "aws.ebs",
   "aws.ec2",
@@ -134,6 +135,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "aws-sdk-codebuild",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "aws-sdk-docdb",
     "1.0.0",
   ],
   [

@@ -6,6 +6,7 @@ exports[`terraform (resource) > should match everything 1`] = `
   "aws.amplify_hosting",
   "aws.cloudfront",
   "aws.codebuild",
+  "aws.documentdb",
   "aws.dynamodb",
   "aws.ebs",
   "aws.ec2",
