@@ -36,7 +36,7 @@ export const detectRubyLockfile: ComponentMatcher = async (files, provider) => {
     const techs = matchDependencies(Object.keys(deps), 'ruby');
     const depsFlatten: Analyser['dependencies'] = Object.entries(deps).map(
       ([name, value]) => {
-        return ['ruby', name, value];
+        return ['ruby', name, value || 'latest'];
       }
     );
 

@@ -65,7 +65,7 @@ export const detectGithubActionsComponent: ComponentMatcher = async (
         for (const step of config.steps) {
           if (step.uses) {
             const [name, version] = step.uses.split('@');
-            dependencies.push(['githubAction', name, version]);
+            dependencies.push(['githubAction', name, version || 'latest']);
             const matched = matchDependencies([name], 'githubAction');
             if (matched.size > 0) {
               pl.addTechs(matched);
@@ -76,7 +76,7 @@ export const detectGithubActionsComponent: ComponentMatcher = async (
 
       if (config.container) {
         const [imageName, imageVersion] = config.container.split(':');
-        dependencies.push(['docker', imageName, imageVersion]);
+        dependencies.push(['docker', imageName, imageVersion || 'latest']);
         const matched = matchDependencies([imageName], 'docker');
         if (matched.size > 0) {
           pl.addTechs(matched);
@@ -89,7 +89,7 @@ export const detectGithubActionsComponent: ComponentMatcher = async (
             continue;
           }
           const [imageName, imageVersion] = service.image.split(':');
-          dependencies.push(['docker', imageName, imageVersion]);
+          dependencies.push(['docker', imageName, imageVersion || 'latest']);
           const matched = matchDependencies([imageName], 'docker');
           if (matched.size > 0) {
             pl.addTechs(matched);

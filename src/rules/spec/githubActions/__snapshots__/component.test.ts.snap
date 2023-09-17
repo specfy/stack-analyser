@@ -61,7 +61,7 @@ exports[`docker > should match all dependencies 2`] = `
   [
     "docker",
     "postgres",
-    "15.4-alpine",
+    "latest",
   ],
   [
     "githubAction",
@@ -431,7 +431,7 @@ exports[`docker > should match all dependencies 2`] = `
   [
     "githubAction",
     "snyk/actions/php",
-    undefined,
+    "latest",
   ],
   [
     "githubAction",
