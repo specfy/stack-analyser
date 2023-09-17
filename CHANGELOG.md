@@ -1,3 +1,21 @@
+## [1.5.1](https://github.com/specfy/stack-analyser/compare/v1.5.0...v1.5.1) (2023-09-17)
+
+
+### Bug Fixes
+
+* **rules:** add Ansible' ([9d03341](https://github.com/specfy/stack-analyser/commit/9d03341e1e5a91354528f449c49c3da9ea917199))
+* **rules:** add AWS CodeBuild ([8c7fbe6](https://github.com/specfy/stack-analyser/commit/8c7fbe6a5e3c9a8fdd853b64a53598858f52e70e))
+* **rules:** add Elasticcloud ([e2120a5](https://github.com/specfy/stack-analyser/commit/e2120a5f5f50619ff6d2a3626a66f1794223c4b4))
+* **rules:** add Electron ([4a6d85e](https://github.com/specfy/stack-analyser/commit/4a6d85e3882299056a7bbebb193554dd36927ef1))
+* **rules:** add GCP App Engine ([0da2814](https://github.com/specfy/stack-analyser/commit/0da281485aa784016fecc46f8395b72fd1141c7f))
+* **rules:** add GitGuardian ([72145e7](https://github.com/specfy/stack-analyser/commit/72145e783e5b5916b5b10f2199bff341eac19143))
+* **rules:** add Klarna ([b101bed](https://github.com/specfy/stack-analyser/commit/b101bedeb71eec489c6bab5f3651c11fc4fe6093))
+* **rules:** add LemonSqueezy ([f9bd562](https://github.com/specfy/stack-analyser/commit/f9bd5623bd624fe1e1d5c9e64d2d44fba9aee0b4))
+* **rules:** add Lighthouse ([d921821](https://github.com/specfy/stack-analyser/commit/d921821248ab3d79a5b6eb5762ea8bfa04d988d1))
+* **rules:** add more package for Terraform ([e0098c4](https://github.com/specfy/stack-analyser/commit/e0098c4a8006f4a272b9501544383c29061e6582))
+* **rules:** add Playwright ([07ee973](https://github.com/specfy/stack-analyser/commit/07ee9735adb938fbdc1a5cb2e791f6452866dd94))
+* **rules:** add Postmark ([1bcf9db](https://github.com/specfy/stack-analyser/commit/1bcf9dbf7d62badf92f190d3bf1c70742c8a6693))
+
 # [1.5.0](https://github.com/specfy/stack-analyser/compare/v1.4.11...v1.5.0) (2023-09-13)
 
 
