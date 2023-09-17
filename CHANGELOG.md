@@ -1,3 +1,10 @@
+## [1.5.2](https://github.com/specfy/stack-analyser/compare/v1.5.1...v1.5.2) (2023-09-17)
+
+
+### Bug Fixes
+
+* **dependencies:** version should be latest if not specified ([ffb6d14](https://github.com/specfy/stack-analyser/commit/ffb6d141c063e63a821646e0fcf53acafbe100ec))
+
 ## [1.5.1](https://github.com/specfy/stack-analyser/compare/v1.5.0...v1.5.1) (2023-09-17)
 
 
