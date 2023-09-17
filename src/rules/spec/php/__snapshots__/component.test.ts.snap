@@ -106,6 +106,7 @@ exports[`php > should match everything 1`] = `
   "wordpress",
   "yii2",
   "yousign",
+  "zendesk",
   "zookeeper",
 ]
 `;
@@ -815,6 +816,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "yiisoft/yii2",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "zendesk/zendesk_api_client_php",
     "0.0.0",
   ],
   [

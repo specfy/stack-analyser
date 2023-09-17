@@ -51,6 +51,7 @@ exports[`docker > should match everything 1`] = `
   "rabbitmq",
   "redis",
   "ruby",
+  "snyk",
   "strapi",
   "trufflesecurity",
   "zookeeper",
@@ -317,6 +318,36 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "ruby",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "snyk/broker",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "snyk/code-agent",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "snyk/driftctl",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "snyk/kubernetes-monitor",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "snyk/kubernetes-operator",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "snyk/snyk-cli",
     "0.0.0",
   ],
   [

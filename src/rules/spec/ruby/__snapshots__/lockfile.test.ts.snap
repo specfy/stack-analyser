@@ -75,12 +75,16 @@ exports[`ruby (component) > should match everything 1`] = `
   "rabbitmq",
   "redis",
   "ruby",
+  "sendgrid",
   "sentry",
   "slack",
   "snowflake",
   "splitio",
   "sqlite",
   "sqreen",
+  "stripe",
+  "twilio",
+  "zendesk",
   "zookeeper",
 ]
 `;
@@ -534,6 +538,21 @@ exports[`ruby (component) > should match everything 2`] = `
   ],
   [
     "ruby",
+    "sendgrid",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "sendgrid-rails",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "sendgrid-ruby",
+    "1.0.0",
+  ],
+  [
+    "ruby",
     "sentry-rails",
     "1.0.0",
   ],
@@ -569,6 +588,21 @@ exports[`ruby (component) > should match everything 2`] = `
   ],
   [
     "ruby",
+    "stripe",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "stripe-rails",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "stripe_event",
+    "1.0.0",
+  ],
+  [
+    "ruby",
     "tencentcloud-sdk-mariadb",
     "1.0.0",
   ],
@@ -579,7 +613,17 @@ exports[`ruby (component) > should match everything 2`] = `
   ],
   [
     "ruby",
+    "twilio-ruby",
+    "1.0.0",
+  ],
+  [
+    "ruby",
     "vault",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "zendesk_api",
     "1.0.0",
   ],
   [

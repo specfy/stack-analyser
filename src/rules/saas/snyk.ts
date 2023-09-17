@@ -16,5 +16,11 @@ register({
       name: /^snyk\/actions\//,
       example: 'snyk/actions/php',
     },
+    { type: 'docker', name: 'snyk/snyk-cli' },
+    { type: 'docker', name: 'snyk/broker' },
+    { type: 'docker', name: 'snyk/kubernetes-monitor' },
+    { type: 'docker', name: 'snyk/kubernetes-operator' },
+    { type: 'docker', name: 'snyk/code-agent' },
+    { type: 'docker', name: 'snyk/driftctl' },
   ],
 });

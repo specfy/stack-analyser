@@ -169,6 +169,7 @@ exports[`npm > should match everything 1`] = `
   "vue",
   "webflow",
   "webpack",
+  "zendesk",
 ]
 `;
 
@@ -1027,6 +1028,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "node-mailjet",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "node-zendesk",
     "0.0.0",
   ],
   [
