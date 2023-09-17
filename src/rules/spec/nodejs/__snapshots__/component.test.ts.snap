@@ -20,6 +20,7 @@ exports[`npm > should match everything 1`] = `
   "aws.elasticache",
   "aws.glacier",
   "aws.lambda",
+  "aws.neptune",
   "aws.rds",
   "aws.redshift",
   "aws.s3",
@@ -217,6 +218,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@aws-sdk/aws-efs",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@aws-sdk/aws-neptune",
     "0.0.0",
   ],
   [

@@ -4,6 +4,7 @@ import './apache_iceberg.js';
 import './apache_spark.js';
 import './aws.dynamodb.js';
 import './aws.elasticache.js';
+import './aws.neptune.js';
 import './aws.rds.js';
 import './aws.redshift.js';
 import './clickhouse.js';
