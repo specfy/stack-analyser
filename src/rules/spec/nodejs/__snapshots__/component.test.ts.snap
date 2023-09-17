@@ -10,6 +10,7 @@ exports[`npm > should match everything 1`] = `
   "auth0",
   "aws",
   "aws.amplify_hosting",
+  "aws.cloudfront",
   "aws.codebuild",
   "aws.dynamodb",
   "aws.ec2",
@@ -198,6 +199,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@aws-amplify/ui-react",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@aws-sdk/aws-cloudfront",
     "0.0.0",
   ],
   [

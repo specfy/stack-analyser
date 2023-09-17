@@ -5,6 +5,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "algolia",
   "auth0",
   "aws",
+  "aws.cloudfront",
   "aws.dynamodb",
   "aws.ec2",
   "aws.ecs",
@@ -123,6 +124,11 @@ exports[`ruby (component) > should match everything 2`] = `
   ],
   [
     "ruby",
+    "aws-sdk-cloudfront",
+    "1.0.0",
+  ],
+  [
+    "ruby",
     "aws-sdk-codebuild",
     "1.0.0",
   ],
@@ -209,6 +215,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "cloudflare-rails",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "cloudfront-signer",
     "1.0.0",
   ],
   [

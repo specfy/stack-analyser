@@ -24,6 +24,7 @@ exports[`all > should match everything 1`] = `
   "auth0",
   "aws",
   "aws.amplify_hosting",
+  "aws.cloudfront",
   "aws.codebuild",
   "aws.dynamodb",
   "aws.ec2",

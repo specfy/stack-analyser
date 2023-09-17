@@ -5,6 +5,7 @@ exports[`docker > should match all dependencies 1`] = `
   "algolia",
   "alibabacloud",
   "aws",
+  "aws.cloudfront",
   "aws.ec2",
   "aws.fargate",
   "aws.lambda",
@@ -241,6 +242,11 @@ exports[`docker > should match all dependencies 2`] = `
   [
     "githubAction",
     "bitovi/github-actions-deploy-docker-to-ec2",
+    "1",
+  ],
+  [
+    "githubAction",
+    "chetan/invalidate-cloudfront-action",
     "1",
   ],
   [
