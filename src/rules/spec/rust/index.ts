@@ -6,6 +6,6 @@ register({
   tech: 'rust',
   name: 'Rust',
   type: 'language',
-  files: ['Cargo.toml', 'main.go'],
+  files: ['Cargo.toml'],
   detect: [detectRustComponent],
 });

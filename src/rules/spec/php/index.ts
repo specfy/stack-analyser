@@ -6,7 +6,7 @@ register({
   tech: 'php',
   name: 'PHP',
   type: 'language',
-  files: ['composer.json', 'composer.lock', 'phpunit.xml.dist'],
+  files: ['composer.json', 'composer.lock'],
   dependencies: [{ type: 'docker', name: 'php', example: 'php:0.0.0' }],
   detect: detectPhpComponent,
 });

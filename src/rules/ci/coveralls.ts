@@ -4,7 +4,6 @@ register({
   tech: 'coveralls',
   name: 'Coveralls',
   type: 'ci',
-  files: ['.codecov.yml', 'codecov.yml'],
   dependencies: [
     { type: 'githubAction', name: 'coverallsapp/github-action' },
     {
