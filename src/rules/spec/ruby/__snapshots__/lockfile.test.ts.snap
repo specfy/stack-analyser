@@ -19,6 +19,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "aws.lambda",
   "aws.lightsail",
   "aws.neptune",
+  "aws.opensearch",
   "aws.rds",
   "aws.redshift",
   "aws.s3",
@@ -214,6 +215,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "aws-sdk-neptune",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "aws-sdk-opensearch",
     "1.0.0",
   ],
   [

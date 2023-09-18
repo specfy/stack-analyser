@@ -25,6 +25,7 @@ exports[`npm > should match everything 1`] = `
   "aws.lambda",
   "aws.lightsail",
   "aws.neptune",
+  "aws.opensearch",
   "aws.rds",
   "aws.redshift",
   "aws.s3",
@@ -277,6 +278,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@aws-cdk/aws-opensearch",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@aws-cdk/aws-rds",
     "0.0.0",
   ],
@@ -378,6 +384,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@aws-sdk/client-neptune",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@aws-sdk/client-opensearch",
     "0.0.0",
   ],
   [

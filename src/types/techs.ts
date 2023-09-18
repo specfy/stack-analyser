@@ -51,6 +51,7 @@ export type AllowedKeys =
   | 'aws.lambda'
   | 'aws.lightsail'
   | 'aws.neptune'
+  | 'aws.opensearch'
   | 'aws.rds'
   | 'aws.redshift'
   | 'aws.s3'
