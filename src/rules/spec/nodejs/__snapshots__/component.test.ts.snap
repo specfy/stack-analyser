@@ -33,6 +33,7 @@ exports[`npm > should match everything 1`] = `
   "aws.redshift",
   "aws.s3",
   "aws.sagemaker",
+  "aws.secretsmanager",
   "aws.sns",
   "aws.sqs",
   "aws.timestream",
@@ -317,6 +318,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@aws-cdk/aws-secretsmanager",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@aws-cdk/aws-sns",
     "0.0.0",
   ],
@@ -443,6 +449,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@aws-sdk/client-sagemaker",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@aws-sdk/client-secrets-manager",
     "0.0.0",
   ],
   [

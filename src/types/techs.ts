@@ -59,6 +59,7 @@ export type AllowedKeys =
   | 'aws.redshift'
   | 'aws.s3'
   | 'aws.sagemaker'
+  | 'aws.secretsmanager'
   | 'aws.sns'
   | 'aws.sqs'
   | 'aws.timestream'
