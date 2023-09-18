@@ -9,6 +9,7 @@ exports[`rust (component) > should match everything 1`] = `
   "aws.athena",
   "aws.cloudfront",
   "aws.cloudsearch",
+  "aws.cloudwatch",
   "aws.codebuild",
   "aws.documentdb",
   "aws.dynamodb",
@@ -95,6 +96,11 @@ exports[`rust (component) > should match everything 2`] = `
   [
     "rust",
     "aws-sdk-cloudsearch",
+    "1.0.0",
+  ],
+  [
+    "rust",
+    "aws-sdk-cloudwatch",
     "1.0.0",
   ],
   [
