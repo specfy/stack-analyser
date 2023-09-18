@@ -21,6 +21,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "aws.eks",
   "aws.elasticache",
   "aws.glacier",
+  "aws.glue",
   "aws.kinesis",
   "aws.kms",
   "aws.lambda",
@@ -246,6 +247,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "aws-sdk-glacier",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "aws-sdk-glue",
     "1.0.0",
   ],
   [

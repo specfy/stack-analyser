@@ -42,6 +42,7 @@ exports[`all > should match everything 1`] = `
   "aws.elasticache",
   "aws.fargate",
   "aws.glacier",
+  "aws.glue",
   "aws.kinesis",
   "aws.kms",
   "aws.lambda",

@@ -23,6 +23,7 @@ exports[`rust (component) > should match everything 1`] = `
   "aws.eks",
   "aws.elasticache",
   "aws.glacier",
+  "aws.glue",
   "aws.kinesis",
   "aws.kms",
   "aws.lambda",
@@ -190,6 +191,11 @@ exports[`rust (component) > should match everything 2`] = `
   [
     "rust",
     "aws-sdk-glacier",
+    "1.0.0",
+  ],
+  [
+    "rust",
+    "aws-sdk-glue",
     "1.0.0",
   ],
   [
