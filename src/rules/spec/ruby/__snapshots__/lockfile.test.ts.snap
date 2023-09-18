@@ -35,6 +35,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "aws.sns",
   "aws.sqs",
   "aws.timestream",
+  "aws.translate",
   "azure",
   "betterstack",
   "brevo",
@@ -310,6 +311,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "aws-sdk-timestream",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "aws-sdk-translate",
     "1.0.0",
   ],
   [

@@ -37,6 +37,7 @@ exports[`rust (component) > should match everything 1`] = `
   "aws.sns",
   "aws.sqs",
   "aws.timestream",
+  "aws.translate",
   "azure",
   "cloudflare",
   "couchbase",
@@ -254,6 +255,11 @@ exports[`rust (component) > should match everything 2`] = `
   [
     "rust",
     "aws-sdk-timestream",
+    "1.0.0",
+  ],
+  [
+    "rust",
+    "aws-sdk-translate",
     "1.0.0",
   ],
   [

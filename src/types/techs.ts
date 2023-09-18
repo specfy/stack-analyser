@@ -68,6 +68,7 @@ export type AllowedKeys =
   | 'aws.sns'
   | 'aws.sqs'
   | 'aws.timestream'
+  | 'aws.translate'
   | 'aws'
   | 'azure.ci'
   | 'azure'

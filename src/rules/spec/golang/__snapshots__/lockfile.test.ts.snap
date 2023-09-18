@@ -33,6 +33,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "aws.sns",
   "aws.sqs",
   "aws.timestream",
+  "aws.translate",
   "azure",
   "brevo",
   "clickhouse",
@@ -383,6 +384,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/aws/aws-sdk-go-v2/service/timestream",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/aws/aws-sdk-go-v2/service/translate",
     "v1.0.0",
   ],
   [

@@ -41,6 +41,7 @@ exports[`npm > should match everything 1`] = `
   "aws.sns",
   "aws.sqs",
   "aws.timestream",
+  "aws.translate",
   "betterstack",
   "bootstrap",
   "brevo",
@@ -368,6 +369,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@aws-cdk/aws-translate",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@aws-sdk/aws-redshift",
     "0.0.0",
   ],
@@ -524,6 +530,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@aws-sdk/client-timestream",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@aws-sdk/client-translate",
     "0.0.0",
   ],
   [
