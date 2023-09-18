@@ -3,6 +3,7 @@ import './apache_couchdb.js';
 import './apache_iceberg.js';
 import './apache_spark.js';
 import './aws.athena.js';
+import './aws.cloudsearch.js';
 import './aws.documentdb.js';
 import './aws.dynamodb.js';
 import './aws.elasticache.js';

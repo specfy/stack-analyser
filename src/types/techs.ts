@@ -37,6 +37,7 @@ export type AllowedKeys =
   | 'aws.amplify_hosting'
   | 'aws.athena'
   | 'aws.cloudfront'
+  | 'aws.cloudsearch'
   | 'aws.codebuild'
   | 'aws.documentdb'
   | 'aws.dynamodb'
