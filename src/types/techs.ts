@@ -51,6 +51,7 @@ export type AllowedKeys =
   | 'aws.glacier'
   | 'aws.lambda'
   | 'aws.lightsail'
+  | 'aws.memorydb'
   | 'aws.mq'
   | 'aws.neptune'
   | 'aws.opensearch'

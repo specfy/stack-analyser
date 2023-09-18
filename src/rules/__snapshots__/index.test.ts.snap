@@ -40,6 +40,7 @@ exports[`all > should match everything 1`] = `
   "aws.glacier",
   "aws.lambda",
   "aws.lightsail",
+  "aws.memorydb",
   "aws.mq",
   "aws.neptune",
   "aws.opensearch",

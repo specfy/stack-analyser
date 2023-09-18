@@ -39,6 +39,8 @@ export function loadAllRules() {
   for (const rule of registeredRules) {
     loadOne(rule);
   }
+
+  // console.debug('Loaded', registeredRules.length, 'rules');
 }
 
 export function loadOne(rule: Rule) {

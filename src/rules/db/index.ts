@@ -7,6 +7,7 @@ import './aws.cloudsearch.js';
 import './aws.documentdb.js';
 import './aws.dynamodb.js';
 import './aws.elasticache.js';
+import './aws.memorydb.js';
 import './aws.neptune.js';
 import './aws.opensearch.js';
 import './aws.rds.js';
