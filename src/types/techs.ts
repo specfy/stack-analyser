@@ -47,6 +47,7 @@ export type AllowedKeys =
   | 'aws.fargate'
   | 'aws.glacier'
   | 'aws.lambda'
+  | 'aws.lightsail'
   | 'aws.neptune'
   | 'aws.rds'
   | 'aws.redshift'

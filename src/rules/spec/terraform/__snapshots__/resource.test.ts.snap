@@ -15,6 +15,7 @@ exports[`terraform (resource) > should match everything 1`] = `
   "aws.elasticache",
   "aws.glacier",
   "aws.lambda",
+  "aws.lightsail",
   "aws.neptune",
   "aws.rds",
   "aws.redshift",

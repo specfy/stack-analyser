@@ -13,6 +13,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "aws.elasticache",
   "aws.glacier",
   "aws.lambda",
+  "aws.lightsail",
   "aws.neptune",
   "aws.rds",
   "aws.redshift",
@@ -265,6 +266,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/aws/aws-sdk-go-v2/service/lambda",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/aws/aws-sdk-go-v2/service/lightsail",
     "v1.0.0",
   ],
   [
