@@ -158,6 +158,7 @@ export type AllowedKeys =
   | 'gcp.gke'
   | 'gcp.kms'
   | 'gcp.language'
+  | 'gcp.logging'
   | 'gcp.maps'
   | 'gcp.memorystore'
   | 'gcp.pubsub'

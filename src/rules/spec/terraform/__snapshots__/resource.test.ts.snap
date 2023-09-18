@@ -62,6 +62,7 @@ exports[`terraform (resource) > should match everything 1`] = `
   "gcp.gcs",
   "gcp.gke",
   "gcp.kms",
+  "gcp.logging",
   "gcp.maps",
   "gcp.memorystore",
   "gcp.pubsub",

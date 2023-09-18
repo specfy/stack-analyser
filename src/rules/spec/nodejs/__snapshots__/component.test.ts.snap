@@ -92,6 +92,7 @@ exports[`npm > should match everything 1`] = `
   "gcp.gcs",
   "gcp.kms",
   "gcp.language",
+  "gcp.logging",
   "gcp.maps",
   "gcp.memorystore",
   "gcp.pubsub",
@@ -748,6 +749,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@google-cloud/language",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@google-cloud/logging",
     "0.0.0",
   ],
   [

@@ -138,6 +138,7 @@ exports[`all > should match everything 1`] = `
   "gcp.gke",
   "gcp.kms",
   "gcp.language",
+  "gcp.logging",
   "gcp.maps",
   "gcp.memorystore",
   "gcp.pubsub",

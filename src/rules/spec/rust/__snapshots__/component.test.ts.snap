@@ -54,6 +54,7 @@ exports[`rust (component) > should match everything 1`] = `
   "gcp",
   "gcp.bigquery",
   "gcp.gcs",
+  "gcp.logging",
   "gcp.pubsub",
   "gitlab",
   "hashicorp_vault",
@@ -356,6 +357,11 @@ exports[`rust (component) > should match everything 2`] = `
   [
     "rust",
     "gitlab",
+    "1.0.0",
+  ],
+  [
+    "rust",
+    "google-cloud-logging",
     "1.0.0",
   ],
   [
