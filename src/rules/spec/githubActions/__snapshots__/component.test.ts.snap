@@ -14,6 +14,7 @@ exports[`docker > should match all dependencies 1`] = `
   "aws.lambda",
   "aws.s3",
   "azure",
+  "azure.sql",
   "cloudflare",
   "cloudflare.pages",
   "cloudflare.workers",
@@ -250,6 +251,11 @@ exports[`docker > should match all dependencies 2`] = `
   [
     "githubAction",
     "azure/setup-kubectl",
+    "1",
+  ],
+  [
+    "githubAction",
+    "azure/sql-action",
     "1",
   ],
   [

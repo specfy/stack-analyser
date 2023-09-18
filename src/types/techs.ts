@@ -78,6 +78,7 @@ export type AllowedKeys =
   | 'aws'
   | 'azure.aks'
   | 'azure.ci'
+  | 'azure.sql'
   | 'azure'
   | 'bash'
   | 'betterstack'

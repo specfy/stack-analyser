@@ -41,6 +41,7 @@ exports[`terraform (resource) > should match everything 1`] = `
   "aws.timestream",
   "azure",
   "azure.aks",
+  "azure.sql",
   "cloudflare",
   "cloudflare.pages",
   "cloudflare.workers",

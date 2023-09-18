@@ -66,6 +66,7 @@ exports[`all > should match everything 1`] = `
   "azure",
   "azure.aks",
   "azure.ci",
+  "azure.sql",
   "betterstack",
   "bigcommerce",
   "bitbucket",

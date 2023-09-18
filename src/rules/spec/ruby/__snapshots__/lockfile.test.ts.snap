@@ -44,6 +44,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "aws.timestream",
   "aws.translate",
   "azure",
+  "azure.sql",
   "betterstack",
   "brevo",
   "cloudflare",
@@ -356,6 +357,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "azure-armrest",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "azure_mgmt_sql",
     "1.0.0",
   ],
   [

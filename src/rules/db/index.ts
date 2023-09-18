@@ -14,6 +14,7 @@ import './aws.rds.js';
 import './aws.redshift.js';
 import './aws.secretsmanager.js';
 import './aws.timestream.js';
+import './azure.sql.js';
 import './clickhouse.js';
 import './cockroachdb.js';
 import './couchbase.js';
