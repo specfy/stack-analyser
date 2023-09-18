@@ -38,6 +38,7 @@ exports[`npm > should match everything 1`] = `
   "aws.sns",
   "aws.sqs",
   "aws.timestream",
+  "betterstack",
   "bootstrap",
   "brevo",
   "browserstack",
@@ -710,6 +711,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@launchdarkly/cloudflare-server-sdk",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@logtail/node",
     "0.0.0",
   ],
   [

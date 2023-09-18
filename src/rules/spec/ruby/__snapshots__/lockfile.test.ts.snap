@@ -33,6 +33,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "aws.sqs",
   "aws.timestream",
   "azure",
+  "betterstack",
   "brevo",
   "cloudflare",
   "couchbase",
@@ -556,6 +557,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "lemonsqueezy",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "logtail-rails",
     "1.0.0",
   ],
   [
