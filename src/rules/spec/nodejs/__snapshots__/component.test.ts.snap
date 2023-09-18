@@ -50,6 +50,7 @@ exports[`npm > should match everything 1`] = `
   "aws.translate",
   "azure",
   "azure.cosmosdb",
+  "azure.mysql",
   "azure.postgres",
   "azure.sql",
   "betterstack",
@@ -624,6 +625,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@azure/arm-cosmosdb",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@azure/arm-mysql",
     "0.0.0",
   ],
   [
@@ -1439,6 +1445,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "mysql",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "mysql2",
     "0.0.0",
   ],
   [

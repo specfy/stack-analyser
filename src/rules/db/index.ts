@@ -15,6 +15,7 @@ import './aws.redshift.js';
 import './aws.secretsmanager.js';
 import './aws.timestream.js';
 import './azure.cosmosdb.js';
+import './azure.mysql.js';
 import './azure.postgres.js';
 import './azure.sql.js';
 import './clickhouse.js';

@@ -14,6 +14,7 @@ exports[`docker > should match all dependencies 1`] = `
   "aws.lambda",
   "aws.s3",
   "azure",
+  "azure.mysql",
   "azure.postgres",
   "azure.sql",
   "cloudflare",
@@ -237,6 +238,11 @@ exports[`docker > should match all dependencies 2`] = `
   [
     "githubAction",
     "azure/login",
+    "1",
+  ],
+  [
+    "githubAction",
+    "azure/mysql",
     "1",
   ],
   [
