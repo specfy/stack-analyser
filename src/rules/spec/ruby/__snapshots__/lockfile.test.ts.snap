@@ -7,6 +7,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "aws",
   "aws.apigateway",
   "aws.athena",
+  "aws.cloudformation",
   "aws.cloudfront",
   "aws.cloudsearch",
   "aws.cloudwatch",
@@ -154,6 +155,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "aws-sdk-athena",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "aws-sdk-cloudformation",
     "1.0.0",
   ],
   [

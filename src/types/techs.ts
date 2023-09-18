@@ -38,6 +38,7 @@ export type AllowedKeys =
   | 'aws.amplifyhosting'
   | 'aws.apigateway'
   | 'aws.athena'
+  | 'aws.cloudformation'
   | 'aws.cloudfront'
   | 'aws.cloudsearch'
   | 'aws.cloudwatch'

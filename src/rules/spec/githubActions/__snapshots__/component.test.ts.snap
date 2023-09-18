@@ -5,6 +5,7 @@ exports[`docker > should match all dependencies 1`] = `
   "algolia",
   "alibabacloud",
   "aws",
+  "aws.cloudformation",
   "aws.cloudfront",
   "aws.ec2",
   "aws.ecr",
@@ -193,6 +194,11 @@ exports[`docker > should match all dependencies 2`] = `
   [
     "githubAction",
     "aws-actions/amazon-eks-fargate",
+    "1",
+  ],
+  [
+    "githubAction",
+    "aws-actions/aws-cloudformation-github-deploy",
     "1",
   ],
   [
