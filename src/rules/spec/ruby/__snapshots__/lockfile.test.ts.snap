@@ -25,6 +25,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "aws.mq",
   "aws.neptune",
   "aws.opensearch",
+  "aws.polly",
   "aws.rds",
   "aws.redshift",
   "aws.rekognition",
@@ -259,6 +260,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "aws-sdk-opensearch",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "aws-sdk-polly",
     "1.0.0",
   ],
   [

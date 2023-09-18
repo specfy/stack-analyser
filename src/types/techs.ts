@@ -58,6 +58,7 @@ export type AllowedKeys =
   | 'aws.mq'
   | 'aws.neptune'
   | 'aws.opensearch'
+  | 'aws.polly'
   | 'aws.rds'
   | 'aws.redshift'
   | 'aws.rekognition'

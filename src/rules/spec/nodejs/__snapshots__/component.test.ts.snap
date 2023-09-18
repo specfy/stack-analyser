@@ -31,6 +31,7 @@ exports[`npm > should match everything 1`] = `
   "aws.mq",
   "aws.neptune",
   "aws.opensearch",
+  "aws.polly",
   "aws.rds",
   "aws.redshift",
   "aws.rekognition",
@@ -322,6 +323,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@aws-cdk/aws-polly",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@aws-cdk/aws-rds",
     "0.0.0",
   ],
@@ -473,6 +479,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@aws-sdk/client-opensearch",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@aws-sdk/client-polly",
     "0.0.0",
   ],
   [

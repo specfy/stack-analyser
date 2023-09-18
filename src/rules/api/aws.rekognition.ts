@@ -13,10 +13,5 @@ register({
       type: 'golang',
       name: 'github.com/aws/aws-sdk-go-v2/service/rekognition',
     },
-    {
-      type: 'terraform.resource',
-      name: /^aws_rekognition_/,
-      example: 'aws_rekognition_app',
-    },
   ],
 });
