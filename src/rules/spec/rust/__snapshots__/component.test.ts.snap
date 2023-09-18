@@ -6,6 +6,7 @@ exports[`rust (component) > should match everything 1`] = `
   "apache_cassandra",
   "auth0",
   "aws",
+  "aws.apigateway",
   "aws.athena",
   "aws.cloudfront",
   "aws.cloudsearch",
@@ -86,6 +87,11 @@ exports[`rust (component) > should match everything 2`] = `
   [
     "rust",
     "auth0",
+    "1.0.0",
+  ],
+  [
+    "rust",
+    "aws-sdk-apigateway",
     "1.0.0",
   ],
   [

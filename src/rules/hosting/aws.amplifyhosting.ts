@@ -1,7 +1,7 @@
 import { register } from '../../register.js';
 
 register({
-  tech: 'aws.amplify_hosting',
+  tech: 'aws.amplifyhosting',
   name: 'AWS Amplify Hosting',
   type: 'hosting',
   dependencies: [

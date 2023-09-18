@@ -1,5 +1,6 @@
 import './alibabacloud.js';
-import './aws.amplify_hosting.js';
+import './aws.amplifyhosting.js';
+import './aws.apigateway.js';
 import './aws.ec2.js';
 import './aws.ecs.js';
 import './aws.eks.js';
