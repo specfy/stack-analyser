@@ -48,6 +48,7 @@ exports[`terraform (resource) > should match everything 1`] = `
   "gcp",
   "gcp.aiplatform",
   "gcp.appengine",
+  "gcp.artifactregistry",
   "gcp.bigquery",
   "gcp.bigtable",
   "gcp.cloudbuild",

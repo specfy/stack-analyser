@@ -11,6 +11,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "aws.cloudfront",
   "aws.cloudsearch",
   "aws.cloudwatch",
+  "aws.codebuild",
   "aws.documentdb",
   "aws.dynamodb",
   "aws.ebs",
@@ -55,8 +56,10 @@ exports[`ruby (component) > should match everything 1`] = `
   "gcp",
   "gcp.aiplatform",
   "gcp.appengine",
+  "gcp.artifactregistry",
   "gcp.bigquery",
   "gcp.bigtable",
+  "gcp.cloudbuild",
   "gcp.cloudrun",
   "gcp.dataflow",
   "gcp.dataproc",
@@ -463,6 +466,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "google-cloud-ai_platform-v1",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "google-cloud-artifact_registry",
     "1.0.0",
   ],
   [

@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'aws.codebuild',
   name: 'AWS Code Build',
-  type: 'tool',
+  type: 'api',
   dependencies: [
     { type: 'npm', name: '@aws-sdk/client-codebuild' },
     { type: 'rust', name: 'aws-sdk-codebuild' },

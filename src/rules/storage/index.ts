@@ -4,5 +4,7 @@ import './aws.ecr.js';
 import './aws.efs.js';
 import './aws.glacier.js';
 import './aws.s3.js';
+import './gcp.artifactregistry.js';
+import './gcp.containerregistry.js';
 import './gcp.gcs.js';
 import './supabase.storage.js';

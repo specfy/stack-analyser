@@ -9,6 +9,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "aws.cloudfront",
   "aws.cloudsearch",
   "aws.cloudwatch",
+  "aws.codebuild",
   "aws.documentdb",
   "aws.dynamodb",
   "aws.ebs",
@@ -47,8 +48,10 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "gcp",
   "gcp.aiplatform",
   "gcp.appengine",
+  "gcp.artifactregistry",
   "gcp.bigquery",
   "gcp.bigtable",
+  "gcp.cloudbuild",
   "gcp.cloudrun",
   "gcp.dataflow",
   "gcp.dataproc",
@@ -91,6 +94,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "cloud.google.com/go/appengine",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "cloud.google.com/go/artifactregistry",
     "v1.0.0",
   ],
   [

@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'gcp.cloudbuild',
   name: 'Cloud Build',
-  type: 'tool',
+  type: 'api',
   dependencies: [
     { type: 'npm', name: '@google-cloud/cloudbuild' },
     { type: 'terraform.resource', name: 'google_cloudbuild_trigger' },

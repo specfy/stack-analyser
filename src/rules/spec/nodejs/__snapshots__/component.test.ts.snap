@@ -78,6 +78,7 @@ exports[`npm > should match everything 1`] = `
   "gcp",
   "gcp.aiplatform",
   "gcp.appengine",
+  "gcp.artifactregistry",
   "gcp.bigquery",
   "gcp.bigtable",
   "gcp.cloudbuild",
@@ -688,6 +689,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@google-cloud/artifact-registry",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@google-cloud/bigquery",
     "0.0.0",
   ],
@@ -1264,6 +1270,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "gatsby-plugin-algolia",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "google-artifactregistry-auth",
     "0.0.0",
   ],
   [
