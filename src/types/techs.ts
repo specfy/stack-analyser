@@ -50,6 +50,7 @@ export type AllowedKeys =
   | 'aws.glacier'
   | 'aws.lambda'
   | 'aws.lightsail'
+  | 'aws.mq'
   | 'aws.neptune'
   | 'aws.opensearch'
   | 'aws.rds'

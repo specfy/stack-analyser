@@ -20,6 +20,7 @@ exports[`rust (component) > should match everything 1`] = `
   "aws.glacier",
   "aws.lambda",
   "aws.lightsail",
+  "aws.mq",
   "aws.neptune",
   "aws.opensearch",
   "aws.rds",
@@ -155,6 +156,11 @@ exports[`rust (component) > should match everything 2`] = `
   [
     "rust",
     "aws-sdk-lightsail",
+    "1.0.0",
+  ],
+  [
+    "rust",
+    "aws-sdk-mq",
     "1.0.0",
   ],
   [
