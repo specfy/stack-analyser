@@ -31,8 +31,8 @@
   "devDependencies": {
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
-    "@typescript-eslint/eslint-plugin": "6.6.0",
-    "@typescript-eslint/parser": "6.6.0",
+    "@typescript-eslint/eslint-plugin": "6.7.0",
+    "@typescript-eslint/parser": "6.7.0",
     "@vitest/coverage-v8": "0.34.4",
     "eslint": "8.49.0",
     "eslint-config-prettier": "9.0.0",
@@ -45,14 +45,14 @@
     "vitest": "0.34.4"
   },
   "dependencies": {
-    "@actions/core": "1.10.0",
+    "@actions/core": "1.10.1",
     "@cdktf/hcl2json": "0.18.0",
     "commander": "11.0.0",
     "consola": "3.2.3",
     "dotenv": "16.3.1",
     "figures": "5.0.0",
     "kleur": "4.1.5",
-    "nanoid": "4.0.2",
+    "nanoid": "5.0.1",
     "ora": "7.0.1",
     "toml": "3.0.0",
     "yaml": "2.3.2"
