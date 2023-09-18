@@ -39,6 +39,8 @@ import './percona.js';
 import './planetscale.js';
 import './postgres.js';
 import './redis.js';
+import './replit.database.js';
+import './replit.postgres.js';
 import './snowflake.js';
 import './sqlite.js';
 import './supabase.postgres.js';

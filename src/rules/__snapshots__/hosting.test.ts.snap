@@ -11,6 +11,7 @@ exports[`hosting > should match everything with files 1`] = `
   "netlify",
   "platformsh",
   "render",
+  "replit",
   "vercel",
 ]
 `;

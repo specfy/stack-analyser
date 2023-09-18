@@ -36,6 +36,7 @@ import './oraclecloud.js';
 import './ovh.js';
 import './platformsh.js';
 import './render.js';
+import './replit.js';
 import './scaleway.js';
 import './sitecore.js';
 import './supabase.functions.js';

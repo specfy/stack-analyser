@@ -145,6 +145,8 @@ exports[`npm > should match everything 1`] = `
   "redis",
   "relativeci",
   "renovate",
+  "replit",
+  "replit.database",
   "resend",
   "rollup",
   "salesforce",
@@ -835,6 +837,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@relative-ci/agent",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@replit/database",
     "0.0.0",
   ],
   [
