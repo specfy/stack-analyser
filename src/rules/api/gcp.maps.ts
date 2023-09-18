@@ -6,7 +6,6 @@ register({
   type: 'api',
   dependencies: [
     { type: 'npm', name: '@google-cloud/maps' },
-    { type: 'terraform.resource', name: '' },
     { type: 'ruby', name: 'google_maps_service' },
     { type: 'golang', name: 'cloud.google.com/go/maps' },
   ],

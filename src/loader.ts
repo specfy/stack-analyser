@@ -46,6 +46,11 @@ export function loadAllRules() {
 export function loadOne(rule: Rule) {
   if (rule.dependencies) {
     rule.dependencies.map((dep) => {
+      if (dep.name === '') {
+        throw new Error(
+          `empty dependency name for ${rule.name} (${rule.type} > ${rule.tech})`
+        );
+      }
       dependencies[dep.type].push({
         match:
           typeof dep.name === 'string' ? new RegExp(`^${dep.name}$`) : dep.name,

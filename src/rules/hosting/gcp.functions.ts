@@ -8,11 +8,8 @@ register({
     { type: 'npm', name: '@google-cloud/functions-framework' },
     {
       type: 'terraform.resource',
-      name: 'google_cloudfunctions_function',
-    },
-    {
-      type: 'terraform.resource',
-      name: 'google_cloudfunctions2_function',
+      name: /^google_cloudfunctions/,
+      example: 'google_cloudfunctions_function',
     },
     {
       type: 'ruby',

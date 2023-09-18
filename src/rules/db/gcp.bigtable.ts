@@ -8,11 +8,8 @@ register({
     { type: 'npm', name: '@google-cloud/bigtable' },
     {
       type: 'terraform.resource',
-      name: 'google_bigtable_instance',
-    },
-    {
-      type: 'terraform.resource',
-      name: 'google_bigtable_table',
+      name: /^google_bigtable_/,
+      example: 'google_bigtable_instance',
     },
     { type: 'ruby', name: 'google-cloud-bigtable' },
     { type: 'golang', name: 'cloud.google.com/go/bigtable' },

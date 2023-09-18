@@ -5,7 +5,11 @@ register({
   name: 'Firebase Firestore',
   type: 'db',
   dependencies: [
-    { type: 'terraform.resource', name: 'google_firestore_database' },
+    {
+      type: 'terraform.resource',
+      name: /^google_firestore_/,
+      example: 'google_firestore_database',
+    },
     { type: 'php', name: 'google/cloud-firestore' },
   ],
 });

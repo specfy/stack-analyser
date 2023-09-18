@@ -8,7 +8,8 @@ register({
     { type: 'npm', name: '@google-cloud/pubsub' },
     {
       type: 'terraform.resource',
-      name: 'google_pubsub_topic',
+      name: /^google_pubsub_/,
+      example: 'google_pubsub_topic',
     },
     { type: 'golang', name: 'cloud.google.com/go/pubsub' },
     { type: 'rust', name: 'google-cloud-pubsub' },

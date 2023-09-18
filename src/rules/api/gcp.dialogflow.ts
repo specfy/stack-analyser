@@ -6,7 +6,11 @@ register({
   type: 'api',
   dependencies: [
     { type: 'npm', name: '@google-cloud/dialogflow' },
-    { type: 'terraform.resource', name: 'google_dialogflow_agent' },
+    {
+      type: 'terraform.resource',
+      name: /^google_dialogflow_/,
+      example: 'google_dialogflow_agent',
+    },
     {
       type: 'ruby',
       name: /^google-cloud-dialogflow/,

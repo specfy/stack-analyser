@@ -8,11 +8,8 @@ register({
     { type: 'npm', name: '@google-cloud/run' },
     {
       type: 'terraform.resource',
-      name: 'google_cloud_run_v2_service',
-    },
-    {
-      type: 'terraform.resource',
-      name: 'google_cloud_run_v2_job',
+      name: /^google_cloud_run_/,
+      example: 'google_cloud_run_v2_service',
     },
     {
       type: 'ruby',

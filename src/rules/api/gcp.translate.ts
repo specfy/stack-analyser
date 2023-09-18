@@ -9,7 +9,6 @@ register({
     { type: 'npm', name: 'google-translate-api-browser' },
     { type: 'npm', name: '@vitalets/google-translate-api' },
     { type: 'npm', name: '@iamtraction/google-translate' },
-    { type: 'terraform.resource', name: '' },
     {
       type: 'ruby',
       name: /^google-cloud-translate/,

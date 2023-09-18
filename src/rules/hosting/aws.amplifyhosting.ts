@@ -7,7 +7,10 @@ register({
   dependencies: [
     { type: 'npm', name: 'aws-amplify' },
     { type: 'npm', name: /^@aws-amplify\//, example: '@aws-amplify/ui-react' },
-    { type: 'terraform.resource', name: 'aws_amplify_app' },
-    { type: 'terraform.resource', name: 'aws_amplify_backend_environment' },
+    {
+      type: 'terraform.resource',
+      name: /^aws_amplify_/,
+      example: 'aws_amplify_app',
+    },
   ],
 });

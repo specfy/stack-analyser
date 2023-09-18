@@ -8,7 +8,8 @@ register({
     { type: 'npm', name: '@google-cloud/tasks' },
     {
       type: 'terraform.resource',
-      name: 'google_cloud_tasks_queue',
+      name: /^google_cloud_tasks_/,
+      example: 'google_cloud_tasks_queue',
     },
     {
       type: 'ruby',

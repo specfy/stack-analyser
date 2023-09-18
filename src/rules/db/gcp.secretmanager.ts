@@ -8,7 +8,8 @@ register({
     { type: 'npm', name: '@google-cloud/secret-manager' },
     {
       type: 'terraform.resource',
-      name: 'google_secret_manager_secret',
+      name: /^google_secret_manager/,
+      example: 'google_secret_manager_secret',
     },
     {
       type: 'ruby',
