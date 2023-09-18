@@ -25,6 +25,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "aws.opensearch",
   "aws.rds",
   "aws.redshift",
+  "aws.rekognition",
   "aws.s3",
   "aws.sagemaker",
   "aws.secretsmanager",
@@ -341,6 +342,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/aws/aws-sdk-go-v2/service/redshift",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/aws/aws-sdk-go-v2/service/rekognition",
     "v1.0.0",
   ],
   [

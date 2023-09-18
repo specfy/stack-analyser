@@ -33,6 +33,7 @@ exports[`npm > should match everything 1`] = `
   "aws.opensearch",
   "aws.rds",
   "aws.redshift",
+  "aws.rekognition",
   "aws.s3",
   "aws.sagemaker",
   "aws.secretsmanager",
@@ -331,6 +332,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@aws-cdk/aws-rekognition",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@aws-cdk/aws-sagemaker",
     "0.0.0",
   ],
@@ -472,6 +478,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@aws-sdk/client-rds",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@aws-sdk/client-rekognition",
     "0.0.0",
   ],
   [

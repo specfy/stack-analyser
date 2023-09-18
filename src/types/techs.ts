@@ -60,6 +60,7 @@ export type AllowedKeys =
   | 'aws.opensearch'
   | 'aws.rds'
   | 'aws.redshift'
+  | 'aws.rekognition'
   | 'aws.s3'
   | 'aws.sagemaker'
   | 'aws.secretsmanager'

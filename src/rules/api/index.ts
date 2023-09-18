@@ -1,4 +1,5 @@
 import './aws.kinesis.js';
+import './aws.rekognition.js';
 import './aws.sagemaker.js';
 import './gcp.aiplatform.js';
 import './gcp.dialogflow.js';

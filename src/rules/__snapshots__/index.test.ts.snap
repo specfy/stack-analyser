@@ -48,6 +48,7 @@ exports[`all > should match everything 1`] = `
   "aws.opensearch",
   "aws.rds",
   "aws.redshift",
+  "aws.rekognition",
   "aws.s3",
   "aws.sagemaker",
   "aws.secretsmanager",
