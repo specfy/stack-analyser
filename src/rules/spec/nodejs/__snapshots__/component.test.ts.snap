@@ -756,6 +756,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@iamtraction/google-translate",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@influxdata/influxdb-client",
     "0.0.0",
   ],
@@ -1001,6 +1006,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@vitalets/google-translate-api",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "airtable",
     "0.0.0",
   ],
@@ -1057,6 +1067,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "cdktf",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "chatgpt",
     "0.0.0",
   ],
   [
@@ -1181,7 +1196,17 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "google-translate-api-browser",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "googleapis",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "gpt3-tokenizer",
     "0.0.0",
   ],
   [

@@ -6,6 +6,9 @@ register({
   type: 'api',
   dependencies: [
     { type: 'npm', name: '@google-cloud/translate' },
+    { type: 'npm', name: 'google-translate-api-browser' },
+    { type: 'npm', name: '@vitalets/google-translate-api' },
+    { type: 'npm', name: '@iamtraction/google-translate' },
     { type: 'terraform.resource', name: '' },
     {
       type: 'ruby',
