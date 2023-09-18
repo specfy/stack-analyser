@@ -79,6 +79,7 @@ export type AllowedKeys =
   | 'azure.aks'
   | 'azure.ci'
   | 'azure.cosmosdb'
+  | 'azure.mariadb'
   | 'azure.mysql'
   | 'azure.postgres'
   | 'azure.redis'

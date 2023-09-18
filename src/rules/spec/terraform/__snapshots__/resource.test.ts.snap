@@ -42,6 +42,7 @@ exports[`terraform (resource) > should match everything 1`] = `
   "azure",
   "azure.aks",
   "azure.cosmosdb",
+  "azure.mariadb",
   "azure.mysql",
   "azure.postgres",
   "azure.redis",

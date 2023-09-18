@@ -43,6 +43,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "aws.translate",
   "azure",
   "azure.cosmosdb",
+  "azure.mariadb",
   "azure.mysql",
   "azure.postgres",
   "azure.redis",
@@ -229,6 +230,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/cosmos/armcosmos",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/mariadb/armmariadb",
     "v1.0.0",
   ],
   [

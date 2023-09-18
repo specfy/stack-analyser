@@ -46,6 +46,7 @@ exports[`rust (component) > should match everything 1`] = `
   "aws.translate",
   "azure",
   "azure.cosmosdb",
+  "azure.mariadb",
   "azure.mysql",
   "azure.postgres",
   "azure.redis",
@@ -307,6 +308,11 @@ exports[`rust (component) > should match everything 2`] = `
   [
     "rust",
     "azure_mgmt_cosmosdb",
+    "1.0.0",
+  ],
+  [
+    "rust",
+    "azure_mgmt_mariadb",
     "1.0.0",
   ],
   [
