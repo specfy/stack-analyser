@@ -16,6 +16,7 @@ exports[`rust (component) > should match everything 1`] = `
   "aws.dynamodb",
   "aws.ebs",
   "aws.ec2",
+  "aws.ecr",
   "aws.ecs",
   "aws.efs",
   "aws.eks",
@@ -142,6 +143,11 @@ exports[`rust (component) > should match everything 2`] = `
   [
     "rust",
     "aws-sdk-ec2",
+    "1.0.0",
+  ],
+  [
+    "rust",
+    "aws-sdk-ecr",
     "1.0.0",
   ],
   [

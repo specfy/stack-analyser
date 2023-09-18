@@ -34,6 +34,7 @@ exports[`all > should match everything 1`] = `
   "aws.dynamodb",
   "aws.ebs",
   "aws.ec2",
+  "aws.ecr",
   "aws.ecs",
   "aws.efs",
   "aws.eks",

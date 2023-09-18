@@ -20,6 +20,7 @@ exports[`npm > should match everything 1`] = `
   "aws.dynamodb",
   "aws.ebs",
   "aws.ec2",
+  "aws.ecr",
   "aws.ecs",
   "aws.efs",
   "aws.eks",
@@ -273,6 +274,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@aws-cdk/aws-ecr",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@aws-cdk/aws-ecs",
     "0.0.0",
   ],
@@ -439,6 +445,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@aws-sdk/client-ec2",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@aws-sdk/client-ecr",
     "0.0.0",
   ],
   [

@@ -46,6 +46,7 @@ export type AllowedKeys =
   | 'aws.dynamodb'
   | 'aws.ebs'
   | 'aws.ec2'
+  | 'aws.ecr'
   | 'aws.ecs'
   | 'aws.efs'
   | 'aws.eks'

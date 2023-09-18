@@ -7,6 +7,7 @@ exports[`docker > should match all dependencies 1`] = `
   "aws",
   "aws.cloudfront",
   "aws.ec2",
+  "aws.ecr",
   "aws.fargate",
   "aws.lambda",
   "aws.s3",
@@ -182,6 +183,11 @@ exports[`docker > should match all dependencies 2`] = `
   [
     "githubAction",
     "atlassian/gajira-transition",
+    "1",
+  ],
+  [
+    "githubAction",
+    "aws-actions/amazon-ecr-login",
     "1",
   ],
   [
