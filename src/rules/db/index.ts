@@ -12,6 +12,7 @@ import './aws.neptune.js';
 import './aws.opensearch.js';
 import './aws.rds.js';
 import './aws.redshift.js';
+import './aws.timestream.js';
 import './clickhouse.js';
 import './cockroachdb.js';
 import './couchbase.js';

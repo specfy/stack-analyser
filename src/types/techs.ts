@@ -61,6 +61,7 @@ export type AllowedKeys =
   | 'aws.sagemaker'
   | 'aws.sns'
   | 'aws.sqs'
+  | 'aws.timestream'
   | 'aws'
   | 'azure.ci'
   | 'azure'

@@ -50,6 +50,7 @@ exports[`all > should match everything 1`] = `
   "aws.sagemaker",
   "aws.sns",
   "aws.sqs",
+  "aws.timestream",
   "azure",
   "azure.ci",
   "bigcommerce",
