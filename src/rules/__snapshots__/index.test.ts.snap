@@ -57,6 +57,7 @@ exports[`all > should match everything 1`] = `
   "aws.s3",
   "aws.sagemaker",
   "aws.secretsmanager",
+  "aws.sfn",
   "aws.sns",
   "aws.sqs",
   "aws.timestream",

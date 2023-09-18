@@ -69,6 +69,7 @@ export type AllowedKeys =
   | 'aws.s3'
   | 'aws.sagemaker'
   | 'aws.secretsmanager'
+  | 'aws.sfn'
   | 'aws.sns'
   | 'aws.sqs'
   | 'aws.timestream'

@@ -34,6 +34,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "aws.s3",
   "aws.sagemaker",
   "aws.secretsmanager",
+  "aws.sfn",
   "aws.sns",
   "aws.sqs",
   "aws.timestream",
@@ -393,6 +394,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/aws/aws-sdk-go-v2/service/secretsmanager",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/aws/aws-sdk-go-v2/service/sfn",
     "v1.0.0",
   ],
   [

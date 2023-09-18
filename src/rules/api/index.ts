@@ -4,6 +4,7 @@ import './aws.kms.js';
 import './aws.polly.js';
 import './aws.rekognition.js';
 import './aws.sagemaker.js';
+import './aws.sfn.js';
 import './aws.translate.js';
 import './gcp.aiplatform.js';
 import './gcp.dialogflow.js';
