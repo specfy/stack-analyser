@@ -3,6 +3,7 @@
 exports[`golang (lockfile) > should match everything 1`] = `
 [
   "aws",
+  "aws.athena",
   "aws.cloudfront",
   "aws.documentdb",
   "aws.dynamodb",
@@ -211,6 +212,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/aws/aws-sdk-go-v2",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/aws/aws-sdk-go-v2/service/athena",
     "v1.0.0",
   ],
   [

@@ -10,6 +10,7 @@ exports[`npm > should match everything 1`] = `
   "auth0",
   "aws",
   "aws.amplify_hosting",
+  "aws.athena",
   "aws.cloudfront",
   "aws.codebuild",
   "aws.documentdb",
@@ -210,6 +211,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@aws-cdk/aws-athena",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@aws-cdk/aws-cloudfront",
     "0.0.0",
   ],
@@ -291,6 +297,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@aws-sdk/aws-redshift",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@aws-sdk/client-athena",
     "0.0.0",
   ],
   [

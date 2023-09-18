@@ -5,6 +5,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "algolia",
   "auth0",
   "aws",
+  "aws.athena",
   "aws.cloudfront",
   "aws.documentdb",
   "aws.dynamodb",
@@ -127,6 +128,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "auth0",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "aws-sdk-athena",
     "1.0.0",
   ],
   [

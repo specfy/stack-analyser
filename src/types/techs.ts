@@ -35,6 +35,7 @@ export type AllowedKeys =
   | 'atlassian'
   | 'auth0'
   | 'aws.amplify_hosting'
+  | 'aws.athena'
   | 'aws.cloudfront'
   | 'aws.codebuild'
   | 'aws.documentdb'
