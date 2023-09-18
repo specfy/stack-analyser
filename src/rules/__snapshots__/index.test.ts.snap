@@ -192,6 +192,7 @@ exports[`all > should match everything 1`] = `
   "notion",
   "nuxtjs",
   "okta",
+  "onlineornot",
   "openai",
   "oraclecloud",
   "ovh",

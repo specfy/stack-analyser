@@ -218,6 +218,7 @@ export type AllowedKeys =
   | 'notion'
   | 'nuxtjs'
   | 'okta'
+  | 'onlineornot'
   | 'openai'
   | 'oraclecloud'
   | 'ovh'
