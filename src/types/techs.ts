@@ -45,6 +45,7 @@ export type AllowedKeys =
   | 'aws.ec2'
   | 'aws.ecs'
   | 'aws.efs'
+  | 'aws.eks'
   | 'aws.elasticache'
   | 'aws.fargate'
   | 'aws.glacier'
