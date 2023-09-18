@@ -19,6 +19,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "aws.rds",
   "aws.redshift",
   "aws.s3",
+  "aws.sagemaker",
   "aws.sns",
   "aws.sqs",
   "azure",
@@ -210,6 +211,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "aws-sdk-s3",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "aws-sdk-sagemaker",
     "1.0.0",
   ],
   [

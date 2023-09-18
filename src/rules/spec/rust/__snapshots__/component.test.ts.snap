@@ -21,6 +21,7 @@ exports[`rust (component) > should match everything 1`] = `
   "aws.rds",
   "aws.redshift",
   "aws.s3",
+  "aws.sagemaker",
   "aws.sns",
   "aws.sqs",
   "azure",
@@ -155,6 +156,11 @@ exports[`rust (component) > should match everything 2`] = `
   [
     "rust",
     "aws-sdk-s3",
+    "1.0.0",
+  ],
+  [
+    "rust",
+    "aws-sdk-sagemaker",
     "1.0.0",
   ],
   [
