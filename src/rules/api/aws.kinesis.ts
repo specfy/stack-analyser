@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'aws.kinesis',
   name: 'AWS Kinesis',
-  type: 'db',
+  type: 'api',
   dependencies: [
     { type: 'npm', name: '@aws-sdk/client-kinesis' },
     { type: 'npm', name: '@aws-sdk/client-firehose' },

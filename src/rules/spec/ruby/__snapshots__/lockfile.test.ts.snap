@@ -19,6 +19,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "aws.elasticache",
   "aws.glacier",
   "aws.kinesis",
+  "aws.kms",
   "aws.lambda",
   "aws.lightsail",
   "aws.memorydb",
@@ -231,6 +232,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "aws-sdk-kinesis",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "aws-sdk-kms",
     "1.0.0",
   ],
   [

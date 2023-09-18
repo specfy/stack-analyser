@@ -25,6 +25,7 @@ exports[`npm > should match everything 1`] = `
   "aws.elasticache",
   "aws.glacier",
   "aws.kinesis",
+  "aws.kms",
   "aws.lambda",
   "aws.lightsail",
   "aws.memorydb",
@@ -296,6 +297,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@aws-cdk/aws-kms",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@aws-cdk/aws-lambda",
     "0.0.0",
   ],
@@ -457,6 +463,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@aws-sdk/client-kinesis",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@aws-sdk/client-kms",
     "0.0.0",
   ],
   [

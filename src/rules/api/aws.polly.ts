@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'aws.polly',
   name: 'AWS Polly',
-  type: 'db',
+  type: 'api',
   dependencies: [
     { type: 'npm', name: '@aws-sdk/client-polly' },
     { type: 'npm', name: '@aws-cdk/aws-polly' },

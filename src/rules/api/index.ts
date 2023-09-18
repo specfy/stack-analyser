@@ -1,4 +1,5 @@
 import './aws.kinesis.js';
+import './aws.kms.js';
 import './aws.polly.js';
 import './aws.rekognition.js';
 import './aws.sagemaker.js';

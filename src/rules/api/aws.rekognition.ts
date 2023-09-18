@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'aws.rekognition',
   name: 'AWS Rekognition',
-  type: 'db',
+  type: 'api',
   dependencies: [
     { type: 'npm', name: '@aws-sdk/client-rekognition' },
     { type: 'npm', name: '@aws-cdk/aws-rekognition' },
