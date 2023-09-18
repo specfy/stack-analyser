@@ -49,6 +49,7 @@ exports[`npm > should match everything 1`] = `
   "aws.timestream",
   "aws.translate",
   "azure",
+  "azure.cosmosdb",
   "azure.sql",
   "betterstack",
   "bootstrap",
@@ -621,7 +622,17 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@azure/arm-cosmosdb",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@azure/arm-sql",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@azure/cosmos",
     "0.0.0",
   ],
   [
