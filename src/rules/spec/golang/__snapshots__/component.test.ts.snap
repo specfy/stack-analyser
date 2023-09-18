@@ -20,7 +20,6 @@ exports[`golang > should match a service 1`] = `
       "tech": "golang",
       "techs": [
         "golang",
-        "rust",
       ],
     },
   ],

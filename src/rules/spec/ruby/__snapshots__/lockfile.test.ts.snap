@@ -240,11 +240,6 @@ exports[`ruby (component) > should match everything 2`] = `
   ],
   [
     "ruby",
-    "aws-sdk-elasticsearchservice",
-    "1.0.0",
-  ],
-  [
-    "ruby",
     "aws-sdk-firehose",
     "1.0.0",
   ],

@@ -5,6 +5,6 @@ register({
   name: 'Upstash',
   type: 'hosting',
   dependencies: [
-    { type: 'npm', name: /^@upstash\//, example: '@upstash/redis' },
+    { type: 'npm', name: /^@upstash\//, example: '@upstash/ratelimit' },
   ],
 });

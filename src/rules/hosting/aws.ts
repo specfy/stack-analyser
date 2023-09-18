@@ -6,7 +6,7 @@ register({
   type: 'hosting',
   dependencies: [
     { type: 'npm', name: 'aws-sdk' },
-    { type: 'npm', name: /^@aws-sdk\//, example: '@aws-sdk/client-s3' },
+    { type: 'npm', name: /^@aws-sdk\//, example: '@aws-sdk/client-' },
     { type: 'terraform', name: 'registry.terraform.io/hashicorp/aws' },
     { type: 'golang', name: 'github.com/aws/aws-sdk-go' },
     { type: 'golang', name: 'github.com/aws/aws-sdk-go-v2' },

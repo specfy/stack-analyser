@@ -181,11 +181,6 @@ exports[`rust (component) > should match everything 2`] = `
   ],
   [
     "rust",
-    "aws-sdk-elasticsearch",
-    "1.0.0",
-  ],
-  [
-    "rust",
     "aws-sdk-firehose",
     "1.0.0",
   ],
@@ -362,11 +357,6 @@ exports[`rust (component) > should match everything 2`] = `
   [
     "rust",
     "google-cloud-logging",
-    "1.0.0",
-  ],
-  [
-    "rust",
-    "google-cloud-metadata",
     "1.0.0",
   ],
   [

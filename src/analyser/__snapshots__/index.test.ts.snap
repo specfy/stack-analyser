@@ -391,12 +391,10 @@ exports[`analyser > should run correctly 1`] = `
           ],
           "reason": [
             "matched file: main.go",
-            "matched file: main.go",
           ],
           "tech": "golang",
           "techs": [
             "golang",
-            "rust",
           ],
         },
         {
@@ -1245,7 +1243,6 @@ exports[`analyser > should run correctly 2`] = `
       "tech": "golang",
       "techs": [
         "golang",
-        "rust",
       ],
     },
     {

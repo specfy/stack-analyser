@@ -8,7 +8,7 @@ register({
     { type: 'npm', name: '@google-cloud/cloud-sql-connector' },
     {
       type: 'terraform.resource',
-      name: /google_sql_/,
+      name: /^google_sql_/,
       example: 'google_sql_database_instance',
     },
     {

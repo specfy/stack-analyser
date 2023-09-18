@@ -419,6 +419,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@aws-sdk/client-",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@aws-sdk/client-apigateway",
     "0.0.0",
   ],
@@ -675,6 +680,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@gitbook/api",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@google-cloud/",
     "0.0.0",
   ],
   [
@@ -1054,6 +1064,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@upstash/ratelimit",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@upstash/redis",
     "0.0.0",
   ],
@@ -1080,6 +1095,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@vercel/postgres",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@vercel/remote-nx",
     "0.0.0",
   ],
   [
