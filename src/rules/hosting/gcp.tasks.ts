@@ -2,7 +2,7 @@ import { register } from '../../register.js';
 
 register({
   tech: 'gcp.tasks',
-  name: 'Google Tasks',
+  name: 'Cloud Tasks',
   type: 'hosting',
   dependencies: [
     { type: 'npm', name: '@google-cloud/tasks' },

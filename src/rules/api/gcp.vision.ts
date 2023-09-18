@@ -2,7 +2,7 @@ import { register } from '../../register.js';
 
 register({
   tech: 'gcp.vision',
-  name: 'Google Vision',
+  name: 'Cloud Vision',
   type: 'api',
   dependencies: [
     { type: 'npm', name: '@google-cloud/vision' },

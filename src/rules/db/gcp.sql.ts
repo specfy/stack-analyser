@@ -2,7 +2,7 @@ import { register } from '../../register.js';
 
 register({
   tech: 'gcp.sql',
-  name: 'Google SQL',
+  name: 'Cloud SQL',
   type: 'db',
   dependencies: [
     { type: 'npm', name: '@google-cloud/cloud-sql-connector' },

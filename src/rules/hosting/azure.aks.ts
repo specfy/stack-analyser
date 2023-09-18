@@ -2,7 +2,7 @@ import { register } from '../../register.js';
 
 register({
   tech: 'azure.aks',
-  name: 'Azure AKS',
+  name: 'Azure Kubernetes',
   type: 'hosting',
   dependencies: [
     {

@@ -2,7 +2,7 @@ import { register } from '../../register.js';
 
 register({
   tech: 'aws.s3',
-  name: 'S3',
+  name: 'AWS S3',
   type: 'storage',
   dependencies: [
     { type: 'npm', name: '@aws-sdk/client-s3' },

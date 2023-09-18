@@ -2,7 +2,7 @@ import { register } from '../../register.js';
 
 register({
   tech: 'aws.sns',
-  name: 'SNS',
+  name: 'AWS Notification Service',
   type: 'messaging',
   dependencies: [
     { type: 'npm', name: '@aws-cdk/aws-sns' },

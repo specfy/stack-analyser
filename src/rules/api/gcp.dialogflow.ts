@@ -2,7 +2,7 @@ import { register } from '../../register.js';
 
 register({
   tech: 'gcp.dialogflow',
-  name: 'Google Dialogflow',
+  name: 'Cloud Dialogflow',
   type: 'api',
   dependencies: [
     { type: 'npm', name: '@google-cloud/dialogflow' },

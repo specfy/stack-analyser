@@ -2,7 +2,7 @@ import { register } from '../../register.js';
 
 register({
   tech: 'gcp.dataflow',
-  name: 'Google Dataflow',
+  name: 'Cloud Dataflow',
   type: 'etl',
   dependencies: [
     { type: 'npm', name: '@google-cloud/dataflow' },

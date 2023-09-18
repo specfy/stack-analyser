@@ -2,8 +2,8 @@ import { register } from '../../register.js';
 
 register({
   tech: 'gcp.logging',
-  name: 'GCP Logging',
-  type: 'storage',
+  name: 'Cloud Logging',
+  type: 'monitoring',
   dependencies: [
     { type: 'npm', name: '@google-cloud/logging' },
     { type: 'golang', name: 'cloud.google.com/go/logging' },

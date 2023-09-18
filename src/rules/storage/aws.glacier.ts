@@ -2,7 +2,7 @@ import { register } from '../../register.js';
 
 register({
   tech: 'aws.glacier',
-  name: 'Glacier',
+  name: 'AWS Glacier',
   type: 'storage',
   dependencies: [
     { type: 'npm', name: '@aws-sdk/client-glacier' },

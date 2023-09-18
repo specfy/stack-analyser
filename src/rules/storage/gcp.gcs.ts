@@ -2,7 +2,7 @@ import { register } from '../../register.js';
 
 register({
   tech: 'gcp.gcs',
-  name: 'Storage',
+  name: 'Cloud Storage',
   type: 'storage',
   dependencies: [
     { type: 'npm', name: '@google-cloud/storage' },

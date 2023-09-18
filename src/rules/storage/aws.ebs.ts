@@ -2,7 +2,7 @@ import { register } from '../../register.js';
 
 register({
   tech: 'aws.ebs',
-  name: 'AWS EBS',
+  name: 'AWS Block Storage',
   type: 'storage',
   dependencies: [
     { type: 'npm', name: '@aws-cdk/aws-ebs' },

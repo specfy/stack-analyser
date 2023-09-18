@@ -2,7 +2,7 @@ import { register } from '../../register.js';
 
 register({
   tech: 'aws.ec2',
-  name: 'EC2',
+  name: 'AWS Compute',
   type: 'hosting',
   dependencies: [
     { type: 'npm', name: '@aws-cdk/aws-ec2' },

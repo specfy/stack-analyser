@@ -2,7 +2,7 @@ import { register } from '../../register.js';
 
 register({
   tech: 'gcp.datastore',
-  name: 'Google Datastore',
+  name: 'Cloud Datastore',
   type: 'db',
   dependencies: [
     { type: 'npm', name: '@google-cloud/datastore' },

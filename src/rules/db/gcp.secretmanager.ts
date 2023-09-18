@@ -2,7 +2,7 @@ import { register } from '../../register.js';
 
 register({
   tech: 'gcp.secretmanager',
-  name: 'Google Secret Manager',
+  name: 'Cloud Secret Manager',
   type: 'db',
   dependencies: [
     { type: 'npm', name: '@google-cloud/secret-manager' },

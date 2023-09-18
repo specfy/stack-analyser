@@ -2,7 +2,7 @@ import { register } from '../../register.js';
 
 register({
   tech: 'gcp.language',
-  name: 'Google Language',
+  name: 'Cloud Language',
   type: 'api',
   dependencies: [
     { type: 'npm', name: '@google-cloud/language' },

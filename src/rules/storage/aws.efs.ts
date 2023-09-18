@@ -2,7 +2,7 @@ import { register } from '../../register.js';
 
 register({
   tech: 'aws.efs',
-  name: 'AWS EFS',
+  name: 'AWS File System',
   type: 'storage',
   dependencies: [
     { type: 'npm', name: '@aws-cdk/aws-efs' },

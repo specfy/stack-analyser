@@ -2,7 +2,7 @@ import { register } from '../../register.js';
 
 register({
   tech: 'gcp.artifactregistry',
-  name: 'GCP Artifact Registry',
+  name: 'Cloud Artifact Registry',
   type: 'storage',
   dependencies: [
     { type: 'npm', name: '@google-cloud/artifact-registry' },

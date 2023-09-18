@@ -129,7 +129,6 @@ export type AllowedKeys =
   | 'dropbox'
   | 'dynatrace'
   | 'elasticcloud'
-  | 'elasticloud'
   | 'elasticsearch'
   | 'elasticstack'
   | 'electron'

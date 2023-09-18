@@ -2,7 +2,7 @@ import { register } from '../../register.js';
 
 register({
   tech: 'aws.ecs',
-  name: 'AWS ECS',
+  name: 'AWS Container',
   type: 'hosting',
   dependencies: [
     { type: 'npm', name: '@aws-cdk/aws-ecs' },

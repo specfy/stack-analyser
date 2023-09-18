@@ -2,7 +2,7 @@ import { register } from '../../register.js';
 
 register({
   tech: 'gcp.spanner',
-  name: 'Google Cloud Spanner',
+  name: 'Cloud Spanner',
   type: 'db',
   dependencies: [
     { type: 'npm', name: '@google-cloud/spanner' },

@@ -2,7 +2,7 @@ import { register } from '../../register.js';
 
 register({
   tech: 'aws.ecr',
-  name: 'AWS ECR',
+  name: 'AWS Container Registry',
   type: 'storage',
   dependencies: [
     { type: 'npm', name: '@aws-cdk/aws-ecr' },

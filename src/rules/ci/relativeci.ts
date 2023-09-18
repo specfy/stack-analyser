@@ -2,7 +2,7 @@ import { register } from '../../register.js';
 
 register({
   tech: 'relativeci',
-  name: 'RelateiveCI',
+  name: 'RelativeCI',
   type: 'ci',
   files: ['relativeci.config.js'],
   dependencies: [

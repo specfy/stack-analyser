@@ -2,7 +2,7 @@ import { register } from '../../register.js';
 
 register({
   tech: 'aws.eks',
-  name: 'AWS EKS',
+  name: 'AWS Kubernetes',
   type: 'hosting',
   dependencies: [
     { type: 'npm', name: '@aws-cdk/aws-eks' },
