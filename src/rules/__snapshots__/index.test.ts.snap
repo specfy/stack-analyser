@@ -69,6 +69,7 @@ exports[`all > should match everything 1`] = `
   "azure.cosmosdb",
   "azure.mysql",
   "azure.postgres",
+  "azure.redis",
   "azure.sql",
   "betterstack",
   "bigcommerce",

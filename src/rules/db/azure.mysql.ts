@@ -14,5 +14,9 @@ register({
     { type: 'rust', name: 'azure_mgmt_mysql' },
     { type: 'npm', name: '@azure/arm-mysql' },
     { type: 'githubAction', name: 'azure/mysql' },
+    {
+      type: 'golang',
+      name: 'github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/mysql/armmysql',
+    },
   ],
 });

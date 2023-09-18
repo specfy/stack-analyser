@@ -42,6 +42,11 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "aws.timestream",
   "aws.translate",
   "azure",
+  "azure.cosmosdb",
+  "azure.mysql",
+  "azure.postgres",
+  "azure.redis",
+  "azure.sql",
   "brevo",
   "clickhouse",
   "elasticsearch",
@@ -219,6 +224,31 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/Azure/azure-sdk-for-go",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/cosmos/armcosmos",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/mysql/armmysql",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/postgresql/armpostgresql",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/redis/armredis/v2",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/sql/armsql",
     "v1.0.0",
   ],
   [

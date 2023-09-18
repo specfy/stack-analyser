@@ -14,5 +14,9 @@ register({
     { type: 'ruby', name: 'azure_mgmt_sql' },
     { type: 'rust', name: 'azure_mgmt_sql' },
     { type: 'npm', name: '@azure/arm-sql' },
+    {
+      type: 'golang',
+      name: 'github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/sql/armsql',
+    },
   ],
 });

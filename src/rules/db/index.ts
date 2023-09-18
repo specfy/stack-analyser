@@ -17,6 +17,7 @@ import './aws.timestream.js';
 import './azure.cosmosdb.js';
 import './azure.mysql.js';
 import './azure.postgres.js';
+import './azure.redis.js';
 import './azure.sql.js';
 import './clickhouse.js';
 import './cockroachdb.js';

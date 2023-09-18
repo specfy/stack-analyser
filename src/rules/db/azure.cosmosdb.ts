@@ -14,5 +14,9 @@ register({
     { type: 'rust', name: 'azure_mgmt_cosmosdb' },
     { type: 'npm', name: '@azure/arm-cosmosdb' },
     { type: 'npm', name: '@azure/cosmos' },
+    {
+      type: 'golang',
+      name: 'github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/cosmos/armcosmos',
+    },
   ],
 });

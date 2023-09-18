@@ -81,6 +81,7 @@ export type AllowedKeys =
   | 'azure.cosmosdb'
   | 'azure.mysql'
   | 'azure.postgres'
+  | 'azure.redis'
   | 'azure.sql'
   | 'azure'
   | 'bash'

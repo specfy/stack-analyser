@@ -14,5 +14,9 @@ register({
     { type: 'rust', name: 'azure_mgmt_postgresql' },
     { type: 'npm', name: '@azure/arm-postgresql' },
     { type: 'githubAction', name: 'azure/postgresql' },
+    {
+      type: 'golang',
+      name: 'github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/postgresql/armpostgresql',
+    },
   ],
 });
