@@ -9,6 +9,7 @@ import './aws.js';
 import './aws.lambda.js';
 import './aws.lightsail.js';
 import './azure.js';
+import './azure.aks.js';
 import './cloudflare.js';
 import './cloudflare.pages.js';
 import './cloudflare.workers.js';

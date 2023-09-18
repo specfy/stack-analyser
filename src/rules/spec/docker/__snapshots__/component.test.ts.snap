@@ -16,6 +16,7 @@ exports[`docker > should match everything 1`] = `
   "aws.dynamodb",
   "aws.lambda",
   "aws.s3",
+  "azure",
   "caddy",
   "clickhouse",
   "couchbase",
@@ -127,6 +128,11 @@ exports[`docker > should match everything 2`] = `
   ],
   [
     "docker",
+    "bitnami/azure-cli",
+    "0.0.0",
+  ],
+  [
+    "docker",
     "bitnami/discourse",
     "0.0.0",
   ],
@@ -148,6 +154,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "cassandra",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "cimg/azure",
     "0.0.0",
   ],
   [
@@ -363,6 +374,16 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "vault",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "webdevops/azure-devops-exporter",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "webdevops/azure-metrics-exporter",
     "0.0.0",
   ],
   [

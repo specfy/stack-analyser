@@ -76,6 +76,7 @@ export type AllowedKeys =
   | 'aws.timestream'
   | 'aws.translate'
   | 'aws'
+  | 'azure.aks'
   | 'azure.ci'
   | 'azure'
   | 'bash'
