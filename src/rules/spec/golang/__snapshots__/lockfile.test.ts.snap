@@ -16,6 +16,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "aws.eks",
   "aws.elasticache",
   "aws.glacier",
+  "aws.kinesis",
   "aws.lambda",
   "aws.lightsail",
   "aws.memorydb",
@@ -289,7 +290,17 @@ exports[`golang (lockfile) > should match everything 2`] = `
   ],
   [
     "golang",
+    "github.com/aws/aws-sdk-go-v2/service/firehose",
+    "v1.0.0",
+  ],
+  [
+    "golang",
     "github.com/aws/aws-sdk-go-v2/service/glacier",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/aws/aws-sdk-go-v2/service/kinesis",
     "v1.0.0",
   ],
   [

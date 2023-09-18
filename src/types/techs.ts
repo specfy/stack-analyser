@@ -51,6 +51,7 @@ export type AllowedKeys =
   | 'aws.elasticache'
   | 'aws.fargate'
   | 'aws.glacier'
+  | 'aws.kinesis'
   | 'aws.lambda'
   | 'aws.lightsail'
   | 'aws.memorydb'
