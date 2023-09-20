@@ -265,6 +265,7 @@ exports[`all > should match everything 1`] = `
   "salesforce",
   "sanity",
   "sap",
+  "sas",
   "scaleway",
   "sendgrid",
   "sentry",

@@ -292,6 +292,7 @@ export type AllowedKeys =
   | 'salesforce'
   | 'sanity'
   | 'sap'
+  | 'sas'
   | 'scaleway'
   | 'scss'
   | 'sendgrid'
