@@ -53,6 +53,7 @@ exports[`docker > should match all dependencies 1`] = `
   "snyk",
   "supabase",
   "supabase.postgres",
+  "telegram",
   "twilio",
   "vercel",
 ]
@@ -158,6 +159,11 @@ exports[`docker > should match all dependencies 2`] = `
   [
     "githubAction",
     "appleboy/lambda-action",
+    "1",
+  ],
+  [
+    "githubAction",
+    "appleboy/telegram-action",
     "1",
   ],
   [

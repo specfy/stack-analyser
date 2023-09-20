@@ -88,6 +88,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "slack",
   "splitio",
   "stripe",
+  "telegram",
   "twilio",
 ]
 `;
@@ -492,6 +493,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/go-acme/lego/v4/cmd/lego",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/go-telegram-bot-api/telegram-bot-api/v5",
     "v1.0.0",
   ],
   [

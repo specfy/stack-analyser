@@ -320,6 +320,7 @@ export type AllowedKeys =
   | 'symfony'
   | 'tailwind'
   | 'teamcity'
+  | 'telegram'
   | 'tencentcloud'
   | 'terraform'
   | 'terragrunt'

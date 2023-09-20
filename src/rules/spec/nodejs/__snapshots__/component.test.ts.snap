@@ -193,6 +193,7 @@ exports[`npm > should match everything 1`] = `
   "supabase.storage",
   "sveltejs",
   "tailwind",
+  "telegram",
   "terraform",
   "tinybird",
   "twilio",
@@ -1369,6 +1370,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "grammy",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "hypertune",
     "0.0.0",
   ],
@@ -1520,6 +1526,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "node-mailjet",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "node-telegram-bot-api",
     "0.0.0",
   ],
   [
@@ -1695,6 +1706,16 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "tailwindcss",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "telegraf",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "telegram",
     "0.0.0",
   ],
   [

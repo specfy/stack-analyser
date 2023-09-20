@@ -58,6 +58,7 @@ exports[`docker > should match everything 1`] = `
   "slack",
   "snyk",
   "strapi",
+  "telegram",
   "trufflesecurity",
   "zookeeper",
 ]
@@ -243,6 +244,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "kasmweb/slack",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "kasmweb/telegram",
     "0.0.0",
   ],
   [

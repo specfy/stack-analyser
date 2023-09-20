@@ -105,6 +105,7 @@ exports[`php > should match everything 1`] = `
   "squareup",
   "stripe",
   "symfony",
+  "telegram",
   "tencentcloud",
   "twigphp",
   "twilio",
@@ -531,6 +532,11 @@ exports[`php > should match everything 2`] = `
   ],
   [
     "php",
+    "irazasyed/telegram-bot-sdk",
+    "0.0.0",
+  ],
+  [
+    "php",
     "johnpbloch/wordpress",
     "0.0.0",
   ],
@@ -552,6 +558,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "kubernetes/php-client",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "laravel-notification-channels/telegram",
     "0.0.0",
   ],
   [
@@ -612,6 +623,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "longlang/phpkafka",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "longman/telegram-bot",
     "0.0.0",
   ],
   [
@@ -847,6 +863,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "symfony/symfony",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "telegram-bot/api",
     "0.0.0",
   ],
   [

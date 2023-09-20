@@ -68,7 +68,7 @@ Provide as much dependencies as possible when creating the rule.
 - Docker: <https://hub.docker.com/search?q=>
 - GitHub Actions: <https://github.com/marketplace?category=&query=&type=actions&verification=>
 - GO: <https://pkg.go.dev/>
-- JS: <https://www.npmjs.com/>
+- JS: <https://yarnpkg.com/search?q=>
 - PHP: <https://packagist.org/>
 - Ruby: <https://rubygems.org/>
 - Rust: <https://crates.io/>

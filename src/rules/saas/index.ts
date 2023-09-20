@@ -55,6 +55,7 @@ import './sqreen.js';
 import './squarespace.js';
 import './squareup.js';
 import './stripe.js';
+import './telegram.js';
 import './twilio.js';
 import './twitter.js';
 import './vialink.js';
