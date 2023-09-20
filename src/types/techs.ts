@@ -296,6 +296,7 @@ export type AllowedKeys =
   | 'sendgrid'
   | 'sentry'
   | 'sequelize'
+  | 'servicenow'
   | 'shell'
   | 'shopify'
   | 'sitecore.xmlcloud'
