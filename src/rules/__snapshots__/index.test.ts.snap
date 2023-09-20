@@ -224,6 +224,7 @@ exports[`all > should match everything 1`] = `
   "oraclecloud",
   "ovh",
   "pagerduty",
+  "paypal",
   "percona",
   "php",
   "phppest",

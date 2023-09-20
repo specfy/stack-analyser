@@ -249,6 +249,7 @@ export type AllowedKeys =
   | 'oraclecloud'
   | 'ovh'
   | 'pagerduty'
+  | 'paypal'
   | 'percona'
   | 'php'
   | 'phppest'

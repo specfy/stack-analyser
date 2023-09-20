@@ -75,6 +75,7 @@ exports[`rust (component) > should match everything 1`] = `
   "neo4j",
   "okta",
   "pagerduty",
+  "paypal",
   "postgresql",
   "rabbitmq",
   "redis",
@@ -484,6 +485,11 @@ exports[`rust (component) > should match everything 2`] = `
   [
     "rust",
     "pagerduty-rs",
+    "1.0.0",
+  ],
+  [
+    "rust",
+    "paypal-rs",
     "1.0.0",
   ],
   [

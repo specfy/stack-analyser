@@ -148,6 +148,7 @@ exports[`npm > should match everything 1`] = `
   "oraclecloud",
   "ovh",
   "pagerduty",
+  "paypal",
   "placekit",
   "playwright",
   "postgresql",
@@ -980,6 +981,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@paypal/paypal-js",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@placekit/client-js",
     "0.0.0",
   ],
@@ -1556,6 +1562,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "openai",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "paypal-rest-sdk",
     "0.0.0",
   ],
   [

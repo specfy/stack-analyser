@@ -37,6 +37,7 @@ import './notion.js';
 import './okta.js';
 import './openai.js';
 import './pagerduty.js';
+import './paypal.js';
 import './placekit.js';
 import './postmark.js';
 import './postman.js';

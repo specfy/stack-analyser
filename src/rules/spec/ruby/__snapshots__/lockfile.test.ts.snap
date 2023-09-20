@@ -109,6 +109,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "okta",
   "oraclecloud",
   "pagerduty",
+  "paypal",
   "postgresql",
   "postmark",
   "rabbitmq",
@@ -729,6 +730,36 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "pagerduty",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "paypal",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "paypal-checkout-sdk",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "paypal-express",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "paypal-sdk-core",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "paypal-sdk-merchant",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "paypal-sdk-rest",
     "1.0.0",
   ],
   [

@@ -89,6 +89,7 @@ exports[`php > should match everything 1`] = `
   "oraclecloud",
   "ovh",
   "pagerduty",
+  "paypal",
   "php",
   "phppest",
   "phpstan",
@@ -702,6 +703,11 @@ exports[`php > should match everything 2`] = `
   ],
   [
     "php",
+    "omnipay/paypal",
+    "0.0.0",
+  ],
+  [
+    "php",
     "omnipay/stripe",
     "0.0.0",
   ],
@@ -723,6 +729,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "ovh/ovh",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "paypal/rest-api-sdk-php",
     "0.0.0",
   ],
   [
@@ -853,6 +864,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "square/square",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "srmklive/paypal",
     "0.0.0",
   ],
   [

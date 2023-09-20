@@ -84,6 +84,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "lemonsqueezy",
   "mailgun",
   "meilisearch",
+  "paypal",
   "sendgrid",
   "slack",
   "splitio",
@@ -518,6 +519,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/mailhog/MailHog",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/markbates/goth/providers/paypal",
     "v1.0.0",
   ],
   [
