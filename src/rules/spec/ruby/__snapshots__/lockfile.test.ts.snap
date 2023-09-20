@@ -120,6 +120,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "sendgrid",
   "sentry",
   "servicenow",
+  "shopify",
   "slack",
   "snowflake",
   "splitio",
@@ -838,6 +839,21 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "servicenow-api",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "shopify-cli",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "shopify_api",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "shopify_app",
     "1.0.0",
   ],
   [

@@ -1040,6 +1040,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@shopify/cli",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@shopify/shopify-api",
     "0.0.0",
   ],
@@ -1701,6 +1706,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "sequelize",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "shopify-api-node",
     "0.0.0",
   ],
   [
