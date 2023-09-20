@@ -120,6 +120,7 @@ exports[`npm > should match everything 1`] = `
   "influxdb",
   "jira",
   "koa",
+  "koalaanalytics",
   "kubernetes",
   "launchdarkly",
   "lemonsqueezy",
@@ -733,6 +734,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@getbrevo/brevo",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@getkoala/browser",
     "0.0.0",
   ],
   [

@@ -72,7 +72,6 @@ exports[`php > should match everything 1`] = `
   "influxdb",
   "jira",
   "klaviyo",
-  "koalaanalytics",
   "kubernetes",
   "laravel",
   "launchdarkly",
@@ -123,11 +122,6 @@ exports[`php > should match everything 1`] = `
 
 exports[`php > should match everything 2`] = `
 [
-  [
-    "php",
-    "@getkoala/browser",
-    "0.0.0",
-  ],
   [
     "php",
     "adilbaig/pagerduty",

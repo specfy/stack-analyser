@@ -4,5 +4,5 @@ register({
   tech: 'koalaanalytics',
   name: 'Koala Analytics',
   type: 'analytics',
-  dependencies: [{ type: 'php', name: '@getkoala/browser' }],
+  dependencies: [{ type: 'npm', name: '@getkoala/browser' }],
 });
