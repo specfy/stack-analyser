@@ -149,6 +149,7 @@ exports[`npm > should match everything 1`] = `
   "ovh",
   "pagerduty",
   "paypal",
+  "pirschanalytics",
   "placekit",
   "playwright",
   "postgresql",
@@ -1577,6 +1578,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "php-coveralls",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "pirsch-sdk",
     "0.0.0",
   ],
   [

@@ -232,6 +232,7 @@ exports[`all > should match everything 1`] = `
   "phpstan",
   "phpunit",
   "pingdom",
+  "pirschanalytics",
   "placekit",
   "planetscale",
   "platformsh",

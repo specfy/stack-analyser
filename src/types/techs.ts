@@ -257,6 +257,7 @@ export type AllowedKeys =
   | 'phpstan'
   | 'phpunit'
   | 'pingdom'
+  | 'pirschanalytics'
   | 'placekit'
   | 'planetscale'
   | 'platformsh'
