@@ -19,5 +19,6 @@ register({
       type: 'githubAction',
       name: 'google-github-actions/upload-cloud-storage',
     },
+    { type: 'php', name: 'league/flysystem-google-cloud-storage' },
   ],
 });

@@ -569,6 +569,21 @@ exports[`php > should match everything 2`] = `
   ],
   [
     "php",
+    "league/flysystem-async-aws-s3",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "league/flysystem-aws-s3-v3",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "league/flysystem-google-cloud-storage",
+    "0.0.0",
+  ],
+  [
+    "php",
     "lemonsqueezy/laravel",
     "0.0.0",
   ],
