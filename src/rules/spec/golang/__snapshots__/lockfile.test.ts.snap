@@ -85,6 +85,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "mailgun",
   "meilisearch",
   "sendgrid",
+  "slack",
   "splitio",
   "stripe",
   "twilio",
@@ -521,6 +522,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/sendgrid/sendgrid-go",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/slack-go/slack",
     "v1.0.0",
   ],
   [

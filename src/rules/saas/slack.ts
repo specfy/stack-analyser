@@ -15,5 +15,7 @@ register({
     { type: 'php', name: 'jolicode/slack-php-api' },
     { type: 'php', name: 'maknz/slack' },
     { type: 'php', name: 'alek13/slack' },
+    { type: 'golang', name: 'github.com/slack-go/slack' },
+    { type: 'docker', name: 'kasmweb/slack' },
   ],
 });
