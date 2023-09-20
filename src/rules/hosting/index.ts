@@ -1,3 +1,4 @@
+import './adobecommercecloud.js';
 import './alibabacloud.js';
 import './aws.amplifyhosting.js';
 import './aws.apigateway.js';

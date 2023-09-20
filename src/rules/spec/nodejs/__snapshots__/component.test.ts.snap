@@ -126,6 +126,7 @@ exports[`npm > should match everything 1`] = `
   "lighthouse",
   "logrocket",
   "logsnag",
+  "magento",
   "mailchimp",
   "mailjet",
   "mariadb",
@@ -215,6 +216,11 @@ exports[`npm > should match everything 1`] = `
 
 exports[`npm > should match everything 2`] = `
 [
+  [
+    "npm",
+    "@adobe/magento-storefront-events-sdk",
+    "0.0.0",
+  ],
   [
     "npm",
     "@algolia/client",

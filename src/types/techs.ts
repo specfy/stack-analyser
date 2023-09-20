@@ -16,6 +16,7 @@ export type TechType =
 
 export type AllowedKeys =
   | 'adobe'
+  | 'adobecommercecloud'
   | 'airbyte'
   | 'airtable'
   | 'algolia'

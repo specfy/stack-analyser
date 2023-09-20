@@ -8,5 +8,6 @@ register({
     { type: 'php', name: 'magento/composer' },
     { type: 'php', name: 'fastly/magento2' },
     { type: 'php', name: 'smile/elasticsuite' },
+    { type: 'npm', name: '@adobe/magento-storefront-events-sdk' },
   ],
 });
