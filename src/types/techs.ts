@@ -306,6 +306,7 @@ export type AllowedKeys =
   | 'solidjs'
   | 'sonarcloud'
   | 'sonarlint'
+  | 'sonarqube'
   | 'splitio'
   | 'splunk'
   | 'sqlite'

@@ -7,4 +7,5 @@ import './lighthouse.js';
 import './mailhog.js';
 import './playwright.js';
 import './sonarlint.js';
+import './sonarqube.js';
 import './terragrunt.js';

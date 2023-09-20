@@ -277,6 +277,7 @@ exports[`all > should match everything 1`] = `
   "solidjs",
   "sonarcloud",
   "sonarlint",
+  "sonarqube",
   "splitio",
   "splunk",
   "sqlite",
