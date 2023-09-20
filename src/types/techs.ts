@@ -32,6 +32,7 @@ export type AllowedKeys =
   | 'apache_kafka'
   | 'apache_spark'
   | 'apache_storm'
+  | 'apiplatform'
   | 'appveyor'
   | 'atlassian'
   | 'auth0'

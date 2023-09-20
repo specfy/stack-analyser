@@ -7,6 +7,7 @@ exports[`npm > should match everything 1`] = `
   "alpinejs",
   "amplitude",
   "angular",
+  "apiplatform",
   "auth0",
   "aws",
   "aws.amplifyhosting",
@@ -227,6 +228,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@angular/forms",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@api-platform/client",
     "0.0.0",
   ],
   [

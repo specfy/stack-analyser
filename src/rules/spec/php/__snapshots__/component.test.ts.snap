@@ -8,6 +8,7 @@ exports[`php > should match everything 1`] = `
   "amplitude",
   "apache_couchdb",
   "apache_kafka",
+  "apiplatform",
   "auth0",
   "aws",
   "aws.cloudfront",
@@ -149,6 +150,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "androk/yousign-api",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "api-platform/core",
     "0.0.0",
   ],
   [
