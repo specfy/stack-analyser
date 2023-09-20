@@ -211,6 +211,7 @@ export type AllowedKeys =
   | 'klarna'
   | 'klaviyo'
   | 'koa'
+  | 'koalaanalytics'
   | 'kotlin'
   | 'kubernetes'
   | 'laravel'

@@ -187,6 +187,7 @@ exports[`all > should match everything 1`] = `
   "klarna",
   "klaviyo",
   "koa",
+  "koalaanalytics",
   "kubernetes",
   "laravel",
   "launchdarkly",
