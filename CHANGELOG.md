@@ -1,3 +1,36 @@
+## [1.5.4](https://github.com/specfy/stack-analyser/compare/v1.5.3...v1.5.4) (2023-09-20)
+
+
+### Bug Fixes
+
+* naming consistancy for GCP, AWS, Azure ([03f3e36](https://github.com/specfy/stack-analyser/commit/03f3e3652d622df7b14a73ba9002f6c980a03928))
+* **rules:** add Adobe Commerce Cloud ([1be71a5](https://github.com/specfy/stack-analyser/commit/1be71a5cf3688241be1ac9f9ee87f744fa2dd0df))
+* **rules:** add ApiPlatform ([07e48e6](https://github.com/specfy/stack-analyser/commit/07e48e662a8911b59ab81fe088ebec67e4b04526))
+* **rules:** add Blackfire ([6662f39](https://github.com/specfy/stack-analyser/commit/6662f39bd4758179aaa49878f9e0d5578023ceae))
+* **rules:** add GoAcme Lego ([6769283](https://github.com/specfy/stack-analyser/commit/6769283ccc704468fbae690a4daca670d9b944af))
+* **rules:** add Intuit ([55397d0](https://github.com/specfy/stack-analyser/commit/55397d079bb8f8a56acd7d51c5ee12c424dc7871))
+* **rules:** add Koala analytics ([4bdeb0d](https://github.com/specfy/stack-analyser/commit/4bdeb0d32d326995811ddfdb532d9dc8ee52c708))
+* **rules:** add Mailgun ([8698fb4](https://github.com/specfy/stack-analyser/commit/8698fb442365e0fc698ab9f7f21a2ec84af64889))
+* **rules:** add MailHog ([048fb23](https://github.com/specfy/stack-analyser/commit/048fb23a9ab7acee5ac09e11593d6dd13d7634ba))
+* **rules:** add more packages for PubSub ([bdc344a](https://github.com/specfy/stack-analyser/commit/bdc344a7c88a21a0b70954d0cbc4e4a45d0ca861))
+* **rules:** add more packages for Slack ([6224c9f](https://github.com/specfy/stack-analyser/commit/6224c9faa35b720367b78129d2dc834395bd1f48))
+* **rules:** add more pkg for Shopify ([3fd134c](https://github.com/specfy/stack-analyser/commit/3fd134c5a769975c088334109d04f2db1683d6fb))
+* **rules:** add package for FlySystem php ([7d384b6](https://github.com/specfy/stack-analyser/commit/7d384b6b91b41c3bbbdb4e5128ec26cf8c8e3931))
+* **rules:** add Paypal ([cc3efe5](https://github.com/specfy/stack-analyser/commit/cc3efe55a03f3d84318e4feedcaaab1c86fb6e14))
+* **rules:** add Pirsch Analytics ([283f050](https://github.com/specfy/stack-analyser/commit/283f0502ecf0338ab2db3d1cb3f5e2913eb41a16))
+* **rules:** add PostHog ([bf0c27f](https://github.com/specfy/stack-analyser/commit/bf0c27f8f87242e5a5d550cb710cb4f46f3f6cac))
+* **rules:** add SAP ([bc17732](https://github.com/specfy/stack-analyser/commit/bc177329ec51b03b96228721400eec8ef664e0bc))
+* **rules:** add SAS ([048229c](https://github.com/specfy/stack-analyser/commit/048229c4a125f828301d6dfb3b62ba88cb75d4c9))
+* **rules:** add ServiceNow ([e1a6d9d](https://github.com/specfy/stack-analyser/commit/e1a6d9d8f0c520c62080a4a786d97ec5e89c4c07))
+* **rules:** add SonarCloud ([0ff0462](https://github.com/specfy/stack-analyser/commit/0ff0462aa572db4593ccca9f24a077e606e8e4ba))
+* **rules:** add SonarLint ([18ec33b](https://github.com/specfy/stack-analyser/commit/18ec33b88bb9aa1ed408d9322a6303b601a95d68))
+* **rules:** add Tailscale ([0c090d5](https://github.com/specfy/stack-analyser/commit/0c090d563a9ede170cf898d4c8a00a6fa781ebce))
+* **rules:** add Telegram ([bcd9e68](https://github.com/specfy/stack-analyser/commit/bcd9e68c202c9d75c92709326cddd7604df00b3d))
+* **rules:** add Vale ([ec61927](https://github.com/specfy/stack-analyser/commit/ec61927cec9045e825f94507a9e3ba4209b5aa27))
+* **rules:** add Veriff ([ba71b91](https://github.com/specfy/stack-analyser/commit/ba71b91db3c88622957e01f22b1a992f95f00cf2))
+* **rules:** sonarqube ([2a63334](https://github.com/specfy/stack-analyser/commit/2a6333430374c37370948900adaaf13a8765e7e9))
+* **rules:** wrong pkg type for koala ([1efd749](https://github.com/specfy/stack-analyser/commit/1efd74948e6666b0631809ef6ce1dd7134fb7a97))
+
 ## [1.5.3](https://github.com/specfy/stack-analyser/compare/v1.5.2...v1.5.3) (2023-09-18)
 
 
