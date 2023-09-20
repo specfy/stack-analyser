@@ -129,6 +129,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "stripe",
   "telegram",
   "twilio",
+  "veriff",
   "zendesk",
   "zookeeper",
 ]
@@ -924,6 +925,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "vault",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "veriff",
     "1.0.0",
   ],
   [

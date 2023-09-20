@@ -213,6 +213,7 @@ exports[`npm > should match everything 1`] = `
   "vercel.blob",
   "vercel.kv",
   "vercel.postgres",
+  "veriff",
   "vite",
   "vue",
   "webflow",
@@ -1181,6 +1182,16 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@vercel/remote-nx",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@veriff/incontext-sdk",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@veriff/js-sdk",
     "0.0.0",
   ],
   [

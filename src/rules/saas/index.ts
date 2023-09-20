@@ -63,6 +63,7 @@ import './stripe.js';
 import './telegram.js';
 import './twilio.js';
 import './twitter.js';
+import './veriff.js';
 import './vialink.js';
 import './webflow.js';
 import './wiz.js';

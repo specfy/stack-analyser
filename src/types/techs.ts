@@ -354,6 +354,7 @@ export type AllowedKeys =
   | 'vercel.kv'
   | 'vercel.postgres'
   | 'vercel'
+  | 'veriff'
   | 'vialink'
   | 'vite'
   | 'vue'
