@@ -290,6 +290,7 @@ export type AllowedKeys =
   | 'rust'
   | 'salesforce'
   | 'sanity'
+  | 'sap'
   | 'scaleway'
   | 'scss'
   | 'sendgrid'

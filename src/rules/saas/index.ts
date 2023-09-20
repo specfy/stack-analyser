@@ -45,6 +45,7 @@ import './prismacloud.js';
 import './resend.js';
 import './salesforce.js';
 import './sanity.js';
+import './sap.js';
 import './sendgrid.js';
 import './sentry.js';
 import './shopify.js';

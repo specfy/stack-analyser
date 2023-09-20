@@ -173,6 +173,7 @@ exports[`npm > should match everything 1`] = `
   "rollup",
   "salesforce",
   "sanity",
+  "sap",
   "scaleway",
   "sendgrid",
   "sentry",
@@ -1010,6 +1011,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@salesforce/kit",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@sap/hana-client",
     "0.0.0",
   ],
   [

@@ -263,6 +263,7 @@ exports[`all > should match everything 1`] = `
   "rust",
   "salesforce",
   "sanity",
+  "sap",
   "scaleway",
   "sendgrid",
   "sentry",
