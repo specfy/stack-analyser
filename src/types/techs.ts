@@ -329,6 +329,7 @@ export type AllowedKeys =
   | 'sveltejs'
   | 'swift'
   | 'symfony'
+  | 'tailscale'
   | 'tailwind'
   | 'teamcity'
   | 'telegram'
