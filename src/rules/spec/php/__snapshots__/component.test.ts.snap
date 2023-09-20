@@ -494,6 +494,11 @@ exports[`php > should match everything 2`] = `
   ],
   [
     "php",
+    "gos/pubsub-router-bundle",
+    "0.0.0",
+  ],
+  [
+    "php",
     "heroku/heroku-buildpack-php",
     "0.0.0",
   ],
@@ -695,6 +700,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "pestphp/pest",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "petitpress/gps-messenger-bundle",
     "0.0.0",
   ],
   [

@@ -15,5 +15,7 @@ register({
     { type: 'rust', name: 'google-cloud-pubsub' },
     { type: 'ruby', name: 'google-cloud-pubsub' },
     { type: 'php', name: 'google/cloud-pubsub' },
+    { type: 'php', name: 'gos/pubsub-router-bundle' },
+    { type: 'php', name: 'petitpress/gps-messenger-bundle' },
   ],
 });
