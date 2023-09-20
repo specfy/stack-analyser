@@ -86,6 +86,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "meilisearch",
   "paypal",
   "pirschanalytics",
+  "posthog",
   "sendgrid",
   "slack",
   "splitio",
@@ -535,6 +536,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/pirsch-analytics/pirsch-go-sdk/v2",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/posthog/posthog-go",
     "v1.0.0",
   ],
   [

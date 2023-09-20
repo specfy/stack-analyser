@@ -154,6 +154,7 @@ exports[`npm > should match everything 1`] = `
   "placekit",
   "playwright",
   "postgresql",
+  "posthog",
   "postman",
   "postmark",
   "preactjs",
@@ -1594,6 +1595,21 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "playwright",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "posthog-js",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "posthog-node",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "posthog-react-native",
     "0.0.0",
   ],
   [

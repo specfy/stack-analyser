@@ -239,6 +239,7 @@ exports[`all > should match everything 1`] = `
   "plausible",
   "playwright",
   "postgresql",
+  "posthog",
   "postman",
   "postmark",
   "preactjs",

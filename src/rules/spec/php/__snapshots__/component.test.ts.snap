@@ -96,6 +96,7 @@ exports[`php > should match everything 1`] = `
   "phpunit",
   "pirschanalytics",
   "postgresql",
+  "posthog",
   "postmark",
   "rabbitmq",
   "redis",
@@ -770,6 +771,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "pirsch-analytics/sdk",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "posthog/posthog-php",
     "0.0.0",
   ],
   [

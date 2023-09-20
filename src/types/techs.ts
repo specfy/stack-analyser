@@ -264,6 +264,7 @@ export type AllowedKeys =
   | 'plausible'
   | 'playwright'
   | 'postgresql'
+  | 'posthog'
   | 'postman'
   | 'postmark'
   | 'powershell'
