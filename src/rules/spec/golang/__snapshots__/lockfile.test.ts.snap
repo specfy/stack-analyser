@@ -82,6 +82,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "golang",
   "launchdarkly",
   "lemonsqueezy",
+  "mailgun",
   "meilisearch",
   "sendgrid",
   "splitio",
@@ -500,6 +501,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/launchdarkly/go-sdk-common/v3",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/mailgun/mailgun-go/v4",
     "v1.0.0",
   ],
   [

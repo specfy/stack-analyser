@@ -97,6 +97,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "launchdarkly",
   "lemonsqueezy",
   "mailchimp",
+  "mailgun",
   "mailjet",
   "mariadb",
   "meilisearch",
@@ -672,6 +673,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "logtail-rails",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "mailgun-ruby",
     "1.0.0",
   ],
   [

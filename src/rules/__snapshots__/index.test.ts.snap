@@ -196,6 +196,7 @@ exports[`all > should match everything 1`] = `
   "logsnag",
   "magento",
   "mailchimp",
+  "mailgun",
   "mailhog",
   "mailjet",
   "mariadb",

@@ -31,6 +31,7 @@ import './launchdarkly.js';
 import './lemonsqueezy.js';
 import './logrocket.js';
 import './mailchimp.js';
+import './mailgun.js';
 import './mailjet.js';
 import './notion.js';
 import './okta.js';

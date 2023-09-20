@@ -221,6 +221,7 @@ export type AllowedKeys =
   | 'logsnag'
   | 'magento'
   | 'mailchimp'
+  | 'mailgun'
   | 'mailhog'
   | 'mailjet'
   | 'mariadb'

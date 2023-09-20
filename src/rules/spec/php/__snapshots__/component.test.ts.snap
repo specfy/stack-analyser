@@ -78,6 +78,7 @@ exports[`php > should match everything 1`] = `
   "lemonsqueezy",
   "magento",
   "mailchimp",
+  "mailgun",
   "mailjet",
   "meilisearch",
   "mixpanel",
@@ -631,6 +632,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "mailchimp/transactional",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "mailgun/mailgun-php",
     "0.0.0",
   ],
   [
