@@ -343,6 +343,11 @@ exports[`docker > should match all dependencies 2`] = `
   ],
   [
     "githubAction",
+    "errata-ai/vale-action",
+    "1",
+  ],
+  [
+    "githubAction",
     "expo/expo-github-action",
     "1",
   ],

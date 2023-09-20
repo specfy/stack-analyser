@@ -9,3 +9,4 @@ import './playwright.js';
 import './sonarlint.js';
 import './sonarqube.js';
 import './terragrunt.js';
+import './vale.js';

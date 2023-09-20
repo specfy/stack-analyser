@@ -312,6 +312,7 @@ exports[`all > should match everything 1`] = `
   "upstash.kafka",
   "upstash.qstash",
   "upstash.redis",
+  "vale",
   "vercel",
   "vercel.ai",
   "vercel.analytics",

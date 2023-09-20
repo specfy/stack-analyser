@@ -60,6 +60,7 @@ exports[`docker > should match everything 1`] = `
   "strapi",
   "telegram",
   "trufflesecurity",
+  "vale",
   "zookeeper",
 ]
 `;
@@ -234,6 +235,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "influxdb",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "jdkato/vale",
     "0.0.0",
   ],
   [

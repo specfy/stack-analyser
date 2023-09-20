@@ -343,6 +343,7 @@ export type AllowedKeys =
   | 'upstash.qstash'
   | 'upstash.redis'
   | 'upstash'
+  | 'vale'
   | 'vercel.ai'
   | 'vercel.analytics'
   | 'vercel.blob'
