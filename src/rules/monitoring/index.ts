@@ -1,5 +1,6 @@
 import './aws.cloudwatch.js';
 import './betterstack.js';
+import './blackfire.js';
 import './datadog.js';
 import './gcp.logging.js';
 import './newrelic.js';

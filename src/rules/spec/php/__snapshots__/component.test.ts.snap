@@ -22,6 +22,7 @@ exports[`php > should match everything 1`] = `
   "betterstack",
   "bigcommerce",
   "bitbucket",
+  "blackfire",
   "brevo",
   "clickhouse",
   "cloudflare",
@@ -235,6 +236,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "bitbucket/client",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "blackfire/php-sdk",
     "0.0.0",
   ],
   [

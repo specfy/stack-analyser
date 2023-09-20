@@ -17,6 +17,7 @@ exports[`docker > should match everything 1`] = `
   "aws.lambda",
   "aws.s3",
   "azure",
+  "blackfire",
   "caddy",
   "clickhouse",
   "couchbase",
@@ -144,6 +145,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "bitnami/matomo",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "blackfire/blackfire",
     "0.0.0",
   ],
   [

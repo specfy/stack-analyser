@@ -91,6 +91,7 @@ export type AllowedKeys =
   | 'betterstack'
   | 'bigcommerce'
   | 'bitbucket'
+  | 'blackfire'
   | 'bootstrap'
   | 'box'
   | 'brevo'
