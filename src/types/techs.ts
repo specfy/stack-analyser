@@ -188,6 +188,7 @@ export type AllowedKeys =
   | 'github'
   | 'gitlab.ci'
   | 'gitlab'
+  | 'goacmelego'
   | 'golang'
   | 'googleanalytics'
   | 'grafana'

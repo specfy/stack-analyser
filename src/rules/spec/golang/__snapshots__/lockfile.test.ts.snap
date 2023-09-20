@@ -489,6 +489,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   ],
   [
     "golang",
+    "github.com/go-acme/lego/v4/cmd/lego",
+    "v1.0.0",
+  ],
+  [
+    "golang",
     "github.com/hashicorp/terraform-plugin-sdk/v2",
     "v1.0.0",
   ],
