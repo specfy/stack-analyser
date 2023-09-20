@@ -504,6 +504,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   ],
   [
     "golang",
+    "github.com/mailhog/MailHog",
+    "v1.0.0",
+  ],
+  [
+    "golang",
     "github.com/meilisearch/meilisearch-go",
     "v1.0.0",
   ],

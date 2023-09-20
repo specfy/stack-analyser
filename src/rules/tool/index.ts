@@ -4,5 +4,6 @@ import './gitlab.js';
 import './goacmelego.js';
 import './helm.js';
 import './lighthouse.js';
+import './mailhog.js';
 import './playwright.js';
 import './terragrunt.js';
