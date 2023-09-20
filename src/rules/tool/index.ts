@@ -6,4 +6,5 @@ import './helm.js';
 import './lighthouse.js';
 import './mailhog.js';
 import './playwright.js';
+import './sonarlint.js';
 import './terragrunt.js';

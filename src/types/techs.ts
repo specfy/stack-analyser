@@ -305,6 +305,7 @@ export type AllowedKeys =
   | 'socketio'
   | 'solidjs'
   | 'sonarcloud'
+  | 'sonarlint'
   | 'splitio'
   | 'splunk'
   | 'sqlite'
