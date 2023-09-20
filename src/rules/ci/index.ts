@@ -12,6 +12,7 @@ import './gitlab.ci.js';
 import './jenkins.js';
 import './relativeci.js';
 import './renovate.js';
+import './sonarcloud.js';
 import './styleci.js';
 import './teamcity.js';
 import './travisci.js';
