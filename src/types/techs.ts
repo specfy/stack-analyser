@@ -202,6 +202,7 @@ export type AllowedKeys =
   | 'huggingface'
   | 'hypertune'
   | 'influxdb'
+  | 'intuit'
   | 'java'
   | 'javascript'
   | 'jenkins'
