@@ -1,3 +1,10 @@
+## [1.5.5](https://github.com/specfy/stack-analyser/compare/v1.5.4...v1.5.5) (2023-09-26)
+
+
+### Bug Fixes
+
+* deduplicate path ([1d4e690](https://github.com/specfy/stack-analyser/commit/1d4e690b956ee459713ee616215e1ce51b5c221f))
+
 ## [1.5.4](https://github.com/specfy/stack-analyser/compare/v1.5.3...v1.5.4) (2023-09-20)
 
 
