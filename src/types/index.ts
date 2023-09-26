@@ -27,7 +27,7 @@ export interface Analyser {
    * Where this payload was found.
    * When flatten() it will contain all path that were deduplicated
    */
-  path: string[];
+  path: Set<string>;
 
   /**
    * If this payload is a specific Technology.
@@ -76,6 +76,7 @@ export type AnalyserJson = Modify<
   Analyser,
   {
     childs: AnalyserJson[];
+    path: string[];
     techs: AllowedKeys[];
     inComponent: string | null;
     edges: Array<Modify<GraphEdge, { target: string }>>;

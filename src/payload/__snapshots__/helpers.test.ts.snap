@@ -12,9 +12,9 @@ Payload {
       "languages": {},
       "name": "2",
       "parent": undefined,
-      "path": [
+      "path": Set {
         "/",
-      ],
+      },
       "reason": [],
       "tech": null,
       "techs": Set {},
@@ -40,9 +40,9 @@ Payload {
             "languages": {},
             "name": "2",
             "parent": undefined,
-            "path": [
+            "path": Set {
               "/",
-            ],
+            },
             "reason": [],
             "tech": null,
             "techs": Set {},
@@ -55,9 +55,9 @@ Payload {
       "languages": {},
       "name": "3",
       "parent": undefined,
-      "path": [
+      "path": Set {
         "/",
-      ],
+      },
       "reason": [],
       "tech": null,
       "techs": Set {},
@@ -70,9 +70,9 @@ Payload {
   "languages": {},
   "name": "main",
   "parent": undefined,
-  "path": [
+  "path": Set {
     "",
-  ],
+  },
   "reason": [],
   "tech": null,
   "techs": Set {},

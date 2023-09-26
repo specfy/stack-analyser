@@ -34,4 +34,21 @@ describe('Payload', () => {
     expect(root.childs[1].id).toBe('5');
     expect(root.childs[1].inComponent!.id).toBe('4');
   });
+
+  it('should dedup child and path', () => {
+    const root = new Payload({ name: 'root', folderPath: '/' });
+    root.addChild(
+      new Payload({ name: 'GCP1', folderPath: 'foo', tech: 'gcp' })
+    );
+    root.addChild(
+      new Payload({ name: 'GCP2', folderPath: 'foo', tech: 'gcp' })
+    );
+    root.addChild(
+      new Payload({ name: 'GCP3', folderPath: 'bar.xml', tech: 'gcp' })
+    );
+
+    expect(root.childs).toHaveLength(1);
+    expect(root.childs[0].path).toStrictEqual(new Set(['foo', 'bar.xml']));
+    expect(root.toJson().childs[0].path).toStrictEqual(['foo', 'bar.xml']);
+  });
 });

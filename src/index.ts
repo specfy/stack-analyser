@@ -19,7 +19,12 @@ import { BaseProvider, ProviderFile } from './provider/base.js';
 import { FakeProvider } from './provider/fake.js';
 import { FSProvider, FSProviderOptions } from './provider/fs.js';
 import { register, registeredRules, registeredTech } from './register.js';
-import { Analyser, AnalyserJson } from './types/index.js';
+import {
+  Analyser,
+  AnalyserJson,
+  Dependency,
+  GraphEdge,
+} from './types/index.js';
 import {
   SupportedDeps,
   RuleDependency,
@@ -36,9 +41,11 @@ export {
   AnalyserJson,
   BaseProvider,
   ComponentMatcher,
+  Dependency,
   FakeProvider,
   FSProvider,
   FSProviderOptions,
+  GraphEdge,
   Payload,
   ProviderFile,
   Rule,

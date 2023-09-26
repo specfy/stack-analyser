@@ -37,7 +37,7 @@ export class Payload implements Analyser {
   }: {
     id?: Analyser['id'];
     name: Analyser['name'];
-    folderPath: string;
+    folderPath: Set<string> | string;
     parent?: Payload | null;
     tech?: Analyser['tech'];
     dependencies?: Analyser['dependencies'];
@@ -45,7 +45,9 @@ export class Payload implements Analyser {
   }) {
     this.id = id || nid();
     this.name = name;
-    this.path = [folderPath];
+    this.path = new Set(
+      typeof folderPath === 'string' ? [folderPath] : folderPath
+    );
     this.tech = tech || null;
     this.inComponent = null;
     this.childs = [];
@@ -133,7 +135,7 @@ export class Payload implements Analyser {
       if (tech.type === 'hosting') {
         const pl = new Payload({
           name: tech.name,
-          folderPath: service.path[0],
+          folderPath: service.path,
           tech: tech.tech,
           reason: `implicit: ${service.tech}`,
         });
@@ -144,7 +146,9 @@ export class Payload implements Analyser {
 
     if (exist) {
       // Log all paths were it was found
-      exist.path.push(...service.path);
+      for (const p of service.path) {
+        exist.path.add(p);
+      }
 
       // Update edges to point to the initial component
       if (service.parent) {
@@ -263,7 +267,7 @@ export class Payload implements Analyser {
    */
   combine(pl: Payload): void {
     // Log all paths were it was found
-    this.path = [...new Set([...this.path, ...pl.path])];
+    this.path = new Set([...this.path, ...pl.path]);
 
     // Merge dependencies
     this.combineDependencies(pl);
@@ -286,7 +290,7 @@ export class Payload implements Analyser {
     const cp = new Payload({
       id: this.id,
       name: this.name,
-      folderPath: this.path[0],
+      folderPath: this.path,
       parent: this.parent,
       tech: this.tech,
       dependencies: this.dependencies,
@@ -313,7 +317,7 @@ export class Payload implements Analyser {
     return {
       id: this.id,
       name: this.name,
-      path: cleanPath(this.path, root),
+      path: cleanPath([...this.path], root),
       tech: this.tech,
       edges: this.edges.map((edge) => {
         return { ...edge, target: edge.target.id };

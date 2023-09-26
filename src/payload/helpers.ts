@@ -25,7 +25,7 @@ export function findImplicitComponent(
   const comp = new Payload({
     name: ref.name,
     tech: tech,
-    folderPath: pl.path[0],
+    folderPath: pl.path,
     parent: pl,
     reason,
   });
