@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/specfy/stack-analyser/compare/v1.5.5...v1.6.0) (2023-10-07)
+
+
+### Features
+
+* split hosting and cloud ([90f5e80](https://github.com/specfy/stack-analyser/commit/90f5e80aae0eaddc4e2759eebe89935b9f3c4856))
+
 ## [1.5.5](https://github.com/specfy/stack-analyser/compare/v1.5.4...v1.5.5) (2023-09-26)
 
 
