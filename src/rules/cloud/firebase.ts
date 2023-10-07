@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'firebase',
   name: 'Hosting',
-  type: 'hosting',
+  type: 'cloud',
   files: ['.firebaserc'],
   dependencies: [
     { type: 'ruby', name: 'fastlane-plugin-firebase_app_distribution' },

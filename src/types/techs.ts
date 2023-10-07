@@ -3,6 +3,7 @@ export type TechType =
   | 'api'
   | 'app'
   | 'ci'
+  | 'cloud'
   | 'db'
   | 'etl'
   | 'hosting'

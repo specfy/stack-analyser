@@ -132,7 +132,7 @@ export class Payload implements Analyser {
     if (service.tech?.includes('.')) {
       const [host] = service.tech.split('.');
       const tech = listIndexed[host as AllowedKeys];
-      if (tech.type === 'hosting') {
+      if (tech.type === 'hosting' || tech.type === 'cloud') {
         const pl = new Payload({
           name: tech.name,
           folderPath: service.path,

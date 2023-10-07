@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'gcp',
   name: 'Google Cloud Platform',
-  type: 'hosting',
+  type: 'cloud',
   dependencies: [
     { type: 'npm', name: 'googleapis' },
     { type: 'npm', name: /^@google-cloud\//, example: '@google-cloud/' },

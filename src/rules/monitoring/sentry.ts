@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'sentry',
   name: 'Sentry',
-  type: 'saas',
+  type: 'monitoring',
   dependencies: [
     { type: 'npm', name: /^@sentry\//, example: '@sentry/browser' },
     { type: 'rust', name: 'sentry' },

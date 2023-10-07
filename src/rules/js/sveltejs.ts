@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'sveltejs',
   name: 'Svelte',
-  type: 'tool',
+  type: 'language',
   files: ['svelte.config.js'],
   dependencies: [
     { type: 'npm', name: 'svelte' },

@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'netlify',
   name: 'Netlify',
-  type: 'hosting',
+  type: 'cloud',
   files: ['netlify.toml'],
   dependencies: [
     { type: 'npm', name: 'netlify' },

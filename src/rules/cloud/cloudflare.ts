@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'cloudflare',
   name: 'Cloudflare',
-  type: 'hosting',
+  type: 'cloud',
   dependencies: [
     {
       type: 'npm',

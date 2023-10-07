@@ -2,11 +2,10 @@
 
 exports[`hosting > should match everything with files 1`] = `
 [
-  "cloudflare.workers",
-  "expodev",
-  "github.pages",
-  "platformsh",
-  "render",
-  "replit",
+  "firebase",
+  "flyio",
+  "heroku",
+  "netlify",
+  "vercel",
 ]
 `;

@@ -3,6 +3,6 @@ import { register } from '../../register.js';
 register({
   tech: 'vue',
   name: 'Vue',
-  type: 'tool',
+  type: 'language',
   dependencies: [{ type: 'npm', name: 'vue' }],
 });

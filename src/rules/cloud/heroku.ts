@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'heroku',
   name: 'Heroku',
-  type: 'hosting',
+  type: 'cloud',
   files: ['app.json'],
   dependencies: [
     { type: 'terraform', name: 'registry.terraform.io/heroku/heroku' },

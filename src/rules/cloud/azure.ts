@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'azure',
   name: 'Azure',
-  type: 'hosting',
+  type: 'cloud',
   dependencies: [
     { type: 'terraform', name: 'registry.terraform.io/hashicorp/azurerm' },
     { type: 'golang', name: 'github.com/Azure/azure-sdk-for-go' },

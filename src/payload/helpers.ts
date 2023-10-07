@@ -30,7 +30,7 @@ export function findImplicitComponent(
     reason,
   });
   pl.addChild(comp);
-  if (ref.type !== 'hosting') {
+  if (ref.type !== 'hosting' && ref.type !== 'cloud') {
     pl.addEdges(comp);
   }
 }
@@ -46,7 +46,7 @@ export function findImplicitComponent(
  */
 export function findHosting(pl: Payload, tech: AllowedKeys) {
   const ref = listIndexed[tech];
-  if (ref.type !== 'hosting') {
+  if (ref.type !== 'hosting' && ref.type !== 'cloud') {
     return;
   }
 

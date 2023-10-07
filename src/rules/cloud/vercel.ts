@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'vercel',
   name: 'Vercel',
-  type: 'hosting',
+  type: 'cloud',
   files: ['.vercel', 'vercel.json'],
   dependencies: [
     { type: 'npm', name: 'vercel' },

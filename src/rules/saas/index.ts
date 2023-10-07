@@ -49,7 +49,6 @@ import './sanity.js';
 import './sap.js';
 import './sas.js';
 import './sendgrid.js';
-import './sentry.js';
 import './servicenow.js';
 import './shopify.js';
 import './slack.js';

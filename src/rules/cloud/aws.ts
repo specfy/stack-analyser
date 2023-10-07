@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'aws',
   name: 'AWS',
-  type: 'hosting',
+  type: 'cloud',
   dependencies: [
     { type: 'npm', name: 'aws-sdk' },
     { type: 'npm', name: /^@aws-sdk\//, example: '@aws-sdk/client-' },
