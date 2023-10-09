@@ -46,7 +46,7 @@
   },
   "dependencies": {
     "@actions/core": "1.10.1",
-    "@cdktf/hcl2json": "0.18.0",
+    "@cdktf/hcl2json": "0.18.2",
     "commander": "11.0.0",
     "consola": "3.2.3",
     "dotenv": "16.3.1",
