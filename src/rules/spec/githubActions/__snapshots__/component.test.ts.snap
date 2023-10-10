@@ -24,6 +24,7 @@ exports[`docker > should match all dependencies 1`] = `
   "datadog",
   "digitalocean",
   "discord",
+  "elasticsearch",
   "expodev",
   "firebase",
   "flyio",
@@ -339,6 +340,11 @@ exports[`docker > should match all dependencies 2`] = `
   [
     "githubAction",
     "docker/login-action",
+    "1",
+  ],
+  [
+    "githubAction",
+    "elastic/elastic-github-actions/elasticsearch",
     "1",
   ],
   [
