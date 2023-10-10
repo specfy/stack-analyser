@@ -1,3 +1,11 @@
+## [1.6.1](https://github.com/specfy/stack-analyser/compare/v1.6.0...v1.6.1) (2023-10-10)
+
+
+### Bug Fixes
+
+* **rules:** add default language until more details come ([ac166fe](https://github.com/specfy/stack-analyser/commit/ac166fee16a6afaf281b533891ae296903df36bb))
+* **rules:** add github action for es ([2d03c88](https://github.com/specfy/stack-analyser/commit/2d03c88ac4293d00d24edcddc0b2ae9c6af16c5a))
+
 # [1.6.0](https://github.com/specfy/stack-analyser/compare/v1.5.5...v1.6.0) (2023-10-07)
 
 
