@@ -300,7 +300,6 @@ export type AllowedKeys =
   | 'sentry'
   | 'sequelize'
   | 'servicenow'
-  | 'shell'
   | 'shopify'
   | 'sitecore.xmlcloud'
   | 'sitecore'

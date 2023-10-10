@@ -264,6 +264,7 @@ exports[`analyser > should run correctly 1`] = `
           "techs": [
             "nodejs",
             "react",
+            "scss",
             "typescript",
             "vercel",
             "vite",
@@ -940,6 +941,7 @@ exports[`analyser > should run correctly 2`] = `
       "techs": [
         "nodejs",
         "react",
+        "scss",
         "typescript",
         "vercel",
         "vite",
@@ -1844,6 +1846,7 @@ exports[`analyser > should run correctly 2`] = `
     "redis",
     "ruby",
     "rust",
+    "scss",
     "terraform",
     "typescript",
     "vercel",

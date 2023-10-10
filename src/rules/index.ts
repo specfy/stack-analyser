@@ -7,6 +7,7 @@ import './db/index.js';
 import './etl/index.js';
 import './hosting/index.js';
 import './js/index.js';
+import './language/index.js';
 import './messaging/index.js';
 import './monitoring/index.js';
 import './network/index.js';
