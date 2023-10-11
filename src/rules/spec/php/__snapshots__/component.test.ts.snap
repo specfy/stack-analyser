@@ -101,6 +101,7 @@ exports[`php > should match everything 1`] = `
   "rabbitmq",
   "redis",
   "resend",
+  "scoutapm",
   "sendgrid",
   "sentry",
   "shopify",
@@ -796,6 +797,16 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "ruflin/Elastica",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "scoutapp/scout-apm-laravel",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "scoutapp/scout-apm-php",
     "0.0.0",
   ],
   [

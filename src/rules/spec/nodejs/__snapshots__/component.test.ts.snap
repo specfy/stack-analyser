@@ -176,6 +176,7 @@ exports[`npm > should match everything 1`] = `
   "sanity",
   "sap",
   "scaleway",
+  "scoutapm",
   "sendgrid",
   "sentry",
   "sequelize",
@@ -1779,6 +1780,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "sanity",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "scoutapp/scout-apm-laravel",
     "0.0.0",
   ],
   [

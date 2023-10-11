@@ -117,6 +117,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "rabbitmq",
   "redis",
   "ruby",
+  "scoutapm",
   "sendgrid",
   "sentry",
   "servicenow",
@@ -810,6 +811,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "ruby-mysql",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "scout_apm",
     "1.0.0",
   ],
   [

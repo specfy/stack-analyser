@@ -277,6 +277,7 @@ exports[`all > should match everything 1`] = `
   "sap",
   "sas",
   "scaleway",
+  "scoutapm",
   "scss",
   "sendgrid",
   "sentry",

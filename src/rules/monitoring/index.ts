@@ -6,4 +6,5 @@ import './gcp.logging.js';
 import './newrelic.js';
 import './onlineornot.js';
 import './pingdom.js';
+import './scoutapm.js';
 import './sentry.js';

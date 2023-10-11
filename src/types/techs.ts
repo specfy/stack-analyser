@@ -296,6 +296,7 @@ export type AllowedKeys =
   | 'sap'
   | 'sas'
   | 'scaleway'
+  | 'scoutapm'
   | 'scss'
   | 'sendgrid'
   | 'sentry'
