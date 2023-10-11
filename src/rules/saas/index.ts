@@ -8,6 +8,7 @@ import './bigcommerce.js';
 import './bitbucket.js';
 import './box.js';
 import './brevo.js';
+import './commercetools.js';
 import './contentful.js';
 import './crowdin.js';
 import './deferrun.js';

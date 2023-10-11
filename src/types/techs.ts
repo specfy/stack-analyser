@@ -110,6 +110,7 @@ export type AllowedKeys =
   | 'cockroachdb'
   | 'codecov'
   | 'codesandboxci'
+  | 'commercetools'
   | 'contenful'
   | 'couchbase'
   | 'coveralls'

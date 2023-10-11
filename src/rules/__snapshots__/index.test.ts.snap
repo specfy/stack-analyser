@@ -96,6 +96,7 @@ exports[`all > should match everything 1`] = `
   "cockroachdb",
   "codecov",
   "codesandboxci",
+  "commercetools",
   "contenful",
   "couchbase",
   "coveralls",

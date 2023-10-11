@@ -58,12 +58,14 @@ exports[`npm > should match everything 1`] = `
   "azure.redis",
   "azure.sql",
   "betterstack",
+  "bigcommerce",
   "bootstrap",
   "brevo",
   "browserstack",
   "clickhouse",
   "cloudflare",
   "cloudflare.workers",
+  "commercetools",
   "contenful",
   "couchbase",
   "coveralls",
@@ -701,12 +703,32 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@bigcommerce/checkout-sdk",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@clickhouse/client",
     "0.0.0",
   ],
   [
     "npm",
     "@cloudflare/kv-asset-handler",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@commercetools/platform-sdk",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@commercetools/sdk-client-v2",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@commercetools/sdk-middleware-http",
     "0.0.0",
   ],
   [
