@@ -4,6 +4,7 @@ exports[`all > should match everything 1`] = `
 [
   "adobe",
   "adobecommercecloud",
+  "adyen",
   "airbyte",
   "airtable",
   "algolia",

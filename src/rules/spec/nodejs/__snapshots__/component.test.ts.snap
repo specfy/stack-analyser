@@ -2,6 +2,7 @@
 
 exports[`npm > should match everything 1`] = `
 [
+  "adyen",
   "airtable",
   "algolia",
   "alpinejs",
@@ -231,6 +232,21 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@adobe/magento-storefront-events-sdk",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@adyen/adyen-web",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@adyen/api-library",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@adyen/react-native",
     "0.0.0",
   ],
   [

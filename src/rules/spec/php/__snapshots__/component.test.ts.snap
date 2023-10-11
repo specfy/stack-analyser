@@ -2,6 +2,7 @@
 
 exports[`php > should match everything 1`] = `
 [
+  "adyen",
   "airtable",
   "algolia",
   "alibabacloud",
@@ -127,6 +128,21 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "adilbaig/pagerduty",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "adyen/module-payment",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "adyen/php-api-library",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "adyen/php-webhook-module",
     "0.0.0",
   ],
   [

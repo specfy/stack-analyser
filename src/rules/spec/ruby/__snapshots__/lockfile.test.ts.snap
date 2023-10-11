@@ -2,6 +2,7 @@
 
 exports[`ruby (component) > should match everything 1`] = `
 [
+  "adyen",
   "algolia",
   "auth0",
   "aws",
@@ -146,6 +147,21 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "MailchimpTransactional",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "adyen",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "adyen-cse-ruby",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "adyen-ruby-api-library",
     "1.0.0",
   ],
   [
