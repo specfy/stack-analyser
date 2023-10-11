@@ -374,6 +374,11 @@ exports[`docker > should match all dependencies 2`] = `
   ],
   [
     "githubAction",
+    "golangci/golangci-lint-action",
+    "1",
+  ],
+  [
+    "githubAction",
     "google-github-actions/auth",
     "1",
   ],

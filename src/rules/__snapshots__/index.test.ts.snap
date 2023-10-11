@@ -177,6 +177,7 @@ exports[`all > should match everything 1`] = `
   "gitlab.ci",
   "goacmelego",
   "golang",
+  "golangcilint",
   "googleanalytics",
   "grafana",
   "hashicorp_vault",

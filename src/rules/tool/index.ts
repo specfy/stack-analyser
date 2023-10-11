@@ -2,6 +2,7 @@ import './ansible.js';
 import './apiplatform.js';
 import './gitlab.js';
 import './goacmelego.js';
+import './golangcilint.js';
 import './helm.js';
 import './lighthouse.js';
 import './mailhog.js';

@@ -28,6 +28,7 @@ exports[`docker > should match everything 1`] = `
   "elasticsearch",
   "gitguardian",
   "goacmelego",
+  "golangcilint",
   "grafana",
   "hashicorp_vault",
   "httpd",
@@ -220,6 +221,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "goacme/lego",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "golangci/golangci-lint",
     "0.0.0",
   ],
   [

@@ -505,6 +505,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   ],
   [
     "golang",
+    "github.com/golangci/golangci-lint",
+    "v1.0.0",
+  ],
+  [
+    "golang",
     "github.com/hashicorp/terraform-plugin-sdk/v2",
     "v1.0.0",
   ],

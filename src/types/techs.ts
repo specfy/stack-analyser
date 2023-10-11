@@ -191,6 +191,7 @@ export type AllowedKeys =
   | 'gitlab'
   | 'goacmelego'
   | 'golang'
+  | 'golangcilint'
   | 'googleanalytics'
   | 'grafana'
   | 'hashicorp_vault'
