@@ -18,6 +18,7 @@ import './prisma.js';
 import './puppeteer.js';
 import './react.js';
 import './reactEmail.js';
+import './redwoodjs.js';
 import './rollup.js';
 import './sequelize.js';
 import './socketio.js';

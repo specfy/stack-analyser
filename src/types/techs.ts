@@ -280,6 +280,7 @@ export type AllowedKeys =
   | 'react'
   | 'reactemail'
   | 'redis'
+  | 'redwoodjs'
   | 'relativeci'
   | 'render'
   | 'renovate'
