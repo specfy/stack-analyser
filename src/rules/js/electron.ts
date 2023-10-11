@@ -4,5 +4,8 @@ register({
   tech: 'electron',
   name: 'Electron',
   type: 'tool',
-  dependencies: [{ type: 'npm', name: 'electron' }],
+  dependencies: [
+    { type: 'npm', name: 'electron' },
+    { type: 'githubAction', name: 'samuelmeuli/action-electron-builder' },
+  ],
 });

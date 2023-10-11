@@ -479,6 +479,11 @@ exports[`docker > should match all dependencies 2`] = `
   ],
   [
     "githubAction",
+    "samuelmeuli/action-electron-builder",
+    "1",
+  ],
+  [
+    "githubAction",
     "scaleway/action-scw",
     "1",
   ],
