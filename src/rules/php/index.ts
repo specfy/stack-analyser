@@ -4,6 +4,7 @@ import './magento.js';
 import './phppest.js';
 import './phpstan.js';
 import './phpunit.js';
+import './prestashop.js';
 import './symfony.js';
 import './twig.js';
 import './woocommerce.js';

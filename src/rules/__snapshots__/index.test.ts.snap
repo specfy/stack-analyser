@@ -257,6 +257,7 @@ exports[`all > should match everything 1`] = `
   "postman",
   "postmark",
   "preactjs",
+  "prestashop",
   "prettier",
   "prisma",
   "prismacloud",

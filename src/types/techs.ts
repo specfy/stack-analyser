@@ -276,6 +276,7 @@ export type AllowedKeys =
   | 'postmark'
   | 'powershell'
   | 'preactjs'
+  | 'prestashop'
   | 'prettier'
   | 'prisma'
   | 'prismacloud'

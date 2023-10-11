@@ -33,6 +33,7 @@ exports[`php > should match everything 1`] = `
   "crowdin",
   "datadog",
   "datastax",
+  "doctrinephp",
   "docusign",
   "dropbox",
   "elasticsearch",
@@ -99,6 +100,7 @@ exports[`php > should match everything 1`] = `
   "postgresql",
   "posthog",
   "postmark",
+  "prestashop",
   "rabbitmq",
   "redis",
   "resend",
@@ -327,7 +329,7 @@ exports[`php > should match everything 2`] = `
   ],
   [
     "php",
-    "doctrine/lexer",
+    "doctrine/orm",
     "0.0.0",
   ],
   [
@@ -798,6 +800,21 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "predis/predis",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "prestashop/ps_currencyselector",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "prestashop/ps_facetedsearch",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "prestashop/ps_shoppingcart",
     "0.0.0",
   ],
   [
