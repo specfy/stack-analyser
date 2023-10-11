@@ -349,6 +349,11 @@ exports[`docker > should match all dependencies 2`] = `
   ],
   [
     "githubAction",
+    "enriikke/gatsby-gh-pages-action",
+    "1",
+  ],
+  [
+    "githubAction",
     "errata-ai/vale-action",
     "1",
   ],
@@ -445,6 +450,16 @@ exports[`docker > should match all dependencies 2`] = `
   [
     "githubAction",
     "jakejarvis/s3-sync-action",
+    "1",
+  ],
+  [
+    "githubAction",
+    "jonelantha/gatsby-s3-action",
+    "1",
+  ],
+  [
+    "githubAction",
+    "jzweifel/gatsby-cli-github-action",
     "1",
   ],
   [

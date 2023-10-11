@@ -151,6 +151,7 @@ export type AllowedKeys =
   | 'firebase.firestore'
   | 'firebase'
   | 'flyio'
+  | 'gatsby'
   | 'gcp.aiplatform'
   | 'gcp.appengine'
   | 'gcp.artifactregistry'

@@ -83,6 +83,7 @@ exports[`npm > should match everything 1`] = `
   "fastly",
   "figma",
   "firebase",
+  "gatsby",
   "gcp",
   "gcp.aiplatform",
   "gcp.appengine",
@@ -749,6 +750,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@gatsbyjs/reach-router",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@getbrevo/brevo",
     "0.0.0",
   ],
@@ -974,7 +980,37 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@netlify/build",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@netlify/cache-utils",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@netlify/config",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@netlify/functions-utils",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@netlify/plugin-emails",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@netlify/plugin-gatsby",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@netlify/run-utils",
     "0.0.0",
   ],
   [
@@ -1234,6 +1270,16 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@vercel/gatsby-plugin-vercel-analytics",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@vercel/gatsby-plugin-vercel-builder",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@vercel/kv",
     "0.0.0",
   ],
@@ -1440,6 +1486,21 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "firebase",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "gatsby",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "gatsby-cli",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "gatsby-core-utils",
     "0.0.0",
   ],
   [
