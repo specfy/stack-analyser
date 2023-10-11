@@ -19,6 +19,7 @@ exports[`docker > should match everything 1`] = `
   "azure",
   "blackfire",
   "caddy",
+  "checkov",
   "clickhouse",
   "couchbase",
   "cypressci",
@@ -156,6 +157,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "blackfire/blackfire",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "bridgecrew/checkov",
     "0.0.0",
   ],
   [

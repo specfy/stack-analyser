@@ -85,6 +85,7 @@ exports[`all > should match everything 1`] = `
   "browserstack",
   "c",
   "caddy",
+  "checkov",
   "circleci",
   "cirrusci",
   "clickhouse",

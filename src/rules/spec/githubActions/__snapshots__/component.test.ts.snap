@@ -289,6 +289,11 @@ exports[`docker > should match all dependencies 2`] = `
   ],
   [
     "githubAction",
+    "bridgecrewio/checkov-action",
+    "1",
+  ],
+  [
+    "githubAction",
     "chetan/invalidate-cloudfront-action",
     "1",
   ],

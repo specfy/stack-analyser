@@ -99,6 +99,7 @@ export type AllowedKeys =
   | 'browserstack'
   | 'c'
   | 'caddy'
+  | 'checkov'
   | 'circleci'
   | 'cirrusci'
   | 'clickhouse'
