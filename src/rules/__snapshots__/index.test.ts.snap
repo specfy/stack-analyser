@@ -332,6 +332,7 @@ exports[`all > should match everything 1`] = `
   "vercel.ai",
   "vercel.analytics",
   "vercel.blob",
+  "vercel.edge",
   "vercel.kv",
   "vercel.postgres",
   "veriff",

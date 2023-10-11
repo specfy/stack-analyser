@@ -212,6 +212,7 @@ exports[`npm > should match everything 1`] = `
   "vercel.ai",
   "vercel.analytics",
   "vercel.blob",
+  "vercel.edge",
   "vercel.kv",
   "vercel.postgres",
   "veriff",
@@ -722,6 +723,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@edge-runtime/primitives",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@elastic/elasticsearch",
     "0.0.0",
   ],
@@ -1208,6 +1214,21 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@vercel/client",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@vercel/edge",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@vercel/edge-config",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@vercel/edge-functions-ui",
     "0.0.0",
   ],
   [

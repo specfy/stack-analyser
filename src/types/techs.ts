@@ -353,6 +353,7 @@ export type AllowedKeys =
   | 'vercel.ai'
   | 'vercel.analytics'
   | 'vercel.blob'
+  | 'vercel.edge'
   | 'vercel.kv'
   | 'vercel.postgres'
   | 'vercel'
