@@ -117,6 +117,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "postmark",
   "rabbitmq",
   "redis",
+  "rollbar",
   "ruby",
   "scoutapm",
   "sendgrid",
@@ -822,6 +823,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "redis-client",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "rollbar",
     "1.0.0",
   ],
   [

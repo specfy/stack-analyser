@@ -175,6 +175,7 @@ exports[`npm > should match everything 1`] = `
   "replit",
   "replit.database",
   "resend",
+  "rollbar",
   "rollup",
   "salesforce",
   "sanity",
@@ -1128,6 +1129,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@rollbar/react",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@salesforce/kit",
     "0.0.0",
   ],
@@ -1869,6 +1875,16 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "resend",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "rollbar",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "rollbar-react-native",
     "0.0.0",
   ],
   [

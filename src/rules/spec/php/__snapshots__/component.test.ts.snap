@@ -104,6 +104,7 @@ exports[`php > should match everything 1`] = `
   "rabbitmq",
   "redis",
   "resend",
+  "rollbar",
   "scoutapm",
   "sendgrid",
   "sentry",
@@ -824,6 +825,26 @@ exports[`php > should match everything 2`] = `
   ],
   [
     "php",
+    "rollbar/rollbar",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "rollbar/rollbar-laravel",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "rollbar/rollbar-magento2",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "rollbar/rollbar-php-symfony-bundle",
+    "0.0.0",
+  ],
+  [
+    "php",
     "roots/wordpress",
     "0.0.0",
   ],
@@ -965,6 +986,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "wp-cli/wp-cli",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "wpackagist-plugin/rollbar",
     "0.0.0",
   ],
   [

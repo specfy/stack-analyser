@@ -277,6 +277,7 @@ exports[`all > should match everything 1`] = `
   "replit.database",
   "replit.postgres",
   "resend",
+  "rollbar",
   "rollup",
   "ruby",
   "rust",

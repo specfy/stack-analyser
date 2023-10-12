@@ -48,6 +48,7 @@ exports[`docker > should match all dependencies 1`] = `
   "netlify",
   "planetscale",
   "postgresql",
+  "rollbar",
   "scaleway",
   "sentry",
   "slack",
@@ -515,6 +516,11 @@ exports[`docker > should match all dependencies 2`] = `
   [
     "githubAction",
     "relative-ci/agent-action",
+    "1",
+  ],
+  [
+    "githubAction",
+    "rollbar/github-deploy-action",
     "1",
   ],
   [

@@ -296,6 +296,7 @@ export type AllowedKeys =
   | 'replit.postgres'
   | 'replit'
   | 'resend'
+  | 'rollbar'
   | 'rollup'
   | 'ruby'
   | 'rust'
