@@ -193,6 +193,7 @@ exports[`all > should match everything 1`] = `
   "httpd",
   "hubspot",
   "huggingface",
+  "hyperdx",
   "hypertune",
   "influxdb",
   "intuit",

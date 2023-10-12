@@ -4,6 +4,7 @@ import './blackfire.js';
 import './datadog.js';
 import './gcp.logging.js';
 import './healthchecksio.js';
+import './hyperdx.js';
 import './newrelic.js';
 import './onlineornot.js';
 import './pingdom.js';

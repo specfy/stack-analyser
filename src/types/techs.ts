@@ -208,6 +208,7 @@ export type AllowedKeys =
   | 'httpd'
   | 'hubspot'
   | 'huggingface'
+  | 'hyperdx'
   | 'hypertune'
   | 'influxdb'
   | 'intuit'

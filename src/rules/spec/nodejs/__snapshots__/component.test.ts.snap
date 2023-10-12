@@ -120,6 +120,7 @@ exports[`npm > should match everything 1`] = `
   "github",
   "hotjar",
   "huggingface",
+  "hyperdx",
   "hypertune",
   "influxdb",
   "jira",
@@ -966,6 +967,31 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@huggingface/inference",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@hyperdx/browser",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@hyperdx/deno",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@hyperdx/node-logger",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@hyperdx/node-opentelemetry",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@hyperdx/otel-react-native",
     "0.0.0",
   ],
   [

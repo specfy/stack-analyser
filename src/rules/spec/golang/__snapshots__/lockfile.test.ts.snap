@@ -80,6 +80,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "gcp.vision",
   "gitguardian",
   "golang",
+  "hyperdx",
   "launchdarkly",
   "lemonsqueezy",
   "logstash",
@@ -523,6 +524,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/hashicorp/terraform-plugin-sdk/v2",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/hyperdxio/hyperdx-go",
     "v1.0.0",
   ],
   [
