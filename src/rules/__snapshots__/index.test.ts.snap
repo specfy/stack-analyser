@@ -186,6 +186,7 @@ exports[`all > should match everything 1`] = `
   "googleanalytics",
   "grafana",
   "hashicorp_vault",
+  "healthchecksio",
   "helm",
   "heroku",
   "hotjar",

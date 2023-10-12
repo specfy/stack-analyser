@@ -200,6 +200,7 @@ export type AllowedKeys =
   | 'googleanalytics'
   | 'grafana'
   | 'hashicorp_vault'
+  | 'healthchecksio'
   | 'helm'
   | 'heroku'
   | 'hotjar'
