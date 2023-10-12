@@ -111,6 +111,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "okta",
   "oraclecloud",
   "pagerduty",
+  "papertrail",
   "paypal",
   "pirschanalytics",
   "postgresql",
@@ -784,6 +785,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "pagerduty",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "papertrail",
     "1.0.0",
   ],
   [

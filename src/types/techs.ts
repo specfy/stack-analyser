@@ -261,6 +261,7 @@ export type AllowedKeys =
   | 'oraclecloud'
   | 'ovh'
   | 'pagerduty'
+  | 'papertrail'
   | 'paypal'
   | 'percona'
   | 'php'

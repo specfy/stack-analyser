@@ -91,6 +91,7 @@ exports[`php > should match everything 1`] = `
   "oraclecloud",
   "ovh",
   "pagerduty",
+  "papertrail",
   "paypal",
   "php",
   "phppest",
@@ -946,6 +947,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "srmklive/paypal",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "stephanecoinon/papertrail",
     "0.0.0",
   ],
   [

@@ -7,6 +7,7 @@ import './healthchecksio.js';
 import './hyperdx.js';
 import './newrelic.js';
 import './onlineornot.js';
+import './papertrail.js';
 import './pingdom.js';
 import './rollbar.js';
 import './scoutapm.js';
