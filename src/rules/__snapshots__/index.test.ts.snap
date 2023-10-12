@@ -23,6 +23,7 @@ exports[`all > should match everything 1`] = `
   "apache_storm",
   "apiplatform",
   "appveyor",
+  "atlasgo",
   "atlassian",
   "auth0",
   "aws",

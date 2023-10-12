@@ -37,6 +37,7 @@ export type AllowedKeys =
   | 'apache_storm'
   | 'apiplatform'
   | 'appveyor'
+  | 'atlasgo'
   | 'atlassian'
   | 'auth0'
   | 'aws.amplifyhosting'

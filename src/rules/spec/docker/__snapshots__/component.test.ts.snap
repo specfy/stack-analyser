@@ -12,6 +12,7 @@ exports[`docker > should match everything 1`] = `
   "apache_kafka",
   "apache_spark",
   "apache_storm",
+  "atlasgo",
   "aws",
   "aws.dynamodb",
   "aws.lambda",
@@ -127,6 +128,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "apache/storm",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "arigaio/atlas",
     "0.0.0",
   ],
   [

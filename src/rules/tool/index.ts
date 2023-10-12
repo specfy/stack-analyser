@@ -1,5 +1,6 @@
 import './ansible.js';
 import './apiplatform.js';
+import './atlasgo.js';
 import './checkov.js';
 import './gitlab.js';
 import './goacmelego.js';
