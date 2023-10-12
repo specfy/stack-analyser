@@ -7,3 +7,4 @@ import './databricks.js';
 import './dataiku.js';
 import './gcp.dataproc.js';
 import './gcp.dataflow.js';
+import './logstash.js';

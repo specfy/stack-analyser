@@ -211,6 +211,7 @@ exports[`all > should match everything 1`] = `
   "lighthouse",
   "logrocket",
   "logsnag",
+  "logstash",
   "magento",
   "mailchimp",
   "mailgun",

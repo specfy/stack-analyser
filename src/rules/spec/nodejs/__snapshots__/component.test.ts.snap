@@ -131,6 +131,7 @@ exports[`npm > should match everything 1`] = `
   "lighthouse",
   "logrocket",
   "logsnag",
+  "logstash",
   "magento",
   "mailchimp",
   "mailgun",
@@ -1405,6 +1406,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "browserstack",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "bunyan-logstash-tcp",
     "0.0.0",
   ],
   [

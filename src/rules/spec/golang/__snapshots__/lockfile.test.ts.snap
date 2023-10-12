@@ -82,6 +82,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "golang",
   "launchdarkly",
   "lemonsqueezy",
+  "logstash",
   "mailgun",
   "meilisearch",
   "paypal",
@@ -482,6 +483,16 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/aws/aws-sdk-go-v2/service/translate",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/bshuster-repo/logrus-logstash-hook",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/elastic/beats/libbeat/outputs/logstash",
     "v1.0.0",
   ],
   [

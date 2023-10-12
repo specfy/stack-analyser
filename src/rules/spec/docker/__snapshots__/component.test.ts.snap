@@ -39,6 +39,7 @@ exports[`docker > should match everything 1`] = `
   "jira",
   "kibana",
   "lighthouse",
+  "logstash",
   "mailhog",
   "mariadb",
   "matomo",
@@ -278,6 +279,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "kibana",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "logstash",
     "0.0.0",
   ],
   [

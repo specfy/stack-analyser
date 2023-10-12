@@ -97,6 +97,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "kubernetes",
   "launchdarkly",
   "lemonsqueezy",
+  "logstash",
   "mailchimp",
   "mailgun",
   "mailjet",
@@ -698,6 +699,31 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "lemonsqueezy",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "logstash-event",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "logstash-filter-translate",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "logstash-logger",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "logstash-output-sqs",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "logstash-output-stastd",
     "1.0.0",
   ],
   [

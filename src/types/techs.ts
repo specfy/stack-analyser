@@ -229,6 +229,7 @@ export type AllowedKeys =
   | 'lighthouse'
   | 'logrocket'
   | 'logsnag'
+  | 'logstash'
   | 'magento'
   | 'mailchimp'
   | 'mailgun'
