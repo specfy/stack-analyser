@@ -452,7 +452,12 @@ exports[`ruby (component) > should match everything 2`] = `
   ],
   [
     "ruby",
-    "coveralls-ruby-reborn",
+    "coveralls",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "coveralls_reborn",
     "1.0.0",
   ],
   [

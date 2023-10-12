@@ -12,6 +12,7 @@ register({
     },
     { type: 'golang', name: 'goveralls' },
     { type: 'npm', name: 'php-coveralls' },
-    { type: 'ruby', name: 'coveralls-ruby-reborn' },
+    { type: 'ruby', name: 'coveralls' },
+    { type: 'ruby', name: 'coveralls_reborn' },
   ],
 });
