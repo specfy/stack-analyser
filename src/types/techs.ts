@@ -365,6 +365,7 @@ export type AllowedKeys =
   | 'teamcity'
   | 'telegram'
   | 'tencentcloud'
+  | 'tensorflow'
   | 'terraform'
   | 'terragrunt'
   | 'tinybird'

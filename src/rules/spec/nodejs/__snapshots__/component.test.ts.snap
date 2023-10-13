@@ -216,6 +216,7 @@ exports[`npm > should match everything 1`] = `
   "sveltejs",
   "tailwind",
   "telegram",
+  "tensorflow",
   "terraform",
   "tinybird",
   "twilio",
@@ -1310,6 +1311,16 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@tensorflow/tfjs",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@tensorflow/tfjs-core",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@tinybirdco/next-tinybird",
     "0.0.0",
   ],
@@ -1601,6 +1612,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "express",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "face-api.js",
     "0.0.0",
   ],
   [

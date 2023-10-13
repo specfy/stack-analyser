@@ -13,4 +13,5 @@ import './playwright.js';
 import './sonarlint.js';
 import './sonarqube.js';
 import './terragrunt.js';
+import './tensorflow.js';
 import './vale.js';

@@ -621,6 +621,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   ],
   [
     "golang",
+    "github.com/wamuir/graft/tensorflow",
+    "v1.0.0",
+  ],
+  [
+    "golang",
     "goveralls",
     "v1.0.0",
   ],
