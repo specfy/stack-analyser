@@ -198,6 +198,7 @@ exports[`all > should match everything 1`] = `
   "huggingface",
   "hyperdx",
   "hypertune",
+  "ibmcloud",
   "iftt",
   "influxdb",
   "intercom",

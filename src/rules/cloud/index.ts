@@ -8,6 +8,7 @@ import './firebase.js';
 import './flyio.js';
 import './gcp.js';
 import './heroku.js';
+import './ibmcloud.js';
 import './netlify.js';
 import './nextcloud.js';
 import './oraclecloud.js';
