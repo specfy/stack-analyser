@@ -231,6 +231,7 @@ export type AllowedKeys =
   | 'koa'
   | 'koalaanalytics'
   | 'kotlin'
+  | 'koyeb'
   | 'kubernetes'
   | 'laravel'
   | 'launchdarkly'

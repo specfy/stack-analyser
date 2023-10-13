@@ -21,6 +21,7 @@ import './gcp.gce.js';
 import './gcp.gke.js';
 import './gcp.tasks.js';
 import './github.pages.js';
+import './koyeb.js';
 import './kubernetes.js';
 import './mongodbatlas.js';
 import './platformsh.js';

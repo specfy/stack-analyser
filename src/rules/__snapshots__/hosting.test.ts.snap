@@ -5,6 +5,7 @@ exports[`hosting > should match everything with files 1`] = `
   "cloudflare.workers",
   "expodev",
   "github.pages",
+  "koyeb",
   "platformsh",
   "render",
   "replit",
