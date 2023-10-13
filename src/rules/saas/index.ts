@@ -34,6 +34,7 @@ import './klarna.js';
 import './klaviyo.js';
 import './launchdarkly.js';
 import './lemonsqueezy.js';
+import './linear.js';
 import './logrocket.js';
 import './mailchimp.js';
 import './mailgun.js';

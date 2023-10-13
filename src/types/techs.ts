@@ -234,6 +234,7 @@ export type AllowedKeys =
   | 'launchdarkly'
   | 'lemonsqueezy'
   | 'lighthouse'
+  | 'linear'
   | 'logrocket'
   | 'logsnag'
   | 'logstash'
