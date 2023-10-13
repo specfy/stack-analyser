@@ -4,6 +4,7 @@ exports[`rust (component) > should match everything 1`] = `
 [
   "algolia",
   "apache_cassandra",
+  "apache_thrift",
   "auth0",
   "aws",
   "aws.apigateway",
@@ -552,6 +553,11 @@ exports[`rust (component) > should match everything 2`] = `
   [
     "rust",
     "teloxide",
+    "1.0.0",
+  ],
+  [
+    "rust",
+    "thrift",
     "1.0.0",
   ],
   [

@@ -37,6 +37,7 @@ export type AllowedKeys =
   | 'apache_solr'
   | 'apache_spark'
   | 'apache_storm'
+  | 'apache_thrift'
   | 'apiplatform'
   | 'appveyor'
   | 'atlasgo'

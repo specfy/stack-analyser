@@ -9,6 +9,7 @@ exports[`npm > should match everything 1`] = `
   "amplitude",
   "angular",
   "apache_kafka",
+  "apache_thrift",
   "apiplatform",
   "auth0",
   "aws",
@@ -2089,6 +2090,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "telegram",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "thrift",
     "0.0.0",
   ],
   [

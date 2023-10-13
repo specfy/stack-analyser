@@ -1023,6 +1023,11 @@ exports[`ruby (component) > should match everything 2`] = `
   ],
   [
     "ruby",
+    "thrift",
+    "1.0.0",
+  ],
+  [
+    "ruby",
     "travis",
     "1.0.0",
   ],

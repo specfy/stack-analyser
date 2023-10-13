@@ -14,6 +14,7 @@ exports[`docker > should match everything 1`] = `
   "apache_solr",
   "apache_spark",
   "apache_storm",
+  "apache_thrift",
   "atlasgo",
   "aws",
   "aws.dynamodb",
@@ -143,6 +144,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "apache/storm",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "apache/thrift",
     "0.0.0",
   ],
   [

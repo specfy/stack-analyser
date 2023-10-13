@@ -1,4 +1,5 @@
 import './ansible.js';
+import './apache_thrift.js';
 import './apiplatform.js';
 import './atlasgo.js';
 import './checkov.js';
