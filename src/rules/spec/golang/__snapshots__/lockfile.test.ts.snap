@@ -86,6 +86,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "logstash",
   "mailgun",
   "meilisearch",
+  "optimizely",
   "papertrail",
   "paypal",
   "pirschanalytics",
@@ -561,6 +562,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/meilisearch/meilisearch-go",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/optimizely/go-sdk",
     "v1.0.0",
   ],
   [

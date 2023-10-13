@@ -273,6 +273,7 @@ export type AllowedKeys =
   | 'okta'
   | 'onlineornot'
   | 'openai'
+  | 'optimizely'
   | 'oraclecloud'
   | 'ovh'
   | 'pagerduty'

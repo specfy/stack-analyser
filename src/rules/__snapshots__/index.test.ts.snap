@@ -254,6 +254,7 @@ exports[`all > should match everything 1`] = `
   "okta",
   "onlineornot",
   "openai",
+  "optimizely",
   "oraclecloud",
   "ovh",
   "pagerduty",

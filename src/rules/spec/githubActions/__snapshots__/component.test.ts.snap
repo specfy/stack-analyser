@@ -46,6 +46,7 @@ exports[`docker > should match all dependencies 1`] = `
   "kubernetes",
   "launchdarkly",
   "netlify",
+  "optimizely",
   "planetscale",
   "postgresql",
   "rollbar",
@@ -501,6 +502,11 @@ exports[`docker > should match all dependencies 2`] = `
   [
     "githubAction",
     "nwtgck/actions-netlify",
+    "1",
+  ],
+  [
+    "githubAction",
+    "optimizely/upload-custom-code-action",
     "1",
   ],
   [

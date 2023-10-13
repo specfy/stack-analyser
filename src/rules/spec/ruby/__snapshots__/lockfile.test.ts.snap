@@ -113,6 +113,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "neo4j",
   "newrelic",
   "okta",
+  "optimizely",
   "oraclecloud",
   "pagerduty",
   "papertrail",
@@ -825,6 +826,21 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "omniauth-auth0",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "optimizely",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "optimizely-sdk",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "optimizely_server_side",
     "1.0.0",
   ],
   [

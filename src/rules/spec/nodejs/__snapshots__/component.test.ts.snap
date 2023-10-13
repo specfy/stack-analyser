@@ -157,6 +157,7 @@ exports[`npm > should match everything 1`] = `
   "nuxtjs",
   "okta",
   "openai",
+  "optimizely",
   "oraclecloud",
   "ovh",
   "pagerduty",
@@ -1105,6 +1106,31 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@okta/okta-signin-widget",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@optimizely/js-sdk-event-processor",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@optimizely/js-sdk-logging",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@optimizely/js-sdk-utils",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@optimizely/optimizely-sdk",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@optimizely/react-sdk",
     "0.0.0",
   ],
   [

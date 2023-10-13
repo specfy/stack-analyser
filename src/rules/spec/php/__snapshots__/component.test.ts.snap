@@ -90,6 +90,7 @@ exports[`php > should match everything 1`] = `
   "newrelic",
   "okta",
   "openai",
+  "optimizely",
   "oraclecloud",
   "ovh",
   "pagerduty",
@@ -762,6 +763,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "openai-php/laravel",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "optimizely/optimizely-sdk",
     "0.0.0",
   ],
   [

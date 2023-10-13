@@ -42,6 +42,7 @@ import './mailjet.js';
 import './notion.js';
 import './okta.js';
 import './openai.js';
+import './optimizely.js';
 import './pagerduty.js';
 import './paypal.js';
 import './placekit.js';
