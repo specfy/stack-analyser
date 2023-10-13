@@ -26,6 +26,7 @@ import './hotjar.js';
 import './hubspot.js';
 import './huggingface.js';
 import './hypertune.js';
+import './iftt.js';
 import './intuit.js';
 import './jira.js';
 import './klarna.js';

@@ -213,6 +213,7 @@ export type AllowedKeys =
   | 'huggingface'
   | 'hyperdx'
   | 'hypertune'
+  | 'iftt'
   | 'influxdb'
   | 'intuit'
   | 'java'
