@@ -1,6 +1,7 @@
 import './apache_cassandra.js';
 import './apache_couchdb.js';
 import './apache_iceberg.js';
+import './apache_solr.js';
 import './apache_spark.js';
 import './aws.athena.js';
 import './aws.cloudsearch.js';

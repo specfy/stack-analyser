@@ -33,6 +33,7 @@ export type AllowedKeys =
   | 'apache_flink'
   | 'apache_iceberg'
   | 'apache_kafka'
+  | 'apache_solr'
   | 'apache_spark'
   | 'apache_storm'
   | 'apiplatform'

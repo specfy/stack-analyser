@@ -19,6 +19,7 @@ exports[`all > should match everything 1`] = `
   "apache_flink",
   "apache_iceberg",
   "apache_kafka",
+  "apache_solr",
   "apache_spark",
   "apache_storm",
   "apiplatform",

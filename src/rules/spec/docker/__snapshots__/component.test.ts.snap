@@ -10,6 +10,7 @@ exports[`docker > should match everything 1`] = `
   "apache_flink",
   "apache_iceberg",
   "apache_kafka",
+  "apache_solr",
   "apache_spark",
   "apache_storm",
   "atlasgo",
@@ -160,6 +161,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "bitnami/matomo",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "bitnami/solr",
     "0.0.0",
   ],
   [
@@ -420,6 +426,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "snyk/snyk-cli",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "solr",
     "0.0.0",
   ],
   [
