@@ -4,5 +4,8 @@ register({
   tech: 'supabase.functions',
   name: 'Supabase Functions',
   type: 'hosting',
-  dependencies: [{ type: 'npm', name: '@supabase/functions-js' }],
+  dependencies: [
+    { type: 'npm', name: '@supabase/functions-js' },
+    { type: 'npm', name: 'supabase/functions-php' },
+  ],
 });

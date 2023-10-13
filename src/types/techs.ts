@@ -340,6 +340,7 @@ export type AllowedKeys =
   | 'stylelint'
   | 'supabase.functions'
   | 'supabase.postgres'
+  | 'supabase.realtime'
   | 'supabase.storage'
   | 'supabase'
   | 'sveltejs'

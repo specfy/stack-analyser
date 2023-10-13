@@ -113,6 +113,8 @@ exports[`php > should match everything 1`] = `
   "slack",
   "squareup",
   "stripe",
+  "supabase",
+  "supabase.postgres",
   "symfony",
   "telegram",
   "tencentcloud",
@@ -958,6 +960,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "stripe/stripe-php",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "supabase/postgrest-php",
     "0.0.0",
   ],
   [

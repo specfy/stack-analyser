@@ -322,6 +322,7 @@ exports[`all > should match everything 1`] = `
   "supabase",
   "supabase.functions",
   "supabase.postgres",
+  "supabase.realtime",
   "supabase.storage",
   "sveltejs",
   "symfony",

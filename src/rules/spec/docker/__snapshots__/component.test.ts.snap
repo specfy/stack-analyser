@@ -65,6 +65,7 @@ exports[`docker > should match everything 1`] = `
   "strapi",
   "supabase",
   "supabase.postgres",
+  "supabase.realtime",
   "supabase.storage",
   "telegram",
   "trufflesecurity",
@@ -179,6 +180,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "bitnami/supabase-postgres",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "bitnami/supabase-realtime",
     "0.0.0",
   ],
   [
@@ -479,6 +485,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "supabase/postgres-meta",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "supabase/realtime",
     "0.0.0",
   ],
   [
