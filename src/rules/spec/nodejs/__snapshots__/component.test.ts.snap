@@ -123,6 +123,7 @@ exports[`npm > should match everything 1`] = `
   "hyperdx",
   "hypertune",
   "influxdb",
+  "intercom",
   "jira",
   "koa",
   "koalaanalytics",
@@ -1009,6 +1010,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@intercom/intercom-react-native",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@kubernetes/client-node",
     "0.0.0",
   ],
@@ -1634,6 +1640,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "intercom-client",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "ioredis",
     "0.0.0",
   ],
@@ -1765,6 +1776,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "next",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "ng-intercom",
     "0.0.0",
   ],
   [
@@ -1905,6 +1921,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "react-instantsearch",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "react-use-intercom",
     "0.0.0",
   ],
   [

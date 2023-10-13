@@ -215,6 +215,7 @@ export type AllowedKeys =
   | 'hypertune'
   | 'iftt'
   | 'influxdb'
+  | 'intercom'
   | 'intuit'
   | 'java'
   | 'javascript'

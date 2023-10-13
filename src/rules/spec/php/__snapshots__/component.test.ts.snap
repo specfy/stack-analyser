@@ -72,6 +72,7 @@ exports[`php > should match everything 1`] = `
   "heroku",
   "hubspot",
   "influxdb",
+  "intercom",
   "jira",
   "klaviyo",
   "kubernetes",
@@ -550,6 +551,16 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "influxdata/influxdb-client-php",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "intercom/intercom-php",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "intercom/oauth2-intercom",
     "0.0.0",
   ],
   [

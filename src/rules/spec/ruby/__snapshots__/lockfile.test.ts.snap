@@ -93,6 +93,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "hashicorp_vault",
   "heroku",
   "influxdb",
+  "intercom",
   "jira",
   "kubernetes",
   "launchdarkly",
@@ -666,6 +667,16 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "influxdb-client",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "intercom",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "intercom-rails",
     "1.0.0",
   ],
   [
