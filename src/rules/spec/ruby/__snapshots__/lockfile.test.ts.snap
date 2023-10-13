@@ -4,6 +4,7 @@ exports[`ruby (component) > should match everything 1`] = `
 [
   "adyen",
   "algolia",
+  "apache_hadoop",
   "apache_kafka",
   "auth0",
   "aws",
@@ -669,6 +670,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "google_maps_service",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "hadoop-metrics2",
     "1.0.0",
   ],
   [

@@ -32,6 +32,7 @@ export type AllowedKeys =
   | 'apache_cassandra'
   | 'apache_couchdb'
   | 'apache_flink'
+  | 'apache_hadoop'
   | 'apache_hive'
   | 'apache_iceberg'
   | 'apache_kafka'

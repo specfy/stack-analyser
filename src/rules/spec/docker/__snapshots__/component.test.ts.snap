@@ -8,6 +8,7 @@ exports[`docker > should match everything 1`] = `
   "apache_cassandra",
   "apache_couchdb",
   "apache_flink",
+  "apache_hadoop",
   "apache_hive",
   "apache_iceberg",
   "apache_kafka",
@@ -124,6 +125,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "apache/flink",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "apache/hadoop",
     "0.0.0",
   ],
   [
