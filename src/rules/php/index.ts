@@ -1,4 +1,5 @@
 import './doctrinephp.js';
+import './joomla.js';
 import './laravel.js';
 import './magento.js';
 import './phppest.js';

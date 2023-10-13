@@ -74,6 +74,7 @@ exports[`php > should match everything 1`] = `
   "influxdb",
   "intercom",
   "jira",
+  "joomla",
   "klaviyo",
   "kubernetes",
   "laravel",
@@ -581,6 +582,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "jolicode/slack-php-api",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "joomla/application",
     "0.0.0",
   ],
   [

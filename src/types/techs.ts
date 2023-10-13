@@ -223,6 +223,7 @@ export type AllowedKeys =
   | 'jenkins'
   | 'jest'
   | 'jira'
+  | 'joomla'
   | 'kibana'
   | 'klarna'
   | 'klaviyo'
