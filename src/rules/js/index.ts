@@ -8,6 +8,7 @@ import './eslint.js';
 import './express.js';
 import './fastify.js';
 import './gastby.js';
+import './d3js.js';
 import './koa.js';
 import './meteorjs.js';
 import './mithriljs.js';

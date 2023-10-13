@@ -71,6 +71,7 @@ exports[`npm > should match everything 1`] = `
   "coveralls",
   "crowdin",
   "cypressci",
+  "d3js",
   "datadog",
   "deferrun",
   "discord",
@@ -1295,6 +1296,16 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@types/d3",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@types/d3-shape",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@upstash/kafka",
     "0.0.0",
   ],
@@ -1481,6 +1492,16 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "cypress",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "d3",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "d3-shape",
     "0.0.0",
   ],
   [

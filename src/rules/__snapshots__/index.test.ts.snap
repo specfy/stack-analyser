@@ -109,6 +109,7 @@ exports[`all > should match everything 1`] = `
   "csharp",
   "css",
   "cypressci",
+  "d3js",
   "dart",
   "databricks",
   "datadog",

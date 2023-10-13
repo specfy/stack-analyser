@@ -123,6 +123,7 @@ export type AllowedKeys =
   | 'csharp'
   | 'css'
   | 'cypressci'
+  | 'd3js'
   | 'dart'
   | 'databricks'
   | 'datadog'
