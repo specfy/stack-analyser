@@ -23,6 +23,7 @@ exports[`docker > should match everything 1`] = `
   "blackfire",
   "caddy",
   "checkov",
+  "chef",
   "clickhouse",
   "couchbase",
   "cypressci",
@@ -221,6 +222,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "cassandra",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "chef/chef",
     "0.0.0",
   ],
   [

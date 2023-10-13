@@ -104,6 +104,7 @@ export type AllowedKeys =
   | 'c'
   | 'caddy'
   | 'checkov'
+  | 'chef'
   | 'circleci'
   | 'cirrusci'
   | 'clickhouse'

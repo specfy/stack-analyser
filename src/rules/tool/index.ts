@@ -2,6 +2,7 @@ import './ansible.js';
 import './apiplatform.js';
 import './atlasgo.js';
 import './checkov.js';
+import './chef.js';
 import './gitlab.js';
 import './goacmelego.js';
 import './golangcilint.js';

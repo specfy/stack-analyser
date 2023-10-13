@@ -90,6 +90,7 @@ exports[`all > should match everything 1`] = `
   "c",
   "caddy",
   "checkov",
+  "chef",
   "circleci",
   "cirrusci",
   "clickhouse",
