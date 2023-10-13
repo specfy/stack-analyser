@@ -336,6 +336,7 @@ exports[`all > should match everything 1`] = `
   "twilio",
   "twitter",
   "typescript",
+  "typesense",
   "upstash",
   "upstash.kafka",
   "upstash.qstash",

@@ -50,6 +50,7 @@ import './replit.postgres.js';
 import './snowflake.js';
 import './sqlite.js';
 import './supabase.postgres.js';
+import './typesense.js';
 import './upstash.redis.js';
 import './vercel.blob.js';
 import './vercel.kv.js';

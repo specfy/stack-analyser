@@ -118,6 +118,7 @@ exports[`php > should match everything 1`] = `
   "tencentcloud",
   "twigphp",
   "twilio",
+  "typesense",
   "woocommerce",
   "wordpress",
   "yii2",
@@ -982,6 +983,16 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "twilio/sdk",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "typesense/laravel-scout-typesense-driver",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "typesense/typesense-php ",
     "0.0.0",
   ],
   [

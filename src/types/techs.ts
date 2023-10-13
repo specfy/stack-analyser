@@ -358,6 +358,7 @@ export type AllowedKeys =
   | 'twilio'
   | 'twitter'
   | 'typescript'
+  | 'typesense'
   | 'upstash.kafka'
   | 'upstash.qstash'
   | 'upstash.redis'

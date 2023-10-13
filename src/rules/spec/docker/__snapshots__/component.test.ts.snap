@@ -64,6 +64,7 @@ exports[`docker > should match everything 1`] = `
   "strapi",
   "telegram",
   "trufflesecurity",
+  "typesense",
   "vale",
   "zookeeper",
 ]
@@ -429,6 +430,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "trufflesecurity/trufflehog",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "typesense/typesense",
     "0.0.0",
   ],
   [

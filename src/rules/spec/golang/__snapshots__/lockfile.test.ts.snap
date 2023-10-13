@@ -97,6 +97,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "stripe",
   "telegram",
   "twilio",
+  "typesense",
 ]
 `;
 
@@ -600,6 +601,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/twilio/twilio-go",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/typesense/typesense-go/typesense",
     "v1.0.0",
   ],
   [

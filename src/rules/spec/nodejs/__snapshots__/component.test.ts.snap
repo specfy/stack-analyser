@@ -213,6 +213,7 @@ exports[`npm > should match everything 1`] = `
   "tinybird",
   "twilio",
   "typescript",
+  "typesense",
   "upstash",
   "upstash.kafka",
   "upstash.qstash",
@@ -1587,6 +1588,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "gatsby-plugin-typesense",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "google-artifactregistry-auth",
     "0.0.0",
   ],
@@ -2018,6 +2024,16 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "typescript",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "typesense",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "typesense-instantsearch-adapter",
     "0.0.0",
   ],
   [
