@@ -10,5 +10,8 @@ register({
     { type: 'npm', name: '@supabase/postgres-meta' },
     { type: 'npm', name: '@supabase/realtime-js' },
     { type: 'githubAction', name: 'supabase/embeddings-generator' },
+    { type: 'docker', name: 'bitnami/supabase-postgres' },
+    { type: 'docker', name: 'supabase/postgres' },
+    { type: 'docker', name: 'supabase/postgres-meta' },
   ],
 });

@@ -63,6 +63,9 @@ exports[`docker > should match everything 1`] = `
   "slack",
   "snyk",
   "strapi",
+  "supabase",
+  "supabase.postgres",
+  "supabase.storage",
   "telegram",
   "trufflesecurity",
   "typesense",
@@ -165,7 +168,27 @@ exports[`docker > should match everything 2`] = `
   ],
   [
     "docker",
+    "bitnami/postgresql",
+    "0.0.0",
+  ],
+  [
+    "docker",
     "bitnami/solr",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "bitnami/supabase-postgres",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "bitnami/supabase-storage",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "bitnamicharts/postgresql",
     "0.0.0",
   ],
   [
@@ -191,6 +214,16 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "cimg/azure",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "cimg/postgres",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "circleci/postgres",
     "0.0.0",
   ],
   [
@@ -440,12 +473,32 @@ exports[`docker > should match everything 2`] = `
   ],
   [
     "docker",
+    "supabase/postgres",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "supabase/postgres-meta",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "supabase/storage-api",
+    "0.0.0",
+  ],
+  [
+    "docker",
     "trufflesecurity/trufflehog",
     "0.0.0",
   ],
   [
     "docker",
     "typesense/typesense",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "ubuntu/postgres",
     "0.0.0",
   ],
   [

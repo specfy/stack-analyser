@@ -118,7 +118,7 @@ exports[`analyser > should run correctly 1`] = `
         "/docker-compose.yml",
       ],
       "reason": [
-        "postgresql matched: /postgres/",
+        "postgresql matched: /^postgres$/",
       ],
       "tech": "postgresql",
       "techs": [],

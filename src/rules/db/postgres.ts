@@ -6,7 +6,12 @@ register({
   type: 'db',
   dependencies: [
     { type: 'npm', name: 'pg' },
-    { type: 'docker', name: /postgres/, example: 'postgres:0.0.0' },
+    { type: 'docker', name: 'postgres' },
+    { type: 'docker', name: 'bitnami/postgresql' },
+    { type: 'docker', name: 'circleci/postgres' },
+    { type: 'docker', name: 'cimg/postgres' },
+    { type: 'docker', name: 'ubuntu/postgres' },
+    { type: 'docker', name: 'bitnamicharts/postgresql' },
     { type: 'rust', name: 'postgres' },
     { type: 'ruby', name: 'pg' },
     {
