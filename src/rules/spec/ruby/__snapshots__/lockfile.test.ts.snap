@@ -4,6 +4,7 @@ exports[`ruby (component) > should match everything 1`] = `
 [
   "adyen",
   "algolia",
+  "apache_kafka",
   "auth0",
   "aws",
   "aws.apigateway",
@@ -24,6 +25,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "aws.elasticache",
   "aws.glacier",
   "aws.glue",
+  "aws.kafka",
   "aws.kinesis",
   "aws.kms",
   "aws.lambda",
@@ -291,6 +293,11 @@ exports[`ruby (component) > should match everything 2`] = `
   ],
   [
     "ruby",
+    "aws-sdk-kafka",
+    "1.0.0",
+  ],
+  [
+    "ruby",
     "aws-sdk-kinesis",
     "1.0.0",
   ],
@@ -511,6 +518,11 @@ exports[`ruby (component) > should match everything 2`] = `
   ],
   [
     "ruby",
+    "fluent-plugin-kafka",
+    "1.0.0",
+  ],
+  [
+    "ruby",
     "functions_framework ",
     "1.0.0",
   ],
@@ -721,7 +733,17 @@ exports[`ruby (component) > should match everything 2`] = `
   ],
   [
     "ruby",
+    "logstash-input-kafka",
+    "1.0.0",
+  ],
+  [
+    "ruby",
     "logstash-logger",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "logstash-output-kafka",
     "1.0.0",
   ],
   [
@@ -882,6 +904,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "rollbar",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "ruby-kafka",
     "1.0.0",
   ],
   [

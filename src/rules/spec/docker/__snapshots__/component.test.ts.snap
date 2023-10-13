@@ -202,6 +202,11 @@ exports[`docker > should match everything 2`] = `
   ],
   [
     "docker",
+    "bitnamicharts/kafka",
+    "0.0.0",
+  ],
+  [
+    "docker",
     "bitnamicharts/postgresql",
     "0.0.0",
   ],
@@ -523,6 +528,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "typesense/typesense",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "ubuntu/kafka",
     "0.0.0",
   ],
   [

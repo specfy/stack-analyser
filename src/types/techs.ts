@@ -62,6 +62,7 @@ export type AllowedKeys =
   | 'aws.fargate'
   | 'aws.glacier'
   | 'aws.glue'
+  | 'aws.kafka'
   | 'aws.kinesis'
   | 'aws.kms'
   | 'aws.lambda'

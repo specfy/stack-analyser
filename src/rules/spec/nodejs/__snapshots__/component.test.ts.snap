@@ -8,6 +8,7 @@ exports[`npm > should match everything 1`] = `
   "alpinejs",
   "amplitude",
   "angular",
+  "apache_kafka",
   "apiplatform",
   "auth0",
   "aws",
@@ -1687,6 +1688,21 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "kafka-node",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "kafkajs",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "kafkajs-snappy",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "koa",
     "0.0.0",
   ],
@@ -1848,6 +1864,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "openai",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "opentelemetry-instrumentation-kafkajs",
     "0.0.0",
   ],
   [
