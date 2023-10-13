@@ -5,6 +5,7 @@ import './ci/index.js';
 import './cloud/index.js';
 import './db/index.js';
 import './etl/index.js';
+import './framework/index.js';
 import './hosting/index.js';
 import './js/index.js';
 import './language/index.js';

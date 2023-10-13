@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'wordpress',
   name: 'Wordpress',
-  type: 'tool',
+  type: 'framework',
   dependencies: [
     { type: 'php', name: 'wp-cli/wp-cli' },
     { type: 'php', name: 'roots/wordpress' },

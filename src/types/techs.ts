@@ -6,6 +6,7 @@ export type TechType =
   | 'cloud'
   | 'db'
   | 'etl'
+  | 'framework'
   | 'hosting'
   | 'language'
   | 'messaging'

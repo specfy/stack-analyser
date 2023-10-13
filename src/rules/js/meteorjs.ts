@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'meteorjs',
   name: 'Meteor',
-  type: 'tool',
+  type: 'framework',
   files: ['.meteor'],
   dependencies: [
     { type: 'npm', name: 'meteor' },

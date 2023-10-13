@@ -3,6 +3,8 @@ import type { AllowedKeys } from '../types/techs.js';
 
 import { Payload } from './index.js';
 
+const notAComponent = ['ci', 'language', 'tool', 'framework'];
+
 /**
  * When receive a tech in a component, we can deduct a new Component that was missing
  * For example we receive:
@@ -18,7 +20,7 @@ export function findImplicitComponent(
   reason: string[]
 ) {
   const ref = listIndexed[tech];
-  if (ref.type === 'ci' || ref.type === 'language' || ref.type === 'tool') {
+  if (notAComponent.includes(ref.type)) {
     return;
   }
 

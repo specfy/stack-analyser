@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'redwoodjs',
   name: 'RedwoodJs',
-  type: 'tool',
+  type: 'framework',
   files: ['redwood.toml'],
   dependencies: [
     { type: 'npm', name: '@vercel/redwood' },
