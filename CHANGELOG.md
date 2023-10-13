@@ -1,3 +1,49 @@
+# [1.7.0](https://github.com/specfy/stack-analyser/compare/v1.6.1...v1.7.0) (2023-10-13)
+
+
+### Bug Fixes
+
+* **rules:** add Adyen ([8dc48f6](https://github.com/specfy/stack-analyser/commit/8dc48f68a93b05098925782050311706110971a9))
+* **rules:** add Apache Hadoop ([34f23a0](https://github.com/specfy/stack-analyser/commit/34f23a035d8a29e7eadd9fe47ac2ffe4cfdcbbf8))
+* **rules:** add Apache Hive ([03bebe3](https://github.com/specfy/stack-analyser/commit/03bebe305de8358bf9c6fec14b5b79692feb1646))
+* **rules:** add Apache Solr ([8f79bae](https://github.com/specfy/stack-analyser/commit/8f79bae9317a0d49f9d887fdc53e4016da26528e))
+* **rules:** add AtlasGo ([127745b](https://github.com/specfy/stack-analyser/commit/127745b738bced89a222bd9827ec99e34d203c62))
+* **rules:** add AWS Kafka ([c713d8b](https://github.com/specfy/stack-analyser/commit/c713d8b4f41fbb43bc991d21dfe5f0fafece53b3))
+* **rules:** add Checkov ([ea48763](https://github.com/specfy/stack-analyser/commit/ea48763f872414dcdf2f7ec17602f491f6b62e36))
+* **rules:** add Chef' ([a8cdbed](https://github.com/specfy/stack-analyser/commit/a8cdbed16fdc32cf53adc8ed38208e185046395f))
+* **rules:** add Commercetools ([3630ec9](https://github.com/specfy/stack-analyser/commit/3630ec9a0355a81793b7d8cb0c28e88f98c29183))
+* **rules:** add D3 ([b8bfcc3](https://github.com/specfy/stack-analyser/commit/b8bfcc34dd001b169257b8f64e858b1ee4d7b3bc))
+* **rules:** add Gatsby ([95e0c13](https://github.com/specfy/stack-analyser/commit/95e0c1309440c9aa4dd68e1c9636c46f2248a9d6))
+* **rules:** add GolangCI Lint ([57e02c3](https://github.com/specfy/stack-analyser/commit/57e02c30c03df2118801aa8db40f3ffb9256157d))
+* **rules:** add Healthchecks.io ([efc4b12](https://github.com/specfy/stack-analyser/commit/efc4b1279b2d3968b77d7cc15c3ba0142b5703c0))
+* **rules:** add HyperDX ([cb327c3](https://github.com/specfy/stack-analyser/commit/cb327c3687f6004235ee689852da33b316c12bb2))
+* **rules:** add IBM Cloud ([d40e522](https://github.com/specfy/stack-analyser/commit/d40e522ae0eaef48ccb0a380b6cdb7054a7b661d))
+* **rules:** add IFTT ([4eb20fd](https://github.com/specfy/stack-analyser/commit/4eb20fdf2bed9323a5c2f82fcc01dfd4c7e83fb8))
+* **rules:** add Intercom ([2b798a9](https://github.com/specfy/stack-analyser/commit/2b798a90acd4ba52f5e740ff11551255e06efdce))
+* **rules:** add Joomla ([0b0b03a](https://github.com/specfy/stack-analyser/commit/0b0b03ab2bf856be69420e34c48f219a0671f2e9))
+* **rules:** add Koyeb ([549b566](https://github.com/specfy/stack-analyser/commit/549b5665b156ff04b117a2db28ff110d22d7d9af))
+* **rules:** add Linear ([79e7d97](https://github.com/specfy/stack-analyser/commit/79e7d97a3f3cc4d6cbf7f57b1638dd5de78afddf))
+* **rules:** add Logstash ([fe76a1f](https://github.com/specfy/stack-analyser/commit/fe76a1fabd456a5a6d9617605feaafc1df07b157))
+* **rules:** add more pkg for Coveralls ([c3cb7cb](https://github.com/specfy/stack-analyser/commit/c3cb7cb87fcf55311cbc320032491a9fa83875ef))
+* **rules:** add more pkg for Electron ([a303075](https://github.com/specfy/stack-analyser/commit/a303075b8c95678915087e48e5244579747044f9))
+* **rules:** add Optimizely ([a632c37](https://github.com/specfy/stack-analyser/commit/a632c373b4ddc6cc94644925a20e59293d8e0bb8))
+* **rules:** add Papertrail ([d656ad5](https://github.com/specfy/stack-analyser/commit/d656ad5e5c889f657c5764d78d9266d9bb92afb5))
+* **rules:** add Prestashop ([51e2a50](https://github.com/specfy/stack-analyser/commit/51e2a50252b3dfe8bc72aa9d0443603a05051443))
+* **rules:** add RedwoodJs ([03d5439](https://github.com/specfy/stack-analyser/commit/03d543948d04a6a3c473c4c98704e1b7bc7429fe))
+* **rules:** add Rollbar ([3a00b19](https://github.com/specfy/stack-analyser/commit/3a00b19ad39684bdd0ee46d9403cbb9a0f731294))
+* **rules:** add Scout APM ([a5ecfc5](https://github.com/specfy/stack-analyser/commit/a5ecfc55b38b0cec7e58b612ea651372331aab59))
+* **rules:** add some cloud version ([7c69754](https://github.com/specfy/stack-analyser/commit/7c69754d44c0d26a4b083455ba32e804ccea890b))
+* **rules:** add Supabase Realtime ([5c7eb36](https://github.com/specfy/stack-analyser/commit/5c7eb364fd55bbf2c9f28576c45e84137055b0b8))
+* **rules:** add Tensorflow ([dda684a](https://github.com/specfy/stack-analyser/commit/dda684af058b0c386d54d0b39ad9d7427d15bf6b))
+* **rules:** add Thrift ([685e8cf](https://github.com/specfy/stack-analyser/commit/685e8cfedf4149f916a13c7669558815b3f94fa3))
+* **rules:** add Vercel Edge ([818aba2](https://github.com/specfy/stack-analyser/commit/818aba2ca3d4fed05603dc80ebcd53e936f87d95))
+* **rules:** update docker images for docker ([a7163e6](https://github.com/specfy/stack-analyser/commit/a7163e6ed623318077350037732dda7dcc895551))
+
+
+### Features
+
+* introduce Framework category ([cd37660](https://github.com/specfy/stack-analyser/commit/cd37660c34a8c7dc0b13499f2d9cef0ed72c959b))
+
 ## [1.6.1](https://github.com/specfy/stack-analyser/compare/v1.6.0...v1.6.1) (2023-10-10)
 
 
