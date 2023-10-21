@@ -96,6 +96,7 @@ exports[`terraform (resource) > should match everything 1`] = `
   "scaleway.elasticmetal",
   "scaleway.function",
   "scaleway.kubernetes",
+  "scaleway.mq",
   "scaleway.redis",
   "scaleway.secretmanager",
   "scaleway.storage",

@@ -338,6 +338,7 @@ export type AllowedKeys =
   | 'scaleway.elasticmetal'
   | 'scaleway.function'
   | 'scaleway.kubernetes'
+  | 'scaleway.mq'
   | 'scaleway.redis'
   | 'scaleway.secretmanager'
   | 'scaleway.storage'
