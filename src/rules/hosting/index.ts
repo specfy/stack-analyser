@@ -33,6 +33,7 @@ import './qovery.cluster.js';
 import './render.js';
 import './replit.js';
 import './scaleway.container.js';
+import './scaleway.elasticmetal.js';
 import './scaleway.functions.js';
 import './sitecore.js';
 import './supabase.functions.js';
