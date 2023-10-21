@@ -257,6 +257,7 @@ exports[`all > should match everything 1`] = `
   "optimizely",
   "oraclecloud",
   "ovh",
+  "ovh.database",
   "pagerduty",
   "papertrail",
   "paypal",

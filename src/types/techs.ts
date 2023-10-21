@@ -275,6 +275,7 @@ export type AllowedKeys =
   | 'openai'
   | 'optimizely'
   | 'oraclecloud'
+  | 'ovh.database'
   | 'ovh'
   | 'pagerduty'
   | 'papertrail'
