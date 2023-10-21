@@ -13,6 +13,7 @@ import './netlify.js';
 import './nextcloud.js';
 import './oraclecloud.js';
 import './ovh.js';
+import './qovery.js';
 import './scaleway.js';
 import './supabase.js';
 import './upstash.js';

@@ -303,6 +303,7 @@ export type AllowedKeys =
   | 'prismacloud'
   | 'puppeteer'
   | 'python'
+  | 'qovery'
   | 'rabbitmq'
   | 'react'
   | 'reactemail'

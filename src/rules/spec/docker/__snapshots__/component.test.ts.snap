@@ -62,6 +62,7 @@ exports[`docker > should match everything 1`] = `
   "plausible",
   "playwright",
   "postgresql",
+  "qovery",
   "rabbitmq",
   "redis",
   "ruby",
@@ -456,6 +457,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "postgres",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "public.ecr.aws/r3m4q3r9/qovery-cli",
     "0.0.0",
   ],
   [

@@ -49,6 +49,7 @@ exports[`docker > should match all dependencies 1`] = `
   "optimizely",
   "planetscale",
   "postgresql",
+  "qovery",
   "rollbar",
   "scaleway",
   "sentry",
@@ -107,6 +108,11 @@ exports[`docker > should match all dependencies 2`] = `
   [
     "githubAction",
     "JamesIves/github-pages-deploy-action",
+    "1",
+  ],
+  [
+    "githubAction",
+    "Qovery/qovery-action",
     "1",
   ],
   [

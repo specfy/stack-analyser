@@ -283,6 +283,7 @@ exports[`all > should match everything 1`] = `
   "prismacloud",
   "puppeteer",
   "python",
+  "qovery",
   "rabbitmq",
   "react",
   "reactemail",
