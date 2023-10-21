@@ -314,6 +314,7 @@ exports[`all > should match everything 1`] = `
   "sas",
   "scaleway",
   "scaleway.database",
+  "scaleway.documentdb",
   "scaleway.redis",
   "scaleway.secretmanager",
   "scoutapm",

@@ -54,6 +54,7 @@ import './redis.js';
 import './replit.database.js';
 import './replit.postgres.js';
 import './scaleway.database.js';
+import './scaleway.documentdb.js';
 import './scaleway.redis.js';
 import './scaleway.secretmanager.js';
 import './snowflake.js';

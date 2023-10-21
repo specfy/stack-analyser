@@ -333,6 +333,7 @@ export type AllowedKeys =
   | 'sap'
   | 'sas'
   | 'scaleway.database'
+  | 'scaleway.documentdb'
   | 'scaleway.redis'
   | 'scaleway.secretmanager'
   | 'scaleway'
