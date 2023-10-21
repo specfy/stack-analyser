@@ -89,6 +89,8 @@ exports[`terraform (resource) > should match everything 1`] = `
   "qovery",
   "qovery.cluster",
   "qovery.database",
+  "scaleway",
+  "scaleway.database",
   "terraform",
 ]
 `;

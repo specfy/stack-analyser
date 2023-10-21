@@ -53,6 +53,7 @@ import './qovery.database.js';
 import './redis.js';
 import './replit.database.js';
 import './replit.postgres.js';
+import './scaleway.database.js';
 import './snowflake.js';
 import './sqlite.js';
 import './supabase.postgres.js';

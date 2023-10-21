@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'ovh.storage',
   name: 'OVH Storage',
-  type: 'hosting',
+  type: 'storage',
   dependencies: [
     {
       type: 'terraform.resource',
