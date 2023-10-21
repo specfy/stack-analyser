@@ -284,6 +284,7 @@ exports[`all > should match everything 1`] = `
   "puppeteer",
   "python",
   "qovery",
+  "qovery.cluster",
   "qovery.database",
   "rabbitmq",
   "react",

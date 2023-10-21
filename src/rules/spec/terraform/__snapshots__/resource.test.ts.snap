@@ -81,6 +81,7 @@ exports[`terraform (resource) > should match everything 1`] = `
   "gcp.tasks",
   "jira",
   "qovery",
+  "qovery.cluster",
   "qovery.database",
   "terraform",
 ]

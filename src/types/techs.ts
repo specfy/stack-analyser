@@ -303,6 +303,7 @@ export type AllowedKeys =
   | 'prismacloud'
   | 'puppeteer'
   | 'python'
+  | 'qovery.cluster'
   | 'qovery.database'
   | 'qovery'
   | 'rabbitmq'
