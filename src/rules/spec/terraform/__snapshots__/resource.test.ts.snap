@@ -83,6 +83,7 @@ exports[`terraform (resource) > should match everything 1`] = `
   "ovh",
   "ovh.database",
   "ovh.kubernetes",
+  "ovh.storage",
   "qovery",
   "qovery.cluster",
   "qovery.database",
