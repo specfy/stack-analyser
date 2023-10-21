@@ -32,6 +32,7 @@ import './platformsh.js';
 import './qovery.cluster.js';
 import './render.js';
 import './replit.js';
+import './scaleway.functions.js';
 import './sitecore.js';
 import './supabase.functions.js';
 import './tencentcloud.js';

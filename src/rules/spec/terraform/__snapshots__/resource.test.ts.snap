@@ -92,6 +92,7 @@ exports[`terraform (resource) > should match everything 1`] = `
   "scaleway",
   "scaleway.database",
   "scaleway.documentdb",
+  "scaleway.function",
   "scaleway.redis",
   "scaleway.secretmanager",
   "scaleway.storage",

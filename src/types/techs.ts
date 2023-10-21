@@ -334,6 +334,7 @@ export type AllowedKeys =
   | 'sas'
   | 'scaleway.database'
   | 'scaleway.documentdb'
+  | 'scaleway.function'
   | 'scaleway.redis'
   | 'scaleway.secretmanager'
   | 'scaleway.storage'
