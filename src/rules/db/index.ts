@@ -48,6 +48,7 @@ import './neo4j.js';
 import './percona.js';
 import './planetscale.js';
 import './postgres.js';
+import './qovery.database.js';
 import './redis.js';
 import './replit.database.js';
 import './replit.postgres.js';
