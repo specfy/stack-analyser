@@ -276,6 +276,8 @@ export type AllowedKeys =
   | 'optimizely'
   | 'oraclecloud'
   | 'ovh.database'
+  | 'ovh.kubernetes'
+  | 'ovh.storage'
   | 'ovh'
   | 'pagerduty'
   | 'papertrail'
