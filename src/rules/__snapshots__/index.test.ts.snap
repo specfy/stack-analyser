@@ -317,6 +317,7 @@ exports[`all > should match everything 1`] = `
   "scaleway.documentdb",
   "scaleway.redis",
   "scaleway.secretmanager",
+  "scaleway.storage",
   "scoutapm",
   "scss",
   "sendgrid",

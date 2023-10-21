@@ -8,4 +8,5 @@ import './gcp.artifactregistry.js';
 import './gcp.containerregistry.js';
 import './gcp.gcs.js';
 import './ovh.storage.js';
+import './scaleway.storage.js';
 import './supabase.storage.js';

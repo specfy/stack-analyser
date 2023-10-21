@@ -336,6 +336,7 @@ export type AllowedKeys =
   | 'scaleway.documentdb'
   | 'scaleway.redis'
   | 'scaleway.secretmanager'
+  | 'scaleway.storage'
   | 'scaleway'
   | 'scoutapm'
   | 'scss'
