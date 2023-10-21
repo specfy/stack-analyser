@@ -22,6 +22,7 @@ exports[`docker > should match all dependencies 1`] = `
   "cloudflare.workers",
   "databricks",
   "datadog",
+  "denodeploy",
   "digitalocean",
   "discord",
   "elasticsearch",
@@ -358,6 +359,11 @@ exports[`docker > should match all dependencies 2`] = `
   [
     "githubAction",
     "datadog/agent-github-action",
+    "1",
+  ],
+  [
+    "githubAction",
+    "denoland/deployctl",
     "1",
   ],
   [

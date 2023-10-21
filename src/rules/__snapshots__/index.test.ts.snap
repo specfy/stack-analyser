@@ -120,6 +120,7 @@ exports[`all > should match everything 1`] = `
   "datastax",
   "deferrun",
   "deno",
+  "denodeploy",
   "dependabot",
   "digitalocean",
   "discord",

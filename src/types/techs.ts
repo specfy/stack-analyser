@@ -135,6 +135,7 @@ export type AllowedKeys =
   | 'datastax'
   | 'deferrun'
   | 'deno'
+  | 'denodeploy'
   | 'dependabot'
   | 'digitalocean'
   | 'discord'

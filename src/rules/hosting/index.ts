@@ -9,6 +9,7 @@ import './aws.lightsail.js';
 import './azure.aks.js';
 import './cloudflare.pages.js';
 import './cloudflare.workers.js';
+import './denodeploy.js';
 import './digitalocean.js';
 import './elasticcloud.js';
 import './elasticstack.js';
