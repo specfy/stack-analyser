@@ -313,6 +313,7 @@ exports[`all > should match everything 1`] = `
   "sap",
   "sas",
   "scaleway",
+  "scaleway.container",
   "scaleway.database",
   "scaleway.documentdb",
   "scaleway.function",

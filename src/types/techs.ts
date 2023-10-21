@@ -332,6 +332,7 @@ export type AllowedKeys =
   | 'sanity'
   | 'sap'
   | 'sas'
+  | 'scaleway.container'
   | 'scaleway.database'
   | 'scaleway.documentdb'
   | 'scaleway.function'
