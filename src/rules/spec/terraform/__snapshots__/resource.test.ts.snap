@@ -82,6 +82,7 @@ exports[`terraform (resource) > should match everything 1`] = `
   "jira",
   "ovh",
   "ovh.database",
+  "ovh.dedicated",
   "ovh.kubernetes",
   "ovh.storage",
   "ovh.vps",

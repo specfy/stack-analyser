@@ -24,6 +24,7 @@ import './github.pages.js';
 import './koyeb.js';
 import './kubernetes.js';
 import './mongodbatlas.js';
+import './ovh.dedicated.js';
 import './ovh.kubernetes.js';
 import './ovh.vps.js';
 import './platformsh.js';

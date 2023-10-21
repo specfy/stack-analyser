@@ -276,6 +276,7 @@ export type AllowedKeys =
   | 'optimizely'
   | 'oraclecloud'
   | 'ovh.database'
+  | 'ovh.dedicated'
   | 'ovh.kubernetes'
   | 'ovh.storage'
   | 'ovh.vps'
