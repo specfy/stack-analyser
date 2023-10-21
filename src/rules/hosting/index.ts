@@ -25,6 +25,7 @@ import './koyeb.js';
 import './kubernetes.js';
 import './mongodbatlas.js';
 import './ovh.kubernetes.js';
+import './ovh.vps.js';
 import './platformsh.js';
 import './qovery.cluster.js';
 import './render.js';

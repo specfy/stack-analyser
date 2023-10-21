@@ -278,6 +278,7 @@ export type AllowedKeys =
   | 'ovh.database'
   | 'ovh.kubernetes'
   | 'ovh.storage'
+  | 'ovh.vps'
   | 'ovh'
   | 'pagerduty'
   | 'papertrail'

@@ -260,6 +260,7 @@ exports[`all > should match everything 1`] = `
   "ovh.database",
   "ovh.kubernetes",
   "ovh.storage",
+  "ovh.vps",
   "pagerduty",
   "papertrail",
   "paypal",
