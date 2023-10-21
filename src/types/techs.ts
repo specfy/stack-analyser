@@ -337,6 +337,7 @@ export type AllowedKeys =
   | 'scaleway.documentdb'
   | 'scaleway.elasticmetal'
   | 'scaleway.function'
+  | 'scaleway.kubernetes'
   | 'scaleway.redis'
   | 'scaleway.secretmanager'
   | 'scaleway.storage'

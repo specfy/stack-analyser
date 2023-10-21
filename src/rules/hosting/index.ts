@@ -35,6 +35,7 @@ import './replit.js';
 import './scaleway.container.js';
 import './scaleway.elasticmetal.js';
 import './scaleway.functions.js';
+import './scaleway.kubernetes.js';
 import './sitecore.js';
 import './supabase.functions.js';
 import './tencentcloud.js';
