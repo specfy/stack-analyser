@@ -498,6 +498,11 @@ exports[`docker > should match all dependencies 2`] = `
   ],
   [
     "githubAction",
+    "jeffreytse/jekyll-deploy-action",
+    "1",
+  ],
+  [
+    "githubAction",
     "jonelantha/gatsby-s3-action",
     "1",
   ],

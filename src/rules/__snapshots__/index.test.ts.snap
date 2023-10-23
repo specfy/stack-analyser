@@ -222,6 +222,7 @@ exports[`all > should match everything 1`] = `
   "intercom",
   "intuit",
   "java",
+  "jekyll",
   "jenkins",
   "jira",
   "joomla",

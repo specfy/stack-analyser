@@ -239,6 +239,7 @@ export type AllowedKeys =
   | 'intuit'
   | 'java'
   | 'javascript'
+  | 'jekyll'
   | 'jenkins'
   | 'jest'
   | 'jira'
