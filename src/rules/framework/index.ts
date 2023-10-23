@@ -7,4 +7,5 @@ import './eleventy.js';
 import './expojs.js';
 import './gridsome.js';
 import './ghost.js';
+import './hexojs.js';
 import './hugo.js';

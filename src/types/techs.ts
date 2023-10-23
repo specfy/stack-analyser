@@ -223,6 +223,7 @@ export type AllowedKeys =
   | 'healthchecksio'
   | 'helm'
   | 'heroku'
+  | 'hexojs'
   | 'hotjar'
   | 'html'
   | 'httpd'

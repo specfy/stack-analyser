@@ -208,6 +208,7 @@ exports[`all > should match everything 1`] = `
   "healthchecksio",
   "helm",
   "heroku",
+  "hexojs",
   "hotjar",
   "httpd",
   "hubspot",
