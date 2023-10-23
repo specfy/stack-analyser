@@ -24,6 +24,7 @@ exports[`docker > should match everything 1`] = `
   "aws.s3",
   "azure",
   "blackfire",
+  "bytebase",
   "caddy",
   "checkov",
   "chef",
@@ -270,6 +271,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "bridgecrew/checkov",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "bytebase/bytebase",
     "0.0.0",
   ],
   [

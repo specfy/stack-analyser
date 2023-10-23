@@ -2,6 +2,7 @@ import './adminer.js';
 import './ansible.js';
 import './apiplatform.js';
 import './atlasgo.js';
+import './bytebase.js';
 import './checkov.js';
 import './chef.js';
 import './gitlab.js';

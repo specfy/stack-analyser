@@ -109,6 +109,7 @@ export type AllowedKeys =
   | 'box'
   | 'brevo'
   | 'browserstack'
+  | 'bytebase'
   | 'c'
   | 'caddy'
   | 'checkov'

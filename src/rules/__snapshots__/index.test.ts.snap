@@ -94,6 +94,7 @@ exports[`all > should match everything 1`] = `
   "box",
   "brevo",
   "browserstack",
+  "bytebase",
   "c",
   "caddy",
   "checkov",
