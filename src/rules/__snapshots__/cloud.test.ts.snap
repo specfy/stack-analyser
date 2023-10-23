@@ -4,7 +4,6 @@ exports[`hosting > should match everything with files 1`] = `
 [
   "firebase",
   "flyio",
-  "heroku",
   "netlify",
   "vercel",
 ]

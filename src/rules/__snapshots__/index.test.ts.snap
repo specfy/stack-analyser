@@ -147,6 +147,7 @@ exports[`all > should match everything 1`] = `
   "esbuild",
   "eslint",
   "expodev",
+  "expojs",
   "express",
   "fabric",
   "facebook",

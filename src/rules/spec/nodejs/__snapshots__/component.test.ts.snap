@@ -89,6 +89,7 @@ exports[`npm > should match everything 1`] = `
   "emberjs",
   "esbuild",
   "eslint",
+  "expojs",
   "express",
   "fastify",
   "fastly",
@@ -1650,6 +1651,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "eslint",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "expo",
     "0.0.0",
   ],
   [

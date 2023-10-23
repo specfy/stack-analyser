@@ -162,6 +162,7 @@ export type AllowedKeys =
   | 'esbuild'
   | 'eslint'
   | 'expodev'
+  | 'expojs'
   | 'express'
   | 'fabric'
   | 'facebook'
