@@ -110,6 +110,7 @@ exports[`php > should match everything 1`] = `
   "rabbitmq",
   "redis",
   "resend",
+  "rethinkdb",
   "rollbar",
   "scoutapm",
   "sendgrid",
@@ -315,6 +316,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "csharpru/vault-php",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "danielmewes/php-rql",
     "0.0.0",
   ],
   [

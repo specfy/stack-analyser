@@ -53,6 +53,7 @@ import './qovery.database.js';
 import './redis.js';
 import './replit.database.js';
 import './replit.postgres.js';
+import './rethinkdb.js';
 import './scaleway.database.js';
 import './scaleway.documentdb.js';
 import './scaleway.redis.js';

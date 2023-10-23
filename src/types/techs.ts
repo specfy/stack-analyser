@@ -345,6 +345,7 @@ export type AllowedKeys =
   | 'replit.postgres'
   | 'replit'
   | 'resend'
+  | 'rethinkdb'
   | 'rollbar'
   | 'rollup'
   | 'ruby'

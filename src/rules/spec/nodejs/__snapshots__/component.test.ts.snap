@@ -196,6 +196,7 @@ exports[`npm > should match everything 1`] = `
   "replit",
   "replit.database",
   "resend",
+  "rethinkdb",
   "rollbar",
   "rollup",
   "salesforce",
@@ -2155,6 +2156,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "resend",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "rethinkdb",
     "0.0.0",
   ],
   [
