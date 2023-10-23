@@ -404,6 +404,7 @@ export type AllowedKeys =
   | 'tailscale'
   | 'tailwind'
   | 'teamcity'
+  | 'teamspeak'
   | 'telegraf'
   | 'telegram'
   | 'tencentcloud'

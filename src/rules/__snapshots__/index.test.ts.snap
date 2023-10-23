@@ -382,6 +382,7 @@ exports[`all > should match everything 1`] = `
   "symfony",
   "tailwind",
   "teamcity",
+  "teamspeak",
   "telegraf",
   "telegram",
   "tencentcloud",
