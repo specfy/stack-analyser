@@ -43,6 +43,7 @@ exports[`docker > should match everything 1`] = `
   "haproxy",
   "hashicorp_vault",
   "httpd",
+  "hugo",
   "influxdb",
   "jenkins",
   "jira",
@@ -181,6 +182,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "atlassian/jira-software",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "betterweb/hugo",
     "0.0.0",
   ],
   [
@@ -360,6 +366,11 @@ exports[`docker > should match everything 2`] = `
   ],
   [
     "docker",
+    "hugomods/hugo",
+    "0.0.0",
+  ],
+  [
+    "docker",
     "influxdb",
     "0.0.0",
   ],
@@ -391,6 +402,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "kibana",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "klakegg/hugo",
     "0.0.0",
   ],
   [

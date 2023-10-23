@@ -221,6 +221,7 @@ export type AllowedKeys =
   | 'httpd'
   | 'hubspot'
   | 'huggingface'
+  | 'hugo'
   | 'hyperdx'
   | 'hypertune'
   | 'ibmcloud'

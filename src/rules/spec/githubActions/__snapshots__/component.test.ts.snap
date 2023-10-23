@@ -528,6 +528,11 @@ exports[`docker > should match all dependencies 2`] = `
   ],
   [
     "githubAction",
+    "peaceiris/actions-hugo",
+    "1",
+  ],
+  [
+    "githubAction",
     "planetscale/create-branch-action",
     "1",
   ],

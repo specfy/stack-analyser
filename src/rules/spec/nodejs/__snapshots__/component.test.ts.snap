@@ -124,6 +124,7 @@ exports[`npm > should match everything 1`] = `
   "github",
   "hotjar",
   "huggingface",
+  "hugo",
   "hyperdx",
   "hypertune",
   "influxdb",
@@ -1699,6 +1700,16 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "grammy",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "hugo-extended",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "hugo-lunr-indexer",
     "0.0.0",
   ],
   [
