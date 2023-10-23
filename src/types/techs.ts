@@ -155,6 +155,7 @@ export type AllowedKeys =
   | 'elasticsearch'
   | 'elasticstack'
   | 'electron'
+  | 'eleventy'
   | 'elixir'
   | 'emberjs'
   | 'equinix'

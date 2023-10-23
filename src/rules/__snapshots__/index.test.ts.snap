@@ -140,6 +140,7 @@ exports[`all > should match everything 1`] = `
   "elasticsearch",
   "elasticstack",
   "electron",
+  "eleventy",
   "elixir",
   "emberjs",
   "equinix",

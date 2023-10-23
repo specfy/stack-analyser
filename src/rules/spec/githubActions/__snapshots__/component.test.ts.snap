@@ -123,6 +123,11 @@ exports[`docker > should match all dependencies 2`] = `
   ],
   [
     "githubAction",
+    "TartanLlama/actions-eleventy",
+    "1",
+  ],
+  [
+    "githubAction",
     "actions/deploy-pages",
     "1",
   ],
