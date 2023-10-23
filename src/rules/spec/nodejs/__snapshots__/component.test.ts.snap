@@ -63,6 +63,7 @@ exports[`npm > should match everything 1`] = `
   "azure.sql",
   "betterstack",
   "bigcommerce",
+  "blitzjs",
   "bootstrap",
   "brevo",
   "browserstack",
@@ -1502,6 +1503,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "aws-sdk",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "blitz",
     "0.0.0",
   ],
   [

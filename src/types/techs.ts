@@ -104,6 +104,7 @@ export type AllowedKeys =
   | 'bigcommerce'
   | 'bitbucket'
   | 'blackfire'
+  | 'blitzjs'
   | 'bootstrap'
   | 'box'
   | 'brevo'
