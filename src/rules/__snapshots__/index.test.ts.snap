@@ -104,6 +104,7 @@ exports[`all > should match everything 1`] = `
   "codecov",
   "codesandboxci",
   "commercetools",
+  "consul",
   "contenful",
   "couchbase",
   "coveralls",

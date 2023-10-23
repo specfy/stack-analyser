@@ -1,4 +1,5 @@
 import './caddy.js';
+import './consul.js';
 import './discourse.js';
 import './grafana.js';
 import './httpd.js';

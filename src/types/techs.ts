@@ -119,6 +119,7 @@ export type AllowedKeys =
   | 'codecov'
   | 'codesandboxci'
   | 'commercetools'
+  | 'consul'
   | 'contenful'
   | 'couchbase'
   | 'coveralls'
