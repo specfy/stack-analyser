@@ -80,6 +80,7 @@ exports[`npm > should match everything 1`] = `
   "datadog",
   "deferrun",
   "discord",
+  "docusaurus",
   "docusign",
   "dynatrace",
   "elasticsearch",
@@ -773,6 +774,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@docsearch/react",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@docusaurus/core",
     "0.0.0",
   ],
   [
@@ -1593,6 +1599,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "docsearch.js",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "docusaurus",
     "0.0.0",
   ],
   [

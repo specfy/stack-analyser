@@ -132,6 +132,7 @@ exports[`all > should match everything 1`] = `
   "discourse",
   "docker",
   "doctrinephp",
+  "docusaurus",
   "docusign",
   "dropbox",
   "dynatrace",

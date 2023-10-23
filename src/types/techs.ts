@@ -147,6 +147,7 @@ export type AllowedKeys =
   | 'discourse'
   | 'docker'
   | 'doctrinephp'
+  | 'docusaurus'
   | 'docusign'
   | 'dropbox'
   | 'dynatrace'
