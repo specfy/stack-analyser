@@ -129,6 +129,7 @@ export type AllowedKeys =
   | 'couchbase'
   | 'coveralls'
   | 'cplusplus'
+  | 'cratedb'
   | 'crowdin'
   | 'csharp'
   | 'css'

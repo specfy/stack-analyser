@@ -26,6 +26,7 @@ import './azure.sql.js';
 import './clickhouse.js';
 import './cockroachdb.js';
 import './couchbase.js';
+import './cratedb.js';
 import './datastax.js';
 import './elasticsearch.js';
 import './firebase.firestore.js';

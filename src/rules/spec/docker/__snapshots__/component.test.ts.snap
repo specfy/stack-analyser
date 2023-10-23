@@ -31,6 +31,7 @@ exports[`docker > should match everything 1`] = `
   "clickhouse",
   "consul",
   "couchbase",
+  "cratedb",
   "cypressci",
   "deno",
   "discourse",
@@ -74,6 +75,7 @@ exports[`docker > should match everything 1`] = `
   "plausible",
   "playwright",
   "postgresql",
+  "puppeteer",
   "qovery",
   "rabbitmq",
   "redis",
@@ -335,6 +337,11 @@ exports[`docker > should match everything 2`] = `
   ],
   [
     "docker",
+    "cratedb",
+    "0.0.0",
+  ],
+  [
+    "docker",
     "cypress",
     "0.0.0",
   ],
@@ -431,6 +438,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "influxdb",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "itisfoundation/puppeteer",
     "0.0.0",
   ],
   [

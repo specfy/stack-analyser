@@ -4,5 +4,8 @@ register({
   tech: 'puppeteer',
   name: 'Puppeteer',
   type: 'tool',
-  dependencies: [{ type: 'npm', name: 'puppeteer' }],
+  dependencies: [
+    { type: 'npm', name: 'puppeteer' },
+    { type: 'docker', name: 'itisfoundation/puppeteer' },
+  ],
 });
