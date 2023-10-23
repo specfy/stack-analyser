@@ -135,6 +135,7 @@ exports[`all > should match everything 1`] = `
   "docusaurus",
   "docusign",
   "dropbox",
+  "drupal",
   "dynatrace",
   "elasticcloud",
   "elasticsearch",

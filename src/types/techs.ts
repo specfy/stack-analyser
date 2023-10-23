@@ -150,6 +150,7 @@ export type AllowedKeys =
   | 'docusaurus'
   | 'docusign'
   | 'dropbox'
+  | 'drupal'
   | 'dynatrace'
   | 'elasticcloud'
   | 'elasticsearch'

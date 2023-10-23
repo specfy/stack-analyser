@@ -36,6 +36,7 @@ exports[`php > should match everything 1`] = `
   "doctrinephp",
   "docusign",
   "dropbox",
+  "drupal",
   "elasticsearch",
   "firebase",
   "firebase.firestore",
@@ -354,6 +355,21 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "drewm/mailchimp-api",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "drupal/core",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "drupal/core-recommended",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "drupal/drupal-extension",
     "0.0.0",
   ],
   [
@@ -728,6 +744,11 @@ exports[`php > should match everything 2`] = `
   ],
   [
     "php",
+    "mglaman/phpstan-drupal",
+    "0.0.0",
+  ],
+  [
+    "php",
     "mixpanel/mixpanel-php",
     "0.0.0",
   ],
@@ -1029,6 +1050,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "typesense/typesense-php ",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "webflo/drupal-finder",
     "0.0.0",
   ],
   [

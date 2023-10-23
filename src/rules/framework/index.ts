@@ -3,6 +3,7 @@ import './assemble.js';
 import './astro.js';
 import './blitzjs.js';
 import './docusaurus.js';
+import './drupal.js';
 import './eleventy.js';
 import './expojs.js';
 import './gridsome.js';
