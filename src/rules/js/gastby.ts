@@ -4,6 +4,7 @@ register({
   tech: 'gatsby',
   name: 'Gatsby',
   type: 'tool',
+  files: ['gatsby-config.js', 'gatsby-config.ts'],
   dependencies: [
     { type: 'npm', name: 'gatsby' },
     { type: 'npm', name: 'gatsby-cli' },

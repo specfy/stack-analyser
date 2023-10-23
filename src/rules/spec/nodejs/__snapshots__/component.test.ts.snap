@@ -128,6 +128,7 @@ exports[`npm > should match everything 1`] = `
   "ghost",
   "gitbook",
   "github",
+  "gridsome",
   "hotjar",
   "huggingface",
   "hugo",
@@ -1741,6 +1742,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "grammy",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "gridsome",
     "0.0.0",
   ],
   [

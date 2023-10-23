@@ -5,5 +5,6 @@ import './blitzjs.js';
 import './docusaurus.js';
 import './eleventy.js';
 import './expojs.js';
+import './gridsome.js';
 import './ghost.js';
 import './hugo.js';
