@@ -425,6 +425,11 @@ exports[`docker > should match everything 2`] = `
   ],
   [
     "docker",
+    "nextcloud",
+    "0.0.0",
+  ],
+  [
+    "docker",
     "nextcloud/aio-nextcloud",
     "0.0.0",
   ],
