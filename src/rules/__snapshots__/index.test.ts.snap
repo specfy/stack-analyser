@@ -28,6 +28,7 @@ exports[`all > should match everything 1`] = `
   "apache_thrift",
   "apiplatform",
   "appveyor",
+  "assemble",
   "atlasgo",
   "atlassian",
   "auth0",

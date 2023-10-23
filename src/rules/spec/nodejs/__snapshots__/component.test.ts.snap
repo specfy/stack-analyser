@@ -11,6 +11,7 @@ exports[`npm > should match everything 1`] = `
   "apache_kafka",
   "apache_thrift",
   "apiplatform",
+  "assemble",
   "auth0",
   "aws",
   "aws.amplifyhosting",
@@ -1475,6 +1476,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "angular",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "assemble",
     "0.0.0",
   ],
   [

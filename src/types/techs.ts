@@ -43,6 +43,7 @@ export type AllowedKeys =
   | 'apache_thrift'
   | 'apiplatform'
   | 'appveyor'
+  | 'assemble'
   | 'atlasgo'
   | 'atlassian'
   | 'auth0'
