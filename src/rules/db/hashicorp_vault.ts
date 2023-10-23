@@ -5,7 +5,7 @@ register({
   name: 'Vault',
   type: 'db',
   dependencies: [
-    { type: 'docker', name: /vault/, example: 'vault:0.0.0' },
+    { type: 'docker', name: 'vault' },
     { type: 'terraform', name: 'registry.terraform.io/hashicorp/vault' },
     { type: 'rust', name: 'hashicorp_vault' },
     { type: 'ruby', name: 'vault' },
