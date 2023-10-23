@@ -73,6 +73,7 @@ exports[`rust (component) > should match everything 1`] = `
   "memcached",
   "mongodb",
   "mysql",
+  "nats",
   "neo4j",
   "okta",
   "pagerduty",
@@ -473,6 +474,11 @@ exports[`rust (component) > should match everything 2`] = `
   [
     "rust",
     "mysql_async",
+    "1.0.0",
+  ],
+  [
+    "rust",
+    "nats",
     "1.0.0",
   ],
   [

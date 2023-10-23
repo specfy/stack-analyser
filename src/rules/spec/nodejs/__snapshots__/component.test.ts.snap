@@ -159,6 +159,7 @@ exports[`npm > should match everything 1`] = `
   "mithriljs",
   "mongodb",
   "mysql",
+  "nats",
   "neo4j",
   "netlify",
   "newrelic",
@@ -1113,6 +1114,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@netlify/plugin-nextjs",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@netlify/run-utils",
     "0.0.0",
   ],
@@ -1918,6 +1924,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "nats",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "neo4j-driver",
     "0.0.0",
   ],
@@ -1974,6 +1985,16 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "nuxt",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "nuxt-edge",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "nuxt3",
     "0.0.0",
   ],
   [

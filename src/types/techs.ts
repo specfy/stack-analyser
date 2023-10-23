@@ -278,6 +278,7 @@ export type AllowedKeys =
   | 'mongodbatlas'
   | 'mongoexpress'
   | 'mysql'
+  | 'nats'
   | 'neo4j'
   | 'netlify'
   | 'newrelic'

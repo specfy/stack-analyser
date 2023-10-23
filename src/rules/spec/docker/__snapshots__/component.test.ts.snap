@@ -60,6 +60,7 @@ exports[`docker > should match everything 1`] = `
   "mongodb",
   "mongoexpress",
   "mysql",
+  "nats",
   "neo4j",
   "nextcloud",
   "nginx",
@@ -218,6 +219,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "bitnami/mongodb-sharded",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "bitnami/nats",
     "0.0.0",
   ],
   [
@@ -488,6 +494,16 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "mysql",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "nats",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "nats-streaming",
     "0.0.0",
   ],
   [

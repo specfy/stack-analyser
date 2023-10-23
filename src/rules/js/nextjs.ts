@@ -4,6 +4,9 @@ register({
   tech: 'nextjs',
   name: 'Next.js',
   type: 'framework',
-  files: ['next.config.js'],
-  dependencies: [{ type: 'npm', name: 'next' }],
+  files: ['next.config.js', 'next.config.mjs'],
+  dependencies: [
+    { type: 'npm', name: 'next' },
+    { type: 'npm', name: '@netlify/plugin-nextjs' },
+  ],
 });

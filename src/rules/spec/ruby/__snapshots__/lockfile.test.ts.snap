@@ -110,6 +110,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "memcached",
   "mongodb",
   "mysql",
+  "nats",
   "neo4j",
   "newrelic",
   "okta",
@@ -796,6 +797,16 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "mysql2",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "nats",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "nats-pure",
     "1.0.0",
   ],
   [
