@@ -235,6 +235,7 @@ export type AllowedKeys =
   | 'klaviyo'
   | 'koa'
   | 'koalaanalytics'
+  | 'kong'
   | 'kotlin'
   | 'koyeb'
   | 'kubernetes'
