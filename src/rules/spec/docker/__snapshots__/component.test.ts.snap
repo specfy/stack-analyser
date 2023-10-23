@@ -78,6 +78,7 @@ exports[`docker > should match everything 1`] = `
   "rabbitmq",
   "redis",
   "ruby",
+  "sentry",
   "slack",
   "snyk",
   "sonarqube",
@@ -338,6 +339,11 @@ exports[`docker > should match everything 2`] = `
   ],
   [
     "docker",
+    "daprio/sentry",
+    "0.0.0",
+  ],
+  [
+    "docker",
     "denoland/deno",
     "0.0.0",
   ],
@@ -369,6 +375,16 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "getmeili/meilisearch",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "getsentry/sentry",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "getsentry/sentry-cli",
     "0.0.0",
   ],
   [
@@ -618,6 +634,16 @@ exports[`docker > should match everything 2`] = `
   ],
   [
     "docker",
+    "sentry",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "sentryintegrations/sentry-github-action-release",
+    "0.0.0",
+  ],
+  [
+    "docker",
     "snyk/broker",
     "0.0.0",
   ],
@@ -719,6 +745,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "ubuntu/postgres",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "us.gcr.io/sentryio/sentry",
     "0.0.0",
   ],
   [
