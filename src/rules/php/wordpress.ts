@@ -9,5 +9,6 @@ register({
     { type: 'php', name: 'roots/wordpress' },
     { type: 'php', name: 'johnpbloch/wordpress' },
     { type: 'githubAction', name: '10up/action-wordpress-plugin-deploy' },
+    { type: 'docker', name: 'wordpress' },
   ],
 });

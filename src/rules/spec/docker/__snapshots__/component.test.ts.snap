@@ -80,6 +80,7 @@ exports[`docker > should match everything 1`] = `
   "trufflesecurity",
   "typesense",
   "vale",
+  "wordpress",
   "zookeeper",
 ]
 `;
@@ -589,6 +590,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "webdevops/azure-metrics-exporter",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "wordpress",
     "0.0.0",
   ],
   [
