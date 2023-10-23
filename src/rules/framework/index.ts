@@ -9,3 +9,4 @@ import './gridsome.js';
 import './ghost.js';
 import './hexojs.js';
 import './hugo.js';
+import './shopify.hydrogen.js';

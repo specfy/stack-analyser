@@ -206,6 +206,7 @@ exports[`npm > should match everything 1`] = `
   "sentry",
   "sequelize",
   "shopify",
+  "shopify.hydrogen",
   "sitecore",
   "sitecore.xmlcloud",
   "slack",
@@ -1253,6 +1254,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@shopify/cli",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@shopify/hydrogen",
     "0.0.0",
   ],
   [

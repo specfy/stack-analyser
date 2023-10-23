@@ -363,6 +363,7 @@ export type AllowedKeys =
   | 'sentry'
   | 'sequelize'
   | 'servicenow'
+  | 'shopify.hydrogen'
   | 'shopify'
   | 'sitecore.xmlcloud'
   | 'sitecore'

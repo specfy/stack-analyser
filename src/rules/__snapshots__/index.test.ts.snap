@@ -344,6 +344,7 @@ exports[`all > should match everything 1`] = `
   "sequelize",
   "servicenow",
   "shopify",
+  "shopify.hydrogen",
   "sitecore",
   "sitecore.xmlcloud",
   "slack",
