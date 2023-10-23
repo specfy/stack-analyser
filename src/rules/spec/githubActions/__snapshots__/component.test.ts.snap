@@ -523,6 +523,21 @@ exports[`docker > should match all dependencies 2`] = `
   ],
   [
     "githubAction",
+    "liquibase-github-actions/init-start-h2",
+    "1",
+  ],
+  [
+    "githubAction",
+    "liquibase-github-actions/update",
+    "1",
+  ],
+  [
+    "githubAction",
+    "liquibase/liquibase-github-action",
+    "1",
+  ],
+  [
+    "githubAction",
     "microsoft/playwright-github-action",
     "1",
   ],

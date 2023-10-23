@@ -10,6 +10,7 @@ import './goacmelego.js';
 import './golangcilint.js';
 import './helm.js';
 import './lighthouse.js';
+import './liquibase.js';
 import './mailhog.js';
 import './mongoexpress.js';
 import './playwright.js';

@@ -241,6 +241,7 @@ exports[`all > should match everything 1`] = `
   "lemonsqueezy",
   "lighthouse",
   "linear",
+  "liquibase",
   "logrocket",
   "logsnag",
   "logstash",

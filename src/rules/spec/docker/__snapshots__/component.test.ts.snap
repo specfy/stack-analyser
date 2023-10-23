@@ -53,6 +53,7 @@ exports[`docker > should match everything 1`] = `
   "kibana",
   "kong",
   "lighthouse",
+  "liquibase",
   "logstash",
   "mailhog",
   "mariadb",
@@ -450,6 +451,11 @@ exports[`docker > should match everything 2`] = `
   ],
   [
     "docker",
+    "liquibase/liquibase",
+    "0.0.0",
+  ],
+  [
+    "docker",
     "logstash",
     "0.0.0",
   ],
@@ -716,6 +722,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "webdevops/azure-metrics-exporter",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "webdevops/liquibase",
     "0.0.0",
   ],
   [

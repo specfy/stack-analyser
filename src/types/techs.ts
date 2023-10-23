@@ -260,6 +260,7 @@ export type AllowedKeys =
   | 'lemonsqueezy'
   | 'lighthouse'
   | 'linear'
+  | 'liquibase'
   | 'logrocket'
   | 'logsnag'
   | 'logstash'
