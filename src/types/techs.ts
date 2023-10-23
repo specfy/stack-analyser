@@ -17,6 +17,7 @@ export type TechType =
   | 'tool';
 
 export type AllowedKeys =
+  | 'adminer'
   | 'adobe'
   | 'adobecommercecloud'
   | 'adyen'

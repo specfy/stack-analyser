@@ -2,6 +2,7 @@
 
 exports[`docker > should match everything 1`] = `
 [
+  "adminer",
   "airbyte",
   "ansible",
   "apache_airflow",
@@ -91,6 +92,11 @@ exports[`docker > should match everything 1`] = `
 
 exports[`docker > should match everything 2`] = `
 [
+  [
+    "docker",
+    "adminer",
+    "0.0.0",
+  ],
   [
     "docker",
     "adobe/s3mock",

@@ -2,6 +2,7 @@
 
 exports[`all > should match everything 1`] = `
 [
+  "adminer",
   "adobe",
   "adobecommercecloud",
   "adyen",

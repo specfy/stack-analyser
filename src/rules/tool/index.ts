@@ -1,3 +1,4 @@
+import './adminer.js';
 import './ansible.js';
 import './apiplatform.js';
 import './atlasgo.js';
