@@ -5,4 +5,5 @@ import './httpd.js';
 import './kibana.js';
 import './kong.js';
 import './nginx.js';
+import './traefik.js';
 import './zookeeper.js';

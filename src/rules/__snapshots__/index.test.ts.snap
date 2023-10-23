@@ -367,6 +367,7 @@ exports[`all > should match everything 1`] = `
   "terraform",
   "terragrunt",
   "tinybird",
+  "traefik",
   "travisci",
   "trufflesecurity",
   "twigphp",
