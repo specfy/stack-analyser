@@ -77,6 +77,7 @@ exports[`docker > should match everything 1`] = `
   "supabase.postgres",
   "supabase.realtime",
   "supabase.storage",
+  "telegraf",
   "telegram",
   "tensorflow",
   "traefik",
@@ -568,6 +569,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "supabase/storage-api",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "telegraf",
     "0.0.0",
   ],
   [

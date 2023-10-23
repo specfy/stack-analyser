@@ -385,6 +385,7 @@ export type AllowedKeys =
   | 'tailscale'
   | 'tailwind'
   | 'teamcity'
+  | 'telegraf'
   | 'telegram'
   | 'tencentcloud'
   | 'tensorflow'

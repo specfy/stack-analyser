@@ -363,6 +363,7 @@ exports[`all > should match everything 1`] = `
   "symfony",
   "tailwind",
   "teamcity",
+  "telegraf",
   "telegram",
   "tencentcloud",
   "tensorflow",
