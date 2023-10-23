@@ -44,6 +44,7 @@ export type AllowedKeys =
   | 'apiplatform'
   | 'appveyor'
   | 'assemble'
+  | 'astro'
   | 'atlasgo'
   | 'atlassian'
   | 'auth0'

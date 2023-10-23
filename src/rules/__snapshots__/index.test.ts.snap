@@ -29,6 +29,7 @@ exports[`all > should match everything 1`] = `
   "apiplatform",
   "appveyor",
   "assemble",
+  "astro",
   "atlasgo",
   "atlassian",
   "auth0",
