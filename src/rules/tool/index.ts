@@ -5,6 +5,7 @@ import './atlasgo.js';
 import './bytebase.js';
 import './checkov.js';
 import './chef.js';
+import './flyway.js';
 import './gitlab.js';
 import './goacmelego.js';
 import './golangcilint.js';

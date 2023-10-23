@@ -37,6 +37,7 @@ exports[`docker > should match everything 1`] = `
   "docker",
   "drupal",
   "elasticsearch",
+  "flyway",
   "ghost",
   "gitguardian",
   "goacmelego",
@@ -357,6 +358,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "femtopixel/google-lighthouse",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "flyway/flyway",
     "0.0.0",
   ],
   [

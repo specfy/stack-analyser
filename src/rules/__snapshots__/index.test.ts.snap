@@ -159,6 +159,7 @@ exports[`all > should match everything 1`] = `
   "firebase",
   "firebase.firestore",
   "flyio",
+  "flyway",
   "gatsby",
   "gcp",
   "gcp.aiplatform",

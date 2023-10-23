@@ -513,6 +513,11 @@ exports[`docker > should match all dependencies 2`] = `
   ],
   [
     "githubAction",
+    "joshuaavalon/flyway-action",
+    "1",
+  ],
+  [
+    "githubAction",
     "jzweifel/gatsby-cli-github-action",
     "1",
   ],
@@ -564,6 +569,11 @@ exports[`docker > should match all dependencies 2`] = `
   [
     "githubAction",
     "planetscale/create-branch-action",
+    "1",
+  ],
+  [
+    "githubAction",
+    "red-gate/flyway-hub-migration-test",
     "1",
   ],
   [
