@@ -209,6 +209,7 @@ export type AllowedKeys =
   | 'golangcilint'
   | 'googleanalytics'
   | 'grafana'
+  | 'haproxy'
   | 'hashicorp_vault'
   | 'healthchecksio'
   | 'helm'

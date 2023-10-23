@@ -194,6 +194,7 @@ exports[`all > should match everything 1`] = `
   "golangcilint",
   "googleanalytics",
   "grafana",
+  "haproxy",
   "hashicorp_vault",
   "healthchecksio",
   "helm",

@@ -38,6 +38,7 @@ exports[`docker > should match everything 1`] = `
   "goacmelego",
   "golangcilint",
   "grafana",
+  "haproxy",
   "hashicorp_vault",
   "httpd",
   "influxdb",
@@ -332,6 +333,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "grafana/grafana-enterprise",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "haproxy",
     "0.0.0",
   ],
   [
