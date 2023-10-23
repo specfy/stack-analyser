@@ -70,6 +70,7 @@ exports[`docker > should match everything 1`] = `
   "ruby",
   "slack",
   "snyk",
+  "sonarqube",
   "strapi",
   "supabase",
   "supabase.postgres",
@@ -531,6 +532,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "solr",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "sonarqube",
     "0.0.0",
   ],
   [
