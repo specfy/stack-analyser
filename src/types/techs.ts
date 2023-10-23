@@ -198,6 +198,7 @@ export type AllowedKeys =
   | 'gcp.translate'
   | 'gcp.vision'
   | 'gcp'
+  | 'ghost'
   | 'gitbook'
   | 'gitguardian'
   | 'github.actions'

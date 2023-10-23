@@ -119,6 +119,7 @@ exports[`npm > should match everything 1`] = `
   "gcp.tasks",
   "gcp.translate",
   "gcp.vision",
+  "ghost",
   "gitbook",
   "github",
   "hotjar",
@@ -1327,6 +1328,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@tryghost/content-api",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@twilio/cli-core",
     "0.0.0",
   ],
@@ -1663,6 +1669,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "gatsby-plugin-typesense",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "ghost-cli",
     "0.0.0",
   ],
   [

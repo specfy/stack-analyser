@@ -183,6 +183,7 @@ exports[`all > should match everything 1`] = `
   "gcp.tasks",
   "gcp.translate",
   "gcp.vision",
+  "ghost",
   "gitbook",
   "gitguardian",
   "github",
