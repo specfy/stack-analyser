@@ -257,6 +257,7 @@ exports[`all > should match everything 1`] = `
   "mixpanel",
   "mongodb",
   "mongodbatlas",
+  "mongoexpress",
   "mysql",
   "neo4j",
   "netlify",

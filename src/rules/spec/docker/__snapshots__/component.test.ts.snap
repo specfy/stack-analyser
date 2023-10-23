@@ -58,6 +58,7 @@ exports[`docker > should match everything 1`] = `
   "meilisearch",
   "memcached",
   "mongodb",
+  "mongoexpress",
   "mysql",
   "neo4j",
   "nextcloud",
@@ -211,6 +212,16 @@ exports[`docker > should match everything 2`] = `
   ],
   [
     "docker",
+    "bitnami/mongodb",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "bitnami/mongodb-sharded",
+    "0.0.0",
+  ],
+  [
+    "docker",
     "bitnami/postgresql",
     "0.0.0",
   ],
@@ -277,6 +288,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "cimg/postgres",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "circleci/mongo",
     "0.0.0",
   ],
   [
@@ -451,6 +467,26 @@ exports[`docker > should match everything 2`] = `
   ],
   [
     "docker",
+    "mongo-express",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "mongodb/atlas",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "mongodb/mongodb-community-server",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "mongodb/mongodb-enterprise-server",
+    "0.0.0",
+  ],
+  [
+    "docker",
     "mysql",
     "0.0.0",
   ],
@@ -522,6 +558,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "rabbitmq",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "rapidfort/mongodb",
     "0.0.0",
   ],
   [

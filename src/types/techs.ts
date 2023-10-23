@@ -276,6 +276,7 @@ export type AllowedKeys =
   | 'mixpanel'
   | 'mongodb'
   | 'mongodbatlas'
+  | 'mongoexpress'
   | 'mysql'
   | 'neo4j'
   | 'netlify'

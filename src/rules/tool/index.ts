@@ -10,6 +10,7 @@ import './golangcilint.js';
 import './helm.js';
 import './lighthouse.js';
 import './mailhog.js';
+import './mongoexpress.js';
 import './playwright.js';
 import './sonarlint.js';
 import './sonarqube.js';
