@@ -1,3 +1,10 @@
+## [1.7.2](https://github.com/specfy/stack-analyser/compare/v1.7.1...v1.7.2) (2023-10-24)
+
+
+### Bug Fixes
+
+* expose language detection ([c7b2266](https://github.com/specfy/stack-analyser/commit/c7b226683964be3b8ed459a285fda2d4d5892fcf))
+
 ## [1.7.1](https://github.com/specfy/stack-analyser/compare/v1.7.0...v1.7.1) (2023-10-23)
 
 
