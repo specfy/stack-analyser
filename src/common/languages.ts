@@ -1,4 +1,6 @@
-type ListItem = {
+import path from 'node:path';
+
+export type LangListItem = {
   extensions: string[];
   group: string | null;
   name: string;
@@ -6,7 +8,7 @@ type ListItem = {
 };
 
 // Source: https://github.com/github/linguist/blob/5a0c74277548122267d84283910abd5e0b89380e/lib/linguist/languages.yml#L1528
-export const rawList: ListItem[] = [
+export const rawList: LangListItem[] = [
   {
     extensions: ['.bsl', '.os'],
     group: null,
@@ -4428,3 +4430,28 @@ export const rawList: ListItem[] = [
 
 export const languages = rawList.filter((l) => l.type === 'programming');
 export const others = rawList.filter((l) => l.type !== 'programming');
+
+/**
+ * Detect language of a file at this level.
+ */
+export function detectLang(filename: string): LangListItem | null {
+  const ext = path.extname(filename);
+
+  for (const lang of languages) {
+    if (!lang.extensions.includes(ext)) {
+      continue;
+    }
+
+    return lang;
+  }
+
+  for (const lang of others) {
+    if (!lang.extensions.includes(ext)) {
+      continue;
+    }
+
+    return lang;
+  }
+
+  return null;
+}

@@ -1,5 +1,10 @@
 /* eslint-disable import/extensions */
 import { analyser } from './analyser/index.js';
+import {
+  LangListItem,
+  detectLang,
+  rawList as languageList,
+} from './common/languages.js';
 import { listIndexed, listTech } from './common/techs.generated.js';
 import {
   rawList,
@@ -55,6 +60,7 @@ export {
   TechItem,
   TechMatcher,
   TechType,
+  LangListItem,
 };
 
 export {
@@ -81,4 +87,9 @@ export const tech = {
   indexed: listIndexed,
   list: listTech,
   keys: registeredTech,
+};
+
+export const lang = {
+  detect: detectLang,
+  list: languageList,
 };

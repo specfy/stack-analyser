@@ -1,6 +1,6 @@
 import path from 'node:path';
 
-import { languages, others } from '../common/languages.js';
+import { detectLang } from '../common/languages.js';
 import { nid } from '../common/nid.js';
 import { rulesComponents, rulesTechs } from '../loader.js';
 import type { BaseProvider } from '../provider/base.js';
@@ -231,24 +231,9 @@ export class Payload implements Analyser {
    * Detect language of a file at this level.
    */
   detectLang(filename: string) {
-    const ext = path.extname(filename);
-
-    for (const lang of languages) {
-      if (!lang.extensions.includes(ext)) {
-        continue;
-      }
-
+    const lang = detectLang(filename);
+    if (lang) {
       this.addLang(lang.group || lang.name);
-      return;
-    }
-
-    for (const lang of others) {
-      if (!lang.extensions.includes(ext)) {
-        continue;
-      }
-
-      this.addLang(lang.group || lang.name);
-      return;
     }
   }
 
