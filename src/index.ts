@@ -12,6 +12,7 @@ import {
   loadAllRules,
   loadOne,
 } from './loader.js';
+import { matchAllFiles } from './matchAllFiles.js';
 import { matchDependencies } from './matchDependencies.js';
 import {
   flatten,
@@ -84,6 +85,7 @@ export const dependencies = {
 };
 
 export const tech = {
+  detectInFileList: matchAllFiles,
   indexed: listIndexed,
   list: listTech,
   keys: registeredTech,

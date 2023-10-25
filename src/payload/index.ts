@@ -2,7 +2,8 @@ import path from 'node:path';
 
 import { detectLang } from '../common/languages.js';
 import { nid } from '../common/nid.js';
-import { rulesComponents, rulesTechs } from '../loader.js';
+import { rulesComponents } from '../loader.js';
+import { matchAllFiles } from '../matchAllFiles.js';
 import type { BaseProvider } from '../provider/base.js';
 import { IGNORED_DIVE_PATHS } from '../provider/base.js';
 import { listIndexed, nameToKey } from '../register.js';
@@ -91,15 +92,9 @@ export class Payload implements Analyser {
     }
 
     // Detect Tech
-    for (const rule of rulesTechs) {
-      const res = rule(files);
-      if (!res) {
-        continue;
-      }
-
-      ctx.addTech(res[0].tech, [
-        `matched file: ${res[1].replace(provider.basePath, '')}`,
-      ]);
+    const matched = matchAllFiles(files, provider.basePath);
+    for (const match of matched.entries()) {
+      ctx.addTech(match[0], match[1]);
     }
 
     // Recursively dive in folders
