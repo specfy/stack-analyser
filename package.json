@@ -15,7 +15,7 @@
     "url": "https://github.com/specfy/stack-analyser/issues"
   },
   "scripts": {
-    "prebuild": "ts-node --esm src/scripts/prebuild.ts",
+    "prebuild": "tsx src/scripts/prebuild.ts",
     "build": "tsc",
     "build:watch": "tsc -w",
     "dev": "node dist/index.js",
@@ -40,7 +40,7 @@
     "eslint-plugin-prettier": "5.0.1",
     "eslint-plugin-vitest": "0.3.8",
     "package-json": "8.1.1",
-    "ts-node": "10.9.1",
+    "tsx": "3.14.0",
     "typescript": "5.2.2",
     "vitest": "0.34.6"
   },
