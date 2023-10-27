@@ -1,3 +1,16 @@
+# [1.8.0](https://github.com/specfy/stack-analyser/compare/v1.7.2...v1.8.0) (2023-10-27)
+
+
+### Bug Fixes
+
+* dependencies 2023-10-22 ([#78](https://github.com/specfy/stack-analyser/issues/78)) ([3635c88](https://github.com/specfy/stack-analyser/commit/3635c8868c09f1381628ae779ce39d45ad68f977))
+* expose detectInFileList ([e2978a9](https://github.com/specfy/stack-analyser/commit/e2978a94dec69169c03d6bdc112f08c84b350266))
+
+
+### Features
+
+* match by extensions ([9649581](https://github.com/specfy/stack-analyser/commit/9649581720164c40ecf6add3f5e6b168e8e78bcd))
+
 ## [1.7.2](https://github.com/specfy/stack-analyser/compare/v1.7.1...v1.7.2) (2023-10-24)
 
 
