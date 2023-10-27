@@ -1,5 +1,7 @@
 import { describe, expect, it, vi } from 'vitest';
 
+import { matchAllFiles } from '../matchAllFiles.js';
+
 import { Payload } from './index.js';
 
 import '../autoload.js';
@@ -50,5 +52,20 @@ describe('Payload', () => {
     expect(root.childs).toHaveLength(1);
     expect(root.childs[0].path).toStrictEqual(new Set(['foo', 'bar.xml']));
     expect(root.toJson().childs[0].path).toStrictEqual(['foo', 'bar.xml']);
+  });
+
+  it('should dedup matched tech', () => {
+    const root = new Payload({ name: 'root', folderPath: '/' });
+    const res = matchAllFiles(
+      [
+        { name: 'index.ts', fp: 'index.ts', type: 'file' },
+        { name: 'script.ts', fp: 'scripts.ts', type: 'file' },
+      ],
+      '/'
+    );
+    root.addTechs(res);
+
+    expect(root.techs).toStrictEqual(new Set(['typescript']));
+    expect(root.reason).toStrictEqual(new Set(['matched extension: .ts']));
   });
 });

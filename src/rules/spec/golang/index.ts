@@ -8,6 +8,7 @@ register({
   name: 'Golang',
   type: 'language',
   files: ['go.mod', 'main.go'],
+  extensions: ['.go'],
   detect: [detectGolangLockfile, detectGolangComponent],
   dependencies: [],
 });

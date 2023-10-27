@@ -7,5 +7,6 @@ register({
   name: 'Rust',
   type: 'language',
   files: ['Cargo.toml'],
+  extensions: ['.rs', '.rs.in'],
   detect: [detectRustComponent],
 });

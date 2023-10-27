@@ -1,7 +1,12 @@
-import { matchFiles, matchFilesRegex } from './common/rules/matchFiles.js';
+import {
+  matchExtensions,
+  matchFiles,
+  matchFilesRegex,
+} from './common/rules/matchFiles.js';
 import { registeredRules } from './register.js';
 import type {
   ComponentMatcher,
+  ExtensionMatcher,
   Rule,
   RuleDependency,
   RuleWithFile,
@@ -11,7 +16,7 @@ import type {
 import type { AllowedKeys } from './types/techs.js';
 
 export const rulesTechs: TechMatcher[] = [];
-
+export const rulesExtensions: ExtensionMatcher[] = [];
 export const rulesComponents: ComponentMatcher[] = [];
 
 export const dependencies: Record<
@@ -32,6 +37,7 @@ export const dependencies: Record<
 
 export const rawList: Array<
   | ({ ref: RuleDependency } & { type: 'dependency' })
+  | ({ ref: RuleWithFile } & { type: 'ext' })
   | ({ ref: RuleWithFile } & { type: 'file' })
 > = [];
 
@@ -84,6 +90,15 @@ export function loadOne(rule: Rule) {
 
     rawList.push({ type: 'file', ref: rule });
     rulesTechs.push(matcher);
+  }
+
+  if (typeof rule.extensions !== 'undefined') {
+    const matcher: ExtensionMatcher = (list) => {
+      return matchExtensions(rule.tech, rule.extensions!, list);
+    };
+
+    rawList.push({ type: 'ext', ref: rule });
+    rulesExtensions.push(matcher);
   }
 
   if (rule.detect) {

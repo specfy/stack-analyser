@@ -34,3 +34,17 @@ export function matchFilesRegex(
 
   return false;
 }
+
+export function matchExtensions(
+  key: AllowedKeys,
+  list: string[],
+  extensions: Set<string>
+): false | [Rule, string] {
+  for (const ext of list) {
+    if (extensions.has(ext)) {
+      return [listIndexed[key], ext];
+    }
+  }
+
+  return false;
+}

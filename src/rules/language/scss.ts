@@ -4,4 +4,5 @@ register({
   tech: 'scss',
   name: 'SCSS',
   type: 'language',
+  extensions: ['.scss'],
 });

@@ -25,7 +25,7 @@ export class Payload implements Analyser {
   public dependencies: Analyser['dependencies'];
   public edges: Analyser['edges'];
   public parent?: Payload | null;
-  public reason: string[];
+  public reason: Set<string>;
 
   constructor({
     id,
@@ -56,10 +56,8 @@ export class Payload implements Analyser {
     this.languages = {};
     this.dependencies = dependencies || [];
     this.reason = Array.isArray(reason)
-      ? reason
-      : typeof reason === 'string'
-      ? [reason]
-      : [];
+      ? new Set(reason)
+      : new Set(typeof reason === 'string' ? [reason] : []);
 
     this.parent = parent;
     this.edges = [];
@@ -93,9 +91,7 @@ export class Payload implements Analyser {
 
     // Detect Tech
     const matched = matchAllFiles(files, provider.basePath);
-    for (const match of matched.entries()) {
-      ctx.addTech(match[0], match[1]);
-    }
+    ctx.addTechs(matched);
 
     // Recursively dive in folders
     for (const file of files) {
@@ -181,7 +177,9 @@ export class Payload implements Analyser {
    */
   addTech(tech: AllowedKeys, reason: string[]) {
     this.techs.add(tech);
-    this.reason.push(...reason);
+    for (const r of reason) {
+      this.reason.add(r);
+    }
 
     findImplicitComponent(this, tech, reason);
     findHosting(this, tech);
@@ -313,7 +311,7 @@ export class Payload implements Analyser {
       techs: [...this.techs].sort(),
       languages: this.languages,
       dependencies: this.dependencies,
-      reason: this.reason,
+      reason: Array.from(this.reason.values()),
     };
   }
 }

@@ -15,7 +15,7 @@ Payload {
       "path": Set {
         "/",
       },
-      "reason": [],
+      "reason": Set {},
       "tech": null,
       "techs": Set {},
     },
@@ -43,7 +43,7 @@ Payload {
             "path": Set {
               "/",
             },
-            "reason": [],
+            "reason": Set {},
             "tech": null,
             "techs": Set {},
           },
@@ -58,7 +58,7 @@ Payload {
       "path": Set {
         "/",
       },
-      "reason": [],
+      "reason": Set {},
       "tech": null,
       "techs": Set {},
     },
@@ -73,7 +73,7 @@ Payload {
   "path": Set {
     "",
   },
-  "reason": [],
+  "reason": Set {},
   "tech": null,
   "techs": Set {},
 }

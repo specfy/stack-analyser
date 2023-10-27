@@ -30,7 +30,9 @@ export type Rule = {
   type: TechType;
   dependencies?: RuleDependency[];
   detect?: ComponentMatcher | ComponentMatcher[];
+  extensions?: string[];
 } & (RuleFiles | never);
+
 export type RuleFiles =
   | {
       files: RegExp;
@@ -56,3 +58,4 @@ export type ComponentMatcher = (
 ) => Promise<Payload | Payload[] | false>;
 
 export type TechMatcher = (files: ProviderFile[]) => false | [Rule, string];
+export type ExtensionMatcher = (list: Set<string>) => false | [Rule, string];

@@ -4,4 +4,5 @@ register({
   tech: 'bash',
   name: 'Bash',
   type: 'language',
+  extensions: ['.sh'],
 });

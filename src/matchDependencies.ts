@@ -11,7 +11,10 @@ export function matchDependencies(
     for (const ref of dependencies[type]) {
       if (ref.match.test(dep)) {
         if (matched.has(ref.tech)) {
-          matched.set(ref.tech, [...matched.get(ref.tech)!, `matched: ${ref}`]);
+          matched.set(ref.tech, [
+            ...matched.get(ref.tech)!,
+            `matched: ${ref.tech}`,
+          ]);
         } else {
           matched.set(ref.tech, [`${ref.tech} matched: ${ref.match}`]);
         }

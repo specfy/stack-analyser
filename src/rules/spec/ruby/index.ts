@@ -7,6 +7,7 @@ register({
   name: 'Ruby',
   type: 'language',
   files: ['Gemfile', 'Rakefile', '.ruby-version'],
+  extensions: ['.rb', '.rbx', '.ru', '.ruby'],
   dependencies: [{ type: 'docker', name: /ruby/, example: 'ruby:0.0.0' }],
   detect: detectRubyLockfile,
 });

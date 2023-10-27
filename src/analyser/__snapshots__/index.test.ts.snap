@@ -259,6 +259,7 @@ exports[`analyser > should run correctly 1`] = `
             "vite matched: /^vite$/",
             "matched file: .vercel",
             "matched file: package.json",
+            "matched extension: .scss",
           ],
           "tech": null,
           "techs": [

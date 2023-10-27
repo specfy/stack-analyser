@@ -4,4 +4,5 @@ register({
   tech: 'dart',
   name: 'Dart',
   type: 'language',
+  extensions: ['.dart'],
 });
