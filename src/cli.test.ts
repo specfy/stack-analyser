@@ -15,7 +15,7 @@ describe(
 
       const root = path.join(__dirname, '../');
       const file = path.join(__dirname, './cli.ts');
-      const res = await execFileAsync('ts-node', [file, './'], {
+      const res = await execFileAsync('tsx', [file, './'], {
         env: { ...process.env, LOG_LEVEL: 'info' },
       });
 

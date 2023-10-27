@@ -6,7 +6,7 @@ on:
 
 jobs:
   ci:
-    container: node:18.18.2@sha256:01c6cd70ee61cbe8acbfd8849e071d1fc0d910d758df24523554e8bff32ad138
+    container: node:20.9.0@sha256:62efd17e997bc843aefa4c003ed84f43dfac83fa6228c57c898482e50a02e45c
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
