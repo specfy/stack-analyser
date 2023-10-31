@@ -102,6 +102,7 @@ exports[`all > should match everything 1`] = `
   "circleci",
   "cirrusci",
   "clickhouse",
+  "clicksend",
   "cloudflare",
   "cloudflare.pages",
   "cloudflare.workers",

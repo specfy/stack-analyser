@@ -68,6 +68,7 @@ exports[`npm > should match everything 1`] = `
   "brevo",
   "browserstack",
   "clickhouse",
+  "clicksend",
   "cloudflare",
   "cloudflare.workers",
   "commercetools",
@@ -1567,6 +1568,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "chatgpt",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "clicksend",
     "0.0.0",
   ],
   [

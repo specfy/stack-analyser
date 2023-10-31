@@ -117,6 +117,7 @@ export type AllowedKeys =
   | 'circleci'
   | 'cirrusci'
   | 'clickhouse'
+  | 'clicksend'
   | 'cloudflare.pages'
   | 'cloudflare.workers'
   | 'cloudflare'
