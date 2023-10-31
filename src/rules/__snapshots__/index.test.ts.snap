@@ -35,6 +35,7 @@ exports[`all > should match everything 1`] = `
   "atlassian.confluence",
   "atlassian.jira",
   "atlassian.opsgenie",
+  "atlassian.trello",
   "auth0",
   "aws",
   "aws.amplifyhosting",

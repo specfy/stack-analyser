@@ -12,6 +12,7 @@ exports[`php > should match everything 1`] = `
   "apiplatform",
   "atlassian",
   "atlassian.jira",
+  "atlassian.trello",
   "auth0",
   "aws",
   "aws.cloudfront",
@@ -282,6 +283,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "cartalyst/stripe",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "cdaguerre/php-trello-api",
     "0.0.0",
   ],
   [

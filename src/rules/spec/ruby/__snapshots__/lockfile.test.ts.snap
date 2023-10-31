@@ -8,6 +8,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "apache_kafka",
   "atlassian",
   "atlassian.jira",
+  "atlassian.trello",
   "auth0",
   "aws",
   "aws.apigateway",
@@ -954,6 +955,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "ruby-mysql",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "ruby-trello",
     "1.0.0",
   ],
   [

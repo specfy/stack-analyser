@@ -17,6 +17,7 @@ exports[`npm > should match everything 1`] = `
   "atlassian.confluence",
   "atlassian.jira",
   "atlassian.opsgenie",
+  "atlassian.trello",
   "auth0",
   "aws",
   "aws.amplifyhosting",
@@ -2026,6 +2027,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "node-trello",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "node-zendesk",
     "0.0.0",
   ],
@@ -2196,6 +2202,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "react-trello",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "react-use-intercom",
     "0.0.0",
   ],
@@ -2322,6 +2333,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "thrift",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "trello",
     "0.0.0",
   ],
   [

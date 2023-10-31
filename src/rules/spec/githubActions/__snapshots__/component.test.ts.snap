@@ -7,6 +7,7 @@ exports[`docker > should match all dependencies 1`] = `
   "atlassian",
   "atlassian.confluence",
   "atlassian.jira",
+  "atlassian.trello",
   "aws",
   "aws.cloudformation",
   "aws.cloudfront",
@@ -517,6 +518,11 @@ exports[`docker > should match all dependencies 2`] = `
   [
     "githubAction",
     "jeffreytse/jekyll-deploy-action",
+    "1",
+  ],
+  [
+    "githubAction",
+    "jessicazu/trello-github-actions",
     "1",
   ],
   [

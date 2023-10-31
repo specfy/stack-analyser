@@ -49,6 +49,7 @@ export type AllowedKeys =
   | 'atlassian.confluence'
   | 'atlassian.jira'
   | 'atlassian.opsgenie'
+  | 'atlassian.trello'
   | 'atlassian'
   | 'auth0'
   | 'aws.amplifyhosting'
