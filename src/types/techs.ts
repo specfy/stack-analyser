@@ -432,6 +432,7 @@ export type AllowedKeys =
   | 'upstash.qstash'
   | 'upstash.redis'
   | 'upstash'
+  | 'uptimekuma'
   | 'vale'
   | 'vercel.ai'
   | 'vercel.analytics'

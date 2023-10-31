@@ -12,3 +12,4 @@ import './pingdom.js';
 import './rollbar.js';
 import './scoutapm.js';
 import './sentry.js';
+import './uptimekuma.js';

@@ -97,6 +97,7 @@ exports[`docker > should match everything 1`] = `
   "traefik",
   "trufflesecurity",
   "typesense",
+  "uptimekuma",
   "vale",
   "wordpress",
   "zookeeper",
@@ -493,6 +494,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "logstash",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "louislam/uptime-kuma",
     "0.0.0",
   ],
   [
