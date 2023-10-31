@@ -51,6 +51,7 @@ exports[`docker > should match all dependencies 1`] = `
   "planetscale",
   "postgresql",
   "qovery",
+  "railway",
   "rollbar",
   "scaleway",
   "sentry",
@@ -314,6 +315,11 @@ exports[`docker > should match all dependencies 2`] = `
   [
     "githubAction",
     "azure/sql-action",
+    "1",
+  ],
+  [
+    "githubAction",
+    "bervProject/railway-deploy",
     "1",
   ],
   [

@@ -187,6 +187,7 @@ exports[`npm > should match everything 1`] = `
   "puppeteer",
   "qovery",
   "rabbitmq",
+  "railway",
   "react",
   "reactemail",
   "redis",
@@ -1185,6 +1186,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@railway/cli",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@redwoodjs/api",
     "0.0.0",
   ],
@@ -2121,6 +2127,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "qovery_api",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "railway",
     "0.0.0",
   ],
   [
