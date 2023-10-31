@@ -161,6 +161,7 @@ export type AllowedKeys =
   | 'droneci'
   | 'dropbox'
   | 'drupal'
+  | 'duckdb'
   | 'dynatrace'
   | 'elasticcloud'
   | 'elasticsearch'

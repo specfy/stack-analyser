@@ -88,6 +88,7 @@ exports[`npm > should match everything 1`] = `
   "discord",
   "docusaurus",
   "docusign",
+  "duckdb",
   "dynatrace",
   "elasticsearch",
   "electron",
@@ -1689,6 +1690,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "docusign-esign",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "duckdb",
     "0.0.0",
   ],
   [
