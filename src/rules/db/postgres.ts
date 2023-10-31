@@ -6,6 +6,7 @@ register({
   type: 'db',
   dependencies: [
     { type: 'npm', name: 'pg' },
+    { type: 'npm', name: '@mikro-orm/postgresql' },
     { type: 'docker', name: 'postgres' },
     { type: 'docker', name: 'bitnami/postgresql' },
     { type: 'docker', name: 'circleci/postgres' },

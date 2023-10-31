@@ -6,6 +6,7 @@ register({
   type: 'db',
   dependencies: [
     { type: 'npm', name: 'mysql' },
+    { type: 'npm', name: '@mikro-orm/mysql' },
     { type: 'npm', name: 'mysql2' },
     { type: 'docker', name: /mysql/, example: 'mysql:0.0.0' },
     { type: 'rust', name: /^mysql/, example: 'mysql_async' },

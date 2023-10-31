@@ -1092,6 +1092,16 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@mikro-orm/mysql",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@mikro-orm/postgresql",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@miniflare/cache",
     "0.0.0",
   ],
@@ -1553,6 +1563,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "aws-sdk",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "better-sqlite3",
     "0.0.0",
   ],
   [
@@ -2278,6 +2293,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "solid-js",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "sqlite",
     "0.0.0",
   ],
   [

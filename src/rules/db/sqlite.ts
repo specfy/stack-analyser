@@ -6,6 +6,8 @@ register({
   type: 'db',
   files: ['schema.sqlite'],
   dependencies: [
+    { type: 'npm', name: 'sqlite' },
+    { type: 'npm', name: 'better-sqlite3' },
     { type: 'npm', name: 'sqlite3' },
     { type: 'rust', name: 'sqlite' },
     { type: 'rust', name: 'rusqlite' },
