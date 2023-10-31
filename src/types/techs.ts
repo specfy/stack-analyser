@@ -158,6 +158,7 @@ export type AllowedKeys =
   | 'doctrinephp'
   | 'docusaurus'
   | 'docusign'
+  | 'droneci'
   | 'dropbox'
   | 'drupal'
   | 'dynatrace'

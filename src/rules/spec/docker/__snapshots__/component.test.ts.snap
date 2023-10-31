@@ -39,6 +39,7 @@ exports[`docker > should match everything 1`] = `
   "deno",
   "discourse",
   "docker",
+  "droneci",
   "drupal",
   "elasticsearch",
   "flyway",
@@ -371,6 +372,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "discourse/base",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "drone/drone",
     "0.0.0",
   ],
   [

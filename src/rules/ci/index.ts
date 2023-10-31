@@ -9,6 +9,7 @@ import './codesandboxci.js';
 import './coveralls.js';
 import './cypressci.js';
 import './dependabot.js';
+import './droneci.js';
 import './gitlab.ci.js';
 import './jenkins.js';
 import './relativeci.js';
