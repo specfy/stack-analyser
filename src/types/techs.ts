@@ -285,6 +285,7 @@ export type AllowedKeys =
   | 'meilisearchcloud'
   | 'memcached'
   | 'meteorjs'
+  | 'milvusdb'
   | 'mithriljs'
   | 'mixpanel'
   | 'mongodb'

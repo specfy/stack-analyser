@@ -162,6 +162,7 @@ exports[`npm > should match everything 1`] = `
   "meilisearch",
   "memcached",
   "meteorjs",
+  "milvusdb",
   "mithriljs",
   "mongodb",
   "mysql",
@@ -1508,6 +1509,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@vitalets/google-translate-api",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@zilliz/milvus2-sdk-node",
     "0.0.0",
   ],
   [

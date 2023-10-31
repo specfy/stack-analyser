@@ -65,6 +65,7 @@ exports[`docker > should match everything 1`] = `
   "matomo",
   "meilisearch",
   "memcached",
+  "milvusdb",
   "mongodb",
   "mongoexpress",
   "mysql",
@@ -237,6 +238,11 @@ exports[`docker > should match everything 2`] = `
   ],
   [
     "docker",
+    "bitnami/milvus",
+    "0.0.0",
+  ],
+  [
+    "docker",
     "bitnami/mongodb",
     "0.0.0",
   ],
@@ -278,6 +284,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "bitnamicharts/kafka",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "bitnamicharts/milvus",
     "0.0.0",
   ],
   [
@@ -543,6 +554,16 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "memcached",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "milvusdb/milvus",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "milvusdb/milvus-dev",
     "0.0.0",
   ],
   [
