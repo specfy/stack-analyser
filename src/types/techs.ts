@@ -122,6 +122,7 @@ export type AllowedKeys =
   | 'cirrusci'
   | 'clickhouse'
   | 'clicksend'
+  | 'cloudbees.codeship'
   | 'cloudbees'
   | 'cloudflare.pages'
   | 'cloudflare.workers'

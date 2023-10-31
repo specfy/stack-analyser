@@ -108,6 +108,7 @@ exports[`all > should match everything 1`] = `
   "clickhouse",
   "clicksend",
   "cloudbees",
+  "cloudbees.codeship",
   "cloudflare",
   "cloudflare.pages",
   "cloudflare.workers",
