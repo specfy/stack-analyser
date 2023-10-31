@@ -30,7 +30,7 @@ import './hypertune.js';
 import './iftt.js';
 import './intercom.js';
 import './intuit.js';
-import './jira.js';
+import './atlassian.jira.js';
 import './klarna.js';
 import './klaviyo.js';
 import './launchdarkly.js';

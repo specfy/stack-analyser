@@ -4,6 +4,8 @@ exports[`docker > should match all dependencies 1`] = `
 [
   "algolia",
   "alibabacloud",
+  "atlassian",
+  "atlassian.jira",
   "aws",
   "aws.cloudformation",
   "aws.cloudfront",
@@ -43,7 +45,6 @@ exports[`docker > should match all dependencies 1`] = `
   "github.pages",
   "hashicorp_vault",
   "heroku",
-  "jira",
   "kubernetes",
   "launchdarkly",
   "netlify",

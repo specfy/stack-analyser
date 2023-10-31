@@ -2,6 +2,8 @@
 
 exports[`terraform (resource) > should match everything 1`] = `
 [
+  "atlassian",
+  "atlassian.jira",
   "aws",
   "aws.amplifyhosting",
   "aws.apigateway",
@@ -79,7 +81,6 @@ exports[`terraform (resource) > should match everything 1`] = `
   "gcp.spanner",
   "gcp.sql",
   "gcp.tasks",
-  "jira",
   "ovh",
   "ovh.database",
   "ovh.dedicated",

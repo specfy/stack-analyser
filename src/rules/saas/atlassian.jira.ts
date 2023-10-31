@@ -1,7 +1,7 @@
 import { register } from '../../register.js';
 
 register({
-  tech: 'jira',
+  tech: 'atlassian.jira',
   name: 'Jira',
   type: 'saas',
   dependencies: [
