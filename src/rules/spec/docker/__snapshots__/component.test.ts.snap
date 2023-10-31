@@ -74,6 +74,7 @@ exports[`docker > should match everything 1`] = `
   "nextcloud",
   "nginx",
   "nodejs",
+  "oceanbase",
   "percona",
   "php",
   "plausible",
@@ -639,6 +640,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "nodejs",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "oceanbase/oceanbase-ce",
     "0.0.0",
   ],
   [

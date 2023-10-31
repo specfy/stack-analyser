@@ -48,6 +48,7 @@ import './milvusdb.js';
 import './mongodb.js';
 import './mysql.js';
 import './neo4j.js';
+import './oceanbase.js';
 import './ovh.database.js';
 import './percona.js';
 import './planetscale.js';

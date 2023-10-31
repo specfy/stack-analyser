@@ -303,6 +303,7 @@ export type AllowedKeys =
   | 'nodejs'
   | 'notion'
   | 'nuxtjs'
+  | 'oceanbase'
   | 'okta'
   | 'onlineornot'
   | 'openai'
