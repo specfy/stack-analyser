@@ -14,6 +14,7 @@ exports[`npm > should match everything 1`] = `
   "assemble",
   "astro",
   "atlassian",
+  "atlassian.confluence",
   "atlassian.jira",
   "atlassian.opsgenie",
   "auth0",
@@ -1586,6 +1587,16 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "clicksend",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "confluence-api",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "confluence.js",
     "0.0.0",
   ],
   [

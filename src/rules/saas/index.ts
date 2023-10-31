@@ -3,6 +3,7 @@ import './adyen.js';
 import './airtable.js';
 import './algolia.js';
 import './auth0.js';
+import './atlassian.confluence.js';
 import './atlassian.opsgenie.js';
 import './bigcommerce.js';
 import './bitbucket.js';

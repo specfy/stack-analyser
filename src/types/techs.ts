@@ -46,6 +46,7 @@ export type AllowedKeys =
   | 'assemble'
   | 'astro'
   | 'atlasgo'
+  | 'atlassian.confluence'
   | 'atlassian.jira'
   | 'atlassian.opsgenie'
   | 'atlassian'

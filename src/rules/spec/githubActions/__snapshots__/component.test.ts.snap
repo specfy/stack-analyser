@@ -5,6 +5,7 @@ exports[`docker > should match all dependencies 1`] = `
   "algolia",
   "alibabacloud",
   "atlassian",
+  "atlassian.confluence",
   "atlassian.jira",
   "aws",
   "aws.cloudformation",
@@ -86,6 +87,11 @@ exports[`docker > should match all dependencies 2`] = `
   [
     "githubAction",
     "8398a7/action-slack",
+    "1",
+  ],
+  [
+    "githubAction",
+    "Bhacaz/docs-as-code-confluence",
     "1",
   ],
   [
