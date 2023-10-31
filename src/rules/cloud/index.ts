@@ -3,6 +3,7 @@ import './alibabacloud.js';
 import './atlassian.js';
 import './aws.js';
 import './azure.js';
+import './cloudbees.js';
 import './cloudflare.js';
 import './equinix.js';
 import './firebase.js';
