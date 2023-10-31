@@ -40,6 +40,7 @@ import './logrocket.js';
 import './mailchimp.js';
 import './mailgun.js';
 import './mailjet.js';
+import './mattermost.js';
 import './notion.js';
 import './okta.js';
 import './openai.js';

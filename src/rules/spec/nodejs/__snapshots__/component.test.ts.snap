@@ -154,6 +154,7 @@ exports[`npm > should match everything 1`] = `
   "mailgun",
   "mailjet",
   "mariadb",
+  "mattermost",
   "meilisearch",
   "memcached",
   "meteorjs",
@@ -1072,6 +1073,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@mattermost/client",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@meilisearch/instant-meilisearch",
     "0.0.0",
   ],
@@ -1782,6 +1788,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "hubot-matteruser",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "hugo-extended",
     "0.0.0",
   ],
@@ -1888,6 +1899,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "mariadb",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "mattermost-client",
     "0.0.0",
   ],
   [

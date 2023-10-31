@@ -274,6 +274,7 @@ export type AllowedKeys =
   | 'mailjet'
   | 'mariadb'
   | 'matomo'
+  | 'mattermost'
   | 'meilisearch'
   | 'meilisearchcloud'
   | 'memcached'
