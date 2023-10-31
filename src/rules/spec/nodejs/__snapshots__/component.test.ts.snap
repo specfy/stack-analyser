@@ -13,6 +13,8 @@ exports[`npm > should match everything 1`] = `
   "apiplatform",
   "assemble",
   "astro",
+  "atlassian",
+  "atlassian.opsgenie",
   "auth0",
   "aws",
   "aws.amplifyhosting",
@@ -1193,6 +1195,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@pulumi/opsgenie",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@railway/cli",
     "0.0.0",
   ],
@@ -2044,6 +2051,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "opentelemetry-instrumentation-kafkajs",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "opsgenie-sdk",
     "0.0.0",
   ],
   [

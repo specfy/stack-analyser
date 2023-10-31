@@ -32,6 +32,7 @@ exports[`all > should match everything 1`] = `
   "astro",
   "atlasgo",
   "atlassian",
+  "atlassian.opsgenie",
   "auth0",
   "aws",
   "aws.amplifyhosting",

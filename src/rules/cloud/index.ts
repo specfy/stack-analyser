@@ -1,5 +1,6 @@
 import './adobecommercecloud.js';
 import './alibabacloud.js';
+import './atlassian.js';
 import './aws.js';
 import './azure.js';
 import './cloudflare.js';

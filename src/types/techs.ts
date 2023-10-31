@@ -46,6 +46,7 @@ export type AllowedKeys =
   | 'assemble'
   | 'astro'
   | 'atlasgo'
+  | 'atlassian.opsgenie'
   | 'atlassian'
   | 'auth0'
   | 'aws.amplifyhosting'
