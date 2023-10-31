@@ -97,6 +97,7 @@ exports[`docker > should match everything 1`] = `
   "telegraf",
   "telegram",
   "tensorflow",
+  "tidb",
   "traefik",
   "trufflesecurity",
   "typesense",
@@ -627,6 +628,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "php",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "pingcap/tidb",
     "0.0.0",
   ],
   [

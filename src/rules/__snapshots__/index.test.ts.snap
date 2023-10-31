@@ -404,6 +404,7 @@ exports[`all > should match everything 1`] = `
   "tensorflow",
   "terraform",
   "terragrunt",
+  "tidb",
   "tinybird",
   "traefik",
   "travisci",

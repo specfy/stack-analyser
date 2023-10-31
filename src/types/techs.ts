@@ -426,6 +426,7 @@ export type AllowedKeys =
   | 'tensorflow'
   | 'terraform'
   | 'terragrunt'
+  | 'tidb'
   | 'tinybird'
   | 'traefik'
   | 'travisci'

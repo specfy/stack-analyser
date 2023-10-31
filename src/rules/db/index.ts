@@ -66,6 +66,7 @@ import './scaleway.secretmanager.js';
 import './snowflake.js';
 import './sqlite.js';
 import './supabase.postgres.js';
+import './tidb.js';
 import './typesense.js';
 import './typesensecloud.js';
 import './upstash.redis.js';
