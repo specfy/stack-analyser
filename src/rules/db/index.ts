@@ -73,6 +73,7 @@ import './supabase.postgres.js';
 import './surrealdb.js';
 import './tdengine.js';
 import './tidb.js';
+import './timescaledb.js';
 import './typesense.js';
 import './typesensecloud.js';
 import './upstash.redis.js';

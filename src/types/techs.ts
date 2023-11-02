@@ -433,6 +433,7 @@ export type AllowedKeys =
   | 'terraform'
   | 'terragrunt'
   | 'tidb'
+  | 'timescaledb'
   | 'tinybird'
   | 'traefik'
   | 'travisci'

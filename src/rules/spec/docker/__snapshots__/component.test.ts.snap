@@ -103,6 +103,7 @@ exports[`docker > should match everything 1`] = `
   "telegram",
   "tensorflow",
   "tidb",
+  "timescaledb",
   "traefik",
   "trufflesecurity",
   "typesense",
@@ -814,6 +815,16 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "tensorflow/tensorflow",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "timescale/timescaledb",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "timescale/timescaledb-ha",
     "0.0.0",
   ],
   [
