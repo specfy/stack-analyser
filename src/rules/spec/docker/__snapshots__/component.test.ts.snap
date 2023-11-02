@@ -82,6 +82,7 @@ exports[`docker > should match everything 1`] = `
   "postgresql",
   "puppeteer",
   "qovery",
+  "questdb",
   "rabbitmq",
   "redis",
   "rethinkdb",
@@ -682,6 +683,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "public.ecr.aws/r3m4q3r9/qovery-cli",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "questdb/questdb",
     "0.0.0",
   ],
   [

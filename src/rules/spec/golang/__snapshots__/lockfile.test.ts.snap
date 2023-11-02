@@ -94,6 +94,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "pirschanalytics",
   "posthog",
   "qovery",
+  "questdb",
   "rethinkdb",
   "rollbar",
   "sendgrid",
@@ -607,6 +608,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/qovery/qovery-client-go",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/questdb/go-questdb-client",
     "v1.0.0",
   ],
   [

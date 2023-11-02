@@ -345,6 +345,7 @@ export type AllowedKeys =
   | 'qovery.cluster'
   | 'qovery.database'
   | 'qovery'
+  | 'questdb'
   | 'rabbitmq'
   | 'railway.mongodb'
   | 'railway.mysql'

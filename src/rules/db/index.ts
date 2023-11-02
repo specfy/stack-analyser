@@ -54,6 +54,7 @@ import './percona.js';
 import './planetscale.js';
 import './postgres.js';
 import './qovery.database.js';
+import './questdb.js';
 import './railway.mongodb.js';
 import './railway.mysql.js';
 import './railway.postgres.js';

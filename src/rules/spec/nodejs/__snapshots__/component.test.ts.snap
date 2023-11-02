@@ -194,6 +194,7 @@ exports[`npm > should match everything 1`] = `
   "prisma",
   "puppeteer",
   "qovery",
+  "questdb",
   "rabbitmq",
   "railway",
   "react",
@@ -1212,6 +1213,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@pulumi/opsgenie",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@questdb/nodejs-client",
     "0.0.0",
   ],
   [
