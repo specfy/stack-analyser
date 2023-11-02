@@ -192,6 +192,7 @@ exports[`npm > should match everything 1`] = `
   "preactjs",
   "prettier",
   "prisma",
+  "prometheus",
   "puppeteer",
   "qovery",
   "questdb",
@@ -2198,6 +2199,16 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "prisma",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "prom-client",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "prometheus-gc-stats",
     "0.0.0",
   ],
   [

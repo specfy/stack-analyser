@@ -80,6 +80,7 @@ exports[`docker > should match everything 1`] = `
   "plausible",
   "playwright",
   "postgresql",
+  "prometheus",
   "puppeteer",
   "qovery",
   "questdb",
@@ -264,7 +265,32 @@ exports[`docker > should match everything 2`] = `
   ],
   [
     "docker",
+    "bitnami/nginx",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "bitnami/nginx-exporter",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "bitnami/nginx-ingress-controller",
+    "0.0.0",
+  ],
+  [
+    "docker",
     "bitnami/postgresql",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "bitnami/prometheus",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "bitnami/prometheus-operator",
     "0.0.0",
   ],
   [
@@ -479,6 +505,11 @@ exports[`docker > should match everything 2`] = `
   ],
   [
     "docker",
+    "grafana/mimir",
+    "0.0.0",
+  ],
+  [
+    "docker",
     "grafana/tempo",
     "0.0.0",
   ],
@@ -524,6 +555,11 @@ exports[`docker > should match everything 2`] = `
   ],
   [
     "docker",
+    "kasmweb/nginx",
+    "0.0.0",
+  ],
+  [
+    "docker",
     "kasmweb/slack",
     "0.0.0",
   ],
@@ -545,6 +581,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "kong",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "linuxserver/nginx",
     "0.0.0",
   ],
   [
@@ -644,6 +685,16 @@ exports[`docker > should match everything 2`] = `
   ],
   [
     "docker",
+    "newrelic/newrelic-prometheus-configurator",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "newrelic/nri-prometheus",
+    "0.0.0",
+  ],
+  [
+    "docker",
     "nextcloud",
     "0.0.0",
   ],
@@ -660,6 +711,36 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "nginx",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "nginx/nginx-ingress",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "nginx/nginx-prometheus-exporter",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "nginx/unit",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "nginxinc/nginx-s3-gateway",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "nginxinc/nginx-unprivileged",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "nginxproxy/nginx-proxy",
     "0.0.0",
   ],
   [
@@ -709,6 +790,16 @@ exports[`docker > should match everything 2`] = `
   ],
   [
     "docker",
+    "privatebin/nginx-fpm-alpine",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "prom/prometheus",
+    "0.0.0",
+  ],
+  [
+    "docker",
     "public.ecr.aws/r3m4q3r9/qovery-cli",
     "0.0.0",
   ],
@@ -720,6 +811,21 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "rabbitmq",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "rancher/nginx",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "rancher/nginx-ingress-controller",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "rancher/prometheus-auth",
     "0.0.0",
   ],
   [
@@ -874,7 +980,22 @@ exports[`docker > should match everything 2`] = `
   ],
   [
     "docker",
+    "ubuntu/nginx",
+    "0.0.0",
+  ],
+  [
+    "docker",
     "ubuntu/postgres",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "ubuntu/prometheus",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "unit",
     "0.0.0",
   ],
   [
@@ -925,6 +1046,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "webdevops/liquibase",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "wodby/nginx",
     "0.0.0",
   ],
   [

@@ -80,6 +80,7 @@ exports[`rust (component) > should match everything 1`] = `
   "paypal",
   "postgresql",
   "posthog",
+  "prometheus",
   "questdb",
   "rabbitmq",
   "redis",
@@ -511,6 +512,11 @@ exports[`rust (component) > should match everything 2`] = `
   [
     "rust",
     "posthog-rs",
+    "1.0.0",
+  ],
+  [
+    "rust",
+    "prometheus",
     "1.0.0",
   ],
   [

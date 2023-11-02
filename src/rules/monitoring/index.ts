@@ -9,6 +9,7 @@ import './newrelic.js';
 import './onlineornot.js';
 import './papertrail.js';
 import './pingdom.js';
+import './prometheus.js';
 import './rollbar.js';
 import './scoutapm.js';
 import './sentry.js';

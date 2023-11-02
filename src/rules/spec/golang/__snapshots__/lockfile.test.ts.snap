@@ -93,6 +93,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "paypal",
   "pirschanalytics",
   "posthog",
+  "prometheus",
   "qovery",
   "questdb",
   "rethinkdb",
@@ -527,12 +528,22 @@ exports[`golang (lockfile) > should match everything 2`] = `
   ],
   [
     "golang",
+    "github.com/go-kit/kit/metrics/prometheus",
+    "v1.0.0",
+  ],
+  [
+    "golang",
     "github.com/go-telegram-bot-api/telegram-bot-api/v5",
     "v1.0.0",
   ],
   [
     "golang",
     "github.com/golangci/golangci-lint",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/grpc-ecosystem/go-grpc-prometheus",
     "v1.0.0",
   ],
   [
@@ -603,6 +614,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/posthog/posthog-go",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/prometheus/client_golang/prometheus",
     "v1.0.0",
   ],
   [

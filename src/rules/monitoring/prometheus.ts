@@ -1,0 +1,35 @@
+import { register } from '../../register.js';
+
+register({
+  tech: 'prometheus',
+  name: 'Prometheus',
+  type: 'monitoring',
+  dependencies: [
+    { type: 'npm', name: 'prom-client' },
+    { type: 'npm', name: 'prometheus-gc-stats' },
+    { type: 'docker', name: 'prom/prometheus' },
+    { type: 'docker', name: 'bitnami/prometheus' },
+    { type: 'docker', name: 'bitnami/prometheus-operator' },
+    { type: 'docker', name: 'rancher/prometheus-auth' },
+    { type: 'docker', name: 'ubuntu/prometheus' },
+    { type: 'docker', name: 'newrelic/newrelic-prometheus-configurator' },
+    { type: 'docker', name: 'nginx/nginx-prometheus-exporter' },
+    { type: 'docker', name: 'newrelic/nri-prometheus' },
+    { type: 'docker', name: 'grafana/mimir' },
+    { type: 'docker', name: 'bitnami/nginx-exporter' },
+    { type: 'rust', name: 'prometheus' },
+    { type: 'php', name: 'promphp/prometheus_client_php' },
+    { type: 'php', name: 'artprima/prometheus-metrics-bundle' },
+    { type: 'ruby', name: 'prometheus-client' },
+    { type: 'ruby', name: 'prometheus' },
+    { type: 'ruby', name: 'prometheus_exporter' },
+    { type: 'ruby', name: 'prometheus-client-mmap' },
+    { type: 'ruby', name: 'fluent-plugin-prometheus' },
+    {
+      type: 'golang',
+      name: 'github.com/prometheus/client_golang/prometheus',
+    },
+    { type: 'golang', name: 'github.com/go-kit/kit/metrics/prometheus' },
+    { type: 'golang', name: 'github.com/grpc-ecosystem/go-grpc-prometheus' },
+  ],
+});

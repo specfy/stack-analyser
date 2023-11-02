@@ -320,6 +320,7 @@ exports[`all > should match everything 1`] = `
   "prettier",
   "prisma",
   "prismacloud",
+  "prometheus",
   "puppeteer",
   "python",
   "qovery",

@@ -340,6 +340,7 @@ export type AllowedKeys =
   | 'prettier'
   | 'prisma'
   | 'prismacloud'
+  | 'prometheus'
   | 'puppeteer'
   | 'python'
   | 'qovery.cluster'

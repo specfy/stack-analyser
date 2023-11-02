@@ -125,6 +125,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "postgresql",
   "posthog",
   "postmark",
+  "prometheus",
   "rabbitmq",
   "redis",
   "rethinkdb",
@@ -529,6 +530,11 @@ exports[`ruby (component) > should match everything 2`] = `
   ],
   [
     "ruby",
+    "fluent-plugin-prometheus",
+    "1.0.0",
+  ],
+  [
+    "ruby",
     "functions_framework ",
     "1.0.0",
   ],
@@ -925,6 +931,26 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "postmark-rails",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "prometheus",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "prometheus-client",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "prometheus-client-mmap",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "prometheus_exporter",
     "1.0.0",
   ],
   [

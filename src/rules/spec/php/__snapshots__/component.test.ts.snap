@@ -109,6 +109,7 @@ exports[`php > should match everything 1`] = `
   "posthog",
   "postmark",
   "prestashop",
+  "prometheus",
   "rabbitmq",
   "redis",
   "resend",
@@ -193,6 +194,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "api-platform/core",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "artprima/prometheus-metrics-bundle",
     "0.0.0",
   ],
   [
@@ -878,6 +884,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "prestashop/ps_shoppingcart",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "promphp/prometheus_client_php",
     "0.0.0",
   ],
   [
