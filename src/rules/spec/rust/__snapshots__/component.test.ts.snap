@@ -87,6 +87,7 @@ exports[`rust (component) > should match everything 1`] = `
   "slack",
   "snowflake",
   "sqlite",
+  "tdengine",
   "telegram",
   "typesense",
   "vercel",
@@ -554,6 +555,11 @@ exports[`rust (component) > should match everything 2`] = `
   [
     "rust",
     "sqlite",
+    "1.0.0",
+  ],
+  [
+    "rust",
+    "taos",
     "1.0.0",
   ],
   [

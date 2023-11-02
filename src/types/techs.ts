@@ -422,6 +422,7 @@ export type AllowedKeys =
   | 'symfony'
   | 'tailscale'
   | 'tailwind'
+  | 'tdengine'
   | 'teamcity'
   | 'teamspeak'
   | 'telegraf'

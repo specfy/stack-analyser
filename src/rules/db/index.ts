@@ -70,6 +70,7 @@ import './snowflake.js';
 import './sqlite.js';
 import './supabase.postgres.js';
 import './surrealdb.js';
+import './tdengine.js';
 import './tidb.js';
 import './typesense.js';
 import './typesensecloud.js';

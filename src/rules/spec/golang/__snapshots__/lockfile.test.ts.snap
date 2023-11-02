@@ -100,6 +100,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "slack",
   "splitio",
   "stripe",
+  "tdengine",
   "telegram",
   "twilio",
   "typesense",
@@ -636,6 +637,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/stripe/stripe-go",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/taosdata/driver-go/v3/taosSql",
     "v1.0.0",
   ],
   [
