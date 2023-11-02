@@ -454,7 +454,32 @@ exports[`docker > should match everything 2`] = `
   ],
   [
     "docker",
+    "grafana/agent",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "grafana/agent-operator",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "grafana/grafana",
+    "0.0.0",
+  ],
+  [
+    "docker",
     "grafana/grafana-enterprise",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "grafana/grafana-oss",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "grafana/tempo",
     "0.0.0",
   ],
   [
