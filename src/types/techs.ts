@@ -416,6 +416,7 @@ export type AllowedKeys =
   | 'supabase.realtime'
   | 'supabase.storage'
   | 'supabase'
+  | 'surrealdb'
   | 'sveltejs'
   | 'swift'
   | 'symfony'
