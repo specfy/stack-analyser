@@ -436,6 +436,7 @@ exports[`all > should match everything 1`] = `
   "vercel.postgres",
   "veriff",
   "vialink",
+  "victoriametrics",
   "vite",
   "vue",
   "webflow",

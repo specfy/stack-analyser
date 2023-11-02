@@ -79,3 +79,4 @@ import './upstash.redis.js';
 import './vercel.blob.js';
 import './vercel.kv.js';
 import './vercel.postgres.js';
+import './victoriametrics.js';

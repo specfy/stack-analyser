@@ -108,6 +108,7 @@ exports[`docker > should match everything 1`] = `
   "typesense",
   "uptimekuma",
   "vale",
+  "victoriametrics",
   "wordpress",
   "zookeeper",
 ]
@@ -848,6 +849,31 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "vault",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "victoriametrics/operator",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "victoriametrics/victoria-metrics",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "victoriametrics/vmagent",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "victoriametrics/vminsert",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "victoriametrics/vmstorage",
     "0.0.0",
   ],
   [

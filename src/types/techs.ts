@@ -458,6 +458,7 @@ export type AllowedKeys =
   | 'vercel'
   | 'veriff'
   | 'vialink'
+  | 'victoriametrics'
   | 'vite'
   | 'vue'
   | 'webflow'
