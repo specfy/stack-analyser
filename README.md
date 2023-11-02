@@ -5,7 +5,16 @@
 
 This library provide a simple way to extract dependencies, and metadata from any repository and languages.
 
-It will dive into any folders, read package.json, docker-compose.yml, go.mod, etc. Determines relationship between folders and services, and output a comprehensive list of dependencies, services and the link between them. The set of rules inside this repos allows the detection of specific technology or saas used.
+Detect more than **+500 technologies** in your code base.
+
+- **Full Support:** NodeJS, PHP, Docker, Github Actions
+- Partial Support: Deno, Golang, Ruby, Rust, Terraform
+
+Check all [rules](https://github.com/specfy/stack-analyser/tree/main/src/rules).
+
+---
+
+The library dives into any folders, read package.json, docker-compose.yml, go.mod, etc. Determines relationship between folders and services, and output a comprehensive list of dependencies, services and the link between them. The set of rules inside this repos allows the detection of specific technology or saas used.
 
 This library is directly used by [Specfy.io](https://specfy.io) to create always up-to-date technological documentation.
 It can be helpful for other to get all dependencies or Saas used in a given GitHub repository.
@@ -56,7 +65,7 @@ const flat = flatten(result);
 
 ## Output
 
-> Example of output when running the CLI against ./tests/__fixtures__
+> Example of output when running the CLI against ./tests/**fixtures**
 
 The exact types `AnalyserJson` can be found [here](./src/types/index.ts)
 
@@ -264,12 +273,12 @@ Every contribution is welcome. Check our [Contributing](./CONTRIBUTING.md) guide
 
 There is 2 things versioned in this package, the exposed API and the Data extraction.
 
-The __API is following semver__:
+The **API is following semver**:
 
 - Breaking changes in the API will result in a new MAJOR.
 - Anything else will result in a MINOR `feat`, or a PATCH `fix`
 
-The __Data is following semver without MAJOR__:
+The **Data is following semver without MAJOR**:
 
 - Breaking changes in the Data will result in a new MINOR. A breaking change can be: removal of a tech, change in the tech category, removal of pattern for a tech, new data sources. `feat(rules)`
 - Anything else will result in a PATCH `fix(rules)`
