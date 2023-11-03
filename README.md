@@ -3,43 +3,34 @@
 [![Main](https://github.com/specfy/stack-analyser/actions/workflows/ci.yaml/badge.svg)](https://github.com/specfy/stack-analyser/actions/workflows/ci.yaml)
 [![codecov](https://codecov.io/gh/specfy/stack-analyser/branch/main/graph/badge.svg?token=6L5O79P9UI)](https://codecov.io/gh/specfy/stack-analyser)
 
-This library provide a simple way to extract dependencies, and metadata from any repository and languages.
+This library provide a simple way to extract from any repository: dependencies, languages, infrastructure, SaaS, databases, etc.
 
 Detect more than **+500 technologies** in your code base.
 
 - **Full Support:** Docker, NodeJS, Typescript, PHP, Github Actions
 - Partial Support: Deno, Golang, Python, Ruby, Rust, Terraform, Zig
 
-Check all [rules](https://github.com/specfy/stack-analyser/tree/main/src/rules).
+Look at [all supported tech here](https://github.com/specfy/stack-analyser/tree/main/src/rules).
 
 ---
 
 The library dives into any folders, read package.json, docker-compose.yml, go.mod, etc. Determines relationship between folders and services, and output a comprehensive list of dependencies, services and the link between them. The set of rules inside this repos allows the detection of specific technology or saas used.
 
-This library is directly used by [Specfy.io](https://specfy.io) to create always up-to-date technological documentation.
-It can be helpful for other to get all dependencies or Saas used in a given GitHub repository.
+It is directly used by [specfy.io](https://specfy.io) to create always up-to-date software catalog and infrastructure graph.
+It can be helpful for other to get all dependencies or SaaS used in a given GitHub repository.
 
-## Usage
+## CLI
 
-```sh
-npx @specfy/stack-analyser
-```
-
-```ts
-import { analyser } from '@specfy/stack-analyser'
-```
-
-### Commands
-
-#### Run on local folder
-
-```sh
+```bash
 npx @specfy/stack-analyser <PATH> [--output=<filename>]
 ```
-
-## Install
-
 ```sh
+npx @specfy/stack-analyser /my/folder
+```
+
+## Programmatic Usage
+
+```ts
 npm install -E @specfy/stack-analyser
 ```
 
@@ -59,8 +50,15 @@ const result = await analyser({
 // Output to JSON
 const json = result.toJson();
 
-// Reduce the nested JSON to a flat list of deduplicated childs
+// De-nest the output and deduplicate childs
 const flat = flatten(result);
+```
+
+## GitHub Actions
+
+```yaml
+- name: Stack Analyser
+  uses: specfy/stack-analyser@v__VERSION__
 ```
 
 ## Output
@@ -264,6 +262,7 @@ The exact types `AnalyserJson` can be found [here](./src/types/index.ts)
 ```
 
 </details>
+
 
 ## Contributing
 
