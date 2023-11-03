@@ -101,6 +101,7 @@ exports[`all > should match everything 1`] = `
   "bytebase",
   "c",
   "caddy",
+  "celery",
   "checkov",
   "chef",
   "circleci",

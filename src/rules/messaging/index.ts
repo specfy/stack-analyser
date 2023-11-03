@@ -3,6 +3,7 @@ import './aws.kafka.js';
 import './aws.mq.js';
 import './aws.sns.js';
 import './aws.sqs.js';
+import './celery.js';
 import './gcp.pubsub.js';
 import './nats.js';
 import './rabbitmq.js';

@@ -116,6 +116,7 @@ export type AllowedKeys =
   | 'bytebase'
   | 'c'
   | 'caddy'
+  | 'celery'
   | 'checkov'
   | 'chef'
   | 'circleci'
