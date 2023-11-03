@@ -392,6 +392,11 @@ exports[`docker > should match all dependencies 2`] = `
   ],
   [
     "githubAction",
+    "denoland/setup-deno",
+    "1",
+  ],
+  [
+    "githubAction",
     "digitalocean/action-doctl",
     "1",
   ],
@@ -597,6 +602,11 @@ exports[`docker > should match all dependencies 2`] = `
   ],
   [
     "githubAction",
+    "ramsey/composer-install",
+    "1",
+  ],
+  [
+    "githubAction",
     "red-gate/flyway-hub-migration-test",
     "1",
   ],
@@ -612,12 +622,22 @@ exports[`docker > should match all dependencies 2`] = `
   ],
   [
     "githubAction",
+    "ruby/setup-ruby",
+    "1",
+  ],
+  [
+    "githubAction",
     "samuelmeuli/action-electron-builder",
     "1",
   ],
   [
     "githubAction",
     "scaleway/action-scw",
+    "1",
+  ],
+  [
+    "githubAction",
+    "shivammathur/setup-php",
     "1",
   ],
   [

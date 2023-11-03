@@ -46,6 +46,7 @@ exports[`docker > should match everything 1`] = `
   "ghost",
   "gitguardian",
   "goacmelego",
+  "golang",
   "golangcilint",
   "grafana",
   "haproxy",
@@ -88,6 +89,7 @@ exports[`docker > should match everything 1`] = `
   "redis",
   "rethinkdb",
   "ruby",
+  "rust",
   "sentry",
   "slack",
   "snyk",
@@ -235,6 +237,11 @@ exports[`docker > should match everything 2`] = `
   ],
   [
     "docker",
+    "bitnami/golang",
+    "0.0.0",
+  ],
+  [
+    "docker",
     "bitnami/kafka",
     "0.0.0",
   ],
@@ -276,6 +283,21 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "bitnami/nginx-ingress-controller",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "bitnami/node",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "bitnami/php",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "bitnami/php-fpm",
     "0.0.0",
   ],
   [
@@ -365,7 +387,27 @@ exports[`docker > should match everything 2`] = `
   ],
   [
     "docker",
+    "cimg/node",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "cimg/php",
+    "0.0.0",
+  ],
+  [
+    "docker",
     "cimg/postgres",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "cimg/rust",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "circleci/golang",
     "0.0.0",
   ],
   [
@@ -375,12 +417,32 @@ exports[`docker > should match everything 2`] = `
   ],
   [
     "docker",
+    "circleci/node",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "circleci/php",
+    "0.0.0",
+  ],
+  [
+    "docker",
     "circleci/postgres",
     "0.0.0",
   ],
   [
     "docker",
+    "circleci/rust",
+    "0.0.0",
+  ],
+  [
+    "docker",
     "clickhouse/clickhouse-server",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "composer",
     "0.0.0",
   ],
   [
@@ -471,6 +533,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "goacme/lego",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "golang",
     "0.0.0",
   ],
   [
@@ -760,12 +827,27 @@ exports[`docker > should match everything 2`] = `
   ],
   [
     "docker",
+    "okteto/node",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "okteto/php",
+    "0.0.0",
+  ],
+  [
+    "docker",
     "percona",
     "0.0.0",
   ],
   [
     "docker",
     "php",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "php-zendserver",
     "0.0.0",
   ],
   [
@@ -846,6 +928,16 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "ruby",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "rust",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "rustlang/rust",
     "0.0.0",
   ],
   [
@@ -1046,6 +1138,16 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "webdevops/liquibase",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "webdevops/php-apache",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "webdevops/php-nginx",
     "0.0.0",
   ],
   [

@@ -10,5 +10,9 @@ register({
   files: ['go.mod', 'main.go'],
   extensions: ['.go'],
   detect: [detectGolangLockfile, detectGolangComponent],
-  dependencies: [],
+  dependencies: [
+    { type: 'docker', name: 'golang' },
+    { type: 'docker', name: 'circleci/golang' },
+    { type: 'docker', name: 'bitnami/golang' },
+  ],
 });
