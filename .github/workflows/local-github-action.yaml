@@ -1,0 +1,27 @@
+name: Test Local GitHub Action
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    types: [opened, synchronize]
+
+jobs:
+  test_local_github_action:
+    container: node:20.9.0@sha256:62efd17e997bc843aefa4c003ed84f43dfac83fa6228c57c898482e50a02e45c
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: GitHub Action
+        uses: ./
+        with:
+          GITHUB_WORKSPACE: '/'
+
+      - name: Check if file exists
+        working-directory: ${{ github.workspace }}
+        run: |
+          echo "Check if file exists"
+          cat stack-output.json || exit 1

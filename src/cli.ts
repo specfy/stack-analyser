@@ -62,10 +62,7 @@ program
 
     await timer.setTimeout(500);
     const res = await analyser({
-      provider: new FSProvider({
-        path: root,
-        ignorePaths: [],
-      }),
+      provider: new FSProvider({ path: root, ignorePaths: [] }),
     });
     spinner.succeed('Analysed');
 

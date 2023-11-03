@@ -1,6 +1,7 @@
 name: Main
 on:
   push:
+    branches: [ main ]
   pull_request:
     types: [opened, synchronize]
 
@@ -44,8 +45,3 @@ jobs:
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
           files: ./coverage/cobertura-coverage.xml
-
-      - name: Test github action
-        uses: ./
-        with:
-          token: ${{ secrets.SPECFY_TOKEN }}
