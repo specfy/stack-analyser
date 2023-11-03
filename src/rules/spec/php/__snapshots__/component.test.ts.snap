@@ -117,6 +117,7 @@ exports[`php > should match everything 1`] = `
   "rethinkdb",
   "rollbar",
   "scoutapm",
+  "selenium",
   "sendgrid",
   "sentry",
   "shopify",
@@ -270,6 +271,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "baopham/dynamodb",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "behat/mink-selenium2-driver",
     "0.0.0",
   ],
   [
@@ -594,6 +600,11 @@ exports[`php > should match everything 2`] = `
   ],
   [
     "php",
+    "instaclick/php-webdriver",
+    "0.0.0",
+  ],
+  [
+    "php",
     "intercom/intercom-php",
     "0.0.0",
   ],
@@ -849,6 +860,11 @@ exports[`php > should match everything 2`] = `
   ],
   [
     "php",
+    "php-webdriver/webdriver",
+    "0.0.0",
+  ],
+  [
+    "php",
     "phpclassic/php-shopify",
     "0.0.0",
   ],
@@ -860,6 +876,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "phpunit/phpunit",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "phpunit/phpunit-selenium",
     "0.0.0",
   ],
   [
@@ -945,6 +966,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "scoutapp/scout-apm-php",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "se/selenium-server-standalone",
     "0.0.0",
   ],
   [
@@ -1045,6 +1071,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "supabase/postgrest-php",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "symfony/panther",
     "0.0.0",
   ],
   [

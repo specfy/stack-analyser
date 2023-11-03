@@ -92,6 +92,7 @@ exports[`docker > should match everything 1`] = `
   "rethinkdb",
   "ruby",
   "rust",
+  "selenium",
   "sentry",
   "slack",
   "snyk",
@@ -980,6 +981,66 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "rustlang/rust",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "selenium/base",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "selenium/hub",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "selenium/node-chrome",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "selenium/node-chrome-debug",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "selenium/node-edge",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "selenium/node-firefox",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "selenium/node-firefox-debug",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "selenium/node-opera",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "selenium/standalone-chrome",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "selenium/standalone-chrome-debug",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "selenium/standalone-firefox",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "selenium/standalone-firefox-debug",
     "0.0.0",
   ],
   [

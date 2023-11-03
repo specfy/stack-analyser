@@ -674,6 +674,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   ],
   [
     "golang",
+    "github.com/tebeka/selenium",
+    "v1.0.0",
+  ],
+  [
+    "golang",
     "github.com/twilio/twilio-go",
     "v1.0.0",
   ],

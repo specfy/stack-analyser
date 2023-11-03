@@ -85,6 +85,7 @@ exports[`rust (component) > should match everything 1`] = `
   "rabbitmq",
   "redis",
   "rust",
+  "selenium",
   "sentry",
   "slack",
   "snowflake",
@@ -551,6 +552,11 @@ exports[`rust (component) > should match everything 2`] = `
   ],
   [
     "rust",
+    "selenium-rs",
+    "1.0.0",
+  ],
+  [
+    "rust",
     "sentry",
     "1.0.0",
   ],
@@ -577,6 +583,11 @@ exports[`rust (component) > should match everything 2`] = `
   [
     "rust",
     "teloxide",
+    "1.0.0",
+  ],
+  [
+    "rust",
+    "thirtyfour",
     "1.0.0",
   ],
   [

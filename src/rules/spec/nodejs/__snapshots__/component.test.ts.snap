@@ -216,6 +216,7 @@ exports[`npm > should match everything 1`] = `
   "sap",
   "scaleway",
   "scoutapm",
+  "selenium",
   "sendgrid",
   "sentry",
   "sequelize",
@@ -1554,6 +1555,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@wdio/selenium-standalone-service",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@zilliz/milvus2-sdk-node",
     "0.0.0",
   ],
@@ -2334,6 +2340,16 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "selenium",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "selenium-webdriver",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "sequelize",
     "0.0.0",
   ],
@@ -2465,6 +2481,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "vue-instantsearch",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "webdriver-js-extender",
     "0.0.0",
   ],
   [

@@ -33,6 +33,16 @@ exports[`python (lockfile) > should match everything 2`] = `
   ],
   [
     "python",
+    "pytest-playwright",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "selenium",
+    "1.0.0",
+  ],
+  [
+    "python",
     "tensorflow",
     "1.0.0",
   ],

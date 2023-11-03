@@ -367,6 +367,7 @@ exports[`all > should match everything 1`] = `
   "scaleway.storage",
   "scoutapm",
   "scss",
+  "selenium",
   "sendgrid",
   "sentry",
   "sequelize",

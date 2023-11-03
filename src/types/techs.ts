@@ -387,6 +387,7 @@ export type AllowedKeys =
   | 'scaleway'
   | 'scoutapm'
   | 'scss'
+  | 'selenium'
   | 'sendgrid'
   | 'sentry'
   | 'sequelize'

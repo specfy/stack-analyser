@@ -451,6 +451,11 @@ exports[`ruby (component) > should match everything 2`] = `
   ],
   [
     "ruby",
+    "capybara-selenium",
+    "1.0.0",
+  ],
+  [
+    "ruby",
     "circleci",
     "1.0.0",
   ],
@@ -997,6 +1002,21 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "scout_apm",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "selenium",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "selenium-client",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "selenium-webdriver",
     "1.0.0",
   ],
   [
