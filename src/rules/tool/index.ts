@@ -10,6 +10,7 @@ import './gitlab.js';
 import './goacmelego.js';
 import './golangcilint.js';
 import './helm.js';
+import './k6.js';
 import './lighthouse.js';
 import './liquibase.js';
 import './mailhog.js';

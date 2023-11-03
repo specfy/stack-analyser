@@ -56,6 +56,7 @@ exports[`docker > should match everything 1`] = `
   "influxdb",
   "jenkins",
   "joomla",
+  "k6",
   "kibana",
   "kong",
   "lighthouse",
@@ -606,6 +607,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "grafana/grafana-oss",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "grafana/k6",
     "0.0.0",
   ],
   [

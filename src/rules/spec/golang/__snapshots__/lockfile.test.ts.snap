@@ -694,6 +694,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   ],
   [
     "golang",
+    "go.k6.io/xk6/cmd/xk6ver",
+    "v1.0.0",
+  ],
+  [
+    "golang",
     "goveralls",
     "v1.0.0",
   ],

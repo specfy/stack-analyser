@@ -144,6 +144,7 @@ exports[`npm > should match everything 1`] = `
   "hypertune",
   "influxdb",
   "intercom",
+  "k6",
   "koa",
   "koalaanalytics",
   "koyeb",
@@ -1931,6 +1932,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "jsforce",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "k6",
     "0.0.0",
   ],
   [

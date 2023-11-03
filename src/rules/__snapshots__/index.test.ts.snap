@@ -238,6 +238,7 @@ exports[`all > should match everything 1`] = `
   "jekyll",
   "jenkins",
   "joomla",
+  "k6",
   "kibana",
   "klarna",
   "klaviyo",
