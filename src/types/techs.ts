@@ -473,6 +473,7 @@ export type AllowedKeys =
   | 'yousign'
   | 'zapier'
   | 'zendesk'
+  | 'zig'
   | 'zookeeper'
   | 'zoom'
   | 'zuora';

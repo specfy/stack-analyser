@@ -8,7 +8,7 @@ This library provide a simple way to extract dependencies, and metadata from any
 Detect more than **+500 technologies** in your code base.
 
 - **Full Support:** NodeJS, PHP, Docker, Github Actions
-- Partial Support: Deno, Golang, Ruby, Rust, Terraform
+- Partial Support: Deno, Golang, Ruby, Rust, Terraform, Zig
 
 Check all [rules](https://github.com/specfy/stack-analyser/tree/main/src/rules).
 

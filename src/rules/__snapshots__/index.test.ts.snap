@@ -450,6 +450,7 @@ exports[`all > should match everything 1`] = `
   "yousign",
   "zapier",
   "zendesk",
+  "zig",
   "zookeeper",
   "zoom",
   "zuora",

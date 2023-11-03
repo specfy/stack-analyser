@@ -7,3 +7,4 @@ import './php/index.js';
 import './ruby/index.js';
 import './rust/index.js';
 import './terraform/index.js';
+import './zig/index.js';

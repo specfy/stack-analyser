@@ -492,6 +492,11 @@ exports[`docker > should match all dependencies 2`] = `
   ],
   [
     "githubAction",
+    "goto-bus-stop/setup-zig",
+    "1",
+  ],
+  [
+    "githubAction",
     "hashicorp/setup-terraform",
     "1",
   ],
