@@ -86,6 +86,7 @@ exports[`docker > should match everything 1`] = `
   "prometheus",
   "puppeteer",
   "python",
+  "qdrant",
   "qovery",
   "questdb",
   "rabbitmq",
@@ -932,6 +933,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "python",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "qdrant/qdrant",
     "0.0.0",
   ],
   [

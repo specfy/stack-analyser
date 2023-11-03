@@ -7,6 +7,7 @@ exports[`python (lockfile) > should match everything 1`] = `
   "datadog",
   "novu",
   "python",
+  "qdrant",
 ]
 `;
 
@@ -40,6 +41,11 @@ exports[`python (lockfile) > should match everything 2`] = `
   [
     "python",
     "pytest-playwright",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "qdrant-client",
     "1.0.0",
   ],
   [

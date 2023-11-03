@@ -53,6 +53,7 @@ import './ovh.database.js';
 import './percona.js';
 import './planetscale.js';
 import './postgres.js';
+import './qdrant.js';
 import './qovery.database.js';
 import './questdb.js';
 import './railway.mongodb.js';

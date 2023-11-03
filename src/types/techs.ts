@@ -346,6 +346,7 @@ export type AllowedKeys =
   | 'prometheus'
   | 'puppeteer'
   | 'python'
+  | 'qdrant'
   | 'qovery.cluster'
   | 'qovery.database'
   | 'qovery'

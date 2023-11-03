@@ -111,6 +111,7 @@ exports[`php > should match everything 1`] = `
   "postmark",
   "prestashop",
   "prometheus",
+  "qdrant",
   "rabbitmq",
   "redis",
   "resend",
@@ -585,6 +586,11 @@ exports[`php > should match everything 2`] = `
   ],
   [
     "php",
+    "hkulekci/qdrant",
+    "0.0.0",
+  ],
+  [
+    "php",
     "hubspot/api-client",
     "0.0.0",
   ],
@@ -916,6 +922,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "promphp/prometheus_client_php",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "qdrant-ruby",
     "0.0.0",
   ],
   [
