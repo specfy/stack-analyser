@@ -1,7 +1,7 @@
 name: Run Stack Analyser
 author: Specfy
 description: |-
-  Run Specfy's Stack Analyser and send update to Specfy API
+  Analyse your stack and save output to a file. Detect Languages, SaaS, Cloud, Infrastructure, Dependencies, etc.
 
 
 runs:
