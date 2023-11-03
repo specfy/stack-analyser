@@ -75,6 +75,7 @@ exports[`docker > should match everything 1`] = `
   "nextcloud",
   "nginx",
   "nodejs",
+  "novu",
   "oceanbase",
   "percona",
   "php",
@@ -534,6 +535,26 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "getsentry/sentry-cli",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "ghcr.io/novuhq/novu/api",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "ghcr.io/novuhq/novu/web",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "ghcr.io/novuhq/novu/widget",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "ghcr.io/novuhq/novu/ws",
     "0.0.0",
   ],
   [

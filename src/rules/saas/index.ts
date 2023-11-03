@@ -11,6 +11,7 @@ import './atlassian.trello.js';
 import './bigcommerce.js';
 import './box.js';
 import './brevo.js';
+import './novu.js';
 import './clicksend.js';
 import './commercetools.js';
 import './contentful.js';

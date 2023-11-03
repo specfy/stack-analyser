@@ -92,6 +92,7 @@ exports[`php > should match everything 1`] = `
   "mongodb",
   "nats",
   "newrelic",
+  "novu",
   "okta",
   "openai",
   "optimizely",
@@ -788,6 +789,11 @@ exports[`php > should match everything 2`] = `
   ],
   [
     "php",
+    "novu/novu-laravel",
+    "0.0.0",
+  ],
+  [
+    "php",
     "omnipay/paypal",
     "0.0.0",
   ],
@@ -1074,6 +1080,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "typesense/typesense-php ",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "unicodeveloper/novu",
     "0.0.0",
   ],
   [

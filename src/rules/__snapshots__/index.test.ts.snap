@@ -283,6 +283,7 @@ exports[`all > should match everything 1`] = `
   "nginx",
   "nodejs",
   "notion",
+  "novu",
   "nuxtjs",
   "oceanbase",
   "okta",

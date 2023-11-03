@@ -302,6 +302,7 @@ export type AllowedKeys =
   | 'nginx'
   | 'nodejs'
   | 'notion'
+  | 'novu'
   | 'nuxtjs'
   | 'oceanbase'
   | 'okta'

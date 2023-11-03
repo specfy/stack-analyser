@@ -4,6 +4,7 @@ exports[`python (lockfile) > should match everything 1`] = `
 [
   "algolia",
   "datadog",
+  "novu",
   "python",
 ]
 `;
@@ -23,6 +24,11 @@ exports[`python (lockfile) > should match everything 2`] = `
   [
     "python",
     "datadog",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "novu",
     "1.0.0",
   ],
   [

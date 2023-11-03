@@ -173,6 +173,7 @@ exports[`npm > should match everything 1`] = `
   "newrelic",
   "nextjs",
   "nodejs",
+  "novu",
   "nuxtjs",
   "okta",
   "openai",
@@ -1149,6 +1150,26 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@netlify/run-utils",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@novu/node",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@novu/notification-center",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@novu/notification-center-angular",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@novu/notification-center-vue",
     "0.0.0",
   ],
   [

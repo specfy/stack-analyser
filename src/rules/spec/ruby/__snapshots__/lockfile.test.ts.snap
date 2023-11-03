@@ -115,6 +115,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "nats",
   "neo4j",
   "newrelic",
+  "novu",
   "okta",
   "optimizely",
   "oraclecloud",
@@ -826,6 +827,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "newrelic_rpm",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "novu",
     "1.0.0",
   ],
   [

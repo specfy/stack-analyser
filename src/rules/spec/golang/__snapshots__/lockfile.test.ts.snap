@@ -88,6 +88,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "meilisearch",
   "milvusdb",
   "nats",
+  "novu",
   "optimizely",
   "papertrail",
   "paypal",
@@ -594,6 +595,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/nats-io/stan.go",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/novuhq/go-novu",
     "v1.0.0",
   ],
   [
