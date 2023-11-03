@@ -1,3 +1,19 @@
+## [1.8.2](https://github.com/specfy/stack-analyser/compare/v1.8.1...v1.8.2) (2023-11-03)
+
+
+### Bug Fixes
+
+* github actions ([#88](https://github.com/specfy/stack-analyser/issues/88)) ([30f421e](https://github.com/specfy/stack-analyser/commit/30f421e91af1de0f7b4d231593d670f4c42d515e)), closes [#87](https://github.com/specfy/stack-analyser/issues/87)
+* **rules:** add Celery ([31bc5a8](https://github.com/specfy/stack-analyser/commit/31bc5a80c35db140c019b82abed0fd9534f980f6))
+* **rules:** add K6 ([1f09f83](https://github.com/specfy/stack-analyser/commit/1f09f83d1727e30bd7a41894738af112f7cc260d))
+* **rules:** add more pkg for languages ([73139ab](https://github.com/specfy/stack-analyser/commit/73139ab0393c036940fe247b2f90a0e77966a1f8))
+* **rules:** add NeonDB ([5aa9b75](https://github.com/specfy/stack-analyser/commit/5aa9b751f307d72245617070fd1757f42e50e62e))
+* **rules:** add Novu ([dd07853](https://github.com/specfy/stack-analyser/commit/dd07853ec4139ca88a504730d3eff283948f12a9))
+* **rules:** add Python partial support ([7385001](https://github.com/specfy/stack-analyser/commit/7385001ae1d25af512e651144a68dc8b34c233c3))
+* **rules:** add Qdrant ([5bbd688](https://github.com/specfy/stack-analyser/commit/5bbd688e26e99a6ba6af1358379e5f6462a3c8d7))
+* **rules:** add Selenium ([e60c287](https://github.com/specfy/stack-analyser/commit/e60c287fce5333ffd4f06cb418164e9934b5e0a9))
+* **rules:** add Zig ([38eda05](https://github.com/specfy/stack-analyser/commit/38eda05dd73d2b13ec06acf6fda449f9588324fa))
+
 ## [1.8.1](https://github.com/specfy/stack-analyser/compare/v1.8.0...v1.8.1) (2023-11-02)
 
 
