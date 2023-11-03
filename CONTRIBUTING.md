@@ -70,6 +70,7 @@ Provide as much dependencies as possible when creating the rule.
 - GO: <https://pkg.go.dev/>
 - JS: <https://yarnpkg.com/search?q=>
 - PHP: <https://packagist.org/>
+- Python <https://pypi.org/>
 - Ruby: <https://rubygems.org/>
 - Rust: <https://crates.io/>
 - Terraform: <https://registry.terraform.io/>

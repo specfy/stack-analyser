@@ -25,5 +25,7 @@ register({
       type: 'githubAction',
       name: 'algolia/algoliasearch-crawler-github-actions',
     },
+    { type: 'python', name: 'algoliasearch' },
+    { type: 'python', name: 'algoliasearch-django' },
   ],
 });

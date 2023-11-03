@@ -1,0 +1,62 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`python (lockfile) > should match everything 1`] = `
+[
+  "algolia",
+  "datadog",
+  "python",
+]
+`;
+
+exports[`python (lockfile) > should match everything 2`] = `
+[
+  [
+    "python",
+    "algoliasearch",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "algoliasearch-django",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "datadog",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "tensorflow",
+    "1.0.0",
+  ],
+]
+`;
+
+exports[`python (lockfile) > should match weird syntax 1`] = `
+[
+  "algolia",
+  "datadog",
+  "python",
+]
+`;
+
+exports[`python (lockfile) > should match weird syntax 2`] = `
+[
+  [
+    "python",
+    "algoliasearch",
+    "1.9.1",
+  ],
+  [
+    "python",
+    "datadog",
+    "1.4.3",
+  ],
+  [
+    "python",
+    "tensorflow",
+    "latest",
+  ],
+]
+`;

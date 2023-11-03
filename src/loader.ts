@@ -29,6 +29,7 @@ export const dependencies: Record<
   golang: [],
   npm: [],
   php: [],
+  python: [],
   ruby: [],
   rust: [],
   terraform: [],

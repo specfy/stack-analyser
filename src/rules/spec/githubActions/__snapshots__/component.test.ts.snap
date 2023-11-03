@@ -142,6 +142,11 @@ exports[`docker > should match all dependencies 2`] = `
   ],
   [
     "githubAction",
+    "actions/setup-python",
+    "1",
+  ],
+  [
+    "githubAction",
     "actions/upload-pages-artifact",
     "1",
   ],

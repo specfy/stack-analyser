@@ -83,6 +83,7 @@ exports[`docker > should match everything 1`] = `
   "postgresql",
   "prometheus",
   "puppeteer",
+  "python",
   "qovery",
   "questdb",
   "rabbitmq",
@@ -317,6 +318,11 @@ exports[`docker > should match everything 2`] = `
   ],
   [
     "docker",
+    "bitnami/python",
+    "0.0.0",
+  ],
+  [
+    "docker",
     "bitnami/solr",
     "0.0.0",
   ],
@@ -402,6 +408,11 @@ exports[`docker > should match everything 2`] = `
   ],
   [
     "docker",
+    "cimg/python",
+    "0.0.0",
+  ],
+  [
+    "docker",
     "cimg/rust",
     "0.0.0",
   ],
@@ -428,6 +439,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "circleci/postgres",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "circleci/python",
     "0.0.0",
   ],
   [
@@ -883,6 +899,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "public.ecr.aws/r3m4q3r9/qovery-cli",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "python",
     "0.0.0",
   ],
   [

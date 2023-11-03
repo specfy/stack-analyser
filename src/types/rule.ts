@@ -10,6 +10,7 @@ export type SupportedDeps =
   | 'golang'
   | 'npm'
   | 'php'
+  | 'python'
   | 'ruby'
   | 'rust'
   | 'terraform.resource'
