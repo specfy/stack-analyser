@@ -1,8 +1,12 @@
-name: Test GitHub Action
-on: [push, pull_request]
+name: Test Published GitHub Action
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    types: [opened, synchronize]
 
 jobs:
-  test_github_action:
+  test_published_github_action:
     container: node:20.9.0@sha256:62efd17e997bc843aefa4c003ed84f43dfac83fa6228c57c898482e50a02e45c
     runs-on: ubuntu-latest
     timeout-minutes: 10
