@@ -278,6 +278,7 @@ exports[`all > should match everything 1`] = `
   "mysql",
   "nats",
   "neo4j",
+  "neondb",
   "netlify",
   "newrelic",
   "nextcloud",

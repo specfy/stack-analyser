@@ -297,6 +297,7 @@ export type AllowedKeys =
   | 'mysql'
   | 'nats'
   | 'neo4j'
+  | 'neondb'
   | 'netlify'
   | 'newrelic'
   | 'nextcloud'

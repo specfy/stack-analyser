@@ -170,6 +170,7 @@ exports[`npm > should match everything 1`] = `
   "mysql",
   "nats",
   "neo4j",
+  "neondb",
   "netlify",
   "newrelic",
   "nextjs",
@@ -1117,6 +1118,16 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@neondatabase/api-client",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@neondatabase/serverless",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@netlify/build",
     "0.0.0",
   ],
@@ -1233,6 +1244,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@placekit/client-js",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@prisma/adapter-neon",
     "0.0.0",
   ],
   [

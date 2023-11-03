@@ -73,6 +73,7 @@ exports[`docker > should match everything 1`] = `
   "mysql",
   "nats",
   "neo4j",
+  "neondb",
   "nextcloud",
   "nginx",
   "nodejs",
@@ -793,6 +794,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "neo4j",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "neondatabase/neon",
     "0.0.0",
   ],
   [
