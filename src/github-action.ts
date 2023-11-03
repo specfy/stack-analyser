@@ -1,3 +1,6 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+
 import core from '@actions/core';
 
 import { l } from './common/log.js';
@@ -7,21 +10,22 @@ import { analyser, FSProvider } from './index.js';
 try {
   l.log('Starting Stack Analyser');
 
-  const token = core.getInput('token', {
-    required: true,
-  });
+  // Because we exec the GitHub Action in a docker env the repo path is in the env var
   const workspace = process.env.GITHUB_WORKSPACE!;
-  l.log('hello', token);
   l.log('workspace', workspace);
 
+  // Analyze
   const res = await analyser({
-    provider: new FSProvider({
-      path: workspace,
-      ignorePaths: [],
-    }),
+    provider: new FSProvider({ path: workspace, ignorePaths: [] }),
   });
 
   l.log('Result:', res.toJson(workspace));
+
+  // Output to file
+  const file = path.join(workspace, 'stack-output.json');
+  l.log('Output to file', file);
+
+  await fs.writeFile(file, JSON.stringify(res.toJson(workspace), undefined, 2));
 
   l.log('Done');
 } catch (error: unknown) {
