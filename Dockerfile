@@ -53,11 +53,13 @@ RUN true \
   && apt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false
 
 # Do not use root to run the app
-USER node
+# We need to use the root
+# https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners/about-github-hosted-runners#docker-container-filesystem
+# USER node
 
 WORKDIR /app
 
-COPY --from=tmp --chown=node:node /app/tmp /app
+COPY --from=tmp /app/tmp /app
 
 EXPOSE 8080
 
