@@ -1,0 +1,15 @@
+name: Test GitHub Action
+on: [push, pull_request]
+
+jobs:
+  test_github_action:
+    container: node:20.9.0@sha256:62efd17e997bc843aefa4c003ed84f43dfac83fa6228c57c898482e50a02e45c
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: GitHub Action
+        uses: specfy/stack-analyser

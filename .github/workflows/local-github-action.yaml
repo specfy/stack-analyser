@@ -1,8 +1,5 @@
 name: Test GitHub Action
-on:
-  push:
-  pull_request:
-    types: [opened, synchronize]
+on: [push, pull_request]
 
 jobs:
   test_github_action:
