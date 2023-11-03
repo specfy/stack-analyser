@@ -19,3 +19,9 @@ jobs:
         uses: ./
         with:
           GITHUB_WORKSPACE: '/'
+
+      - name: Check if file exists
+        working-directory: ${{ github.workspace }}
+        run: |
+          echo "Check if file exists"
+          cat stack-output.json || exit 1
