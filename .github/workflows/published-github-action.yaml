@@ -16,4 +16,4 @@ jobs:
         uses: actions/checkout@v4
 
       - name: GitHub Action
-        uses: specfy/stack-analyser
+        uses: specfy/stack-analyser@1
