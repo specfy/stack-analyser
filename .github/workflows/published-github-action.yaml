@@ -1,9 +1,6 @@
 name: Test Published GitHub Action
 on:
-  push:
-    branches: [ main ]
-  pull_request:
-    types: [opened, synchronize]
+  workflow_dispatch:
 
 jobs:
   test_published_github_action:
@@ -16,7 +13,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: GitHub Action
-        uses: specfy/stack-analyser@v1.8.1
+        uses: specfy/stack-analyser@v1.8.2
 
       - name: Check if file exists
         working-directory: ${{ github.workspace }}
