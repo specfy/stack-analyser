@@ -6,6 +6,7 @@ import core from '@actions/core';
 import { l } from './common/log.js';
 
 import { analyser, FSProvider } from './index.js';
+import './autoload.js';
 
 try {
   l.log('Starting Stack Analyser');
@@ -14,9 +15,13 @@ try {
   const workspace = process.env.GITHUB_WORKSPACE!;
   l.log('workspace', workspace);
 
+  if (!workspace) {
+    throw new Error('No workspace env specified');
+  }
+
   // Analyze
   const res = await analyser({
-    provider: new FSProvider({ path: workspace, ignorePaths: [] }),
+    provider: new FSProvider({ path: workspace }),
   });
 
   l.log('Result:', res.toJson(workspace));
