@@ -1,3 +1,11 @@
+## [1.8.4](https://github.com/specfy/stack-analyser/compare/v1.8.3...v1.8.4) (2023-11-06)
+
+
+### Bug Fixes
+
+* **githubActions:** handle container as object ([d5f3fa9](https://github.com/specfy/stack-analyser/commit/d5f3fa918b70f4badaa25900079856ecf355e63e))
+* **rules:** add more pkg for puppeteer ([3681eba](https://github.com/specfy/stack-analyser/commit/3681eba5ef9fbf0d0fce8ed28b0e0498b41018a2))
+
 ## [1.8.3](https://github.com/specfy/stack-analyser/compare/v1.8.2...v1.8.3) (2023-11-06)
 
 
