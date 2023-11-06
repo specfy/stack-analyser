@@ -21,7 +21,7 @@ interface GitHubActionsFile {
   jobs: Record<
     string,
     {
-      container?: string; // interesting
+      container?: string | { image: string; options?: string }; // interesting
       'runs-on': string;
       'timeout-minutes': number;
       env?: Record<string, string>;
@@ -74,7 +74,10 @@ export const detectGithubActionsComponent: ComponentMatcher = async (
       }
 
       if (config.container) {
-        const [imageName, imageVersion] = config.container.split(':');
+        const [imageName, imageVersion] =
+          typeof config.container === 'string'
+            ? config.container.split(':')
+            : config.container.image;
         dependencies.push(['docker', imageName, imageVersion || 'latest']);
         const matched = matchDependencies([imageName], 'docker');
         if (matched.size > 0) {
@@ -87,6 +90,7 @@ export const detectGithubActionsComponent: ComponentMatcher = async (
           if (!service.image) {
             continue;
           }
+
           const [imageName, imageVersion] = service.image.split(':');
           dependencies.push(['docker', imageName, imageVersion || 'latest']);
           const matched = matchDependencies([imageName], 'docker');
