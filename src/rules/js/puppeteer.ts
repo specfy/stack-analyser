@@ -6,6 +6,8 @@ register({
   type: 'tool',
   dependencies: [
     { type: 'npm', name: 'puppeteer' },
+    { type: 'npm', name: 'puppeteer-core' },
+    { type: 'npm', name: '@puppeteer/browser' },
     { type: 'docker', name: 'itisfoundation/puppeteer' },
   ],
 });
