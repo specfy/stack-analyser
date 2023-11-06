@@ -47,7 +47,6 @@ export const detectGithubActionsComponent: ComponentMatcher = async (
 
     const content = await provider.open(file.fp);
     if (!content) {
-      l.warn('Failed to open GitHub Actions file', file.fp);
       continue;
     }
 

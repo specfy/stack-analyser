@@ -23,7 +23,6 @@ export const detectDockerComponent: ComponentMatcher = async (
 
     const content = await provider.open(file.fp);
     if (!content) {
-      l.warn('Failed to open Docker file', file.fp);
       continue;
     }
 

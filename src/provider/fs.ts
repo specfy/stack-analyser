@@ -1,6 +1,8 @@
 import fs from 'fs/promises';
 import path from 'node:path';
 
+import { l } from '../common/log.js';
+
 import type { BaseProvider, ProviderFile } from './base.js';
 
 export interface FSProviderOptions {
@@ -33,9 +35,13 @@ export class FSProvider implements BaseProvider {
     return list;
   }
 
-  async open(pathRelative: string): Promise<string> {
-    const content = await fs.readFile(pathRelative);
-
-    return content.toString();
+  async open(pathRelative: string): Promise<string | null> {
+    try {
+      const content = await fs.readFile(pathRelative);
+      return content ? content.toString() : null;
+    } catch (err) {
+      l.error('Failed to open file', { pathRelative, err });
+      return null;
+    }
   }
 }
