@@ -50,9 +50,15 @@ export const detectGithubActionsComponent: ComponentMatcher = async (
       continue;
     }
 
-    const parsed: GitHubActionsFile = parse(content, {});
-    if (!parsed?.jobs) {
-      l.warn('Failed to parse GitHub Actions file', file.fp);
+    let parsed: GitHubActionsFile;
+    try {
+      parsed = parse(content, {});
+      if (!parsed?.jobs) {
+        l.warn('No jobs in GitHub Actions', file.fp);
+        return false;
+      }
+    } catch (err) {
+      l.warn('Failed to parse', file.fp, err);
       return false;
     }
 
