@@ -1,3 +1,11 @@
+## [1.8.3](https://github.com/specfy/stack-analyser/compare/v1.8.2...v1.8.3) (2023-11-06)
+
+
+### Bug Fixes
+
+* handle invalid file and log path ([f5a0e62](https://github.com/specfy/stack-analyser/commit/f5a0e620a8a6bfc1330316c0965cf273395c535d))
+* revert doesn't play well with eslint ([8ffbd01](https://github.com/specfy/stack-analyser/commit/8ffbd01d9fa2608bebf73251b65529369640bfb5))
+
 ## [1.8.2](https://github.com/specfy/stack-analyser/compare/v1.8.1...v1.8.2) (2023-11-03)
 
 
