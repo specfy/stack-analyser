@@ -185,6 +185,7 @@ exports[`npm > should match everything 1`] = `
   "ovh",
   "pagerduty",
   "papertrail",
+  "payloadcms",
   "paypal",
   "pirschanalytics",
   "placekit",
@@ -1239,6 +1240,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@payload/plugin-seo",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@paypal/paypal-js",
     "0.0.0",
   ],
@@ -2195,6 +2201,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "opsgenie-sdk",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "payload",
     "0.0.0",
   ],
   [

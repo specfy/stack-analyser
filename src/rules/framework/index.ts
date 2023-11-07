@@ -11,4 +11,5 @@ import './ghost.js';
 import './hexojs.js';
 import './hugo.js';
 import './jekyll.js';
+import './payloadcms.js';
 import './shopify.hydrogen.js';

@@ -322,6 +322,7 @@ export type AllowedKeys =
   | 'ovh'
   | 'pagerduty'
   | 'papertrail'
+  | 'payloadcms'
   | 'paypal'
   | 'percona'
   | 'php'

@@ -303,6 +303,7 @@ exports[`all > should match everything 1`] = `
   "ovh.vps",
   "pagerduty",
   "papertrail",
+  "payloadcms",
   "paypal",
   "percona",
   "php",
