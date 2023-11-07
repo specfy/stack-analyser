@@ -366,6 +366,7 @@ export type AllowedKeys =
   | 'redwoodjs'
   | 'refinedev'
   | 'relativeci'
+  | 'remixrun'
   | 'render'
   | 'renovate'
   | 'replit.database'
