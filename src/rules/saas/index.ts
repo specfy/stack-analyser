@@ -36,6 +36,7 @@ import './intercom.js';
 import './intuit.js';
 import './klarna.js';
 import './klaviyo.js';
+import './lago.js';
 import './launchdarkly.js';
 import './lemonsqueezy.js';
 import './linear.js';

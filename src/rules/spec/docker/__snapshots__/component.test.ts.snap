@@ -59,6 +59,7 @@ exports[`docker > should match everything 1`] = `
   "k6",
   "kibana",
   "kong",
+  "lago",
   "lighthouse",
   "liquibase",
   "logstash",
@@ -524,6 +525,21 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "flyway/flyway",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "getlago/api",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "getlago/front",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "getlago/lago-gotenberg",
     "0.0.0",
   ],
   [

@@ -248,6 +248,7 @@ exports[`all > should match everything 1`] = `
   "kong",
   "koyeb",
   "kubernetes",
+  "lago",
   "laravel",
   "launchdarkly",
   "lemonsqueezy",

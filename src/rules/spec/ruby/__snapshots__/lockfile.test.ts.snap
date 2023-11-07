@@ -101,6 +101,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "influxdb",
   "intercom",
   "kubernetes",
+  "lago",
   "launchdarkly",
   "lemonsqueezy",
   "logstash",
@@ -727,6 +728,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "kubeclient",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "lago-ruby-client",
     "1.0.0",
   ],
   [

@@ -81,6 +81,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "gitguardian",
   "golang",
   "hyperdx",
+  "lago",
   "launchdarkly",
   "lemonsqueezy",
   "logstash",
@@ -521,6 +522,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/getbrevo/brevo-go",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/getlago/lago-go-client",
     "v1.0.0",
   ],
   [

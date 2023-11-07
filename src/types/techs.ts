@@ -267,6 +267,7 @@ export type AllowedKeys =
   | 'kotlin'
   | 'koyeb'
   | 'kubernetes'
+  | 'lago'
   | 'laravel'
   | 'launchdarkly'
   | 'lemonsqueezy'
