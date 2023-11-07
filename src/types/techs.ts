@@ -364,6 +364,7 @@ export type AllowedKeys =
   | 'reactemail'
   | 'redis'
   | 'redwoodjs'
+  | 'refinedev'
   | 'relativeci'
   | 'render'
   | 'renovate'

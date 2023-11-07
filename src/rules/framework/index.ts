@@ -12,4 +12,5 @@ import './hexojs.js';
 import './hugo.js';
 import './jekyll.js';
 import './payloadcms.js';
+import './refinedev.js';
 import './shopify.hydrogen.js';

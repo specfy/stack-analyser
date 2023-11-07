@@ -208,6 +208,7 @@ exports[`npm > should match everything 1`] = `
   "reactemail",
   "redis",
   "redwoodjs",
+  "refinedev",
   "relativeci",
   "renovate",
   "replit",
@@ -1321,6 +1322,21 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@redwoodjs/web",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@refinedev/antd",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@refinedev/cli",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@refinedev/core",
     "0.0.0",
   ],
   [

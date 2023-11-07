@@ -344,6 +344,7 @@ exports[`all > should match everything 1`] = `
   "reactemail",
   "redis",
   "redwoodjs",
+  "refinedev",
   "relativeci",
   "render",
   "renovate",
