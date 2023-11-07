@@ -13,4 +13,5 @@ import './prometheus.js';
 import './rollbar.js';
 import './scoutapm.js';
 import './sentry.js';
+import './signoz.js';
 import './uptimekuma.js';

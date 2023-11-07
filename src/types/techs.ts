@@ -400,6 +400,7 @@ export type AllowedKeys =
   | 'servicenow'
   | 'shopify.hydrogen'
   | 'shopify'
+  | 'signoz'
   | 'sitecore.xmlcloud'
   | 'sitecore'
   | 'slack'

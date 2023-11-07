@@ -98,6 +98,7 @@ exports[`docker > should match everything 1`] = `
   "rust",
   "selenium",
   "sentry",
+  "signoz",
   "slack",
   "snyk",
   "sonarqube",
@@ -1085,6 +1086,31 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "sentryintegrations/sentry-github-action-release",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "signoz/alertmanager",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "signoz/frontend",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "signoz/locust",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "signoz/query-service",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "signoz/signoz-otel-collector",
     "0.0.0",
   ],
   [

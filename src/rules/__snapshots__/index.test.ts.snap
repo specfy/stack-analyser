@@ -380,6 +380,7 @@ exports[`all > should match everything 1`] = `
   "servicenow",
   "shopify",
   "shopify.hydrogen",
+  "signoz",
   "sitecore",
   "sitecore.xmlcloud",
   "slack",
