@@ -28,11 +28,11 @@ export const detectPhpComponent: ComponentMatcher = async (files, provider) => {
       json = JSON.parse(content);
     } catch (e) {
       l.warn('Failed to parse composer.json', file.fp, e);
-      return false;
+      continue;
     }
 
     if (!json.name) {
-      return false;
+      continue;
     }
 
     const deps = {

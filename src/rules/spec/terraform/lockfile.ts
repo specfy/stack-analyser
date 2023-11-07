@@ -30,11 +30,11 @@ export const detectTerraformLockfile: ComponentMatcher = async (
       json = await parse(file.fp, content);
     } catch (err) {
       l.warn('Failed to parse HCL', file.fp, err);
-      return false;
+      continue;
     }
 
     if (!('provider' in json)) {
-      return false;
+      continue;
     }
 
     const pl = new Payload({

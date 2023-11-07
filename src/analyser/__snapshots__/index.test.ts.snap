@@ -746,7 +746,7 @@ exports[`analyser > should run correctly 1`] = `
         "AMPL": 1,
         "HCL": 1,
         "JSON": 1,
-        "YAML": 2,
+        "YAML": 3,
       },
       "name": "fake",
       "path": [
@@ -759,7 +759,7 @@ exports[`analyser > should run correctly 1`] = `
         "matched file: .github",
         "matched file: docker-compose.yml",
         "matched file: package.json",
-        "matched file: /.github/workflows/test.yaml",
+        "matched file: /.github/workflows/invalid.yml",
         "matched file: deno.lock",
         "matched file: go.mod",
         "matched file: Gemfile",
@@ -1158,7 +1158,7 @@ exports[`analyser > should run correctly 2`] = `
         "JSON": 4,
         "SCSS": 1,
         "TOML": 1,
-        "YAML": 2,
+        "YAML": 3,
       },
       "name": "fake",
       "path": [
@@ -1808,7 +1808,7 @@ exports[`analyser > should run correctly 2`] = `
     "JSON": 11,
     "SCSS": 3,
     "TOML": 3,
-    "YAML": 4,
+    "YAML": 6,
   },
   "name": "flatten",
   "path": [

@@ -42,7 +42,7 @@ export const detectRustComponent: ComponentMatcher = async (
       json = toml.parse(content);
     } catch (e) {
       l.warn('Failed to parse Cargo.toml', file.fp, e);
-      return false;
+      continue;
     }
 
     let pl: Payload;

@@ -27,11 +27,11 @@ export const detectDenoLockfile: ComponentMatcher = async (files, provider) => {
       json = JSON.parse(content);
     } catch (e) {
       l.warn('Failed to parse deno.lock', file.fp, e);
-      return false;
+      continue;
     }
 
     if (!json.version) {
-      return false;
+      continue;
     }
 
     const deps = {

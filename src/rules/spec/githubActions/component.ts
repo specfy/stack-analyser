@@ -55,11 +55,11 @@ export const detectGithubActionsComponent: ComponentMatcher = async (
       parsed = parse(content, {});
       if (!parsed?.jobs) {
         l.warn('No jobs in GitHub Actions', file.fp);
-        return false;
+        continue;
       }
     } catch (err) {
       l.warn('Failed to parse', file.fp, err);
-      return false;
+      continue;
     }
 
     const pl = new Payload({ name: 'virtual', folderPath: file.fp });

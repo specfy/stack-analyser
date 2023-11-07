@@ -27,11 +27,11 @@ export const detectNodeComponent: ComponentMatcher = async (
       json = JSON.parse(content);
     } catch (e) {
       l.warn('Failed to parse package.json', file.fp, e);
-      return false;
+      continue;
     }
 
     if (!json.name) {
-      return false;
+      continue;
     }
 
     const deps = {

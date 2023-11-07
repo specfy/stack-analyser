@@ -7,6 +7,11 @@ import type { ComponentMatcher } from '../../../types/rule.js';
 
 const FILES_REG = /^docker-compose(.*)?\.y(a)?ml$/;
 
+interface DockerCompose {
+  services: {
+    [key: string]: DockerComposeService;
+  };
+}
 interface DockerComposeService {
   image?: string;
   container_name?: string;
@@ -26,10 +31,16 @@ export const detectDockerComponent: ComponentMatcher = async (
       continue;
     }
 
-    const parsed = parse(content, {});
-    if (!parsed?.services) {
-      l.warn('Failed to parse Docker file', file.fp);
-      return false;
+    let parsed: DockerCompose;
+    try {
+      parsed = parse(content, {});
+      if (!parsed?.services) {
+        l.warn('Failed to parse Docker file', file.fp);
+        continue;
+      }
+    } catch (err) {
+      l.warn('Failed to parse', file.fp, err);
+      continue;
     }
 
     const pl = new Payload({ name: 'virtual', folderPath: file.fp });
