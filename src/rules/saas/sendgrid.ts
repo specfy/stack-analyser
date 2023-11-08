@@ -6,6 +6,8 @@ register({
   type: 'saas',
   dependencies: [
     { type: 'npm', name: /^@sendgrid\//, example: '@sendgrid/mail' },
+    { type: 'npm', name: 'nodemailer-sendgrid' },
+    { type: 'npm', name: 'nodemailer-sendgrid-transport' },
     { type: 'php', name: 'sendgrid/sendgrid' },
     { type: 'ruby', name: 'sendgrid-ruby' },
     { type: 'ruby', name: 'sendgrid-rails' },

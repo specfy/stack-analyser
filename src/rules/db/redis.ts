@@ -6,6 +6,9 @@ register({
   type: 'db',
   dependencies: [
     { type: 'npm', name: 'redis' },
+    { type: 'npm', name: '@opentelemetry/instrumentation-redis' },
+    { type: 'npm', name: '@opentelemetry/instrumentation-redis-4' },
+    { type: 'npm', name: '@opentelemetry/instrumentation-ioredis' },
     { type: 'npm', name: 'ioredis' },
     { type: 'docker', name: /redis/, example: 'redis:0.0.0' },
     { type: 'rust', name: 'redis' },

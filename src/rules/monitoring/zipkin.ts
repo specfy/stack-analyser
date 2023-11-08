@@ -17,6 +17,7 @@ register({
     { type: 'npm', name: 'zipkin' },
     { type: 'npm', name: 'zipkin-context-cls' },
     { type: 'npm', name: 'zipkin-transport-http' },
+    { type: 'npm', name: '@opentelemetry/exporter-zipkin' },
     { type: 'ruby', name: 'zipkin-tracer' },
     { type: 'php', name: 'openzipkin/zipkin' },
   ],

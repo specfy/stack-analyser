@@ -6,6 +6,7 @@ register({
   type: 'tool',
   dependencies: [
     { type: 'npm', name: 'playwright' },
+    { type: 'npm', name: '@playwright/test' },
     { type: 'githubAction', name: 'microsoft/playwright-github-action' },
     { type: 'docker', name: 'mcr.microsoft.com/playwright' },
     { type: 'python', name: 'pytest-playwright' },

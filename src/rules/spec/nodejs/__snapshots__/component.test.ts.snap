@@ -8,6 +8,7 @@ exports[`npm > should match everything 1`] = `
   "alpinejs",
   "amplitude",
   "angular",
+  "apache_cassandra",
   "apache_kafka",
   "apache_thrift",
   "apiplatform",
@@ -1237,6 +1238,66 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@opentelemetry/exporter-zipkin",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@opentelemetry/instrumentation-amqplib",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@opentelemetry/instrumentation-cassandra-driver",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@opentelemetry/instrumentation-fastify",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@opentelemetry/instrumentation-ioredis",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@opentelemetry/instrumentation-koa",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@opentelemetry/instrumentation-mongodb",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@opentelemetry/instrumentation-mongoose",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@opentelemetry/instrumentation-mysql",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@opentelemetry/instrumentation-pg",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@opentelemetry/instrumentation-redis",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@opentelemetry/instrumentation-redis-4",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@optimizely/js-sdk-event-processor",
     "0.0.0",
   ],
@@ -1283,6 +1344,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@placekit/client-js",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@playwright/test",
     "0.0.0",
   ],
   [
@@ -1762,6 +1828,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "aws4fetch",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "better-sqlite3",
     "0.0.0",
   ],
@@ -1988,6 +2059,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "gatsby-core-utils",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "gatsby-cypress",
     "0.0.0",
   ],
   [
@@ -2297,6 +2373,21 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "nodemailer-mailgun-transport",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "nodemailer-sendgrid",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "nodemailer-sendgrid-transport",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "nuxt",
     "0.0.0",
   ],
@@ -2352,6 +2443,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "pg-connection-string",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "phaser",
     "0.0.0",
   ],
@@ -2373,6 +2469,16 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "playwright",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "postgres",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "postgres-interval",
     "0.0.0",
   ],
   [

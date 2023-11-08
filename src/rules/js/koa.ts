@@ -4,5 +4,8 @@ register({
   tech: 'koa',
   name: 'Koa',
   type: 'tool',
-  dependencies: [{ type: 'npm', name: 'koa' }],
+  dependencies: [
+    { type: 'npm', name: 'koa' },
+    { type: 'npm', name: '@opentelemetry/instrumentation-koa' },
+  ],
 });

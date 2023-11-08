@@ -6,7 +6,11 @@ register({
   type: 'db',
   dependencies: [
     { type: 'npm', name: 'pg' },
+    { type: 'npm', name: 'postgres' },
+    { type: 'npm', name: 'postgres-interval' },
+    { type: 'npm', name: '@opentelemetry/instrumentation-pg' },
     { type: 'npm', name: '@mikro-orm/postgresql' },
+    { type: 'npm', name: 'pg-connection-string' },
     { type: 'docker', name: 'postgres' },
     { type: 'docker', name: 'bitnami/postgresql' },
     { type: 'docker', name: 'circleci/postgres' },
