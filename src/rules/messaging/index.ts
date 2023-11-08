@@ -1,6 +1,7 @@
 import './apache_kafka.js';
 import './aws.kafka.js';
 import './aws.mq.js';
+import './aws.ses.js';
 import './aws.sns.js';
 import './aws.sqs.js';
 import './celery.js';

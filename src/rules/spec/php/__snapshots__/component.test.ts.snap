@@ -22,6 +22,7 @@ exports[`php > should match everything 1`] = `
   "aws.lambda",
   "aws.rds",
   "aws.s3",
+  "aws.ses",
   "aws.sns",
   "aws.sqs",
   "azure",
@@ -225,6 +226,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "async-aws/s3",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "async-aws/ses",
     "0.0.0",
   ],
   [

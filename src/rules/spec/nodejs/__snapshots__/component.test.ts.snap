@@ -55,6 +55,7 @@ exports[`npm > should match everything 1`] = `
   "aws.s3",
   "aws.sagemaker",
   "aws.secretsmanager",
+  "aws.ses",
   "aws.sfn",
   "aws.sns",
   "aws.sqs",
@@ -501,6 +502,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@aws-cdk/aws-ses",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@aws-cdk/aws-sfn",
     "0.0.0",
   ],
@@ -697,6 +703,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@aws-sdk/client-secrets-manager",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@aws-sdk/client-ses",
     "0.0.0",
   ],
   [
@@ -1861,6 +1872,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "aws-ses-v2-local",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "aws4fetch",
     "0.0.0",
   ],
@@ -2427,6 +2443,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "nodemailer-sendgrid-transport",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "nodemailer-ses-transport",
     "0.0.0",
   ],
   [

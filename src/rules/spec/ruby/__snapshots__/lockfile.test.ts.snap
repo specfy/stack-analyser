@@ -45,6 +45,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "aws.s3",
   "aws.sagemaker",
   "aws.secretsmanager",
+  "aws.ses",
   "aws.sfn",
   "aws.sns",
   "aws.sqs",
@@ -387,6 +388,11 @@ exports[`ruby (component) > should match everything 2`] = `
   ],
   [
     "ruby",
+    "aws-sdk-ses",
+    "1.0.0",
+  ],
+  [
+    "ruby",
     "aws-sdk-sfn",
     "1.0.0",
   ],
@@ -408,6 +414,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "aws-sdk-translate",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "aws-ses",
     "1.0.0",
   ],
   [
