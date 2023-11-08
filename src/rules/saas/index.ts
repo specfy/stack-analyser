@@ -35,6 +35,7 @@ import './hypertune.js';
 import './iftt.js';
 import './intercom.js';
 import './intuit.js';
+import './kentico.js';
 import './klarna.js';
 import './klaviyo.js';
 import './lago.js';

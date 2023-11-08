@@ -259,6 +259,7 @@ export type AllowedKeys =
   | 'jest'
   | 'joomla'
   | 'k6'
+  | 'kentico'
   | 'kibana'
   | 'klarna'
   | 'klaviyo'

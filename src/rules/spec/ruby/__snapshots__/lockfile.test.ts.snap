@@ -100,6 +100,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "heroku",
   "influxdb",
   "intercom",
+  "kentico",
   "kubernetes",
   "lago",
   "launchdarkly",
@@ -503,6 +504,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "ddtrace",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "delivery-sdk-ruby",
     "1.0.0",
   ],
   [

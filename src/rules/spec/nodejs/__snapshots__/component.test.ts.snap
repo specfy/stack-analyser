@@ -146,6 +146,7 @@ exports[`npm > should match everything 1`] = `
   "influxdb",
   "intercom",
   "k6",
+  "kentico",
   "koa",
   "koalaanalytics",
   "koyeb",
@@ -1084,6 +1085,16 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@kentico/gatsby-source-kontent",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@kentico/xperience-admin-components",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@kubernetes/client-node",
     "0.0.0",
   ],
@@ -1445,6 +1456,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@slack/web-api",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@sonarsource/marketing-gatsby-transformer-kontent-graphql",
     "0.0.0",
   ],
   [
@@ -2070,6 +2086,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "kafkajs-snappy",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "kentico-kontent-nuxt-module",
     "0.0.0",
   ],
   [
