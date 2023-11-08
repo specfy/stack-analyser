@@ -62,6 +62,7 @@ exports[`npm > should match everything 1`] = `
   "aws.translate",
   "azure",
   "azure.cosmosdb",
+  "azure.functions",
   "azure.mariadb",
   "azure.mysql",
   "azure.postgres",
@@ -759,6 +760,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@azure/cosmos",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@azure/functions",
     "0.0.0",
   ],
   [
@@ -1833,6 +1839,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "azure-functions-core-tools",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "better-sqlite3",
     "0.0.0",
   ],
@@ -1974,6 +1985,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "duckdb",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "durable-functions",
     "0.0.0",
   ],
   [

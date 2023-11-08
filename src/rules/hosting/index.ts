@@ -7,6 +7,7 @@ import './aws.fargate.js';
 import './aws.lambda.js';
 import './aws.lightsail.js';
 import './azure.aks.js';
+import './azure.functions.js';
 import './cloudflare.pages.js';
 import './cloudflare.workers.js';
 import './denodeploy.js';

@@ -18,6 +18,7 @@ exports[`docker > should match all dependencies 1`] = `
   "aws.lambda",
   "aws.s3",
   "azure",
+  "azure.functions",
   "azure.mysql",
   "azure.postgres",
   "azure.sql",
@@ -88,6 +89,16 @@ exports[`docker > should match all dependencies 2`] = `
   [
     "githubAction",
     "8398a7/action-slack",
+    "1",
+  ],
+  [
+    "githubAction",
+    "Azure/functions-action",
+    "1",
+  ],
+  [
+    "githubAction",
+    "Azure/functions-container-action",
     "1",
   ],
   [

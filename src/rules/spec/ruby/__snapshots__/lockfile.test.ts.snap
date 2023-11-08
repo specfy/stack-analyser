@@ -52,6 +52,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "aws.translate",
   "azure",
   "azure.cosmosdb",
+  "azure.functions",
   "azure.mariadb",
   "azure.mysql",
   "azure.postgres",
@@ -535,6 +536,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "fastly",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "fluent-plugin-azurefunctions",
     "1.0.0",
   ],
   [
