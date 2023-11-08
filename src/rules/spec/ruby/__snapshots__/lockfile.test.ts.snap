@@ -58,6 +58,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "azure.postgres",
   "azure.redis",
   "azure.sql",
+  "azure.staticwebapps",
   "betterstack",
   "brevo",
   "cloudflare",
@@ -441,6 +442,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "azure_mgmt_sql",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "azure_mgmt_web",
     "1.0.0",
   ],
   [

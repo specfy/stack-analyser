@@ -23,6 +23,7 @@ import './gcp.gce.js';
 import './gcp.gke.js';
 import './gcp.tasks.js';
 import './github.pages.js';
+import './azure.staticwebapps.js';
 import './koyeb.js';
 import './kubernetes.js';
 import './mongodbatlas.js';
