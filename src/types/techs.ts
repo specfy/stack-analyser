@@ -325,6 +325,7 @@ export type AllowedKeys =
   | 'payloadcms'
   | 'paypal'
   | 'percona'
+  | 'phaserjs'
   | 'php'
   | 'phppest'
   | 'phpstan'
