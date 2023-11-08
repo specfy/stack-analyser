@@ -69,6 +69,7 @@ exports[`npm > should match everything 1`] = `
   "azure.redis",
   "azure.sql",
   "azure.staticwebapps",
+  "azure.storage",
   "betterstack",
   "bigcommerce",
   "blitzjs",
@@ -771,6 +772,26 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@azure/static-web-apps-cli",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@azure/storage-blob",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@azure/storage-file-datalake",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@azure/storage-file-share",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@azure/storage-queue",
     "0.0.0",
   ],
   [

@@ -105,6 +105,7 @@ export type AllowedKeys =
   | 'azure.redis'
   | 'azure.sql'
   | 'azure.staticwebapps'
+  | 'azure.storage'
   | 'azure'
   | 'bash'
   | 'betterstack'

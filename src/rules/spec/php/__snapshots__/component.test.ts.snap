@@ -24,6 +24,8 @@ exports[`php > should match everything 1`] = `
   "aws.s3",
   "aws.sns",
   "aws.sqs",
+  "azure",
+  "azure.storage",
   "betterstack",
   "bigcommerce",
   "blackfire",
@@ -702,6 +704,11 @@ exports[`php > should match everything 2`] = `
   ],
   [
     "php",
+    "league/flysystem-azure-blob-storage",
+    "0.0.0",
+  ],
+  [
+    "php",
     "league/flysystem-google-cloud-storage",
     "0.0.0",
   ],
@@ -777,12 +784,42 @@ exports[`php > should match everything 2`] = `
   ],
   [
     "php",
+    "matthewbdaly/laravel-azure-storage",
+    "0.0.0",
+  ],
+  [
+    "php",
     "meilisearch/meilisearch-php ",
     "0.0.0",
   ],
   [
     "php",
     "mglaman/phpstan-drupal",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "microsoft/azure-storage-blob",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "microsoft/azure-storage-common",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "microsoft/azure-storage-file",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "microsoft/azure-storage-queue",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "microsoft/azure-storage-table",
     "0.0.0",
   ],
   [

@@ -91,6 +91,7 @@ exports[`all > should match everything 1`] = `
   "azure.redis",
   "azure.sql",
   "azure.staticwebapps",
+  "azure.storage",
   "bash",
   "betterstack",
   "bigcommerce",

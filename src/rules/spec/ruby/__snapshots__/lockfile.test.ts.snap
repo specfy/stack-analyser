@@ -59,6 +59,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "azure.redis",
   "azure.sql",
   "azure.staticwebapps",
+  "azure.storage",
   "betterstack",
   "brevo",
   "cloudflare",
@@ -416,6 +417,36 @@ exports[`ruby (component) > should match everything 2`] = `
   ],
   [
     "ruby",
+    "azure-storage",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "azure-storage-blob",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "azure-storage-common",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "azure-storage-file",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "azure-storage-queue",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "azure-storage-table",
+    "1.0.0",
+  ],
+  [
+    "ruby",
     "azure_mgmt_cosmosdb",
     "1.0.0",
   ],
@@ -442,6 +473,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "azure_mgmt_sql",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "azure_mgmt_storage",
     "1.0.0",
   ],
   [
@@ -547,6 +583,16 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "fluent-plugin-azurefunctions",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "fluent-plugin-azurestorage",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "fluent-plugin-azurestorage-gen2",
     "1.0.0",
   ],
   [
@@ -777,6 +823,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "logstash-filter-translate",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "logstash-input-azureblob",
     "1.0.0",
   ],
   [
