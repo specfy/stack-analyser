@@ -138,6 +138,7 @@ exports[`php > should match everything 1`] = `
   "yii2",
   "yousign",
   "zendesk",
+  "zipkin",
   "zookeeper",
 ]
 `;
@@ -827,6 +828,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "openai-php/laravel",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "openzipkin/zipkin",
     "0.0.0",
   ],
   [

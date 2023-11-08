@@ -15,3 +15,4 @@ import './scoutapm.js';
 import './sentry.js';
 import './signoz.js';
 import './uptimekuma.js';
+import './zipkin.js';

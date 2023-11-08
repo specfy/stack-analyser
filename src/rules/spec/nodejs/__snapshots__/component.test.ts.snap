@@ -278,6 +278,7 @@ exports[`npm > should match everything 1`] = `
   "webflow",
   "webpack",
   "zendesk",
+  "zipkin",
 ]
 `;
 
@@ -2681,6 +2682,21 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "wrangler",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "zipkin",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "zipkin-context-cls",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "zipkin-transport-http",
     "0.0.0",
   ],
 ]

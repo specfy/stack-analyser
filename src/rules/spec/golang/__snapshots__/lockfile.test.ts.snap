@@ -109,6 +109,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "telegram",
   "twilio",
   "typesense",
+  "zipkin",
 ]
 `;
 
@@ -242,6 +243,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "cloud.google.com/go/vision",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "contrib.go.opencensus.io/exporter/zipkin",
     "v1.0.0",
   ],
   [
@@ -541,6 +547,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   ],
   [
     "golang",
+    "github.com/go-kit/kit/tracing/zipkin",
+    "v1.0.0",
+  ],
+  [
+    "golang",
     "github.com/go-telegram-bot-api/telegram-bot-api/v5",
     "v1.0.0",
   ],
@@ -607,6 +618,16 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/novuhq/go-novu",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/openzipkin-contrib/zipkin-go-opentracing",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/openzipkin/zipkin-go",
     "v1.0.0",
   ],
   [
@@ -707,6 +728,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "go.k6.io/xk6/cmd/xk6ver",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "go.opentelemetry.io/otel/exporters/zipkin",
     "v1.0.0",
   ],
   [

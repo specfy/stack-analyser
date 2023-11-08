@@ -122,6 +122,7 @@ exports[`docker > should match everything 1`] = `
   "vale",
   "victoriametrics",
   "wordpress",
+  "zipkin",
   "zookeeper",
 ]
 `;
@@ -901,6 +902,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "okteto/php",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "openzipkin/zipkin",
     "0.0.0",
   ],
   [

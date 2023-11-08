@@ -488,6 +488,7 @@ export type AllowedKeys =
   | 'zapier'
   | 'zendesk'
   | 'zig'
+  | 'zipkin'
   | 'zookeeper'
   | 'zoom'
   | 'zuora';

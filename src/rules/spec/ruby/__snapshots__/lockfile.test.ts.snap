@@ -150,6 +150,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "typesense",
   "veriff",
   "zendesk",
+  "zipkin",
   "zookeeper",
 ]
 `;
@@ -1164,6 +1165,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "zendesk_api",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "zipkin-tracer",
     "1.0.0",
   ],
   [
