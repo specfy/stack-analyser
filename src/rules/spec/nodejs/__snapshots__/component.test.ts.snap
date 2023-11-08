@@ -277,6 +277,7 @@ exports[`npm > should match everything 1`] = `
   "vue",
   "webflow",
   "webpack",
+  "wordpress",
   "zendesk",
   "zipkin",
 ]
@@ -1671,6 +1672,36 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@wordpress/api-fetch",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@wordpress/block-editor",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@wordpress/blocks",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@wordpress/data",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@wordpress/hooks",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@wordpress/i18n",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@zilliz/milvus2-sdk-node",
     "0.0.0",
   ],
@@ -1972,6 +2003,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "gatsby-source-datocms",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "gatsby-source-wordpress",
     "0.0.0",
   ],
   [
