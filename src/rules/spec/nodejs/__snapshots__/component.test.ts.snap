@@ -84,6 +84,7 @@ exports[`npm > should match everything 1`] = `
   "cypressci",
   "d3js",
   "datadog",
+  "datocms",
   "deferrun",
   "discord",
   "docusaurus",
@@ -794,6 +795,21 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@datadog/cli",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@datocms/cli",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@datocms/cma-client",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@datocms/cma-client-node",
     "0.0.0",
   ],
   [
@@ -1788,6 +1804,26 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "datocms-client",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "datocms-plugin-sdk",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "datocms-react-ui",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "datocms-structured-text-utils",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "dd-trace",
     "0.0.0",
   ],
@@ -1914,6 +1950,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "gatsby-plugin-typesense",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "gatsby-source-datocms",
     "0.0.0",
   ],
   [
@@ -2378,6 +2419,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "react-datocms",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "react-email",
     "0.0.0",
   ],
@@ -2579,6 +2625,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "vue",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "vue-datocms",
     "0.0.0",
   ],
   [

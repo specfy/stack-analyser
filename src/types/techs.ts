@@ -148,6 +148,7 @@ export type AllowedKeys =
   | 'datadog'
   | 'dataiku'
   | 'datastax'
+  | 'datocms'
   | 'deferrun'
   | 'deno'
   | 'denodeploy'

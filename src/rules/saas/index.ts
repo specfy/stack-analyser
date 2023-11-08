@@ -16,6 +16,7 @@ import './clicksend.js';
 import './commercetools.js';
 import './contentful.js';
 import './crowdin.js';
+import './datocms.js';
 import './deferrun.js';
 import './discord.js';
 import './docusign.js';

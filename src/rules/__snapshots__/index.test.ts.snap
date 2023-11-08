@@ -133,6 +133,7 @@ exports[`all > should match everything 1`] = `
   "datadog",
   "dataiku",
   "datastax",
+  "datocms",
   "deferrun",
   "deno",
   "denodeploy",
