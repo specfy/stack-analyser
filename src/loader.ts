@@ -14,6 +14,7 @@ import type {
   TechMatcher,
 } from './types/rule.js';
 import type { AllowedKeys } from './types/techs.js';
+import './rules/index.js';
 
 export const rulesTechs: TechMatcher[] = [];
 export const rulesExtensions: ExtensionMatcher[] = [];
