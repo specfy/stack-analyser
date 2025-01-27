@@ -4,5 +4,5 @@ register({
   tech: 'wasp',
   name: 'Wasp',
   type: 'framework',
-  files: ['main.wasp'],
+  files: ['main.wasp', 'main.wasp.ts'],
 });
