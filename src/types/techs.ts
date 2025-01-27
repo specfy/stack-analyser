@@ -481,6 +481,7 @@ export type AllowedKeys =
   | 'victoriametrics'
   | 'vite'
   | 'vue'
+  | 'wasp'
   | 'webflow'
   | 'webpack'
   | 'wiz'
