@@ -459,6 +459,7 @@ exports[`all > should match everything 1`] = `
   "victoriametrics",
   "vite",
   "vue",
+  "wasp",
   "webflow",
   "webpack",
   "wiz",
