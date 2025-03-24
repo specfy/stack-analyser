@@ -33,4 +33,5 @@ import './tailwind.js';
 import './typescript.js';
 import './vite.js';
 import './vue.js';
+import './wasp.js';
 import './webpack.js';
