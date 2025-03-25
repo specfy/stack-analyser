@@ -48,13 +48,13 @@
     "@actions/core": "1.10.1",
     "@cdktf/hcl2json": "0.19.0",
     "commander": "11.1.0",
-    "consola": "3.2.3",
+    "consola": "3.4.2",
     "dotenv": "16.3.1",
-    "figures": "5.0.0",
+    "figures": "6.1.0",
     "kleur": "4.1.5",
-    "nanoid": "5.0.2",
+    "nanoid": "5.1.5",
     "ora": "7.0.1",
     "@iarna/toml": "2.2.5",
-    "yaml": "2.3.3"
+    "yaml": "2.7.0"
   }
 }
