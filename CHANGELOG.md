@@ -1,3 +1,23 @@
+## [1.8.6](https://github.com/specfy/stack-analyser/compare/v1.8.5...v1.8.6) (2025-03-25)
+
+
+### Bug Fixes
+
+* **rules:** add AWS SES ([dcb6ed0](https://github.com/specfy/stack-analyser/commit/dcb6ed068af926e2ba2afad47424dfbc03af65bf))
+* **rules:** add Azure functions ([27a24c1](https://github.com/specfy/stack-analyser/commit/27a24c187013097a9d55a85ba1d936ae343dec70))
+* **rules:** add Azure Static Web Apps ([7e9a577](https://github.com/specfy/stack-analyser/commit/7e9a577ae90fb42d07e982336839b488635562b1))
+* **rules:** add Azure storage ([d1832dc](https://github.com/specfy/stack-analyser/commit/d1832dce40d892da781ec1d2d1c4184f88a071eb))
+* **rules:** add DatoCMS ([f1c92bb](https://github.com/specfy/stack-analyser/commit/f1c92bb5c3d1d2cefb5666f3a7c4ca606bbeeb0d))
+* **rules:** add Kentico ([9965e82](https://github.com/specfy/stack-analyser/commit/9965e8239ac194daefa81fe0c7bee21169fe5e49))
+* **rules:** add many missing npm pkgs ([714d969](https://github.com/specfy/stack-analyser/commit/714d969f0f09eafd446dcd2bd13d20e1cae3014f))
+* **rules:** add more pkg for wordpress ([f9d8640](https://github.com/specfy/stack-analyser/commit/f9d86401990b547706970fd5b2124a230a2b954e))
+* **rules:** add Phaserjs ([c383539](https://github.com/specfy/stack-analyser/commit/c383539da503854ee6996fd61eea141fd558d82a))
+* **rules:** add Wasp ([#93](https://github.com/specfy/stack-analyser/issues/93)) ([98fffff](https://github.com/specfy/stack-analyser/commit/98ffffff60ac53db596e6caaa3cd7d387a0897f6))
+* **rules:** add Zipkin ([78d82fd](https://github.com/specfy/stack-analyser/commit/78d82fd071453e995fea4f33608bc9223b9fbb97))
+* update test snapshot ([d5df3c4](https://github.com/specfy/stack-analyser/commit/d5df3c4fbc86c08c6f39c29e7beabf48f4169e2d))
+* upgrade dependecies ([910c815](https://github.com/specfy/stack-analyser/commit/910c815d3f1e336f415fc555b6599569de059949))
+* use better toml package ([e8299ff](https://github.com/specfy/stack-analyser/commit/e8299ff9bbd431fb6e214c2cb7eb214245e82011))
+
 ## [1.8.5](https://github.com/specfy/stack-analyser/compare/v1.8.4...v1.8.5) (2023-11-07)
 
 

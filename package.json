@@ -1,6 +1,6 @@
 {
   "name": "@specfy/stack-analyser",
-  "version": "1.8.5",
+  "version": "1.8.6",
   "description": "",
   "main": "./dist/index.js",
   "bin": "./dist/cli.js",
