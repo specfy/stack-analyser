@@ -1,4 +1,4 @@
-import toml from 'toml';
+import toml from '@iarna/toml';
 
 import { l } from '../../../common/log.js';
 import { matchDependencies } from '../../../matchDependencies.js';
