@@ -1,6 +1,7 @@
 import './adobe.js';
 import './adyen.js';
 import './airtable.js';
+import './anthropic.js';
 import './algolia.js';
 import './auth0.js';
 import './atlassian.bitbucket.js';

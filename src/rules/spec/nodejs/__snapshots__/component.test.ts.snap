@@ -8,6 +8,7 @@ exports[`npm > should match everything 1`] = `
   "alpinejs",
   "amplitude",
   "angular",
+  "anthropic",
   "apache_cassandra",
   "apache_kafka",
   "apache_thrift",
@@ -318,6 +319,21 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@ai-sdk/anthropic",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@ai-sdk/azure",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@ai-sdk/openai",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@algolia/client",
     "0.0.0",
   ],
@@ -329,6 +345,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@angular/forms",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@anthropic-ai/sdk",
     "0.0.0",
   ],
   [
@@ -1144,6 +1165,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@kubernetes/client-node",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@langchain/anthropic",
     "0.0.0",
   ],
   [

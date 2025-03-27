@@ -29,6 +29,7 @@ export type AllowedKeys =
   | 'amplitude'
   | 'angular'
   | 'ansible'
+  | 'anthropic'
   | 'apache_airflow'
   | 'apache_cassandra'
   | 'apache_couchdb'

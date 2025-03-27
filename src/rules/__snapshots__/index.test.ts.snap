@@ -14,6 +14,7 @@ exports[`all > should match everything 1`] = `
   "amplitude",
   "angular",
   "ansible",
+  "anthropic",
   "apache_airflow",
   "apache_cassandra",
   "apache_couchdb",
