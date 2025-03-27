@@ -9,6 +9,7 @@ exports[`python (lockfile) > should match everything 1`] = `
   "novu",
   "python",
   "qdrant",
+  "workos",
 ]
 `;
 
@@ -32,6 +33,11 @@ exports[`python (lockfile) > should match everything 2`] = `
   [
     "python",
     "datadog",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "django-workos",
     "1.0.0",
   ],
   [
@@ -62,6 +68,11 @@ exports[`python (lockfile) > should match everything 2`] = `
   [
     "python",
     "tensorflow",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "workos",
     "1.0.0",
   ],
 ]

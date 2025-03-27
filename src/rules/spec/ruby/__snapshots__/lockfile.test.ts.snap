@@ -153,6 +153,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "twilio",
   "typesense",
   "veriff",
+  "workos",
   "zendesk",
   "zipkin",
   "zookeeper",
@@ -948,6 +949,11 @@ exports[`ruby (component) > should match everything 2`] = `
   ],
   [
     "ruby",
+    "omniauth-workos",
+    "1.0.0",
+  ],
+  [
+    "ruby",
     "optimizely",
     "1.0.0",
   ],
@@ -1228,12 +1234,22 @@ exports[`ruby (component) > should match everything 2`] = `
   ],
   [
     "ruby",
+    "ueberauth_workos",
+    "1.0.0",
+  ],
+  [
+    "ruby",
     "vault",
     "1.0.0",
   ],
   [
     "ruby",
     "veriff",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "workos",
     "1.0.0",
   ],
   [

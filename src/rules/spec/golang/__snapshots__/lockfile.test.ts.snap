@@ -110,6 +110,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "telegram",
   "twilio",
   "typesense",
+  "workos",
   "zipkin",
 ]
 `;
@@ -729,6 +730,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/wamuir/graft/tensorflow",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/workos/workos-go",
     "v1.0.0",
   ],
   [

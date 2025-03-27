@@ -283,6 +283,7 @@ exports[`npm > should match everything 1`] = `
   "webflow",
   "webpack",
   "wordpress",
+  "workos",
   "zendesk",
   "zipkin",
 ]
@@ -1808,6 +1809,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@wordpress/i18n",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@workos-inc/node",
     "0.0.0",
   ],
   [

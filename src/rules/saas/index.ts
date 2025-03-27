@@ -83,5 +83,6 @@ import './wiz.js';
 import './yousign.js';
 import './zapier.js';
 import './zendesk.js';
+import './workos.js';
 import './zoom.js';
 import './zuora.js';

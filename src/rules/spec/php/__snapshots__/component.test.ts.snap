@@ -138,6 +138,7 @@ exports[`php > should match everything 1`] = `
   "typesense",
   "woocommerce",
   "wordpress",
+  "workos",
   "yii2",
   "yousign",
   "zendesk",
@@ -1186,6 +1187,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "wildbit/postmark-php",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "workos/workos-php",
     "0.0.0",
   ],
   [
