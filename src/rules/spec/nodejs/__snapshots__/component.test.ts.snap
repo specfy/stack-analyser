@@ -25,6 +25,7 @@ exports[`npm > should match everything 1`] = `
   "aws.amplifyhosting",
   "aws.apigateway",
   "aws.athena",
+  "aws.bedrock",
   "aws.cloudformation",
   "aws.cloudfront",
   "aws.cloudsearch",
@@ -319,6 +320,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@ai-sdk/amazon-bedrock",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@ai-sdk/anthropic",
     "0.0.0",
   ],
@@ -345,6 +351,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@angular/forms",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@anthropic-ai/bedrock-sdk",
     "0.0.0",
   ],
   [
@@ -570,6 +581,21 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@aws-sdk/client-athena",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@aws-sdk/client-bedrock",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@aws-sdk/client-bedrock-agent-runtime",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@aws-sdk/client-bedrock-runtime",
     "0.0.0",
   ],
   [

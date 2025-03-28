@@ -1,5 +1,6 @@
 import './aws.cloudformation.js';
 import './aws.codebuild.js';
+import './aws.bedrock.js';
 import './aws.kinesis.js';
 import './aws.kms.js';
 import './aws.polly.js';

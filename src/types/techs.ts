@@ -57,6 +57,7 @@ export type AllowedKeys =
   | 'aws.amplifyhosting'
   | 'aws.apigateway'
   | 'aws.athena'
+  | 'aws.bedrock'
   | 'aws.cloudformation'
   | 'aws.cloudfront'
   | 'aws.cloudsearch'
