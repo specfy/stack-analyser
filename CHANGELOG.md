@@ -1,3 +1,13 @@
+## [1.8.7](https://github.com/specfy/stack-analyser/compare/v1.8.6...v1.8.7) (2025-03-28)
+
+
+### Bug Fixes
+
+* **rules:** add Anthropic ([8e3f057](https://github.com/specfy/stack-analyser/commit/8e3f057b8a353bc230199d0964973aba6e663563))
+* **rules:** add AWS Bedrock ([c6bb211](https://github.com/specfy/stack-analyser/commit/c6bb2111a7a23705b0f7adb16504cb27da385b38))
+* **rules:** add MistralAI ([a9584b1](https://github.com/specfy/stack-analyser/commit/a9584b19b0993ab1a8676bef71bb1bd1a227f109))
+* **rules:** add WorkOS ([a5f5d17](https://github.com/specfy/stack-analyser/commit/a5f5d17f632941e1569b19a9f19ea77ed54b537a))
+
 ## [1.8.6](https://github.com/specfy/stack-analyser/compare/v1.8.5...v1.8.6) (2025-03-25)
 
 
