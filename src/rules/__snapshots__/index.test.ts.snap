@@ -279,6 +279,7 @@ exports[`all > should match everything 1`] = `
   "memcached",
   "meteorjs",
   "milvusdb",
+  "mistralai",
   "mithriljs",
   "mixpanel",
   "mongodb",

@@ -175,6 +175,7 @@ exports[`npm > should match everything 1`] = `
   "memcached",
   "meteorjs",
   "milvusdb",
+  "mistralai",
   "mithriljs",
   "mongodb",
   "mysql",
@@ -331,6 +332,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@ai-sdk/azure",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@ai-sdk/mistral",
     "0.0.0",
   ],
   [

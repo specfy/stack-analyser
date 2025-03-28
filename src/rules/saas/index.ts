@@ -46,6 +46,7 @@ import './linear.js';
 import './logrocket.js';
 import './mailchimp.js';
 import './mailgun.js';
+import './mistralai.js';
 import './mailjet.js';
 import './mattermost.js';
 import './notion.js';
