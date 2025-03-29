@@ -1,7 +1,7 @@
 import './airbyte.js';
-import './apache_airflow.js';
-import './apache_flink.js';
-import './apache_storm.js';
+import './apacheAirflow.js';
+import './apacheFlink.js';
+import './apacheStorm.js';
 import './aws.glue.js';
 import './databricks.js';
 import './dataiku.js';
