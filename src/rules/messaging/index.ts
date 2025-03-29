@@ -1,4 +1,4 @@
-import './apache_kafka.js';
+import './apacheKafka.js';
 import './aws.kafka.js';
 import './aws.mq.js';
 import './aws.ses.js';

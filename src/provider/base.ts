@@ -7,7 +7,7 @@ export interface ProviderFile {
 export interface BaseProvider {
   basePath: string;
   listDir: (pathRelative: string) => Promise<ProviderFile[]>;
-  open: (path: string) => Promise<string | null>;
+  open: (path: string) => Promise<null | string>;
 }
 
 export const IGNORED_DIVE_PATHS = [

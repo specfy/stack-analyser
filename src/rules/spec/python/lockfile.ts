@@ -2,16 +2,14 @@ import path from 'node:path';
 
 import { matchDependencies } from '../../../matchDependencies.js';
 import { Payload } from '../../../payload/index.js';
+
 import type { Dependency } from '../../../types/index.js';
 import type { ComponentMatcher } from '../../../types/rule.js';
 
 const LOCKFILE = 'requirements.txt';
 const lineReg = /(^([a-zA-Z0-9._-]+)$|^([a-zA-Z0-9._-]+)(([>=]+)([0-9.]+)))/;
 
-export const detectPythonLockfile: ComponentMatcher = async (
-  files,
-  provider
-) => {
+export const detectPythonLockfile: ComponentMatcher = async (files, provider) => {
   for (const file of files) {
     if (file.name !== LOCKFILE) {
       continue;

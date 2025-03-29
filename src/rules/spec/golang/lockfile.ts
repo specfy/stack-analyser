@@ -2,16 +2,14 @@ import path from 'node:path';
 
 import { matchDependencies } from '../../../matchDependencies.js';
 import { Payload } from '../../../payload/index.js';
+
 import type { Dependency } from '../../../types/index.js';
 import type { ComponentMatcher } from '../../../types/rule.js';
 
 const LOCKFILE = 'go.mod';
 const lineReg = /[\t](.+)\sv(.+)/;
 
-export const detectGolangLockfile: ComponentMatcher = async (
-  files,
-  provider
-) => {
+export const detectGolangLockfile: ComponentMatcher = async (files, provider) => {
   for (const file of files) {
     if (file.name !== LOCKFILE) {
       continue;
@@ -34,7 +32,7 @@ export const detectGolangLockfile: ComponentMatcher = async (
         continue;
       }
 
-      const [url, version, comment, ...rest] = line.substring(1).split(' ');
+      const [url, version, comment, ...rest] = line.slice(1).split(' ');
       if (rest.length > 0 || comment) {
         // Skip false positive and '// indirect'
         continue;

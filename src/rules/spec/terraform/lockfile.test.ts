@@ -1,12 +1,12 @@
+import '../../../autoload.js';
 import { describe, expect, it } from 'vitest';
 
 import { analyser } from '../../../analyser/index.js';
-import type { AllowedKeys } from '../../../index.js';
 import { rawList } from '../../../loader.js';
 import { flatten } from '../../../payload/helpers.js';
 import { FakeProvider } from '../../../provider/fake.js';
 
-import '../../../autoload.js';
+import type { AllowedKeys } from '../../../index.js';
 
 describe('terraform (lockfile)', () => {
   it('should match everything', async () => {
@@ -36,9 +36,7 @@ describe('terraform (lockfile)', () => {
       }),
     });
 
-    expect(
-      Array.from(flatten(res, { merge: true }).techs).sort()
-    ).toMatchSnapshot();
+    expect([...flatten(res, { merge: true }).techs].sort()).toMatchSnapshot();
   });
 
   it('should match nothing', async () => {
@@ -54,8 +52,7 @@ describe('terraform (lockfile)', () => {
     });
 
     const match: AllowedKeys[] = ['terraform'];
-    expect(
-      Array.from(flatten(res, { merge: true }).techs).sort()
-    ).toStrictEqual(match);
+
+    expect([...flatten(res, { merge: true }).techs].sort()).toStrictEqual(match);
   });
 });

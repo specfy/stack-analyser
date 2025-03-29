@@ -1,14 +1,13 @@
 import path from 'node:path';
 
-import { describe, it, expect, vi, beforeEach } from 'vitest';
+import { beforeEach, describe, expect, it, vi } from 'vitest';
 
+import { analyser } from './index.js';
 import { flatten } from '../payload/helpers.js';
 import { FakeProvider } from '../provider/fake.js';
 import { FSProvider } from '../provider/fs.js';
+
 import type { AnalyserJson } from '../types/index.js';
-
-import { analyser } from './index.js';
-
 import '../autoload.js';
 
 const dockerCompose = `version: '3'
@@ -72,6 +71,7 @@ describe('analyser', () => {
 
     const flat = flatten(res, { merge: true });
     const json: AnalyserJson = JSON.parse(JSON.stringify(flat.toJson('')));
+
     expect(json).toMatchSnapshot();
     expect(flat.childs[0].id).toBe(flat.childs[1].edges[0].target.id);
   });
@@ -91,11 +91,13 @@ describe('analyser', () => {
     // Check that inComponent was updated
     const vercel = flatted.childs.find((child) => child.name === 'Vercel')!;
     const app = flatted.childs.find((child) => child.name === '@fake/app');
+
     expect(app!.inComponent!.id).toBe(vercel.id);
 
     // Check that edge.target was updated
     const datadog = flatted.childs.find((child) => child.name === 'Datadog')!;
     const api = flatted.childs.find((child) => child.name === '@fake/api');
+
     expect(api!.edges[0].target.id).toBe(datadog.id);
 
     expect(JSON.parse(JSON.stringify(flatted.toJson(root)))).toMatchSnapshot();

@@ -7,10 +7,7 @@ export class FakeProvider implements BaseProvider {
   private paths;
   private files;
 
-  constructor(opts: {
-    paths: Record<string, string[]>;
-    files: Record<string, string>;
-  }) {
+  constructor(opts: { paths: Record<string, string[]>; files: Record<string, string> }) {
     this.paths = opts.paths;
     this.files = opts.files;
     this.basePath = '/';
@@ -26,7 +23,7 @@ export class FakeProvider implements BaseProvider {
       files.map((file) => {
         const isDir = file.endsWith('/');
         return {
-          name: isDir ? file.substring(0, file.length - 1) : file,
+          name: isDir ? file.slice(0, Math.max(0, file.length - 1)) : file,
           type: isDir ? 'dir' : 'file',
           fp: path.join(pathRelative, file),
         };

@@ -4,7 +4,5 @@ register({
   tech: 'sonarcloud',
   name: 'SonarCloud',
   type: 'ci',
-  dependencies: [
-    { type: 'githubAction', name: 'SonarSource/sonarcloud-github-actio' },
-  ],
+  dependencies: [{ type: 'githubAction', name: 'SonarSource/sonarcloud-github-actio' }],
 });

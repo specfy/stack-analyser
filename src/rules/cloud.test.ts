@@ -4,18 +4,13 @@ import { analyser } from '../analyser/index.js';
 import { rawList } from '../loader.js';
 import { FakeProvider } from '../provider/fake.js';
 import { listIndexed } from '../register.js';
-
 import '../autoload.js';
 
 describe('hosting', () => {
   it('should match everything with files', async () => {
     const paths: string[] = [];
     for (const item of rawList) {
-      if (
-        item.type !== 'file' ||
-        listIndexed[item.ref.tech].type !== 'cloud' ||
-        !item.ref.files
-      ) {
+      if (item.type !== 'file' || listIndexed[item.ref.tech].type !== 'cloud' || !item.ref.files) {
         continue;
       }
 
@@ -30,6 +25,7 @@ describe('hosting', () => {
         files: {},
       }),
     });
+
     expect(res.toJson('').techs).toMatchSnapshot();
   });
 });

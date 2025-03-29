@@ -4,7 +4,5 @@ register({
   tech: 'planetscale',
   name: 'PlanetScale',
   type: 'db',
-  dependencies: [
-    { type: 'githubAction', name: 'planetscale/create-branch-action' },
-  ],
+  dependencies: [{ type: 'githubAction', name: 'planetscale/create-branch-action' }],
 });

@@ -4,7 +4,5 @@ register({
   tech: 'placekit',
   name: 'PlaceKit',
   type: 'saas',
-  dependencies: [
-    { type: 'npm', name: /^@placekit\//, example: '@placekit/client-js' },
-  ],
+  dependencies: [{ type: 'npm', name: /^@placekit\//, example: '@placekit/client-js' }],
 });

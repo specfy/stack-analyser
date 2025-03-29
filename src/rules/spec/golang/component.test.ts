@@ -4,7 +4,6 @@ import { analyser } from '../../../analyser/index.js';
 import { flatten } from '../../../payload/helpers.js';
 import { FakeProvider } from '../../../provider/fake.js';
 import { cleanNestedSnapshot } from '../../../tests/helpers.js';
-
 import '../../../autoload.js';
 
 describe('golang', () => {
@@ -22,6 +21,7 @@ describe('golang', () => {
         },
       }),
     });
+
     expect(cleanNestedSnapshot(flatten(res).toJson())).toMatchSnapshot();
   });
 });

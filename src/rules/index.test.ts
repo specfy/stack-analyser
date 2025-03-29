@@ -1,13 +1,13 @@
+/* eslint-disable vitest/no-conditional-expect */
 import { describe, expect, it } from 'vitest';
 
 import { dependencies, rawList } from '../loader.js';
 import { registeredRules, registeredTech } from '../register.js';
-
 import '../autoload.js';
 
 describe('all', () => {
-  it('should match everything', async () => {
-    expect(Array.from(registeredTech.values()).sort()).toMatchSnapshot();
+  it('should match everything', () => {
+    expect([...registeredTech.values()].sort()).toMatchSnapshot();
   });
 
   it('should not list multiple times the same name', () => {
@@ -15,6 +15,7 @@ describe('all', () => {
     for (const rule of registeredRules) {
       if (names.has(rule.name)) {
         expect(rule.name).toBe(false);
+
         continue;
       }
 
@@ -33,6 +34,7 @@ describe('all', () => {
         const str = `${dep.type}||${dep.name}`;
         if (deps.has(str)) {
           expect(str).toBe(false);
+
           continue;
         }
 
@@ -53,6 +55,7 @@ describe('all', () => {
         const ex = 'example' in item.ref ? item.ref.example : item.ref.name;
         if (examples.has(ex)) {
           expect(ex).toBe(false);
+
           continue;
         }
 
@@ -60,7 +63,7 @@ describe('all', () => {
       }
 
       for (const ex of examples) {
-        let matched: string | null = null;
+        let matched: null | string = null;
         for (const matcher of matchers) {
           if (!matcher.match.test(ex)) {
             continue;

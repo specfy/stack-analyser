@@ -1,11 +1,11 @@
 import { describe, expect, it } from 'vitest';
 
 import { analyser } from '../../../analyser/index.js';
-import type { AllowedKeys } from '../../../index.js';
 import { rawList } from '../../../loader.js';
 import { flatten } from '../../../payload/helpers.js';
 import { FakeProvider } from '../../../provider/fake.js';
 
+import type { AllowedKeys } from '../../../index.js';
 import '../../../autoload.js';
 
 describe('terraform (resource)', () => {
@@ -13,10 +13,7 @@ describe('terraform (resource)', () => {
     const resource: string[] = [``];
 
     for (const item of rawList) {
-      if (
-        item.type !== 'dependency' ||
-        item.ref.type !== 'terraform.resource'
-      ) {
+      if (item.type !== 'dependency' || item.ref.type !== 'terraform.resource') {
         continue;
       }
 
@@ -39,9 +36,7 @@ describe('terraform (resource)', () => {
       }),
     });
 
-    expect(
-      Array.from(flatten(res, { merge: true }).techs).sort()
-    ).toMatchSnapshot();
+    expect([...flatten(res, { merge: true }).techs].sort()).toMatchSnapshot();
   });
 
   it('should match in tf file', async () => {
@@ -65,7 +60,8 @@ describe('terraform (resource)', () => {
 
     const match: AllowedKeys[] = ['terraform'];
     const merged = flatten(res, { merge: true });
-    expect(Array.from(merged.techs).sort()).toStrictEqual(match);
+
+    expect([...merged.techs].sort()).toStrictEqual(match);
   });
 
   it('should match nothing but register dependencies', async () => {
@@ -86,7 +82,8 @@ describe('terraform (resource)', () => {
 
     const match: AllowedKeys[] = ['terraform'];
     const merged = flatten(res, { merge: true });
-    expect(Array.from(merged.techs).sort()).toStrictEqual(match);
-    expect(Array.from(merged.dependencies).sort()).toMatchSnapshot();
+
+    expect([...merged.techs].sort()).toStrictEqual(match);
+    expect([...merged.dependencies].sort()).toMatchSnapshot();
   });
 });

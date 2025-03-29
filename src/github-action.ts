@@ -1,11 +1,11 @@
+/* eslint-disable unicorn/filename-case */
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
 import core from '@actions/core';
 
 import { l } from './common/log.js';
-
-import { analyser, FSProvider } from './index.js';
+import { FSProvider, analyser } from './index.js';
 import './autoload.js';
 
 try {
@@ -33,9 +33,9 @@ try {
   await fs.writeFile(file, JSON.stringify(res.toJson(workspace), undefined, 2));
 
   l.log('Done');
-} catch (error: unknown) {
-  if (error instanceof Error) {
-    core.setFailed(error.message);
+} catch (err: unknown) {
+  if (err instanceof Error) {
+    core.setFailed(err.message);
   } else {
     core.setFailed('Unknown error');
   }

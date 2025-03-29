@@ -1,6 +1,7 @@
 import './alpinejs.js';
 import './angular.js';
 import './bootstrap.js';
+import './d3js.js';
 import './electron.js';
 import './emberjs.js';
 import './esbuild.js';
@@ -8,7 +9,6 @@ import './eslint.js';
 import './express.js';
 import './fastify.js';
 import './gastby.js';
-import './d3js.js';
 import './koa.js';
 import './meteorjs.js';
 import './mithriljs.js';

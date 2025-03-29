@@ -6,14 +6,15 @@ import { l } from '../../../common/log.js';
 import { matchDependencies } from '../../../matchDependencies.js';
 import { Payload } from '../../../payload/index.js';
 import { listIndexed } from '../../../register.js';
+
 import type { ComponentMatcher } from '../../../types/rule.js';
 
 const FILE = /\.tf$/;
+interface TerraformResource {
+  resource: { name: string };
+}
 
-export const detectTerraformResource: ComponentMatcher = async (
-  files,
-  provider
-) => {
+export const detectTerraformResource: ComponentMatcher = async (files, provider) => {
   const pls: Payload[] = [];
   for (const file of files) {
     if (!FILE.test(file.name)) {
@@ -25,9 +26,9 @@ export const detectTerraformResource: ComponentMatcher = async (
       continue;
     }
 
-    let json: Record<string, any>;
+    let json: TerraformResource;
     try {
-      json = await parse(file.fp, content);
+      json = (await parse(file.fp, content)) as TerraformResource;
     } catch (err) {
       l.warn('Failed to parse HCL', file.fp, err);
       continue;
@@ -45,7 +46,7 @@ export const detectTerraformResource: ComponentMatcher = async (
     // We only register docker service with image and that we know
     for (const name of Object.keys(json.resource)) {
       const matched = [...matchDependencies([name], 'terraform.resource')];
-      if (!matched.length) {
+      if (matched.length === 0) {
         continue;
       }
 

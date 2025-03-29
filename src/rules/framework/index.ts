@@ -1,4 +1,4 @@
-import './apache_thrift.js';
+import './apacheThrift.js';
 import './assemble.js';
 import './astro.js';
 import './blitzjs.js';
@@ -6,8 +6,8 @@ import './docusaurus.js';
 import './drupal.js';
 import './eleventy.js';
 import './expojs.js';
-import './gridsome.js';
 import './ghost.js';
+import './gridsome.js';
 import './hexojs.js';
 import './hugo.js';
 import './jekyll.js';

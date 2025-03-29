@@ -4,7 +4,5 @@ register({
   tech: 'aws.fargate',
   name: 'AWS Fargate',
   type: 'hosting',
-  dependencies: [
-    { type: 'githubAction', name: 'aws-actions/amazon-eks-fargate' },
-  ],
+  dependencies: [{ type: 'githubAction', name: 'aws-actions/amazon-eks-fargate' }],
 });

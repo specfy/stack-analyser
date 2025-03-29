@@ -1,7 +1,6 @@
-import { register } from '../../../register.js';
-
 import { detectGolangComponent } from './component.js';
 import { detectGolangLockfile } from './lockfile.js';
+import { register } from '../../../register.js';
 
 register({
   tech: 'golang',

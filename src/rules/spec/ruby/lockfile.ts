@@ -1,16 +1,17 @@
 import { matchDependencies } from '../../../matchDependencies.js';
 import { Payload } from '../../../payload/index.js';
+
 import type { Analyser } from '../../../types/index.js';
 import type { ComponentMatcher } from '../../../types/rule.js';
 
-const FILES = ['Gemfile'];
+const FILES = new Set(['Gemfile']);
 
 const NEW_LINE_REG = /\r?\n/;
 const DEP_REG = /gem "(.+)",\s+("(.+)")?/;
 
 export const detectRubyLockfile: ComponentMatcher = async (files, provider) => {
   for (const file of files) {
-    if (!FILES.includes(file.name)) {
+    if (!FILES.has(file.name)) {
       continue;
     }
 
@@ -34,11 +35,9 @@ export const detectRubyLockfile: ComponentMatcher = async (files, provider) => {
     }
 
     const techs = matchDependencies(Object.keys(deps), 'ruby');
-    const depsFlatten: Analyser['dependencies'] = Object.entries(deps).map(
-      ([name, value]) => {
-        return ['ruby', name, value || 'latest'];
-      }
-    );
+    const depsFlatten: Analyser['dependencies'] = Object.entries(deps).map(([name, value]) => {
+      return ['ruby', name, value || 'latest'];
+    });
 
     pl.addTechs(techs);
     pl.dependencies = depsFlatten;

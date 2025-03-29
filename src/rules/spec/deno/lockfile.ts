@@ -1,10 +1,11 @@
 import { l } from '../../../common/log.js';
 import { matchDependencies } from '../../../matchDependencies.js';
 import { Payload } from '../../../payload/index.js';
+
 import type { Analyser } from '../../../types/index.js';
 import type { ComponentMatcher } from '../../../types/rule.js';
 
-const FILES = ['deno.lock'];
+const FILES = new Set(['deno.lock']);
 
 interface Lockfile {
   version: string;
@@ -13,7 +14,7 @@ interface Lockfile {
 
 export const detectDenoLockfile: ComponentMatcher = async (files, provider) => {
   for (const file of files) {
-    if (!FILES.includes(file.name)) {
+    if (!FILES.has(file.name)) {
       continue;
     }
 
@@ -24,9 +25,9 @@ export const detectDenoLockfile: ComponentMatcher = async (files, provider) => {
 
     let json: Lockfile;
     try {
-      json = JSON.parse(content);
-    } catch (e) {
-      l.warn('Failed to parse deno.lock', file.fp, e);
+      json = JSON.parse(content) as Lockfile;
+    } catch (err) {
+      l.warn('Failed to parse deno.lock', file.fp, err);
       continue;
     }
 
@@ -35,15 +36,13 @@ export const detectDenoLockfile: ComponentMatcher = async (files, provider) => {
     }
 
     const deps = {
-      ...(json.remote || {}),
+      ...json.remote,
     };
 
     const techs = matchDependencies(Object.keys(deps), 'deno');
-    const depsFlatten: Analyser['dependencies'] = Object.entries(deps).map(
-      (dep) => {
-        return ['deno', dep[0], dep[1]];
-      }
-    );
+    const depsFlatten: Analyser['dependencies'] = Object.entries(deps).map((dep) => {
+      return ['deno', dep[0], dep[1]];
+    });
 
     const pl = new Payload({
       name: 'virtual',

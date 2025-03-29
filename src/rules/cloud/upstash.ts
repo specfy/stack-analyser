@@ -4,7 +4,5 @@ register({
   tech: 'upstash',
   name: 'Upstash',
   type: 'cloud',
-  dependencies: [
-    { type: 'npm', name: /^@upstash\//, example: '@upstash/ratelimit' },
-  ],
+  dependencies: [{ type: 'npm', name: /^@upstash\//, example: '@upstash/ratelimit' }],
 });

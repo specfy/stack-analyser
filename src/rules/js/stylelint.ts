@@ -4,10 +4,5 @@ register({
   tech: 'stylelint',
   name: 'Stylelint',
   type: 'tool',
-  files: [
-    '.stylelint',
-    '.stylelintrc.cjs',
-    '.stylelintrc.json',
-    '.stylelintrc.js',
-  ],
+  files: ['.stylelint', '.stylelintrc.cjs', '.stylelintrc.json', '.stylelintrc.js'],
 });

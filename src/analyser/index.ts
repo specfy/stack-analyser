@@ -1,4 +1,5 @@
 import { Payload } from '../payload/index.js';
+
 import type { BaseProvider } from '../provider/base.js';
 
 export interface AnalyserOptions {

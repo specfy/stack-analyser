@@ -1,6 +1,5 @@
-import { register } from '../../../register.js';
-
 import { detectRustComponent } from './component.js';
+import { register } from '../../../register.js';
 
 register({
   tech: 'rust',

@@ -1,11 +1,11 @@
 import path from 'node:path';
 
-export type LangListItem = {
+export interface LangListItem {
   extensions: string[];
-  group: string | null;
+  group: null | string;
   name: string;
   type: 'data' | 'markup' | 'programming' | 'prose';
-};
+}
 
 // Source: https://github.com/github/linguist/blob/5a0c74277548122267d84283910abd5e0b89380e/lib/linguist/languages.yml#L1528
 export const rawList: LangListItem[] = [
@@ -660,16 +660,7 @@ export const rawList: LangListItem[] = [
     type: 'programming',
   },
   {
-    extensions: [
-      '.lisp',
-      '.asd',
-      '.cl',
-      '.l',
-      '.lsp',
-      '.ny',
-      '.podsl',
-      '.sexp',
-    ],
+    extensions: ['.lisp', '.asd', '.cl', '.l', '.lsp', '.ny', '.podsl', '.sexp'],
     group: null,
     name: 'Common Lisp',
     type: 'programming',
@@ -699,13 +690,7 @@ export const rawList: LangListItem[] = [
     type: 'programming',
   },
   {
-    extensions: [
-      '.cppobjdump',
-      '.c++-objdump',
-      '.c++objdump',
-      '.cpp-objdump',
-      '.cxx-objdump',
-    ],
+    extensions: ['.cppobjdump', '.c++-objdump', '.c++objdump', '.cpp-objdump', '.cxx-objdump'],
     group: null,
     name: 'Cpp-ObjDump',
     type: 'data',
@@ -999,16 +984,7 @@ export const rawList: LangListItem[] = [
     type: 'programming',
   },
   {
-    extensions: [
-      '.erl',
-      '.app',
-      '.app.src',
-      '.es',
-      '.escript',
-      '.hrl',
-      '.xrl',
-      '.yrl',
-    ],
+    extensions: ['.erl', '.app', '.app.src', '.es', '.escript', '.hrl', '.xrl', '.yrl'],
     group: null,
     name: 'Erlang',
     type: 'programming',
@@ -2055,16 +2031,7 @@ export const rawList: LangListItem[] = [
     type: 'programming',
   },
   {
-    extensions: [
-      '.lua',
-      '.fcgi',
-      '.nse',
-      '.p8',
-      '.pd_lua',
-      '.rbxs',
-      '.rockspec',
-      '.wlua',
-    ],
+    extensions: ['.lua', '.fcgi', '.nse', '.p8', '.pd_lua', '.rbxs', '.rockspec', '.wlua'],
     group: null,
     name: 'Lua',
     type: 'programming',
@@ -2179,17 +2146,7 @@ export const rawList: LangListItem[] = [
     type: 'markup',
   },
   {
-    extensions: [
-      '.mathematica',
-      '.cdf',
-      '.m',
-      '.ma',
-      '.mt',
-      '.nb',
-      '.nbp',
-      '.wl',
-      '.wlt',
-    ],
+    extensions: ['.mathematica', '.cdf', '.m', '.ma', '.mt', '.nb', '.nbp', '.wl', '.wlt'],
     group: null,
     name: 'Mathematica',
     type: 'programming',
@@ -2727,18 +2684,7 @@ export const rawList: LangListItem[] = [
     type: 'programming',
   },
   {
-    extensions: [
-      '.pl',
-      '.al',
-      '.cgi',
-      '.fcgi',
-      '.perl',
-      '.ph',
-      '.plx',
-      '.pm',
-      '.psgi',
-      '.t',
-    ],
+    extensions: ['.pl', '.al', '.cgi', '.fcgi', '.perl', '.ph', '.plx', '.pm', '.psgi', '.t'],
     group: null,
     name: 'Perl',
     type: 'programming',
@@ -3002,14 +2948,7 @@ export const rawList: LangListItem[] = [
     type: 'prose',
   },
   {
-    extensions: [
-      '.rbbas',
-      '.rbfrm',
-      '.rbmnu',
-      '.rbres',
-      '.rbtbar',
-      '.rbuistate',
-    ],
+    extensions: ['.rbbas', '.rbfrm', '.rbmnu', '.rbres', '.rbtbar', '.rbuistate'],
     group: null,
     name: 'REALbasic',
     type: 'programming',
@@ -3318,17 +3257,7 @@ export const rawList: LangListItem[] = [
     type: 'programming',
   },
   {
-    extensions: [
-      '.sql',
-      '.cql',
-      '.ddl',
-      '.inc',
-      '.mysql',
-      '.prc',
-      '.tab',
-      '.udf',
-      '.viw',
-    ],
+    extensions: ['.sql', '.cql', '.ddl', '.inc', '.mysql', '.prc', '.tab', '.udf', '.viw'],
     group: null,
     name: 'SQL',
     type: 'data',
@@ -3788,15 +3717,7 @@ export const rawList: LangListItem[] = [
     type: 'programming',
   },
   {
-    extensions: [
-      '.anim',
-      '.asset',
-      '.mask',
-      '.mat',
-      '.meta',
-      '.prefab',
-      '.unity',
-    ],
+    extensions: ['.anim', '.asset', '.mask', '.mat', '.meta', '.prefab', '.unity'],
     group: null,
     name: 'Unity3D Asset',
     type: 'data',
@@ -3850,16 +3771,7 @@ export const rawList: LangListItem[] = [
     type: 'programming',
   },
   {
-    extensions: [
-      '.vhdl',
-      '.vhd',
-      '.vhf',
-      '.vhi',
-      '.vho',
-      '.vhs',
-      '.vht',
-      '.vhw',
-    ],
+    extensions: ['.vhdl', '.vhd', '.vhf', '.vhi', '.vho', '.vhs', '.vht', '.vhw'],
     group: null,
     name: 'VHDL',
     type: 'programming',

@@ -1,6 +1,7 @@
+import { listIndexed } from '../../register.js';
+
 import type { Rule } from '../../index.js';
 import type { ProviderFile } from '../../provider/base.js';
-import { listIndexed } from '../../register.js';
 import type { AllowedKeys } from '../../types/techs.js';
 
 export function matchFiles(
@@ -8,7 +9,7 @@ export function matchFiles(
   files: ProviderFile[],
   matches: string[],
   matchFullPath?: boolean
-): false | [Rule, string] {
+): [Rule, string] | false {
   for (const file of files) {
     const name = matchFullPath ? file.fp : file.name;
     if (matches.includes(name)) {
@@ -24,7 +25,7 @@ export function matchFilesRegex(
   files: ProviderFile[],
   match: RegExp,
   matchFullPath?: boolean
-): false | [Rule, string] {
+): [Rule, string] | false {
   for (const file of files) {
     const name = matchFullPath ? file.fp : file.name;
     if (match.test(name)) {
@@ -39,7 +40,7 @@ export function matchExtensions(
   key: AllowedKeys,
   list: string[],
   extensions: Set<string>
-): false | [Rule, string] {
+): [Rule, string] | false {
   for (const ext of list) {
     if (extensions.has(ext)) {
       return [listIndexed[key], ext];

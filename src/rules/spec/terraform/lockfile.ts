@@ -6,15 +6,16 @@ import { l } from '../../../common/log.js';
 import { matchDependencies } from '../../../matchDependencies.js';
 import { Payload } from '../../../payload/index.js';
 import { listIndexed } from '../../../register.js';
+
 import type { Dependency } from '../../../types/index.js';
 import type { ComponentMatcher } from '../../../types/rule.js';
 
 const LOCKFILE = '.terraform.lock.hcl';
+interface TerraformLockfile {
+  provider: Record<string, { version?: string }[]>;
+}
 
-export const detectTerraformLockfile: ComponentMatcher = async (
-  files,
-  provider
-) => {
+export const detectTerraformLockfile: ComponentMatcher = async (files, provider) => {
   for (const file of files) {
     if (file.name !== LOCKFILE) {
       continue;
@@ -25,9 +26,9 @@ export const detectTerraformLockfile: ComponentMatcher = async (
       continue;
     }
 
-    let json: Record<string, any>;
+    let json: TerraformLockfile;
     try {
-      json = await parse(file.fp, content);
+      json = (await parse(file.fp, content)) as TerraformLockfile;
     } catch (err) {
       l.warn('Failed to parse HCL', file.fp, err);
       continue;
@@ -46,13 +47,9 @@ export const detectTerraformLockfile: ComponentMatcher = async (
     // We only register docker service with image and that we know
     for (const name of Object.keys(json.provider)) {
       const matched = [...matchDependencies([name], 'terraform')];
-      dependencies.push([
-        'terraform',
-        name,
-        json.provider[name][0].version || 'latest',
-      ]);
+      dependencies.push(['terraform', name, json.provider[name][0].version || 'latest']);
 
-      if (!matched.length) {
+      if (matched.length === 0) {
         continue;
       }
 
@@ -64,9 +61,7 @@ export const detectTerraformLockfile: ComponentMatcher = async (
           folderPath: file.fp,
           tech: tech[0],
           parent: pl,
-          dependencies: [
-            ['terraform', name, json.provider[name][0].version || 'latest'],
-          ],
+          dependencies: [['terraform', name, json.provider[name][0].version || 'latest']],
           reason: tech[1][0],
         })
       );

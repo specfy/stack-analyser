@@ -4,7 +4,6 @@ import { analyser } from '../../../analyser/index.js';
 import { rawList } from '../../../loader.js';
 import { flatten } from '../../../payload/helpers.js';
 import { FakeProvider } from '../../../provider/fake.js';
-
 import '../../../autoload.js';
 
 describe('ruby (component)', () => {
@@ -37,7 +36,8 @@ source "https://rubygems.org"
     });
 
     const merged = flatten(res, { merge: true });
-    expect(Array.from(merged.techs).sort()).toMatchSnapshot();
-    expect(Array.from(merged.dependencies).sort()).toMatchSnapshot();
+
+    expect([...merged.techs].sort()).toMatchSnapshot();
+    expect([...merged.dependencies].sort()).toMatchSnapshot();
   });
 });

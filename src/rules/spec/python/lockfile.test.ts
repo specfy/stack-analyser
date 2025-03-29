@@ -33,8 +33,9 @@ describe('python (lockfile)', () => {
     });
 
     const merged = flatten(res, { merge: true });
-    expect(Array.from(merged.techs).sort()).toMatchSnapshot();
-    expect(Array.from(merged.dependencies).sort()).toMatchSnapshot();
+
+    expect([...merged.techs].sort()).toMatchSnapshot();
+    expect([...merged.dependencies].sort()).toMatchSnapshot();
   });
 
   it('should match weird syntax', async () => {
@@ -57,7 +58,8 @@ describe('python (lockfile)', () => {
     });
 
     const merged = flatten(res, { merge: true });
-    expect(Array.from(merged.techs).sort()).toMatchSnapshot();
-    expect(Array.from(merged.dependencies).sort()).toMatchSnapshot();
+
+    expect([...merged.techs].sort()).toMatchSnapshot();
+    expect([...merged.dependencies].sort()).toMatchSnapshot();
   });
 });

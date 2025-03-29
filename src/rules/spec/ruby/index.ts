@@ -1,6 +1,5 @@
-import { register } from '../../../register.js';
-
 import { detectRubyLockfile } from './lockfile.js';
+import { register } from '../../../register.js';
 
 register({
   tech: 'ruby',

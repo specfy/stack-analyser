@@ -1,8 +1,7 @@
-import type { Payload } from '../payload/index.js';
-
 import type { SupportedDeps } from './rule.js';
 import type { AllowedKeys } from './techs.js';
 import type { Modify } from './utils.js';
+import type { Payload } from '../payload/index.js';
 
 export interface GraphEdge {
   target: Payload;
@@ -45,7 +44,7 @@ export interface Analyser {
    * If this payload is hosted by another payload.
    * e.g: we found a vercel dependency at the same level, this payload will be considered in the component Vercel.
    */
-  inComponent: Payload | null;
+  inComponent: null | Payload;
 
   /**
    * List all childs of this payload
@@ -78,8 +77,8 @@ export type AnalyserJson = Modify<
     childs: AnalyserJson[];
     path: string[];
     techs: AllowedKeys[];
-    inComponent: string | null;
-    edges: Array<Modify<GraphEdge, { target: string }>>;
+    inComponent: null | string;
+    edges: Modify<GraphEdge, { target: string }>[];
     reason: string[];
   }
 >;

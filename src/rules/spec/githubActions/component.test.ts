@@ -1,12 +1,12 @@
 import { describe, expect, it } from 'vitest';
 
+import { detectGithubActionsComponent } from './component.js';
 import { analyser } from '../../../analyser/index.js';
 import { rawList } from '../../../loader.js';
 import { flatten } from '../../../payload/helpers.js';
 import { FakeProvider } from '../../../provider/fake.js';
 
 import '../../../autoload.js';
-import { detectGithubActionsComponent } from './component.js';
 
 describe('docker', () => {
   it('should match all dependencies', async () => {
@@ -42,8 +42,7 @@ jobs:
         continue;
       }
 
-      const example =
-        'example' in item.ref ? item.ref.example : `${item.ref.name}@1`;
+      const example = 'example' in item.ref ? item.ref.example : `${item.ref.name}@1`;
       const [name] = example.split('@');
       yml.push(`
       - name: ${name}
@@ -65,8 +64,9 @@ jobs:
     });
 
     const merged = flatten(res, { merge: true });
-    expect(Array.from(merged.techs).sort()).toMatchSnapshot();
-    expect(Array.from(merged.dependencies).sort()).toMatchSnapshot();
+
+    expect([...merged.techs].sort()).toMatchSnapshot();
+    expect([...merged.dependencies].sort()).toMatchSnapshot();
   });
 
   it('should gracefully fail to parse', async () => {

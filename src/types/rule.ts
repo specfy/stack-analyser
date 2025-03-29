@@ -1,7 +1,7 @@
+import type { AllowedKeys, TechType } from './techs.js';
+import type { MaybePromise } from './utils.js';
 import type { Payload } from '../payload/index.js';
 import type { BaseProvider, ProviderFile } from '../provider/base.js';
-
-import type { AllowedKeys, TechType } from './techs.js';
 
 export type SupportedDeps =
   | 'deno'
@@ -19,10 +19,10 @@ export type SupportedDeps =
 export type RuleDependency = {
   type: SupportedDeps;
 } & (
+  | { name: RegExp; example: string }
   | {
       name: string;
     }
-  | { name: RegExp; example: string }
 );
 
 export type Rule = {
@@ -32,7 +32,7 @@ export type Rule = {
   dependencies?: RuleDependency[];
   detect?: ComponentMatcher | ComponentMatcher[];
   extensions?: string[];
-} & (RuleFiles | never);
+} & (never | RuleFiles);
 
 export type RuleFiles =
   | {
@@ -56,7 +56,7 @@ export type RuleWithFile = Pick<Rule, 'tech'> & RuleFiles;
 export type ComponentMatcher = (
   files: ProviderFile[],
   provider: BaseProvider
-) => Promise<Payload | Payload[] | false>;
+) => MaybePromise<false | Payload | Payload[]>;
 
-export type TechMatcher = (files: ProviderFile[]) => false | [Rule, string];
-export type ExtensionMatcher = (list: Set<string>) => false | [Rule, string];
+export type TechMatcher = (files: ProviderFile[]) => [Rule, string] | false;
+export type ExtensionMatcher = (list: Set<string>) => [Rule, string] | false;

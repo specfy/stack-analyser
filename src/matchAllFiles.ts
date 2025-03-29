@@ -4,16 +4,13 @@ import { rulesExtensions, rulesTechs } from './loader.js';
 
 import type { AllowedKeys, ProviderFile } from './index.js';
 
-export function matchAllFiles(
-  files: ProviderFile[],
-  basePath: string
-): Map<AllowedKeys, string[]> {
+export function matchAllFiles(files: ProviderFile[], basePath: string): Map<AllowedKeys, string[]> {
   const matched = new Map<AllowedKeys, string[]>();
 
   // Match files
   for (const rule of rulesTechs) {
     const res = rule(files);
-    if (!res) {
+    if (res === false) {
       continue;
     }
 
@@ -27,7 +24,7 @@ export function matchAllFiles(
   }
   for (const rule of rulesExtensions) {
     const res = rule(exts);
-    if (!res) {
+    if (res === false) {
       continue;
     }
     if (matched.has(res[0].tech)) {

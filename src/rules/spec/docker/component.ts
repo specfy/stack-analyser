@@ -3,24 +3,20 @@ import { parse } from 'yaml';
 import { l } from '../../../common/log.js';
 import { matchDependencies } from '../../../matchDependencies.js';
 import { Payload } from '../../../payload/index.js';
+
 import type { ComponentMatcher } from '../../../types/rule.js';
 
 const FILES_REG = /^docker-compose(.*)?\.y(a)?ml$/;
 
 interface DockerCompose {
-  services: {
-    [key: string]: DockerComposeService;
-  };
+  services: Record<string, DockerComposeService>;
 }
 interface DockerComposeService {
   image?: string;
   container_name?: string;
 }
 
-export const detectDockerComponent: ComponentMatcher = async (
-  files,
-  provider
-) => {
+export const detectDockerComponent: ComponentMatcher = async (files, provider) => {
   for (const file of files) {
     if (!FILES_REG.test(file.name)) {
       continue;
@@ -33,8 +29,8 @@ export const detectDockerComponent: ComponentMatcher = async (
 
     let parsed: DockerCompose;
     try {
-      parsed = parse(content, {});
-      if (!parsed?.services) {
+      parsed = parse(content, {}) as DockerCompose;
+      if (!('services' in parsed)) {
         l.warn('Failed to parse Docker file', file.fp);
         continue;
       }
@@ -45,9 +41,7 @@ export const detectDockerComponent: ComponentMatcher = async (
 
     const pl = new Payload({ name: 'virtual', folderPath: file.fp });
 
-    for (const [name, service] of Object.entries<DockerComposeService>(
-      parsed.services
-    )) {
+    for (const [name, service] of Object.entries<DockerComposeService>(parsed.services)) {
       if (!service.image) {
         continue;
       }

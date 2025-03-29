@@ -1,14 +1,14 @@
 import childProcess from 'node:child_process';
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import util from 'node:util';
+import { promisify } from 'node:util';
 
 import { describe, expect, it } from 'vitest';
 
-const execFileAsync = util.promisify(childProcess.execFile);
+const execFileAsync = promisify(childProcess.execFile);
 
 describe(
-  'CLI',
+  'cli',
   () => {
     it('should analyse', async () => {
       const now = new Date();
@@ -26,10 +26,11 @@ describe(
 `);
 
       const stat = await fs.stat(path.join(root, 'output.json'));
+
       expect(stat.ctime.getTime()).toBeGreaterThan(now.getTime());
     });
   },
   {
-    timeout: 10000,
+    timeout: 10_000,
   }
 );

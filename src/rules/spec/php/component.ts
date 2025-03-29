@@ -1,10 +1,11 @@
 import { l } from '../../../common/log.js';
 import { matchDependencies } from '../../../matchDependencies.js';
 import { Payload } from '../../../payload/index.js';
+
 import type { Analyser } from '../../../types/index.js';
 import type { ComponentMatcher } from '../../../types/rule.js';
 
-const FILES = ['composer.json'];
+const FILES = new Set(['composer.json']);
 
 export interface ComposerJson {
   name: string;
@@ -14,7 +15,7 @@ export interface ComposerJson {
 
 export const detectPhpComponent: ComponentMatcher = async (files, provider) => {
   for (const file of files) {
-    if (!FILES.includes(file.name)) {
+    if (!FILES.has(file.name)) {
       continue;
     }
 
@@ -25,9 +26,9 @@ export const detectPhpComponent: ComponentMatcher = async (files, provider) => {
 
     let json: ComposerJson;
     try {
-      json = JSON.parse(content);
-    } catch (e) {
-      l.warn('Failed to parse composer.json', file.fp, e);
+      json = JSON.parse(content) as ComposerJson;
+    } catch (err) {
+      l.warn('Failed to parse composer.json', file.fp, err);
       continue;
     }
 
@@ -36,8 +37,8 @@ export const detectPhpComponent: ComponentMatcher = async (files, provider) => {
     }
 
     const deps = {
-      ...(json.require || {}),
-      ...(json['require-dev'] || {}),
+      ...json.require,
+      ...json['require-dev'],
     };
     const techs = matchDependencies(Object.keys(deps), 'php');
     const depsFlatten: Analyser['dependencies'] = Object.entries(deps).map(

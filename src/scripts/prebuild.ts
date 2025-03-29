@@ -3,7 +3,7 @@ import fs from 'node:fs/promises';
 import { registeredRules } from '../register.js';
 import '../rules/index.js';
 
-(async () => {
+await (async (): Promise<void> => {
   const list: string[] = registeredRules
     .sort((a, b) => (a.tech > b.tech ? 1 : -1))
     .map(({ tech, name, type }) => {

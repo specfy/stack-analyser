@@ -1,17 +1,14 @@
 import { describe, expect, it } from 'vitest';
 
 import { findEdgesInDependencies, flatten } from './helpers.js';
-
 import { Payload } from './index.js';
-
 import '../autoload.js';
 
 describe('findEdgesInDependencies', () => {
   it('should find an edge', () => {
     const main = new Payload({ id: '1', name: 'main', folderPath: '' });
-    main.id;
-    main.childs.push(new Payload({ id: '2', name: '2', folderPath: '/' }));
     main.childs.push(
+      new Payload({ id: '2', name: '2', folderPath: '/' }),
       new Payload({
         id: '3',
         name: '3',
@@ -46,7 +43,9 @@ describe('flatten', () => {
     main.childs.push(sub);
 
     const flat = flatten(main, { merge: true });
+
     expect(flat.id).not.toBe(main.id);
+
     flat.id = 'new';
 
     expect(flat.toJson('')).toMatchSnapshot();

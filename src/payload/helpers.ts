@@ -1,9 +1,9 @@
 import { listIndexed } from '../register.js';
-import type { AllowedKeys } from '../types/techs.js';
-
 import { Payload } from './index.js';
 
-const notAComponent = ['ci', 'language', 'tool', 'framework'];
+import type { AllowedKeys } from '../types/techs.js';
+
+const notAComponent = new Set(['ci', 'language', 'tool', 'framework']);
 
 /**
  * When receive a tech in a component, we can deduct a new Component that was missing
@@ -14,13 +14,9 @@ const notAComponent = ['ci', 'language', 'tool', 'framework'];
  *
  * Obviously there could be some false positive.
  */
-export function findImplicitComponent(
-  pl: Payload,
-  tech: AllowedKeys,
-  reason: string[]
-) {
+export function findImplicitComponent(pl: Payload, tech: AllowedKeys, reason: string[]) {
   const ref = listIndexed[tech];
-  if (notAComponent.includes(ref.type)) {
+  if (notAComponent.has(ref.type)) {
     return;
   }
 
@@ -69,38 +65,38 @@ export function findHosting(pl: Payload, tech: AllowedKeys) {
  */
 export function findEdgesInDependencies(pl: Payload) {
   const names = new Set<string>();
-  pl.childs.forEach((child) => names.add(child.name));
+  for (const child of pl.childs) names.add(child.name);
 
-  pl.childs.forEach((child) => {
-    child.dependencies.forEach((dep) => {
+  for (const child of pl.childs) {
+    for (const dep of child.dependencies) {
       const name = dep[1];
       if (!names.has(name)) {
-        return;
+        continue;
       }
 
       // Self referencing
       if (name === child.name || name === child.tech) {
-        return;
+        continue;
       }
 
       // Check if we already added an edge about that
       const already = child.edges.find((edge) => edge.target.name === name);
       if (already) {
-        return;
+        continue;
       }
 
       child.addEdges(pl.childs.find((c) => c.name === name)!);
-    });
-  });
+    }
+  }
 }
 
 function pushChids(src: Payload, dest: Payload) {
-  src.childs.forEach((pl) => {
+  for (const pl of src.childs) {
     const cp = pl.copy();
     pushChids(cp, dest);
     cp.childs = [];
     dest.childs.push(cp);
-  });
+  }
 }
 
 /**
@@ -120,28 +116,28 @@ export function flatten(
 
   // Find and merge duplicates
   const duplicates: string[] = [];
-  dest.childs.forEach((childA) => {
+  for (const childA of dest.childs) {
     if (duplicates.includes(childA.id)) {
-      return;
+      continue;
     }
 
     // Check against other child
-    dest.childs.forEach((childB) => {
+    for (const childB of dest.childs) {
       if (childA.id === childB.id) {
-        return;
+        continue;
       }
       if (childA.tech === null || childB.tech === null) {
-        return;
+        continue;
       }
       if (childA.name !== childB.name && childA.tech !== childB.tech) {
-        return;
+        continue;
       }
 
       duplicates.push(childB.id);
       childA.combine(childB);
 
       // Update outdated ref
-      dest.childs.forEach((childC) => {
+      for (const childC of dest.childs) {
         if (childC.inComponent?.id === childB.id) {
           childC.inComponent = childA;
         }
@@ -149,14 +145,14 @@ export function flatten(
           childC.inComponent = childA;
         }
 
-        childC.edges.forEach((edge) => {
+        for (const edge of childC.edges) {
           if (edge.target.id === childB.id) {
             edge.target = childA;
           }
-        });
-      });
-    });
-  });
+        }
+      }
+    }
+  }
 
   // Remove duplicates
   dest.childs = dest.childs.filter((child) => {
@@ -167,13 +163,13 @@ export function flatten(
 
   // Combine everything with their respective parent
   if (merge === true) {
-    dest.childs.forEach((child) => {
+    for (const child of dest.childs) {
       if (child.parent) {
         child.parent.combine(child);
       }
 
       dest.combine(child);
-    });
+    }
 
     dest.combine(src);
   }

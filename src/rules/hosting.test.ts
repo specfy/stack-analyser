@@ -4,7 +4,6 @@ import { analyser } from '../analyser/index.js';
 import { rawList } from '../loader.js';
 import { FakeProvider } from '../provider/fake.js';
 import { listIndexed } from '../register.js';
-
 import '../autoload.js';
 
 describe('hosting', () => {
@@ -30,6 +29,7 @@ describe('hosting', () => {
         files: {},
       }),
     });
+
     expect(res.toJson('').techs).toMatchSnapshot();
   });
 });

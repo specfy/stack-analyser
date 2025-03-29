@@ -11,19 +11,16 @@ import kleur from 'kleur';
 import ora from 'ora';
 
 import { analyser } from './analyser/index.js';
+import './autoload.js';
 import { l } from './common/log.js';
 import { flatten } from './payload/helpers.js';
 import { FSProvider } from './provider/fs.js';
-
-import './autoload.js';
 
 const program = new Command();
 
 const filename = fileURLToPath(import.meta.url);
 const dirname = path.dirname(filename);
-const pkg = JSON.parse(
-  (await fs.readFile(path.join(dirname, './../package.json'))).toString()
-);
+const pkg = JSON.parse((await fs.readFile(path.join(dirname, './../package.json'))).toString());
 
 program
   .name('stack-analyser')
@@ -41,22 +38,15 @@ program
     try {
       const stat = await fs.stat(root);
       if (!stat.isDirectory()) {
-        l.log(
-          kleur.bold().red(figures.cross),
-          `Path "${root}" is not a folder`
-        );
+        l.log(kleur.bold().red(figures.cross), `Path "${root}" is not a folder`);
         process.exit(1);
       }
-    } catch (e) {
+    } catch {
       l.log(kleur.bold().red(figures.cross), `Path "${root}" does not exist`);
       process.exit(1);
     }
 
-    l.log(
-      kleur.bold().magenta(figures.triangleRight),
-      'Path',
-      kleur.cyan(root)
-    );
+    l.log(kleur.bold().magenta(figures.triangleRight), 'Path', kleur.cyan(root));
 
     const spinner = ora(`Analysing`).start();
 
@@ -69,10 +59,7 @@ program
     if (options.output) {
       const output = options.flat ? flatten(res) : res;
       const file = path.join(pathAtExecution, options.output);
-      await fs.writeFile(
-        file,
-        JSON.stringify(output.toJson(root), undefined, 2)
-      );
+      await fs.writeFile(file, JSON.stringify(output.toJson(root), undefined, 2));
       l.log('');
       l.log('Output', kleur.green(file));
     }

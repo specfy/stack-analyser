@@ -1,13 +1,14 @@
 import { describe, expect, it } from 'vitest';
 
 import { analyser } from '../../../analyser/index.js';
-import type { AllowedKeys } from '../../../index.js';
 import { rawList } from '../../../loader.js';
 import { flatten } from '../../../payload/helpers.js';
 import { FakeProvider } from '../../../provider/fake.js';
 
 import '../../../autoload.js';
+
 import type { ComposerJson } from './component.js';
+import type { AllowedKeys } from '../../../index.js';
 
 describe('php', () => {
   it('should match everything', async () => {
@@ -16,8 +17,7 @@ describe('php', () => {
       if (item.type !== 'dependency' || item.ref.type !== 'php') {
         continue;
       }
-      dependencies['example' in item.ref ? item.ref.example : item.ref.name] =
-        '0.0.0';
+      dependencies['example' in item.ref ? item.ref.example : item.ref.name] = '0.0.0';
     }
     const composerJson: ComposerJson = {
       name: 'test',
@@ -36,8 +36,9 @@ describe('php', () => {
     });
 
     const merged = flatten(res, { merge: true });
-    expect(Array.from(merged.techs).sort()).toMatchSnapshot();
-    expect(Array.from(merged.dependencies).sort()).toMatchSnapshot();
+
+    expect([...merged.techs].sort()).toMatchSnapshot();
+    expect([...merged.dependencies].sort()).toMatchSnapshot();
   });
 
   it('should match nothing', async () => {
@@ -52,8 +53,7 @@ describe('php', () => {
       }),
     });
     const match: AllowedKeys[] = ['php'];
-    expect(
-      Array.from(flatten(res, { merge: true }).techs).sort()
-    ).toStrictEqual(match);
+
+    expect([...flatten(res, { merge: true }).techs].sort()).toStrictEqual(match);
   });
 });

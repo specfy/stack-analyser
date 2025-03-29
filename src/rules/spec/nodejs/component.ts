@@ -1,19 +1,16 @@
-import type { FullVersion } from 'package-json';
-
 import { l } from '../../../common/log.js';
 import { matchDependencies } from '../../../matchDependencies.js';
 import { Payload } from '../../../payload/index.js';
+
 import type { Analyser } from '../../../types/index.js';
 import type { ComponentMatcher } from '../../../types/rule.js';
+import type { FullVersion } from 'package-json';
 
-const FILES = ['package.json'];
+const FILES = new Set(['package.json']);
 
-export const detectNodeComponent: ComponentMatcher = async (
-  files,
-  provider
-) => {
+export const detectNodeComponent: ComponentMatcher = async (files, provider) => {
   for (const file of files) {
-    if (!FILES.includes(file.name)) {
+    if (!FILES.has(file.name)) {
       continue;
     }
 
@@ -25,8 +22,8 @@ export const detectNodeComponent: ComponentMatcher = async (
     let json: FullVersion;
     try {
       json = JSON.parse(content);
-    } catch (e) {
-      l.warn('Failed to parse package.json', file.fp, e);
+    } catch (err) {
+      l.warn('Failed to parse package.json', file.fp, err);
       continue;
     }
 
@@ -35,8 +32,8 @@ export const detectNodeComponent: ComponentMatcher = async (
     }
 
     const deps = {
-      ...(json.dependencies || {}),
-      ...(json.devDependencies || {}),
+      ...json.dependencies,
+      ...json.devDependencies,
     };
     const techs = matchDependencies(Object.keys(deps), 'npm');
     const depsFlatten: Analyser['dependencies'] = Object.entries(deps).map(

@@ -5,7 +5,5 @@ register({
   name: 'Sequelize',
   type: 'tool',
   files: ['.sequelizerc'],
-  dependencies: [
-    { type: 'npm', name: /sequelize(-cli)?/, example: 'sequelize' },
-  ],
+  dependencies: [{ type: 'npm', name: /sequelize(-cli)?/, example: 'sequelize' }],
 });

@@ -1,7 +1,6 @@
-import { register } from '../../../register.js';
-
 import { detectTerraformLockfile } from './lockfile.js';
 import { detectTerraformResource } from './resource.js';
+import { register } from '../../../register.js';
 
 register({
   tech: 'terraform',

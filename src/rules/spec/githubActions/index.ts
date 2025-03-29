@@ -1,6 +1,5 @@
-import { register } from '../../../register.js';
-
 import { FILE_REG, detectGithubActionsComponent } from './component.js';
+import { register } from '../../../register.js';
 
 register({
   tech: 'github.actions',

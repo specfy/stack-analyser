@@ -4,7 +4,5 @@ register({
   tech: 'elasticcloud',
   name: 'Elastic Cloud',
   type: 'hosting',
-  dependencies: [
-    { type: 'terraform', name: 'registry.terraform.io/elastic/ec' },
-  ],
+  dependencies: [{ type: 'terraform', name: 'registry.terraform.io/elastic/ec' }],
 });

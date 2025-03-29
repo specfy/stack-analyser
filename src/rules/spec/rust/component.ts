@@ -3,13 +3,13 @@ import toml from '@iarna/toml';
 import { l } from '../../../common/log.js';
 import { matchDependencies } from '../../../matchDependencies.js';
 import { Payload } from '../../../payload/index.js';
+
 import type { Analyser } from '../../../types/index.js';
 import type { ComponentMatcher } from '../../../types/rule.js';
 
-const FILES = ['Cargo.toml'];
+const FILES = new Set(['Cargo.toml']);
 
 type Dependency =
-  | string
   | {
       git: string;
       rev?: string;
@@ -21,14 +21,21 @@ type Dependency =
     }
   | {
       version?: string;
-    };
+    }
+  | string;
+interface RustCargo {
+  package?: {
+    name: string;
+  };
+  dependencies: Dependency;
+  'dev-dependencies'?: Dependency;
+  'build-dependencies'?: Dependency;
+  'workspace.dependencies': Dependency;
+}
 
-export const detectRustComponent: ComponentMatcher = async (
-  files,
-  provider
-) => {
+export const detectRustComponent: ComponentMatcher = async (files, provider) => {
   for (const file of files) {
-    if (!FILES.includes(file.name)) {
+    if (!FILES.has(file.name)) {
       continue;
     }
 
@@ -37,11 +44,11 @@ export const detectRustComponent: ComponentMatcher = async (
       continue;
     }
 
-    let json: any;
+    let json: RustCargo;
     try {
-      json = toml.parse(content);
-    } catch (e) {
-      l.warn('Failed to parse Cargo.toml', file.fp, e);
+      json = toml.parse(content) as RustCargo;
+    } catch (err) {
+      l.warn('Failed to parse Cargo.toml', file.fp, err);
       continue;
     }
 
@@ -57,34 +64,24 @@ export const detectRustComponent: ComponentMatcher = async (
     }
 
     const deps: Record<string, Dependency> = {
-      ...(json.dependencies || {}),
-      ...(json['dev-dependencies'] || {}),
-      ...(json['build-dependencies'] || {}),
-      ...(json['workspace.dependencies'] || {}),
+      ...json.dependencies,
+      ...json['dev-dependencies'],
+      ...json['build-dependencies'],
+      ...json['workspace.dependencies'],
     };
     const techs = matchDependencies(Object.keys(deps), 'rust');
-    const depsFlatten: Analyser['dependencies'] = Object.entries(deps).map(
-      ([name, value]) => {
-        if (typeof value === 'string') {
-          return ['rust', name, value];
-        }
-        if ('path' in value) {
-          return [
-            'rust',
-            name,
-            `path:${value.path}${value.version ? `:${value.version}` : ''}`,
-          ];
-        }
-        if ('git' in value) {
-          return [
-            'rust',
-            name,
-            `git:${value.git}#${value.branch || value.rev || 'latest'}`,
-          ];
-        }
-        return ['rust', name, value.version || 'latest'];
+    const depsFlatten: Analyser['dependencies'] = Object.entries(deps).map(([name, value]) => {
+      if (typeof value === 'string') {
+        return ['rust', name, value];
       }
-    );
+      if ('path' in value) {
+        return ['rust', name, `path:${value.path}${value.version ? `:${value.version}` : ''}`];
+      }
+      if ('git' in value) {
+        return ['rust', name, `git:${value.git}#${value.branch || value.rev || 'latest'}`];
+      }
+      return ['rust', name, value.version || 'latest'];
+    });
 
     pl.addTechs(techs);
     pl.dependencies = depsFlatten;

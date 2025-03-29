@@ -1,6 +1,5 @@
-import { register } from '../../../register.js';
-
 import { detectPhpComponent } from './component.js';
+import { register } from '../../../register.js';
 
 register({
   tech: 'php',

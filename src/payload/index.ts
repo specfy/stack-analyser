@@ -4,14 +4,14 @@ import { detectLang } from '../common/languages.js';
 import { nid } from '../common/nid.js';
 import { rulesComponents } from '../loader.js';
 import { matchAllFiles } from '../matchAllFiles.js';
-import type { BaseProvider } from '../provider/base.js';
 import { IGNORED_DIVE_PATHS } from '../provider/base.js';
 import { listIndexed, nameToKey } from '../register.js';
+import { findHosting, findImplicitComponent } from './helpers.js';
 import { cleanPath } from '../tests/helpers.js';
+
+import type { BaseProvider } from '../provider/base.js';
 import type { Analyser, AnalyserJson, Dependency } from '../types/index.js';
 import type { AllowedKeys } from '../types/techs.js';
-
-import { findHosting, findImplicitComponent } from './helpers.js';
 
 export class Payload implements Analyser {
   public id;
@@ -24,7 +24,7 @@ export class Payload implements Analyser {
   public inComponent: Analyser['inComponent'];
   public dependencies: Analyser['dependencies'];
   public edges: Analyser['edges'];
-  public parent?: Payload | null;
+  public parent?: null | Payload;
   public reason: Set<string>;
 
   constructor({
@@ -39,16 +39,14 @@ export class Payload implements Analyser {
     id?: Analyser['id'];
     name: Analyser['name'];
     folderPath: Set<string> | string;
-    parent?: Payload | null;
+    parent?: null | Payload;
     tech?: Analyser['tech'];
     dependencies?: Analyser['dependencies'];
-    reason?: string[] | string;
+    reason?: string | string[];
   }) {
     this.id = id || nid();
     this.name = name;
-    this.path = new Set(
-      typeof folderPath === 'string' ? [folderPath] : folderPath
-    );
+    this.path = new Set(typeof folderPath === 'string' ? [folderPath] : folderPath);
     this.tech = tech || null;
     this.inComponent = null;
     this.childs = [];
@@ -67,7 +65,7 @@ export class Payload implements Analyser {
    * Analyze a folder recursively.
    * It will modify the current Payload.
    */
-  async recurse(provider: BaseProvider, filePath: string) {
+  async recurse(provider: BaseProvider, filePath: string): Promise<void> {
     const files = await provider.listDir(filePath);
 
     let ctx: Payload = this;
@@ -79,12 +77,12 @@ export class Payload implements Analyser {
 
       const resArray = Array.isArray(res) ? res : [res];
       for (const pl of resArray) {
-        if (pl.name !== 'virtual') {
+        if (pl.name === 'virtual') {
+          for (const child of pl.childs) this.addChild(child);
+          this.combineDependencies(pl);
+        } else {
           ctx = pl;
           this.addChild(pl);
-        } else {
-          pl.childs.forEach((child) => this.addChild(child));
-          this.combineDependencies(pl);
         }
       }
     }
@@ -166,16 +164,16 @@ export class Payload implements Analyser {
   /**
    * Register a tech.
    */
-  addTechs(tech: Map<AllowedKeys, string[]>) {
-    Array.from(tech.entries()).forEach(([key, reason]) => {
+  addTechs(tech: Map<AllowedKeys, string[]>): void {
+    for (const [key, reason] of tech.entries()) {
       this.addTech(key, reason);
-    });
+    }
   }
 
   /**
    * Declare this Payload has built with this tech.
    */
-  addTech(tech: AllowedKeys, reason: string[]) {
+  addTech(tech: AllowedKeys, reason: string[]): void {
     this.techs.add(tech);
     for (const r of reason) {
       this.reason.add(r);
@@ -188,7 +186,7 @@ export class Payload implements Analyser {
   /**
    * Register a relationship between this Payload and an other one.
    */
-  addEdges(pl: Payload) {
+  addEdges(pl: Payload): void {
     this.edges.push({
       target: pl,
       read: true,
@@ -199,31 +197,29 @@ export class Payload implements Analyser {
   /**
    * Helper to add a lang entry to languages.
    */
-  public addLang(name: string, count: number = 1) {
+  public addLang(name: string, count = 1): void {
     if (!this.languages[name]) {
       this.languages[name] = 0;
     }
 
     this.languages[name] += count;
 
-    if (name in nameToKey) {
-      if (!this.techs.has(nameToKey[name])) {
-        this.addTech(nameToKey[name], []);
-      }
+    if (name in nameToKey && !this.techs.has(nameToKey[name])) {
+      this.addTech(nameToKey[name], []);
     }
   }
 
   /**
    * Register a parent of this Payload
    */
-  setParent(pl: Payload | null) {
+  setParent(pl: null | Payload): void {
     this.parent = pl;
   }
 
   /**
    * Detect language of a file at this level.
    */
-  detectLang(filename: string) {
+  detectLang(filename: string): void {
     const lang = detectLang(filename);
     if (lang) {
       this.addLang(lang.group || lang.name);
@@ -233,9 +229,9 @@ export class Payload implements Analyser {
   combineDependencies(pl: Payload): void {
     // Merge dependencies
     const dedup = new Map<string, Dependency>();
-    this.dependencies.forEach((dep) => dedup.set(dep.join('_'), dep));
-    pl.dependencies.forEach((dep) => dedup.set(dep.join('_'), dep));
-    this.dependencies = Array.from(dedup.values());
+    for (const dep of this.dependencies) dedup.set(dep.join('_'), dep);
+    for (const dep of pl.dependencies) dedup.set(dep.join('_'), dep);
+    this.dependencies = [...dedup.values()];
   }
 
   /**
@@ -254,7 +250,7 @@ export class Payload implements Analyser {
       this.addLang(lang, count);
     }
 
-    pl.techs.forEach((tech) => this.techs.add(tech));
+    for (const tech of pl.techs) this.techs.add(tech);
     if (pl.tech) {
       this.techs.add(pl.tech);
     }
@@ -273,7 +269,7 @@ export class Payload implements Analyser {
       tech: this.tech,
       dependencies: this.dependencies,
     });
-    cp.techs = new Set([...this.techs]);
+    cp.techs = new Set(this.techs);
     cp.inComponent = this.inComponent;
     cp.edges = this.edges;
     cp.path = this.path;
@@ -291,7 +287,7 @@ export class Payload implements Analyser {
    *
    * @param root Absolute path to remove from output
    */
-  toJson(root: string = ''): AnalyserJson {
+  toJson(root = ''): AnalyserJson {
     return {
       id: this.id,
       name: this.name,
@@ -311,7 +307,7 @@ export class Payload implements Analyser {
       techs: [...this.techs].sort(),
       languages: this.languages,
       dependencies: this.dependencies,
-      reason: Array.from(this.reason.values()),
+      reason: [...this.reason.values()],
     };
   }
 }

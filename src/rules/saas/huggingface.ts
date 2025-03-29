@@ -4,7 +4,5 @@ register({
   tech: 'huggingface',
   name: 'Hugging Face',
   type: 'saas',
-  dependencies: [
-    { type: 'npm', name: /^@huggingface\//, example: '@huggingface/inference' },
-  ],
+  dependencies: [{ type: 'npm', name: /^@huggingface\//, example: '@huggingface/inference' }],
 });

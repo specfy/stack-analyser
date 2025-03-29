@@ -4,7 +4,5 @@ register({
   tech: 'figma',
   name: 'Figma',
   type: 'saas',
-  dependencies: [
-    { type: 'npm', name: /^@figma\//, example: '@figma/plugin-typings' },
-  ],
+  dependencies: [{ type: 'npm', name: /^@figma\//, example: '@figma/plugin-typings' }],
 });

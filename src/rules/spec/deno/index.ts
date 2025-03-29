@@ -1,6 +1,5 @@
-import { register } from '../../../register.js';
-
 import { detectDenoLockfile } from './lockfile.js';
+import { register } from '../../../register.js';
 
 register({
   tech: 'deno',

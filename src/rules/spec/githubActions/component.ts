@@ -3,6 +3,7 @@ import { parse } from 'yaml';
 import { l } from '../../../common/log.js';
 import { matchDependencies } from '../../../matchDependencies.js';
 import { Payload } from '../../../payload/index.js';
+
 import type { Dependency } from '../../../types/index.js';
 import type { ComponentMatcher } from '../../../types/rule.js';
 
@@ -18,10 +19,10 @@ interface Step {
 interface GitHubActionsFile {
   name?: string;
   on?: any;
-  jobs: Record<
+  jobs?: Record<
     string,
     {
-      container?: string | { image: string; options?: string }; // interesting
+      container?: { image: string; options?: string } | string; // interesting
       'runs-on': string;
       'timeout-minutes': number;
       env?: Record<string, string>;
@@ -36,10 +37,7 @@ interface GitHubActionsFile {
   >;
 }
 
-export const detectGithubActionsComponent: ComponentMatcher = async (
-  files,
-  provider
-) => {
+export const detectGithubActionsComponent: ComponentMatcher = async (files, provider) => {
   for (const file of files) {
     if (!FILE_REG.test(file.fp)) {
       continue;
@@ -52,8 +50,8 @@ export const detectGithubActionsComponent: ComponentMatcher = async (
 
     let parsed: GitHubActionsFile;
     try {
-      parsed = parse(content, {});
-      if (!parsed?.jobs) {
+      parsed = parse(content, {}) as GitHubActionsFile;
+      if (!parsed.jobs) {
         l.warn('No jobs in GitHub Actions', file.fp);
         continue;
       }
@@ -79,7 +77,7 @@ export const detectGithubActionsComponent: ComponentMatcher = async (
         }
       }
 
-      if (config.container) {
+      if (config.container !== undefined) {
         const [imageName, imageVersion] =
           typeof config.container === 'string'
             ? config.container.split(':')
