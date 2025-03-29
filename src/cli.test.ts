@@ -13,8 +13,8 @@ describe(
     it('should analyse', async () => {
       const now = new Date();
 
-      const root = path.join(__dirname, '../');
-      const file = path.join(__dirname, './cli.ts');
+      const root = path.join(import.meta.dirname, '../');
+      const file = path.join(import.meta.dirname, './cli.ts');
       const res = await execFileAsync('tsx', [file, './'], {
         env: { ...process.env, LOG_LEVEL: 'info' },
       });

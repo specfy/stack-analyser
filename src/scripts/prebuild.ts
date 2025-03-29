@@ -18,7 +18,7 @@ export const listTech: TechItem[] = [
   ${list.join(',\n  ')},
 ];
 
-export const listIndexed: Record<AllowedKeys, TechItem> = {} as any;
+export const listIndexed = {} as Record<AllowedKeys, TechItem>;
 Object.values(listTech).forEach((v) => {
   listIndexed[v.key] = v;
 });

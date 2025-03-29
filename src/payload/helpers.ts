@@ -14,7 +14,15 @@ const notAComponent = new Set(['ci', 'language', 'tool', 'framework']);
  *
  * Obviously there could be some false positive.
  */
-export function findImplicitComponent(pl: Payload, tech: AllowedKeys, reason: string[]) {
+export function findImplicitComponent({
+  pl,
+  tech,
+  reason,
+}: {
+  pl: Payload;
+  tech: AllowedKeys;
+  reason: string[];
+}): void {
   const ref = listIndexed[tech];
   if (notAComponent.has(ref.type)) {
     return;
@@ -42,7 +50,7 @@ export function findImplicitComponent(pl: Payload, tech: AllowedKeys, reason: st
  *
  * Obviously there could be some false positive.
  */
-export function findHosting(pl: Payload, tech: AllowedKeys) {
+export function findHosting(pl: Payload, tech: AllowedKeys): void {
   const ref = listIndexed[tech];
   if (ref.type !== 'hosting' && ref.type !== 'cloud') {
     return;
@@ -63,7 +71,7 @@ export function findHosting(pl: Payload, tech: AllowedKeys) {
  * We try to find those import, using only the dependencies (not opening the code),
  * it can lead to some false positive with very generic names.
  */
-export function findEdgesInDependencies(pl: Payload) {
+export function findEdgesInDependencies(pl: Payload): void {
   const names = new Set<string>();
   for (const child of pl.childs) names.add(child.name);
 
@@ -90,7 +98,7 @@ export function findEdgesInDependencies(pl: Payload) {
   }
 }
 
-function pushChids(src: Payload, dest: Payload) {
+function pushChids(src: Payload, dest: Payload): void {
   for (const pl of src.childs) {
     const cp = pl.copy();
     pushChids(cp, dest);
@@ -106,11 +114,9 @@ function pushChids(src: Payload, dest: Payload) {
  * If merge = true, it merges all fields that can be merged down to the parent (e.g: dependencies).
  * Merging is only useful to get a summary of everything at the root level.
  */
-export function flatten(
-  src: Payload,
-  { merge = false }: { merge: boolean } = { merge: false }
-): Payload {
+export function flatten(src: Payload, options: { merge?: boolean } = {}): Payload {
   // Generate a flat list of childs
+  const merge = options.merge || false;
   const dest = new Payload({ name: 'flatten', folderPath: '/' });
   pushChids(src, dest);
 

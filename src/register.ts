@@ -3,10 +3,10 @@ import type { AllowedKeys } from './types/techs.js';
 
 export const registeredTech = new Set<AllowedKeys>();
 export const registeredRules: Rule[] = [];
-export const listIndexed: Record<AllowedKeys, Rule> = {} as any;
-export const nameToKey: Record<string, AllowedKeys> = {} as any;
+export const listIndexed = {} as Record<AllowedKeys, Rule>;
+export const nameToKey = {} as Record<string, AllowedKeys>;
 
-export function register(rule: Rule) {
+export function register(rule: Rule): void {
   if (registeredTech.has(rule.tech)) {
     throw new Error(`Already registered ${rule.tech}`);
   }

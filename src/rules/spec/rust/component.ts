@@ -27,10 +27,10 @@ interface RustCargo {
   package?: {
     name: string;
   };
-  dependencies: Dependency;
-  'dev-dependencies'?: Dependency;
-  'build-dependencies'?: Dependency;
-  'workspace.dependencies': Dependency;
+  dependencies: Record<string, Dependency>;
+  'dev-dependencies'?: Record<string, Dependency>;
+  'build-dependencies'?: Record<string, Dependency>;
+  'workspace.dependencies': Record<string, Dependency>;
 }
 
 export const detectRustComponent: ComponentMatcher = async (files, provider) => {
@@ -46,7 +46,7 @@ export const detectRustComponent: ComponentMatcher = async (files, provider) => 
 
     let json: RustCargo;
     try {
-      json = toml.parse(content) as RustCargo;
+      json = toml.parse(content) as unknown as RustCargo;
     } catch (err) {
       l.warn('Failed to parse Cargo.toml', file.fp, err);
       continue;

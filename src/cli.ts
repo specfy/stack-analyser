@@ -11,16 +11,20 @@ import kleur from 'kleur';
 import ora from 'ora';
 
 import { analyser } from './analyser/index.js';
-import './autoload.js';
 import { l } from './common/log.js';
 import { flatten } from './payload/helpers.js';
 import { FSProvider } from './provider/fs.js';
+
+import './autoload.js';
 
 const program = new Command();
 
 const filename = fileURLToPath(import.meta.url);
 const dirname = path.dirname(filename);
-const pkg = JSON.parse((await fs.readFile(path.join(dirname, './../package.json'))).toString());
+// eslint-disable-next-line unicorn/no-await-expression-member
+const pkg = JSON.parse((await fs.readFile(path.join(dirname, './../package.json'))).toString()) as {
+  version: string;
+};
 
 program
   .name('stack-analyser')
@@ -29,7 +33,7 @@ program
   .option('-o, --output <FILENAME>', 'output json to a file', 'output.json')
   .option('--flat', 'flatten the output', false)
   .version(pkg.version)
-  .action(async (arg, options) => {
+  .action(async (arg: string, options: { output?: string; flat: boolean }) => {
     const pathAtExecution = process.cwd();
     const root = path.isAbsolute(arg) ? arg : path.join(pathAtExecution, arg);
 

@@ -68,10 +68,11 @@ export class Payload implements Analyser {
   async recurse(provider: BaseProvider, filePath: string): Promise<void> {
     const files = await provider.listDir(filePath);
 
+    // eslint-disable-next-line unicorn/no-this-assignment, @typescript-eslint/no-this-alias
     let ctx: Payload = this;
     for (const rule of rulesComponents) {
       const res = await rule(files, provider);
-      if (!res) {
+      if (res === false) {
         continue;
       }
 
@@ -179,7 +180,7 @@ export class Payload implements Analyser {
       this.reason.add(r);
     }
 
-    findImplicitComponent(this, tech, reason);
+    findImplicitComponent({ pl: this, tech, reason });
     findHosting(this, tech);
   }
 

@@ -32,6 +32,7 @@ export type Rule = {
   dependencies?: RuleDependency[];
   detect?: ComponentMatcher | ComponentMatcher[];
   extensions?: string[];
+  // eslint-disable-next-line @typescript-eslint/no-redundant-type-constituents
 } & (never | RuleFiles);
 
 export type RuleFiles =

@@ -70,14 +70,14 @@ describe('analyser', () => {
     });
 
     const flat = flatten(res, { merge: true });
-    const json: AnalyserJson = JSON.parse(JSON.stringify(flat.toJson('')));
+    const json: AnalyserJson = structuredClone(flat.toJson(''));
 
     expect(json).toMatchSnapshot();
     expect(flat.childs[0].id).toBe(flat.childs[1].edges[0].target.id);
   });
 
   it('should run correctly', async () => {
-    const root = path.join(__dirname, '../../tests/__fixtures__');
+    const root = path.join(import.meta.dirname, '../../tests/__fixtures__');
     const res = await analyser({
       provider: new FSProvider({
         path: root,
@@ -100,6 +100,6 @@ describe('analyser', () => {
 
     expect(api!.edges[0].target.id).toBe(datadog.id);
 
-    expect(JSON.parse(JSON.stringify(flatted.toJson(root)))).toMatchSnapshot();
+    expect(structuredClone(flatted.toJson(root))).toMatchSnapshot();
   });
 });

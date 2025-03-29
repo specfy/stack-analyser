@@ -21,7 +21,7 @@ export const detectNodeComponent: ComponentMatcher = async (files, provider) => 
 
     let json: FullVersion;
     try {
-      json = JSON.parse(content);
+      json = JSON.parse(content) as FullVersion;
     } catch (err) {
       l.warn('Failed to parse package.json', file.fp, err);
       continue;

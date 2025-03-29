@@ -18,7 +18,7 @@ interface Step {
 
 interface GitHubActionsFile {
   name?: string;
-  on?: any;
+  on?: Record<string, unknown>;
   jobs?: Record<
     string,
     {

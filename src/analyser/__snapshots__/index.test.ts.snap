@@ -306,7 +306,7 @@ exports[`analyser > should run correctly 1`] = `
             "/terraform/.terraform.lock.hcl",
           ],
           "reason": [
-            "gcp matched: /^registry.terraform.io\\\\/hashicorp\\\\/google$/",
+            "gcp matched: /^registry.terraform.io\\/hashicorp\\/google$/",
           ],
           "tech": "gcp",
           "techs": [],
@@ -323,7 +323,7 @@ exports[`analyser > should run correctly 1`] = `
             "/deno/deno.lock",
           ],
           "reason": [
-            "postgresql matched: /\\\\/x\\\\/postgres@/",
+            "postgresql matched: /\\/x\\/postgres@/",
           ],
           "tech": "postgresql",
           "techs": [],
@@ -346,7 +346,7 @@ exports[`analyser > should run correctly 1`] = `
             "/terraform/.terraform.lock.hcl",
           ],
           "reason": [
-            "vercel matched: /^registry.terraform.io\\\\/vercel\\\\/vercel$/",
+            "vercel matched: /^registry.terraform.io\\/vercel\\/vercel$/",
           ],
           "tech": "vercel",
           "techs": [],
@@ -413,7 +413,7 @@ exports[`analyser > should run correctly 1`] = `
                 "/php/composer.json",
               ],
               "reason": [
-                "algolia matched: /^algolia\\\\/algoliasearch-client-php$/",
+                "algolia matched: /^algolia\\/algoliasearch-client-php$/",
               ],
               "tech": "algolia",
               "techs": [],
@@ -430,7 +430,7 @@ exports[`analyser > should run correctly 1`] = `
                 "/php/composer.json",
               ],
               "reason": [
-                "redis matched: /^predis\\\\/predis$/",
+                "redis matched: /^predis\\/predis$/",
               ],
               "tech": "redis",
               "techs": [],
@@ -640,10 +640,10 @@ exports[`analyser > should run correctly 1`] = `
             "/php/composer.json",
           ],
           "reason": [
-            "phpunit matched: /^phpunit\\\\/phpunit$/",
-            "laravel matched: /^laravel\\\\/framework$/",
-            "redis matched: /^predis\\\\/predis$/",
-            "algolia matched: /^algolia\\\\/algoliasearch-client-php$/",
+            "phpunit matched: /^phpunit\\/phpunit$/",
+            "laravel matched: /^laravel\\/framework$/",
+            "redis matched: /^predis\\/predis$/",
+            "algolia matched: /^algolia\\/algoliasearch-client-php$/",
             "matched file: composer.json",
           ],
           "tech": null,
@@ -719,7 +719,7 @@ exports[`analyser > should run correctly 1`] = `
         ],
         [
           "ruby",
-          "puma\\", \\"6.3.0",
+          "puma", "6.3.0",
           "latest",
         ],
         [
@@ -1127,7 +1127,7 @@ exports[`analyser > should run correctly 2`] = `
         ],
         [
           "ruby",
-          "puma\\", \\"6.3.0",
+          "puma", "6.3.0",
           "latest",
         ],
         [
@@ -1793,7 +1793,7 @@ exports[`analyser > should run correctly 2`] = `
     ],
     [
       "ruby",
-      "puma\\", \\"6.3.0",
+      "puma", "6.3.0",
       "latest",
     ],
   ],

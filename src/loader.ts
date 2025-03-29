@@ -62,21 +62,21 @@ export function loadOne(rule: Rule): void {
     let matcher: TechMatcher;
     if (Array.isArray(rule.files)) {
       matcher = (files) => {
-        return matchFiles(
-          rule.tech,
+        return matchFiles({
+          key: rule.tech,
           files,
-          rule.files as string[],
-          'matchFullPath' in rule ? rule.matchFullPath : false
-        );
+          matches: rule.files as string[],
+          matchFullPath: 'matchFullPath' in rule ? rule.matchFullPath : false,
+        });
       };
     } else {
       matcher = (files) => {
-        return matchFilesRegex(
-          rule.tech,
+        return matchFilesRegex({
+          key: rule.tech,
           files,
-          rule.files as RegExp,
-          'matchFullPath' in rule ? rule.matchFullPath : false
-        );
+          match: rule.files as RegExp,
+          matchFullPath: 'matchFullPath' in rule ? rule.matchFullPath : false,
+        });
       };
     }
 
@@ -86,7 +86,7 @@ export function loadOne(rule: Rule): void {
 
   if (rule.extensions !== undefined) {
     const matcher: ExtensionMatcher = (list) => {
-      return matchExtensions(rule.tech, rule.extensions!, list);
+      return matchExtensions({ key: rule.tech, list: rule.extensions!, extensions: list });
     };
 
     rawList.push({ type: 'ext', ref: rule });
