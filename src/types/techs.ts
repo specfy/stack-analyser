@@ -471,6 +471,7 @@ export type AllowedKeys =
   | 'travisci'
   | 'trufflesecurity'
   | 'turborepo'
+  | 'tursodb'
   | 'twigphp'
   | 'twilio'
   | 'twitter'
