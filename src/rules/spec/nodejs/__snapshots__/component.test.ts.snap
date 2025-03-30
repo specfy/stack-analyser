@@ -266,6 +266,7 @@ exports[`npm > should match everything 1`] = `
   "tensorflow",
   "terraform",
   "tinybird",
+  "turborepo",
   "twilio",
   "typescript",
   "typesense",
@@ -2882,6 +2883,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "trello",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "turbo",
     "0.0.0",
   ],
   [

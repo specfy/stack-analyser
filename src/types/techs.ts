@@ -460,6 +460,7 @@ export type AllowedKeys =
   | 'traefik'
   | 'travisci'
   | 'trufflesecurity'
+  | 'turborepo'
   | 'twigphp'
   | 'twilio'
   | 'twitter'

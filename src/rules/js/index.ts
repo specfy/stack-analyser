@@ -30,6 +30,7 @@ import './strapi.js';
 import './stylelint.js';
 import './sveltejs.js';
 import './tailwind.js';
+import './turborepo.js';
 import './typescript.js';
 import './vite.js';
 import './vue.js';
