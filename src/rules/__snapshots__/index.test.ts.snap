@@ -416,6 +416,7 @@ exports[`all > should match everything 1`] = `
   "styleci",
   "stylelint",
   "supabase",
+  "supabase.auth",
   "supabase.functions",
   "supabase.postgres",
   "supabase.realtime",

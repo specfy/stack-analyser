@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'workos',
   name: 'WorkOS',
-  type: 'saas',
+  type: 'auth',
   dependencies: [
     { type: 'npm', name: '@workos-inc/node' },
     { type: 'golang', name: 'github.com/workos/workos-go' },

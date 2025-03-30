@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'okta',
   name: 'Okta',
-  type: 'saas',
+  type: 'auth',
   dependencies: [
     { type: 'npm', name: /^@okta\//, example: '@okta/okta-signin-widget' },
     { type: 'terraform', name: 'registry.terraform.io/okta/okta' },

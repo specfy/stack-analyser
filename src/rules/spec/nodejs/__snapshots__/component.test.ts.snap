@@ -255,6 +255,7 @@ exports[`npm > should match everything 1`] = `
   "strapi",
   "stripe",
   "supabase",
+  "supabase.auth",
   "supabase.functions",
   "supabase.postgres",
   "supabase.realtime",
@@ -1654,6 +1655,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@supabase/functions-js",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@supabase/gotrue-js",
     "0.0.0",
   ],
   [

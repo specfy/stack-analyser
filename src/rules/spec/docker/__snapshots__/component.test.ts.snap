@@ -104,6 +104,7 @@ exports[`docker > should match everything 1`] = `
   "sonarqube",
   "strapi",
   "supabase",
+  "supabase.auth",
   "supabase.postgres",
   "supabase.realtime",
   "supabase.storage",
@@ -1166,6 +1167,11 @@ exports[`docker > should match everything 2`] = `
   ],
   [
     "docker",
+    "supabase/gotrue",
+    "0.0.0",
+  ],
+  [
+    "docker",
     "supabase/postgres",
     "0.0.0",
   ],
@@ -1182,6 +1188,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "supabase/storage-api",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "supabase/studio",
     "0.0.0",
   ],
   [
