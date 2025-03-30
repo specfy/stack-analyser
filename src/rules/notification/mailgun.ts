@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'mailgun',
   name: 'Mailgun',
-  type: 'saas',
+  type: 'notification',
   dependencies: [
     { type: 'npm', name: 'mailgun.js' },
     { type: 'npm', name: 'nodemailer-mailgun-transport' },

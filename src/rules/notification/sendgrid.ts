@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'sendgrid',
   name: 'Sendgrid',
-  type: 'saas',
+  type: 'notification',
   dependencies: [
     { type: 'npm', name: /^@sendgrid\//, example: '@sendgrid/mail' },
     { type: 'npm', name: 'nodemailer-sendgrid' },
