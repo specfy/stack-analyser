@@ -430,6 +430,7 @@ exports[`all > should match everything 1`] = `
   "sveltejs",
   "symfony",
   "tailwind",
+  "tanstackstart",
   "tdengine",
   "teamcity",
   "teamspeak",

@@ -267,6 +267,7 @@ exports[`npm > should match everything 1`] = `
   "surrealdb",
   "sveltejs",
   "tailwind",
+  "tanstackstart",
   "tdengine",
   "telegram",
   "tensorflow",
@@ -1739,6 +1740,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@sveltejs/vite-plugin-svelte",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@tanstack/react-start",
     "0.0.0",
   ],
   [

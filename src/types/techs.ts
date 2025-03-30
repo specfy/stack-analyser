@@ -453,6 +453,7 @@ export type AllowedKeys =
   | 'symfony'
   | 'tailscale'
   | 'tailwind'
+  | 'tanstackstart'
   | 'tdengine'
   | 'teamcity'
   | 'teamspeak'

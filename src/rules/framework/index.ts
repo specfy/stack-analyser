@@ -16,3 +16,4 @@ import './phaserjs.js';
 import './refinedev.js';
 import './remixrun.js';
 import './shopify.hydrogen.js';
+import './tanstackstart.js';
