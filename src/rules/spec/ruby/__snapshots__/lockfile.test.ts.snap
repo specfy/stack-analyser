@@ -118,6 +118,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "mariadb",
   "meilisearch",
   "memcached",
+  "mixpanel",
   "mongodb",
   "mysql",
   "nats",
@@ -902,6 +903,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "meilisearch-rails",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "mixpanel-ruby",
     "1.0.0",
   ],
   [

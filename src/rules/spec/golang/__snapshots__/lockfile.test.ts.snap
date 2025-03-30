@@ -92,6 +92,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "mailgun",
   "meilisearch",
   "milvusdb",
+  "mixpanel",
   "nats",
   "novu",
   "optimizely",
@@ -623,6 +624,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/milvus-io/milvus-sdk-go/v2",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/mixpanel/mixpanel-go",
     "v1.0.0",
   ],
   [
