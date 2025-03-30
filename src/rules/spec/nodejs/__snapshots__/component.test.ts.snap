@@ -201,6 +201,7 @@ exports[`npm > should match everything 1`] = `
   "pirschanalytics",
   "placekit",
   "playwright",
+  "pnpm",
   "postgresql",
   "posthog",
   "postman",
@@ -2598,6 +2599,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "playwright",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "pnpm",
     "0.0.0",
   ],
   [

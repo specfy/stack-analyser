@@ -346,6 +346,7 @@ export type AllowedKeys =
   | 'platformsh'
   | 'plausible'
   | 'playwright'
+  | 'pnpm'
   | 'postgresql'
   | 'posthog'
   | 'postman'
