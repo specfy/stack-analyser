@@ -14,6 +14,7 @@ import './meteorjs.js';
 import './mithriljs.js';
 import './nextjs.js';
 import './nuxtjs.js';
+import './nxjs.js';
 import './pnpm.js';
 import './preactjs.js';
 import './prettier.js';

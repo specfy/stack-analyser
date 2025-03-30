@@ -188,6 +188,8 @@ exports[`npm > should match everything 1`] = `
   "nodejs",
   "novu",
   "nuxtjs",
+  "nxcloud",
+  "nxjs",
   "okta",
   "openai",
   "optimizely",
@@ -2535,6 +2537,16 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "nuxt3",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "nx",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "nx-cloud",
     "0.0.0",
   ],
   [

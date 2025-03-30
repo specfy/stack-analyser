@@ -318,6 +318,8 @@ export type AllowedKeys =
   | 'notion'
   | 'novu'
   | 'nuxtjs'
+  | 'nxcloud'
+  | 'nxjs'
   | 'oceanbase'
   | 'okta'
   | 'onlineornot'

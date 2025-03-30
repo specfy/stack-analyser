@@ -12,6 +12,7 @@ import './dependabot.js';
 import './droneci.js';
 import './gitlab.ci.js';
 import './jenkins.js';
+import './nxcloud.js';
 import './relativeci.js';
 import './renovate.js';
 import './sonarcloud.js';

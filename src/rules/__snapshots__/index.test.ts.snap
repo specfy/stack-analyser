@@ -298,6 +298,8 @@ exports[`all > should match everything 1`] = `
   "notion",
   "novu",
   "nuxtjs",
+  "nxcloud",
+  "nxjs",
   "oceanbase",
   "okta",
   "onlineornot",
