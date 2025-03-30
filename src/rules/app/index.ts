@@ -7,6 +7,7 @@ import './httpd.js';
 import './kibana.js';
 import './kong.js';
 import './nginx.js';
+import './postgrest.js';
 import './teamspeak.js';
 import './telegraf.js';
 import './traefik.js';

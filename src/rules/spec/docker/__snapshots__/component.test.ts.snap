@@ -85,6 +85,7 @@ exports[`docker > should match everything 1`] = `
   "plausible",
   "playwright",
   "postgresql",
+  "postgrest",
   "prometheus",
   "puppeteer",
   "python",
@@ -943,6 +944,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "postgres",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "postgrest/postgrest",
     "0.0.0",
   ],
   [

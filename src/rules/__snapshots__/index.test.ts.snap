@@ -329,6 +329,7 @@ exports[`all > should match everything 1`] = `
   "playwright",
   "pnpm",
   "postgresql",
+  "postgrest",
   "posthog",
   "postman",
   "postmark",

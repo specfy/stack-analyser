@@ -349,6 +349,7 @@ export type AllowedKeys =
   | 'playwright'
   | 'pnpm'
   | 'postgresql'
+  | 'postgrest'
   | 'posthog'
   | 'postman'
   | 'postmark'
