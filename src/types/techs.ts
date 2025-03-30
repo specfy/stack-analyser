@@ -309,6 +309,7 @@ export type AllowedKeys =
   | 'nats'
   | 'neo4j'
   | 'neondb'
+  | 'nestjs'
   | 'netlify'
   | 'newrelic'
   | 'nextcloud'

@@ -182,6 +182,7 @@ exports[`npm > should match everything 1`] = `
   "nats",
   "neo4j",
   "neondb",
+  "nestjs",
   "netlify",
   "newrelic",
   "nextjs",
@@ -1267,6 +1268,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@neondatabase/serverless",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@nestjs/cli",
     "0.0.0",
   ],
   [

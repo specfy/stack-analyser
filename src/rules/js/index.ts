@@ -12,6 +12,7 @@ import './gastby.js';
 import './koa.js';
 import './meteorjs.js';
 import './mithriljs.js';
+import './nestjs.js';
 import './nextjs.js';
 import './nuxtjs.js';
 import './nxjs.js';
