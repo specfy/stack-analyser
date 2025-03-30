@@ -110,6 +110,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "lago",
   "launchdarkly",
   "lemonsqueezy",
+  "libsql",
   "logstash",
   "mailchimp",
   "mailgun",
@@ -835,6 +836,11 @@ exports[`ruby (component) > should match everything 2`] = `
   ],
   [
     "ruby",
+    "libsql_activerecord",
+    "1.0.0",
+  ],
+  [
+    "ruby",
     "logstash-event",
     "1.0.0",
   ],
@@ -1226,6 +1232,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "travis",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "turso_libsql",
     "1.0.0",
   ],
   [

@@ -282,6 +282,7 @@ export type AllowedKeys =
   | 'laravel'
   | 'launchdarkly'
   | 'lemonsqueezy'
+  | 'libsql'
   | 'lighthouse'
   | 'linear'
   | 'liquibase'

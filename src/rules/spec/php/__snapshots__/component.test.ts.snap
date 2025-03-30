@@ -86,6 +86,7 @@ exports[`php > should match everything 1`] = `
   "laravel",
   "launchdarkly",
   "lemonsqueezy",
+  "libsql",
   "magento",
   "mailchimp",
   "mailgun",
@@ -1152,6 +1153,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "theiconic/php-ga-measurement-protocol",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "turso/libsql",
     "0.0.0",
   ],
   [

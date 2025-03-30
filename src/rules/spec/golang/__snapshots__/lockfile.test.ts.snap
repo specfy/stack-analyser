@@ -87,6 +87,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "lago",
   "launchdarkly",
   "lemonsqueezy",
+  "libsql",
   "logstash",
   "mailgun",
   "meilisearch",
@@ -727,6 +728,16 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/tebeka/selenium",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/tursodatabase/go-libsql",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/tursodatabase/libsql-client-go/libsql",
     "v1.0.0",
   ],
   [

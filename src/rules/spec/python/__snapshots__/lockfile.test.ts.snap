@@ -9,6 +9,7 @@ exports[`python (lockfile) > should match everything 1`] = `
   "convexdb",
   "datadog",
   "lago",
+  "libsql",
   "novu",
   "python",
   "qdrant",
@@ -61,6 +62,11 @@ exports[`python (lockfile) > should match everything 2`] = `
   [
     "python",
     "lago-python-client",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "libsql-experimental",
     "1.0.0",
   ],
   [

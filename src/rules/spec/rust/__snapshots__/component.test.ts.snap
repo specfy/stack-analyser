@@ -72,6 +72,7 @@ exports[`rust (component) > should match everything 1`] = `
   "influxdb",
   "kubernetes",
   "launchdarkly",
+  "libsql",
   "mailjet",
   "meilisearch",
   "memcached",
@@ -493,6 +494,11 @@ exports[`rust (component) > should match everything 2`] = `
   [
     "rust",
     "launchdarkly-server-sdk",
+    "1.0.0",
+  ],
+  [
+    "rust",
+    "libsql",
     "1.0.0",
   ],
   [

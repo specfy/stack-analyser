@@ -163,6 +163,7 @@ exports[`npm > should match everything 1`] = `
   "lago",
   "launchdarkly",
   "lemonsqueezy",
+  "libsql",
   "lighthouse",
   "logrocket",
   "logsnag",
@@ -1251,6 +1252,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@launchdarkly/cloudflare-server-sdk",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@libsql/client",
     "0.0.0",
   ],
   [

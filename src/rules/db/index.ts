@@ -41,6 +41,7 @@ import './gcp.spanner.js';
 import './gcp.sql.js';
 import './hashicorpVault.js';
 import './influxdb.js';
+import './libsql.js';
 import './mariadb.js';
 import './meilisearch.js';
 import './meilisearchcloud.js';
