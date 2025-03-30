@@ -128,6 +128,7 @@ export type AllowedKeys =
   | 'chef'
   | 'circleci'
   | 'cirrusci'
+  | 'clerk'
   | 'clickhouse'
   | 'clicksend'
   | 'cloudbees.codeship'

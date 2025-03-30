@@ -63,6 +63,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "azure.storage",
   "betterstack",
   "brevo",
+  "clerk",
   "cloudflare",
   "couchbase",
   "datadog",
@@ -515,6 +516,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "circleci",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "clerk-sdk-ruby",
     "1.0.0",
   ],
   [

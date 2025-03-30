@@ -79,6 +79,7 @@ exports[`npm > should match everything 1`] = `
   "bootstrap",
   "brevo",
   "browserstack",
+  "clerk",
   "clickhouse",
   "clicksend",
   "cloudflare",
@@ -868,6 +869,41 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@bigcommerce/checkout-sdk",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@clerk/clerk-js",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@clerk/clerk-react",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@clerk/express",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@clerk/fastify",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@clerk/nextjs",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@clerk/tanstack-start",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@clerk/types",
     "0.0.0",
   ],
   [

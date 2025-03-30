@@ -112,6 +112,7 @@ exports[`all > should match everything 1`] = `
   "chef",
   "circleci",
   "cirrusci",
+  "clerk",
   "clickhouse",
   "clicksend",
   "cloudbees",
