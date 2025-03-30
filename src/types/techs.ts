@@ -496,6 +496,7 @@ export type AllowedKeys =
   | 'woocommerce'
   | 'wordpress'
   | 'workos'
+  | 'yarn'
   | 'yii2'
   | 'yii2'
   | 'yousign'

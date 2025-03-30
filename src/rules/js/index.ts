@@ -35,5 +35,6 @@ import './turborepo.js';
 import './typescript.js';
 import './vite.js';
 import './vue.js';
+import './yarn.js';
 import './wasp.js';
 import './webpack.js';

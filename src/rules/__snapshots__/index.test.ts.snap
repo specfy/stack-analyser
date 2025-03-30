@@ -473,6 +473,7 @@ exports[`all > should match everything 1`] = `
   "woocommerce",
   "wordpress",
   "workos",
+  "yarn",
   "yii2",
   "yousign",
   "zapier",
