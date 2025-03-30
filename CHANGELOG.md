@@ -1,3 +1,28 @@
+# [1.9.0](https://github.com/specfy/stack-analyser/compare/v1.8.7...v1.9.0) (2025-03-30)
+
+
+### Bug Fixes
+
+* **rules:** add Clerk ([5da54ba](https://github.com/specfy/stack-analyser/commit/5da54ba170c4efe2102000b9632d075b5dde3dd2))
+* **rules:** add Convex ([ce19a71](https://github.com/specfy/stack-analyser/commit/ce19a712c41da237a8acb6927045b202c205d11f))
+* **rules:** add libSQL ([6936353](https://github.com/specfy/stack-analyser/commit/6936353d26346a252e447a572e3abdfb0d823af4))
+* **rules:** add more packages for mixpanel ([c096c39](https://github.com/specfy/stack-analyser/commit/c096c3952d4f5f83c8ca133747565c7285c88789))
+* **rules:** add Nango ([a2fd9dc](https://github.com/specfy/stack-analyser/commit/a2fd9dcc030fdf8a34798575adf0db64a339fded))
+* **rules:** add NestJS ([cde7b38](https://github.com/specfy/stack-analyser/commit/cde7b38e12fbdfa2286011f33c2b8849e7c73716))
+* **rules:** add NX, NX Cloud ([57205b8](https://github.com/specfy/stack-analyser/commit/57205b8f07d26c2f424bdf684ceb8d2e4582930c))
+* **rules:** add pnPM ([a955a12](https://github.com/specfy/stack-analyser/commit/a955a12b29da90883bf7b0f5cc53be76c494d2d3))
+* **rules:** add Postgrest ([fa609aa](https://github.com/specfy/stack-analyser/commit/fa609aa3c70f37cf551997920136e409516874d4))
+* **rules:** add Supabase Auth and auth category ([8471991](https://github.com/specfy/stack-analyser/commit/84719911dbb65c4d26cf7f9359bad83a7032bf2e))
+* **rules:** add Tanstack Start ([3ae8876](https://github.com/specfy/stack-analyser/commit/3ae8876fca25ab993fe0bf0a7b34bf11b5e3fe23))
+* **rules:** add Turborepo ([596fdfb](https://github.com/specfy/stack-analyser/commit/596fdfb0798f794ad5c76d663065ae9871d03b35))
+* **rules:** add Turso db ([235b60c](https://github.com/specfy/stack-analyser/commit/235b60cca06284ced9b3b06d1ce59d6d76c9e18b))
+* **rules:** add Yarn ([21a8a16](https://github.com/specfy/stack-analyser/commit/21a8a161d33714d2f24c165acda3de28e90362da))
+
+
+### Features
+
+* **rules:** add notification category, move messaging to queue ([3436f17](https://github.com/specfy/stack-analyser/commit/3436f171c74ba18dbb9975bf40b0789e2c2f0227))
+
 ## [1.8.7](https://github.com/specfy/stack-analyser/compare/v1.8.6...v1.8.7) (2025-03-28)
 
 
