@@ -13,6 +13,8 @@ export type TechType =
   | 'messaging'
   | 'monitoring'
   | 'network'
+  | 'notification'
+  | 'queue'
   | 'saas'
   | 'storage'
   | 'tool';

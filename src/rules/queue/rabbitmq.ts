@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'rabbitmq',
   name: 'RabbitMQ',
-  type: 'messaging',
+  type: 'queue',
   dependencies: [
     { type: 'npm', name: 'amqplib' },
     { type: 'npm', name: '@opentelemetry/instrumentation-amqplib' },

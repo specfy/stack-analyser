@@ -3,6 +3,6 @@ import { register } from '../../register.js';
 register({
   tech: 'celery',
   name: 'Celery',
-  type: 'messaging',
+  type: 'queue',
   dependencies: [{ type: 'python', name: 'celery' }],
 });

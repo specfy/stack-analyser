@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'aws.kafka',
   name: 'AWS Kafka',
-  type: 'db',
+  type: 'queue',
   dependencies: [
     { type: 'ruby', name: 'aws-sdk-kafka' },
     { type: 'terraform.resource', name: 'aws_msk_cluster' },

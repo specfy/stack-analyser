@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'aws.sqs',
   name: 'AWS SQS',
-  type: 'messaging',
+  type: 'queue',
   dependencies: [
     { type: 'npm', name: '@aws-cdk/aws-sqs' },
     { type: 'npm', name: '@aws-sdk/client-sqs' },

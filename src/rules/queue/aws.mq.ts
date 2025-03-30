@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'aws.mq',
   name: 'AWS ActiveMQ',
-  type: 'messaging',
+  type: 'queue',
   dependencies: [
     { type: 'npm', name: '@aws-cdk/aws-mq' },
     { type: 'npm', name: '@aws-sdk/client-mq' },

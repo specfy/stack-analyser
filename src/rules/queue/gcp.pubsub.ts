@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'gcp.pubsub',
   name: 'PubSub',
-  type: 'messaging',
+  type: 'queue',
   dependencies: [
     { type: 'npm', name: '@google-cloud/pubsub' },
     {

@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'aws.ses',
   name: 'AWS Simple Email Service',
-  type: 'messaging',
+  type: 'notification',
   dependencies: [
     { type: 'npm', name: '@aws-cdk/aws-ses' },
     { type: 'npm', name: 'aws-ses-v2-local' },
