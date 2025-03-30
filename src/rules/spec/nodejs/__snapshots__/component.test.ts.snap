@@ -183,6 +183,7 @@ exports[`npm > should match everything 1`] = `
   "mixpanel",
   "mongodb",
   "mysql",
+  "nango",
   "nats",
   "neo4j",
   "neondb",
@@ -1303,6 +1304,16 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@miniflare/cache",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@nangohq/frontend",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@nangohq/node",
     "0.0.0",
   ],
   [
@@ -2508,6 +2519,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "mysql2",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "nango",
     "0.0.0",
   ],
   [

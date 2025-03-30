@@ -289,6 +289,7 @@ exports[`all > should match everything 1`] = `
   "mongodbatlas",
   "mongoexpress",
   "mysql",
+  "nango",
   "nats",
   "neo4j",
   "neondb",

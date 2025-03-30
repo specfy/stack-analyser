@@ -72,6 +72,7 @@ exports[`docker > should match everything 1`] = `
   "mongodb",
   "mongoexpress",
   "mysql",
+  "nango",
   "nats",
   "neo4j",
   "neondb",
@@ -799,6 +800,16 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "mysql",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "nangohq/nango",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "nangohq/nango-server",
     "0.0.0",
   ],
   [
