@@ -126,6 +126,7 @@ exports[`all > should match everything 1`] = `
   "commercetools",
   "consul",
   "contenful",
+  "convexdb",
   "couchbase",
   "coveralls",
   "cplusplus",

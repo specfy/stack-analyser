@@ -6,6 +6,7 @@ exports[`python (lockfile) > should match everything 1`] = `
   "anthropic",
   "celery",
   "clerk",
+  "convexdb",
   "datadog",
   "lago",
   "novu",
@@ -40,6 +41,11 @@ exports[`python (lockfile) > should match everything 2`] = `
   [
     "python",
     "clerk-backend-api",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "convex",
     "1.0.0",
   ],
   [

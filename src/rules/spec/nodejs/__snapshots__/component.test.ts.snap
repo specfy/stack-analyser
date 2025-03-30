@@ -86,6 +86,7 @@ exports[`npm > should match everything 1`] = `
   "cloudflare.workers",
   "commercetools",
   "contenful",
+  "convexdb",
   "couchbase",
   "coveralls",
   "crowdin",
@@ -2065,6 +2066,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "contentful-management",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "convex",
     "0.0.0",
   ],
   [

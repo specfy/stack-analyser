@@ -142,6 +142,7 @@ export type AllowedKeys =
   | 'commercetools'
   | 'consul'
   | 'contenful'
+  | 'convexdb'
   | 'couchbase'
   | 'coveralls'
   | 'cplusplus'
