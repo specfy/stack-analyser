@@ -19,9 +19,9 @@ export const listTech: TechItem[] = [
 ];
 
 export const listIndexed = {} as Record<AllowedKeys, TechItem>;
-Object.values(listTech).forEach((v) => {
+for (const v of Object.values(listTech)) {
   listIndexed[v.key] = v;
-});
+}
 `
   );
 })();
