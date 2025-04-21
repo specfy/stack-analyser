@@ -6,12 +6,17 @@ exports[`python (lockfile) > should match everything 1`] = `
   "anthropic",
   "celery",
   "clerk",
+  "cohereai",
   "convexdb",
   "datadog",
+  "geminiai",
   "lago",
   "libsql",
+  "milvusdb",
+  "mistralai",
   "mixpanel",
   "novu",
+  "openai",
   "python",
   "qdrant",
   "workos",
@@ -47,6 +52,11 @@ exports[`python (lockfile) > should match everything 2`] = `
   ],
   [
     "python",
+    "cohere",
+    "1.0.0",
+  ],
+  [
+    "python",
     "convex",
     "1.0.0",
   ],
@@ -62,6 +72,11 @@ exports[`python (lockfile) > should match everything 2`] = `
   ],
   [
     "python",
+    "genai",
+    "1.0.0",
+  ],
+  [
+    "python",
     "gradio",
     "1.0.0",
   ],
@@ -72,7 +87,22 @@ exports[`python (lockfile) > should match everything 2`] = `
   ],
   [
     "python",
+    "langchain-milvus",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "langchain-openai",
+    "1.0.0",
+  ],
+  [
+    "python",
     "libsql-experimental",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "mistralai",
     "1.0.0",
   ],
   [
@@ -83,6 +113,16 @@ exports[`python (lockfile) > should match everything 2`] = `
   [
     "python",
     "novu",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "openai",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "pymilvus",
     "1.0.0",
   ],
   [

@@ -68,6 +68,7 @@ exports[`npm > should match everything 1`] = `
   "azure.functions",
   "azure.mariadb",
   "azure.mysql",
+  "azure.openai",
   "azure.postgres",
   "azure.redis",
   "azure.sql",
@@ -84,6 +85,7 @@ exports[`npm > should match everything 1`] = `
   "clicksend",
   "cloudflare",
   "cloudflare.workers",
+  "cohereai",
   "commercetools",
   "contenful",
   "convexdb",
@@ -94,6 +96,7 @@ exports[`npm > should match everything 1`] = `
   "d3js",
   "datadog",
   "datocms",
+  "deepseek",
   "deferrun",
   "discord",
   "docusaurus",
@@ -142,10 +145,12 @@ exports[`npm > should match everything 1`] = `
   "gcp.tasks",
   "gcp.translate",
   "gcp.vision",
+  "geminiai",
   "ghost",
   "gitbook",
   "github",
   "gridsome",
+  "groq",
   "hexojs",
   "hotjar",
   "huggingface",
@@ -154,6 +159,7 @@ exports[`npm > should match everything 1`] = `
   "hypertune",
   "influxdb",
   "intercom",
+  "jest",
   "k6",
   "kentico",
   "koa",
@@ -205,6 +211,7 @@ exports[`npm > should match everything 1`] = `
   "papertrail",
   "payloadcms",
   "paypal",
+  "perplexityai",
   "phaserjs",
   "pirschanalytics",
   "placekit",
@@ -299,6 +306,7 @@ exports[`npm > should match everything 1`] = `
   "webpack",
   "wordpress",
   "workos",
+  "xai",
   "zendesk",
   "zipkin",
 ]
@@ -348,12 +356,37 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@ai-sdk/cohere",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@ai-sdk/deepsek",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@ai-sdk/groq",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@ai-sdk/mistral",
     "0.0.0",
   ],
   [
     "npm",
     "@ai-sdk/openai",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@ai-sdk/perplexity",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@ai-sdk/xai",
     "0.0.0",
   ],
   [
@@ -1178,6 +1211,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@google/genai",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@hotjar/browser",
     "0.0.0",
   ],
@@ -1253,12 +1291,42 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@langchain/cohere",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@langchain/deepsek",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@langchain/groq",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@langchain/perplexity",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@launchdarkly/cloudflare-server-sdk",
     "0.0.0",
   ],
   [
     "npm",
     "@libsql/client",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@llamaindex/cohere",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@llamaindex/milvus",
     "0.0.0",
   ],
   [
@@ -1304,6 +1372,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@miniflare/cache",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@mistralai/mistralai",
     "0.0.0",
   ],
   [
@@ -1913,6 +1986,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@watzon/n8n-nodes-perplexity",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@wdio/selenium-standalone-service",
     "0.0.0",
   ],
@@ -2028,6 +2106,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "babel-jest",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "better-sqlite3",
     "0.0.0",
   ],
@@ -2064,6 +2147,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "clicksend",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "cohere-ai",
     "0.0.0",
   ],
   [
@@ -2293,6 +2381,41 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "gemini-ai",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "genkitx-anthropic",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "genkitx-azure-openai",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "genkitx-groq ",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "genkitx-milvus",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "genkitx-mistral",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "genkitx-openai",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "ghost-cli",
     "0.0.0",
   ],
@@ -2324,6 +2447,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "gridsome",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "groq-sdk",
     "0.0.0",
   ],
   [
@@ -2374,6 +2502,16 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "is-lambda",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "jest",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "jest-cli",
     "0.0.0",
   ],
   [
@@ -2519,6 +2657,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "mysql2",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "n8n-nodes-deepseek",
     "0.0.0",
   ],
   [

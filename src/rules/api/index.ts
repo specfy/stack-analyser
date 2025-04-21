@@ -1,4 +1,3 @@
-import './aws.bedrock.js';
 import './aws.cloudformation.js';
 import './aws.codebuild.js';
 import './aws.kinesis.js';
@@ -18,4 +17,3 @@ import './gcp.speech.js';
 import './gcp.translate.js';
 import './gcp.vision.js';
 import './sitecore.xmcloud.js';
-import './vercel.ai.js';

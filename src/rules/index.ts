@@ -1,3 +1,4 @@
+import './ai/index.js';
 import './analytics/index.js';
 import './auth/index.js';
 import './api/index.js';

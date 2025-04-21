@@ -53,6 +53,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "brevo",
   "clerk",
   "clickhouse",
+  "cohereai",
   "elasticsearch",
   "gcp",
   "gcp.aiplatform",
@@ -92,6 +93,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "mailgun",
   "meilisearch",
   "milvusdb",
+  "mistralai",
   "mixpanel",
   "nats",
   "novu",
@@ -538,12 +540,22 @@ exports[`golang (lockfile) > should match everything 2`] = `
   ],
   [
     "golang",
+    "github.com/cohere-ai/cohere-go/v2",
+    "v1.0.0",
+  ],
+  [
+    "golang",
     "github.com/elastic/beats/libbeat/outputs/logstash",
     "v1.0.0",
   ],
   [
     "golang",
     "github.com/elastic/go-elasticsearch",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/gage-technologies/mistral-go",
     "v1.0.0",
   ],
   [

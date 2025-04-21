@@ -64,6 +64,7 @@ exports[`docker > should match all dependencies 1`] = `
   "snyk",
   "supabase",
   "supabase.postgres",
+  "tailscale",
   "telegram",
   "twilio",
   "vercel",
@@ -705,6 +706,16 @@ exports[`docker > should match all dependencies 2`] = `
   [
     "githubAction",
     "superfly/flyctl-actions/setup-flyctl",
+    "1",
+  ],
+  [
+    "githubAction",
+    "tailscale/github-action",
+    "1",
+  ],
+  [
+    "githubAction",
+    "tailscale/gitops-acl-action",
     "1",
   ],
   [

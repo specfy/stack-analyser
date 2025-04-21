@@ -78,6 +78,7 @@ import './surrealdb.js';
 import './tdengine.js';
 import './tidb.js';
 import './timescaledb.js';
+import './tursodb.js';
 import './typesense.js';
 import './typesensecloud.js';
 import './upstash.redis.js';
