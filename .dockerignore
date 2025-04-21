@@ -50,7 +50,6 @@ CONTRIBUTING.md
 **/*.spec.js
 **/*.perf.ts
 renovate.json
-**/jest*
 **/.DS_Store
 .vscode
 **/.storybook/
