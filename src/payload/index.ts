@@ -79,7 +79,9 @@ export class Payload implements Analyser {
       const resArray = Array.isArray(res) ? res : [res];
       for (const pl of resArray) {
         if (pl.name === 'virtual') {
-          for (const child of pl.childs) this.addChild(child);
+          for (const child of pl.childs) {
+            this.addChild(child);
+          }
           this.combineDependencies(pl);
         } else {
           ctx = pl;
@@ -114,8 +116,12 @@ export class Payload implements Analyser {
    */
   addChild(service: Payload): Payload {
     const exist = this.childs.find((s) => {
+      // we only merge if a tech is similar otherwise it's too easy to get a false-positive
+      if (!s.tech && !service.tech) {
+        return false;
+      }
       if (s.name === service.name) return true;
-      if (s.tech && service.tech && s.tech === service.tech) return true;
+      if (s.tech === service.tech) return true;
       return false;
     });
 
