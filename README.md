@@ -24,6 +24,7 @@ It can be helpful for other to get all dependencies or SaaS used in a given GitH
 ```bash
 npx @specfy/stack-analyser <PATH> [--output=<filename>]
 ```
+
 ```sh
 npx @specfy/stack-analyser /my/folder
 ```
@@ -37,8 +38,9 @@ npm install -E @specfy/stack-analyser
 ```ts
 import { analyser, FSProvider, flatten, rules } from "@specfy/stack-analyser"
 
-// Load default rules
-rules.loadAll();
+// /!\ Load default rules
+// without this no rules will be enabled by default
+import '@specfy/stack-analyser/dist/autoload';
 
 // Analyze a folder
 const result = await analyser({
@@ -262,7 +264,6 @@ The exact types `AnalyserJson` can be found [here](./src/types/index.ts)
 ```
 
 </details>
-
 
 ## Contributing
 
