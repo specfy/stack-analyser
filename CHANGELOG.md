@@ -1,3 +1,13 @@
+## [1.9.2](https://github.com/specfy/stack-analyser/compare/v1.9.1...v1.9.2) (2025-04-21)
+
+
+### Bug Fixes
+
+* dockerfile ([56e6039](https://github.com/specfy/stack-analyser/commit/56e60393e6609479d4e1c72bd1eecbfcb79825ee))
+* remove jest from dockerignore ([376d385](https://github.com/specfy/stack-analyser/commit/376d3851213b7b75f2814ad9338f2c4723e67371))
+* **rules:** add AI category, and many AI apis ([0716a03](https://github.com/specfy/stack-analyser/commit/0716a034af3b9f254b20bd6d66e9d2108b1dc645))
+* **rules:** add Pytorch ([ab346df](https://github.com/specfy/stack-analyser/commit/ab346df2b77888ec3e8f505d342249557ae83a75))
+
 ## [1.9.1](https://github.com/specfy/stack-analyser/compare/v1.9.0...v1.9.1) (2025-04-21)
 
 
