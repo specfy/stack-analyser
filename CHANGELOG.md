@@ -1,3 +1,11 @@
+## [1.9.1](https://github.com/specfy/stack-analyser/compare/v1.9.0...v1.9.1) (2025-04-21)
+
+
+### Bug Fixes
+
+* dedup was too optmistic ([e2176e8](https://github.com/specfy/stack-analyser/commit/e2176e8e12503f5cec144cef38c58a41b80a2716))
+* **rules:** add Gradio ([341e7ca](https://github.com/specfy/stack-analyser/commit/341e7ca2d7c0c71e714ab955b374dae090d81595))
+
 # [1.9.0](https://github.com/specfy/stack-analyser/compare/v1.8.7...v1.9.0) (2025-03-30)
 
 
