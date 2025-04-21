@@ -98,10 +98,10 @@ export function findEdgesInDependencies(pl: Payload): void {
   }
 }
 
-function pushChids(src: Payload, dest: Payload): void {
+function pushChilds(src: Payload, dest: Payload): void {
   for (const pl of src.childs) {
     const cp = pl.copy();
-    pushChids(cp, dest);
+    pushChilds(cp, dest);
     cp.childs = [];
     dest.childs.push(cp);
   }
@@ -118,7 +118,7 @@ export function flatten(src: Payload, options: { merge?: boolean } = {}): Payloa
   // Generate a flat list of childs
   const merge = options.merge || false;
   const dest = new Payload({ name: 'flatten', folderPath: '/' });
-  pushChids(src, dest);
+  pushChilds(src, dest);
 
   // Find and merge duplicates
   const duplicates: string[] = [];

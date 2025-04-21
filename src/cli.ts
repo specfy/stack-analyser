@@ -61,7 +61,7 @@ program
     spinner.succeed('Analysed');
 
     if (options.output) {
-      const output = options.flat ? flatten(res) : res;
+      const output = options.flat ? flatten(res, { merge: true }) : res;
       const file = path.join(pathAtExecution, options.output);
       await fs.writeFile(file, JSON.stringify(output.toJson(root), undefined, 2));
       l.log('');

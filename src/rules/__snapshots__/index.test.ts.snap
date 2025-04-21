@@ -349,6 +349,7 @@ exports[`all > should match everything 1`] = `
   "prometheus",
   "puppeteer",
   "python",
+  "pytorch",
   "qdrant",
   "qovery",
   "qovery.cluster",
