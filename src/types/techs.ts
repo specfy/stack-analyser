@@ -242,6 +242,7 @@ export type AllowedKeys =
   | 'golang'
   | 'golangcilint'
   | 'googleanalytics'
+  | 'gradio'
   | 'grafana'
   | 'gridsome'
   | 'haproxy'

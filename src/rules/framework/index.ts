@@ -10,6 +10,7 @@ import './ghost.js';
 import './gridsome.js';
 import './hexojs.js';
 import './hugo.js';
+import './gradio.js';
 import './jekyll.js';
 import './payloadcms.js';
 import './phaserjs.js';
