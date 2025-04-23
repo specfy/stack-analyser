@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'aws.bedrock',
   name: 'AWS Bedrock',
-  type: 'api',
+  type: 'ai',
   dependencies: [
     { type: 'npm', name: '@aws-sdk/client-bedrock' },
     { type: 'npm', name: '@aws-sdk/client-bedrock-runtime' },

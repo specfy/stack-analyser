@@ -2,7 +2,7 @@ import { register } from '../../register.js';
 
 register({
   tech: 'crowdin',
-  name: 'Crodwin',
+  name: 'Crowdin',
   type: 'saas',
   files: ['crowdin.yml', 'crowdin.yaml'],
   dependencies: [

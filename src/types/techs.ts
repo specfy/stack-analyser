@@ -310,7 +310,6 @@ export type AllowedKeys =
   | 'meilisearchcloud'
   | 'memcached'
   | 'meteorjs'
-  | 'milvus'
   | 'milvusdb'
   | 'mistralai'
   | 'mithriljs'
