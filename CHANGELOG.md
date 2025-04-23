@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/specfy/stack-analyser/compare/v1.9.3...v1.10.0) (2025-04-23)
+
+
+### Features
+
+* **rules:** deprecate messagin, use queue ([7f46db5](https://github.com/specfy/stack-analyser/commit/7f46db53e7f73c9a7f1b3e2fbba4463a7a65a3d5))
+
 ## [1.9.3](https://github.com/specfy/stack-analyser/compare/v1.9.2...v1.9.3) (2025-04-23)
 
 
