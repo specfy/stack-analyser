@@ -1,3 +1,10 @@
+## [1.9.3](https://github.com/specfy/stack-analyser/compare/v1.9.2...v1.9.3) (2025-04-23)
+
+
+### Bug Fixes
+
+* various ([edffe38](https://github.com/specfy/stack-analyser/commit/edffe38952aec18aac00a597a0c8e083f6c8d17b))
+
 ## [1.9.2](https://github.com/specfy/stack-analyser/compare/v1.9.1...v1.9.2) (2025-04-21)
 
 
