@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'nats',
   name: 'Nats',
-  type: 'messaging',
+  type: 'queue',
   dependencies: [
     { type: 'docker', name: 'nats' },
     { type: 'docker', name: 'nats-streaming' },

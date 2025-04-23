@@ -11,7 +11,7 @@ export type TechType =
   | 'framework'
   | 'hosting'
   | 'language'
-  | 'messaging'
+  | 'messaging' // @deprecated
   | 'monitoring'
   | 'network'
   | 'notification'
