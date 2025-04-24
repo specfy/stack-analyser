@@ -314,6 +314,7 @@ export type AllowedKeys =
   | 'memcached'
   | 'meteorjs'
   | 'milvusdb'
+  | 'mintlify'
   | 'mistralai'
   | 'mithriljs'
   | 'mixpanel'

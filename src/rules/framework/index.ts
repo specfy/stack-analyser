@@ -12,6 +12,7 @@ import './gridsome.js';
 import './hexojs.js';
 import './hugo.js';
 import './jekyll.js';
+import './mintlify.js';
 import './payloadcms.js';
 import './phaserjs.js';
 import './refinedev.js';
