@@ -29,6 +29,7 @@ exports[`docker > should match all dependencies 1`] = `
   "databricks",
   "datadog",
   "denodeploy",
+  "depotdev",
   "digitalocean",
   "discord",
   "elasticsearch",
