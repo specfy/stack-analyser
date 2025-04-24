@@ -1,3 +1,15 @@
+## [1.10.1](https://github.com/specfy/stack-analyser/compare/v1.10.0...v1.10.1) (2025-04-24)
+
+
+### Bug Fixes
+
+* **rules:** add CodeClimate, Deepsource, CodeQL ([0383941](https://github.com/specfy/stack-analyser/commit/0383941697102a24d060825df0e8bfe3336d1e0b))
+* **rules:** add Depot.dev ([1a684e9](https://github.com/specfy/stack-analyser/commit/1a684e920b8b7018e8e311d8a31c7c752b6548bc))
+* **rules:** add Infisical ([2b0353c](https://github.com/specfy/stack-analyser/commit/2b0353cd909d3c882c3eb6839dcbfa3cd4ca8d66))
+* **rules:** add Mintlify ([db0bb28](https://github.com/specfy/stack-analyser/commit/db0bb2892cb4d4d16479a1ba2c9c01f3ec32eb47))
+* **rules:** add Vitest ([da29aaa](https://github.com/specfy/stack-analyser/commit/da29aaa9bb6a83045b733c06b0448548eaa2fb91))
+* test ([cbb9afa](https://github.com/specfy/stack-analyser/commit/cbb9afaf28051b5938e5cf98277d06fb79eac6a3))
+
 # [1.10.0](https://github.com/specfy/stack-analyser/compare/v1.9.3...v1.10.0) (2025-04-23)
 
 
