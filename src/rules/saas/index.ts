@@ -16,6 +16,7 @@ import './contentful.js';
 import './crowdin.js';
 import './datocms.js';
 import './deferrun.js';
+import './depotdev.js';
 import './discord.js';
 import './docusign.js';
 import './dropbox.js';

@@ -170,6 +170,7 @@ export type AllowedKeys =
   | 'deno'
   | 'denodeploy'
   | 'dependabot'
+  | 'depotdev'
   | 'digitalocean'
   | 'discord'
   | 'discourse'
