@@ -425,6 +425,11 @@ exports[`docker > should match all dependencies 2`] = `
   ],
   [
     "githubAction",
+    "deepsourcelabs/test-coverage-action",
+    "1",
+  ],
+  [
+    "githubAction",
     "denoland/deployctl",
     "1",
   ],
@@ -476,6 +481,11 @@ exports[`docker > should match all dependencies 2`] = `
   [
     "githubAction",
     "getsentry/action-release",
+    "1",
+  ],
+  [
+    "githubAction",
+    "github/codeql-action/analyze",
     "1",
   ],
   [
@@ -625,6 +635,11 @@ exports[`docker > should match all dependencies 2`] = `
   ],
   [
     "githubAction",
+    "paambaati/codeclimate-action",
+    "1",
+  ],
+  [
+    "githubAction",
     "peaceiris/actions-gh-pages",
     "1",
   ],
@@ -651,6 +666,11 @@ exports[`docker > should match all dependencies 2`] = `
   [
     "githubAction",
     "relative-ci/agent-action",
+    "1",
+  ],
+  [
+    "githubAction",
+    "remarkablemark/setup-codeclimate",
     "1",
   ],
   [
