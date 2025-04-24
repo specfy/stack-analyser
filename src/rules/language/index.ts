@@ -5,6 +5,7 @@ import './csharp.js';
 import './css.js';
 import './dart.js';
 import './elixir.js';
+import './glsl.js';
 import './java.js';
 import './javascript.js';
 import './scss.js';

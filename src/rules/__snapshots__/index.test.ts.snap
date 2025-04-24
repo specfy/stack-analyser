@@ -228,6 +228,7 @@ exports[`all > should match everything 1`] = `
   "github.pages",
   "gitlab",
   "gitlab.ci",
+  "glsl",
   "goacmelego",
   "golang",
   "golangcilint",
