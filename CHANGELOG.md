@@ -1,3 +1,17 @@
+# [1.12.0](https://github.com/specfy/stack-analyser/compare/v1.11.0...v1.12.0) (2025-04-24)
+
+
+### Bug Fixes
+
+* **rules:** add Browserbase ([fefa90f](https://github.com/specfy/stack-analyser/commit/fefa90f8213acfe09b141f044e7fc8a700d4892e))
+* **rules:** add Firecrawl ([4158685](https://github.com/specfy/stack-analyser/commit/4158685892098b4f3a669efdec5824daa7e83c57))
+* **rules:** add n8n ([2ca5f73](https://github.com/specfy/stack-analyser/commit/2ca5f73847a59d703ff0105c8721c23bb08220c3))
+
+
+### Features
+
+* **rules:** move some tools to test, db, framework. introduce payment ([f4bc92e](https://github.com/specfy/stack-analyser/commit/f4bc92ea3b4d7b4080e883cee8d75dc646acf7ea))
+
 # [1.11.0](https://github.com/specfy/stack-analyser/compare/v1.10.1...v1.11.0) (2025-04-24)
 
 
