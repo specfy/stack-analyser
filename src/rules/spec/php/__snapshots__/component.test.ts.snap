@@ -48,6 +48,7 @@ exports[`php > should match everything 1`] = `
   "elasticsearch",
   "firebase",
   "firebase.firestore",
+  "firecrawl",
   "gcp",
   "gcp.aiplatform",
   "gcp.appengine",
@@ -156,6 +157,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "@browserbasehq/sdk",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "@mendable/firecrawl-js",
     "0.0.0",
   ],
   [

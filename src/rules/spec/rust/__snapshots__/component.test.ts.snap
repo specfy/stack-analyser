@@ -62,6 +62,7 @@ exports[`rust (component) > should match everything 1`] = `
   "elasticsearch",
   "fastly",
   "firebase",
+  "firecrawl",
   "gcp",
   "gcp.bigquery",
   "gcp.gcs",
@@ -439,6 +440,11 @@ exports[`rust (component) > should match everything 2`] = `
   [
     "rust",
     "firebase-rs",
+    "1.0.0",
+  ],
+  [
+    "rust",
+    "firecrawl",
     "1.0.0",
   ],
   [

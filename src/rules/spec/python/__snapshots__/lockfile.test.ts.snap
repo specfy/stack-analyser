@@ -11,6 +11,7 @@ exports[`python (lockfile) > should match everything 1`] = `
   "cohereai",
   "convexdb",
   "datadog",
+  "firecrawl",
   "geminiai",
   "lago",
   "libsql",
@@ -82,6 +83,11 @@ exports[`python (lockfile) > should match everything 2`] = `
   [
     "python",
     "django-workos",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "firecrawl-py",
     "1.0.0",
   ],
   [

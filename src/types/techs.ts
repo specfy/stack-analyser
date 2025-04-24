@@ -208,6 +208,7 @@ export type AllowedKeys =
   | 'figma'
   | 'firebase.firestore'
   | 'firebase'
+  | 'firecrawl'
   | 'flyio'
   | 'flyway'
   | 'gatsby'

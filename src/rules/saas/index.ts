@@ -20,6 +20,7 @@ import './dropbox.js';
 import './fabric.js';
 import './facebook.js';
 import './figma.js';
+import './firecrawl.js';
 import './gitbook.js';
 import './gitguardian.js';
 import './github.js';
