@@ -250,6 +250,7 @@ exports[`all > should match everything 1`] = `
   "hypertune",
   "ibmcloud",
   "iftt",
+  "infisical",
   "influxdb",
   "intercom",
   "intuit",

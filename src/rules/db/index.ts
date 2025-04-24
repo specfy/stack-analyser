@@ -40,6 +40,7 @@ import './gcp.secretmanager.js';
 import './gcp.spanner.js';
 import './gcp.sql.js';
 import './hashicorpVault.js';
+import './infisical.js';
 import './influxdb.js';
 import './libsql.js';
 import './mariadb.js';

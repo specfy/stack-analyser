@@ -157,6 +157,7 @@ exports[`npm > should match everything 1`] = `
   "hugo",
   "hyperdx",
   "hypertune",
+  "infisical",
   "influxdb",
   "intercom",
   "jest",
@@ -2478,6 +2479,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "hypertune",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "infisical",
     "0.0.0",
   ],
   [
