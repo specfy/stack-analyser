@@ -8,5 +8,6 @@ register({
     { type: 'npm', name: /^@supabase\//, example: '@supabase/supabase.js' },
     { type: 'githubAction', name: 'supabase/setup-cli' },
     { type: 'docker', name: 'supabase/studio' },
+    { type: 'python', name: 'supabase' },
   ],
 });
