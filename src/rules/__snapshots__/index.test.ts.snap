@@ -465,6 +465,7 @@ exports[`all > should match everything 1`] = `
   "tidb",
   "timescaledb",
   "tinybird",
+  "tiptap",
   "traefik",
   "travisci",
   "trufflesecurity",

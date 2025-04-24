@@ -490,6 +490,7 @@ export type AllowedKeys =
   | 'tidb'
   | 'timescaledb'
   | 'tinybird'
+  | 'tiptap'
   | 'traefik'
   | 'travisci'
   | 'trufflesecurity'
