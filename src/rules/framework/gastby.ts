@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'gatsby',
   name: 'Gatsby',
-  type: 'tool',
+  type: 'framework',
   files: ['gatsby-config.js', 'gatsby-config.ts'],
   dependencies: [
     { type: 'npm', name: 'gatsby' },

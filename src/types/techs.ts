@@ -18,7 +18,9 @@ export type TechType =
   | 'queue'
   | 'saas'
   | 'storage'
-  | 'tool';
+  | 'test'
+  | 'tool'
+  | 'ui';
 
 export type AllowedKeys =
   | 'adminer'

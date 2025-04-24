@@ -8,4 +8,8 @@ import './elixir.js';
 import './glsl.js';
 import './java.js';
 import './javascript.js';
+import './react.js';
 import './scss.js';
+import './sveltejs.js';
+import './typescript.js';
+import './vue.js';
