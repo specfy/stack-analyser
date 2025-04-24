@@ -17,6 +17,7 @@ exports[`ci > should match everything 1`] = `
   "droneci",
   "github.actions",
   "gitlab.ci",
+  "javascript",
   "jenkins",
   "relativeci",
   "renovate",
