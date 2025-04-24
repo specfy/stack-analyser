@@ -513,6 +513,7 @@ export type AllowedKeys =
   | 'vialink'
   | 'victoriametrics'
   | 'vite'
+  | 'vitest'
   | 'vue'
   | 'wasp'
   | 'webflow'

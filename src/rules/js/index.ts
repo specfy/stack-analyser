@@ -37,6 +37,7 @@ import './tailwind.js';
 import './turborepo.js';
 import './typescript.js';
 import './vite.js';
+import './vitest.js';
 import './vue.js';
 import './wasp.js';
 import './webpack.js';

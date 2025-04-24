@@ -4,6 +4,7 @@ register({
   tech: 'playwright',
   name: 'Playwright',
   type: 'tool',
+  files: ['playwright.config.ts'],
   dependencies: [
     { type: 'npm', name: 'playwright' },
     { type: 'npm', name: '@playwright/test' },

@@ -303,6 +303,7 @@ exports[`npm > should match everything 1`] = `
   "vercel.postgres",
   "veriff",
   "vite",
+  "vitest",
   "vue",
   "webflow",
   "webpack",
@@ -3184,6 +3185,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "vite",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "vitest",
     "0.0.0",
   ],
   [
