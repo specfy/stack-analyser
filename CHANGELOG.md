@@ -1,3 +1,19 @@
+# [1.11.0](https://github.com/specfy/stack-analyser/compare/v1.10.1...v1.11.0) (2025-04-24)
+
+
+### Bug Fixes
+
+* **rules:** add GLSL ([07c9dc6](https://github.com/specfy/stack-analyser/commit/07c9dc6a7394f8e472f2ed36813ce829fd63258c))
+* **rules:** add javascript (sic)' ([74d6b3c](https://github.com/specfy/stack-analyser/commit/74d6b3cf6a0295d397d026002e8bd5cb75fe937a))
+* **rules:** add Radix UI ([3f54135](https://github.com/specfy/stack-analyser/commit/3f54135eca5cdf347295cecef59a8fe80c8a5f6b))
+* **rules:** add Supabase for python ([90f661f](https://github.com/specfy/stack-analyser/commit/90f661f564f4f722ba1a03294421cf7228352fb1))
+* **rules:** add Tiptap ([900507b](https://github.com/specfy/stack-analyser/commit/900507bf62f61adf24ca150dc842bf3ee2ea157c))
+
+
+### Features
+
+* **rules:** add ui, test category. Move js framework and language accordingly ([dc92abe](https://github.com/specfy/stack-analyser/commit/dc92abeaa42957969668264c377c903d55ff8101))
+
 ## [1.10.1](https://github.com/specfy/stack-analyser/compare/v1.10.0...v1.10.1) (2025-04-24)
 
 
