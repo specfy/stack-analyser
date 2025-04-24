@@ -126,6 +126,7 @@ export type AllowedKeys =
   | 'bootstrap'
   | 'box'
   | 'brevo'
+  | 'browerbase'
   | 'browserstack'
   | 'bytebase'
   | 'c'

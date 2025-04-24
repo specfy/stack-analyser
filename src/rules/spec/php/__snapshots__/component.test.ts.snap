@@ -31,6 +31,7 @@ exports[`php > should match everything 1`] = `
   "bigcommerce",
   "blackfire",
   "brevo",
+  "browerbase",
   "chargebee",
   "clickhouse",
   "cloudflare",
@@ -152,6 +153,11 @@ exports[`php > should match everything 1`] = `
 
 exports[`php > should match everything 2`] = `
 [
+  [
+    "php",
+    "@browserbasehq/sdk",
+    "0.0.0",
+  ],
   [
     "php",
     "adilbaig/pagerduty",

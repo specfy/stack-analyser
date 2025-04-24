@@ -104,6 +104,7 @@ exports[`all > should match everything 1`] = `
   "bootstrap",
   "box",
   "brevo",
+  "browerbase",
   "browserstack",
   "bytebase",
   "c",

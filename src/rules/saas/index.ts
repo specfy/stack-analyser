@@ -7,6 +7,7 @@ import './atlassian.opsgenie.js';
 import './atlassian.trello.js';
 import './bigcommerce.js';
 import './box.js';
+import './browerbase.js';
 import './commercetools.js';
 import './contentful.js';
 import './crowdin.js';
