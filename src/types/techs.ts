@@ -395,6 +395,7 @@ export type AllowedKeys =
   | 'qovery'
   | 'questdb'
   | 'rabbitmq'
+  | 'radixui'
   | 'railway.mongodb'
   | 'railway.mysql'
   | 'railway.postgres'

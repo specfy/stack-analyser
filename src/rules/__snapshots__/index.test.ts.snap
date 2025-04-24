@@ -371,6 +371,7 @@ exports[`all > should match everything 1`] = `
   "qovery.database",
   "questdb",
   "rabbitmq",
+  "radixui",
   "railway",
   "railway.mongodb",
   "railway.mysql",
