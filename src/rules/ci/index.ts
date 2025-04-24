@@ -19,6 +19,7 @@ import './nxcloud.js';
 import './relativeci.js';
 import './renovate.js';
 import './sonarcloud.js';
+import './sonarqube.js';
 import './styleci.js';
 import './teamcity.js';
 import './travisci.js';

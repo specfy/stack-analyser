@@ -5,6 +5,7 @@ exports[`python (lockfile) > should match everything 1`] = `
   "algolia",
   "anthropic",
   "celery",
+  "chargebee",
   "clerk",
   "cohereai",
   "convexdb",
@@ -17,6 +18,7 @@ exports[`python (lockfile) > should match everything 1`] = `
   "mixpanel",
   "novu",
   "openai",
+  "paddle",
   "python",
   "qdrant",
   "supabase",
@@ -44,6 +46,11 @@ exports[`python (lockfile) > should match everything 2`] = `
   [
     "python",
     "celery",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "chargebee",
     "1.0.0",
   ],
   [
@@ -119,6 +126,11 @@ exports[`python (lockfile) > should match everything 2`] = `
   [
     "python",
     "openai",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "paddle-python-sdk",
     "1.0.0",
   ],
   [

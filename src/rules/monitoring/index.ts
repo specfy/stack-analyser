@@ -2,6 +2,7 @@ import './aws.cloudwatch.js';
 import './betterstack.js';
 import './blackfire.js';
 import './datadog.js';
+import './dynatrace.js';
 import './gcp.logging.js';
 import './healthchecksio.js';
 import './hyperdx.js';

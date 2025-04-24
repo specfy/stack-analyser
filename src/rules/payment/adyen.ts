@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'adyen',
   name: 'Adyen',
-  type: 'saas',
+  type: 'payment',
   dependencies: [
     { type: 'npm', name: '@adyen/adyen-web' },
     { type: 'npm', name: '@adyen/api-library' },

@@ -1,8 +1,13 @@
 import './aws.ses.js';
 import './aws.sns.js';
+import './brevo.js';
+import './clicksend.js';
+import './iftt.js';
+import './mailchimp.js';
 import './mailgun.js';
 import './mailjet.js';
 import './novu.js';
 import './resend.js';
 import './sendgrid.js';
+import './twilio.js';
 import './zapier.js';

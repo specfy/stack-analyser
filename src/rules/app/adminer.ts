@@ -3,6 +3,6 @@ import { register } from '../../register.js';
 register({
   tech: 'adminer',
   name: 'Adminer',
-  type: 'tool',
+  type: 'app',
   dependencies: [{ type: 'docker', name: 'adminer' }],
 });

@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'paypal',
   name: 'Paypal',
-  type: 'saas',
+  type: 'payment',
   dependencies: [
     { type: 'npm', name: '@paypal/paypal-js' },
     { type: 'npm', name: 'paypal-rest-sdk' },

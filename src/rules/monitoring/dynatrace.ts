@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'dynatrace',
   name: 'Dynatrace',
-  type: 'saas',
+  type: 'monitoring',
   dependencies: [
     {
       type: 'npm',

@@ -156,7 +156,7 @@ exports[`docker > should match all dependencies 2`] = `
   ],
   [
     "githubAction",
-    "SonarSource/sonarcloud-github-actio",
+    "SonarSource/sonarcloud-github-action",
     "1",
   ],
   [

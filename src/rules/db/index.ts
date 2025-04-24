@@ -1,3 +1,4 @@
+import './algolia.js';
 import './apacheCassandra.js';
 import './apacheCouchdb.js';
 import './apacheHadoop.js';

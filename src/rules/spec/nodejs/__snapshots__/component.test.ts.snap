@@ -80,6 +80,7 @@ exports[`npm > should match everything 1`] = `
   "bootstrap",
   "brevo",
   "browserstack",
+  "chargebee",
   "clerk",
   "clickhouse",
   "clicksend",
@@ -209,6 +210,7 @@ exports[`npm > should match everything 1`] = `
   "optimizely",
   "oraclecloud",
   "ovh",
+  "paddle",
   "pagerduty",
   "papertrail",
   "payloadcms",
@@ -916,6 +918,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@chargebee/mcp",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@clerk/clerk-js",
     "0.0.0",
   ],
@@ -1576,6 +1583,16 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@paddle/paddle-js",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@paddle/paddle-node-sdk",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@pagerduty/pdjs",
     "0.0.0",
   ],
@@ -2152,6 +2169,16 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "cdktf",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "chargebee",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "chargebee-typescript",
     "0.0.0",
   ],
   [

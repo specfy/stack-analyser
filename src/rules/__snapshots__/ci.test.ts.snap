@@ -21,6 +21,7 @@ exports[`ci > should match everything 1`] = `
   "jenkins",
   "relativeci",
   "renovate",
+  "sonarqube",
   "styleci",
   "teamcity",
   "travisci",

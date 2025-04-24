@@ -51,6 +51,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "azure.redis",
   "azure.sql",
   "brevo",
+  "chargebee",
   "clerk",
   "clickhouse",
   "cohereai",
@@ -98,6 +99,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "nats",
   "novu",
   "optimizely",
+  "paddle",
   "papertrail",
   "paypal",
   "pirschanalytics",
@@ -306,6 +308,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/NdoleStudio/lemonsqueezy-go",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/PaddleHQ/paddle-go-sdk",
     "v1.0.0",
   ],
   [
@@ -531,6 +538,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/bshuster-repo/logrus-logstash-hook",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/chargebee/chargebee-go",
     "v1.0.0",
   ],
   [

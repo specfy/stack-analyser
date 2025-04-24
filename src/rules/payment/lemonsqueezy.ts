@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'lemonsqueezy',
   name: 'Lemon Squeezy',
-  type: 'saas',
+  type: 'payment',
   dependencies: [
     { type: 'npm', name: 'lemonsqueezy.ts' },
     { type: 'ruby', name: 'lemonsqueezy' },

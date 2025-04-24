@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'stripe',
   name: 'Stripe',
-  type: 'saas',
+  type: 'payment',
   dependencies: [
     { type: 'npm', name: 'stripe' },
     { type: 'php', name: 'stripe/stripe-php' },

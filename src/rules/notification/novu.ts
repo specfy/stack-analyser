@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'novu',
   name: 'Novy',
-  type: 'saas',
+  type: 'notification',
   dependencies: [
     { type: 'npm', name: '@novu/notification-center-vue' },
     { type: 'npm', name: '@novu/notification-center' },

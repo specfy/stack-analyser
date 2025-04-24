@@ -1,3 +1,4 @@
+import './adminer.js';
 import './caddy.js';
 import './consul.js';
 import './discourse.js';

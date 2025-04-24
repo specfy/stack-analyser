@@ -5,6 +5,7 @@ import './cohere.js';
 import './deepseek.js';
 import './geminiai.js';
 import './groq.js';
+import './huggingface.js';
 import './mistralai.js';
 import './openai.js';
 import './perplexityai.js';

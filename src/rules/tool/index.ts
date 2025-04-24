@@ -1,4 +1,3 @@
-import './adminer.js';
 import './ansible.js';
 import './apiplatform.js';
 import './atlasgo.js';
@@ -19,7 +18,6 @@ import './playwright.js';
 import './pytorch.js';
 import './selenium.js';
 import './sonarlint.js';
-import './sonarqube.js';
 import './tensorflow.js';
 import './terragrunt.js';
 import './vale.js';

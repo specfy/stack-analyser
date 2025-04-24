@@ -31,6 +31,7 @@ exports[`php > should match everything 1`] = `
   "bigcommerce",
   "blackfire",
   "brevo",
+  "chargebee",
   "clickhouse",
   "cloudflare",
   "cockroachdb",
@@ -102,6 +103,7 @@ exports[`php > should match everything 1`] = `
   "optimizely",
   "oraclecloud",
   "ovh",
+  "paddle",
   "pagerduty",
   "papertrail",
   "paypal",
@@ -313,6 +315,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "cdaguerre/php-trello-api",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "chargebee/chargebee-php",
     "0.0.0",
   ],
   [
@@ -893,6 +900,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "ovh/ovh",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "paddlehq/paddle-php-sdk",
     "0.0.0",
   ],
   [

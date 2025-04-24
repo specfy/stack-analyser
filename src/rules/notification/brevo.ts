@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'brevo',
   name: 'Brevo',
-  type: 'saas',
+  type: 'notification',
   dependencies: [
     { type: 'golang', name: 'github.com/getbrevo/brevo-go' },
     { type: 'npm', name: '@getbrevo/brevo' },

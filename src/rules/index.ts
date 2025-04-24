@@ -14,6 +14,7 @@ import './language/index.js';
 import './notification/index.js';
 import './monitoring/index.js';
 import './network/index.js';
+import './payment/index.js';
 import './php/index.js';
 import './queue/index.js';
 import './saas/index.js';
