@@ -192,6 +192,7 @@ exports[`npm > should match everything 1`] = `
   "mixpanel",
   "mongodb",
   "mysql",
+  "n8n",
   "nango",
   "nats",
   "neo4j",
@@ -2709,6 +2710,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "mysql2",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "n8n",
     "0.0.0",
   ],
   [

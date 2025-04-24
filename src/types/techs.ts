@@ -331,6 +331,7 @@ export type AllowedKeys =
   | 'mongodbatlas'
   | 'mongoexpress'
   | 'mysql'
+  | 'n8n'
   | 'nango'
   | 'nats'
   | 'neo4j'
