@@ -87,6 +87,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "gitguardian",
   "golang",
   "hyperdx",
+  "inngest",
   "lago",
   "launchdarkly",
   "lemonsqueezy",
@@ -619,6 +620,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/hyperdxio/hyperdx-go",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/inngest/inngestgo",
     "v1.0.0",
   ],
   [

@@ -280,6 +280,7 @@ export type AllowedKeys =
   | 'iftt'
   | 'infisical'
   | 'influxdb'
+  | 'inngest'
   | 'intercom'
   | 'intuit'
   | 'java'

@@ -13,6 +13,7 @@ exports[`python (lockfile) > should match everything 1`] = `
   "datadog",
   "firecrawl",
   "geminiai",
+  "inngest",
   "lago",
   "libsql",
   "milvusdb",
@@ -98,6 +99,11 @@ exports[`python (lockfile) > should match everything 2`] = `
   [
     "python",
     "gradio",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "inngest",
     "1.0.0",
   ],
   [

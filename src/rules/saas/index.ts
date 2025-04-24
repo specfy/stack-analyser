@@ -26,6 +26,7 @@ import './gitguardian.js';
 import './github.js';
 import './hubspot.js';
 import './hypertune.js';
+import './inngest.js';
 import './intercom.js';
 import './kentico.js';
 import './klarna.js';

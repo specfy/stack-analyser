@@ -257,6 +257,7 @@ exports[`all > should match everything 1`] = `
   "iftt",
   "infisical",
   "influxdb",
+  "inngest",
   "intercom",
   "intuit",
   "java",
