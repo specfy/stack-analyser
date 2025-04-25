@@ -80,6 +80,7 @@ exports[`php > should match everything 1`] = `
   "googleanalytics",
   "hashicorp_vault",
   "heroku",
+  "hetzner",
   "hubspot",
   "influxdb",
   "intercom",
@@ -748,6 +749,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "lesstif/php-jira-rest-client",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "lkdevelopment/hetzner-cloud-php-sdk",
     "0.0.0",
   ],
   [

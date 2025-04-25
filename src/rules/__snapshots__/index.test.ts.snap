@@ -246,6 +246,7 @@ exports[`all > should match everything 1`] = `
   "healthchecksio",
   "helm",
   "heroku",
+  "hetzner",
   "hexojs",
   "hotjar",
   "httpd",

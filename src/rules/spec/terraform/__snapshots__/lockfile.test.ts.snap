@@ -28,6 +28,7 @@ exports[`terraform (lockfile) > should match everything 1`] = `
   "hashicorp_vault",
   "helm",
   "heroku",
+  "hetzner",
   "kubernetes",
   "launchdarkly",
   "mongodbatlas",
