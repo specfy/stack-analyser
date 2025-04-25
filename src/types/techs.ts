@@ -30,6 +30,7 @@ export type AllowedKeys =
   | 'adyen'
   | 'airbyte'
   | 'airtable'
+  | 'akamai'
   | 'algolia'
   | 'alibabacloud'
   | 'alpinejs'

@@ -4,6 +4,7 @@ exports[`npm > should match everything 1`] = `
 [
   "adyen",
   "airtable",
+  "akamai",
   "algolia",
   "alpinejs",
   "amplitude",
@@ -2083,6 +2084,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "airtable",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "akamai-edgegrid",
     "0.0.0",
   ],
   [

@@ -3,6 +3,7 @@
 exports[`terraform (lockfile) > should match everything 1`] = `
 [
   "airbyte",
+  "akamai",
   "alibabacloud",
   "apache_kafka",
   "auth0",

@@ -8,6 +8,7 @@ exports[`all > should match everything 1`] = `
   "adyen",
   "airbyte",
   "airtable",
+  "akamai",
   "algolia",
   "alibabacloud",
   "alpinejs",
