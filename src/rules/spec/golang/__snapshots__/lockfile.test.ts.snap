@@ -93,6 +93,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "lemonsqueezy",
   "libsql",
   "logstash",
+  "logtoio",
   "mailgun",
   "meilisearch",
   "milvusdb",
@@ -630,6 +631,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/launchdarkly/go-sdk-common/v3",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/logto-io/go",
     "v1.0.0",
   ],
   [

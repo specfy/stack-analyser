@@ -113,6 +113,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "lemonsqueezy",
   "libsql",
   "logstash",
+  "logtoio",
   "mailchimp",
   "mailgun",
   "mailjet",
@@ -889,6 +890,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "logtail-rails",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "logto",
     "1.0.0",
   ],
   [

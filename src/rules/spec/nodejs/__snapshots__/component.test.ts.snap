@@ -178,6 +178,7 @@ exports[`npm > should match everything 1`] = `
   "logrocket",
   "logsnag",
   "logstash",
+  "logtoio",
   "magento",
   "mailchimp",
   "mailgun",
@@ -1352,6 +1353,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@logtail/node",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@logto/js",
     "0.0.0",
   ],
   [

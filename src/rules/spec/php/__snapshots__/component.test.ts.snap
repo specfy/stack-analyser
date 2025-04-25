@@ -90,6 +90,7 @@ exports[`php > should match everything 1`] = `
   "launchdarkly",
   "lemonsqueezy",
   "libsql",
+  "logtoio",
   "magento",
   "mailchimp",
   "mailgun",
@@ -752,6 +753,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "logtail/monolog-logtail",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "logto/sdk",
     "0.0.0",
   ],
   [

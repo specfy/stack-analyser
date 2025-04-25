@@ -312,6 +312,7 @@ export type AllowedKeys =
   | 'logrocket'
   | 'logsnag'
   | 'logstash'
+  | 'logtoio'
   | 'magento'
   | 'mailchimp'
   | 'mailgun'

@@ -16,6 +16,7 @@ exports[`python (lockfile) > should match everything 1`] = `
   "inngest",
   "lago",
   "libsql",
+  "logtoio",
   "milvusdb",
   "mistralai",
   "mixpanel",
@@ -124,6 +125,11 @@ exports[`python (lockfile) > should match everything 2`] = `
   [
     "python",
     "libsql-experimental",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "logto",
     "1.0.0",
   ],
   [
