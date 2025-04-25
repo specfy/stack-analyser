@@ -12,6 +12,7 @@ import './flyio.js';
 import './gcp.js';
 import './heroku.js';
 import './hetzner.js';
+import './hostinger.js';
 import './ibmcloud.js';
 import './netlify.js';
 import './nextcloud.js';

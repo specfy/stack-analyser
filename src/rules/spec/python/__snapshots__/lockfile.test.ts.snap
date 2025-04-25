@@ -14,6 +14,7 @@ exports[`python (lockfile) > should match everything 1`] = `
   "firecrawl",
   "geminiai",
   "hetzner",
+  "hostinger",
   "inngest",
   "lago",
   "libsql",
@@ -107,6 +108,11 @@ exports[`python (lockfile) > should match everything 2`] = `
   [
     "python",
     "hcloud",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "hostinger_api",
     "1.0.0",
   ],
   [

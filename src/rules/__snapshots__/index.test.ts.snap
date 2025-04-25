@@ -249,6 +249,7 @@ exports[`all > should match everything 1`] = `
   "heroku",
   "hetzner",
   "hexojs",
+  "hostinger",
   "hotjar",
   "httpd",
   "hubspot",

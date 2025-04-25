@@ -81,6 +81,7 @@ exports[`php > should match everything 1`] = `
   "hashicorp_vault",
   "heroku",
   "hetzner",
+  "hostinger",
   "hubspot",
   "influxdb",
   "intercom",
@@ -619,6 +620,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "hkulekci/qdrant",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "hostinger/api-php-sdk",
     "0.0.0",
   ],
   [

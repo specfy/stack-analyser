@@ -271,6 +271,7 @@ export type AllowedKeys =
   | 'heroku'
   | 'hetzner'
   | 'hexojs'
+  | 'hostinger'
   | 'hotjar'
   | 'html'
   | 'httpd'

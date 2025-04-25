@@ -155,6 +155,7 @@ exports[`npm > should match everything 1`] = `
   "gridsome",
   "groq",
   "hexojs",
+  "hostinger",
   "hotjar",
   "huggingface",
   "hugo",
@@ -2530,6 +2531,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "hexo",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "hostinger-api-sdk",
     "0.0.0",
   ],
   [
