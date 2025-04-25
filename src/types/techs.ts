@@ -400,6 +400,7 @@ export type AllowedKeys =
   | 'prisma'
   | 'prismacloud'
   | 'prometheus'
+  | 'pulumi'
   | 'puppeteer'
   | 'python'
   | 'pytorch'

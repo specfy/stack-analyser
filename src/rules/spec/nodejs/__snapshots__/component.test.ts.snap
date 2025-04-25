@@ -237,6 +237,7 @@ exports[`npm > should match everything 1`] = `
   "prettier",
   "prisma",
   "prometheus",
+  "pulumi",
   "puppeteer",
   "qdrant",
   "qovery",
@@ -1652,6 +1653,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@pulumi/opsgenie",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@pulumi/pulumi",
     "0.0.0",
   ],
   [

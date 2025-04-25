@@ -15,6 +15,7 @@ import './liquibase.js';
 import './mailhog.js';
 import './mongoexpress.js';
 import './playwright.js';
+import './pulumi.js';
 import './pytorch.js';
 import './selenium.js';
 import './sonarlint.js';

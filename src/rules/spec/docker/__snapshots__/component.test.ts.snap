@@ -53,6 +53,7 @@ exports[`docker > should match everything 1`] = `
   "hashicorp_vault",
   "httpd",
   "hugo",
+  "infisical",
   "influxdb",
   "jenkins",
   "joomla",
@@ -663,6 +664,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "hugomods/hugo",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "infisical/infisical",
     "0.0.0",
   ],
   [
