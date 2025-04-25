@@ -377,6 +377,7 @@ export type AllowedKeys =
   | 'phppest'
   | 'phpstan'
   | 'phpunit'
+  | 'pinecone'
   | 'pingdom'
   | 'pirschanalytics'
   | 'placekit'

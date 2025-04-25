@@ -5,6 +5,7 @@ register({
   name: 'Salesforce',
   type: 'saas',
   dependencies: [
+    { type: 'terraform', name: 'registry.terraform.io/hashicorp/salesforce' },
     {
       type: 'npm',
       name: /^@salesforce\//,

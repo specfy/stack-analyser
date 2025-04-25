@@ -24,6 +24,7 @@ exports[`python (lockfile) > should match everything 1`] = `
   "novu",
   "openai",
   "paddle",
+  "pinecone",
   "python",
   "qdrant",
   "supabase",
@@ -161,6 +162,11 @@ exports[`python (lockfile) > should match everything 2`] = `
   [
     "python",
     "paddle-python-sdk",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "pinecone",
     "1.0.0",
   ],
   [

@@ -7,5 +7,6 @@ register({
   dependencies: [
     { type: 'docker', name: 'timescale/timescaledb-ha' },
     { type: 'docker', name: 'timescale/timescaledb' },
+    { type: 'terraform', name: 'registry.terraform.io/timescale/timescale' },
   ],
 });

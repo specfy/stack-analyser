@@ -84,6 +84,7 @@ exports[`rust (component) > should match everything 1`] = `
   "okta",
   "pagerduty",
   "paypal",
+  "pinecone",
   "postgresql",
   "posthog",
   "prometheus",
@@ -565,6 +566,11 @@ exports[`rust (component) > should match everything 2`] = `
   [
     "rust",
     "paypal-rs",
+    "1.0.0",
+  ],
+  [
+    "rust",
+    "pinecone-sdk",
     "1.0.0",
   ],
   [

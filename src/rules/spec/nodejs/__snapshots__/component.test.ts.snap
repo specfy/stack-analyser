@@ -222,6 +222,7 @@ exports[`npm > should match everything 1`] = `
   "paypal",
   "perplexityai",
   "phaserjs",
+  "pinecone",
   "pirschanalytics",
   "placekit",
   "playwright",
@@ -1619,6 +1620,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@paypal/paypal-js",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@pinecone-database/pinecone",
     "0.0.0",
   ],
   [

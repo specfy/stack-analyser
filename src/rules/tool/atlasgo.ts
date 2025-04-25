@@ -11,5 +11,6 @@ register({
     { type: 'githubAction', name: 'ariga/atlas-action/migrate/lint' },
     { type: 'githubAction', name: 'ariga/atlas-action/migrate/push' },
     { type: 'githubAction', name: 'ariga/atlas-action/migrate/apply' },
+    { type: 'terraform', name: 'registry.terraform.io/ariga/atlas' },
   ],
 });

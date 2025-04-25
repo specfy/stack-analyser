@@ -353,6 +353,7 @@ exports[`all > should match everything 1`] = `
   "phppest",
   "phpstan",
   "phpunit",
+  "pinecone",
   "pingdom",
   "pirschanalytics",
   "placekit",

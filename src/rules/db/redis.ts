@@ -18,5 +18,6 @@ register({
     { type: 'php', name: 'predis/predis' },
     { type: 'php', name: 'snc/redis-bundle' },
     { type: 'php', name: 'colinmollenhour/cache-backend-redis' },
+    { type: 'terraform', name: 'registry.terraform.io/RedisLabs/rediscloud' },
   ],
 });

@@ -56,6 +56,7 @@ import './neondb.js';
 import './oceanbase.js';
 import './ovh.database.js';
 import './percona.js';
+import './pinecone.js';
 import './planetscale.js';
 import './postgres.js';
 import './qdrant.js';
