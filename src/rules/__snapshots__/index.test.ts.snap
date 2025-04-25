@@ -303,6 +303,7 @@ exports[`all > should match everything 1`] = `
   "meilisearch",
   "meilisearchcloud",
   "memcached",
+  "metabase",
   "meteorjs",
   "milvusdb",
   "mintlify",

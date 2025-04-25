@@ -36,6 +36,7 @@ import './launchdarkly.js';
 import './linear.js';
 import './logrocket.js';
 import './mattermost.js';
+import './metabase.js';
 import './notion.js';
 import './optimizely.js';
 import './pagerduty.js';

@@ -327,6 +327,7 @@ export type AllowedKeys =
   | 'meilisearch'
   | 'meilisearchcloud'
   | 'memcached'
+  | 'metabase'
   | 'meteorjs'
   | 'milvusdb'
   | 'mintlify'

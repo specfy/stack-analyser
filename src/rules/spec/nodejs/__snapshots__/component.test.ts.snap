@@ -189,6 +189,7 @@ exports[`npm > should match everything 1`] = `
   "mattermost",
   "meilisearch",
   "memcached",
+  "metabase",
   "meteorjs",
   "milvusdb",
   "mintlify",
@@ -1381,6 +1382,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@meilisearch/instant-meilisearch",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@metabase/embedding-sdk-react",
     "0.0.0",
   ],
   [

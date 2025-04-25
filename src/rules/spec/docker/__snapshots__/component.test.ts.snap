@@ -68,6 +68,7 @@ exports[`docker > should match everything 1`] = `
   "matomo",
   "meilisearch",
   "memcached",
+  "metabase",
   "milvusdb",
   "mongodb",
   "mongoexpress",
@@ -761,6 +762,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "memcached",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "metabase/metabase",
     "0.0.0",
   ],
   [
