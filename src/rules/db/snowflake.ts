@@ -11,6 +11,7 @@ register({
     },
     { type: 'rust', name: 'snowflake' },
     { type: 'rust', name: 'rs-snowflake' },
+    { type: 'npm', name: '@pulumi/snowflake' },
     { type: 'ruby', name: 'sequel-snowflake' },
   ],
 });

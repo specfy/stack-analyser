@@ -8,6 +8,8 @@ register({
     { type: 'npm', name: 'aws-sdk' },
     { type: 'npm', name: 'aws4fetch' },
     { type: 'npm', name: /^@aws-sdk\//, example: '@aws-sdk/client-' },
+    { type: 'npm', name: '@pulumi/aws' },
+    { type: 'npm', name: '@pulumi/awsx' },
     { type: 'terraform', name: 'registry.terraform.io/hashicorp/aws' },
     { type: 'golang', name: 'github.com/aws/aws-sdk-go' },
     { type: 'golang', name: 'github.com/aws/aws-sdk-go-v2' },

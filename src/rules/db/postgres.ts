@@ -11,6 +11,7 @@ register({
     { type: 'npm', name: '@opentelemetry/instrumentation-pg' },
     { type: 'npm', name: '@mikro-orm/postgresql' },
     { type: 'npm', name: 'pg-connection-string' },
+    { type: 'npm', name: '@pulumi/postgresql' },
     { type: 'docker', name: 'postgres' },
     { type: 'docker', name: 'bitnami/postgresql' },
     { type: 'docker', name: 'circleci/postgres' },

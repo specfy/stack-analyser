@@ -16,5 +16,6 @@ register({
     { type: 'docker', name: 'cimg/azure' },
     { type: 'docker', name: 'webdevops/azure-devops-exporter' },
     { type: 'docker', name: 'webdevops/azure-metrics-exporter' },
+    { type: 'npm', name: '@pulumi/azure' },
   ],
 });

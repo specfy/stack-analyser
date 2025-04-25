@@ -7,6 +7,7 @@ register({
   dependencies: [
     { type: 'npm', name: '@aws-cdk/aws-eks' },
     { type: 'npm', name: '@aws-sdk/client-eks' },
+    { type: 'npm', name: '@pulumi/eks' },
     { type: 'rust', name: 'aws-sdk-eks' },
     { type: 'ruby', name: 'aws-sdk-eks' },
     { type: 'golang', name: 'github.com/aws/aws-sdk-go-v2/service/eks' },

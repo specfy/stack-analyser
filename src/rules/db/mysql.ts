@@ -13,5 +13,6 @@ register({
     { type: 'rust', name: /^mysql/, example: 'mysql_async' },
     { type: 'ruby', name: 'ruby-mysql' },
     { type: 'ruby', name: 'mysql2' },
+    { type: 'npm', name: '@pulumi/mysql' },
   ],
 });

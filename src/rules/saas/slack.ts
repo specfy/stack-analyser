@@ -17,5 +17,6 @@ register({
     { type: 'php', name: 'alek13/slack' },
     { type: 'golang', name: 'github.com/slack-go/slack' },
     { type: 'docker', name: 'kasmweb/slack' },
+    { type: 'npm', name: '@pulumi/slack' },
   ],
 });

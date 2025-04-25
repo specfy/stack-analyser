@@ -7,5 +7,8 @@ register({
   type: 'tool',
   files: ['.dockerignore', 'Dockerfile', 'docker-compose.yml', 'docker-compose.yaml'],
   detect: detectDockerComponent,
-  dependencies: [{ type: 'githubAction', name: 'docker/login-action' }],
+  dependencies: [
+    { type: 'githubAction', name: 'docker/login-action' },
+    { type: 'npm', name: '@pulumi/docker' },
+  ],
 });

@@ -10,6 +10,7 @@ register({
       name: /^@cloudflare\//,
       example: '@cloudflare/kv-asset-handler',
     },
+    { type: 'npm', name: '@pulumi/cloudflare' },
     { type: 'terraform', name: 'registry.terraform.io/cloudflare/cloudflare' },
     { type: 'rust', name: 'cloudflare' },
     { type: 'ruby', name: 'cloudflare-rails' },

@@ -6,6 +6,7 @@ register({
   type: 'auth',
   dependencies: [
     { type: 'npm', name: 'auth0' },
+    { type: 'npm', name: '@pulumi/auth0' },
     { type: 'npm', name: /^@auth0\//, example: '@auth0/auth0-react' },
     { type: 'terraform', name: 'registry.terraform.io/auth0/auth0' },
     { type: 'rust', name: 'auth0' },

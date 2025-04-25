@@ -5,8 +5,9 @@ register({
   name: 'MongoDB',
   type: 'db',
   dependencies: [
+    { type: 'npm', name: 'mongodb' },
     { type: 'npm', name: /mongoose/, example: 'mongoose' },
-    { type: 'npm', name: /mongodb/, example: '@mikro-orm/mongodb' },
+    { type: 'npm', name: '@mikro-orm/mongodb', example: '@mikro-orm/mongodb' },
     { type: 'npm', name: '@opentelemetry/instrumentation-mongodb' },
     { type: 'npm', name: '@opentelemetry/instrumentation-mongoose' },
     { type: 'docker', name: 'mongo' },

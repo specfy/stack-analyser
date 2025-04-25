@@ -11,5 +11,6 @@ register({
     { type: 'terraform', name: 'registry.terraform.io/integrations/github' },
     { type: 'ruby', name: 'octokit' },
     { type: 'php', name: 'knplabs/github-api' },
+    { type: 'npm', name: '@pulumi/github' },
   ],
 });

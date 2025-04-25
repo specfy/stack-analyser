@@ -11,5 +11,6 @@ register({
     { type: 'php', name: 'google/cloud' },
     { type: 'githubAction', name: 'google-github-actions/auth' },
     { type: 'githubAction', name: 'google-github-actions/setup-gcloud' },
+    { type: 'npm', name: '@pulumi/gcp' },
   ],
 });

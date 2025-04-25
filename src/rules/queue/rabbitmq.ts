@@ -11,5 +11,6 @@ register({
     { type: 'rust', name: 'rabbitmq-stream-client' },
     { type: 'ruby', name: 'bunny' },
     { type: 'php', name: 'php-amqplib/php-amqplib' },
+    { type: 'npm', name: '@pulumi/rabbitmq' },
   ],
 });

@@ -14,5 +14,6 @@ register({
     { type: 'githubAction', name: 'azure/k8s-set-context' },
     { type: 'githubAction', name: 'azure/k8s-deploy' },
     { type: 'githubAction', name: 'azure/k8s-create-secret' },
+    { type: 'npm', name: '@pulumi/kubernetes' },
   ],
 });

@@ -10,5 +10,6 @@ register({
     { type: 'ruby', name: 'newrelic_rpm' },
     { type: 'php', name: 'ekino/newrelic-bundle' },
     { type: 'php', name: 'intouch/newrelic' },
+    { type: 'npm', name: '@pulumi/newrelic' },
   ],
 });

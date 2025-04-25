@@ -5,6 +5,7 @@ register({
   name: 'Vault',
   type: 'db',
   dependencies: [
+    { type: 'npm', name: '@pulumi/vault' },
     { type: 'docker', name: 'vault' },
     { type: 'terraform', name: 'registry.terraform.io/hashicorp/vault' },
     { type: 'rust', name: 'hashicorp_vault' },

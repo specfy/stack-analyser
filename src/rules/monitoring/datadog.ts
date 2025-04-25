@@ -8,6 +8,7 @@ register({
     { type: 'npm', name: /^@datadog\//, example: '@datadog/cli' },
     { type: 'npm', name: 'dd-trace' },
     { type: 'npm', name: 'datadog-metrics' },
+    { type: 'npm', name: '@pulumi/datadog' },
     { type: 'terraform', name: 'registry.terraform.io/datadog/datadog' },
     {
       type: 'terraform.resource',

@@ -10,5 +10,6 @@ register({
     { type: 'rust', name: 'pagerduty-rs' },
     { type: 'ruby', name: 'pagerduty' },
     { type: 'php', name: 'adilbaig/pagerduty' },
+    { type: 'npm', name: '@pulumi/pagerduty' },
   ],
 });

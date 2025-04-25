@@ -11,5 +11,6 @@ register({
     },
     { type: 'githubAction', name: 'digitalocean/app_action' },
     { type: 'githubAction', name: 'digitalocean/action-doctl' },
+    { type: 'npm', name: '@pulumi/digitalocean' },
   ],
 });
