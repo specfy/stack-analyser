@@ -122,6 +122,7 @@ exports[`docker > should match everything 1`] = `
   "timescaledb",
   "traefik",
   "trufflesecurity",
+  "twentycrm",
   "typesense",
   "uptimekuma",
   "vale",
@@ -1267,6 +1268,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "trufflesecurity/trufflehog",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "twentycrm/twenty",
     "0.0.0",
   ],
   [

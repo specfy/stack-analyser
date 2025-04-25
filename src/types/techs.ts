@@ -510,6 +510,7 @@ export type AllowedKeys =
   | 'trufflesecurity'
   | 'turborepo'
   | 'tursodb'
+  | 'twentycrm'
   | 'twigphp'
   | 'twilio'
   | 'twitter'

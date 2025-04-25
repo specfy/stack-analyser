@@ -60,6 +60,7 @@ import './squareup.js';
 import './stripe.js';
 import './tailscale.js';
 import './telegram.js';
+import './twentycrm.js';
 import './twitter.js';
 import './veriff.js';
 import './vialink.js';
