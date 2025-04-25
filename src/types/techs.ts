@@ -119,6 +119,7 @@ export type AllowedKeys =
   | 'azure.storage'
   | 'azure'
   | 'bash'
+  | 'betterauth'
   | 'betterstack'
   | 'bigcommerce'
   | 'blackfire'

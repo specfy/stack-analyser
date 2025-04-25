@@ -74,6 +74,7 @@ exports[`npm > should match everything 1`] = `
   "azure.sql",
   "azure.staticwebapps",
   "azure.storage",
+  "betterauth",
   "betterstack",
   "bigcommerce",
   "blitzjs",
@@ -911,6 +912,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@azure/storage-queue",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@better-auth/cli",
     "0.0.0",
   ],
   [
@@ -2141,6 +2147,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "babel-jest",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "better-auth",
     "0.0.0",
   ],
   [

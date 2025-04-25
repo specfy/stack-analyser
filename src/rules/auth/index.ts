@@ -1,4 +1,5 @@
 import './auth0.js';
+import './betterauth.js';
 import './clerk.js';
 import './okta.js';
 import './supabase.auth.js';
