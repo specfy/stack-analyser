@@ -11,5 +11,6 @@ import './javascript.js';
 import './react.js';
 import './scss.js';
 import './sveltejs.js';
+import './swift.js';
 import './typescript.js';
 import './vue.js';
