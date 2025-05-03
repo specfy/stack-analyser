@@ -1,3 +1,21 @@
+## [1.12.1](https://github.com/specfy/stack-analyser/compare/v1.12.0...v1.12.1) (2025-05-03)
+
+
+### Bug Fixes
+
+* **rules:** add Akamai ([abfd53e](https://github.com/specfy/stack-analyser/commit/abfd53eaed17cf3f237e6ee8c53da76efd3d56a2))
+* **rules:** add Betterauth ([df6b4ec](https://github.com/specfy/stack-analyser/commit/df6b4ec6322b8d987d0986bea0d24003d9d8de65))
+* **rules:** add Hetzner ([842b5a7](https://github.com/specfy/stack-analyser/commit/842b5a7ae06a0b67746acc6528a50b12c57f8477))
+* **rules:** add Hostinger ([013fbee](https://github.com/specfy/stack-analyser/commit/013fbeeb7728e95866afe2bcdcffa636eb6bdb70))
+* **rules:** add Inngest ([85c1642](https://github.com/specfy/stack-analyser/commit/85c16424f41db38e992150adc820358d0fc40d01))
+* **rules:** add Logto.io ([20ee2d8](https://github.com/specfy/stack-analyser/commit/20ee2d80d39b8ca39d17115b451f03bd6079d68e))
+* **rules:** add Metabase ([4d8661f](https://github.com/specfy/stack-analyser/commit/4d8661f5d1aca1b73d02c6e7ed129b24c3b385af))
+* **rules:** add more match for pulumi ([fddf321](https://github.com/specfy/stack-analyser/commit/fddf321838d57b4d1acb0176df5d1149fb4d601b))
+* **rules:** add pinecone and other terraform resource ([48d9f59](https://github.com/specfy/stack-analyser/commit/48d9f59da69791b0dcbe369e54b064280bc4e8cd))
+* **rules:** add Pulumi ([eda5db6](https://github.com/specfy/stack-analyser/commit/eda5db64fc647e9e46440dee0c8d9e0cdd55f6cc))
+* **rules:** add Swift ([34af37c](https://github.com/specfy/stack-analyser/commit/34af37c852a626e68b5e042c30200f95024ea48c))
+* **rules:** add Twenty CRm ([fb66f90](https://github.com/specfy/stack-analyser/commit/fb66f9097706542b6a225be2e0e75328e8d908e4))
+
 # [1.12.0](https://github.com/specfy/stack-analyser/compare/v1.11.0...v1.12.0) (2025-04-24)
 
 
