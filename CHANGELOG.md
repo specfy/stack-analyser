@@ -1,3 +1,21 @@
+# [1.13.0](https://github.com/specfy/stack-analyser/compare/v1.12.1...v1.13.0) (2025-05-05)
+
+
+### Bug Fixes
+
+* **rules:** add AWS Code Pipeline ([f9684ad](https://github.com/specfy/stack-analyser/commit/f9684ad27b9b307a902a46e6d4d3b4f1018ea033))
+* **rules:** add Biomejs ([e6a5697](https://github.com/specfy/stack-analyser/commit/e6a56979d8ed50d338606ec5921569c818742c4d))
+* **rules:** add Bitbucket Pipelines ([ea49fbf](https://github.com/specfy/stack-analyser/commit/ea49fbff05eb40fd42d0e0a2d8cdddf8ede4a95e))
+* **rules:** add Concourse CI ([05c053e](https://github.com/specfy/stack-analyser/commit/05c053e4d0b2abab817ddf053677d685339e0994))
+* **rules:** add ReadTheDocs ([ec611fb](https://github.com/specfy/stack-analyser/commit/ec611fbb144fc9a3281852461da4f84b8646ade8))
+* **rules:** add Stytch ([ef3da2d](https://github.com/specfy/stack-analyser/commit/ef3da2dbaa32fb506500ccc8844e384d4d1855f0))
+
+
+### Features
+
+* **rules:** add category Linter and move some inside ([6576c9e](https://github.com/specfy/stack-analyser/commit/6576c9ecaedbdb6bee43dabec0b47c45f0e81aaf))
+* **rules:** move depotdev, codebuild, cloudbuild to CI category ([91fd245](https://github.com/specfy/stack-analyser/commit/91fd24570508b0a38758555fbc81977368aeb2d9))
+
 ## [1.12.1](https://github.com/specfy/stack-analyser/compare/v1.12.0...v1.12.1) (2025-05-03)
 
 
