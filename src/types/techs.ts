@@ -74,6 +74,7 @@ export type AllowedKeys =
   | 'aws.cloudwatch'
   | 'aws.codebuild'
   | 'aws.codepipeline'
+  | 'aws.cognito'
   | 'aws.documentdb'
   | 'aws.dynamodb'
   | 'aws.ebs'

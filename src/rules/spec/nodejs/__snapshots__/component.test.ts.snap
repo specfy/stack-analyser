@@ -32,6 +32,7 @@ exports[`npm > should match everything 1`] = `
   "aws.cloudsearch",
   "aws.cloudwatch",
   "aws.codebuild",
+  "aws.cognito",
   "aws.documentdb",
   "aws.dynamodb",
   "aws.ebs",
@@ -700,6 +701,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@aws-sdk/client-codebuild",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@aws-sdk/client-cognito-identity-provider",
     "0.0.0",
   ],
   [

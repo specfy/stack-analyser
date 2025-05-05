@@ -1,4 +1,5 @@
 import './auth0.js';
+import './aws.cognito.js';
 import './betterauth.js';
 import './clerk.js';
 import './frontegg.js';

@@ -10,6 +10,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "aws.cloudfront",
   "aws.cloudsearch",
   "aws.cloudwatch",
+  "aws.cognito",
   "aws.documentdb",
   "aws.dynamodb",
   "aws.ebs",
@@ -373,6 +374,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/aws/aws-sdk-go-v2/service/codebuild",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/aws/aws-sdk-go-v2/service/cognitoidentityprovider",
     "v1.0.0",
   ],
   [
