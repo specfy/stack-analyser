@@ -178,6 +178,7 @@ exports[`npm > should match everything 1`] = `
   "jest",
   "k6",
   "kentico",
+  "kinde",
   "koa",
   "koalaanalytics",
   "koyeb",
@@ -1339,6 +1340,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@kentico/xperience-admin-components",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@kinde-oss/kinde-typescript-sdk",
     "0.0.0",
   ],
   [

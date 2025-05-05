@@ -87,6 +87,7 @@ exports[`php > should match everything 1`] = `
   "influxdb",
   "intercom",
   "joomla",
+  "kinde",
   "klaviyo",
   "kubernetes",
   "laravel",
@@ -687,6 +688,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "joomla/application",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "kinde-oss/kinde-auth-php",
     "0.0.0",
   ],
   [

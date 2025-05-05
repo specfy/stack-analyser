@@ -108,6 +108,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "influxdb",
   "intercom",
   "kentico",
+  "kinde",
   "kubernetes",
   "lago",
   "launchdarkly",
@@ -832,6 +833,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "jira-ruby",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "kinde_sdk",
     "1.0.0",
   ],
   [

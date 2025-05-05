@@ -305,6 +305,7 @@ export type AllowedKeys =
   | 'k6'
   | 'kentico'
   | 'kibana'
+  | 'kinde'
   | 'klarna'
   | 'klaviyo'
   | 'koa'

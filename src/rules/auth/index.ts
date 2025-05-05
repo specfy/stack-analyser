@@ -5,6 +5,7 @@ import './clerk.js';
 import './frontegg.js';
 import './fusionauth.js';
 import './hanko.js';
+import './kinde.js';
 import './logto.js';
 import './okta.js';
 import './orysh.js';
