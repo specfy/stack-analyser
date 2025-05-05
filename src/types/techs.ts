@@ -418,6 +418,7 @@ export type AllowedKeys =
   | 'railway'
   | 'react'
   | 'reactemail'
+  | 'readthedocs'
   | 'redis'
   | 'redwoodjs'
   | 'refinedev'

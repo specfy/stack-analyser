@@ -393,6 +393,7 @@ exports[`all > should match everything 1`] = `
   "railway.redis",
   "react",
   "reactemail",
+  "readthedocs",
   "redis",
   "redwoodjs",
   "refinedev",

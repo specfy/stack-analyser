@@ -28,6 +28,7 @@ import './nuxtjs.js';
 import './payloadcms.js';
 import './phaserjs.js';
 import './prestashop.js';
+import './readthedocs.js';
 import './redwoodjs.js';
 import './refinedev.js';
 import './remixrun.js';

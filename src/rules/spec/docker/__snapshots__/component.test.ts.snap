@@ -97,6 +97,7 @@ exports[`docker > should match everything 1`] = `
   "qovery",
   "questdb",
   "rabbitmq",
+  "readthedocs",
   "redis",
   "rethinkdb",
   "ruby",
@@ -1034,6 +1035,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "rapidfort/mongodb",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "readthedocs/build",
     "0.0.0",
   ],
   [
