@@ -158,6 +158,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "sqreen",
   "stripe",
   "stytch",
+  "swifttype",
   "telegram",
   "twilio",
   "typesense",
@@ -1219,6 +1220,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "sib-api-v3-sdk",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "site-search-ruby",
     "1.0.0",
   ],
   [

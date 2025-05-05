@@ -9,5 +9,6 @@ register({
     { type: 'npm', name: '@neondatabase/api-client' },
     { type: 'npm', name: '@prisma/adapter-neon' },
     { type: 'docker', name: 'neondatabase/neon' },
+    { type: 'python', name: 'neon-api' },
   ],
 });

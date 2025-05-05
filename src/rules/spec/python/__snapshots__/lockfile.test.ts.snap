@@ -25,6 +25,7 @@ exports[`python (lockfile) > should match everything 1`] = `
   "milvusdb",
   "mistralai",
   "mixpanel",
+  "neondb",
   "novu",
   "openai",
   "paddle",
@@ -34,6 +35,7 @@ exports[`python (lockfile) > should match everything 1`] = `
   "stytch",
   "supabase",
   "supertokens",
+  "swifttype",
   "workos",
 ]
 `;
@@ -93,6 +95,11 @@ exports[`python (lockfile) > should match everything 2`] = `
   [
     "python",
     "django-workos",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "elastic-site-search",
     "1.0.0",
   ],
   [
@@ -173,6 +180,11 @@ exports[`python (lockfile) > should match everything 2`] = `
   [
     "python",
     "mixpanel",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "neon-api",
     "1.0.0",
   ],
   [

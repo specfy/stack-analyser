@@ -503,6 +503,7 @@ export type AllowedKeys =
   | 'surrealdb'
   | 'sveltejs'
   | 'swift'
+  | 'swifttype'
   | 'symfony'
   | 'tailscale'
   | 'tailwind'

@@ -308,6 +308,7 @@ exports[`npm > should match everything 1`] = `
   "supertokens",
   "surrealdb",
   "sveltejs",
+  "swifttype",
   "tailscale",
   "tailwind",
   "tanstackstart",
@@ -1081,6 +1082,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@elastic/elasticsearch",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@elastic/site-search-node",
     "0.0.0",
   ],
   [
