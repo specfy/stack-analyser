@@ -10,4 +10,5 @@ import './okta.js';
 import './orysh.js';
 import './stytch.js';
 import './supabase.auth.js';
+import './supertokens.js';
 import './workos.js';

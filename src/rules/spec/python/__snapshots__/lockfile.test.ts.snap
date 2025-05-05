@@ -32,6 +32,7 @@ exports[`python (lockfile) > should match everything 1`] = `
   "qdrant",
   "stytch",
   "supabase",
+  "supertokens",
   "workos",
 ]
 `;
@@ -226,6 +227,11 @@ exports[`python (lockfile) > should match everything 2`] = `
   [
     "python",
     "supabase",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "supertokens_python",
     "1.0.0",
   ],
   [

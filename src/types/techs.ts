@@ -498,6 +498,7 @@ export type AllowedKeys =
   | 'supabase.realtime'
   | 'supabase.storage'
   | 'supabase'
+  | 'supertokens'
   | 'surrealdb'
   | 'sveltejs'
   | 'swift'

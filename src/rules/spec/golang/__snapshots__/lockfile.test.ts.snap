@@ -121,6 +121,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "splitio",
   "stripe",
   "stytch",
+  "supertokens",
   "tdengine",
   "telegram",
   "twilio",
@@ -805,6 +806,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/stytchauth/stytch-go/v16",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/supertokens/supertokens-golang",
     "v1.0.0",
   ],
   [

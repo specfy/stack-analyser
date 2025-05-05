@@ -472,6 +472,7 @@ exports[`all > should match everything 1`] = `
   "supabase.postgres",
   "supabase.realtime",
   "supabase.storage",
+  "supertokens",
   "surrealdb",
   "sveltejs",
   "swift",
