@@ -136,6 +136,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "papertrail",
   "paypal",
   "pirschanalytics",
+  "plausible",
   "postgresql",
   "posthog",
   "postmark",
@@ -1073,6 +1074,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "platform-api",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "plausible_api",
     "1.0.0",
   ],
   [

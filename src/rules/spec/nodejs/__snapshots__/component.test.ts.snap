@@ -240,6 +240,7 @@ exports[`npm > should match everything 1`] = `
   "pinecone",
   "pirschanalytics",
   "placekit",
+  "plausible",
   "playwright",
   "pnpm",
   "postgresql",
@@ -3150,6 +3151,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "pirsch-sdk",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "plausible-tracker",
     "0.0.0",
   ],
   [

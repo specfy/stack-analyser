@@ -109,6 +109,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "paypal",
   "pinecone",
   "pirschanalytics",
+  "plausible",
   "posthog",
   "prometheus",
   "qdrant",
@@ -326,6 +327,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/PaddleHQ/paddle-go-sdk",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/andrerfcsantos/go-plausible/plausible",
     "v1.0.0",
   ],
   [

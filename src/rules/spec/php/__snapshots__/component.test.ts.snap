@@ -120,6 +120,7 @@ exports[`php > should match everything 1`] = `
   "phpstan",
   "phpunit",
   "pirschanalytics",
+  "plausible",
   "postgresql",
   "posthog",
   "postmark",
@@ -1032,6 +1033,11 @@ exports[`php > should match everything 2`] = `
   ],
   [
     "php",
+    "prestashop_plausible",
+    "0.0.0",
+  ],
+  [
+    "php",
     "promphp/prometheus_client_php",
     "0.0.0",
   ],
@@ -1243,6 +1249,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "unicodeveloper/novu",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "vincentbean/laravel-plausible",
     "0.0.0",
   ],
   [
