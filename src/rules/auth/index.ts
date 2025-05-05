@@ -1,6 +1,7 @@
 import './auth0.js';
 import './betterauth.js';
 import './clerk.js';
+import './frontegg.js';
 import './logto.js';
 import './okta.js';
 import './stytch.js';

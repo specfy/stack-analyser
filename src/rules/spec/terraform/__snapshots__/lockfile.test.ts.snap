@@ -24,6 +24,7 @@ exports[`terraform (lockfile) > should match everything 1`] = `
   "elasticstack",
   "equinix",
   "flyio",
+  "frontegg",
   "gcp",
   "github",
   "gitlab",

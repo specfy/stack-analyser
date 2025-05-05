@@ -195,6 +195,7 @@ exports[`all > should match everything 1`] = `
   "firecrawl",
   "flyio",
   "flyway",
+  "frontegg",
   "gatsby",
   "gcp",
   "gcp.aiplatform",

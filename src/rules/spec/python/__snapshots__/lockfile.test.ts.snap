@@ -12,6 +12,7 @@ exports[`python (lockfile) > should match everything 1`] = `
   "convexdb",
   "datadog",
   "firecrawl",
+  "frontegg",
   "geminiai",
   "hetzner",
   "hostinger",
@@ -94,6 +95,11 @@ exports[`python (lockfile) > should match everything 2`] = `
   [
     "python",
     "firecrawl-py",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "frontegg",
     "1.0.0",
   ],
   [

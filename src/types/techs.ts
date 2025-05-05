@@ -218,6 +218,7 @@ export type AllowedKeys =
   | 'firecrawl'
   | 'flyio'
   | 'flyway'
+  | 'frontegg'
   | 'gatsby'
   | 'gcp.aiplatform'
   | 'gcp.appengine'

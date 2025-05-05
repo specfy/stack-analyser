@@ -122,6 +122,7 @@ exports[`npm > should match everything 1`] = `
   "fastly",
   "figma",
   "firebase",
+  "frontegg",
   "gatsby",
   "gcp",
   "gcp.aiplatform",
@@ -1083,6 +1084,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@firebase/auth",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@frontegg/js",
     "0.0.0",
   ],
   [
