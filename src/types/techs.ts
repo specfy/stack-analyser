@@ -272,6 +272,7 @@ export type AllowedKeys =
   | 'grafana'
   | 'gridsome'
   | 'groq'
+  | 'hanko'
   | 'haproxy'
   | 'hashicorp_vault'
   | 'healthchecksio'

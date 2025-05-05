@@ -162,6 +162,7 @@ exports[`npm > should match everything 1`] = `
   "gitlab",
   "gridsome",
   "groq",
+  "hanko",
   "hashicorp_vault",
   "hexojs",
   "hostinger",
@@ -1541,6 +1542,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@nuxtjs/hanko",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@octokit/types",
     "0.0.0",
   ],
@@ -2082,6 +2088,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@tdengine/rest",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@teamhanko/hanko-frontend-sdk",
     "0.0.0",
   ],
   [
