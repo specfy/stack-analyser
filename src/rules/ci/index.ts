@@ -9,6 +9,7 @@ import './cloudbees.codeship.js';
 import './codeclimate.js';
 import './codecov.js';
 import './codesandboxci.js';
+import './concourseci.js';
 import './coveralls.js';
 import './cypressci.js';
 import './deepsource.js';

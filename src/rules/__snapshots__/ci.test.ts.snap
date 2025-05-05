@@ -12,6 +12,7 @@ exports[`ci > should match everything 1`] = `
   "codeclimate",
   "codecov",
   "codesandboxci",
+  "concourseci",
   "cypressci",
   "deepsource",
   "dependabot",

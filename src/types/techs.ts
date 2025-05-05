@@ -155,6 +155,7 @@ export type AllowedKeys =
   | 'codesandboxci'
   | 'cohereai'
   | 'commercetools'
+  | 'concourseci'
   | 'consul'
   | 'contenful'
   | 'convexdb'
