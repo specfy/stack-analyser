@@ -342,6 +342,7 @@ exports[`all > should match everything 1`] = `
   "openai",
   "optimizely",
   "oraclecloud",
+  "orysh",
   "ovh",
   "ovh.database",
   "ovh.dedicated",

@@ -4,6 +4,7 @@ import './clerk.js';
 import './frontegg.js';
 import './logto.js';
 import './okta.js';
+import './orysh.js';
 import './stytch.js';
 import './supabase.auth.js';
 import './workos.js';

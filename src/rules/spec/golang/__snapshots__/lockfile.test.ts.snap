@@ -101,6 +101,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "nats",
   "novu",
   "optimizely",
+  "orysh",
   "paddle",
   "papertrail",
   "paypal",
@@ -707,6 +708,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/optimizely/go-sdk",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/ory/client-go",
     "v1.0.0",
   ],
   [

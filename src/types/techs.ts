@@ -367,6 +367,7 @@ export type AllowedKeys =
   | 'openai'
   | 'optimizely'
   | 'oraclecloud'
+  | 'orysh'
   | 'ovh.database'
   | 'ovh.dedicated'
   | 'ovh.kubernetes'

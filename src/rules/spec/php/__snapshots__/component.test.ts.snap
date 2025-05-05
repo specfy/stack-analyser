@@ -107,6 +107,7 @@ exports[`php > should match everything 1`] = `
   "openai",
   "optimizely",
   "oraclecloud",
+  "orysh",
   "ovh",
   "paddle",
   "pagerduty",
@@ -925,6 +926,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "oracle/oci-php-sdk",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "ory/client",
     "0.0.0",
   ],
   [

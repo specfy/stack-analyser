@@ -224,6 +224,7 @@ exports[`npm > should match everything 1`] = `
   "openai",
   "optimizely",
   "oraclecloud",
+  "orysh",
   "ovh",
   "paddle",
   "pagerduty",
@@ -1619,6 +1620,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@optimizely/react-sdk",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@ory/client",
     "0.0.0",
   ],
   [
