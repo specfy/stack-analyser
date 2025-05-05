@@ -28,6 +28,7 @@ exports[`python (lockfile) > should match everything 1`] = `
   "pinecone",
   "python",
   "qdrant",
+  "stytch",
   "supabase",
   "workos",
 ]
@@ -203,6 +204,11 @@ exports[`python (lockfile) > should match everything 2`] = `
   [
     "python",
     "selenium",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "stytch",
     "1.0.0",
   ],
   [

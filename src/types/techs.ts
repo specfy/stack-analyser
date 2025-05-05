@@ -481,6 +481,7 @@ export type AllowedKeys =
   | 'stripe'
   | 'styleci'
   | 'stylelint'
+  | 'stytch'
   | 'supabase.auth'
   | 'supabase.functions'
   | 'supabase.postgres'

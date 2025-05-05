@@ -290,6 +290,7 @@ exports[`npm > should match everything 1`] = `
   "storybook",
   "strapi",
   "stripe",
+  "stytch",
   "supabase",
   "supabase.auth",
   "supabase.functions",
@@ -1990,6 +1991,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@stytch/vanilla-js",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@supabase/functions-js",
     "0.0.0",
   ],
@@ -3356,6 +3362,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "stripe",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "stytch",
     "0.0.0",
   ],
   [

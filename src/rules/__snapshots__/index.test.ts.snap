@@ -456,6 +456,7 @@ exports[`all > should match everything 1`] = `
   "stripe",
   "styleci",
   "stylelint",
+  "stytch",
   "supabase",
   "supabase.auth",
   "supabase.functions",

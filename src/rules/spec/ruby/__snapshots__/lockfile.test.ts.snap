@@ -155,6 +155,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "sqlite",
   "sqreen",
   "stripe",
+  "stytch",
   "telegram",
   "twilio",
   "typesense",
@@ -1231,6 +1232,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "stripe_event",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "stytch",
     "1.0.0",
   ],
   [
