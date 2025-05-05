@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'golangcilint',
   name: 'GolangCI Lint',
-  type: 'tool',
+  type: 'linter',
   files: ['.golangcit.yml'],
   dependencies: [
     { type: 'golang', name: 'github.com/golangci/golangci-lint' },

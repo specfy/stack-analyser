@@ -77,7 +77,6 @@ exports[`ruby (component) > should match everything 1`] = `
   "gcp.artifactregistry",
   "gcp.bigquery",
   "gcp.bigtable",
-  "gcp.cloudbuild",
   "gcp.cloudrun",
   "gcp.dataflow",
   "gcp.dataproc",

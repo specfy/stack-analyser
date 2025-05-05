@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'eslint',
   name: 'Eslint',
-  type: 'tool',
+  type: 'linter',
   files: [
     '.eslintrc',
     '.eslintrc.cjs',

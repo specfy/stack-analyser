@@ -11,6 +11,7 @@ import './framework/index.js';
 import './hosting/index.js';
 import './js/index.js';
 import './language/index.js';
+import './linter/index.js';
 import './notification/index.js';
 import './monitoring/index.js';
 import './network/index.js';

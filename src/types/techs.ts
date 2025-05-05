@@ -11,6 +11,7 @@ export type TechType =
   | 'framework'
   | 'hosting'
   | 'language'
+  | 'linter'
   | 'messaging' // @deprecated
   | 'monitoring'
   | 'network'

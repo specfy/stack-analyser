@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'sonarlint',
   name: 'SonarLint',
-  type: 'tool',
+  type: 'linter',
   files: ['.sonarlint'],
   dependencies: [],
 });
