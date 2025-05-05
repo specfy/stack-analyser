@@ -1,3 +1,18 @@
+## [1.13.1](https://github.com/specfy/stack-analyser/compare/v1.13.0...v1.13.1) (2025-05-05)
+
+
+### Bug Fixes
+
+* add more package for plausible ([5153e3f](https://github.com/specfy/stack-analyser/commit/5153e3f6e1b188f6e1b3c83857c18bd00b2d0c3e))
+* **rules:** add AWS Cognito ([7e869ed](https://github.com/specfy/stack-analyser/commit/7e869eddf0553c08166d0b10474d281a9bfe864d))
+* **rules:** add Frontegg ([49e3f97](https://github.com/specfy/stack-analyser/commit/49e3f970b893a20354a4c30ce0352cf3f70dd6cd))
+* **rules:** add Fusionauth ([965eed6](https://github.com/specfy/stack-analyser/commit/965eed6bc58aa6776f4278ca82c766b718babe5e))
+* **rules:** add Hanko ([ec0c2ca](https://github.com/specfy/stack-analyser/commit/ec0c2ca751daf9d570dba7f3aeb69dc454f0b1ba))
+* **rules:** add Kinde ([5eb36dc](https://github.com/specfy/stack-analyser/commit/5eb36dcb45e8308bcd33f96976f56a405cc60512))
+* **rules:** add Ory.sh ([d3166ae](https://github.com/specfy/stack-analyser/commit/d3166ae31a82d4bb07a0431decb7714f353fee87))
+* **rules:** add SuperTokens ([bf1b937](https://github.com/specfy/stack-analyser/commit/bf1b9371256ed0683d226bb2ebd95937959e0f12))
+* **rules:** add Swifttype ([f7fc81f](https://github.com/specfy/stack-analyser/commit/f7fc81fbb7921eda16cf0eeff8c4d73704c2f4d2))
+
 # [1.13.0](https://github.com/specfy/stack-analyser/compare/v1.12.1...v1.13.0) (2025-05-05)
 
 
