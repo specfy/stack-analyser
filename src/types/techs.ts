@@ -56,6 +56,7 @@ export type AllowedKeys =
   | 'astro'
   | 'atlasgo'
   | 'atlassian.bitbucket'
+  | 'atlassian.bitbucketpipelines'
   | 'atlassian.confluence'
   | 'atlassian.jira'
   | 'atlassian.opsgenie'

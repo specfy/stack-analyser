@@ -35,6 +35,7 @@ exports[`all > should match everything 1`] = `
   "atlasgo",
   "atlassian",
   "atlassian.bitbucket",
+  "atlassian.bitbucketpipelines",
   "atlassian.confluence",
   "atlassian.jira",
   "atlassian.opsgenie",

@@ -3,6 +3,7 @@
 exports[`ci > should match everything 1`] = `
 [
   "appveyor",
+  "atlassian.bitbucketpipelines",
   "azure.ci",
   "browserstack",
   "circleci",

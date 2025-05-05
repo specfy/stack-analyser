@@ -1,4 +1,5 @@
 import './appveyor.js';
+import './atlassian.bitbucketpipelines.js';
 import './azure.ci.js';
 import './browserstack.js';
 import './circleci.js';
