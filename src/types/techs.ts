@@ -126,6 +126,7 @@ export type AllowedKeys =
   | 'betterauth'
   | 'betterstack'
   | 'bigcommerce'
+  | 'biomejs'
   | 'blackfire'
   | 'blitzjs'
   | 'bootstrap'

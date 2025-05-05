@@ -1,3 +1,4 @@
+import './biomejs.js';
 import './eslint.js';
 import './golangcilint.js';
 import './phpstan.js';

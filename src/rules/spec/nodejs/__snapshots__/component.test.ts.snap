@@ -79,6 +79,7 @@ exports[`npm > should match everything 1`] = `
   "betterauth",
   "betterstack",
   "bigcommerce",
+  "biomejs",
   "blitzjs",
   "bootstrap",
   "brevo",
@@ -937,6 +938,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@bigcommerce/checkout-sdk",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@biomejs/biome",
     "0.0.0",
   ],
   [

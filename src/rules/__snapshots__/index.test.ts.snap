@@ -103,6 +103,7 @@ exports[`all > should match everything 1`] = `
   "betterauth",
   "betterstack",
   "bigcommerce",
+  "biomejs",
   "blackfire",
   "blitzjs",
   "bootstrap",
