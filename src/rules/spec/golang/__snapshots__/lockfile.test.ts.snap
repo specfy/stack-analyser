@@ -57,6 +57,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "cohereai",
   "elasticsearch",
   "firecrawl",
+  "fusionauth",
   "gcp",
   "gcp.aiplatform",
   "gcp.appengine",
@@ -304,6 +305,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/ClickHouse/clickhouse-go",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/FusionAuth/go-client/pkg/fusionauth",
     "v1.0.0",
   ],
   [

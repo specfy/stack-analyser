@@ -13,6 +13,7 @@ exports[`python (lockfile) > should match everything 1`] = `
   "datadog",
   "firecrawl",
   "frontegg",
+  "fusionauth",
   "geminiai",
   "hetzner",
   "hostinger",
@@ -100,6 +101,11 @@ exports[`python (lockfile) > should match everything 2`] = `
   [
     "python",
     "frontegg",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "fusionauth-client",
     "1.0.0",
   ],
   [

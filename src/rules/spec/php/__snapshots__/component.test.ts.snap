@@ -49,6 +49,7 @@ exports[`php > should match everything 1`] = `
   "firebase",
   "firebase.firestore",
   "firecrawl",
+  "fusionauth",
   "gcp",
   "gcp.aiplatform",
   "gcp.appengine",
@@ -451,6 +452,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "fastly/magento2",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "fusionauth/fusionauth-client",
     "0.0.0",
   ],
   [

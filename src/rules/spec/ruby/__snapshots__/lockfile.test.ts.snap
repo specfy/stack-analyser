@@ -72,6 +72,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "elasticsearch",
   "fastly",
   "firebase",
+  "fusionauth",
   "gcp",
   "gcp.aiplatform",
   "gcp.appengine",
@@ -641,6 +642,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "functions_framework ",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "fusionauth_client",
     "1.0.0",
   ],
   [

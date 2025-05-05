@@ -220,6 +220,7 @@ export type AllowedKeys =
   | 'flyio'
   | 'flyway'
   | 'frontegg'
+  | 'fusionauth'
   | 'gatsby'
   | 'gcp.aiplatform'
   | 'gcp.appengine'
