@@ -51,6 +51,7 @@ exports[`all > should match everything 1`] = `
   "aws.cloudsearch",
   "aws.cloudwatch",
   "aws.codebuild",
+  "aws.codepipeline",
   "aws.documentdb",
   "aws.dynamodb",
   "aws.ebs",
