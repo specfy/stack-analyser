@@ -17,7 +17,6 @@ exports[`ruby (component) > should match everything 1`] = `
   "aws.cloudfront",
   "aws.cloudsearch",
   "aws.cloudwatch",
-  "aws.codebuild",
   "aws.documentdb",
   "aws.dynamodb",
   "aws.ebs",

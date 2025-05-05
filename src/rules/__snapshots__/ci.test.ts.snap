@@ -16,6 +16,7 @@ exports[`ci > should match everything 1`] = `
   "cypressci",
   "deepsource",
   "dependabot",
+  "depotdev",
   "droneci",
   "github.actions",
   "gitlab.ci",

@@ -1,5 +1,4 @@
 import './aws.cloudformation.js';
-import './aws.codebuild.js';
 import './aws.kinesis.js';
 import './aws.kms.js';
 import './aws.polly.js';
@@ -8,7 +7,6 @@ import './aws.sagemaker.js';
 import './aws.sfn.js';
 import './aws.translate.js';
 import './gcp.aiplatform.js';
-import './gcp.cloudbuild.js';
 import './gcp.dialogflow.js';
 import './gcp.kms.js';
 import './gcp.language.js';

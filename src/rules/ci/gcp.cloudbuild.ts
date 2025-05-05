@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'gcp.cloudbuild',
   name: 'Cloud Build',
-  type: 'api',
+  type: 'ci',
   dependencies: [
     { type: 'npm', name: '@google-cloud/cloudbuild' },
     {

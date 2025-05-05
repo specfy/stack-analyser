@@ -1,5 +1,6 @@
 import './appveyor.js';
 import './atlassian.bitbucketpipelines.js';
+import './aws.codebuild.js';
 import './aws.codepipeline.js';
 import './azure.ci.js';
 import './browserstack.js';
@@ -14,7 +15,9 @@ import './coveralls.js';
 import './cypressci.js';
 import './deepsource.js';
 import './dependabot.js';
+import './depotdev.js';
 import './droneci.js';
+import './gcp.cloudbuild.js';
 import './github.codeql.js';
 import './gitlab.ci.js';
 import './jenkins.js';

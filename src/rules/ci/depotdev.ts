@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'depotdev',
   name: 'Depot.dev',
-  type: 'saas',
+  type: 'ci',
   files: ['depot.json'],
   dependencies: [
     { type: 'githubAction', name: 'depot/setup-action' },

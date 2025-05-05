@@ -10,7 +10,6 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "aws.cloudfront",
   "aws.cloudsearch",
   "aws.cloudwatch",
-  "aws.codebuild",
   "aws.documentdb",
   "aws.dynamodb",
   "aws.ebs",
