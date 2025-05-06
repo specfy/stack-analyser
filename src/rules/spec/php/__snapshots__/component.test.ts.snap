@@ -118,6 +118,7 @@ exports[`php > should match everything 1`] = `
   "papertrail",
   "paypal",
   "php",
+  "phpcomposer",
   "phppest",
   "phpstan",
   "phpunit",

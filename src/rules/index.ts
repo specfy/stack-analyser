@@ -18,6 +18,7 @@ import './notification/index.js';
 import './monitoring/index.js';
 import './network/index.js';
 import './payment/index.js';
+import './package_manager/index.js';
 import './php/index.js';
 import './orm/index.js';
 import './queue/index.js';

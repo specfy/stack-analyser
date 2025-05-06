@@ -55,6 +55,7 @@ exports[`rust (component) > should match everything 1`] = `
   "azure.redis",
   "azure.sql",
   "azure.storage",
+  "cargo",
   "cloudflare",
   "convexdb",
   "couchbase",

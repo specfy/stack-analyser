@@ -52,6 +52,7 @@ export const detectPhpComponent: ComponentMatcher = async (files, provider) => {
       folderPath: file.fp,
       dependencies: depsFlatten,
     });
+    pl.addTech('phpcomposer', ['matched file: composer.json']);
     pl.addTechs(techs);
 
     return pl;

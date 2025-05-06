@@ -40,6 +40,7 @@ export const detectRubyLockfile: ComponentMatcher = async (files, provider) => {
     });
 
     pl.addTechs(techs);
+    pl.addTech('bundler', ['matched file: Gemfile']);
     pl.dependencies = depsFlatten;
 
     return pl;

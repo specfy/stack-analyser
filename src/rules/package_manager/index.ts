@@ -1,0 +1,14 @@
+import './asdf.js';
+import './bundler.js';
+import './cargo.js';
+import './goenv.js';
+import './npm.js';
+import './nuget.js';
+import './nvm.js';
+import './phpcomposer.js';
+import './phpenv.js';
+import './pipenv.js';
+import './pnpm.js';
+import './poetry.js';
+import './rubyenv.js';
+import './yarn.js';

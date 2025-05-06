@@ -5,7 +5,7 @@ register({
   tech: 'nodejs',
   name: 'NodeJS',
   type: 'language',
-  files: ['package.json', '.nvmrc'],
+  files: ['package.json'],
   dependencies: [
     { type: 'docker', name: /nodejs/, example: 'nodejs:0.0.0' },
     { type: 'docker', name: 'node' },

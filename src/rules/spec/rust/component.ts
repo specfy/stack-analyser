@@ -84,6 +84,7 @@ export const detectRustComponent: ComponentMatcher = async (files, provider) => 
     });
 
     pl.addTechs(techs);
+    pl.addTech('cargo', ['matched file: Cargo.toml']);
     pl.dependencies = depsFlatten;
 
     return pl;
