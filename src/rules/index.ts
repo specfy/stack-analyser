@@ -17,6 +17,7 @@ import './monitoring/index.js';
 import './network/index.js';
 import './payment/index.js';
 import './php/index.js';
+import './orm/index.js';
 import './queue/index.js';
 import './saas/index.js';
 import './spec/index.js';

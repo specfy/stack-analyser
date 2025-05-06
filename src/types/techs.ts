@@ -16,6 +16,7 @@ export type TechType =
   | 'monitoring'
   | 'network'
   | 'notification'
+  | 'orm'
   | 'payment'
   | 'queue'
   | 'saas'

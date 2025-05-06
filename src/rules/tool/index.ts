@@ -1,5 +1,4 @@
 import './ansible.js';
-import './apiplatform.js';
 import './atlasgo.js';
 import './bytebase.js';
 import './checkov.js';
@@ -8,11 +7,8 @@ import './flyway.js';
 import './gitlab.js';
 import './goacmelego.js';
 import './helm.js';
-import './k6.js';
-import './lighthouse.js';
 import './liquibase.js';
 import './mailhog.js';
-import './mongoexpress.js';
 import './playwright.js';
 import './pulumi.js';
 import './pytorch.js';

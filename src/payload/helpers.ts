@@ -3,7 +3,7 @@ import { Payload } from './index.js';
 
 import type { AllowedKeys } from '../types/techs.js';
 
-const notAComponent = new Set(['ci', 'language', 'tool', 'framework', 'linter', 'test']);
+const notAComponent = new Set(['ci', 'language', 'tool', 'framework', 'linter', 'test', 'orm']);
 
 /**
  * When receive a tech in a component, we can deduct a new Component that was missing

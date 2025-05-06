@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'lighthouse',
   name: 'Lighthouse',
-  type: 'tool',
+  type: 'test',
   dependencies: [
     { type: 'npm', name: 'lighthouse' },
     { type: 'githubAction', name: 'jakejarvis/lighthouse-action' },

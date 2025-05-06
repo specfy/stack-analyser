@@ -1,6 +1,7 @@
 import './alpinejs.js';
 import './angular.js';
 import './apacheThrift.js';
+import './apiplatform.js';
 import './assemble.js';
 import './astro.js';
 import './blitzjs.js';
