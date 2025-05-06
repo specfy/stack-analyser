@@ -1,6 +1,8 @@
 import './adyen.js';
 import './chargebee.js';
 import './intuit.js';
+import './klarna.js';
 import './lemonsqueezy.js';
 import './paddle.js';
 import './paypal.js';
+import './squareup.js';

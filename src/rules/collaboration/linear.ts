@@ -3,6 +3,6 @@ import { register } from '../../register.js';
 register({
   tech: 'linear',
   name: 'Linear',
-  type: 'saas',
+  type: 'collaboration',
   dependencies: [],
 });

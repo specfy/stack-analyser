@@ -4,6 +4,7 @@ import './auth/index.js';
 import './api/index.js';
 import './app/index.js';
 import './ci/index.js';
+import './collaboration/index.js';
 import './cloud/index.js';
 import './db/index.js';
 import './etl/index.js';

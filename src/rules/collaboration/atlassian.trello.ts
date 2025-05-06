@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'atlassian.trello',
   name: 'Atlassian Trello',
-  type: 'saas',
+  type: 'collaboration',
   dependencies: [
     { type: 'npm', name: 'trello' },
     { type: 'npm', name: 'react-trello' },

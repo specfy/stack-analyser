@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'atlassian.jira',
   name: 'Jira',
-  type: 'saas',
+  type: 'collaboration',
   dependencies: [
     { type: 'githubAction', name: 'atlassian/gajira-todo' },
     { type: 'githubAction', name: 'github/ghas-jira-integration' },

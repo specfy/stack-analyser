@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'atlassian.confluence',
   name: 'Confluence',
-  type: 'saas',
+  type: 'collaboration',
   dependencies: [
     { type: 'githubAction', name: 'Bhacaz/docs-as-code-confluence' },
     { type: 'docker', name: 'atlassian/confluence-server' },
