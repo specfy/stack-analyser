@@ -349,6 +349,7 @@ exports[`npm > should match everything 1`] = `
   "xai",
   "zendesk",
   "zipkin",
+  "zuora",
 ]
 `;
 
@@ -3612,6 +3613,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "zipkin-transport-http",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "zuora-sdk-js",
     "0.0.0",
   ],
 ]

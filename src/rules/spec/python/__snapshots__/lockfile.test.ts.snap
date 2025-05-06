@@ -39,6 +39,7 @@ exports[`python (lockfile) > should match everything 1`] = `
   "supertokens",
   "swiftype",
   "workos",
+  "zuora",
 ]
 `;
 
@@ -277,6 +278,11 @@ exports[`python (lockfile) > should match everything 2`] = `
   [
     "python",
     "workos",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "zuora-sdk",
     "1.0.0",
   ],
 ]

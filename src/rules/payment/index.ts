@@ -6,3 +6,5 @@ import './lemonsqueezy.js';
 import './paddle.js';
 import './paypal.js';
 import './squareup.js';
+import './stripe.js';
+import './zuora.js';
