@@ -1,3 +1,20 @@
+# [1.14.0](https://github.com/specfy/stack-analyser/compare/v1.13.1...v1.14.0) (2025-05-06)
+
+
+### Bug Fixes
+
+* **rules:** add Apideck ([8190095](https://github.com/specfy/stack-analyser/commit/8190095168ad73dcfeb4c14183ad322df7b27d25))
+* **rules:** add Integration.app ([d9c33dc](https://github.com/specfy/stack-analyser/commit/d9c33dce14652d210ebb50838b4f06cc03297932))
+* **rules:** add Merge.devé ([765541d](https://github.com/specfy/stack-analyser/commit/765541db9eae91f113cc4f57333723e7c20cfca3))
+* **rules:** add Paragon ([af7d884](https://github.com/specfy/stack-analyser/commit/af7d884568be53a406fa9fdb3478b6ae9e63dcdc))
+* **rules:** add Tray.io ([d4cfd63](https://github.com/specfy/stack-analyser/commit/d4cfd632a8076717d6d2dabac9a3706d01949a55))
+
+
+### Features
+
+* **rules:** move vale to linter, fix various ([377fa95](https://github.com/specfy/stack-analyser/commit/377fa950d9169509db601cdd83816daad53cd86f))
+* **rules:** remove elasticstack ([f8212bb](https://github.com/specfy/stack-analyser/commit/f8212bb4149be216efed4ef100611c74fb4ba962))
+
 ## [1.13.1](https://github.com/specfy/stack-analyser/compare/v1.13.0...v1.13.1) (2025-05-05)
 
 
