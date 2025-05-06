@@ -38,6 +38,7 @@ import './solidjs.js';
 import './strapi.js';
 import './symfony.js';
 import './tanstackstart.js';
+import './wasp.js';
 import './woocommerce.js';
 import './wordpress.js';
 import './yii2.js';

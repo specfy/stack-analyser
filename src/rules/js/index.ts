@@ -12,6 +12,5 @@ import './rollup.js';
 import './socketio.js';
 import './turborepo.js';
 import './vite.js';
-import './wasp.js';
 import './webpack.js';
 import './yarn.js';
