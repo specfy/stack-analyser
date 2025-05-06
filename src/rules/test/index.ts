@@ -3,4 +3,5 @@ import './k6.js';
 import './lighthouse.js';
 import './phppest.js';
 import './phpunit.js';
+import './storybook.js';
 import './vitest.js';

@@ -10,7 +10,6 @@ import './puppeteer.js';
 import './reactEmail.js';
 import './rollup.js';
 import './socketio.js';
-import './storybook.js';
 import './turborepo.js';
 import './vite.js';
 import './wasp.js';
