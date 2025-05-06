@@ -175,6 +175,7 @@ exports[`npm > should match everything 1`] = `
   "infisical",
   "influxdb",
   "inngest",
+  "integrationapp",
   "intercom",
   "jest",
   "k6",
@@ -1340,6 +1341,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@influxdata/influxdb-client",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@integration-app/sdk",
     "0.0.0",
   ],
   [

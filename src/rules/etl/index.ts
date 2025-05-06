@@ -8,6 +8,7 @@ import './databricks.js';
 import './dataiku.js';
 import './gcp.dataflow.js';
 import './gcp.dataproc.js';
+import './integrationapp.js';
 import './logstash.js';
 import './mergedev.js';
 import './nango.js';

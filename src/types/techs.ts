@@ -295,6 +295,7 @@ export type AllowedKeys =
   | 'infisical'
   | 'influxdb'
   | 'inngest'
+  | 'integrationapp'
   | 'intercom'
   | 'intuit'
   | 'java'
