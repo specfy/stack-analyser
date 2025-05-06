@@ -78,7 +78,7 @@ import './snowflake.js';
 import './sqlite.js';
 import './supabase.postgres.js';
 import './surrealdb.js';
-import './swifttype.js';
+import './swiftype.js';
 import './tdengine.js';
 import './tidb.js';
 import './timescaledb.js';

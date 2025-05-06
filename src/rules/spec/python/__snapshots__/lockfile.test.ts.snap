@@ -37,7 +37,7 @@ exports[`python (lockfile) > should match everything 1`] = `
   "stytch",
   "supabase",
   "supertokens",
-  "swifttype",
+  "swiftype",
   "workos",
 ]
 `;

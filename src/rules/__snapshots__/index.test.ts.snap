@@ -479,7 +479,7 @@ exports[`all > should match everything 1`] = `
   "surrealdb",
   "sveltejs",
   "swift",
-  "swifttype",
+  "swiftype",
   "symfony",
   "tailscale",
   "tailwind",

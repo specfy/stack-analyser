@@ -1,8 +1,8 @@
 import { register } from '../../register.js';
 
 register({
-  tech: 'swifttype',
-  name: 'Swifttype',
+  tech: 'swiftype',
+  name: 'Swiftype',
   type: 'db',
   dependencies: [
     { type: 'ruby', name: 'site-search-ruby' },
