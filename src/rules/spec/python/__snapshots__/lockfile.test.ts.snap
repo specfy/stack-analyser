@@ -4,6 +4,7 @@ exports[`python (lockfile) > should match everything 1`] = `
 [
   "algolia",
   "anthropic",
+  "apideck",
   "browerbase",
   "celery",
   "chargebee",
@@ -66,6 +67,11 @@ exports[`python (lockfile) > should match everything 2`] = `
   [
     "python",
     "anthropic",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "apideck-unify",
     "1.0.0",
   ],
   [

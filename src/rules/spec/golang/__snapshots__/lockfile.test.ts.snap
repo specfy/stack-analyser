@@ -3,6 +3,7 @@
 exports[`golang (lockfile) > should match everything 1`] = `
 [
   "anthropic",
+  "apideck",
   "aws",
   "aws.apigateway",
   "aws.athena",
@@ -343,6 +344,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/apache/thrift",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/apideck-libraries/sdk-go",
     "v1.0.0",
   ],
   [

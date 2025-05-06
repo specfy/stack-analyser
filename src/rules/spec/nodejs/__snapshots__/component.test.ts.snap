@@ -13,6 +13,7 @@ exports[`npm > should match everything 1`] = `
   "apache_cassandra",
   "apache_kafka",
   "apache_thrift",
+  "apideck",
   "apiplatform",
   "assemble",
   "astro",
@@ -454,6 +455,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@api-platform/client",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@apideck/unify",
     "0.0.0",
   ],
   [

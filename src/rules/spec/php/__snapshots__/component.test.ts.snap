@@ -9,6 +9,7 @@ exports[`php > should match everything 1`] = `
   "amplitude",
   "apache_couchdb",
   "apache_kafka",
+  "apideck",
   "apiplatform",
   "atlassian",
   "atlassian.bitbucket",
@@ -226,6 +227,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "api-platform/core",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "apideck-libraries/sdk-php",
     "0.0.0",
   ],
   [

@@ -2,6 +2,7 @@ import './airbyte.js';
 import './apacheAirflow.js';
 import './apacheFlink.js';
 import './apacheStorm.js';
+import './apideck.js';
 import './aws.glue.js';
 import './databricks.js';
 import './dataiku.js';
