@@ -14,7 +14,6 @@ import './cloudflare.workers.js';
 import './denodeploy.js';
 import './digitalocean.js';
 import './elasticcloud.js';
-import './elasticstack.js';
 import './expodev.js';
 import './fastly.js';
 import './gcp.appengine.js';
