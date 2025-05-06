@@ -526,6 +526,7 @@ export type AllowedKeys =
   | 'tiptap'
   | 'traefik'
   | 'travisci'
+  | 'trayio'
   | 'trufflesecurity'
   | 'turborepo'
   | 'tursodb'

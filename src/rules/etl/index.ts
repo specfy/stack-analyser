@@ -12,4 +12,5 @@ import './integrationapp.js';
 import './logstash.js';
 import './mergedev.js';
 import './nango.js';
+import './trayio.js';
 import './useparagon.js';

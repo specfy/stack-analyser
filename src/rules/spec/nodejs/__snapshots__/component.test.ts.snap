@@ -2150,6 +2150,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@trayio/cdk-cli",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@tryghost/content-api",
     "0.0.0",
   ],
