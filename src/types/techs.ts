@@ -462,6 +462,7 @@ export type AllowedKeys =
   | 'rethinkdb'
   | 'rollbar'
   | 'rollup'
+  | 'rubocop'
   | 'ruby'
   | 'rubyenv'
   | 'rust'

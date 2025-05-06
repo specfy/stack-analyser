@@ -432,6 +432,7 @@ exports[`all > should match everything 1`] = `
   "rethinkdb",
   "rollbar",
   "rollup",
+  "rubocop",
   "ruby",
   "rubyenv",
   "rust",
