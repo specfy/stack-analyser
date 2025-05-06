@@ -1,3 +1,18 @@
+# [1.15.0](https://github.com/specfy/stack-analyser/compare/v1.14.0...v1.15.0) (2025-05-06)
+
+
+### Bug Fixes
+
+* **rules:** add Kysely ([bcf924b](https://github.com/specfy/stack-analyser/commit/bcf924bb4d8a9eb5f7b76b88d7ff5989fc39015d))
+* **rules:** typo in swiftype ([259df6f](https://github.com/specfy/stack-analyser/commit/259df6fe84f0c9bd7cc01ea81610d6276b795e73))
+
+
+### Features
+
+* **rules:** add category orm, move some tools around ([dd0b915](https://github.com/specfy/stack-analyser/commit/dd0b91555b4d0dac07c2a736e3ad47daa4a447ab))
+* **rules:** add collaboration category, move klarna, squaerup ([0b8c12f](https://github.com/specfy/stack-analyser/commit/0b8c12fe2c6b182a4af84f78c1d40b6c9636bf2c))
+* **rules:** move zuora, move crowdin ([d228eab](https://github.com/specfy/stack-analyser/commit/d228eab50b34516a954f736e93855dbbed2e5bc9))
+
 # [1.14.0](https://github.com/specfy/stack-analyser/compare/v1.13.1...v1.14.0) (2025-05-06)
 
 
