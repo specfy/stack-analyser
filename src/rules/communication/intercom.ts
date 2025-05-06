@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'intercom',
   name: 'Intercom',
-  type: 'saas',
+  type: 'communication',
   dependencies: [
     { type: 'npm', name: 'react-use-intercom' },
     { type: 'npm', name: 'intercom-client' },

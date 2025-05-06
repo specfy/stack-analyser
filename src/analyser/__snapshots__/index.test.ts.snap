@@ -273,6 +273,29 @@ exports[`analyser > should run correctly 1`] = `
         },
         {
           "childs": [],
+          "dependencies": [
+            [
+              "terraform",
+              "registry.terraform.io/hashicorp/google",
+              "4.61.0",
+            ],
+          ],
+          "edges": [],
+          "id": "29",
+          "inComponent": null,
+          "languages": {},
+          "name": "GCP",
+          "path": [
+            "/terraform/.terraform.lock.hcl",
+          ],
+          "reason": [
+            "gcp matched: /^registry.terraform.io\\/hashicorp\\/google$/",
+          ],
+          "tech": "gcp",
+          "techs": [],
+        },
+        {
+          "childs": [],
           "dependencies": [],
           "edges": [],
           "id": "13",
@@ -286,29 +309,6 @@ exports[`analyser > should run correctly 1`] = `
             "matched file: .github",
           ],
           "tech": "github",
-          "techs": [],
-        },
-        {
-          "childs": [],
-          "dependencies": [
-            [
-              "terraform",
-              "registry.terraform.io/hashicorp/google",
-              "4.61.0",
-            ],
-          ],
-          "edges": [],
-          "id": "29",
-          "inComponent": null,
-          "languages": {},
-          "name": "Google Cloud Platform",
-          "path": [
-            "/terraform/.terraform.lock.hcl",
-          ],
-          "reason": [
-            "gcp matched: /^registry.terraform.io\\/hashicorp\\/google$/",
-          ],
-          "tech": "gcp",
           "techs": [],
         },
         {
@@ -980,21 +980,6 @@ exports[`analyser > should run correctly 2`] = `
     },
     {
       "childs": [],
-      "dependencies": [],
-      "edges": [],
-      "id": "13",
-      "inComponent": null,
-      "languages": {},
-      "name": "GitHub",
-      "path": [
-        "/package.json",
-      ],
-      "reason": [],
-      "tech": "github",
-      "techs": [],
-    },
-    {
-      "childs": [],
       "dependencies": [
         [
           "terraform",
@@ -1006,12 +991,27 @@ exports[`analyser > should run correctly 2`] = `
       "id": "29",
       "inComponent": null,
       "languages": {},
-      "name": "Google Cloud Platform",
+      "name": "GCP",
       "path": [
         "/terraform/.terraform.lock.hcl",
       ],
       "reason": [],
       "tech": "gcp",
+      "techs": [],
+    },
+    {
+      "childs": [],
+      "dependencies": [],
+      "edges": [],
+      "id": "13",
+      "inComponent": null,
+      "languages": {},
+      "name": "GitHub",
+      "path": [
+        "/package.json",
+      ],
+      "reason": [],
+      "tech": "github",
       "techs": [],
     },
     {

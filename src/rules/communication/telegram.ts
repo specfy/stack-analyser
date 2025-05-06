@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'telegram',
   name: 'Telegram',
-  type: 'saas',
+  type: 'communication',
   dependencies: [
     { type: 'docker', name: 'kasmweb/telegram' },
     {

@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'discord',
   name: 'Discord',
-  type: 'saas',
+  type: 'communication',
   dependencies: [
     { type: 'npm', name: 'discord.js' },
     {

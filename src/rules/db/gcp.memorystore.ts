@@ -2,7 +2,7 @@ import { register } from '../../register.js';
 
 register({
   tech: 'gcp.memorystore',
-  name: 'Google Cloud Memorystore',
+  name: 'Cloud Memorystore',
   type: 'db',
   dependencies: [
     { type: 'npm', name: '@google-cloud/redis' },

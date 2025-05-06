@@ -5,3 +5,4 @@ import './atlassian.opsgenie.js';
 import './atlassian.trello.js';
 import './crowdin.js';
 import './linear.js';
+import './notion.js';

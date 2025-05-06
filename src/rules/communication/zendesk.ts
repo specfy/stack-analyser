@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'zendesk',
   name: 'Zendesk',
-  type: 'saas',
+  type: 'communication',
   dependencies: [
     { type: 'npm', name: 'node-zendesk' },
     { type: 'ruby', name: 'zendesk_api' },

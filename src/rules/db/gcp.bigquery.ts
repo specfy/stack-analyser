@@ -2,7 +2,7 @@ import { register } from '../../register.js';
 
 register({
   tech: 'gcp.bigquery',
-  name: 'Google BigQuery',
+  name: 'Cloud BigQuery',
   type: 'db',
   dependencies: [
     { type: 'npm', name: '@google-cloud/bigquery' },

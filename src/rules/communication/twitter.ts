@@ -1,7 +1,7 @@
 import { register } from '../../register.js';
 
 register({
-  tech: 'notion',
-  name: 'Notion',
-  type: 'saas',
+  tech: 'twitter',
+  name: 'X',
+  type: 'communication',
 });
