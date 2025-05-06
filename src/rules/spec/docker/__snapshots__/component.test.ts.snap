@@ -659,6 +659,26 @@ exports[`docker > should match everything 2`] = `
   ],
   [
     "docker",
+    "haproxytech/haproxy-alpine",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "haproxytech/haproxy-debian",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "haproxytech/haproxy-ubuntu",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "haproxytech/kubernetes-ingress",
+    "0.0.0",
+  ],
+  [
+    "docker",
     "httpd",
     "0.0.0",
   ],

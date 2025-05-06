@@ -2,7 +2,7 @@ import { register } from '../../register.js';
 
 register({
   tech: 'firebase',
-  name: 'Hosting',
+  name: 'Firebase',
   type: 'cloud',
   files: ['.firebaserc'],
   dependencies: [

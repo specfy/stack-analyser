@@ -5,3 +5,4 @@ import './phpstan.js';
 import './prettier.js';
 import './sonarlint.js';
 import './stylelint.js';
+import './vale.js';
