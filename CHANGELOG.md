@@ -1,3 +1,10 @@
+# [1.16.0](https://github.com/specfy/stack-analyser/compare/v1.15.0...v1.16.0) (2025-05-06)
+
+
+### Features
+
+* **rules:** new category communication ([82b9ce0](https://github.com/specfy/stack-analyser/commit/82b9ce022d71336512044a2bb0a8db098ccdbad5))
+
 # [1.15.0](https://github.com/specfy/stack-analyser/compare/v1.14.0...v1.15.0) (2025-05-06)
 
 
