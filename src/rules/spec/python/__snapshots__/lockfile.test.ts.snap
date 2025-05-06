@@ -22,6 +22,7 @@ exports[`python (lockfile) > should match everything 1`] = `
   "lago",
   "libsql",
   "logtoio",
+  "mergedev",
   "milvusdb",
   "mistralai",
   "mixpanel",
@@ -42,6 +43,16 @@ exports[`python (lockfile) > should match everything 1`] = `
 
 exports[`python (lockfile) > should match everything 2`] = `
 [
+  [
+    "python",
+    "MergePythonClient",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "MergePythonSDK",
+    "1.0.0",
+  ],
   [
     "python",
     "algoliasearch",

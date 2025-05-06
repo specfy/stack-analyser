@@ -122,6 +122,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "mariadb",
   "meilisearch",
   "memcached",
+  "mergedev",
   "mixpanel",
   "mongodb",
   "mysql",
@@ -940,6 +941,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "meilisearch-rails",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "merge_ruby_client",
     "1.0.0",
   ],
   [

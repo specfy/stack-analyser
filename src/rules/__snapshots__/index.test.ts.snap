@@ -311,6 +311,7 @@ exports[`all > should match everything 1`] = `
   "meilisearch",
   "meilisearchcloud",
   "memcached",
+  "mergedev",
   "metabase",
   "meteorjs",
   "milvusdb",

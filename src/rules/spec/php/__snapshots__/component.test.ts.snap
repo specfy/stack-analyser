@@ -100,6 +100,7 @@ exports[`php > should match everything 1`] = `
   "mailgun",
   "mailjet",
   "meilisearch",
+  "mergedev",
   "mixpanel",
   "mongodb",
   "nats",
@@ -855,6 +856,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "meilisearch/meilisearch-php ",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "merge-api/merge-ats-php",
     "0.0.0",
   ],
   [

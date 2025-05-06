@@ -200,6 +200,7 @@ exports[`npm > should match everything 1`] = `
   "mattermost",
   "meilisearch",
   "memcached",
+  "mergedev",
   "metabase",
   "meteorjs",
   "milvusdb",
@@ -1432,6 +1433,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@meilisearch/instant-meilisearch",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@mergeapi/merge-node-client",
     "0.0.0",
   ],
   [
