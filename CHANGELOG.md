@@ -1,3 +1,17 @@
+# [1.17.0](https://github.com/specfy/stack-analyser/compare/v1.16.0...v1.17.0) (2025-05-06)
+
+
+### Bug Fixes
+
+* **rules:** add Rubocop ([a68f8bb](https://github.com/specfy/stack-analyser/commit/a68f8bb65a95aa9fa041e4c1c41dc9b302698be4))
+* **rules:** move storybook to test ([52ee0b4](https://github.com/specfy/stack-analyser/commit/52ee0b448d1f65472e6b3eaa2a1b3c4d2b796835))
+* **rules:** move wasp in correct folder ([df44ea3](https://github.com/specfy/stack-analyser/commit/df44ea3a5f55322424357c4a0cb17e93c999e881))
+
+
+### Features
+
+* **rules:** add category package manager ([4e1610f](https://github.com/specfy/stack-analyser/commit/4e1610fec6b5305995814b32434237e98749c21c))
+
 # [1.16.0](https://github.com/specfy/stack-analyser/compare/v1.15.0...v1.16.0) (2025-05-06)
 
 
