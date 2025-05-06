@@ -290,6 +290,7 @@ exports[`all > should match everything 1`] = `
   "kong",
   "koyeb",
   "kubernetes",
+  "kysely",
   "lago",
   "laravel",
   "launchdarkly",
