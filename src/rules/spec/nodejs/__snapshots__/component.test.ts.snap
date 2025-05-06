@@ -327,6 +327,7 @@ exports[`npm > should match everything 1`] = `
   "upstash.kafka",
   "upstash.qstash",
   "upstash.redis",
+  "useparagon",
   "vercel",
   "vercel.ai",
   "vercel.analytics",
@@ -2178,6 +2179,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@upstash/redis",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@useparagon/connect",
     "0.0.0",
   ],
   [

@@ -10,3 +10,4 @@ import './gcp.dataproc.js';
 import './logstash.js';
 import './mergedev.js';
 import './nango.js';
+import './useparagon.js';
