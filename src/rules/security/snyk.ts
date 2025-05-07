@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'snyk',
   name: 'Snyk',
-  type: 'saas',
+  type: 'security',
   files: ['.snyk'],
   dependencies: [
     { type: 'npm', name: 'snyk' },

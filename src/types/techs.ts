@@ -25,6 +25,7 @@ export type TechType =
   | 'payment'
   | 'queue'
   | 'saas'
+  | 'security'
   | 'storage'
   | 'test'
   | 'tool'
