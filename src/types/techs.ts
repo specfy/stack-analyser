@@ -275,6 +275,7 @@ export type AllowedKeys =
   | 'gitlab'
   | 'glsl'
   | 'goacmelego'
+  | 'goent'
   | 'goenv'
   | 'golang'
   | 'golangcilint'

@@ -244,6 +244,7 @@ exports[`all > should match everything 1`] = `
   "gitlab.ci",
   "glsl",
   "goacmelego",
+  "goent",
   "goenv",
   "golang",
   "golangcilint",

@@ -79,6 +79,7 @@ exports[`php > should match everything 1`] = `
   "gcp.vision",
   "github",
   "gitlab",
+  "goent",
   "googleanalytics",
   "gorm",
   "hashicorp_vault",
@@ -464,6 +465,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "encentcloud/tencentcloud-sdk-php",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "entgo.io/ent",
     "0.0.0",
   ],
   [
