@@ -199,6 +199,7 @@ export type AllowedKeys =
   | 'digitalocean'
   | 'discord'
   | 'discourse'
+  | 'django'
   | 'docker'
   | 'doctrinephp'
   | 'docusaurus'

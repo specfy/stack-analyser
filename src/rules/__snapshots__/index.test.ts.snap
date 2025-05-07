@@ -168,6 +168,7 @@ exports[`all > should match everything 1`] = `
   "digitalocean",
   "discord",
   "discourse",
+  "django",
   "docker",
   "doctrinephp",
   "docusaurus",

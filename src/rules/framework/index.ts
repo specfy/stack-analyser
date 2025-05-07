@@ -5,6 +5,7 @@ import './apiplatform.js';
 import './assemble.js';
 import './astro.js';
 import './blitzjs.js';
+import './django.js';
 import './eleventy.js';
 import './emberjs.js';
 import './expojs.js';

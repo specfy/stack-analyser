@@ -118,6 +118,11 @@ exports[`python (lockfile) > should match everything 2`] = `
   ],
   [
     "python",
+    "django",
+    "1.0.0",
+  ],
+  [
+    "python",
     "django-workos",
     "1.0.0",
   ],
