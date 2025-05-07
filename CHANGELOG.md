@@ -1,3 +1,17 @@
+## [1.19.1](https://github.com/specfy/stack-analyser/compare/v1.19.0...v1.19.1) (2025-05-07)
+
+
+### Bug Fixes
+
+* **rules:** add Diesel rs ([5c9a499](https://github.com/specfy/stack-analyser/commit/5c9a49940fd2d6cdd30e0a0d4c753364dd7f1d08))
+* **rules:** add Django ([780e62c](https://github.com/specfy/stack-analyser/commit/780e62cbba3ec4e6f1d79bcdc296ad5870406883))
+* **rules:** add Go Ent ([a9b84bc](https://github.com/specfy/stack-analyser/commit/a9b84bc9a9b0cc24fe2d7291d07c6b3aa7472685))
+* **rules:** add GORM ([e30e19b](https://github.com/specfy/stack-analyser/commit/e30e19b5b0fb4a27e815b6d2945c0beba9d87b35))
+* **rules:** add Rails, Sequel ([a0c47ea](https://github.com/specfy/stack-analyser/commit/a0c47ea50a8ec4f4feca1bd3e27f153c242c02b8))
+* **rules:** add SQLAlchemy ([a01cab6](https://github.com/specfy/stack-analyser/commit/a01cab699626b8f39e0e1e94ca923913af15308b))
+* **rules:** add TypeORM ([6603cbb](https://github.com/specfy/stack-analyser/commit/6603cbb808ab9e418f6dd7395b7293ec23183d6c))
+* **rules:** cleanup ([ee14b2d](https://github.com/specfy/stack-analyser/commit/ee14b2de1145d88c63a5d12a11bbba26f551d503))
+
 # [1.19.0](https://github.com/specfy/stack-analyser/compare/v1.18.0...v1.19.0) (2025-05-07)
 
 
