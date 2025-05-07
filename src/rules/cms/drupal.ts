@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'drupal',
   name: 'Drupal',
-  type: 'framework',
+  type: 'cms',
   dependencies: [
     { type: 'docker', name: 'drupal' },
     { type: 'php', name: 'drupal/core' },

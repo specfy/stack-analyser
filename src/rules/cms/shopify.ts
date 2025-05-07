@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'shopify',
   name: 'Shopify',
-  type: 'saas',
+  type: 'cms',
   dependencies: [
     { type: 'npm', name: '@shopify/shopify-api' },
     { type: 'npm', name: '@shopify/cli' },

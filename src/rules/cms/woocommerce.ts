@@ -3,6 +3,6 @@ import { register } from '../../register.js';
 register({
   tech: 'woocommerce',
   name: 'WooCommerce',
-  type: 'framework',
+  type: 'cms',
   dependencies: [{ type: 'php', name: 'automattic/woocommerce' }],
 });

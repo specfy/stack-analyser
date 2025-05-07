@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'datocms',
   name: 'Dato CMS',
-  type: 'saas',
+  type: 'cms',
   dependencies: [
     { type: 'npm', name: 'datocms-structured-text-utils' },
     { type: 'npm', name: '@datocms/cma-client' },

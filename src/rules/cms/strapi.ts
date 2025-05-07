@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'strapi',
   name: 'Strapi',
-  type: 'framework',
+  type: 'cms',
   dependencies: [
     { type: 'npm', name: 'strapi' },
     { type: 'npm', name: '@strapi/strapi' },

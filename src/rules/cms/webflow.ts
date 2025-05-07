@@ -3,6 +3,6 @@ import { register } from '../../register.js';
 register({
   tech: 'webflow',
   name: 'Webflow',
-  type: 'saas',
+  type: 'cms',
   dependencies: [{ type: 'npm', name: 'webflow-api' }],
 });

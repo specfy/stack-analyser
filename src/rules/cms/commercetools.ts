@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'commercetools',
   name: 'Commercetools',
-  type: 'saas',
+  type: 'cms',
   dependencies: [
     { type: 'npm', name: '@commercetools/platform-sdk' },
     { type: 'npm', name: '@commercetools/sdk-client-v2' },

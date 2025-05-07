@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'kentico',
   name: 'Kentico',
-  type: 'saas',
+  type: 'cms',
   dependencies: [
     { type: 'npm', name: '@kentico/xperience-admin-components' },
     { type: 'npm', name: 'kentico-kontent-nuxt-module' },

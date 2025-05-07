@@ -6,6 +6,7 @@ export type TechType =
   | 'auth'
   | 'ci'
   | 'cloud'
+  | 'cms'
   | 'collaboration'
   | 'communication'
   | 'db'

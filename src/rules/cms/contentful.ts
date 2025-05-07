@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'contenful',
   name: 'Contentful',
-  type: 'saas',
+  type: 'cms',
   dependencies: [
     { type: 'php', name: 'contentful/contentful' },
     { type: 'php', name: 'contentful/contentful-management' },
