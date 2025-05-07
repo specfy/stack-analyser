@@ -80,6 +80,7 @@ exports[`php > should match everything 1`] = `
   "github",
   "gitlab",
   "googleanalytics",
+  "gorm",
   "hashicorp_vault",
   "heroku",
   "hetzner",
@@ -628,6 +629,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "google/cloud-vision",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "gorm.io/gorm",
     "0.0.0",
   ],
   [

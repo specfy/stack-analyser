@@ -279,6 +279,7 @@ export type AllowedKeys =
   | 'golang'
   | 'golangcilint'
   | 'googleanalytics'
+  | 'gorm'
   | 'gradio'
   | 'grafana'
   | 'gridsome'
