@@ -5,4 +5,5 @@ import './gorm.js';
 import './kysely.js';
 import './prisma.js';
 import './sequelize.js';
+import './sqlalchemy.js';
 import './typeorm.js';

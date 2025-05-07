@@ -1,9 +1,9 @@
 import { listIndexed } from '../register.js';
 import { Payload } from './index.js';
 
-import type { AllowedKeys } from '../types/techs.js';
+import type { AllowedKeys, TechType } from '../types/techs.js';
 
-const notAComponent = new Set([
+const notAComponent = new Set<TechType>([
   'ci',
   'language',
   'tool',
@@ -12,6 +12,8 @@ const notAComponent = new Set([
   'test',
   'orm',
   'package_manager',
+  'orm',
+  'ui',
 ]);
 
 /**
