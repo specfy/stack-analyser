@@ -160,7 +160,6 @@ exports[`all > should match everything 1`] = `
   "datocms",
   "deepseek",
   "deepsource",
-  "deferrun",
   "deno",
   "denodeploy",
   "dependabot",

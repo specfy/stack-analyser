@@ -104,7 +104,6 @@ exports[`npm > should match everything 1`] = `
   "datadog",
   "datocms",
   "deepseek",
-  "deferrun",
   "digitalocean",
   "discord",
   "docker",
@@ -1058,11 +1057,6 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@datocms/cma-client-node",
-    "0.0.0",
-  ],
-  [
-    "npm",
-    "@defer/client",
     "0.0.0",
   ],
   [

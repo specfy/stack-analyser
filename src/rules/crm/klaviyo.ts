@@ -3,6 +3,6 @@ import { register } from '../../register.js';
 register({
   tech: 'klaviyo',
   name: 'Klaviyo',
-  type: 'saas',
+  type: 'crm',
   dependencies: [{ type: 'php', name: 'klaviyo/magento2-extension' }],
 });

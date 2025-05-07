@@ -2,7 +2,6 @@ import './adobe.js';
 import './atlassian.bitbucket.js';
 import './box.js';
 import './browerbase.js';
-import './deferrun.js';
 import './docusign.js';
 import './dropbox.js';
 import './figma.js';

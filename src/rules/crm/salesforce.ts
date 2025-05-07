@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'salesforce',
   name: 'Salesforce',
-  type: 'saas',
+  type: 'crm',
   dependencies: [
     { type: 'terraform', name: 'registry.terraform.io/hashicorp/salesforce' },
     {
