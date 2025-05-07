@@ -1,3 +1,17 @@
+# [1.18.0](https://github.com/specfy/stack-analyser/compare/v1.17.0...v1.18.0) (2025-05-07)
+
+
+### Bug Fixes
+
+* **rules:** add Orb ([412ef18](https://github.com/specfy/stack-analyser/commit/412ef18600ea29ca5ccf846c924842c53cbaa933))
+* **rules:** add Security category ([87480b6](https://github.com/specfy/stack-analyser/commit/87480b6e8367b3925cad75cb6e4cbc02541c1da6))
+
+
+### Features
+
+* **rules:** add cateogry CRM ([f91378a](https://github.com/specfy/stack-analyser/commit/f91378aac9a34d9c224023f6a0c389e0070a27c5))
+* **rules:** add CMS category ([5b763ee](https://github.com/specfy/stack-analyser/commit/5b763ee0674aada8c0ada5e24a8ad5b21e3e733d))
+
 # [1.17.0](https://github.com/specfy/stack-analyser/compare/v1.16.0...v1.17.0) (2025-05-06)
 
 
