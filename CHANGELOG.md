@@ -1,3 +1,10 @@
+# [1.19.0](https://github.com/specfy/stack-analyser/compare/v1.18.0...v1.19.0) (2025-05-07)
+
+
+### Features
+
+* **rules:** add Security category (true) ([163a6f6](https://github.com/specfy/stack-analyser/commit/163a6f665801cf2e716e11c7699bca253e8cc60c))
+
 # [1.18.0](https://github.com/specfy/stack-analyser/compare/v1.17.0...v1.18.0) (2025-05-07)
 
 
