@@ -25,6 +25,7 @@ import './php/index.js';
 import './orm/index.js';
 import './queue/index.js';
 import './saas/index.js';
+import './security/index.js';
 import './spec/index.js';
 import './storage/index.js';
 import './test/index.js';
