@@ -19,6 +19,7 @@ import './nestjs.js';
 import './nextjs.js';
 import './nuxtjs.js';
 import './phaserjs.js';
+import './rails.js';
 import './redwoodjs.js';
 import './refinedev.js';
 import './remixrun.js';

@@ -260,6 +260,7 @@ exports[`npm > should match everything 1`] = `
   "questdb",
   "rabbitmq",
   "radixui",
+  "rails",
   "railway",
   "react",
   "reactemail",
@@ -1897,6 +1898,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@rails/actioncable",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@railway/cli",
     "0.0.0",
   ],
@@ -3308,6 +3314,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "radix-ui",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "rails",
     "0.0.0",
   ],
   [

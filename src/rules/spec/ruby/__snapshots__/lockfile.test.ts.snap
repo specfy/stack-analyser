@@ -1200,6 +1200,11 @@ exports[`ruby (component) > should match everything 2`] = `
   ],
   [
     "ruby",
+    "sequel",
+    "1.0.0",
+  ],
+  [
+    "ruby",
     "sequel-snowflake",
     "1.0.0",
   ],
