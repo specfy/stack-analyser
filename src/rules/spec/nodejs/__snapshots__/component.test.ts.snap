@@ -322,6 +322,7 @@ exports[`npm > should match everything 1`] = `
   "tiptap",
   "turborepo",
   "twilio",
+  "typeorm",
   "typescript",
   "typesense",
   "upstash",
@@ -3522,6 +3523,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "twilio",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "typeorm",
     "0.0.0",
   ],
   [

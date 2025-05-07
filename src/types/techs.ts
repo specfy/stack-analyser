@@ -554,6 +554,7 @@ export type AllowedKeys =
   | 'twigphp'
   | 'twilio'
   | 'twitter'
+  | 'typeorm'
   | 'typescript'
   | 'typesense'
   | 'typesensecloud'
