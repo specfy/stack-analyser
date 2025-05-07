@@ -60,6 +60,7 @@ exports[`rust (component) > should match everything 1`] = `
   "convexdb",
   "couchbase",
   "datadog",
+  "dieselrs",
   "elasticsearch",
   "fastly",
   "firebase",
@@ -422,6 +423,11 @@ exports[`rust (component) > should match everything 2`] = `
   [
     "rust",
     "ddtrace",
+    "1.0.0",
+  ],
+  [
+    "rust",
+    "diesel",
     "1.0.0",
   ],
   [

@@ -4,5 +4,5 @@ register({
   tech: 'goent',
   name: 'ent.',
   type: 'orm',
-  dependencies: [{ type: 'php', name: 'entgo.io/ent' }],
+  dependencies: [{ type: 'golang', name: 'entgo.io/ent' }],
 });

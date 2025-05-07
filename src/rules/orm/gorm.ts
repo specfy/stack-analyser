@@ -4,5 +4,5 @@ register({
   tech: 'gorm',
   name: 'GORM',
   type: 'orm',
-  dependencies: [{ type: 'php', name: 'gorm.io/gorm' }],
+  dependencies: [{ type: 'golang', name: 'gorm.io/gorm' }],
 });

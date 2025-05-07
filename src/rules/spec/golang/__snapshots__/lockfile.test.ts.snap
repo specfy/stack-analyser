@@ -274,6 +274,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   ],
   [
     "golang",
+    "entgo.io/ent",
+    "v1.0.0",
+  ],
+  [
+    "golang",
     "github.com/Azure/azure-sdk-for-go",
     "v1.0.0",
   ],
@@ -885,6 +890,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "go.opentelemetry.io/otel/exporters/zipkin",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "gorm.io/gorm",
     "v1.0.0",
   ],
   [

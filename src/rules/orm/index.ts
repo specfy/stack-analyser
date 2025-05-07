@@ -1,3 +1,4 @@
+import './dieselrs.js';
 import './doctrinephp.js';
 import './goent.js';
 import './gorm.js';

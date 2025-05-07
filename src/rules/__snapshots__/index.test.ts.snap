@@ -164,6 +164,7 @@ exports[`all > should match everything 1`] = `
   "denodeploy",
   "dependabot",
   "depotdev",
+  "dieselrs",
   "digitalocean",
   "discord",
   "discourse",

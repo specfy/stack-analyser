@@ -195,6 +195,7 @@ export type AllowedKeys =
   | 'denodeploy'
   | 'dependabot'
   | 'depotdev'
+  | 'dieselrs'
   | 'digitalocean'
   | 'discord'
   | 'discourse'
