@@ -8,6 +8,7 @@ import './cms/index.js';
 import './collaboration/index.js';
 import './communication/index.js';
 import './cloud/index.js';
+import './crm/index.js';
 import './db/index.js';
 import './etl/index.js';
 import './framework/index.js';

@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'hubspot',
   name: 'HubSpot',
-  type: 'saas',
+  type: 'crm',
   dependencies: [
     { type: 'npm', name: /^@hubpost\//, example: '@hubspot/api-client' },
     { type: 'php', name: 'hubspot/hubspot-php' },

@@ -9,6 +9,7 @@ export type TechType =
   | 'cms'
   | 'collaboration'
   | 'communication'
+  | 'crm'
   | 'db'
   | 'etl'
   | 'framework'
