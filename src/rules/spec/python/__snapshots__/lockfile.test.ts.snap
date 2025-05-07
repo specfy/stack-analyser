@@ -38,6 +38,7 @@ exports[`python (lockfile) > should match everything 1`] = `
   "supabase",
   "supertokens",
   "swiftype",
+  "withorb",
   "workos",
   "zuora",
 ]
@@ -213,6 +214,11 @@ exports[`python (lockfile) > should match everything 2`] = `
   [
     "python",
     "openai",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "orb-billing",
     "1.0.0",
   ],
   [

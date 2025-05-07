@@ -129,6 +129,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "telegram",
   "twilio",
   "typesense",
+  "withorb",
   "workos",
   "zipkin",
 ]
@@ -739,6 +740,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/optimizely/go-sdk",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/orbcorp/orb-go",
     "v1.0.0",
   ],
   [

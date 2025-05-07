@@ -343,6 +343,7 @@ exports[`npm > should match everything 1`] = `
   "vue",
   "webflow",
   "webpack",
+  "withorb",
   "wordpress",
   "workos",
   "xai",
@@ -3152,6 +3153,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "opsgenie-sdk",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "orb-billing",
     "0.0.0",
   ],
   [

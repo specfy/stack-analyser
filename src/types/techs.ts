@@ -579,6 +579,7 @@ export type AllowedKeys =
   | 'wasp'
   | 'webflow'
   | 'webpack'
+  | 'withorb'
   | 'wiz'
   | 'woocommerce'
   | 'wordpress'

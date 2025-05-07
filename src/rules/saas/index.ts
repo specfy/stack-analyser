@@ -28,4 +28,5 @@ import './splunk.js';
 import './tailscale.js';
 import './veriff.js';
 import './vialink.js';
+import './withorb.js';
 import './yousign.js';
