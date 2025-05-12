@@ -1,3 +1,11 @@
+## [1.19.2](https://github.com/specfy/stack-analyser/compare/v1.19.1...v1.19.2) (2025-05-12)
+
+
+### Bug Fixes
+
+* **rules:** wrong cat vale ([702a25f](https://github.com/specfy/stack-analyser/commit/702a25f91481fce2751fd5d6a92ce50bfb2dd095))
+* typo contentful ([aac8ff7](https://github.com/specfy/stack-analyser/commit/aac8ff7112eb61aafa201f542c6036ccb5d05f0f))
+
 ## [1.19.1](https://github.com/specfy/stack-analyser/compare/v1.19.0...v1.19.1) (2025-05-07)
 
 
