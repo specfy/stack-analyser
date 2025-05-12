@@ -171,7 +171,7 @@ export type AllowedKeys =
   | 'commercetools'
   | 'concourseci'
   | 'consul'
-  | 'contenful'
+  | 'contentful'
   | 'convexdb'
   | 'couchbase'
   | 'coveralls'

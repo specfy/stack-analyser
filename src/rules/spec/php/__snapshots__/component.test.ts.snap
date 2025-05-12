@@ -37,7 +37,7 @@ exports[`php > should match everything 1`] = `
   "clickhouse",
   "cloudflare",
   "cockroachdb",
-  "contenful",
+  "contentful",
   "couchbase",
   "crowdin",
   "datadog",

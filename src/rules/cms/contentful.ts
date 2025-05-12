@@ -1,7 +1,7 @@
 import { register } from '../../register.js';
 
 register({
-  tech: 'contenful',
+  tech: 'contentful',
   name: 'Contentful',
   type: 'cms',
   dependencies: [

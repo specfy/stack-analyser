@@ -94,7 +94,7 @@ exports[`npm > should match everything 1`] = `
   "cloudflare.workers",
   "cohereai",
   "commercetools",
-  "contenful",
+  "contentful",
   "convexdb",
   "couchbase",
   "coveralls",
