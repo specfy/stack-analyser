@@ -32,6 +32,7 @@ exports[`python (lockfile) > should match everything 1`] = `
   "mixpanel",
   "neondb",
   "novu",
+  "ollama",
   "openai",
   "paddle",
   "pinecone",
@@ -219,6 +220,11 @@ exports[`python (lockfile) > should match everything 2`] = `
   [
     "python",
     "langchain-mistralai",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "langchain-ollama",
     "1.0.0",
   ],
   [

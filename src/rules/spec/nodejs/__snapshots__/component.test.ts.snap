@@ -228,6 +228,7 @@ exports[`npm > should match everything 1`] = `
   "nxcloud",
   "nxjs",
   "okta",
+  "ollama",
   "openai",
   "optimizely",
   "oraclecloud",
@@ -1389,6 +1390,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@langchain/groq",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@langchain/ollama",
     "0.0.0",
   ],
   [
@@ -2733,6 +2739,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "genkitx-ollama",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "genkitx-openai",
     "0.0.0",
   ],
@@ -3144,6 +3155,16 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "octokit",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "ollama",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "ollama-ai-provider",
     "0.0.0",
   ],
   [

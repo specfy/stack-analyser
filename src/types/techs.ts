@@ -389,6 +389,7 @@ export type AllowedKeys =
   | 'nxjs'
   | 'oceanbase'
   | 'okta'
+  | 'ollama'
   | 'onlineornot'
   | 'openai'
   | 'optimizely'

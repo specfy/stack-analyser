@@ -7,6 +7,7 @@ import './geminiai.js';
 import './groq.js';
 import './huggingface.js';
 import './mistralai.js';
+import './ollama.js';
 import './openai.js';
 import './perplexityai.js';
 import './vercel.ai.js';
