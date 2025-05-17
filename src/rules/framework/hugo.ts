@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'hugo',
   name: 'Hugo',
-  type: 'cms',
+  type: 'framework',
   files: ['hugo.toml'],
   dependencies: [
     { type: 'docker', name: 'betterweb/hugo' },

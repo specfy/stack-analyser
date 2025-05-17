@@ -366,6 +366,7 @@ export type AllowedKeys =
   | 'mistralai'
   | 'mithriljs'
   | 'mixpanel'
+  | 'mochajs'
   | 'mongodb'
   | 'mongodbatlas'
   | 'mongoexpress'

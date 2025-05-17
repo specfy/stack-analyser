@@ -333,6 +333,7 @@ exports[`all > should match everything 1`] = `
   "mistralai",
   "mithriljs",
   "mixpanel",
+  "mochajs",
   "mongodb",
   "mongodbatlas",
   "mongoexpress",

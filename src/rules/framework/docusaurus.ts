@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'docusaurus',
   name: 'Docusaurus',
-  type: 'cms',
+  type: 'framework',
   files: ['docusaurus.config.js'],
   dependencies: [
     { type: 'npm', name: '@docusaurus/core' },

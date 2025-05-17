@@ -48,8 +48,6 @@ exports[`docker > should match all dependencies 1`] = `
   "github.pages",
   "hashicorp_vault",
   "heroku",
-  "hugo",
-  "jekyll",
   "kubernetes",
   "launchdarkly",
   "netlify",

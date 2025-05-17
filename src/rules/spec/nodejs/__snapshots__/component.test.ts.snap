@@ -210,6 +210,7 @@ exports[`npm > should match everything 1`] = `
   "mistralai",
   "mithriljs",
   "mixpanel",
+  "mochajs",
   "mongodb",
   "mongodbatlas",
   "mysql",
@@ -3000,6 +3001,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "mixpanel-browser",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "mocha",
     "0.0.0",
   ],
   [
