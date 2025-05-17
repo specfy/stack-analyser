@@ -1,3 +1,15 @@
+# [1.21.0](https://github.com/specfy/stack-analyser/compare/v1.20.0...v1.21.0) (2025-05-17)
+
+
+### Bug Fixes
+
+* **rules:** add Clojure ([479e589](https://github.com/specfy/stack-analyser/commit/479e58941ca21df4d1d87b0977abbbcbaadf00e3))
+
+
+### Features
+
+* **rules:** reclassify some cms as framework ([e53593d](https://github.com/specfy/stack-analyser/commit/e53593d2931bcfd9df49e887ec8e44e8a2353f2b))
+
 # [1.20.0](https://github.com/specfy/stack-analyser/compare/v1.19.2...v1.20.0) (2025-05-17)
 
 
