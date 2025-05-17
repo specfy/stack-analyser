@@ -1,3 +1,20 @@
+# [1.20.0](https://github.com/specfy/stack-analyser/compare/v1.19.2...v1.20.0) (2025-05-17)
+
+
+### Bug Fixes
+
+* **rules:** add Browseruse ([539df57](https://github.com/specfy/stack-analyser/commit/539df575130eb76e68753c34bbf0748f2118e74e))
+* **rules:** add Bun ([d8605e3](https://github.com/specfy/stack-analyser/commit/d8605e32f46355d7ba9a7a3fc1427fe73c5999a6))
+* **rules:** add ChromaDB and more python packages ([fcc97fe](https://github.com/specfy/stack-analyser/commit/fcc97fe5ce5aa9b2d4043d08c5daaa13548479c8))
+* **rules:** add more for Nango ([2ed0407](https://github.com/specfy/stack-analyser/commit/2ed040712617036a1c42146bd2df830c266dca1a))
+* **rules:** add more package for ai ([6de2af7](https://github.com/specfy/stack-analyser/commit/6de2af72ae87f9fc345e41c6dfe838ae20cf5807))
+* **rules:** add Ollama ([47df04a](https://github.com/specfy/stack-analyser/commit/47df04a2312ac3de50d0ba85ef42f85574336147))
+
+
+### Features
+
+* **rules:** add support for pyproject.toml ([bf15ec0](https://github.com/specfy/stack-analyser/commit/bf15ec064b00ab26a8b842aed8daec5abea95ac0))
+
 ## [1.19.2](https://github.com/specfy/stack-analyser/compare/v1.19.1...v1.19.2) (2025-05-12)
 
 
