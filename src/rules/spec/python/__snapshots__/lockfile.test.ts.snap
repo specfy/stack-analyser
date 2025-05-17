@@ -88,6 +88,11 @@ exports[`python lockfile: pyproject.toml > should match everything 2`] = `
   ],
   [
     "python",
+    "browser-use",
+    "1.0.0",
+  ],
+  [
+    "python",
     "browserbase",
     "1.0.0",
   ],
@@ -439,6 +444,11 @@ exports[`python lockfile: requirements.txt > should match everything 2`] = `
   [
     "python",
     "apideck-unify",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "browser-use",
     "1.0.0",
   ],
   [

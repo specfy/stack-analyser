@@ -144,6 +144,7 @@ export type AllowedKeys =
   | 'brevo'
   | 'browerbase'
   | 'browserstack'
+  | 'browseruse'
   | 'bundler'
   | 'bunsh'
   | 'bytebase'

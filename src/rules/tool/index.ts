@@ -1,5 +1,6 @@
 import './ansible.js';
 import './atlasgo.js';
+import './browseruse.js';
 import './bytebase.js';
 import './checkov.js';
 import './chef.js';
