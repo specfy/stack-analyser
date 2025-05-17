@@ -12,5 +12,6 @@ register({
     { type: 'ruby', name: 'posthog-ruby' },
     { type: 'rust', name: 'posthog-rs' },
     { type: 'npm', name: 'posthog-react-native' },
+    { type: 'python', name: 'posthog' },
   ],
 });

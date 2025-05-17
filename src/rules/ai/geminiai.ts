@@ -8,5 +8,6 @@ register({
     { type: 'python', name: 'genai' },
     { type: 'npm', name: '@google/genai' },
     { type: 'npm', name: 'gemini-ai' },
+    { type: 'python', name: 'langchain-google-genai' },
   ],
 });

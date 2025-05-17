@@ -11,5 +11,6 @@ register({
     { type: 'python', name: 'anthropic' },
     { type: 'golang', name: 'github.com/anthropics/anthropic-sdk-go' },
     { type: 'npm', name: 'genkitx-anthropic' },
+    { type: 'python', name: 'langchain-anthropic' },
   ],
 });

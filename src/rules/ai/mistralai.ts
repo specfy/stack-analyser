@@ -10,5 +10,6 @@ register({
     { type: 'python', name: 'mistralai' },
     { type: 'npm', name: '@mistralai/mistralai' },
     { type: 'golang', name: 'github.com/gage-technologies/mistral-go' },
+    { type: 'python', name: 'langchain-mistralai' },
   ],
 });

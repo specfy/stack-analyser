@@ -12,12 +12,15 @@ exports[`python (lockfile) > should match everything 1`] = `
   "cohereai",
   "convexdb",
   "datadog",
+  "deepseek",
   "firecrawl",
   "frontegg",
   "fusionauth",
   "geminiai",
+  "groq",
   "hetzner",
   "hostinger",
+  "huggingface",
   "inngest",
   "kinde",
   "lago",
@@ -32,6 +35,7 @@ exports[`python (lockfile) > should match everything 1`] = `
   "openai",
   "paddle",
   "pinecone",
+  "posthog",
   "python",
   "qdrant",
   "stytch",
@@ -40,6 +44,7 @@ exports[`python (lockfile) > should match everything 1`] = `
   "swiftype",
   "withorb",
   "workos",
+  "xai",
   "zuora",
 ]
 `;
@@ -183,12 +188,47 @@ exports[`python (lockfile) > should match everything 2`] = `
   ],
   [
     "python",
+    "langchain-anthropic",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "langchain-deepseek",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "langchain-google-genai",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "langchain-groq",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "langchain-huggingface",
+    "1.0.0",
+  ],
+  [
+    "python",
     "langchain-milvus",
     "1.0.0",
   ],
   [
     "python",
+    "langchain-mistralai",
+    "1.0.0",
+  ],
+  [
+    "python",
     "langchain-openai",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "langchain-xai",
     "1.0.0",
   ],
   [
@@ -239,6 +279,11 @@ exports[`python (lockfile) > should match everything 2`] = `
   [
     "python",
     "pinecone",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "posthog",
     "1.0.0",
   ],
   [

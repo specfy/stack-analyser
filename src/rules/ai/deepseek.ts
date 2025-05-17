@@ -8,5 +8,6 @@ register({
     { type: 'npm', name: '@ai-sdk/deepsek' },
     { type: 'npm', name: '@langchain/deepsek' },
     { type: 'npm', name: 'n8n-nodes-deepseek' },
+    { type: 'python', name: 'langchain-deepseek' },
   ],
 });
