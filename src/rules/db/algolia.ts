@@ -15,6 +15,7 @@ register({
     { type: 'npm', name: 'gatsby-plugin-algolia' },
     { type: 'npm', name: /^@docsearch\//, example: '@docsearch/react' },
     { type: 'npm', name: 'docsearch.js' },
+    { type: 'npm', name: '@vuepress/plugin-docsearch' },
     { type: 'rust', name: 'algoliasearch' },
     { type: 'ruby', name: 'algolia' },
     { type: 'ruby', name: 'algoliasearch-rails' },

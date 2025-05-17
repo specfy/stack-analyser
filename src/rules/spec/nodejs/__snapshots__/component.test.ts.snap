@@ -2283,6 +2283,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@vuepress/plugin-docsearch",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@watzon/n8n-nodes-perplexity",
     "0.0.0",
   ],

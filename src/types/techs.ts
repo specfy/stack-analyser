@@ -145,6 +145,7 @@ export type AllowedKeys =
   | 'browerbase'
   | 'browserstack'
   | 'bundler'
+  | 'bunsh'
   | 'bytebase'
   | 'c'
   | 'caddy'
