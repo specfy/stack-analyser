@@ -20,5 +20,6 @@ register({
       name: 'google-github-actions/upload-cloud-storage',
     },
     { type: 'php', name: 'league/flysystem-google-cloud-storage' },
+    { type: 'python', name: 'google-cloud-storage' },
   ],
 });

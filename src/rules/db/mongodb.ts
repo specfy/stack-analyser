@@ -21,5 +21,6 @@ register({
     { type: 'rust', name: 'mongodb' },
     { type: 'ruby', name: 'mongo' },
     { type: 'php', name: 'mongodb/mongodb' },
+    { type: 'python', name: 'pymongo' },
   ],
 });

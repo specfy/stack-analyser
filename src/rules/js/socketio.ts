@@ -4,5 +4,8 @@ register({
   tech: 'socketio',
   name: 'Socket.io',
   type: 'tool',
-  dependencies: [{ type: 'npm', name: 'socket.io' }],
+  dependencies: [
+    { type: 'npm', name: 'socket.io' },
+    { type: 'python', name: 'python-socketio' },
+  ],
 });

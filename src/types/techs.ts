@@ -155,6 +155,7 @@ export type AllowedKeys =
   | 'chargebee'
   | 'checkov'
   | 'chef'
+  | 'chromadb'
   | 'circleci'
   | 'cirrusci'
   | 'clerk'

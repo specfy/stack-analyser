@@ -20,5 +20,6 @@ register({
       type: 'githubAction',
       name: 'elastic/elastic-github-actions/elasticsearch',
     },
+    { type: 'python', name: 'elasticsearch' },
   ],
 });

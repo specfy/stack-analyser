@@ -14,5 +14,8 @@ register({
     { type: 'ruby', name: 'ruby-mysql' },
     { type: 'ruby', name: 'mysql2' },
     { type: 'npm', name: '@pulumi/mysql' },
+    { type: 'python', name: 'mysql-connector-python' },
+    { type: 'python', name: 'PyMySQL' },
+    { type: 'python', name: 'mysqlclient' },
   ],
 });

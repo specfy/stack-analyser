@@ -24,6 +24,7 @@ import './azure.mysql.js';
 import './azure.postgres.js';
 import './azure.redis.js';
 import './azure.sql.js';
+import './chromadb.js';
 import './clickhouse.js';
 import './cockroachdb.js';
 import './convex.js';
