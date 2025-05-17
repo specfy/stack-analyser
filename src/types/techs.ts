@@ -161,6 +161,7 @@ export type AllowedKeys =
   | 'clerk'
   | 'clickhouse'
   | 'clicksend'
+  | 'clojure'
   | 'cloudbees.codeship'
   | 'cloudbees'
   | 'cloudflare.pages'

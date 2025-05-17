@@ -5,10 +5,10 @@
 
 This library provide a simple way to extract from any repository: dependencies, languages, infrastructure, SaaS, databases, etc.
 
-Detect more than **+500 technologies** in your code base.
+Detect more than **+600 technologies** in your code base.
 
-- **Full Support:** Docker, NodeJS, Typescript, PHP, Github Actions
-- Partial Support: Deno, Golang, Python, Ruby, Rust, Terraform, Zig
+- **Full Support:** NodeJS, Docker, Typescript, PHP, Github Actions, Python, Ruby, Rust, Golang
+- Partial Support: Deno, Terraform, Zig, Clojure, c, c++, c#, dart, elixir, java
 
 Look at [all supported tech here](https://github.com/specfy/stack-analyser/tree/main/src/rules).
 
@@ -16,8 +16,8 @@ Look at [all supported tech here](https://github.com/specfy/stack-analyser/tree/
 
 The library dives into any folders, read package.json, docker-compose.yml, go.mod, etc. Determines relationship between folders and services, and output a comprehensive list of dependencies, services and the link between them. The set of rules inside this repos allows the detection of specific technology or saas used.
 
-It is directly used by [specfy.io](https://specfy.io) to create always up-to-date software catalog and infrastructure graph.
-It can be helpful for other to get all dependencies or SaaS used in a given GitHub repository.
+It is directly used by [usestack.dev](https://usestack.dev) to create an exhaustive map of all technologies used in the open-source world.
+It can be helpful for other to get all dependencies or SaaS used in a given git repository.
 
 ## CLI
 
@@ -271,7 +271,10 @@ Every contribution is welcome. Check our [Contributing](./CONTRIBUTING.md) guide
 
 ## Versioning
 
-There is 2 things versioned in this package, the exposed API and the Data extraction.
+There are 2 things versioned in this package:
+
+- the API
+- the Data extraction.
 
 The **API is following semver**:
 

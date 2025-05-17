@@ -1,6 +1,7 @@
 import './bash.js';
 import './bunsh.js';
 import './c.js';
+import './clojure.js';
 import './cplusplus.js';
 import './csharp.js';
 import './css.js';

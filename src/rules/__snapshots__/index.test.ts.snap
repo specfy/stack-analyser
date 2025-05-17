@@ -131,6 +131,7 @@ exports[`all > should match everything 1`] = `
   "clerk",
   "clickhouse",
   "clicksend",
+  "clojure",
   "cloudbees",
   "cloudbees.codeship",
   "cloudflare",
