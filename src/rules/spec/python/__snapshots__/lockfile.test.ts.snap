@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`python (lockfile) > should match everything 1`] = `
+exports[`python lockfile: pyproject.toml > should match everything 1`] = `
 [
   "algolia",
   "anthropic",
@@ -37,7 +37,6 @@ exports[`python (lockfile) > should match everything 1`] = `
   "paddle",
   "pinecone",
   "posthog",
-  "python",
   "qdrant",
   "stytch",
   "supabase",
@@ -50,7 +49,7 @@ exports[`python (lockfile) > should match everything 1`] = `
 ]
 `;
 
-exports[`python (lockfile) > should match everything 2`] = `
+exports[`python lockfile: pyproject.toml > should match everything 2`] = `
 [
   [
     "python",
@@ -355,7 +354,362 @@ exports[`python (lockfile) > should match everything 2`] = `
 ]
 `;
 
-exports[`python (lockfile) > should match weird syntax 1`] = `
+exports[`python lockfile: requirements.txt > should match everything 1`] = `
+[
+  "algolia",
+  "anthropic",
+  "apideck",
+  "browerbase",
+  "celery",
+  "chargebee",
+  "clerk",
+  "cohereai",
+  "convexdb",
+  "datadog",
+  "deepseek",
+  "firecrawl",
+  "frontegg",
+  "fusionauth",
+  "geminiai",
+  "groq",
+  "hetzner",
+  "hostinger",
+  "huggingface",
+  "inngest",
+  "kinde",
+  "lago",
+  "libsql",
+  "logtoio",
+  "mergedev",
+  "milvusdb",
+  "mistralai",
+  "mixpanel",
+  "neondb",
+  "novu",
+  "ollama",
+  "openai",
+  "paddle",
+  "pinecone",
+  "posthog",
+  "python",
+  "qdrant",
+  "stytch",
+  "supabase",
+  "supertokens",
+  "swiftype",
+  "withorb",
+  "workos",
+  "xai",
+  "zuora",
+]
+`;
+
+exports[`python lockfile: requirements.txt > should match everything 2`] = `
+[
+  [
+    "python",
+    "MergePythonClient",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "MergePythonSDK",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "SQLAlchemy",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "algoliasearch",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "algoliasearch-django",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "anthropic",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "apideck-unify",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "browserbase",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "celery",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "chargebee",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "clerk-backend-api",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "cohere",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "convex",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "datadog",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "django",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "django-workos",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "elastic-site-search",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "firecrawl-py",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "frontegg",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "fusionauth-client",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "genai",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "gradio",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "hcloud",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "hostinger_api",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "inngest",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "kinde-python-sdk",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "lago-python-client",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "langchain-anthropic",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "langchain-deepseek",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "langchain-google-genai",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "langchain-groq",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "langchain-huggingface",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "langchain-milvus",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "langchain-mistralai",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "langchain-ollama",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "langchain-openai",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "langchain-xai",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "libsql-experimental",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "logto",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "mistralai",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "mixpanel",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "neon-api",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "novu",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "openai",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "orb-billing",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "paddle-python-sdk",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "pinecone",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "posthog",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "pulumi",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "pymilvus",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "pytest-playwright",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "pytorch",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "qdrant-client",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "selenium",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "stytch",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "supabase",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "supertokens_python",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "tensorflow",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "workos",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "zuora-sdk",
+    "1.0.0",
+  ],
+]
+`;
+
+exports[`python lockfile: requirements.txt > should match weird syntax 1`] = `
 [
   "algolia",
   "datadog",
@@ -363,7 +717,7 @@ exports[`python (lockfile) > should match weird syntax 1`] = `
 ]
 `;
 
-exports[`python (lockfile) > should match weird syntax 2`] = `
+exports[`python lockfile: requirements.txt > should match weird syntax 2`] = `
 [
   [
     "python",
