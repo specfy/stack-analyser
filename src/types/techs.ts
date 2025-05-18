@@ -37,6 +37,7 @@ export type AllowedKeys =
   | 'adobecommercecloud'
   | 'adyen'
   | 'airbyte'
+  | 'aircall'
   | 'airtable'
   | 'akamai'
   | 'algolia'

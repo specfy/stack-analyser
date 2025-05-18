@@ -1,3 +1,4 @@
+import './aircall.js';
 import './discord.js';
 import './facebook.js';
 import './freshdesk.js';

@@ -3,6 +3,7 @@
 exports[`npm > should match everything 1`] = `
 [
   "adyen",
+  "aircall",
   "airtable",
   "akamai",
   "algolia",
@@ -2399,6 +2400,16 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@zilliz/milvus2-sdk-node",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "aircall",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "aircall-everywhere",
     "0.0.0",
   ],
   [
