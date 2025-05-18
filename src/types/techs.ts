@@ -61,6 +61,7 @@ export type AllowedKeys =
   | 'apideck'
   | 'apiplatform'
   | 'appveyor'
+  | 'asana'
   | 'asdf'
   | 'assemble'
   | 'astro'

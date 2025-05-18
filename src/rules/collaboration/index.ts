@@ -1,4 +1,5 @@
 import './airtable.js';
+import './asana.js';
 import './atlassian.confluence.js';
 import './atlassian.jira.js';
 import './atlassian.opsgenie.js';

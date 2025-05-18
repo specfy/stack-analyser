@@ -15,6 +15,7 @@ exports[`npm > should match everything 1`] = `
   "apache_thrift",
   "apideck",
   "apiplatform",
+  "asana",
   "assemble",
   "astro",
   "atlassian",
@@ -2437,6 +2438,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "angular",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "asana",
     "0.0.0",
   ],
   [

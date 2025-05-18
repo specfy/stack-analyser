@@ -11,6 +11,7 @@ exports[`php > should match everything 1`] = `
   "apache_kafka",
   "apideck",
   "apiplatform",
+  "asana",
   "atlassian",
   "atlassian.bitbucket",
   "atlassian.jira",
@@ -246,6 +247,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "artprima/prometheus-metrics-bundle",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "asana/asana",
     "0.0.0",
   ],
   [

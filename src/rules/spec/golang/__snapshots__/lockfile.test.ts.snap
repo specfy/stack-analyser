@@ -4,6 +4,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
 [
   "anthropic",
   "apideck",
+  "asana",
   "aws",
   "aws.apigateway",
   "aws.athena",
@@ -279,6 +280,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "entgo.io/ent",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/Asana/go-asana",
     "v1.0.0",
   ],
   [
