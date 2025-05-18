@@ -207,10 +207,12 @@ exports[`npm > should match everything 1`] = `
   "meteorjs",
   "milvusdb",
   "mintlify",
+  "miro",
   "mistralai",
   "mithriljs",
   "mixpanel",
   "mochajs",
+  "monday",
   "mongodb",
   "mongodbatlas",
   "mysql",
@@ -1482,6 +1484,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@miniflare/cache",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@mirohq/miro-api",
     "0.0.0",
   ],
   [
@@ -3007,6 +3014,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "mocha",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "monday-sdk-js",
     "0.0.0",
   ],
   [
