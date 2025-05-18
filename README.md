@@ -16,7 +16,7 @@ Look at [all supported tech here](https://github.com/specfy/stack-analyser/tree/
 
 The library dives into any folders, read package.json, docker-compose.yml, go.mod, etc. Determines relationship between folders and services, and output a comprehensive list of dependencies, services and the link between them. The set of rules inside this repos allows the detection of specific technology or saas used.
 
-It is directly used by [usestack.dev](https://usestack.dev) to create an exhaustive map of all technologies used in the open-source world.
+It is directly used by [getstack.dev](https://getstack.dev) to create an exhaustive map of all technologies used in the open-source world.
 It can be helpful for other to get all dependencies or SaaS used in a given git repository.
 
 ## CLI

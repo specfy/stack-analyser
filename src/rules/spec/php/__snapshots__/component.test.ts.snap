@@ -482,6 +482,11 @@ exports[`php > should match everything 2`] = `
   ],
   [
     "php",
+    "glushkovds/phpclickhouse-laravel",
+    "0.0.0",
+  ],
+  [
+    "php",
     "google/analytics-admin",
     "0.0.0",
   ],

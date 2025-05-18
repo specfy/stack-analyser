@@ -65,6 +65,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "brevo",
   "chargebee",
   "clerk",
+  "clickhouse",
   "cloudflare",
   "couchbase",
   "datadog",
@@ -541,6 +542,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "clerk-sdk-ruby",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "clickhouse-activerecord",
     "1.0.0",
   ],
   [
