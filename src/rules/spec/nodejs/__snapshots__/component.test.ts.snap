@@ -89,6 +89,7 @@ exports[`npm > should match everything 1`] = `
   "brevo",
   "browserstack",
   "bugsnag",
+  "calcom",
   "calendly",
   "chargebee",
   "clerk",
@@ -1001,6 +1002,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@bugsnag/react-native",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@calcom/sdk",
     "0.0.0",
   ],
   [
