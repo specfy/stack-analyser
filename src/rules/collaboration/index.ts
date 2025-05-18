@@ -4,6 +4,7 @@ import './atlassian.confluence.js';
 import './atlassian.jira.js';
 import './atlassian.opsgenie.js';
 import './atlassian.trello.js';
+import './calendly.js';
 import './clickup.js';
 import './crowdin.js';
 import './linear.js';

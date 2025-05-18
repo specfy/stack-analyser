@@ -123,6 +123,7 @@ exports[`all > should match everything 1`] = `
   "bytebase",
   "c",
   "caddy",
+  "calendly",
   "cargo",
   "celery",
   "chargebee",

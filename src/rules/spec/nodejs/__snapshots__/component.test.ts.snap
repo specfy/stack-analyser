@@ -89,6 +89,7 @@ exports[`npm > should match everything 1`] = `
   "brevo",
   "browserstack",
   "bugsnag",
+  "calendly",
   "chargebee",
   "clerk",
   "clickhouse",
@@ -3455,6 +3456,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "react",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "react-calendly",
     "0.0.0",
   ],
   [

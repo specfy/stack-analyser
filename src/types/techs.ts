@@ -153,6 +153,7 @@ export type AllowedKeys =
   | 'bytebase'
   | 'c'
   | 'caddy'
+  | 'calendly'
   | 'cargo'
   | 'celery'
   | 'chargebee'
