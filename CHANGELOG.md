@@ -1,3 +1,20 @@
+## [1.21.1](https://github.com/specfy/stack-analyser/compare/v1.21.0...v1.21.1) (2025-05-18)
+
+
+### Bug Fixes
+
+* **rules:** add Aircall ([549c9a7](https://github.com/specfy/stack-analyser/commit/549c9a727dc0805d1c439ddb07721991cf3d66ca))
+* **rules:** add Asana ([461a1d0](https://github.com/specfy/stack-analyser/commit/461a1d0e422499f90c8d634db1ad51393cd860f4))
+* **rules:** add BugSnag ([a84a9d5](https://github.com/specfy/stack-analyser/commit/a84a9d593d061a98ce2e30ac09ce07a5e2f72c4b))
+* **rules:** add CalCom ([32ec71e](https://github.com/specfy/stack-analyser/commit/32ec71ec83c0f4413ab92c22e0e32432bf9eff87))
+* **rules:** add Calendly ([2318066](https://github.com/specfy/stack-analyser/commit/23180669695e4f498d62d959aa0244057f37b91a))
+* **rules:** add DataDome ([2a1810a](https://github.com/specfy/stack-analyser/commit/2a1810a9b7bc3cf56300a21ed1fc668eab332dff))
+* **rules:** add Freshdesh ([9ce81f1](https://github.com/specfy/stack-analyser/commit/9ce81f14fb1a052221ccd4f875f806370d183573))
+* **rules:** add more dependencies ([f3f9ef2](https://github.com/specfy/stack-analyser/commit/f3f9ef2dc2a1ad1ac744f39009cb59e76cf3fc87))
+* **rules:** add more dependencies ([54a538a](https://github.com/specfy/stack-analyser/commit/54a538a55451eb0c6ca6c67074b5115628a65fec))
+* **rules:** add more packages ([f06127d](https://github.com/specfy/stack-analyser/commit/f06127d49af405377de08a50b9c7ec1095fdf314))
+* **rules:** add Segment ([91afff6](https://github.com/specfy/stack-analyser/commit/91afff6a4259f6e229a8c2470d80603cb8844422))
+
 # [1.21.0](https://github.com/specfy/stack-analyser/compare/v1.20.0...v1.21.0) (2025-05-17)
 
 
