@@ -52,6 +52,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "azure.redis",
   "azure.sql",
   "brevo",
+  "bugsnag",
   "chargebee",
   "clerk",
   "clickhouse",
@@ -583,6 +584,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/bshuster-repo/logrus-logstash-hook",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/bugsnag/bugsnag-go",
     "v1.0.0",
   ],
   [

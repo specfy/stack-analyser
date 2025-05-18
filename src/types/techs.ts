@@ -145,6 +145,7 @@ export type AllowedKeys =
   | 'browerbase'
   | 'browserstack'
   | 'browseruse'
+  | 'bugsnag'
   | 'bundler'
   | 'bunsh'
   | 'bytebase'

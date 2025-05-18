@@ -63,6 +63,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "azure.storage",
   "betterstack",
   "brevo",
+  "bugsnag",
   "chargebee",
   "clerk",
   "clickhouse",
@@ -520,6 +521,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "browserstack-local",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "bugsnag",
     "1.0.0",
   ],
   [

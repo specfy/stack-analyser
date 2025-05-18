@@ -33,6 +33,7 @@ exports[`php > should match everything 1`] = `
   "blackfire",
   "brevo",
   "browerbase",
+  "bugsnag",
   "chargebee",
   "clickhouse",
   "cloudflare",
@@ -340,6 +341,16 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "blackfire/php-sdk",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "bugsnag/bugsnag",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "bugsnag/bugsnag-laravel",
     "0.0.0",
   ],
   [

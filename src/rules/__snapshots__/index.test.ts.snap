@@ -115,6 +115,7 @@ exports[`all > should match everything 1`] = `
   "browerbase",
   "browserstack",
   "browseruse",
+  "bugsnag",
   "bundler",
   "bunsh",
   "bytebase",

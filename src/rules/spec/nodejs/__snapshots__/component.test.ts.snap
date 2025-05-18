@@ -86,6 +86,7 @@ exports[`npm > should match everything 1`] = `
   "bootstrap",
   "brevo",
   "browserstack",
+  "bugsnag",
   "chargebee",
   "clerk",
   "clickhouse",
@@ -976,6 +977,26 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@biomejs/biome",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@bugsnag/expo",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@bugsnag/js",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@bugsnag/node",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@bugsnag/react-native",
     "0.0.0",
   ],
   [
