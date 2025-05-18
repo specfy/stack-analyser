@@ -120,6 +120,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "resend",
   "rethinkdb",
   "rollbar",
+  "segment",
   "sendgrid",
   "slack",
   "splitio",
@@ -821,6 +822,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/rollbar/rollbar-go",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/segmentio/analytics-go",
     "v1.0.0",
   ],
   [

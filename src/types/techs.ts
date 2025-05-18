@@ -500,6 +500,7 @@ export type AllowedKeys =
   | 'scaleway'
   | 'scoutapm'
   | 'scss'
+  | 'segment'
   | 'selenium'
   | 'sendgrid'
   | 'sentry'

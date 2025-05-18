@@ -8,5 +8,6 @@ import './mixpanel.js';
 import './pirschanalytics.js';
 import './plausible.js';
 import './posthog.js';
+import './segment.js';
 import './tinybird.js';
 import './vercel.analytics.js';

@@ -136,6 +136,7 @@ exports[`php > should match everything 1`] = `
   "rethinkdb",
   "rollbar",
   "scoutapm",
+  "segment",
   "selenium",
   "sendgrid",
   "sentry",
@@ -1128,6 +1129,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "se/selenium-server-standalone",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "segmentio/analytics-php",
     "0.0.0",
   ],
   [

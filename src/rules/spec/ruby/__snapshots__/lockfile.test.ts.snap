@@ -150,6 +150,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "rollbar",
   "ruby",
   "scoutapm",
+  "segment",
   "sendgrid",
   "sentry",
   "servicenow",
@@ -1173,6 +1174,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "scout_apm",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "segment-analytics",
     "1.0.0",
   ],
   [
