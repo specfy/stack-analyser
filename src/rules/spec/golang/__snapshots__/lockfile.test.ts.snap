@@ -56,6 +56,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "clerk",
   "clickhouse",
   "cohereai",
+  "datadome",
   "elasticsearch",
   "firecrawl",
   "fusionauth",
@@ -597,6 +598,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/cohere-ai/cohere-go/v2",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/datadome/fraud-sdk-go-package",
     "v1.0.0",
   ],
   [

@@ -160,6 +160,7 @@ exports[`all > should match everything 1`] = `
   "dart",
   "databricks",
   "datadog",
+  "datadome",
   "dataiku",
   "datastax",
   "datocms",

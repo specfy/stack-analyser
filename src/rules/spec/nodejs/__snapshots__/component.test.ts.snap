@@ -102,6 +102,7 @@ exports[`npm > should match everything 1`] = `
   "cypressci",
   "d3js",
   "datadog",
+  "datadome",
   "datocms",
   "deepseek",
   "digitalocean",
@@ -1050,6 +1051,26 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@datadog/cli",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@datadome/datadome-react-native-navigation",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@datadome/fraud-sdk-node",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@datadome/node-module",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@datadome/react-native-datadome",
     "0.0.0",
   ],
   [

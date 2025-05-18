@@ -190,6 +190,7 @@ export type AllowedKeys =
   | 'dart'
   | 'databricks'
   | 'datadog'
+  | 'datadome'
   | 'dataiku'
   | 'datastax'
   | 'datocms'

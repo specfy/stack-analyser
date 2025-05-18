@@ -69,6 +69,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "cloudflare",
   "couchbase",
   "datadog",
+  "datadome",
   "docusign",
   "elasticsearch",
   "fastly",
@@ -589,6 +590,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "datadog-lambda",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "datadome_fraud_sdk_ruby",
     "1.0.0",
   ],
   [

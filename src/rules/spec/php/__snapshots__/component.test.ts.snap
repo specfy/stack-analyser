@@ -41,6 +41,7 @@ exports[`php > should match everything 1`] = `
   "couchbase",
   "crowdin",
   "datadog",
+  "datadome",
   "datastax",
   "doctrinephp",
   "docusign",
@@ -174,6 +175,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "@mendable/firecrawl-js",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "DataDomeServiceProvider",
     "0.0.0",
   ],
   [
@@ -399,6 +405,16 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "datadog/php-datadogstatsd",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "datadome/fraud-sdk-laravel",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "datadome/fraud-sdk-symfony",
     "0.0.0",
   ],
   [

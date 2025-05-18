@@ -1,3 +1,4 @@
+import './datadome.js';
 import './gitguardian.js';
 import './snyk.js';
 import './sqreen.js';
