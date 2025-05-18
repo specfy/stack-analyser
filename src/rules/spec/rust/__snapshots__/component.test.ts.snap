@@ -95,6 +95,7 @@ exports[`rust (component) > should match everything 1`] = `
   "questdb",
   "rabbitmq",
   "redis",
+  "resend",
   "rust",
   "selenium",
   "sentry",
@@ -624,6 +625,11 @@ exports[`rust (component) > should match everything 2`] = `
   [
     "rust",
     "redis-async",
+    "1.0.0",
+  ],
+  [
+    "rust",
+    "resend-rs",
     "1.0.0",
   ],
   [

@@ -45,6 +45,7 @@ exports[`python lockfile: pyproject.toml > should match everything 1`] = `
   "pinecone",
   "posthog",
   "qdrant",
+  "resend",
   "stytch",
   "supabase",
   "supertokens",
@@ -375,6 +376,11 @@ exports[`python lockfile: pyproject.toml > should match everything 2`] = `
   ],
   [
     "python",
+    "resend",
+    "1.0.0",
+  ],
+  [
+    "python",
     "selenium",
     "1.0.0",
   ],
@@ -457,6 +463,7 @@ exports[`python lockfile: requirements.txt > should match everything 1`] = `
   "posthog",
   "python",
   "qdrant",
+  "resend",
   "stytch",
   "supabase",
   "supertokens",
@@ -783,6 +790,11 @@ exports[`python lockfile: requirements.txt > should match everything 2`] = `
   [
     "python",
     "qdrant-client",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "resend",
     "1.0.0",
   ],
   [

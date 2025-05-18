@@ -1077,6 +1077,11 @@ exports[`php > should match everything 2`] = `
   ],
   [
     "php",
+    "resend/resend-laravel",
+    "0.0.0",
+  ],
+  [
+    "php",
     "resend/resend-php",
     "0.0.0",
   ],

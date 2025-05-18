@@ -350,6 +350,7 @@ exports[`npm > should match everything 1`] = `
   "wordpress",
   "workos",
   "xai",
+  "zapier",
   "zendesk",
   "zipkin",
   "zuora",
@@ -3641,6 +3642,16 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "wrangler",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "zapier-platform-cli",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "zapier-platform-core",
     "0.0.0",
   ],
   [

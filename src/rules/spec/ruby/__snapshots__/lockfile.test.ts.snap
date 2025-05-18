@@ -145,6 +145,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "prometheus",
   "rabbitmq",
   "redis",
+  "resend",
   "rethinkdb",
   "rollbar",
   "ruby",
@@ -1137,6 +1138,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "redis-client",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "resend",
     "1.0.0",
   ],
   [

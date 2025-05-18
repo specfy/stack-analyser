@@ -117,6 +117,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "qdrant",
   "qovery",
   "questdb",
+  "resend",
   "rethinkdb",
   "rollbar",
   "sendgrid",
@@ -805,6 +806,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/questdb/go-questdb-client",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/resend/resend-go/v2",
     "v1.0.0",
   ],
   [
