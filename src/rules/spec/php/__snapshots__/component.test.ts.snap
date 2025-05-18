@@ -2,6 +2,7 @@
 
 exports[`php > should match everything 1`] = `
 [
+  "adobe",
   "adyen",
   "airtable",
   "algolia",
@@ -32,6 +33,7 @@ exports[`php > should match everything 1`] = `
   "betterstack",
   "bigcommerce",
   "blackfire",
+  "box",
   "brevo",
   "browerbase",
   "bugsnag",
@@ -192,6 +194,11 @@ exports[`php > should match everything 2`] = `
   ],
   [
     "php",
+    "adobe/pdfservices-php-sdk",
+    "0.0.0",
+  ],
+  [
+    "php",
     "adyen/module-payment",
     "0.0.0",
   ],
@@ -348,6 +355,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "blackfire/php-sdk",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "box/box-php-sdk",
     "0.0.0",
   ],
   [

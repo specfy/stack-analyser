@@ -2,6 +2,7 @@
 
 exports[`npm > should match everything 1`] = `
 [
+  "adobe",
   "adyen",
   "aircall",
   "airtable",
@@ -86,6 +87,7 @@ exports[`npm > should match everything 1`] = `
   "biomejs",
   "blitzjs",
   "bootstrap",
+  "box",
   "brevo",
   "browserstack",
   "bugsnag",
@@ -125,6 +127,7 @@ exports[`npm > should match everything 1`] = `
   "eslint",
   "expojs",
   "express",
+  "facebook",
   "fastify",
   "fastly",
   "figma",
@@ -239,6 +242,7 @@ exports[`npm > should match everything 1`] = `
   "nxjs",
   "okta",
   "ollama",
+  "onlineornot",
   "openai",
   "optimizely",
   "oraclecloud",
@@ -335,6 +339,7 @@ exports[`npm > should match everything 1`] = `
   "tiptap",
   "turborepo",
   "twilio",
+  "twitter",
   "typeorm",
   "typescript",
   "typesense",
@@ -377,6 +382,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@adobe/magento-storefront-events-sdk",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@adobe/pdfservices-node-sdk",
     "0.0.0",
   ],
   [
@@ -2531,6 +2541,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "box-node-sdk",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "browserstack",
     "0.0.0",
   ],
@@ -2732,6 +2747,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "face-api.js",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "facebook-nodejs-business-sdk",
     "0.0.0",
   ],
   [
@@ -3276,6 +3296,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "onlineornot",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "openai",
     "0.0.0",
   ],
@@ -3672,6 +3697,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "twilio",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "twitter-api-v2",
     "0.0.0",
   ],
   [

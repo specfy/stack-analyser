@@ -537,6 +537,11 @@ exports[`ruby (component) > should match everything 2`] = `
   ],
   [
     "ruby",
+    "bundler",
+    "1.0.0",
+  ],
+  [
+    "ruby",
     "bunny",
     "1.0.0",
   ],

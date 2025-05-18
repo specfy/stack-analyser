@@ -6,6 +6,7 @@ exports[`python lockfile: pyproject.toml > should match everything 1`] = `
   "anthropic",
   "apideck",
   "asana",
+  "box",
   "browerbase",
   "bugsnag",
   "celery",
@@ -26,6 +27,7 @@ exports[`python lockfile: pyproject.toml > should match everything 1`] = `
   "gcp",
   "gcp.gcs",
   "geminiai",
+  "github",
   "groq",
   "hetzner",
   "hostinger",
@@ -50,11 +52,13 @@ exports[`python lockfile: pyproject.toml > should match everything 1`] = `
   "posthog",
   "qdrant",
   "resend",
+  "sas",
   "segment",
   "stytch",
   "supabase",
   "supertokens",
   "swiftype",
+  "twitter",
   "withorb",
   "workos",
   "xai",
@@ -72,6 +76,11 @@ exports[`python lockfile: pyproject.toml > should match everything 2`] = `
   [
     "python",
     "MergePythonSDK",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "PyGithub",
     "1.0.0",
   ],
   [
@@ -112,6 +121,11 @@ exports[`python lockfile: pyproject.toml > should match everything 2`] = `
   [
     "python",
     "asana",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "boxsdk",
     "1.0.0",
   ],
   [
@@ -411,6 +425,11 @@ exports[`python lockfile: pyproject.toml > should match everything 2`] = `
   ],
   [
     "python",
+    "sasviya",
+    "1.0.0",
+  ],
+  [
+    "python",
     "selenium",
     "1.0.0",
   ],
@@ -436,6 +455,11 @@ exports[`python lockfile: pyproject.toml > should match everything 2`] = `
   ],
   [
     "python",
+    "tweepy",
+    "1.0.0",
+  ],
+  [
+    "python",
     "workos",
     "1.0.0",
   ],
@@ -453,6 +477,7 @@ exports[`python lockfile: requirements.txt > should match everything 1`] = `
   "anthropic",
   "apideck",
   "asana",
+  "box",
   "browerbase",
   "bugsnag",
   "celery",
@@ -473,6 +498,7 @@ exports[`python lockfile: requirements.txt > should match everything 1`] = `
   "gcp",
   "gcp.gcs",
   "geminiai",
+  "github",
   "groq",
   "hetzner",
   "hostinger",
@@ -498,11 +524,13 @@ exports[`python lockfile: requirements.txt > should match everything 1`] = `
   "python",
   "qdrant",
   "resend",
+  "sas",
   "segment",
   "stytch",
   "supabase",
   "supertokens",
   "swiftype",
+  "twitter",
   "withorb",
   "workos",
   "xai",
@@ -520,6 +548,11 @@ exports[`python lockfile: requirements.txt > should match everything 2`] = `
   [
     "python",
     "MergePythonSDK",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "PyGithub",
     "1.0.0",
   ],
   [
@@ -560,6 +593,11 @@ exports[`python lockfile: requirements.txt > should match everything 2`] = `
   [
     "python",
     "asana",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "boxsdk",
     "1.0.0",
   ],
   [
@@ -859,6 +897,11 @@ exports[`python lockfile: requirements.txt > should match everything 2`] = `
   ],
   [
     "python",
+    "sasviya",
+    "1.0.0",
+  ],
+  [
+    "python",
     "selenium",
     "1.0.0",
   ],
@@ -880,6 +923,11 @@ exports[`python lockfile: requirements.txt > should match everything 2`] = `
   [
     "python",
     "tensorflow",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "tweepy",
     "1.0.0",
   ],
   [

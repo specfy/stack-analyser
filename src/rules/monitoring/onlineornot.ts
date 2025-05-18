@@ -4,4 +4,5 @@ register({
   tech: 'onlineornot',
   name: 'OnlineOrNot',
   type: 'monitoring',
+  dependencies: [{ type: 'npm', name: 'onlineornot' }],
 });
