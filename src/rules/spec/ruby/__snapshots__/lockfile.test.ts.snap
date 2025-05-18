@@ -76,6 +76,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "elasticsearch",
   "fastly",
   "firebase",
+  "freshdesk",
   "fusionauth",
   "gcp",
   "gcp.aiplatform",
@@ -667,6 +668,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "fluent-plugin-prometheus",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "freshdesk_api",
     "1.0.0",
   ],
   [

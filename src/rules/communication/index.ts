@@ -1,5 +1,6 @@
 import './discord.js';
 import './facebook.js';
+import './freshdesk.js';
 import './intercom.js';
 import './mattermost.js';
 import './slack.js';

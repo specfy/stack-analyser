@@ -126,6 +126,7 @@ exports[`npm > should match everything 1`] = `
   "fastly",
   "figma",
   "firebase",
+  "freshdesk",
   "frontegg",
   "fusionauth",
   "gatsby",
@@ -2733,6 +2734,16 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "firebase",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "freshdesk",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "freshdesk-api",
     "0.0.0",
   ],
   [

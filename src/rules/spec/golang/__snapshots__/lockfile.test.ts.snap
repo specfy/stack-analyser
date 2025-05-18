@@ -61,6 +61,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "datadome",
   "elasticsearch",
   "firecrawl",
+  "freshdesk",
   "fusionauth",
   "gcp",
   "gcp.aiplatform",
@@ -625,6 +626,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/elastic/go-elasticsearch",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/freshdesk/freshdesk-go",
     "v1.0.0",
   ],
   [

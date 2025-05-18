@@ -20,6 +20,7 @@ exports[`python lockfile: pyproject.toml > should match everything 1`] = `
   "deepseek",
   "elasticsearch",
   "firecrawl",
+  "freshdesk",
   "frontegg",
   "fusionauth",
   "gcp",
@@ -196,6 +197,11 @@ exports[`python lockfile: pyproject.toml > should match everything 2`] = `
   [
     "python",
     "firecrawl-py",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "freshdesk",
     "1.0.0",
   ],
   [
@@ -461,6 +467,7 @@ exports[`python lockfile: requirements.txt > should match everything 1`] = `
   "deepseek",
   "elasticsearch",
   "firecrawl",
+  "freshdesk",
   "frontegg",
   "fusionauth",
   "gcp",
@@ -638,6 +645,11 @@ exports[`python lockfile: requirements.txt > should match everything 2`] = `
   [
     "python",
     "firecrawl-py",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "freshdesk",
     "1.0.0",
   ],
   [

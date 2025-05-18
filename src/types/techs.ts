@@ -239,6 +239,7 @@ export type AllowedKeys =
   | 'firecrawl'
   | 'flyio'
   | 'flyway'
+  | 'freshdesk'
   | 'frontegg'
   | 'fusionauth'
   | 'gatsby'
