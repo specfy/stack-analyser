@@ -82,7 +82,7 @@ export class Payload implements Analyser {
           for (const child of pl.childs) {
             this.addChild(child);
           }
-          this.combineDependencies(pl);
+          this.combine(pl);
         } else {
           ctx = pl;
           this.addChild(pl);

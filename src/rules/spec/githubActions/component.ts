@@ -66,13 +66,15 @@ export const detectGithubActionsComponent: ComponentMatcher = async (files, prov
     for (const [, config] of Object.entries(parsed.jobs)) {
       if (config.steps) {
         for (const step of config.steps) {
-          if (step.uses) {
-            const [name, version] = step.uses.split('@');
-            dependencies.push(['githubAction', name, version || 'latest']);
-            const matched = matchDependencies([name], 'githubAction');
-            if (matched.size > 0) {
-              pl.addTechs(matched);
-            }
+          if (!step.uses) {
+            continue;
+          }
+
+          const [name, version] = step.uses.split('@');
+          dependencies.push(['githubAction', name, version || 'latest']);
+          const matched = matchDependencies([name], 'githubAction');
+          if (matched.size > 0) {
+            pl.addTechs(matched);
           }
         }
       }

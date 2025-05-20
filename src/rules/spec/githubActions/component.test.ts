@@ -8,7 +8,7 @@ import { FakeProvider } from '../../../provider/fake.js';
 
 import '../../../autoload.js';
 
-describe('docker', () => {
+describe('githubActions', () => {
   it('should match all dependencies', async () => {
     const yml: string[] = [
       `name: Main
