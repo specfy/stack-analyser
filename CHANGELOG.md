@@ -1,3 +1,11 @@
+## [1.21.3](https://github.com/specfy/stack-analyser/compare/v1.21.2...v1.21.3) (2025-05-20)
+
+
+### Bug Fixes
+
+* bug when combining virtual payload and parent payload ([41302f1](https://github.com/specfy/stack-analyser/commit/41302f1b7fed798bf0d856183edd517ce75f9e52))
+* **rules:** add Fern ([191e8e5](https://github.com/specfy/stack-analyser/commit/191e8e59da283cc8478785a1b484006e675a2c87))
+
 ## [1.21.2](https://github.com/specfy/stack-analyser/compare/v1.21.1...v1.21.2) (2025-05-20)
 
 
