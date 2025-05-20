@@ -31,6 +31,10 @@ export class FakeProvider implements BaseProvider {
     );
   }
 
+  stat(): Promise<{ size: number }> {
+    return Promise.resolve({ size: 1000 });
+  }
+
   open(pathRelative: string): Promise<string> {
     if (!(pathRelative in this.files)) {
       throw new Error(`not found "${pathRelative}"`);

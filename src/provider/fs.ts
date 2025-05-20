@@ -4,6 +4,7 @@ import path from 'node:path';
 import { l } from '../common/log.js';
 
 import type { BaseProvider, ProviderFile } from './base.js';
+import type { Stats } from 'node:fs';
 
 export interface FSProviderOptions {
   path: string;
@@ -33,6 +34,16 @@ export class FSProvider implements BaseProvider {
     });
 
     return list;
+  }
+
+  async stat(pathRelative: string): Promise<null | Stats> {
+    try {
+      const content = await fs.stat(pathRelative);
+      return content;
+    } catch (err) {
+      l.error('Failed to stat file', { pathRelative, err });
+      return null;
+    }
   }
 
   async open(pathRelative: string): Promise<null | string> {
