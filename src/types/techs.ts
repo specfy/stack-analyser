@@ -148,6 +148,7 @@ export type AllowedKeys =
   | 'browserstack'
   | 'browseruse'
   | 'bugsnag'
+  | 'builtwithfern'
   | 'bundler'
   | 'bunsh'
   | 'bytebase'

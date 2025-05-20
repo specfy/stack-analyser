@@ -10,6 +10,7 @@ import './docusaurus.js';
 import './eleventy.js';
 import './emberjs.js';
 import './expojs.js';
+import './fern.js';
 import './gastby.js';
 import './gradio.js';
 import './gridsome.js';
