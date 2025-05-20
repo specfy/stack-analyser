@@ -1,3 +1,10 @@
+## [1.21.2](https://github.com/specfy/stack-analyser/compare/v1.21.1...v1.21.2) (2025-05-20)
+
+
+### Bug Fixes
+
+* do not try to open .tf files bigger than 500ko (could be binary) ([1849823](https://github.com/specfy/stack-analyser/commit/1849823190c283b63993693dd833b89338e03524))
+
 ## [1.21.1](https://github.com/specfy/stack-analyser/compare/v1.21.0...v1.21.1) (2025-05-18)
 
 
