@@ -5,6 +5,7 @@ import './aws.efs.js';
 import './aws.glacier.js';
 import './aws.s3.js';
 import './azure.storage.js';
+import './cloudflare.r2.js';
 import './gcp.artifactregistry.js';
 import './gcp.containerregistry.js';
 import './gcp.gcs.js';

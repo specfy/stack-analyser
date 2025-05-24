@@ -143,6 +143,7 @@ exports[`all > should match everything 1`] = `
   "cloudbees.codeship",
   "cloudflare",
   "cloudflare.pages",
+  "cloudflare.r2",
   "cloudflare.workers",
   "cockroachdb",
   "codeclimate",

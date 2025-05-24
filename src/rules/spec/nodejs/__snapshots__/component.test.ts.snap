@@ -98,6 +98,7 @@ exports[`npm > should match everything 1`] = `
   "clickhouse",
   "clicksend",
   "cloudflare",
+  "cloudflare.r2",
   "cloudflare.workers",
   "cohereai",
   "commercetools",
@@ -3202,6 +3203,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "ng-intercom",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "node-cloudflare-r2",
     "0.0.0",
   ],
   [

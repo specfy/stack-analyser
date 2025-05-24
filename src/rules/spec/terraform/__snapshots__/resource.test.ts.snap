@@ -56,6 +56,7 @@ exports[`terraform (resource) > should match everything 1`] = `
   "azure.storage",
   "cloudflare",
   "cloudflare.pages",
+  "cloudflare.r2",
   "cloudflare.workers",
   "datadog",
   "firebase",

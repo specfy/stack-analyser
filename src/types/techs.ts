@@ -172,6 +172,7 @@ export type AllowedKeys =
   | 'cloudbees.codeship'
   | 'cloudbees'
   | 'cloudflare.pages'
+  | 'cloudflare.r2'
   | 'cloudflare.workers'
   | 'cloudflare'
   | 'cockroachdb'
