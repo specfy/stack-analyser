@@ -86,6 +86,7 @@ export type AllowedKeys =
   | 'aws.codebuild'
   | 'aws.codepipeline'
   | 'aws.cognito'
+  | 'aws.comprehend'
   | 'aws.documentdb'
   | 'aws.dynamodb'
   | 'aws.ebs'

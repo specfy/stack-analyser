@@ -1,5 +1,6 @@
 import './anthropic.js';
 import './aws.bedrock.js';
+import './aws.comprehend.js';
 import './aws.rekognition.js';
 import './azure.openai.js';
 import './cohere.js';
