@@ -277,6 +277,7 @@ export type AllowedKeys =
   | 'gcp.sql'
   | 'gcp.tasks'
   | 'gcp.translate'
+  | 'gcp.vertex'
   | 'gcp.vision'
   | 'gcp'
   | 'geminiai'

@@ -3,6 +3,7 @@ import './aws.bedrock.js';
 import './azure.openai.js';
 import './cohere.js';
 import './deepseek.js';
+import './gcp.vertex.js';
 import './geminiai.js';
 import './groq.js';
 import './huggingface.js';

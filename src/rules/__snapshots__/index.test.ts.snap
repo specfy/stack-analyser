@@ -247,6 +247,7 @@ exports[`all > should match everything 1`] = `
   "gcp.sql",
   "gcp.tasks",
   "gcp.translate",
+  "gcp.vertex",
   "gcp.vision",
   "geminiai",
   "ghost",

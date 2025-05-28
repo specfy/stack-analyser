@@ -165,6 +165,7 @@ exports[`npm > should match everything 1`] = `
   "gcp.sql",
   "gcp.tasks",
   "gcp.translate",
+  "gcp.vertex",
   "gcp.vision",
   "geminiai",
   "ghost",
@@ -428,6 +429,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@ai-sdk/deepsek",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@ai-sdk/google-vertex",
     "0.0.0",
   ],
   [
@@ -1352,6 +1358,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@google-cloud/vertexai",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@google-cloud/vision",
     "0.0.0",
   ],
@@ -1453,6 +1464,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@langchain/deepsek",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@langchain/google-vertexai",
     "0.0.0",
   ],
   [
