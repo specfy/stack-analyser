@@ -5,7 +5,7 @@ import { nid } from '../common/nid.js';
 import { rulesComponents } from '../loader.js';
 import { matchAllFiles } from '../matchAllFiles.js';
 import { IGNORED_DIVE_PATHS } from '../provider/base.js';
-import { listIndexed, nameToKey } from '../register.js';
+import { listIndexed } from '../register.js';
 import { findHosting, findImplicitComponent } from './helpers.js';
 import { cleanPath } from '../tests/helpers.js';
 
@@ -210,10 +210,6 @@ export class Payload implements Analyser {
     }
 
     this.languages[name] += count;
-
-    if (name in nameToKey && !this.techs.has(nameToKey[name])) {
-      this.addTech(nameToKey[name], []);
-    }
   }
 
   /**

@@ -9,6 +9,7 @@ register({
     { type: 'npm', name: '@aws-cdk/aws-lambda' },
     { type: 'npm', name: '@types/aws-lambda' },
     { type: 'npm', name: '@aws-sdk/client-lambda' },
+    { type: 'npm', name: 'aws-lambda' },
     {
       type: 'docker',
       name: /^amazon\/aws-lambda/,
