@@ -1,9 +1,14 @@
 import './anthropic.js';
 import './aws.bedrock.js';
+import './aws.rekognition.js';
 import './azure.openai.js';
 import './cohere.js';
 import './deepseek.js';
+import './gcp.aiplatform.js';
+import './gcp.language.js';
+import './gcp.speech.js';
 import './gcp.vertex.js';
+import './gcp.vision.js';
 import './geminiai.js';
 import './groq.js';
 import './huggingface.js';

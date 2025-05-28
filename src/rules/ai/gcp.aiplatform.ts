@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'gcp.aiplatform',
   name: 'Cloud AI Platform',
-  type: 'api',
+  type: 'ai',
   dependencies: [
     { type: 'npm', name: '@google-cloud/aiplatform' },
     {
