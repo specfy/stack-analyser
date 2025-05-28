@@ -120,6 +120,7 @@ export type AllowedKeys =
   | 'aws.sns'
   | 'aws.sqs'
   | 'aws.timestream'
+  | 'aws.transcribe'
   | 'aws.translate'
   | 'aws'
   | 'azure.aks'

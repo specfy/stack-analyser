@@ -2,6 +2,7 @@ import './anthropic.js';
 import './aws.bedrock.js';
 import './aws.comprehend.js';
 import './aws.rekognition.js';
+import './aws.transcribe.js';
 import './azure.openai.js';
 import './cohere.js';
 import './deepseek.js';

@@ -91,6 +91,7 @@ exports[`all > should match everything 1`] = `
   "aws.sns",
   "aws.sqs",
   "aws.timestream",
+  "aws.transcribe",
   "aws.translate",
   "azure",
   "azure.aks",
