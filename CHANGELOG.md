@@ -1,3 +1,23 @@
+# [1.22.0](https://github.com/specfy/stack-analyser/compare/v1.21.3...v1.22.0) (2025-05-28)
+
+
+### Bug Fixes
+
+* do not detect tech from languages, too many false positive ([50a8fa2](https://github.com/specfy/stack-analyser/commit/50a8fa23baad0b7e0183140093621e0a80da1d23))
+* **rules:** add AWS Comprehend ([7cdc52a](https://github.com/specfy/stack-analyser/commit/7cdc52a3762d526fa56cb1372be1135d18539676))
+* **rules:** add AWS Transcribe ([802b3c2](https://github.com/specfy/stack-analyser/commit/802b3c2dcdb33f98bfe3b9c39846a328393b1796))
+* **rules:** add Cloudflare R2 ([e6e95d9](https://github.com/specfy/stack-analyser/commit/e6e95d98810854149c68c743016b654cd0c4cf16))
+* **rules:** add GCP Vertex ([378ea35](https://github.com/specfy/stack-analyser/commit/378ea35080cddce9f5e6e6af61f03777661aa2ef))
+* **rules:** add Properlauth ([fdfd064](https://github.com/specfy/stack-analyser/commit/fdfd064dfbd501ca18793d56a014273fbaff084b))
+* **rules:** add Reddit ([77d3935](https://github.com/specfy/stack-analyser/commit/77d3935680f5967a1810939b4aace4912e15272d))
+* **rules:** add Twitch ([3240fe9](https://github.com/specfy/stack-analyser/commit/3240fe9b0bd482061e973f70fc49edd834389a46))
+
+
+### Features
+
+* experimental license extraction ([47778de](https://github.com/specfy/stack-analyser/commit/47778de0776a44042d64a0b4fa150d954ab57a7c))
+* **rules:** change category for some AI apis ([6952928](https://github.com/specfy/stack-analyser/commit/695292809849d4ed37731be628d5ed27209527d4))
+
 ## [1.21.3](https://github.com/specfy/stack-analyser/compare/v1.21.2...v1.21.3) (2025-05-20)
 
 
