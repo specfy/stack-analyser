@@ -283,6 +283,7 @@ exports[`npm > should match everything 1`] = `
   "railway",
   "react",
   "reactemail",
+  "reddit",
   "redis",
   "redwoodjs",
   "refinedev",
@@ -3667,6 +3668,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "shopify-api-node",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "snoowrap",
     "0.0.0",
   ],
   [

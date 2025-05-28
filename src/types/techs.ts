@@ -477,6 +477,7 @@ export type AllowedKeys =
   | 'react'
   | 'reactemail'
   | 'readthedocs'
+  | 'reddit'
   | 'redis'
   | 'redwoodjs'
   | 'refinedev'
