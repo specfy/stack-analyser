@@ -2253,6 +2253,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@tauri-apps",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@tdengine/client",
     "0.0.0",
   ],

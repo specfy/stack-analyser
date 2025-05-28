@@ -528,6 +528,7 @@ exports[`all > should match everything 1`] = `
   "tailscale",
   "tailwind",
   "tanstackstart",
+  "tauri",
   "tdengine",
   "teamcity",
   "teamspeak",

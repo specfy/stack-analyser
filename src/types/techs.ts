@@ -562,6 +562,7 @@ export type AllowedKeys =
   | 'tailscale'
   | 'tailwind'
   | 'tanstackstart'
+  | 'tauri'
   | 'tdengine'
   | 'teamcity'
   | 'teamspeak'

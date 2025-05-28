@@ -34,5 +34,6 @@ import './shopify.hydrogen.js';
 import './solidjs.js';
 import './symfony.js';
 import './tanstackstart.js';
+import './tauri.js';
 import './wasp.js';
 import './yii2.js';
