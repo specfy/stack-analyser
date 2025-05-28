@@ -1,6 +1,7 @@
 import { l } from '../../../common/log.js';
 import { matchDependencies } from '../../../matchDependencies.js';
 import { Payload } from '../../../payload/index.js';
+import { detectLicense } from '../licenses/index.js';
 
 import type { Analyser } from '../../../types/index.js';
 import type { ComponentMatcher } from '../../../types/rule.js';
@@ -48,6 +49,13 @@ export const detectNodeComponent: ComponentMatcher = async (files, provider) => 
       dependencies: depsFlatten,
     });
     pl.addTechs(techs);
+
+    if (json.license && typeof json.license === 'string') {
+      const lic = detectLicense(json.license);
+      if (lic !== false) {
+        pl.addLicenses(lic);
+      }
+    }
 
     return pl;
   }

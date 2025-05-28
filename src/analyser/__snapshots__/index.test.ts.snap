@@ -16,6 +16,7 @@ exports[`analyser > should register only component of the same tech 1`] = `
       "id": "3",
       "inComponent": null,
       "languages": {},
+      "licenses": [],
       "name": "db",
       "path": [
         "/docker-compose.yml",
@@ -49,6 +50,7 @@ exports[`analyser > should register only component of the same tech 1`] = `
         "JSON": 1,
         "YAML": 1,
       },
+      "licenses": [],
       "name": "test",
       "path": [
         "/package.json",
@@ -81,6 +83,7 @@ exports[`analyser > should register only component of the same tech 1`] = `
     "JSON": 2,
     "YAML": 2,
   },
+  "licenses": [],
   "name": "flatten",
   "path": [
     "/",
@@ -113,6 +116,7 @@ exports[`analyser > should run correctly 1`] = `
       "id": "9",
       "inComponent": null,
       "languages": {},
+      "licenses": [],
       "name": "db",
       "path": [
         "/docker-compose.yml",
@@ -134,6 +138,7 @@ exports[`analyser > should run correctly 1`] = `
               "id": "23",
               "inComponent": null,
               "languages": {},
+              "licenses": [],
               "name": "Datadog",
               "path": [
                 "/pkgs/api/package.json",
@@ -179,6 +184,9 @@ exports[`analyser > should run correctly 1`] = `
           "languages": {
             "JSON": 1,
           },
+          "licenses": [
+            "AGPL-3.0-only",
+          ],
           "name": "@fake/api",
           "path": [
             "/pkgs/api/package.json",
@@ -208,6 +216,7 @@ exports[`analyser > should run correctly 1`] = `
               "id": "25",
               "inComponent": null,
               "languages": {},
+              "licenses": [],
               "name": "Vercel",
               "path": [
                 "/pkgs/app/package.json",
@@ -249,6 +258,9 @@ exports[`analyser > should run correctly 1`] = `
             "JSON": 1,
             "SCSS": 1,
           },
+          "licenses": [
+            "GPL-2.0-only",
+          ],
           "name": "@fake/app",
           "path": [
             "/pkgs/app/package.json",
@@ -284,6 +296,7 @@ exports[`analyser > should run correctly 1`] = `
           "id": "29",
           "inComponent": null,
           "languages": {},
+          "licenses": [],
           "name": "GCP",
           "path": [
             "/terraform/.terraform.lock.hcl",
@@ -301,6 +314,7 @@ exports[`analyser > should run correctly 1`] = `
           "id": "13",
           "inComponent": null,
           "languages": {},
+          "licenses": [],
           "name": "GitHub",
           "path": [
             "/package.json",
@@ -318,6 +332,7 @@ exports[`analyser > should run correctly 1`] = `
           "id": "16",
           "inComponent": null,
           "languages": {},
+          "licenses": [],
           "name": "Postgres",
           "path": [
             "/deno/deno.lock",
@@ -341,6 +356,7 @@ exports[`analyser > should run correctly 1`] = `
           "id": "30",
           "inComponent": null,
           "languages": {},
+          "licenses": [],
           "name": "Vercel",
           "path": [
             "/terraform/.terraform.lock.hcl",
@@ -366,6 +382,9 @@ exports[`analyser > should run correctly 1`] = `
           "languages": {
             "TOML": 1,
           },
+          "licenses": [
+            "MIT",
+          ],
           "name": "rust-server",
           "path": [
             "/rust/Cargo.toml",
@@ -388,6 +407,7 @@ exports[`analyser > should run correctly 1`] = `
           "languages": {
             "Go": 1,
           },
+          "licenses": [],
           "name": "server",
           "path": [
             "/golang/cmd/server/main.go",
@@ -409,6 +429,7 @@ exports[`analyser > should run correctly 1`] = `
               "id": "21",
               "inComponent": null,
               "languages": {},
+              "licenses": [],
               "name": "Algolia",
               "path": [
                 "/php/composer.json",
@@ -426,6 +447,7 @@ exports[`analyser > should run correctly 1`] = `
               "id": "20",
               "inComponent": null,
               "languages": {},
+              "licenses": [],
               "name": "Redis",
               "path": [
                 "/php/composer.json",
@@ -636,6 +658,9 @@ exports[`analyser > should run correctly 1`] = `
           "languages": {
             "JSON": 1,
           },
+          "licenses": [
+            "MIT",
+          ],
           "name": "symfony/translation",
           "path": [
             "/php/composer.json",
@@ -750,6 +775,9 @@ exports[`analyser > should run correctly 1`] = `
         "JSON": 1,
         "YAML": 3,
       },
+      "licenses": [
+        "ISC",
+      ],
       "name": "fake",
       "path": [
         "/package.json",
@@ -803,6 +831,7 @@ exports[`analyser > should run correctly 1`] = `
       "id": "10",
       "inComponent": null,
       "languages": {},
+      "licenses": [],
       "name": "redis",
       "path": [
         "/docker-compose.yml",
@@ -826,6 +855,7 @@ exports[`analyser > should run correctly 1`] = `
       "id": "11",
       "inComponent": null,
       "languages": {},
+      "licenses": [],
       "name": "unknown",
       "path": [
         "/docker-compose.yml",
@@ -842,6 +872,7 @@ exports[`analyser > should run correctly 1`] = `
   "id": "7",
   "inComponent": null,
   "languages": {},
+  "licenses": [],
   "name": "main",
   "path": [
     "/",
@@ -892,6 +923,9 @@ exports[`analyser > should run correctly 2`] = `
       "languages": {
         "JSON": 1,
       },
+      "licenses": [
+        "AGPL-3.0-only",
+      ],
       "name": "@fake/api",
       "path": [
         "/pkgs/api/package.json",
@@ -944,6 +978,9 @@ exports[`analyser > should run correctly 2`] = `
         "JSON": 1,
         "SCSS": 1,
       },
+      "licenses": [
+        "GPL-2.0-only",
+      ],
       "name": "@fake/app",
       "path": [
         "/pkgs/app/package.json",
@@ -966,6 +1003,7 @@ exports[`analyser > should run correctly 2`] = `
       "id": "21",
       "inComponent": null,
       "languages": {},
+      "licenses": [],
       "name": "Algolia",
       "path": [
         "/php/composer.json",
@@ -981,6 +1019,7 @@ exports[`analyser > should run correctly 2`] = `
       "id": "23",
       "inComponent": null,
       "languages": {},
+      "licenses": [],
       "name": "Datadog",
       "path": [
         "/pkgs/api/package.json",
@@ -1002,6 +1041,7 @@ exports[`analyser > should run correctly 2`] = `
       "id": "29",
       "inComponent": null,
       "languages": {},
+      "licenses": [],
       "name": "GCP",
       "path": [
         "/terraform/.terraform.lock.hcl",
@@ -1017,6 +1057,7 @@ exports[`analyser > should run correctly 2`] = `
       "id": "13",
       "inComponent": null,
       "languages": {},
+      "licenses": [],
       "name": "GitHub",
       "path": [
         "/package.json",
@@ -1038,6 +1079,7 @@ exports[`analyser > should run correctly 2`] = `
       "id": "25",
       "inComponent": null,
       "languages": {},
+      "licenses": [],
       "name": "Vercel",
       "path": [
         "/pkgs/app/package.json",
@@ -1062,6 +1104,7 @@ exports[`analyser > should run correctly 2`] = `
       "id": "9",
       "inComponent": null,
       "languages": {},
+      "licenses": [],
       "name": "db",
       "path": [
         "/docker-compose.yml",
@@ -1171,6 +1214,9 @@ exports[`analyser > should run correctly 2`] = `
         "TOML": 1,
         "YAML": 3,
       },
+      "licenses": [
+        "ISC",
+      ],
       "name": "fake",
       "path": [
         "/package.json",
@@ -1212,6 +1258,7 @@ exports[`analyser > should run correctly 2`] = `
       "id": "10",
       "inComponent": null,
       "languages": {},
+      "licenses": [],
       "name": "redis",
       "path": [
         "/docker-compose.yml",
@@ -1238,6 +1285,9 @@ exports[`analyser > should run correctly 2`] = `
       "languages": {
         "TOML": 1,
       },
+      "licenses": [
+        "MIT",
+      ],
       "name": "rust-server",
       "path": [
         "/rust/Cargo.toml",
@@ -1258,6 +1308,7 @@ exports[`analyser > should run correctly 2`] = `
       "languages": {
         "Go": 1,
       },
+      "licenses": [],
       "name": "server",
       "path": [
         "/golang/cmd/server/main.go",
@@ -1469,6 +1520,9 @@ exports[`analyser > should run correctly 2`] = `
       "languages": {
         "JSON": 1,
       },
+      "licenses": [
+        "MIT",
+      ],
       "name": "symfony/translation",
       "path": [
         "/php/composer.json",
@@ -1497,6 +1551,7 @@ exports[`analyser > should run correctly 2`] = `
       "id": "11",
       "inComponent": null,
       "languages": {},
+      "licenses": [],
       "name": "unknown",
       "path": [
         "/docker-compose.yml",
@@ -1831,6 +1886,12 @@ exports[`analyser > should run correctly 2`] = `
     "TOML": 3,
     "YAML": 6,
   },
+  "licenses": [
+    "MIT",
+    "AGPL-3.0-only",
+    "GPL-2.0-only",
+    "ISC",
+  ],
   "name": "flatten",
   "path": [
     "/",

@@ -3,6 +3,7 @@ import toml from '@iarna/toml';
 import { l } from '../../../common/log.js';
 import { matchDependencies } from '../../../matchDependencies.js';
 import { Payload } from '../../../payload/index.js';
+import { detectLicense } from '../licenses/index.js';
 
 import type { Analyser } from '../../../types/index.js';
 import type { ComponentMatcher } from '../../../types/rule.js';
@@ -26,6 +27,7 @@ type Dependency =
 interface RustCargo {
   package?: {
     name: string;
+    license?: string;
   };
   dependencies: Record<string, Dependency>;
   'dev-dependencies'?: Record<string, Dependency>;
@@ -86,6 +88,13 @@ export const detectRustComponent: ComponentMatcher = async (files, provider) => 
     pl.addTechs(techs);
     pl.addTech('cargo', ['matched file: Cargo.toml']);
     pl.dependencies = depsFlatten;
+
+    if (json.package?.license) {
+      const lic = detectLicense(json.package.license);
+      if (lic !== false) {
+        pl.addLicenses(lic);
+      }
+    }
 
     return pl;
   }

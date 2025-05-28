@@ -2,6 +2,7 @@
   "name": "@fake/app",
   "version": "1.0.0",
   "type": "module",
+  "license": "GPL-2.0-only",
   "devDependencies": {
     "@fake/api": "1.0.0",
     "react": "4.17.0",

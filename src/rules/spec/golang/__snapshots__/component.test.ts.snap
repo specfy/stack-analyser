@@ -12,6 +12,7 @@ exports[`golang > should match a service 1`] = `
       "languages": {
         "Go": 1,
       },
+      "licenses": [],
       "name": "server",
       "path": [
         "/cmd/server/main.go",
@@ -28,6 +29,7 @@ exports[`golang > should match a service 1`] = `
   "id": "",
   "inComponent": "",
   "languages": {},
+  "licenses": [],
   "name": "flatten",
   "path": [
     "/",

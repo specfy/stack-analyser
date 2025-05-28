@@ -54,4 +54,26 @@ describe('npm', () => {
 
     expect([...flatten(res, { merge: true }).techs].sort()).toStrictEqual(match);
   });
+
+  it('should match license', async () => {
+    const packageJson = {
+      name: 'test',
+      license: 'MIT',
+    };
+
+    const res = await analyser({
+      provider: new FakeProvider({
+        paths: {
+          '/': ['package.json'],
+        },
+        files: {
+          '/package.json': JSON.stringify(packageJson),
+        },
+      }),
+    });
+
+    const merged = flatten(res, { merge: true });
+
+    expect([...merged.licenses.values()]).toStrictEqual(['MIT']);
+  });
 });

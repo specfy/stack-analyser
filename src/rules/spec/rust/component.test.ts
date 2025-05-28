@@ -78,4 +78,29 @@ foobar = "^1.0.0"
 
     expect([...merged.dependencies].sort()).toMatchSnapshot();
   });
+
+  it('should match license', async () => {
+    const lockfile: string[] = [
+      `[package]
+name = "svix-server"
+version = "1.8.0"
+license = "Apache-2.0"
+`,
+    ];
+
+    const res = await analyser({
+      provider: new FakeProvider({
+        paths: {
+          '/': ['Cargo.toml'],
+        },
+        files: {
+          '/Cargo.toml': lockfile.join(''),
+        },
+      }),
+    });
+
+    const merged = flatten(res, { merge: true });
+
+    expect([...merged.licenses.values()]).toStrictEqual(['Apache-2.0']);
+  });
 });

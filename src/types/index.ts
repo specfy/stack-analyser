@@ -1,3 +1,4 @@
+import type { AllowedLicenses } from './licenses.js';
 import type { SupportedDeps } from './rule.js';
 import type { AllowedKeys } from './techs.js';
 import type { Modify } from './utils.js';
@@ -58,6 +59,12 @@ export interface Analyser {
   languages: Record<string, number>;
 
   /**
+   * List all languages found in this folder.
+   * This list is computed using file extensions.
+   */
+  licenses: Set<AllowedLicenses>;
+
+  /**
    * List all relationship from this Payload to another one.
    * e.g:
    * this is a package.json and we found a Postgresql at the same level,
@@ -77,6 +84,7 @@ export type AnalyserJson = Modify<
     childs: AnalyserJson[];
     path: string[];
     techs: AllowedKeys[];
+    licenses: AllowedLicenses[];
     inComponent: null | string;
     edges: Modify<GraphEdge, { target: string }>[];
     reason: string[];

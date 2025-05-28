@@ -109,4 +109,26 @@ line-length = 130
     expect([...merged.techs].sort()).toMatchSnapshot();
     expect([...merged.dependencies].sort()).toMatchSnapshot();
   });
+
+  it('should match license', async () => {
+    const lockfile = `[project]
+name = "test"
+license = "ISC"
+`;
+
+    const res = await analyser({
+      provider: new FakeProvider({
+        paths: {
+          '/': ['pyproject.toml'],
+        },
+        files: {
+          '/pyproject.toml': lockfile,
+        },
+      }),
+    });
+
+    const merged = flatten(res, { merge: true });
+
+    expect([...merged.licenses.values()]).toStrictEqual(['ISC']);
+  });
 });

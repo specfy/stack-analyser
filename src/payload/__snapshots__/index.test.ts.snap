@@ -10,6 +10,7 @@ exports[`payload > should detect nested dependencies 1`] = `
       "id": "2",
       "inComponent": null,
       "languages": {},
+      "licenses": [],
       "name": "GCP",
       "path": [
         "/",
@@ -27,6 +28,7 @@ exports[`payload > should detect nested dependencies 1`] = `
       "id": "1",
       "inComponent": "2",
       "languages": {},
+      "licenses": [],
       "name": "PubSub",
       "path": [
         "/",
@@ -41,6 +43,7 @@ exports[`payload > should detect nested dependencies 1`] = `
   "id": "0",
   "inComponent": null,
   "languages": {},
+  "licenses": [],
   "name": "root",
   "path": [
     "/",

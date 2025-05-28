@@ -56,4 +56,26 @@ describe('php', () => {
 
     expect([...flatten(res, { merge: true }).techs].sort()).toStrictEqual(match);
   });
+
+  it('should match license', async () => {
+    const composerJson: ComposerJson = {
+      name: 'test',
+      license: 'MIT',
+    };
+
+    const res = await analyser({
+      provider: new FakeProvider({
+        paths: {
+          '/': ['composer.json'],
+        },
+        files: {
+          '/composer.json': JSON.stringify(composerJson),
+        },
+      }),
+    });
+
+    const merged = flatten(res, { merge: true });
+
+    expect([...merged.licenses.values()]).toStrictEqual(['MIT']);
+  });
 });

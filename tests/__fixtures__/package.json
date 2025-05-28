@@ -2,6 +2,7 @@
   "name": "fake",
   "version": "1.0.0",
   "type": "module",
+  "license": "ISC",
   "workspaces": [
     "pkgs/app",
     "pkgs/api"

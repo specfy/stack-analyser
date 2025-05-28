@@ -10,6 +10,7 @@ Payload {
       "id": "2",
       "inComponent": null,
       "languages": {},
+      "licenses": Set {},
       "name": "2",
       "parent": undefined,
       "path": Set {
@@ -38,6 +39,7 @@ Payload {
             "id": "2",
             "inComponent": null,
             "languages": {},
+            "licenses": Set {},
             "name": "2",
             "parent": undefined,
             "path": Set {
@@ -53,6 +55,7 @@ Payload {
       "id": "3",
       "inComponent": null,
       "languages": {},
+      "licenses": Set {},
       "name": "3",
       "parent": undefined,
       "path": Set {
@@ -68,6 +71,7 @@ Payload {
   "id": "1",
   "inComponent": null,
   "languages": {},
+  "licenses": Set {},
   "name": "main",
   "parent": undefined,
   "path": Set {
@@ -95,6 +99,7 @@ exports[`flatten > should flatten and merge dependencies 1`] = `
       "id": "2",
       "inComponent": null,
       "languages": {},
+      "licenses": [],
       "name": "2",
       "path": [
         "/",
@@ -116,6 +121,7 @@ exports[`flatten > should flatten and merge dependencies 1`] = `
       "id": "3",
       "inComponent": null,
       "languages": {},
+      "licenses": [],
       "name": "3",
       "path": [
         "/",
@@ -141,6 +147,7 @@ exports[`flatten > should flatten and merge dependencies 1`] = `
   "id": "new",
   "inComponent": null,
   "languages": {},
+  "licenses": [],
   "name": "flatten",
   "path": [
     "/",
@@ -162,6 +169,7 @@ exports[`flatten > should flatten and merge host 1`] = `
       "id": "2",
       "inComponent": "4",
       "languages": {},
+      "licenses": [],
       "name": "2",
       "path": [
         "/",
@@ -177,6 +185,7 @@ exports[`flatten > should flatten and merge host 1`] = `
       "id": "4",
       "inComponent": null,
       "languages": {},
+      "licenses": [],
       "name": "4",
       "path": [
         "/",
@@ -194,6 +203,7 @@ exports[`flatten > should flatten and merge host 1`] = `
       "id": "6",
       "inComponent": "4",
       "languages": {},
+      "licenses": [],
       "name": "6",
       "path": [
         "/",
@@ -208,6 +218,7 @@ exports[`flatten > should flatten and merge host 1`] = `
   "id": "new",
   "inComponent": null,
   "languages": {},
+  "licenses": [],
   "name": "flatten",
   "path": [
     "/",
@@ -231,6 +242,7 @@ exports[`flatten > should flatten but not merge 1`] = `
       "id": "2",
       "inComponent": "4",
       "languages": {},
+      "licenses": [],
       "name": "2",
       "path": [
         "/",
@@ -246,6 +258,7 @@ exports[`flatten > should flatten but not merge 1`] = `
       "id": "4",
       "inComponent": null,
       "languages": {},
+      "licenses": [],
       "name": "4",
       "path": [
         "/",
@@ -263,6 +276,7 @@ exports[`flatten > should flatten but not merge 1`] = `
       "id": "6",
       "inComponent": "4",
       "languages": {},
+      "licenses": [],
       "name": "6",
       "path": [
         "/",
@@ -277,6 +291,7 @@ exports[`flatten > should flatten but not merge 1`] = `
   "id": "new",
   "inComponent": null,
   "languages": {},
+  "licenses": [],
   "name": "flatten",
   "path": [
     "/",

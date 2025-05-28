@@ -1,6 +1,7 @@
 import { l } from '../../../common/log.js';
 import { matchDependencies } from '../../../matchDependencies.js';
 import { Payload } from '../../../payload/index.js';
+import { detectLicense } from '../licenses/index.js';
 
 import type { Analyser } from '../../../types/index.js';
 import type { ComponentMatcher } from '../../../types/rule.js';
@@ -9,6 +10,7 @@ const FILES = new Set(['composer.json']);
 
 export interface ComposerJson {
   name: string;
+  license?: string;
   require?: Record<string, string>;
   'require-dev'?: Record<string, string>;
 }
@@ -54,6 +56,13 @@ export const detectPhpComponent: ComponentMatcher = async (files, provider) => {
     });
     pl.addTech('phpcomposer', ['matched file: composer.json']);
     pl.addTechs(techs);
+
+    if (json.license) {
+      const lic = detectLicense(json.license);
+      if (lic !== false) {
+        pl.addLicenses(lic);
+      }
+    }
 
     return pl;
   }

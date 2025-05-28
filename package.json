@@ -30,6 +30,7 @@
   },
   "devDependencies": {
     "@types/node": "20.17.16",
+    "@types/spdx-expression-parse": "3.0.5",
     "@h1fra/eslint-config": "1.0.12",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
@@ -50,6 +51,7 @@
     "kleur": "4.1.5",
     "nanoid": "5.1.5",
     "ora": "7.0.1",
+    "spdx-expression-parse": "4.0.0",
     "yaml": "2.7.0"
   }
 }

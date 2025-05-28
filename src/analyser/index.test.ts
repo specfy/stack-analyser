@@ -51,6 +51,7 @@ describe('analyser', () => {
       tech: null,
       techs: [],
       childs: [],
+      licenses: [],
       dependencies: [],
       reason: [],
     });

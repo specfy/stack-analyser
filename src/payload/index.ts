@@ -11,6 +11,7 @@ import { cleanPath } from '../tests/helpers.js';
 
 import type { BaseProvider } from '../provider/base.js';
 import type { Analyser, AnalyserJson, Dependency } from '../types/index.js';
+import type { AllowedLicenses } from '../types/licenses.js';
 import type { AllowedKeys } from '../types/techs.js';
 
 export class Payload implements Analyser {
@@ -19,6 +20,7 @@ export class Payload implements Analyser {
   public path;
   public tech;
   public languages: Analyser['languages'];
+  public licenses: Analyser['licenses'];
   public childs: Analyser['childs'];
   public techs: Analyser['techs'];
   public inComponent: Analyser['inComponent'];
@@ -52,6 +54,7 @@ export class Payload implements Analyser {
     this.childs = [];
     this.techs = new Set();
     this.languages = {};
+    this.licenses = new Set();
     this.dependencies = dependencies || [];
     this.reason = Array.isArray(reason)
       ? new Set(reason)
@@ -229,6 +232,15 @@ export class Payload implements Analyser {
     }
   }
 
+  /**
+   * Helper to add a licence entry
+   */
+  public addLicenses(names: Set<AllowedLicenses>): void {
+    for (const name of names) {
+      this.licenses.add(name);
+    }
+  }
+
   combineDependencies(pl: Payload): void {
     // Merge dependencies
     const dedup = new Map<string, Dependency>();
@@ -253,9 +265,14 @@ export class Payload implements Analyser {
       this.addLang(lang, count);
     }
 
-    for (const tech of pl.techs) this.techs.add(tech);
+    for (const tech of pl.techs) {
+      this.techs.add(tech);
+    }
     if (pl.tech) {
       this.techs.add(pl.tech);
+    }
+    for (const licence of pl.licenses) {
+      this.licenses.add(licence);
     }
   }
 
@@ -277,6 +294,7 @@ export class Payload implements Analyser {
     cp.edges = this.edges;
     cp.path = this.path;
     cp.languages = this.languages;
+    cp.licenses = new Set(this.licenses);
     cp.childs = this.childs;
 
     return cp;
@@ -309,6 +327,7 @@ export class Payload implements Analyser {
         }),
       techs: [...this.techs].sort(),
       languages: this.languages,
+      licenses: [...this.licenses.values()],
       dependencies: this.dependencies,
       reason: [...this.reason.values()],
     };

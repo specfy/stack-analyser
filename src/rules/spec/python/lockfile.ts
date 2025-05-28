@@ -5,6 +5,7 @@ import toml from '@iarna/toml';
 import { l } from '../../../common/log.js';
 import { matchDependencies } from '../../../matchDependencies.js';
 import { Payload } from '../../../payload/index.js';
+import { detectLicense } from '../licenses/index.js';
 
 import type { ProviderFile } from '../../../provider/base.js';
 import type { Dependency } from '../../../types/index.js';
@@ -16,6 +17,7 @@ const lineReg = /(^([a-zA-Z0-9._-]+)$|^([a-zA-Z0-9._-]+)(([>=]+)([0-9.]+)))/;
 
 interface Pyproject {
   project?: {
+    license?: { file?: string; text?: string } | string;
     dependencies?: string[];
   };
 }
@@ -104,41 +106,49 @@ export function parsePyproject({
   try {
     json = toml.parse(content) as unknown as Pyproject;
   } catch (err) {
-    l.warn('Failed to parse Cargo.toml', file.fp, err);
+    l.warn('Failed to parse pyproject.toml', file.fp, err);
     return false;
   }
 
-  if (
-    !('project' in json) ||
-    !json.project ||
-    !('dependencies' in json.project) ||
-    !json.project.dependencies
-  ) {
+  if (!('project' in json) || !json.project) {
     return false;
   }
 
-  const dependencies: Dependency[] = [];
-  for (const dep of json.project.dependencies) {
-    const match = dep.match(lineReg);
-    if (!match) {
-      continue;
+  const prj = json.project;
+  if ('license' in prj) {
+    const tmp = typeof prj.license === 'string' ? prj.license : prj.license?.text;
+    if (tmp) {
+      const lic = detectLicense(tmp);
+      if (lic !== false) {
+        pl.addLicenses(lic);
+      }
     }
-
-    const name = match[2] || match[3];
-    const version = match[6] || 'latest';
-    if (!name) {
-      continue;
-    }
-
-    dependencies.push(['python', name, version || 'latest']);
-    const matched = matchDependencies([name], 'python');
-    if (matched.size <= 0) {
-      continue;
-    }
-
-    pl.addTechs(matched);
   }
 
-  pl.dependencies = [...dependencies];
+  if (prj.dependencies) {
+    const dependencies: Dependency[] = [];
+    for (const dep of prj.dependencies) {
+      const match = dep.match(lineReg);
+      if (!match) {
+        continue;
+      }
+
+      const name = match[2] || match[3];
+      const version = match[6] || 'latest';
+      if (!name) {
+        continue;
+      }
+
+      dependencies.push(['python', name, version || 'latest']);
+      const matched = matchDependencies([name], 'python');
+      if (matched.size <= 0) {
+        continue;
+      }
+
+      pl.addTechs(matched);
+    }
+
+    pl.dependencies = [...dependencies];
+  }
   return true;
 }
