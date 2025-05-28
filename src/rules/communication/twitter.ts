@@ -7,5 +7,6 @@ register({
   dependencies: [
     { type: 'npm', name: 'twitter-api-v2' },
     { type: 'python', name: 'tweepy' },
+    { type: 'npm', name: 'passport-twitter' },
   ],
 });

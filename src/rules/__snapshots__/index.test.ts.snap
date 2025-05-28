@@ -548,6 +548,7 @@ exports[`all > should match everything 1`] = `
   "twentycrm",
   "twigphp",
   "twilio",
+  "twitch",
   "twitter",
   "typeorm",
   "typescript",

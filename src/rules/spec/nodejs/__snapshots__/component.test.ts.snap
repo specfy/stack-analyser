@@ -343,6 +343,7 @@ exports[`npm > should match everything 1`] = `
   "tiptap",
   "turborepo",
   "twilio",
+  "twitch",
   "twitter",
   "typeorm",
   "typescript",
@@ -2925,6 +2926,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "google-auth-library",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "google-translate-api-browser",
     "0.0.0",
   ],
@@ -3375,6 +3381,31 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "passport-facebook",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "passport-google-oauth",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "passport-google-oauth20",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "passport-twitch-strategy",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "passport-twitter",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "payload",
     "0.0.0",
   ],
@@ -3736,6 +3767,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "thrift",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "tmi.js",
     "0.0.0",
   ],
   [

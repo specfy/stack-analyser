@@ -6,6 +6,7 @@ import './intercom.js';
 import './mattermost.js';
 import './slack.js';
 import './telegram.js';
+import './twitch.js';
 import './twitter.js';
 import './zendesk.js';
 import './zoom.js';

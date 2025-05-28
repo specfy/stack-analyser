@@ -4,5 +4,8 @@ register({
   tech: 'facebook',
   name: 'Facebook',
   type: 'communication',
-  dependencies: [{ type: 'npm', name: 'facebook-nodejs-business-sdk' }],
+  dependencies: [
+    { type: 'npm', name: 'facebook-nodejs-business-sdk' },
+    { type: 'npm', name: 'passport-facebook' },
+  ],
 });

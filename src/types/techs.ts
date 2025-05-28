@@ -582,6 +582,7 @@ export type AllowedKeys =
   | 'twentycrm'
   | 'twigphp'
   | 'twilio'
+  | 'twitch'
   | 'twitter'
   | 'typeorm'
   | 'typescript'
