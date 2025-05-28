@@ -54,6 +54,7 @@ exports[`python lockfile: pyproject.toml > should match everything 1`] = `
   "pinecone",
   "playwright",
   "posthog",
+  "propelauth",
   "pulumi",
   "pytorch",
   "qdrant",
@@ -395,6 +396,11 @@ exports[`python lockfile: pyproject.toml > should match everything 2`] = `
   ],
   [
     "python",
+    "propelauth_fastapi",
+    "1.0.0",
+  ],
+  [
+    "python",
     "pulumi",
     "1.0.0",
   ],
@@ -535,6 +541,7 @@ exports[`python lockfile: requirements.txt > should match everything 1`] = `
   "pinecone",
   "playwright",
   "posthog",
+  "propelauth",
   "pulumi",
   "python",
   "pytorch",
@@ -873,6 +880,11 @@ exports[`python lockfile: requirements.txt > should match everything 2`] = `
   [
     "python",
     "posthog",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "propelauth_fastapi",
     "1.0.0",
   ],
   [

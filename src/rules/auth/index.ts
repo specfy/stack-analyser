@@ -9,6 +9,7 @@ import './kinde.js';
 import './logto.js';
 import './okta.js';
 import './orysh.js';
+import './properlauth.js';
 import './stytch.js';
 import './supabase.auth.js';
 import './supertokens.js';

@@ -128,6 +128,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "plausible",
   "posthog",
   "prometheus",
+  "propelauth",
   "pulumi",
   "qdrant",
   "qovery",
@@ -825,6 +826,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/prometheus/client_golang/prometheus",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/propelauth/propelauth-go",
     "v1.0.0",
   ],
   [

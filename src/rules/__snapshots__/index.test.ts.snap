@@ -423,6 +423,7 @@ exports[`all > should match everything 1`] = `
   "prisma",
   "prismacloud",
   "prometheus",
+  "propelauth",
   "pulumi",
   "puppeteer",
   "python",
