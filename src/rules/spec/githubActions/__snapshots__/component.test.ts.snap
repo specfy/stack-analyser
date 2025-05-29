@@ -45,6 +45,7 @@ exports[`githubActions > should match all dependencies 1`] = `
   "digitalocean",
   "discord",
   "docker",
+  "dokku",
   "elasticsearch",
   "electron",
   "eleventy",
@@ -499,6 +500,11 @@ exports[`githubActions > should match all dependencies 2`] = `
   [
     "githubAction",
     "docker/login-action",
+    "1",
+  ],
+  [
+    "githubAction",
+    "dokku/github-action",
     "1",
   ],
   [
