@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'aws.sagemaker',
   name: 'AWS SageMaker',
-  type: 'db',
+  type: 'ai',
   dependencies: [
     { type: 'npm', name: '@aws-sdk/client-sagemaker' },
     { type: 'npm', name: '@aws-cdk/aws-sagemaker' },

@@ -2,7 +2,6 @@ import './aws.cloudformation.js';
 import './aws.kinesis.js';
 import './aws.kms.js';
 import './aws.polly.js';
-import './aws.sagemaker.js';
 import './aws.sfn.js';
 import './aws.translate.js';
 import './gcp.dialogflow.js';
