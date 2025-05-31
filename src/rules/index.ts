@@ -32,3 +32,4 @@ import './storage/index.js';
 import './test/index.js';
 import './tool/index.js';
 import './ui/index.js';
+import './ui_framework/index.js';

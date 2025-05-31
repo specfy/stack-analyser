@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'angular',
   name: 'Angular',
-  type: 'language',
+  type: 'ui_framework',
   files: ['angular.json'],
   dependencies: [
     { type: 'npm', name: 'angular' },

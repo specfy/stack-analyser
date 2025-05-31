@@ -15,6 +15,7 @@ const notAComponent = new Set<TechType>([
   'package_manager',
   'orm',
   'ui',
+  'ui_framework',
 ]);
 
 /**

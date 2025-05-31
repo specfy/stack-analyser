@@ -4,7 +4,6 @@ import './express.js';
 import './fastify.js';
 import './koa.js';
 import './nxjs.js';
-import './preactjs.js';
 import './puppeteer.js';
 import './reactEmail.js';
 import './rollup.js';

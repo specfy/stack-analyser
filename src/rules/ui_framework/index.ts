@@ -1,0 +1,8 @@
+import './alpinejs.js';
+import './angular.js';
+import './mithriljs.js';
+import './preactjs.js';
+import './react.js';
+import './solidjs.js';
+import './sveltejs.js';
+import './vue.js';

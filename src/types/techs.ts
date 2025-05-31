@@ -30,6 +30,7 @@ export type TechType =
   | 'storage'
   | 'test'
   | 'tool'
+  | 'ui_framework'
   | 'ui';
 
 export type AllowedKeys =
