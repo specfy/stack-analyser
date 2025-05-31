@@ -5,6 +5,7 @@ exports[`python lockfile: pyproject.toml > should match everything 1`] = `
   "algolia",
   "anthropic",
   "apideck",
+  "apify",
   "asana",
   "box",
   "browerbase",
@@ -128,6 +129,11 @@ exports[`python lockfile: pyproject.toml > should match everything 2`] = `
   [
     "python",
     "apideck-unify",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "apify",
     "1.0.0",
   ],
   [
@@ -498,6 +504,7 @@ exports[`python lockfile: requirements.txt > should match everything 1`] = `
   "algolia",
   "anthropic",
   "apideck",
+  "apify",
   "asana",
   "box",
   "browerbase",
@@ -622,6 +629,11 @@ exports[`python lockfile: requirements.txt > should match everything 2`] = `
   [
     "python",
     "apideck-unify",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "apify",
     "1.0.0",
   ],
   [

@@ -1,3 +1,4 @@
+import './apify.js';
 import './browerbase.js';
 import './browseruse.js';
 import './firecrawl.js';

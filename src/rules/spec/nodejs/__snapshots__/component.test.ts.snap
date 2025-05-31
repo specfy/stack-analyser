@@ -16,6 +16,7 @@ exports[`npm > should match everything 1`] = `
   "apache_kafka",
   "apache_thrift",
   "apideck",
+  "apify",
   "apiplatform",
   "asana",
   "assemble",
@@ -512,6 +513,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@apideck/unify",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@apify/utilities",
     "0.0.0",
   ],
   [
@@ -2577,6 +2583,16 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "angular",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "apify",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "apify-client",
     "0.0.0",
   ],
   [

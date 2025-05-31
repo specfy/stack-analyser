@@ -5,6 +5,7 @@ exports[`terraform (resource) > should match everything 1`] = `
   "aircall",
   "algolia",
   "amplitude",
+  "apify",
   "asana",
   "atlassian",
   "atlassian.jira",

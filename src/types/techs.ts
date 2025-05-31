@@ -63,6 +63,7 @@ export type AllowedKeys =
   | 'apache_storm'
   | 'apache_thrift'
   | 'apideck'
+  | 'apify'
   | 'apiplatform'
   | 'appveyor'
   | 'asana'
