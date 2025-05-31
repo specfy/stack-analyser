@@ -1,5 +1,6 @@
 import './dieselrs.js';
 import './doctrinephp.js';
+import './drizzeleorm.js';
 import './goent.js';
 import './gorm.js';
 import './kysely.js';

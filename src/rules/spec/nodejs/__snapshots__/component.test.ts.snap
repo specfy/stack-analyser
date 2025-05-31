@@ -120,6 +120,7 @@ exports[`npm > should match everything 1`] = `
   "docker",
   "docusaurus",
   "docusign",
+  "drizzleorm",
   "duckdb",
   "dynatrace",
   "elasticsearch",
@@ -2749,6 +2750,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "docusign-esign",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "drizzle-orm",
     "0.0.0",
   ],
   [

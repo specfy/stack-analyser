@@ -220,6 +220,7 @@ export type AllowedKeys =
   | 'docusaurus'
   | 'docusign'
   | 'dokku'
+  | 'drizzleorm'
   | 'droneci'
   | 'dropbox'
   | 'drupal'
