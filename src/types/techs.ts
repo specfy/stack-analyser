@@ -319,6 +319,7 @@ export type AllowedKeys =
   | 'hostinger'
   | 'hotjar'
   | 'html'
+  | 'htmx'
   | 'httpd'
   | 'hubspot'
   | 'huggingface'
