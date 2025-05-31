@@ -641,6 +641,7 @@ export type AllowedKeys =
   | 'yarn'
   | 'yii2'
   | 'yousign'
+  | 'youtube'
   | 'zapier'
   | 'zendesk'
   | 'zig'

@@ -10,5 +10,6 @@ import './slack.js';
 import './telegram.js';
 import './twitch.js';
 import './twitter.js';
+import './youtube.js';
 import './zendesk.js';
 import './zoom.js';
