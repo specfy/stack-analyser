@@ -367,6 +367,7 @@ export type AllowedKeys =
   | 'libsql'
   | 'lighthouse'
   | 'linear'
+  | 'linkedin'
   | 'liquibase'
   | 'litjs'
   | 'logrocket'

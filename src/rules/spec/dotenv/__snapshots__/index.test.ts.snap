@@ -62,6 +62,7 @@ exports[`dotenv > should match all dependencies 1`] = `
   "lago",
   "launchdarkly",
   "linear",
+  "linkedin",
   "logsnag",
   "logtoio",
   "mailchimp",

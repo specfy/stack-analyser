@@ -331,6 +331,7 @@ exports[`all > should match everything 1`] = `
   "libsql",
   "lighthouse",
   "linear",
+  "linkedin",
   "liquibase",
   "litjs",
   "logrocket",

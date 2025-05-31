@@ -4,6 +4,7 @@ import './facebook.js';
 import './freshdesk.js';
 import './instagram.js';
 import './intercom.js';
+import './linkedin.js';
 import './mattermost.js';
 import './reddit.js';
 import './slack.js';
