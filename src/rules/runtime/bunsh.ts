@@ -3,6 +3,6 @@ import { register } from '../../register.js';
 register({
   tech: 'bunsh',
   name: 'Bun',
-  type: 'language',
+  type: 'runtime',
   files: ['bun.lock'],
 });

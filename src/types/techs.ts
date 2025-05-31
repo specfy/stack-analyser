@@ -24,6 +24,7 @@ export type TechType =
   | 'package_manager'
   | 'payment'
   | 'queue'
+  | 'runtime'
   | 'saas'
   | 'security'
   | 'storage'

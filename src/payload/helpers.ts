@@ -6,6 +6,7 @@ import type { AllowedKeys, TechType } from '../types/techs.js';
 const notAComponent = new Set<TechType>([
   'ci',
   'language',
+  'runtime',
   'tool',
   'framework',
   'linter',

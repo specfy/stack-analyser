@@ -24,6 +24,7 @@ import './package_manager/index.js';
 import './php/index.js';
 import './orm/index.js';
 import './queue/index.js';
+import './runtime/index.js';
 import './saas/index.js';
 import './security/index.js';
 import './spec/index.js';

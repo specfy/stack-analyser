@@ -4,7 +4,7 @@ import { register } from '../../../register.js';
 register({
   tech: 'nodejs',
   name: 'NodeJS',
-  type: 'language',
+  type: 'runtime',
   files: ['package.json'],
   dependencies: [
     { type: 'docker', name: /nodejs/, example: 'nodejs:0.0.0' },
