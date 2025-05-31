@@ -1,3 +1,30 @@
+# [1.24.0](https://github.com/specfy/stack-analyser/compare/v1.23.0...v1.24.0) (2025-05-31)
+
+
+### Bug Fixes
+
+* add data quality test ([d068f52](https://github.com/specfy/stack-analyser/commit/d068f520099cafc8dff2d5c558111c492e90f9bc))
+* casing ([69a030c](https://github.com/specfy/stack-analyser/commit/69a030c3893c98d745a77ee164432fccf8e1a1a2))
+* **rules:** add a lot of deps with airbyte ([989f4cb](https://github.com/specfy/stack-analyser/commit/989f4cb896295d8143a7098c7fae3b9985a0a5c8))
+* **rules:** add Apify ([7db18a9](https://github.com/specfy/stack-analyser/commit/7db18a9352592807eafe040944efcb90318f0ee7))
+* **rules:** add Google Sheets ([67baec9](https://github.com/specfy/stack-analyser/commit/67baec9d73169213c35cb20aafe06a9387a43b4e))
+* **rules:** add Instagram ([719975b](https://github.com/specfy/stack-analyser/commit/719975b4314ab591229a3c9c7227be11e9dd7ecc))
+* **rules:** add Linkedin ([c206b10](https://github.com/specfy/stack-analyser/commit/c206b103083f95eedc984583b4e289c9c5cbccdd))
+* **rules:** add Microsfot OneDrive ([4c0dd9b](https://github.com/specfy/stack-analyser/commit/4c0dd9b1e8fc015b68b30dd8b02586e9055be438))
+* **rules:** add more dotenv ([daa3d08](https://github.com/specfy/stack-analyser/commit/daa3d08470b72af885f87a85eb669911fed53f1d))
+* **rules:** add more dotenv ([39fe562](https://github.com/specfy/stack-analyser/commit/39fe562d611682bd1af76d63f18ad841f4299d15))
+* **rules:** add MSSql ([743ffb2](https://github.com/specfy/stack-analyser/commit/743ffb2b83be73959e750c50dc8b6ed0153a250d))
+* **rules:** add Youtube ([7d1be89](https://github.com/specfy/stack-analyser/commit/7d1be899854e53aa59e94329cbc9762dfc114fd0))
+* **rules:** wrong category for aws sagemaker ([0c49c9e](https://github.com/specfy/stack-analyser/commit/0c49c9ed6bd393ad28177db02b31536743b91467))
+* **rules:** wrong category for rekognition ([e97178e](https://github.com/specfy/stack-analyser/commit/e97178e8a1f5b094e7c5df1b872511abecb9e934))
+* split some test ([cff6679](https://github.com/specfy/stack-analyser/commit/cff6679fd10b7031ede2ccef02b24ce3148c03f8))
+
+
+### Features
+
+* add experimental support for dotenv parsing ([4e847df](https://github.com/specfy/stack-analyser/commit/4e847dfe43fca5ea1125c75719fcb055953c038b))
+* **rules:** add category Automation ([c711748](https://github.com/specfy/stack-analyser/commit/c71174852b2f95a71c604872a8ca627b7480bda9))
+
 # [1.23.0](https://github.com/specfy/stack-analyser/compare/v1.22.0...v1.23.0) (2025-05-31)
 
 
