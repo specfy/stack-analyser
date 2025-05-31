@@ -55,6 +55,7 @@ exports[`dotenv > should match all dependencies 1`] = `
   "ifttt",
   "infisical",
   "inngest",
+  "instagram",
   "intercom",
   "intuit",
   "klarna",

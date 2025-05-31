@@ -336,6 +336,7 @@ export type AllowedKeys =
   | 'infisical'
   | 'influxdb'
   | 'inngest'
+  | 'instagram'
   | 'integrationapp'
   | 'intercom'
   | 'intuit'

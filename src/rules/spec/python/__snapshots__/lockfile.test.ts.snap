@@ -20,6 +20,7 @@ exports[`python lockfile: pyproject.toml > should match everything 1`] = `
   "convexdb",
   "datadog",
   "datadome",
+  "dataiku",
   "deepseek",
   "django",
   "elasticsearch",
@@ -204,6 +205,11 @@ exports[`python lockfile: pyproject.toml > should match everything 2`] = `
   [
     "python",
     "datadome-fraud-sdk-python",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "dataiku",
     "1.0.0",
   ],
   [
@@ -519,6 +525,7 @@ exports[`python lockfile: requirements.txt > should match everything 1`] = `
   "convexdb",
   "datadog",
   "datadome",
+  "dataiku",
   "deepseek",
   "django",
   "elasticsearch",
@@ -704,6 +711,11 @@ exports[`python lockfile: requirements.txt > should match everything 2`] = `
   [
     "python",
     "datadome-fraud-sdk-python",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "dataiku",
     "1.0.0",
   ],
   [
