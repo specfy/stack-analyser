@@ -1,3 +1,24 @@
+# [1.23.0](https://github.com/specfy/stack-analyser/compare/v1.22.0...v1.23.0) (2025-05-31)
+
+
+### Bug Fixes
+
+* **rules:** add Dokku ([ba1264a](https://github.com/specfy/stack-analyser/commit/ba1264a5fec6ed524d3f1fe47fd4c732cdc880f4))
+* **rules:** add DrizzleORM ([c397987](https://github.com/specfy/stack-analyser/commit/c397987eba25f24ad78730b273872de8eb30f5c7))
+* **rules:** add HTMX ([d52383c](https://github.com/specfy/stack-analyser/commit/d52383c5193f4c987bf34ea19faeac25130115de))
+* **rules:** add Inferno js ([777b6bc](https://github.com/specfy/stack-analyser/commit/777b6bcd92b848a42e2a8e4bdb8b42c8bcaa13be))
+* **rules:** add Litjs ([948d652](https://github.com/specfy/stack-analyser/commit/948d652c434eabb44b74c47cfff42cbfded4b126))
+* **rules:** add Qwik ([96ff61b](https://github.com/specfy/stack-analyser/commit/96ff61bb8872010cff99497b420ac7463c57d04c))
+* **rules:** add Stenciljs ([2843c6f](https://github.com/specfy/stack-analyser/commit/2843c6fa4ee147703b18ea990527219dd21f8f56))
+* **rules:** add Tauri ([d5ddefb](https://github.com/specfy/stack-analyser/commit/d5ddefbc731ad3862ee893b71fc48aa9dd17a94f))
+
+
+### Features
+
+* add Category runtime ([820e3ef](https://github.com/specfy/stack-analyser/commit/820e3efa2fcdec021f28034c2db0e2e0632321e0))
+* add UI Framework category ([2c2a2c3](https://github.com/specfy/stack-analyser/commit/2c2a2c37db5abd59b5a87ce1dfeba09ca17a14a0))
+* support jsx, vue ([b288d95](https://github.com/specfy/stack-analyser/commit/b288d9572f7ddf283a5fe034e56a96b76ed3821f))
+
 # [1.22.0](https://github.com/specfy/stack-analyser/compare/v1.21.3...v1.22.0) (2025-05-28)
 
 
