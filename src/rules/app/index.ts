@@ -8,7 +8,6 @@ import './httpd.js';
 import './kibana.js';
 import './kong.js';
 import './mongoexpress.js';
-import './n8n.js';
 import './nginx.js';
 import './postgrest.js';
 import './teamspeak.js';

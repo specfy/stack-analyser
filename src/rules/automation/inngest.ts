@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'inngest',
   name: 'Inngest',
-  type: 'saas',
+  type: 'automation',
   dependencies: [
     { type: 'npm', name: 'inngest' },
     { type: 'golang', name: 'github.com/inngest/inngestgo' },

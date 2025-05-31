@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'firecrawl',
   name: 'Firecrawl',
-  type: 'saas',
+  type: 'automation',
   dependencies: [
     { type: 'php', name: '@mendable/firecrawl-js' },
     { type: 'python', name: 'firecrawl-py' },

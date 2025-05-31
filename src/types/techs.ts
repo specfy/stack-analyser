@@ -4,6 +4,7 @@ export type TechType =
   | 'api'
   | 'app'
   | 'auth'
+  | 'automation'
   | 'ci'
   | 'cloud'
   | 'cms'
