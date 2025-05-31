@@ -9,6 +9,8 @@ import './elixir.js';
 import './glsl.js';
 import './java.js';
 import './javascript.js';
+import './jsx.js';
 import './scss.js';
 import './swift.js';
 import './typescript.js';
+import './vue.js';

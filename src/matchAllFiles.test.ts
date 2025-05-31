@@ -15,7 +15,7 @@ describe('matchAllFiles', () => {
 
     const exp = new Map();
     exp.set('typescript', ['matched extension: .tsx']);
-    exp.set('react', ['matched extension: .tsx']);
+    exp.set('jsx', ['matched extension: .tsx']);
 
     expect(res).toStrictEqual(exp);
   });
