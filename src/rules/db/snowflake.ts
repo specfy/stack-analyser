@@ -13,5 +13,6 @@ register({
     { type: 'rust', name: 'rs-snowflake' },
     { type: 'npm', name: '@pulumi/snowflake' },
     { type: 'ruby', name: 'sequel-snowflake' },
+    { type: 'terraform.resource', name: 'airbyte_destination_snowflake' },
   ],
 });

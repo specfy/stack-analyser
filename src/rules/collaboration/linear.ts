@@ -4,5 +4,8 @@ register({
   tech: 'linear',
   name: 'Linear',
   type: 'collaboration',
-  dependencies: [],
+  dependencies: [
+    { type: 'npm', name: '@linear/sdk' },
+    { type: 'python', name: 'linear-cli' },
+  ],
 });

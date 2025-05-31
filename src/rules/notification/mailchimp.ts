@@ -12,5 +12,6 @@ register({
     { type: 'php', name: 'drewm/mailchimp-api' },
     { type: 'php', name: 'mailchimp/transactional' },
     { type: 'php', name: 'mailchimp/makerting' },
+    { type: 'terraform.resource', name: 'airbyte_source_mailchimp' },
   ],
 });

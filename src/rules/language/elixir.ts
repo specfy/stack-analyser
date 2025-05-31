@@ -4,4 +4,5 @@ register({
   tech: 'elixir',
   name: 'Elixir',
   type: 'language',
+  extensions: ['.ex', '.exs'],
 });

@@ -4,5 +4,5 @@ register({
   tech: 'tursodb',
   name: 'Turso',
   type: 'db',
-  dependencies: [],
+  dependencies: [{ type: 'npm', name: '@tursodatabase/api' }],
 });

@@ -21,5 +21,6 @@ register({
     },
     { type: 'php', name: 'league/flysystem-google-cloud-storage' },
     { type: 'python', name: 'google-cloud-storage' },
+    { type: 'terraform.resource', name: 'airbyte_destination_gcs' },
   ],
 });

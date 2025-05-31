@@ -15,5 +15,6 @@ register({
       name: /^aws_redshift_/,
       example: 'aws_redshift_cluster',
     },
+    { type: 'terraform.resource', name: 'airbyte_destination_redshift' },
   ],
 });

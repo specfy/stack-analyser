@@ -17,5 +17,6 @@ register({
     { type: 'python', name: 'mysql-connector-python' },
     { type: 'python', name: 'PyMySQL' },
     { type: 'python', name: 'mysqlclient' },
+    { type: 'terraform.resource', name: 'airbyte_destination_mysql' },
   ],
 });

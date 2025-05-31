@@ -19,5 +19,6 @@ register({
     { type: 'php', name: 'snc/redis-bundle' },
     { type: 'php', name: 'colinmollenhour/cache-backend-redis' },
     { type: 'terraform', name: 'registry.terraform.io/RedisLabs/rediscloud' },
+    { type: 'terraform.resource', name: 'airbyte_destination_redis' },
   ],
 });

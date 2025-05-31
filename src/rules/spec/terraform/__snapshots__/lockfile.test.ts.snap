@@ -32,6 +32,7 @@ exports[`terraform (lockfile) > should match everything 1`] = `
   "helm",
   "heroku",
   "hetzner",
+  "ibmcloud",
   "kubernetes",
   "launchdarkly",
   "mongodbatlas",
@@ -41,6 +42,7 @@ exports[`terraform (lockfile) > should match everything 1`] = `
   "ovh",
   "pagerduty",
   "pinecone",
+  "pingdom",
   "prismacloud",
   "qovery",
   "railway",
@@ -56,5 +58,6 @@ exports[`terraform (lockfile) > should match everything 1`] = `
   "terraform",
   "timescaledb",
   "vercel",
+  "wiz",
 ]
 `;

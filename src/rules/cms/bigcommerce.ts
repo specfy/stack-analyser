@@ -7,5 +7,6 @@ register({
   dependencies: [
     { type: 'php', name: 'bigcommerce/api' },
     { type: 'npm', name: '@bigcommerce/checkout-sdk' },
+    { type: 'terraform.resource', name: 'airbyte_source_bigcommerce' },
   ],
 });

@@ -14,5 +14,6 @@ register({
     { type: 'ruby', name: 'typesense' },
     { type: 'php', name: 'typesense/typesense-php ' },
     { type: 'php', name: 'typesense/laravel-scout-typesense-driver' },
+    { type: 'terraform.resource', name: 'airbyte_destination_typesense' },
   ],
 });

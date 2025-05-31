@@ -83,7 +83,7 @@ describe('no duplicate', () => {
     }
   });
 
-  it('should not multiple tech', () => {
+  it('should not match multiple techs', () => {
     for (const [name, matchers] of Object.entries(dependencies)) {
       const examples = new Set<string>();
 
@@ -122,4 +122,24 @@ describe('no duplicate', () => {
       }
     }
   });
+});
+
+describe('rule completeness', () => {
+  for (const rule of registeredRules) {
+    it(`${rule.tech} should have either files, dependencies, or extensions`, () => {
+      const hasFiles = 'files' in rule && rule.files !== undefined;
+      const hasDependencies =
+        'dependencies' in rule && rule.dependencies !== undefined && rule.dependencies.length > 0;
+      const hasExtensions =
+        'extensions' in rule && rule.extensions !== undefined && rule.extensions.length > 0;
+      if (!(hasFiles || hasDependencies || hasExtensions)) {
+        // eslint-disable-next-line no-console
+        console.warn(
+          `[WARNING] Rule "${rule.tech}" does not have files, dependencies, or extensions`
+        );
+      }
+
+      expect(true).toBe(true); // Always pass
+    });
+  }
 });

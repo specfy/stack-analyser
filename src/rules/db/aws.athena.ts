@@ -15,5 +15,6 @@ register({
       name: /^aws_athena/,
       example: 'aws_athena_database',
     },
+    { type: 'terraform.resource', name: 'airbyte_destination_aws_athena' },
   ],
 });

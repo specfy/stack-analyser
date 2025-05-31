@@ -18,5 +18,6 @@ register({
       type: 'golang',
       name: 'github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/cosmos/armcosmos',
     },
+    { type: 'terraform.resource', name: 'airbyte_destination_cosmosdb' },
   ],
 });

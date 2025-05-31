@@ -21,5 +21,6 @@ register({
       name: 'elastic/elastic-github-actions/elasticsearch',
     },
     { type: 'python', name: 'elasticsearch' },
+    { type: 'terraform.resource', name: 'airbyte_destination_elasticsearch' },
   ],
 });

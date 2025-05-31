@@ -15,5 +15,6 @@ register({
     { type: 'ruby', name: 'google-cloud-bigquery' },
     { type: 'golang', name: 'cloud.google.com/go/bigquery' },
     { type: 'php', name: 'google/cloud-bigquery' },
+    { type: 'terraform.resource', name: 'airbyte_destination_bigquery' },
   ],
 });

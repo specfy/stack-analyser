@@ -10,5 +10,6 @@ register({
       name: 'registry.terraform.io/databricks/databricks',
     },
     { type: 'githubAction', name: 'databricks/run-notebook' },
+    { type: 'terraform.resource', name: 'airbyte_destination_databricks' },
   ],
 });

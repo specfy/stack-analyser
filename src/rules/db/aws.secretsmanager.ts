@@ -18,5 +18,6 @@ register({
       name: /^aws_secretsmanager_/,
       example: 'aws_secretsmanager_secret',
     },
+    { type: 'terraform.resource', name: 'airbyte_destination_secretsmanager' },
   ],
 });

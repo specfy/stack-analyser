@@ -17,5 +17,6 @@ register({
       example: 'aws_rds_cluster',
     },
     { type: 'php', name: 'async-aws/rds-data-service' },
+    { type: 'terraform.resource', name: 'airbyte_destination_rds' },
   ],
 });

@@ -39,6 +39,7 @@ exports[`python lockfile: pyproject.toml > should match everything 1`] = `
   "kinde",
   "lago",
   "libsql",
+  "linear",
   "logtoio",
   "mergedev",
   "milvusdb",
@@ -336,6 +337,11 @@ exports[`python lockfile: pyproject.toml > should match everything 2`] = `
   ],
   [
     "python",
+    "linear-cli",
+    "1.0.0",
+  ],
+  [
+    "python",
     "logto",
     "1.0.0",
   ],
@@ -526,6 +532,7 @@ exports[`python lockfile: requirements.txt > should match everything 1`] = `
   "kinde",
   "lago",
   "libsql",
+  "linear",
   "logtoio",
   "mergedev",
   "milvusdb",
@@ -820,6 +827,11 @@ exports[`python lockfile: requirements.txt > should match everything 2`] = `
   [
     "python",
     "libsql-experimental",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "linear-cli",
     "1.0.0",
   ],
   [

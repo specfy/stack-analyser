@@ -18,5 +18,6 @@ register({
     { type: 'python', name: 'clickhouse-connect' },
     { type: 'rust', name: 'clickhouse' },
     { type: 'ruby', name: 'clickhouse-activerecord' },
+    { type: 'terraform.resource', name: 'airbyte_destination_clickhouse' },
   ],
 });

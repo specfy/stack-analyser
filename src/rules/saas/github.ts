@@ -13,5 +13,6 @@ register({
     { type: 'php', name: 'knplabs/github-api' },
     { type: 'npm', name: '@pulumi/github' },
     { type: 'python', name: 'PyGithub' },
+    { type: 'terraform.resource', name: 'airbyte_source_github' },
   ],
 });

@@ -33,5 +33,6 @@ register({
     },
     { type: 'php', name: 'baopham/dynamodb' },
     { type: 'php', name: 'async-aws/dynamo-db' },
+    { type: 'terraform.resource', name: 'airbyte_destination_dynamodb' },
   ],
 });

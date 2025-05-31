@@ -112,6 +112,7 @@ exports[`php > should match everything 1`] = `
   "mongodb",
   "nats",
   "newrelic",
+  "notion",
   "novu",
   "okta",
   "openai",
@@ -515,6 +516,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "fastly/magento2",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "fiveam-code/laravel-notion-api",
     "0.0.0",
   ],
   [

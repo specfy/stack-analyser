@@ -14,6 +14,7 @@ exports[`githubActions > should match all dependencies 1`] = `
   "aws.cloudformation",
   "aws.cloudfront",
   "aws.codebuild",
+  "aws.codepipeline",
   "aws.ec2",
   "aws.ecr",
   "aws.fargate",
@@ -815,6 +816,11 @@ exports[`githubActions > should match all dependencies 2`] = `
   [
     "githubAction",
     "wzieba/Firebase-Distribution-Github-Action",
+    "1",
+  ],
+  [
+    "githubAction",
+    "zulhfreelancer/aws-codepipeline-action",
     "1",
   ],
 ]

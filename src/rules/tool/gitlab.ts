@@ -10,5 +10,6 @@ register({
     { type: 'ruby', name: 'gitlab' },
     { type: 'php', name: 'm4tthumphrey/php-gitlab-api' },
     { type: 'npm', name: '@pulumi/gitlab' },
+    { type: 'terraform.resource', name: 'airbyte_source_gitlab' },
   ],
 });

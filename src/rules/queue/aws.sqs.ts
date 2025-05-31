@@ -16,5 +16,6 @@ register({
       example: 'aws_sqs_queue',
     },
     { type: 'php', name: 'async-aws/sqs' },
+    { type: 'terraform.resource', name: 'airbyte_source_amazon_sqs' },
   ],
 });

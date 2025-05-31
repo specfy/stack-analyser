@@ -20,5 +20,6 @@ register({
     { type: 'githubAction', name: 'jakejarvis/s3-sync-action' },
     { type: 'php', name: 'league/flysystem-aws-s3-v3' },
     { type: 'php', name: 'league/flysystem-async-aws-s3' },
+    { type: 'terraform.resource', name: 'airbyte_destination_s3' },
   ],
 });

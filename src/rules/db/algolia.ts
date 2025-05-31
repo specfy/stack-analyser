@@ -28,5 +28,6 @@ register({
     },
     { type: 'python', name: 'algoliasearch' },
     { type: 'python', name: 'algoliasearch-django' },
+    { type: 'terraform.resource', name: 'airbyte_source_algolia' },
   ],
 });

@@ -17,5 +17,6 @@ register({
     { type: 'php', name: 'google/cloud-pubsub' },
     { type: 'php', name: 'gos/pubsub-router-bundle' },
     { type: 'php', name: 'petitpress/gps-messenger-bundle' },
+    { type: 'terraform.resource', name: 'airbyte_destination_pubsub' },
   ],
 });

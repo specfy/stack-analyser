@@ -207,6 +207,7 @@ exports[`npm > should match everything 1`] = `
   "lemonsqueezy",
   "libsql",
   "lighthouse",
+  "linear",
   "litjs",
   "logrocket",
   "logsnag",
@@ -244,6 +245,7 @@ exports[`npm > should match everything 1`] = `
   "newrelic",
   "nextjs",
   "nodejs",
+  "notion",
   "novu",
   "nuxtjs",
   "nxcloud",
@@ -350,6 +352,7 @@ exports[`npm > should match everything 1`] = `
   "tinybird",
   "tiptap",
   "turborepo",
+  "tursodb",
   "twilio",
   "twitch",
   "twitter",
@@ -381,6 +384,7 @@ exports[`npm > should match everything 1`] = `
   "zapier",
   "zendesk",
   "zipkin",
+  "zoom",
   "zuora",
 ]
 `;
@@ -1534,6 +1538,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@linear/sdk",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@llamaindex/cohere",
     "0.0.0",
   ],
@@ -1675,6 +1684,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@netlify/run-utils",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@notionhq/client",
     "0.0.0",
   ],
   [
@@ -2314,6 +2328,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@tursodatabase/api",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@twilio/cli-core",
     "0.0.0",
   ],
@@ -2485,6 +2504,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@zilliz/milvus2-sdk-node",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@zoom/meetingsdk",
     "0.0.0",
   ],
   [
@@ -3355,6 +3379,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "nodemailer-ses-transport",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "notion-to-md",
     "0.0.0",
   ],
   [

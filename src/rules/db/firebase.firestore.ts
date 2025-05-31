@@ -11,5 +11,6 @@ register({
       example: 'google_firestore_database',
     },
     { type: 'php', name: 'google/cloud-firestore' },
+    { type: 'terraform.resource', name: 'airbyte_destination_firestore' },
   ],
 });

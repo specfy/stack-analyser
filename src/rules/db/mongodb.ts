@@ -22,5 +22,6 @@ register({
     { type: 'ruby', name: 'mongo' },
     { type: 'php', name: 'mongodb/mongodb' },
     { type: 'python', name: 'pymongo' },
+    { type: 'terraform.resource', name: 'airbyte_destination_mongodb' },
   ],
 });

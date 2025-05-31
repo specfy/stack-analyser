@@ -10,5 +10,6 @@ register({
     { type: 'php', name: 'mailgun/mailgun-php' },
     { type: 'ruby', name: 'mailgun-ruby' },
     { type: 'golang', name: 'github.com/mailgun/mailgun-go/v4' },
+    { type: 'terraform.resource', name: 'airbyte_source_mailgun' },
   ],
 });

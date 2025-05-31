@@ -14,5 +14,6 @@ register({
     { type: 'npm', name: '@qdrant/js-client-grpc' },
     { type: 'php', name: 'hkulekci/qdrant' },
     { type: 'php', name: 'qdrant-ruby' },
+    { type: 'terraform.resource', name: 'airbyte_destination_qdrant' },
   ],
 });

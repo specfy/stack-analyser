@@ -84,6 +84,7 @@ exports[`rust (component) > should match everything 1`] = `
   "mysql",
   "nats",
   "neo4j",
+  "notion",
   "okta",
   "pagerduty",
   "paypal",
@@ -567,6 +568,11 @@ exports[`rust (component) > should match everything 2`] = `
   [
     "rust",
     "neo4rs",
+    "1.0.0",
+  ],
+  [
+    "rust",
+    "notion",
     "1.0.0",
   ],
   [

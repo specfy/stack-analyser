@@ -14,5 +14,6 @@ register({
       name: 'registry.terraform.io/couchbasecloud/couchbasecapella',
     },
     { type: 'php', name: 'couchbase/couchbase' },
+    { type: 'terraform.resource', name: 'airbyte_source_couchbase' },
   ],
 });

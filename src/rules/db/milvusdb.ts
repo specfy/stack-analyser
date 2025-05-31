@@ -15,5 +15,6 @@ register({
     { type: 'python', name: 'langchain-milvus' },
     { type: 'npm', name: 'genkitx-milvus' },
     { type: 'npm', name: '@llamaindex/milvus' },
+    { type: 'terraform.resource', name: 'airbyte_destination_milvus' },
   ],
 });

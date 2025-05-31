@@ -11,5 +11,6 @@ register({
     { type: 'githubAction', name: 'twilio-labs/actions-sms' },
     { type: 'golang', name: 'github.com/twilio/twilio-go' },
     { type: 'ruby', name: 'twilio-ruby' },
+    { type: 'terraform.resource', name: 'airbyte_source_twilio' },
   ],
 });

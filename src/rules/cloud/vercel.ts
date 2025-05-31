@@ -12,5 +12,6 @@ register({
     { type: 'rust', name: /^vercel_/, example: 'vercel_runtime' },
     { type: 'githubAction', name: 'snaplet/vercel-action' },
     { type: 'githubAction', name: 'amondnet/vercel-action' },
+    { type: 'terraform.resource', name: 'airbyte_source_vercel' },
   ],
 });

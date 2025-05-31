@@ -40,5 +40,6 @@ register({
     { type: 'rust', name: 'azure_storage_queues' },
     { type: 'rust', name: 'azure_storage_blobs' },
     { type: 'rust', name: 'azure_storage_datalake' },
+    { type: 'terraform.resource', name: 'airbyte_destination_azure_blob_storage' },
   ],
 });

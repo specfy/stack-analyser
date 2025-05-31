@@ -126,6 +126,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "jenkins",
   "kentico",
   "kinde",
+  "klarna",
   "kubernetes",
   "lago",
   "launchdarkly",
@@ -146,6 +147,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "nats",
   "neo4j",
   "newrelic",
+  "notion",
   "novu",
   "okta",
   "optimizely",
@@ -897,6 +899,16 @@ exports[`ruby (component) > should match everything 2`] = `
   ],
   [
     "ruby",
+    "klarna-checkout",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "klarna_proxy",
+    "1.0.0",
+  ],
+  [
+    "ruby",
     "kubeclient",
     "1.0.0",
   ],
@@ -1033,6 +1045,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "newrelic_rpm",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "notion-ruby-client",
     "1.0.0",
   ],
   [
