@@ -1,5 +1,6 @@
 import './alpinejs.js';
 import './angular.js';
+import './infernojs.js';
 import './mithriljs.js';
 import './preactjs.js';
 import './qwikjs.js';
