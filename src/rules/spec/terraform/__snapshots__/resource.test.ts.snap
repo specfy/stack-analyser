@@ -99,6 +99,7 @@ exports[`terraform (resource) > should match everything 1`] = `
   "gcp.tasks",
   "github",
   "gitlab",
+  "googlesheets",
   "klarna",
   "klaviyo",
   "mailchimp",

@@ -303,6 +303,7 @@ export type AllowedKeys =
   | 'golang'
   | 'golangcilint'
   | 'googleanalytics'
+  | 'googlesheets'
   | 'gorm'
   | 'gradio'
   | 'grafana'

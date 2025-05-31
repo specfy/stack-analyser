@@ -86,6 +86,7 @@ exports[`php > should match everything 1`] = `
   "github",
   "gitlab",
   "googleanalytics",
+  "googlesheets",
   "hashicorp_vault",
   "heroku",
   "hetzner",
@@ -1141,6 +1142,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "resend/resend-php",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "revolution/laravel-google-sheets",
     "0.0.0",
   ],
   [

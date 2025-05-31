@@ -175,6 +175,7 @@ exports[`npm > should match everything 1`] = `
   "gitbook",
   "github",
   "gitlab",
+  "googlesheets",
   "gridsome",
   "groq",
   "hanko",
@@ -1409,6 +1410,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@google/genai",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@googleapis/sheets",
     "0.0.0",
   ],
   [
@@ -2984,6 +2990,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "google-auth-library",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "google-spreadsheet",
     "0.0.0",
   ],
   [

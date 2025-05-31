@@ -270,6 +270,7 @@ exports[`all > should match everything 1`] = `
   "golang",
   "golangcilint",
   "googleanalytics",
+  "googlesheets",
   "gorm",
   "gradio",
   "grafana",

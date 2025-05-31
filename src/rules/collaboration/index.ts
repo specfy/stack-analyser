@@ -8,6 +8,7 @@ import './calcom.js';
 import './calendly.js';
 import './clickup.js';
 import './crowdin.js';
+import './googlesheets.js';
 import './linear.js';
 import './miro.js';
 import './monday.js';

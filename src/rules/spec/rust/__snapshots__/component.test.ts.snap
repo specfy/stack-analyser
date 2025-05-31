@@ -72,6 +72,7 @@ exports[`rust (component) > should match everything 1`] = `
   "gcp.logging",
   "gcp.pubsub",
   "gitlab",
+  "googlesheets",
   "hashicorp_vault",
   "influxdb",
   "kubernetes",
@@ -663,6 +664,11 @@ exports[`rust (component) > should match everything 2`] = `
   [
     "rust",
     "sentry",
+    "1.0.0",
+  ],
+  [
+    "rust",
+    "sheets",
     "1.0.0",
   ],
   [

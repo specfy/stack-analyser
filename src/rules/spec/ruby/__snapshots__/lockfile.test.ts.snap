@@ -117,6 +117,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "gcp.vision",
   "github",
   "gitlab",
+  "googlesheets",
   "hashicorp_vault",
   "helm",
   "heroku",
@@ -710,6 +711,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "gitlab",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "google-apis-sheets_v4",
     "1.0.0",
   ],
   [
