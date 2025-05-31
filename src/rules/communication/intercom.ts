@@ -4,6 +4,7 @@ register({
   tech: 'intercom',
   name: 'Intercom',
   type: 'communication',
+  dotenv: ['INTERCOM_'],
   dependencies: [
     { type: 'npm', name: 'react-use-intercom' },
     { type: 'npm', name: 'intercom-client' },

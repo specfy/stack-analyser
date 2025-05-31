@@ -4,6 +4,7 @@ register({
   tech: 'mixpanel',
   name: 'Mixpanel',
   type: 'analytics',
+  dotenv: ['MIXPANEL_'],
   dependencies: [
     { type: 'php', name: 'mixpanel/mixpanel-php' },
     { type: 'npm', name: 'mixpanel-browser' },

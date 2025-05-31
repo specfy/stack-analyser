@@ -4,6 +4,7 @@ register({
   tech: 'anthropic',
   name: 'Anthropic',
   type: 'ai',
+  dotenv: ['ANTHROPIC_'],
   dependencies: [
     { type: 'npm', name: '@anthropic-ai/sdk' },
     { type: 'npm', name: '@ai-sdk/anthropic' },

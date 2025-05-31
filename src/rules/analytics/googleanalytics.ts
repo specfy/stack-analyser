@@ -4,6 +4,7 @@ register({
   tech: 'googleanalytics',
   name: 'Google Analytics',
   type: 'analytics',
+  dotenv: ['GOOGLE_ANALYTICS'],
   dependencies: [
     { type: 'php', name: 'google/analytics-data' },
     { type: 'php', name: 'spatie/laravel-analytics' },

@@ -5,6 +5,7 @@ register({
   name: 'Railway',
   type: 'cloud',
   files: ['railway.toml', 'railway.json'],
+  dotenv: ['RAILWAY_'],
   dependencies: [
     {
       type: 'terraform',

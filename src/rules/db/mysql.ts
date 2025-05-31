@@ -4,6 +4,7 @@ register({
   tech: 'mysql',
   name: 'Mysql',
   type: 'db',
+  dotenv: ['MYSQL_'],
   dependencies: [
     { type: 'npm', name: 'mysql' },
     { type: 'npm', name: '@mikro-orm/mysql' },

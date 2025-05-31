@@ -4,6 +4,7 @@ register({
   tech: 'cloudflare',
   name: 'Cloudflare',
   type: 'cloud',
+  dotenv: ['CLOUDFLARE_'],
   dependencies: [
     {
       type: 'npm',

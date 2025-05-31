@@ -4,6 +4,7 @@ register({
   tech: 'aircall',
   name: 'Aircall',
   type: 'communication',
+  dotenv: ['AIRCALL_'],
   dependencies: [
     { type: 'npm', name: 'aircall-everywhere' },
     { type: 'npm', name: 'aircall' },

@@ -4,6 +4,7 @@ register({
   tech: 'dokku',
   name: 'Dokku',
   type: 'cloud',
+  dotenv: ['DOKKU_'],
   dependencies: [
     { type: 'githubAction', name: 'dokku/github-action' },
     { type: 'docker', name: 'dokku/ci-docker-image' },

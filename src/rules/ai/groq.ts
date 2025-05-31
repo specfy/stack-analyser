@@ -4,6 +4,7 @@ register({
   tech: 'groq',
   name: 'Groq',
   type: 'ai',
+  dotenv: ['GROQ_'],
   dependencies: [
     { type: 'npm', name: '@langchain/groq' },
     { type: 'npm', name: '@ai-sdk/groq' },

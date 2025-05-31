@@ -4,6 +4,7 @@ register({
   tech: 'mongodb',
   name: 'MongoDB',
   type: 'db',
+  dotenv: ['MONGODB_'],
   dependencies: [
     { type: 'npm', name: 'mongodb' },
     { type: 'npm', name: /mongoose/, example: 'mongoose' },

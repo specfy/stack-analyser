@@ -4,6 +4,7 @@ register({
   tech: 'resend',
   name: 'Resend',
   type: 'notification',
+  dotenv: ['RESEND_'],
   dependencies: [
     { type: 'npm', name: 'resend' },
     { type: 'php', name: 'resend/resend-php' },

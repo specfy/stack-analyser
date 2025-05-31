@@ -4,6 +4,7 @@ register({
   tech: 'clerk',
   name: 'Clerk',
   type: 'auth',
+  dotenv: ['CLERK_'],
   dependencies: [
     { type: 'npm', name: '@clerk/types' },
     { type: 'npm', name: '@clerk/nextjs' },

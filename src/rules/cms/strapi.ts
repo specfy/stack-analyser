@@ -4,6 +4,7 @@ register({
   tech: 'strapi',
   name: 'Strapi',
   type: 'cms',
+  dotenv: ['STRAPI_'],
   dependencies: [
     { type: 'npm', name: 'strapi' },
     { type: 'npm', name: '@strapi/strapi' },

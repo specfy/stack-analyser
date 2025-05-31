@@ -4,6 +4,7 @@ register({
   tech: 'contentful',
   name: 'Contentful',
   type: 'cms',
+  dotenv: ['CONTENTFUL_'],
   dependencies: [
     { type: 'php', name: 'contentful/contentful' },
     { type: 'php', name: 'contentful/contentful-management' },

@@ -4,6 +4,7 @@ register({
   tech: 'segment',
   name: 'Segment',
   type: 'analytics',
+  dotenv: ['SEGMENT_'],
   dependencies: [
     { type: 'npm', name: 'analytics-node' },
     { type: 'npm', name: /^@segment\//, example: '@segment/analytics-node' },

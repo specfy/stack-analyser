@@ -4,6 +4,7 @@ register({
   tech: 'cohereai',
   name: 'Cohere AI',
   type: 'ai',
+  dotenv: ['COHERE_'],
   dependencies: [
     { type: 'npm', name: '@langchain/cohere' },
     { type: 'npm', name: '@ai-sdk/cohere' },

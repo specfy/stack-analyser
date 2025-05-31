@@ -4,6 +4,7 @@ register({
   tech: 'freshdesk',
   name: 'Freshdesk',
   type: 'communication',
+  dotenv: ['FRESHDESK_'],
   dependencies: [
     { type: 'npm', name: 'freshdesk-api' },
     { type: 'npm', name: 'freshdesk' },

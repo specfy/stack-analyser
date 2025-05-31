@@ -4,6 +4,7 @@ register({
   tech: 'geminiai',
   name: 'Gemini AI',
   type: 'ai',
+  dotenv: ['GEMINI_'],
   dependencies: [
     { type: 'python', name: 'genai' },
     { type: 'npm', name: '@google/genai' },

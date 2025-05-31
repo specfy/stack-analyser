@@ -4,6 +4,7 @@ register({
   tech: 'postgresql',
   name: 'Postgres',
   type: 'db',
+  dotenv: ['POSTGRES_'],
   dependencies: [
     { type: 'npm', name: 'pg' },
     { type: 'npm', name: 'postgres' },

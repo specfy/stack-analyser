@@ -4,6 +4,7 @@ register({
   tech: 'datadog',
   name: 'Datadog',
   type: 'monitoring',
+  dotenv: ['DD_'],
   dependencies: [
     { type: 'npm', name: /^@datadog\//, example: '@datadog/cli' },
     { type: 'npm', name: 'dd-trace' },

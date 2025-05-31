@@ -4,6 +4,7 @@ register({
   tech: 'posthog',
   name: 'PostHog',
   type: 'analytics',
+  dotenv: ['POSTHOG_'],
   dependencies: [
     { type: 'npm', name: 'posthog-js' },
     { type: 'golang', name: 'github.com/posthog/posthog-go' },

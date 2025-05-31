@@ -4,6 +4,7 @@ register({
   tech: 'plausible',
   name: 'Plausible',
   type: 'analytics',
+  dotenv: ['PLAUSIBLE_'],
   dependencies: [
     { type: 'docker', name: 'plausible/analytics' },
     { type: 'npm', name: 'plausible-tracker' },

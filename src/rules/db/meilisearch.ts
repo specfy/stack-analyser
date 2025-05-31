@@ -4,6 +4,7 @@ register({
   tech: 'meilisearch',
   name: 'Meilisearch',
   type: 'db',
+  dotenv: ['MEILISEARCH_'],
   dependencies: [
     { type: 'npm', name: 'meilisearch' },
     { type: 'npm', name: '@meilisearch/instant-meilisearch' },

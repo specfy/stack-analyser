@@ -4,6 +4,7 @@ register({
   tech: 'telegram',
   name: 'Telegram',
   type: 'communication',
+  dotenv: ['TELEGRAM_'],
   dependencies: [
     { type: 'docker', name: 'kasmweb/telegram' },
     {

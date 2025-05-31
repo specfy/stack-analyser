@@ -4,6 +4,7 @@ register({
   tech: 'aws.cloudfront',
   name: 'AWS CloudFront',
   type: 'storage',
+  dotenv: ['CLOUDFRONT_'],
   dependencies: [
     { type: 'npm', name: '@aws-cdk/aws-cloudfront' },
     { type: 'npm', name: '@aws-sdk/client-cloudfront' },

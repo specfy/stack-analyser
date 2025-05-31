@@ -4,6 +4,7 @@ register({
   tech: 'stripe',
   name: 'Stripe',
   type: 'payment',
+  dotenv: ['STRIPE_'],
   dependencies: [
     { type: 'npm', name: 'stripe' },
     { type: 'php', name: 'stripe/stripe-php' },

@@ -4,6 +4,7 @@ register({
   tech: 'sentry',
   name: 'Sentry',
   type: 'monitoring',
+  dotenv: ['SENTRY_'],
   dependencies: [
     { type: 'docker', name: 'sentry' },
     { type: 'docker', name: 'getsentry/sentry' },

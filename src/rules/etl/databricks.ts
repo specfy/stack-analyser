@@ -4,6 +4,7 @@ register({
   tech: 'databricks',
   name: 'Databricks',
   type: 'etl',
+  dotenv: ['DATABRICKS_'],
   dependencies: [
     {
       type: 'terraform',

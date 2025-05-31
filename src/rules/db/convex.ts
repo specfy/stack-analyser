@@ -4,6 +4,7 @@ register({
   tech: 'convexdb',
   name: 'Convex',
   type: 'db',
+  dotenv: ['CONVEX_'],
   dependencies: [
     { type: 'npm', name: 'convex' },
     { type: 'python', name: 'convex' },

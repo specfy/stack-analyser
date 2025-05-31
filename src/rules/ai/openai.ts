@@ -4,6 +4,7 @@ register({
   tech: 'openai',
   name: 'Openai',
   type: 'ai',
+  dotenv: ['OPENAI_'],
   dependencies: [
     { type: 'npm', name: 'openai' },
     { type: 'npm', name: '@ai-sdk/openai' },

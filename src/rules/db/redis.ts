@@ -4,6 +4,7 @@ register({
   tech: 'redis',
   name: 'Redis',
   type: 'db',
+  dotenv: ['REDIS_'],
   dependencies: [
     { type: 'npm', name: 'redis' },
     { type: 'npm', name: '@opentelemetry/instrumentation-redis' },

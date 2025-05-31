@@ -4,6 +4,7 @@ register({
   tech: 'supabase',
   name: 'Supabase',
   type: 'cloud',
+  dotenv: ['SUPABASE_'],
   dependencies: [
     { type: 'npm', name: /^@supabase\//, example: '@supabase/supabase.js' },
     { type: 'githubAction', name: 'supabase/setup-cli' },

@@ -5,6 +5,7 @@ register({
   name: 'Nango',
   type: 'etl',
   files: ['.nango', 'nango.yaml'],
+  dotenv: ['NANGO_'],
   dependencies: [
     { type: 'npm', name: 'nango' },
     { type: 'npm', name: '@nangohq/node' },

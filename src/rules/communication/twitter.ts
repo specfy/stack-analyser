@@ -4,6 +4,7 @@ register({
   tech: 'twitter',
   name: 'X',
   type: 'communication',
+  dotenv: ['TWITTER_'],
   dependencies: [
     { type: 'npm', name: 'twitter-api-v2' },
     { type: 'python', name: 'tweepy' },

@@ -5,6 +5,7 @@ register({
   name: 'Firebase',
   type: 'cloud',
   files: ['.firebaserc'],
+  dotenv: ['FIREBASE_'],
   dependencies: [
     { type: 'ruby', name: 'fastlane-plugin-firebase_app_distribution' },
     { type: 'rust', name: 'firebase-rs' },

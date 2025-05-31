@@ -4,6 +4,7 @@ register({
   tech: 'bugsnag',
   name: 'Bugsnag',
   type: 'monitoring',
+  dotenv: ['BUGSNAG_'],
   dependencies: [
     { type: 'npm', name: '@bugsnag/js' },
     { type: 'npm', name: '@bugsnag/node' },
