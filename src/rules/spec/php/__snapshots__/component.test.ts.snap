@@ -109,6 +109,7 @@ exports[`php > should match everything 1`] = `
   "mailjet",
   "meilisearch",
   "mergedev",
+  "microsoft_onedrive",
   "mixpanel",
   "mongodb",
   "nats",
@@ -782,6 +783,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "knplabs/github-api",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "krizalys/onedrive-php-sdk",
     "0.0.0",
   ],
   [

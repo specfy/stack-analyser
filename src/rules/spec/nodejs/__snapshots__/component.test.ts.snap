@@ -225,6 +225,7 @@ exports[`npm > should match everything 1`] = `
   "mergedev",
   "metabase",
   "meteorjs",
+  "microsoft_onedrive",
   "milvusdb",
   "mintlify",
   "miro",
@@ -2361,6 +2362,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@types/d3-shape",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@uppy/onedrive",
     "0.0.0",
   ],
   [

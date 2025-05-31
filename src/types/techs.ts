@@ -383,6 +383,7 @@ export type AllowedKeys =
   | 'mergedev'
   | 'metabase'
   | 'meteorjs'
+  | 'microsoft_onedrive'
   | 'milvusdb'
   | 'mintlify'
   | 'miro'

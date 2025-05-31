@@ -81,6 +81,7 @@ exports[`rust (component) > should match everything 1`] = `
   "mailjet",
   "meilisearch",
   "memcached",
+  "microsoft_onedrive",
   "mongodb",
   "mysql",
   "nats",
@@ -579,6 +580,11 @@ exports[`rust (component) > should match everything 2`] = `
   [
     "rust",
     "okta",
+    "1.0.0",
+  ],
+  [
+    "rust",
+    "onedrive-api",
     "1.0.0",
   ],
   [
