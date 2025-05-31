@@ -1,3 +1,10 @@
+## [1.24.1](https://github.com/specfy/stack-analyser/compare/v1.24.0...v1.24.1) (2025-05-31)
+
+
+### Bug Fixes
+
+* typo ([a80f1c6](https://github.com/specfy/stack-analyser/commit/a80f1c6d9fc61e76cc8fa2368410e1a12bf86760))
+
 # [1.24.0](https://github.com/specfy/stack-analyser/compare/v1.23.0...v1.24.0) (2025-05-31)
 
 
