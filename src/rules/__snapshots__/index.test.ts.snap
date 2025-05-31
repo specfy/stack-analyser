@@ -435,6 +435,7 @@ exports[`all > should match everything 1`] = `
   "qovery.cluster",
   "qovery.database",
   "questdb",
+  "qwikjs",
   "rabbitmq",
   "radixui",
   "rails",

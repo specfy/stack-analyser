@@ -279,6 +279,7 @@ exports[`npm > should match everything 1`] = `
   "qdrant",
   "qovery",
   "questdb",
+  "qwikjs",
   "rabbitmq",
   "radixui",
   "rails",
@@ -2610,6 +2611,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "browserstack",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "builder.io/qwik",
     "0.0.0",
   ],
   [

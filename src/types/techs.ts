@@ -471,6 +471,7 @@ export type AllowedKeys =
   | 'qovery.database'
   | 'qovery'
   | 'questdb'
+  | 'qwikjs'
   | 'rabbitmq'
   | 'radixui'
   | 'rails'
