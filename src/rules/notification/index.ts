@@ -1,5 +1,6 @@
 import './aws.ses.js';
 import './aws.sns.js';
+import './beehiiv.js';
 import './brevo.js';
 import './clicksend.js';
 import './iftt.js';

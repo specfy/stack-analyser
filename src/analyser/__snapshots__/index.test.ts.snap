@@ -105,6 +105,24 @@ exports[`analyser > should run correctly 1`] = `
   "childs": [
     {
       "childs": [],
+      "dependencies": [],
+      "edges": [],
+      "id": "14",
+      "inComponent": null,
+      "languages": {},
+      "licenses": [],
+      "name": "Beehiiv",
+      "path": [
+        "/.env.example",
+      ],
+      "reason": [
+        "beehiiv matched env: BEEHIIV_",
+      ],
+      "tech": "beehiiv",
+      "techs": [],
+    },
+    {
+      "childs": [],
       "dependencies": [
         [
           "docker",
@@ -135,7 +153,7 @@ exports[`analyser > should run correctly 1`] = `
               "childs": [],
               "dependencies": [],
               "edges": [],
-              "id": "23",
+              "id": "25",
               "inComponent": null,
               "languages": {},
               "licenses": [],
@@ -175,11 +193,11 @@ exports[`analyser > should run correctly 1`] = `
           "edges": [
             {
               "read": true,
-              "target": "23",
+              "target": "25",
               "write": true,
             },
           ],
-          "id": "22",
+          "id": "24",
           "inComponent": null,
           "languages": {
             "JSON": 1,
@@ -213,7 +231,7 @@ exports[`analyser > should run correctly 1`] = `
               "childs": [],
               "dependencies": [],
               "edges": [],
-              "id": "25",
+              "id": "27",
               "inComponent": null,
               "languages": {},
               "licenses": [],
@@ -251,8 +269,8 @@ exports[`analyser > should run correctly 1`] = `
             ],
           ],
           "edges": [],
-          "id": "24",
-          "inComponent": "25",
+          "id": "26",
+          "inComponent": "27",
           "languages": {
             "HTML": 1,
             "JSON": 1,
@@ -293,7 +311,7 @@ exports[`analyser > should run correctly 1`] = `
             ],
           ],
           "edges": [],
-          "id": "29",
+          "id": "31",
           "inComponent": null,
           "languages": {},
           "licenses": [],
@@ -311,7 +329,7 @@ exports[`analyser > should run correctly 1`] = `
           "childs": [],
           "dependencies": [],
           "edges": [],
-          "id": "13",
+          "id": "15",
           "inComponent": null,
           "languages": {},
           "licenses": [],
@@ -329,7 +347,7 @@ exports[`analyser > should run correctly 1`] = `
           "childs": [],
           "dependencies": [],
           "edges": [],
-          "id": "16",
+          "id": "18",
           "inComponent": null,
           "languages": {},
           "licenses": [],
@@ -353,7 +371,7 @@ exports[`analyser > should run correctly 1`] = `
             ],
           ],
           "edges": [],
-          "id": "30",
+          "id": "32",
           "inComponent": null,
           "languages": {},
           "licenses": [],
@@ -377,7 +395,7 @@ exports[`analyser > should run correctly 1`] = `
             ],
           ],
           "edges": [],
-          "id": "27",
+          "id": "29",
           "inComponent": null,
           "languages": {
             "TOML": 1,
@@ -402,7 +420,7 @@ exports[`analyser > should run correctly 1`] = `
           "childs": [],
           "dependencies": [],
           "edges": [],
-          "id": "18",
+          "id": "20",
           "inComponent": null,
           "languages": {
             "Go": 1,
@@ -426,7 +444,7 @@ exports[`analyser > should run correctly 1`] = `
               "childs": [],
               "dependencies": [],
               "edges": [],
-              "id": "21",
+              "id": "23",
               "inComponent": null,
               "languages": {},
               "licenses": [],
@@ -444,7 +462,7 @@ exports[`analyser > should run correctly 1`] = `
               "childs": [],
               "dependencies": [],
               "edges": [],
-              "id": "20",
+              "id": "22",
               "inComponent": null,
               "languages": {},
               "licenses": [],
@@ -644,16 +662,16 @@ exports[`analyser > should run correctly 1`] = `
           "edges": [
             {
               "read": true,
-              "target": "20",
+              "target": "22",
               "write": true,
             },
             {
               "read": true,
-              "target": "21",
+              "target": "23",
               "write": true,
             },
           ],
-          "id": "19",
+          "id": "21",
           "inComponent": null,
           "languages": {
             "JSON": 1,
@@ -763,7 +781,7 @@ exports[`analyser > should run correctly 1`] = `
       "edges": [
         {
           "read": true,
-          "target": "13",
+          "target": "15",
           "write": true,
         },
       ],
@@ -877,10 +895,13 @@ exports[`analyser > should run correctly 1`] = `
   "path": [
     "/",
     "/docker-compose.yml",
+    "/.env.example",
   ],
   "reason": [],
   "tech": null,
-  "techs": [],
+  "techs": [
+    "beehiiv",
+  ],
 }
 `;
 
@@ -914,11 +935,11 @@ exports[`analyser > should run correctly 2`] = `
       "edges": [
         {
           "read": true,
-          "target": "23",
+          "target": "25",
           "write": true,
         },
       ],
-      "id": "22",
+      "id": "24",
       "inComponent": null,
       "languages": {
         "JSON": 1,
@@ -967,12 +988,12 @@ exports[`analyser > should run correctly 2`] = `
       "edges": [
         {
           "read": true,
-          "target": "22",
+          "target": "24",
           "write": true,
         },
       ],
-      "id": "24",
-      "inComponent": "25",
+      "id": "26",
+      "inComponent": "27",
       "languages": {
         "HTML": 1,
         "JSON": 1,
@@ -1000,7 +1021,7 @@ exports[`analyser > should run correctly 2`] = `
       "childs": [],
       "dependencies": [],
       "edges": [],
-      "id": "21",
+      "id": "23",
       "inComponent": null,
       "languages": {},
       "licenses": [],
@@ -1016,7 +1037,23 @@ exports[`analyser > should run correctly 2`] = `
       "childs": [],
       "dependencies": [],
       "edges": [],
-      "id": "23",
+      "id": "14",
+      "inComponent": null,
+      "languages": {},
+      "licenses": [],
+      "name": "Beehiiv",
+      "path": [
+        "/.env.example",
+      ],
+      "reason": [],
+      "tech": "beehiiv",
+      "techs": [],
+    },
+    {
+      "childs": [],
+      "dependencies": [],
+      "edges": [],
+      "id": "25",
       "inComponent": null,
       "languages": {},
       "licenses": [],
@@ -1038,7 +1075,7 @@ exports[`analyser > should run correctly 2`] = `
         ],
       ],
       "edges": [],
-      "id": "29",
+      "id": "31",
       "inComponent": null,
       "languages": {},
       "licenses": [],
@@ -1054,7 +1091,7 @@ exports[`analyser > should run correctly 2`] = `
       "childs": [],
       "dependencies": [],
       "edges": [],
-      "id": "13",
+      "id": "15",
       "inComponent": null,
       "languages": {},
       "licenses": [],
@@ -1076,7 +1113,7 @@ exports[`analyser > should run correctly 2`] = `
         ],
       ],
       "edges": [],
-      "id": "25",
+      "id": "27",
       "inComponent": null,
       "languages": {},
       "licenses": [],
@@ -1198,7 +1235,7 @@ exports[`analyser > should run correctly 2`] = `
       "edges": [
         {
           "read": true,
-          "target": "13",
+          "target": "15",
           "write": true,
         },
       ],
@@ -1280,7 +1317,7 @@ exports[`analyser > should run correctly 2`] = `
         ],
       ],
       "edges": [],
-      "id": "27",
+      "id": "29",
       "inComponent": null,
       "languages": {
         "TOML": 1,
@@ -1303,7 +1340,7 @@ exports[`analyser > should run correctly 2`] = `
       "childs": [],
       "dependencies": [],
       "edges": [],
-      "id": "18",
+      "id": "20",
       "inComponent": null,
       "languages": {
         "Go": 1,
@@ -1511,11 +1548,11 @@ exports[`analyser > should run correctly 2`] = `
         },
         {
           "read": true,
-          "target": "21",
+          "target": "23",
           "write": true,
         },
       ],
-      "id": "19",
+      "id": "21",
       "inComponent": null,
       "languages": {
         "JSON": 1,
@@ -1874,7 +1911,7 @@ exports[`analyser > should run correctly 2`] = `
     ],
   ],
   "edges": [],
-  "id": "31",
+  "id": "33",
   "inComponent": null,
   "languages": {
     "AMPL": 2,
@@ -1908,11 +1945,13 @@ exports[`analyser > should run correctly 2`] = `
     "/golang",
     "/ruby/Gemfile",
     "/terraform",
+    "/.env.example",
   ],
   "reason": [],
   "tech": null,
   "techs": [
     "algolia",
+    "beehiiv",
     "bundler",
     "cargo",
     "codecov",

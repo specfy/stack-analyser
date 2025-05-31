@@ -1,11 +1,14 @@
 import { matchExtensions, matchFiles, matchFilesRegex } from './common/rules/matchFiles.js';
 import { registeredRules } from './register.js';
+import { matchDotEnv } from './rules/spec/dotenv/matcher.js';
 
 import type {
   ComponentMatcher,
+  DotEnvMatcher,
   ExtensionMatcher,
   Rule,
   RuleDependency,
+  RuleWithDotEnv,
   RuleWithFile,
   SupportedDeps,
   TechMatcher,
@@ -14,6 +17,7 @@ import type { AllowedKeys } from './types/techs.js';
 
 export const rulesTechs: TechMatcher[] = [];
 export const rulesExtensions: ExtensionMatcher[] = [];
+export const rulesDotEnv: DotEnvMatcher[] = [];
 export const rulesComponents: ComponentMatcher[] = [];
 
 export const dependencies: Record<SupportedDeps, { match: RegExp; tech: AllowedKeys }[]> = {
@@ -32,6 +36,7 @@ export const dependencies: Record<SupportedDeps, { match: RegExp; tech: AllowedK
 
 export const rawList: (
   | ({ ref: RuleDependency } & { type: 'dependency' })
+  | ({ ref: RuleWithDotEnv } & { type: 'dotenv' })
   | ({ ref: RuleWithFile } & { type: 'ext' })
   | ({ ref: RuleWithFile } & { type: 'file' })
 )[] = [];
@@ -91,6 +96,15 @@ export function loadOne(rule: Rule): void {
 
     rawList.push({ type: 'ext', ref: rule });
     rulesExtensions.push(matcher);
+  }
+
+  if (Array.isArray(rule.dotenv) && rule.dotenv.length > 0) {
+    const matcher: DotEnvMatcher = (content) => {
+      return matchDotEnv({ key: rule.tech, list: rule.dotenv!, content });
+    };
+
+    rawList.push({ type: 'dotenv', ref: rule as RuleWithDotEnv });
+    rulesDotEnv.push(matcher);
   }
 
   if (rule.detect) {

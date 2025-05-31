@@ -108,6 +108,7 @@ exports[`all > should match everything 1`] = `
   "azure.staticwebapps",
   "azure.storage",
   "bash",
+  "beehiiv",
   "betterauth",
   "betterstack",
   "bigcommerce",

@@ -4,6 +4,7 @@ register({
   tech: 'algolia',
   name: 'Algolia',
   type: 'db',
+  dotenv: ['ALGOLIA_'],
   dependencies: [
     { type: 'npm', name: /^@algolia\//, example: '@algolia/client' },
     { type: 'npm', name: 'algoliasearch' },

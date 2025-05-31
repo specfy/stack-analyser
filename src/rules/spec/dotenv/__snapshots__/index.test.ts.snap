@@ -1,0 +1,10 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`dotenv > should match all dependencies 1`] = `
+[
+  "algolia",
+  "beehiiv",
+]
+`;
+
+exports[`dotenv > should match all dependencies 2`] = `[]`;

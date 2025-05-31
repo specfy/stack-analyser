@@ -29,6 +29,7 @@ export type Rule = {
   tech: AllowedKeys;
   name: string;
   type: TechType;
+  dotenv?: string[];
   dependencies?: RuleDependency[];
   detect?: ComponentMatcher | ComponentMatcher[];
   extensions?: string[];
@@ -53,6 +54,7 @@ export type RuleFiles =
     };
 
 export type RuleWithFile = Pick<Rule, 'tech'> & RuleFiles;
+export type RuleWithDotEnv = { dotenv: string[] } & Pick<Rule, 'tech'>;
 
 export type ComponentMatcher = (
   files: ProviderFile[],
@@ -61,3 +63,4 @@ export type ComponentMatcher = (
 
 export type TechMatcher = (files: ProviderFile[]) => [Rule, string] | false;
 export type ExtensionMatcher = (list: Set<string>) => [Rule, string] | false;
+export type DotEnvMatcher = (content: string) => [Rule, string] | false;

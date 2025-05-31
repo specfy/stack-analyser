@@ -84,6 +84,7 @@ exports[`npm > should match everything 1`] = `
   "azure.sql",
   "azure.staticwebapps",
   "azure.storage",
+  "beehiiv",
   "betterauth",
   "betterstack",
   "bigcommerce",
@@ -1033,6 +1034,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@azure/storage-queue",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@beehiiv/sdk",
     "0.0.0",
   ],
   [

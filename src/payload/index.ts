@@ -7,6 +7,7 @@ import { matchAllFiles } from '../matchAllFiles.js';
 import { IGNORED_DIVE_PATHS } from '../provider/base.js';
 import { listIndexed } from '../register.js';
 import { findHosting, findImplicitComponent } from './helpers.js';
+import { detectInDotEnv } from '../rules/spec/dotenv/index.js';
 import { cleanPath } from '../tests/helpers.js';
 
 import type { BaseProvider } from '../provider/base.js';
@@ -91,6 +92,14 @@ export class Payload implements Analyser {
           this.addChild(pl);
         }
       }
+    }
+
+    const dotenv = await detectInDotEnv(files, provider);
+    if (dotenv !== false) {
+      for (const child of dotenv.childs) {
+        this.addChild(child);
+      }
+      this.combine(dotenv);
     }
 
     // Detect Tech
