@@ -238,7 +238,7 @@ exports[`npm > should match everything 1`] = `
   "monday",
   "mongodb",
   "mongodbatlas",
-  "msqsql",
+  "mssql",
   "mysql",
   "n8n",
   "nango",

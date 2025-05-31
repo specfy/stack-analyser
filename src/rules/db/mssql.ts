@@ -1,7 +1,7 @@
 import { register } from '../../register.js';
 
 register({
-  tech: 'msqsql',
+  tech: 'mssql',
   name: 'MS SQL',
   type: 'db',
   dependencies: [
