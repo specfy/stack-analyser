@@ -206,6 +206,7 @@ exports[`npm > should match everything 1`] = `
   "lemonsqueezy",
   "libsql",
   "lighthouse",
+  "litjs",
   "logrocket",
   "logsnag",
   "logstash",
@@ -3132,6 +3133,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "lighthouse",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "lit",
     "0.0.0",
   ],
   [
