@@ -4,6 +4,7 @@ register({
   tech: 'ollama',
   name: 'Ollama',
   type: 'ai',
+  dotenv: ['OLLAMA_'],
   dependencies: [
     { type: 'npm', name: '@langchain/ollama' },
     { type: 'npm', name: 'ollama-ai-provider' },

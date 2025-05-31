@@ -4,6 +4,7 @@ register({
   tech: 'adyen',
   name: 'Adyen',
   type: 'payment',
+  dotenv: ['ADYEN_'],
   dependencies: [
     { type: 'npm', name: '@adyen/adyen-web' },
     { type: 'npm', name: '@adyen/api-library' },

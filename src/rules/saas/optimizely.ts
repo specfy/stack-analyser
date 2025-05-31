@@ -4,6 +4,7 @@ register({
   tech: 'optimizely',
   name: 'Optimizely',
   type: 'saas',
+  dotenv: ['OPTIMIZELY_'],
   dependencies: [
     { type: 'npm', name: '@optimizely/optimizely-sdk' },
     { type: 'npm', name: '@optimizely/react-sdk' },

@@ -1,7 +1,8 @@
 import { register } from '../../register.js';
 
 register({
-  tech: 'iftt',
-  name: 'iftt',
+  tech: 'ifttt',
+  name: 'ifttt',
   type: 'notification',
+  dotenv: ['IFTTT'],
 });

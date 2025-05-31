@@ -4,6 +4,7 @@ register({
   tech: 'okta',
   name: 'Okta',
   type: 'auth',
+  dotenv: ['OKTA_'],
   dependencies: [
     { type: 'npm', name: /^@okta\//, example: '@okta/okta-signin-widget' },
     { type: 'terraform', name: 'registry.terraform.io/okta/okta' },

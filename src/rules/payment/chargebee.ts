@@ -4,6 +4,7 @@ register({
   tech: 'chargebee',
   name: 'Chargebee',
   type: 'payment',
+  dotenv: ['CHARGEBEE_'],
   dependencies: [
     { type: 'npm', name: 'chargebee' },
     { type: 'npm', name: 'chargebee-typescript' },

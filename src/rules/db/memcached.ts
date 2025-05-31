@@ -4,6 +4,7 @@ register({
   tech: 'memcached',
   name: 'Memcached',
   type: 'db',
+  dotenv: ['MEMCACHED_'],
   dependencies: [
     { type: 'npm', name: 'memcached' },
     { type: 'docker', name: /memcached/, example: 'memcached:0.0.0' },

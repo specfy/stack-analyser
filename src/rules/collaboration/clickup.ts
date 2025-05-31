@@ -4,4 +4,5 @@ register({
   tech: 'clickup',
   name: 'ClickUp',
   type: 'collaboration',
+  dotenv: ['CLICKUP_'],
 });

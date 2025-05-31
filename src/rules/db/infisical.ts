@@ -5,6 +5,7 @@ register({
   name: 'Infisical',
   type: 'db',
   files: ['.infisical.json'],
+  dotenv: ['INFISICAL_'],
   dependencies: [
     { type: 'npm', name: 'infisical' },
     { type: 'docker', name: 'infisical/infisical' },

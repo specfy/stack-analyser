@@ -4,6 +4,7 @@ register({
   tech: 'mailjet',
   name: 'Mailjet',
   type: 'notification',
+  dotenv: ['MAILJET_'],
   dependencies: [
     { type: 'npm', name: 'node-mailjet' },
     { type: 'rust', name: 'mailjet-rs' },

@@ -4,6 +4,7 @@ register({
   tech: 'asana',
   name: 'Asana',
   type: 'collaboration',
+  dotenv: ['ASANA_'],
   dependencies: [
     { type: 'npm', name: 'asana' },
     { type: 'python', name: 'asana' },

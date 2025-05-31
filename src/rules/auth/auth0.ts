@@ -4,6 +4,7 @@ register({
   tech: 'auth0',
   name: 'Auth0',
   type: 'auth',
+  dotenv: ['AUTH0_'],
   dependencies: [
     { type: 'npm', name: 'auth0' },
     { type: 'npm', name: '@pulumi/auth0' },

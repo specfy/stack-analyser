@@ -4,6 +4,7 @@ register({
   tech: 'pinecone',
   name: 'Pinecone',
   type: 'db',
+  dotenv: ['PINECONE_'],
   dependencies: [
     { type: 'terraform', name: 'registry.terraform.io/pinecone-io/pinecone' },
     { type: 'python', name: 'pinecone' },

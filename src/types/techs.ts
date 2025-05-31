@@ -331,7 +331,7 @@ export type AllowedKeys =
   | 'hyperdx'
   | 'hypertune'
   | 'ibmcloud'
-  | 'iftt'
+  | 'ifttt'
   | 'infernojs'
   | 'infisical'
   | 'influxdb'

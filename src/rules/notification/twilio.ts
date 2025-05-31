@@ -4,6 +4,7 @@ register({
   tech: 'twilio',
   name: 'Twilio',
   type: 'notification',
+  dotenv: ['TWILIO_'],
   dependencies: [
     { type: 'npm', name: 'twilio' },
     { type: 'npm', name: /^@twilio\//, example: '@twilio/cli-core' },

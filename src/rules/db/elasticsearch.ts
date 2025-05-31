@@ -4,6 +4,7 @@ register({
   tech: 'elasticsearch',
   name: 'Elasticsearch',
   type: 'db',
+  dotenv: ['ELASTICSEARCH_'],
   dependencies: [
     { type: 'npm', name: '@elastic/elasticsearch' },
     { type: 'docker', name: /elasticsearch/, example: 'elasticsearch:0.0.0' },

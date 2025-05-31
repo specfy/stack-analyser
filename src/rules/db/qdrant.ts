@@ -4,6 +4,7 @@ register({
   tech: 'qdrant',
   name: 'Qdrant',
   type: 'db',
+  dotenv: ['QDRANT_'],
   dependencies: [
     { type: 'rust', name: 'qdrant-client' },
     { type: 'python', name: 'qdrant-client' },

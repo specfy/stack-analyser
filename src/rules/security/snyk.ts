@@ -5,6 +5,7 @@ register({
   name: 'Snyk',
   type: 'security',
   files: ['.snyk'],
+  dotenv: ['SNYK_'],
   dependencies: [
     { type: 'npm', name: 'snyk' },
     {

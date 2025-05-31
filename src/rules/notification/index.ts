@@ -3,7 +3,7 @@ import './aws.sns.js';
 import './beehiiv.js';
 import './brevo.js';
 import './clicksend.js';
-import './iftt.js';
+import './ifttt.js';
 import './mailchimp.js';
 import './mailgun.js';
 import './mailjet.js';

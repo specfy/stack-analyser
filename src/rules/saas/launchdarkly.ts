@@ -4,6 +4,7 @@ register({
   tech: 'launchdarkly',
   name: 'LaunchDarkly',
   type: 'saas',
+  dotenv: ['LAUNCHDARKLY_'],
   dependencies: [
     {
       type: 'npm',

@@ -4,6 +4,7 @@ register({
   tech: 'pagerduty',
   name: 'Pagerduty',
   type: 'saas',
+  dotenv: ['PAGERDUTY_'],
   dependencies: [
     { type: 'npm', name: '@pagerduty/pdjs' },
     { type: 'terraform', name: 'registry.terraform.io/PagerDuty/pagerduty' },

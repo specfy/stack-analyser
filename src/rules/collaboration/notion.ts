@@ -4,6 +4,7 @@ register({
   tech: 'notion',
   name: 'Notion',
   type: 'collaboration',
+  dotenv: ['NOTION_'],
   dependencies: [
     { type: 'npm', name: '@notionhq/client' },
     { type: 'npm', name: 'notion-to-md' },

@@ -4,7 +4,7 @@ register({
   tech: 'mistralai',
   name: 'Mistral AI',
   type: 'ai',
-  dotenv: ['MISTRALAI_'],
+  dotenv: ['MISTRAL'],
   dependencies: [
     { type: 'npm', name: '@ai-sdk/mistral' },
     { type: 'npm', name: 'genkitx-mistral' },

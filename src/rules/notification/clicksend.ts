@@ -4,5 +4,6 @@ register({
   tech: 'clicksend',
   name: 'ClickSend',
   type: 'notification',
+  dotenv: ['CLICKSEND_'],
   dependencies: [{ type: 'npm', name: 'clicksend' }],
 });

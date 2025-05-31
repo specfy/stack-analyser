@@ -4,6 +4,7 @@ register({
   tech: 'apify',
   name: 'Apify',
   type: 'automation',
+  dotenv: ['APIFY_'],
   dependencies: [
     { type: 'npm', name: 'apify' },
     { type: 'npm', name: 'apify-client' },

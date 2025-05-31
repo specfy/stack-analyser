@@ -4,6 +4,7 @@ register({
   tech: 'lago',
   name: 'Lago',
   type: 'saas',
+  dotenv: ['LAGO_'],
   dependencies: [
     { type: 'npm', name: 'lago-javascript-client' },
     { type: 'golang', name: 'github.com/getlago/lago-go-client' },

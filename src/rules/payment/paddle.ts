@@ -4,6 +4,7 @@ register({
   tech: 'paddle',
   name: 'Paddle',
   type: 'payment',
+  dotenv: ['PADDLE_'],
   dependencies: [
     { type: 'npm', name: '@paddle/paddle-js' },
     { type: 'npm', name: '@paddle/paddle-node-sdk' },

@@ -4,6 +4,7 @@ register({
   tech: 'milvusdb',
   name: 'MilvusDB',
   type: 'db',
+  dotenv: ['MILVUS_'],
   dependencies: [
     { type: 'docker', name: 'milvusdb/milvus' },
     { type: 'docker', name: 'milvusdb/milvus-dev' },

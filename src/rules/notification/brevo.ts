@@ -4,6 +4,7 @@ register({
   tech: 'brevo',
   name: 'Brevo',
   type: 'notification',
+  dotenv: ['BREVO_'],
   dependencies: [
     { type: 'golang', name: 'github.com/getbrevo/brevo-go' },
     { type: 'npm', name: '@getbrevo/brevo' },

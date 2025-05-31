@@ -4,6 +4,7 @@ register({
   tech: 'logtoio',
   name: 'Logto',
   type: 'auth',
+  dotenv: ['LOGTO_'],
   dependencies: [
     { type: 'npm', name: /^@logto\//, example: '@logto/js' },
     { type: 'golang', name: 'github.com/logto-io/go' },

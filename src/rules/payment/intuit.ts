@@ -4,4 +4,5 @@ register({
   tech: 'intuit',
   name: 'Intuit',
   type: 'payment',
+  dotenv: ['INTUIT_'],
 });

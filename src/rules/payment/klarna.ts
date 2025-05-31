@@ -4,6 +4,7 @@ register({
   tech: 'klarna',
   name: 'Klarna',
   type: 'payment',
+  dotenv: ['KLARNA_'],
   dependencies: [
     { type: 'ruby', name: 'klarna_proxy' },
     { type: 'ruby', name: 'klarna-checkout' },

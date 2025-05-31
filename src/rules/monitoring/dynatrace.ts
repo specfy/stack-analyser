@@ -4,6 +4,7 @@ register({
   tech: 'dynatrace',
   name: 'Dynatrace',
   type: 'monitoring',
+  dotenv: ['DYNATRACE_'],
   dependencies: [
     {
       type: 'npm',

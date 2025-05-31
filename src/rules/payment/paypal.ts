@@ -4,6 +4,7 @@ register({
   tech: 'paypal',
   name: 'Paypal',
   type: 'payment',
+  dotenv: ['PAYPAL_'],
   dependencies: [
     { type: 'npm', name: '@paypal/paypal-js' },
     { type: 'npm', name: 'paypal-rest-sdk' },

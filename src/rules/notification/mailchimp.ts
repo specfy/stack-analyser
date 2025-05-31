@@ -4,6 +4,7 @@ register({
   tech: 'mailchimp',
   name: 'Mailchimp',
   type: 'notification',
+  dotenv: ['MAILCHIMP_'],
   dependencies: [
     { type: 'npm', name: '@mailchimp/mailchimp_marketing' },
     { type: 'npm', name: '@mailchimp/mailchimp_transactional' },

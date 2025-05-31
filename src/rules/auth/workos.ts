@@ -4,6 +4,7 @@ register({
   tech: 'workos',
   name: 'WorkOS',
   type: 'auth',
+  dotenv: ['WORKOS_'],
   dependencies: [
     { type: 'npm', name: '@workos-inc/node' },
     { type: 'golang', name: 'github.com/workos/workos-go' },

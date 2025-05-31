@@ -4,6 +4,7 @@ register({
   tech: 'rabbitmq',
   name: 'RabbitMQ',
   type: 'queue',
+  dotenv: ['RABBITMQ_'],
   dependencies: [
     { type: 'npm', name: 'amqplib' },
     { type: 'npm', name: '@opentelemetry/instrumentation-amqplib' },

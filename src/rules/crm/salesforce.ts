@@ -4,6 +4,7 @@ register({
   tech: 'salesforce',
   name: 'Salesforce',
   type: 'crm',
+  dotenv: ['SALESFORCE_'],
   dependencies: [
     { type: 'terraform', name: 'registry.terraform.io/hashicorp/salesforce' },
     {
