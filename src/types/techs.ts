@@ -548,6 +548,7 @@ export type AllowedKeys =
   | 'sqreen'
   | 'squarespace'
   | 'squareup'
+  | 'stenciljs'
   | 'storybook'
   | 'strapi'
   | 'stripe'

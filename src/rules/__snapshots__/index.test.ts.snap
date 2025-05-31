@@ -512,6 +512,7 @@ exports[`all > should match everything 1`] = `
   "sqreen",
   "squarespace",
   "squareup",
+  "stenciljs",
   "storybook",
   "strapi",
   "stripe",

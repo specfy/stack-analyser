@@ -7,5 +7,6 @@ import './preactjs.js';
 import './qwikjs.js';
 import './react.js';
 import './solidjs.js';
+import './stenciljs.js';
 import './sveltejs.js';
 import './vue.js';

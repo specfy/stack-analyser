@@ -324,6 +324,7 @@ exports[`npm > should match everything 1`] = `
   "sqlite",
   "sqreen",
   "squarespace",
+  "stenciljs",
   "storybook",
   "strapi",
   "stripe",
@@ -2193,6 +2194,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@squarespace/server",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@stencil/core",
     "0.0.0",
   ],
   [
