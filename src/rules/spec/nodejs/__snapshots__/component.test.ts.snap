@@ -235,6 +235,7 @@ exports[`npm > should match everything 1`] = `
   "monday",
   "mongodb",
   "mongodbatlas",
+  "msqsql",
   "mysql",
   "n8n",
   "nango",
@@ -1799,6 +1800,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@opentelemetry/instrumentation-tedious",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@optimizely/js-sdk-event-processor",
     "0.0.0",
   ],
@@ -3275,6 +3281,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "mongoose",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "mssql",
     "0.0.0",
   ],
   [

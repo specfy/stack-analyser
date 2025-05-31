@@ -394,6 +394,7 @@ export type AllowedKeys =
   | 'mongodb'
   | 'mongodbatlas'
   | 'mongoexpress'
+  | 'msqsql'
   | 'mysql'
   | 'n8n'
   | 'nango'

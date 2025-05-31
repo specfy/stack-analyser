@@ -51,6 +51,7 @@ import './meilisearchcloud.js';
 import './memcached.js';
 import './milvusdb.js';
 import './mongodb.js';
+import './mssql.js';
 import './mysql.js';
 import './neo4j.js';
 import './neondb.js';

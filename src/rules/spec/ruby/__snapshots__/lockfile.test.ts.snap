@@ -144,6 +144,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "mergedev",
   "mixpanel",
   "mongodb",
+  "msqsql",
   "mysql",
   "nats",
   "neo4j",
@@ -886,6 +887,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "intercom-rails",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "jdbc-mssql",
     "1.0.0",
   ],
   [
