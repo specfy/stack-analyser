@@ -4,5 +4,4 @@ register({
   tech: 'apple.maps',
   name: 'Apple Maps',
   type: 'maps',
-  dependencies: [],
 });

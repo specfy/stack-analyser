@@ -322,6 +322,7 @@ export type AllowedKeys =
   | 'hashicorp_vault'
   | 'healthchecksio'
   | 'helm'
+  | 'heremaps'
   | 'heroku'
   | 'hetzner'
   | 'hexojs'

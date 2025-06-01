@@ -183,6 +183,7 @@ exports[`npm > should match everything 1`] = `
   "groq",
   "hanko",
   "hashicorp_vault",
+  "heremaps",
   "hexojs",
   "hostinger",
   "hotjar",
@@ -2401,6 +2402,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@types/d3-shape",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@types/heremaps",
     "0.0.0",
   ],
   [
