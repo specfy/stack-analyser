@@ -1,3 +1,21 @@
+# [1.25.0](https://github.com/specfy/stack-analyser/compare/v1.24.1...v1.25.0) (2025-06-01)
+
+
+### Bug Fixes
+
+* **rules:** add Apple, Apple Maps ([329eb6b](https://github.com/specfy/stack-analyser/commit/329eb6beec5958cfc19ac6a7f8d5a526bd5b3ea8))
+* **rules:** add Azure maps ([a1cf16a](https://github.com/specfy/stack-analyser/commit/a1cf16aad2069c85b45da80b7d19ee4079b0c90a))
+* **rules:** add Here Maps ([f5f8e99](https://github.com/specfy/stack-analyser/commit/f5f8e991dac729497c1dc0187849297e38ad798c))
+* **rules:** add Mapbox ([4caf9a9](https://github.com/specfy/stack-analyser/commit/4caf9a9356112ff1be4ac5b670b80c7c319b93d4))
+* **rules:** add more dotenv ([da813f2](https://github.com/specfy/stack-analyser/commit/da813f2af98f2278ce88a14a6ba361f315e9113c))
+* **rules:** rename adobe cloud and fix category ([4bf10ed](https://github.com/specfy/stack-analyser/commit/4bf10ed3371c6582568ea657b7ecbf37261579c5))
+
+
+### Features
+
+* **rules:** add all Google workspaces, change key for analytics, sheets ([bd1251d](https://github.com/specfy/stack-analyser/commit/bd1251d2456b65eb3ccb7359118450d257746bec))
+* **rules:** add Category IAC, Maps, move some to AI and automation ([2932670](https://github.com/specfy/stack-analyser/commit/2932670c8f7241b2fb404c66637cfc01221ae598))
+
 ## [1.24.1](https://github.com/specfy/stack-analyser/compare/v1.24.0...v1.24.1) (2025-05-31)
 
 
