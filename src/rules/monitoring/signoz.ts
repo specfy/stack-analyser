@@ -4,6 +4,7 @@ register({
   tech: 'signoz',
   name: 'Signoz',
   type: 'monitoring',
+  dotenv: ['SIGNOZ_'],
   dependencies: [
     { type: 'docker', name: 'signoz/frontend' },
     { type: 'docker', name: 'signoz/alertmanager' },

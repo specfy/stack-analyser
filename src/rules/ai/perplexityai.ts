@@ -4,6 +4,7 @@ register({
   tech: 'perplexityai',
   name: 'Perplexity AI',
   type: 'ai',
+  dotenv: ['PERPLEXITY_'],
   dependencies: [
     { type: 'npm', name: '@ai-sdk/perplexity' },
     { type: 'npm', name: '@langchain/perplexity' },

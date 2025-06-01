@@ -25,5 +25,6 @@ register({
     { type: 'githubAction', name: 'DataDog/synthetics-ci-github-action' },
     { type: 'githubAction', name: 'datadog/agent-github-action' },
     { type: 'python', name: 'datadog' },
+    { type: 'docker', name: 'datadog/agent' },
   ],
 });

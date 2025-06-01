@@ -4,6 +4,7 @@ register({
   tech: 'papertrail',
   name: 'Papertrail',
   type: 'monitoring',
+  dotenv: ['PAPERTRAIL_'],
   dependencies: [
     { type: 'npm', name: 'winston-papertrail' },
     { type: 'npm', name: 'pino-papertrail' },

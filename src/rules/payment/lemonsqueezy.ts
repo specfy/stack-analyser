@@ -4,6 +4,7 @@ register({
   tech: 'lemonsqueezy',
   name: 'Lemon Squeezy',
   type: 'payment',
+  dotenv: ['LEMON_SQUEEZY_', 'LEMONSQUEEZY_'],
   dependencies: [
     { type: 'npm', name: 'lemonsqueezy.ts' },
     { type: 'ruby', name: 'lemonsqueezy' },

@@ -36,6 +36,7 @@ exports[`docker > should match everything 1`] = `
   "couchbase",
   "cratedb",
   "cypressci",
+  "datadog",
   "deno",
   "discourse",
   "docker",
@@ -501,6 +502,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "daprio/sentry",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "datadog/agent",
     "0.0.0",
   ],
   [
