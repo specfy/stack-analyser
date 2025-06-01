@@ -79,6 +79,7 @@ exports[`rust (component) > should match everything 1`] = `
   "launchdarkly",
   "libsql",
   "mailjet",
+  "mapbox",
   "meilisearch",
   "memcached",
   "microsoft_onedrive",
@@ -535,6 +536,11 @@ exports[`rust (component) > should match everything 2`] = `
   [
     "rust",
     "mailjet-rs",
+    "1.0.0",
+  ],
+  [
+    "rust",
+    "mapboxgl",
     "1.0.0",
   ],
   [

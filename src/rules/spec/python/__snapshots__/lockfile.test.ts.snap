@@ -43,6 +43,7 @@ exports[`python lockfile: pyproject.toml > should match everything 1`] = `
   "libsql",
   "linear",
   "logtoio",
+  "mapbox",
   "mergedev",
   "milvusdb",
   "mistralai",
@@ -359,6 +360,11 @@ exports[`python lockfile: pyproject.toml > should match everything 2`] = `
   ],
   [
     "python",
+    "mapbox-tilesets",
+    "1.0.0",
+  ],
+  [
+    "python",
     "mistralai",
     "1.0.0",
   ],
@@ -548,6 +554,7 @@ exports[`python lockfile: requirements.txt > should match everything 1`] = `
   "libsql",
   "linear",
   "logtoio",
+  "mapbox",
   "mergedev",
   "milvusdb",
   "mistralai",
@@ -861,6 +868,11 @@ exports[`python lockfile: requirements.txt > should match everything 2`] = `
   [
     "python",
     "logto",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "mapbox-tilesets",
     "1.0.0",
   ],
   [

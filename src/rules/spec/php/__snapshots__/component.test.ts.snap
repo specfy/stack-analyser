@@ -107,6 +107,7 @@ exports[`php > should match everything 1`] = `
   "mailchimp",
   "mailgun",
   "mailjet",
+  "mapbox",
   "meilisearch",
   "mergedev",
   "microsoft_onedrive",
@@ -533,6 +534,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "fusionauth/fusionauth-client",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "geocoder-php/mapbox-provider",
     "0.0.0",
   ],
   [

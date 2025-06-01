@@ -4,6 +4,7 @@ register({
   tech: 'gcp.maps',
   name: 'Google Maps',
   type: 'maps',
+  dotenv: ['GOOGLE_MAPS_'],
   dependencies: [
     { type: 'npm', name: '@google-cloud/maps' },
     { type: 'npm', name: /^@googlemaps\//, example: '@googlemaps/places' },

@@ -220,6 +220,7 @@ exports[`npm > should match everything 1`] = `
   "mailchimp",
   "mailgun",
   "mailjet",
+  "mapbox",
   "mariadb",
   "mattermost",
   "meilisearch",
@@ -1594,6 +1595,16 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@mailchimp/mailchimp_transactional",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@mapbox/mapbox-gl-geocoder",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@mapbox/mapbox-sdk",
     "0.0.0",
   ],
   [
@@ -3239,6 +3250,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "mailgun.js",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "mapbox-gl",
     "0.0.0",
   ],
   [

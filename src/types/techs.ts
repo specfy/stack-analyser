@@ -383,6 +383,7 @@ export type AllowedKeys =
   | 'mailgun'
   | 'mailhog'
   | 'mailjet'
+  | 'mapbox'
   | 'mariadb'
   | 'matomo'
   | 'mattermost'

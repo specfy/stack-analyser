@@ -138,6 +138,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "mailchimp",
   "mailgun",
   "mailjet",
+  "mapbox",
   "mariadb",
   "meilisearch",
   "memcached",
@@ -1007,6 +1008,21 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "mailjet",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "mapbox-gl-rails",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "mapbox-rails",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "mapbox-sdk",
     "1.0.0",
   ],
   [

@@ -345,6 +345,7 @@ exports[`all > should match everything 1`] = `
   "mailgun",
   "mailhog",
   "mailjet",
+  "mapbox",
   "mariadb",
   "matomo",
   "mattermost",
