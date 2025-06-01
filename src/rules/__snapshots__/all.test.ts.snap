@@ -101,6 +101,7 @@ exports[`all > should match everything 1`] = `
   "azure.ci",
   "azure.cosmosdb",
   "azure.functions",
+  "azure.maps",
   "azure.mariadb",
   "azure.mysql",
   "azure.openai",

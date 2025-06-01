@@ -76,6 +76,7 @@ exports[`npm > should match everything 1`] = `
   "azure",
   "azure.cosmosdb",
   "azure.functions",
+  "azure.maps",
   "azure.mariadb",
   "azure.mysql",
   "azure.openai",
@@ -974,6 +975,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@azure-rest/maps-search",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@azure/arm-cosmosdb",
     "0.0.0",
   ],
@@ -1010,6 +1016,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@azure/functions",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@azure/maps-control",
     "0.0.0",
   ],
   [
@@ -2669,6 +2680,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "azure-maps-control",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "babel-jest",
     "0.0.0",
   ],
@@ -2680,6 +2696,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "better-sqlite3",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "bingmaps",
     "0.0.0",
   ],
   [

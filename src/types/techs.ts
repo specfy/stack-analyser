@@ -135,6 +135,7 @@ export type AllowedKeys =
   | 'azure.ci'
   | 'azure.cosmosdb'
   | 'azure.functions'
+  | 'azure.maps'
   | 'azure.mariadb'
   | 'azure.mysql'
   | 'azure.openai'
