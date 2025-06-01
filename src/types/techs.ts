@@ -1,7 +1,7 @@
 export type TechType =
   | 'ai'
   | 'analytics'
-  | 'api'
+  | 'api' // @deprecated
   | 'app'
   | 'auth'
   | 'automation'
@@ -15,8 +15,10 @@ export type TechType =
   | 'etl'
   | 'framework'
   | 'hosting'
+  | 'iac'
   | 'language'
   | 'linter'
+  | 'maps'
   | 'messaging' // @deprecated
   | 'monitoring'
   | 'network'

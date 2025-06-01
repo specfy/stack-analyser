@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'sitecore.xmlcloud',
   name: 'Sitecore XM cloud',
-  type: 'api',
+  type: 'cms',
   dependencies: [
     {
       type: 'npm',

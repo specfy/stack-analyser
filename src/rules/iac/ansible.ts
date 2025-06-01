@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'ansible',
   name: 'Ansible',
-  type: 'tool',
+  type: 'iac',
   dependencies: [
     { type: 'githubAction', name: 'ansible/ansible-lint' },
     { type: 'githubAction', name: 'ansible-community/ansible-test-gh-action' },

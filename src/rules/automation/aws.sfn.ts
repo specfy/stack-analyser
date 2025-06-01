@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'aws.sfn',
   name: 'AWS Step Functions',
-  type: 'api',
+  type: 'automation',
   dependencies: [
     { type: 'npm', name: '@aws-sdk/client-sfn' },
     { type: 'npm', name: '@aws-cdk/aws-sfn' },

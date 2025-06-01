@@ -1,5 +1,6 @@
 import './apacheKafka.js';
 import './aws.kafka.js';
+import './aws.kinesis.js';
 import './aws.mq.js';
 import './aws.sqs.js';
 import './celery.js';

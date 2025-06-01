@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'aws.kms',
   name: 'AWS Kms',
-  type: 'api',
+  type: 'security',
   dependencies: [
     { type: 'npm', name: '@aws-sdk/client-kms' },
     { type: 'npm', name: '@aws-cdk/aws-kms' },

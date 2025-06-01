@@ -16,6 +16,7 @@ const notAComponent = new Set<TechType>([
   'orm',
   'ui',
   'ui_framework',
+  'iac',
 ]);
 
 /**

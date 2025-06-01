@@ -13,6 +13,7 @@ import './payloadcms.js';
 import './prestashop.js';
 import './sanity.js';
 import './shopify.js';
+import './sitecore.xmcloud.js';
 import './squarespace.js';
 import './strapi.js';
 import './webflow.js';

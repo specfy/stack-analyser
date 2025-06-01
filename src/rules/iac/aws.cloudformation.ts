@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'aws.cloudformation',
   name: 'AWS CloudFormation',
-  type: 'api',
+  type: 'iac',
   dependencies: [
     { type: 'npm', name: '@aws-sdk/client-cloudformation' },
     { type: 'npm', name: '@aws-cdk/aws-cloudformation' },

@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'aws.translate',
   name: 'AWS Translate',
-  type: 'api',
+  type: 'ai',
   dependencies: [
     { type: 'npm', name: '@aws-sdk/client-translate' },
     { type: 'npm', name: '@aws-cdk/aws-translate' },

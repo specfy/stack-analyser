@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'pulumi',
   name: 'Pulumi',
-  type: 'tool',
+  type: 'iac',
   files: ['Pulumi.yaml'],
   dependencies: [
     { type: 'npm', name: '@pulumi/pulumi' },

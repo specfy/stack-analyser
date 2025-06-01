@@ -5,7 +5,7 @@ import { register } from '../../../register.js';
 register({
   tech: 'terraform',
   name: 'Terraform',
-  type: 'tool',
+  type: 'iac',
   files: ['.terraform', '.terraform.lock.hcl', 'main.tf', 'variables.tf'],
   extensions: ['.tf'],
   dependencies: [
