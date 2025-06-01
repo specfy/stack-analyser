@@ -1,3 +1,4 @@
+import './adobe.commercecloud.js';
 import './bigcommerce.js';
 import './commercetools.js';
 import './contentful.js';

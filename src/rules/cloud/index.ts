@@ -1,4 +1,4 @@
-import './adobecommercecloud.js';
+import './adobe.js';
 import './akamai.js';
 import './alibabacloud.js';
 import './apple.js';

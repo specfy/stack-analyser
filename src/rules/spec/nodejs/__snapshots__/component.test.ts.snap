@@ -2,7 +2,6 @@
 
 exports[`npm > should match everything 1`] = `
 [
-  "adobe",
   "adyen",
   "aircall",
   "airtable",
@@ -407,11 +406,6 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@adobe/magento-storefront-events-sdk",
-    "0.0.0",
-  ],
-  [
-    "npm",
-    "@adobe/pdfservices-node-sdk",
     "0.0.0",
   ],
   [

@@ -2,7 +2,6 @@
 
 exports[`php > should match everything 1`] = `
 [
-  "adobe",
   "adyen",
   "airtable",
   "algolia",
@@ -194,11 +193,6 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "adilbaig/pagerduty",
-    "0.0.0",
-  ],
-  [
-    "php",
-    "adobe/pdfservices-php-sdk",
     "0.0.0",
   ],
   [

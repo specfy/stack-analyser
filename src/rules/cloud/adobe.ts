@@ -1,7 +1,7 @@
 import { register } from '../../register.js';
 
 register({
-  tech: 'adobecommercecloud',
-  name: 'Adobe Commerce Cloud',
+  tech: 'adobe',
+  name: 'Adobe',
   type: 'cloud',
 });

@@ -38,8 +38,8 @@ export type TechType =
 
 export type AllowedKeys =
   | 'adminer'
+  | 'adobe.commercecloud'
   | 'adobe'
-  | 'adobecommercecloud'
   | 'adyen'
   | 'airbyte'
   | 'aircall'

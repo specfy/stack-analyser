@@ -1,4 +1,3 @@
-import './adobe.js';
 import './atlassian.bitbucket.js';
 import './box.js';
 import './docusign.js';
