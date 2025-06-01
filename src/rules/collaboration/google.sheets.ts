@@ -1,7 +1,7 @@
 import { register } from '../../register.js';
 
 register({
-  tech: 'googlesheets',
+  tech: 'google.sheets',
   name: 'Google Sheets',
   type: 'collaboration',
   dependencies: [

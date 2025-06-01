@@ -117,7 +117,18 @@ exports[`ruby (component) > should match everything 1`] = `
   "gcp.vision",
   "github",
   "gitlab",
-  "googlesheets",
+  "google",
+  "google.calendar",
+  "google.chat",
+  "google.docs",
+  "google.drive",
+  "google.forms",
+  "google.gmail",
+  "google.keep",
+  "google.meet",
+  "google.sheets",
+  "google.slides",
+  "google.tasks",
   "hashicorp_vault",
   "helm",
   "heroku",
@@ -717,12 +728,92 @@ exports[`ruby (component) > should match everything 2`] = `
   ],
   [
     "ruby",
+    "google-apis-calendar_v3",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "google-apis-chat_v1",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "google-apis-docs_v1",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "google-apis-drive_v2",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "google-apis-drive_v3",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "google-apis-forms_v1",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "google-apis-gmail_v1",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "google-apis-keep_v1",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "google-apis-meet_v2",
+    "1.0.0",
+  ],
+  [
+    "ruby",
     "google-apis-sheets_v4",
     "1.0.0",
   ],
   [
     "ruby",
+    "google-apis-slides_v1",
+    "1.0.0",
+  ],
+  [
+    "ruby",
     "google-apis-sqladmin_v1beta4",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "google-apis-storage_v1",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "google-apis-tasks_v1",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "google-apps-chat",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "google-apps-chat-v1",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "google-apps-meet",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "google-apps-meet-v2",
     "1.0.0",
   ],
   [
@@ -853,6 +944,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "google-cloud-vision-v1",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "google_calendar",
     "1.0.0",
   ],
   [

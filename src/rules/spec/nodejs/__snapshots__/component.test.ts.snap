@@ -177,7 +177,18 @@ exports[`npm > should match everything 1`] = `
   "gitbook",
   "github",
   "gitlab",
-  "googlesheets",
+  "google",
+  "google.analytics",
+  "google.calendar",
+  "google.chat",
+  "google.docs",
+  "google.drive",
+  "google.forms",
+  "google.gmail",
+  "google.meet",
+  "google.sheets",
+  "google.slides",
+  "google.tasks",
   "gridsome",
   "groq",
   "hanko",
@@ -229,7 +240,8 @@ exports[`npm > should match everything 1`] = `
   "mergedev",
   "metabase",
   "meteorjs",
-  "microsoft_onedrive",
+  "microsoft",
+  "microsoft.onedrive",
   "milvusdb",
   "mintlify",
   "miro",
@@ -486,6 +498,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@amplitude/analytics-browser",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@analytics/google-analytics",
     "0.0.0",
   ],
   [
@@ -1215,6 +1232,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@docusaurus/plugin-google-analytics",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@dynatrace/opentelemetry-core",
     "0.0.0",
   ],
@@ -1276,6 +1298,16 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@gitbook/api",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@google-analytics/data",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@google-apps/meet",
     "0.0.0",
   ],
   [
@@ -1435,7 +1467,47 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@googleapis/calendar",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@googleapis/chat",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@googleapis/docs",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@googleapis/drive",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@googleapis/forms",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@googleapis/gmail",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@googleapis/sheets",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@googleapis/slides",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@googleapis/tasks",
     "0.0.0",
   ],
   [
@@ -1756,6 +1828,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@nuxtjs/algolia",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@nuxtjs/google-analytics",
     "0.0.0",
   ],
   [
@@ -2400,7 +2477,17 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@types/google.analytics",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@types/heremaps",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@uppy/google-drive-picker",
     "0.0.0",
   ],
   [
@@ -2995,6 +3082,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "gatsby-plugin-google-analytics",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "gatsby-plugin-typesense",
     "0.0.0",
   ],
@@ -3420,6 +3512,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "nextjs-google-analytics",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "ng-intercom",
     "0.0.0",
   ],
@@ -3760,6 +3857,21 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "react-ga",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "react-ga4",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "react-google-drive-picker",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "react-instantsearch",
     "0.0.0",
   ],
@@ -3986,6 +4098,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "typesense-instantsearch-adapter",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "universal-analytics",
     "0.0.0",
   ],
   [

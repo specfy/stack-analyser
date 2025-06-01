@@ -13,6 +13,7 @@ register({
     },
     { type: 'golang', name: 'cloud.google.com/go/storage' },
     { type: 'ruby', name: 'google-cloud-storage' },
+    { type: 'ruby', name: 'google-apis-storage_v1' },
     { type: 'rust', name: 'google-cloud-storage' },
     { type: 'php', name: 'google/cloud-storage' },
     {

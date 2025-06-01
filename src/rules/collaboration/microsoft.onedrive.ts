@@ -1,9 +1,9 @@
 import { register } from '../../register.js';
 
 register({
-  tech: 'microsoft_onedrive',
+  tech: 'microsoft.onedrive',
   name: 'OneDrive',
-  type: 'storage',
+  type: 'collaboration',
   dependencies: [
     { type: 'rust', name: 'onedrive-api' },
     { type: 'php', name: 'krizalys/onedrive-php-sdk' },

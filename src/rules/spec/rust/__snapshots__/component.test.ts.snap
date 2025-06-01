@@ -72,7 +72,9 @@ exports[`rust (component) > should match everything 1`] = `
   "gcp.logging",
   "gcp.pubsub",
   "gitlab",
-  "googlesheets",
+  "google",
+  "google.drive",
+  "google.sheets",
   "hashicorp_vault",
   "influxdb",
   "kubernetes",
@@ -82,7 +84,8 @@ exports[`rust (component) > should match everything 1`] = `
   "mapbox",
   "meilisearch",
   "memcached",
-  "microsoft_onedrive",
+  "microsoft",
+  "microsoft.onedrive",
   "mongodb",
   "mysql",
   "nats",
@@ -491,6 +494,11 @@ exports[`rust (component) > should match everything 2`] = `
   [
     "rust",
     "google-cloud-storage",
+    "1.0.0",
+  ],
+  [
+    "rust",
+    "google-drive",
     "1.0.0",
   ],
   [
