@@ -10,6 +10,7 @@ exports[`dotenv > should match all dependencies 1`] = `
   "amplitude",
   "anthropic",
   "apify",
+  "apple",
   "asana",
   "auth0",
   "aws",

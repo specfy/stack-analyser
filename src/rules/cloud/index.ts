@@ -1,6 +1,7 @@
 import './adobecommercecloud.js';
 import './akamai.js';
 import './alibabacloud.js';
+import './apple.js';
 import './atlassian.js';
 import './aws.js';
 import './azure.js';

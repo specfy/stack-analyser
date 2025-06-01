@@ -32,6 +32,8 @@ exports[`all > should match everything 1`] = `
   "apideck",
   "apify",
   "apiplatform",
+  "apple",
+  "apple.maps",
   "appveyor",
   "asana",
   "asdf",

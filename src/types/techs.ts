@@ -67,6 +67,8 @@ export type AllowedKeys =
   | 'apideck'
   | 'apify'
   | 'apiplatform'
+  | 'apple.maps'
+  | 'apple'
   | 'appveyor'
   | 'asana'
   | 'asdf'
