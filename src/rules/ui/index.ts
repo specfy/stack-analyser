@@ -1,5 +1,6 @@
 import './bootstrap.js';
 import './d3js.js';
+import './headlessui.js';
 import './radixui.js';
 import './shadcn.js';
 import './tailwind.js';

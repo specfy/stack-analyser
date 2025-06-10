@@ -332,6 +332,7 @@ export type AllowedKeys =
   | 'hanko'
   | 'haproxy'
   | 'hashicorp_vault'
+  | 'headlessui'
   | 'healthchecksio'
   | 'helm'
   | 'heremaps'

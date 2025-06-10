@@ -295,6 +295,7 @@ exports[`all > should match everything 1`] = `
   "hanko",
   "haproxy",
   "hashicorp_vault",
+  "headlessui",
   "healthchecksio",
   "helm",
   "heremaps",
