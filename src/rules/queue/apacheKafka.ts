@@ -14,7 +14,7 @@ register({
     { type: 'npm', name: 'kafkajs' },
     { type: 'npm', name: 'kafka-node' },
     { type: 'npm', name: 'kafkajs-snappy' },
-    { type: 'npm', name: 'opentelemetry-instrumentation-kafkajs' },
+    { type: 'npm', name: '@opentelemetry/instrumentation-kafkajs' },
     { type: 'ruby', name: 'ruby-kafka' },
     { type: 'ruby', name: 'fluent-plugin-kafka' },
     { type: 'ruby', name: 'logstash-output-kafka' },

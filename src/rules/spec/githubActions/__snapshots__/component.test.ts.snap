@@ -80,6 +80,7 @@ exports[`githubActions > should match all dependencies 1`] = `
   "liquibase",
   "netlify",
   "nodejs",
+  "opentelemetry",
   "optimizely",
   "php",
   "planetscale",
@@ -706,6 +707,11 @@ exports[`githubActions > should match all dependencies 2`] = `
   [
     "githubAction",
     "planetscale/create-branch-action",
+    "1",
+  ],
+  [
+    "githubAction",
+    "plengauer/Thoth",
     "1",
   ],
   [

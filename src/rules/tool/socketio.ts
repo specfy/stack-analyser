@@ -7,5 +7,6 @@ register({
   dependencies: [
     { type: 'npm', name: 'socket.io' },
     { type: 'python', name: 'python-socketio' },
+    { type: 'npm', name: '@opentelemetry/instrumentation-socket.io' },
   ],
 });

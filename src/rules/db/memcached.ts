@@ -11,5 +11,6 @@ register({
     { type: 'rust', name: 'memcache-async' },
     { type: 'rust', name: 'memcache' },
     { type: 'ruby', name: 'dalli' },
+    { type: 'npm', name: '@opentelemetry/instrumentation-memcached' },
   ],
 });

@@ -1404,7 +1404,17 @@ exports[`ruby (component) > should match everything 2`] = `
   ],
   [
     "ruby",
+    "sentry-opentelemetry",
+    "1.0.0",
+  ],
+  [
+    "ruby",
     "sentry-rails",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "sentry-ruby",
     "1.0.0",
   ],
   [

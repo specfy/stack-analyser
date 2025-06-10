@@ -377,6 +377,7 @@ export type AllowedKeys =
   | 'kinde'
   | 'klarna'
   | 'klaviyo'
+  | 'knex'
   | 'koa'
   | 'koalaanalytics'
   | 'kong'

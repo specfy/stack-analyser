@@ -10,6 +10,7 @@ register({
     { type: 'npm', name: '@types/aws-lambda' },
     { type: 'npm', name: '@aws-sdk/client-lambda' },
     { type: 'npm', name: 'aws-lambda' },
+    { type: 'npm', name: '@opentelemetry/instrumentation-aws-lambda' },
     {
       type: 'docker',
       name: /^amazon\/aws-lambda/,

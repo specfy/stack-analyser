@@ -63,10 +63,12 @@ exports[`python lockfile: pyproject.toml > should match everything 1`] = `
   "pulumi",
   "pytorch",
   "qdrant",
+  "rabbitmq",
   "resend",
   "sas",
   "segment",
   "selenium",
+  "sentry",
   "socketio",
   "sqlalchemy",
   "stytch",
@@ -117,6 +119,11 @@ exports[`python lockfile: pyproject.toml > should match everything 2`] = `
   [
     "python",
     "algoliasearch-django",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "amqp",
     "1.0.0",
   ],
   [
@@ -477,6 +484,11 @@ exports[`python lockfile: pyproject.toml > should match everything 2`] = `
   [
     "python",
     "selenium",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "sentry_sdk",
     "1.0.0",
   ],
   [
@@ -581,10 +593,12 @@ exports[`python lockfile: requirements.txt > should match everything 1`] = `
   "python",
   "pytorch",
   "qdrant",
+  "rabbitmq",
   "resend",
   "sas",
   "segment",
   "selenium",
+  "sentry",
   "socketio",
   "sqlalchemy",
   "stytch",
@@ -635,6 +649,11 @@ exports[`python lockfile: requirements.txt > should match everything 2`] = `
   [
     "python",
     "algoliasearch-django",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "amqp",
     "1.0.0",
   ],
   [
@@ -995,6 +1014,11 @@ exports[`python lockfile: requirements.txt > should match everything 2`] = `
   [
     "python",
     "selenium",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "sentry_sdk",
     "1.0.0",
   ],
   [

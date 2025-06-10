@@ -13,5 +13,6 @@ register({
     { type: 'ruby', name: 'bunny' },
     { type: 'php', name: 'php-amqplib/php-amqplib' },
     { type: 'npm', name: '@pulumi/rabbitmq' },
+    { type: 'python', name: 'amqp' },
   ],
 });

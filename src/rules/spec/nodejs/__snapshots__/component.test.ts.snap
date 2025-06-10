@@ -218,6 +218,7 @@ exports[`npm > should match everything 1`] = `
   "k6",
   "kentico",
   "kinde",
+  "knex",
   "koa",
   "koalaanalytics",
   "koyeb",
@@ -1912,6 +1913,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@opentelemetry/instrumentation-aws-lambda",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@opentelemetry/instrumentation-cassandra-driver",
     "0.0.0",
   ],
@@ -1927,7 +1933,17 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@opentelemetry/instrumentation-kafkajs",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@opentelemetry/instrumentation-koa",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@opentelemetry/instrumentation-memcached",
     "0.0.0",
   ],
   [
@@ -1958,6 +1974,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@opentelemetry/instrumentation-redis-4",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@opentelemetry/instrumentation-socket.io",
     "0.0.0",
   ],
   [
@@ -2348,6 +2369,36 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@sentry/browser",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@sentry/core",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@sentry/integrations",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@sentry/minimal",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@sentry/node",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@sentry/opentelemetry-node",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@sentry/react",
     "0.0.0",
   ],
   [
@@ -3387,6 +3438,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "knex",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "koa",
     "0.0.0",
   ],
@@ -3703,11 +3759,6 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "openai",
-    "0.0.0",
-  ],
-  [
-    "npm",
-    "opentelemetry-instrumentation-kafkajs",
     "0.0.0",
   ],
   [

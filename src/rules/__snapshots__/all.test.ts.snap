@@ -339,6 +339,7 @@ exports[`all > should match everything 1`] = `
   "kinde",
   "klarna",
   "klaviyo",
+  "knex",
   "koa",
   "koalaanalytics",
   "kong",

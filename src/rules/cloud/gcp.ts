@@ -4,7 +4,7 @@ register({
   tech: 'gcp',
   name: 'GCP',
   type: 'cloud',
-  dotenv: ['GOOGLE_CLOUD_CREDENTIALS'],
+  dotenv: ['GOOGLE_CLOUD_CREDENTIALS', 'GOOGLE_CLOUD_PROJECT'],
   dependencies: [
     { type: 'npm', name: 'googleapis' },
     { type: 'npm', name: /^@google-cloud\//, example: '@google-cloud/' },
