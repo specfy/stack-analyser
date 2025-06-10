@@ -98,6 +98,7 @@ exports[`npm > should match everything 1`] = `
   "bugsnag",
   "calcom",
   "calendly",
+  "chakraui",
   "chargebee",
   "clerk",
   "clickhouse",
@@ -1113,6 +1114,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@calcom/sdk",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@chakra-ui/react",
     "0.0.0",
   ],
   [

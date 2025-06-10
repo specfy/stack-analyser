@@ -1,5 +1,6 @@
 import './ariakitui.js';
 import './bootstrap.js';
+import './chakraui.js';
 import './d3js.js';
 import './daisyui.js';
 import './headlessui.js';

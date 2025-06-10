@@ -171,6 +171,7 @@ export type AllowedKeys =
   | 'calendly'
   | 'cargo'
   | 'celery'
+  | 'chakraui'
   | 'chargebee'
   | 'checkov'
   | 'chef'
