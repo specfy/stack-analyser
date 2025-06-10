@@ -70,6 +70,7 @@ export type AllowedKeys =
   | 'apple.maps'
   | 'apple'
   | 'appveyor'
+  | 'ariakitui'
   | 'asana'
   | 'asdf'
   | 'assemble'

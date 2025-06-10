@@ -17,6 +17,7 @@ exports[`npm > should match everything 1`] = `
   "apideck",
   "apify",
   "apiplatform",
+  "ariakitui",
   "asana",
   "assemble",
   "astro",
@@ -536,6 +537,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@apify/utilities",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@ariakit/react",
     "0.0.0",
   ],
   [

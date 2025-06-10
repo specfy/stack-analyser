@@ -35,6 +35,7 @@ exports[`all > should match everything 1`] = `
   "apple",
   "apple.maps",
   "appveyor",
+  "ariakitui",
   "asana",
   "asdf",
   "assemble",
