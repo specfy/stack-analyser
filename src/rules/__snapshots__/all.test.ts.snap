@@ -366,6 +366,7 @@ exports[`all > should match everything 1`] = `
   "mantineui",
   "mapbox",
   "mariadb",
+  "materialui",
   "matomo",
   "mattermost",
   "meilisearch",

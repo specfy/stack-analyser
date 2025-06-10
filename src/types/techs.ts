@@ -405,6 +405,7 @@ export type AllowedKeys =
   | 'mantineui'
   | 'mapbox'
   | 'mariadb'
+  | 'materialui'
   | 'matomo'
   | 'mattermost'
   | 'meilisearch'

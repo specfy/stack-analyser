@@ -6,6 +6,7 @@ import './daisyui.js';
 import './headlessui.js';
 import './heroui.js';
 import './mantineui.js';
+import './materialui.js';
 import './radixui.js';
 import './shadcn.js';
 import './tailwind.js';
