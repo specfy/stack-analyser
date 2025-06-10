@@ -1,3 +1,4 @@
+import './antd.js';
 import './ariakitui.js';
 import './bootstrap.js';
 import './chakraui.js';

@@ -10,6 +10,7 @@ exports[`npm > should match everything 1`] = `
   "alpinejs",
   "amplitude",
   "angular",
+  "antd",
   "anthropic",
   "apache_cassandra",
   "apache_kafka",
@@ -2746,6 +2747,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "angular",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "antd",
     "0.0.0",
   ],
   [

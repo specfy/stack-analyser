@@ -51,6 +51,7 @@ export type AllowedKeys =
   | 'amplitude'
   | 'angular'
   | 'ansible'
+  | 'antd'
   | 'anthropic'
   | 'apache_airflow'
   | 'apache_cassandra'

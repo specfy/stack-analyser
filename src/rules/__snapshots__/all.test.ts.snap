@@ -16,6 +16,7 @@ exports[`all > should match everything 1`] = `
   "amplitude",
   "angular",
   "ansible",
+  "antd",
   "anthropic",
   "apache_airflow",
   "apache_cassandra",
