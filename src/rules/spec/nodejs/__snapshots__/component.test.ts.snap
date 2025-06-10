@@ -113,6 +113,7 @@ exports[`npm > should match everything 1`] = `
   "crowdin",
   "cypressci",
   "d3js",
+  "daisyui",
   "datadog",
   "datadome",
   "datocms",
@@ -2910,6 +2911,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "d3-shape",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "daisyui",
     "0.0.0",
   ],
   [

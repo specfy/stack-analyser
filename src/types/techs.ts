@@ -206,6 +206,7 @@ export type AllowedKeys =
   | 'css'
   | 'cypressci'
   | 'd3js'
+  | 'daisyui'
   | 'dart'
   | 'databricks'
   | 'datadog'
