@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'infisical',
   name: 'Infisical',
-  type: 'db',
+  type: 'security',
   files: ['.infisical.json'],
   dotenv: ['INFISICAL_'],
   dependencies: [
