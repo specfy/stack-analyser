@@ -235,6 +235,7 @@ exports[`npm > should match everything 1`] = `
   "mailchimp",
   "mailgun",
   "mailjet",
+  "mantineui",
   "mapbox",
   "mariadb",
   "mattermost",
@@ -1687,6 +1688,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@mailchimp/mailchimp_transactional",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@mantine/core",
     "0.0.0",
   ],
   [

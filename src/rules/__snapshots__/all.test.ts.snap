@@ -361,6 +361,7 @@ exports[`all > should match everything 1`] = `
   "mailgun",
   "mailhog",
   "mailjet",
+  "mantineui",
   "mapbox",
   "mariadb",
   "matomo",

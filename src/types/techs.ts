@@ -400,6 +400,7 @@ export type AllowedKeys =
   | 'mailgun'
   | 'mailhog'
   | 'mailjet'
+  | 'mantineui'
   | 'mapbox'
   | 'mariadb'
   | 'matomo'
