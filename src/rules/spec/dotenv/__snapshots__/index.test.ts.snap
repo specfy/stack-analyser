@@ -93,6 +93,7 @@ exports[`dotenv > should match all dependencies 1`] = `
   "okta",
   "ollama",
   "openai",
+  "opentelemetry",
   "optimizely",
   "ovh",
   "paddle",

@@ -455,6 +455,7 @@ export type AllowedKeys =
   | 'ollama'
   | 'onlineornot'
   | 'openai'
+  | 'opentelemetry'
   | 'optimizely'
   | 'oraclecloud'
   | 'orysh'

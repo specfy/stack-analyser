@@ -86,6 +86,7 @@ exports[`docker > should match everything 1`] = `
   "nodejs",
   "novu",
   "oceanbase",
+  "opentelemetry",
   "percona",
   "php",
   "plausible",
@@ -977,6 +978,21 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "openzipkin/zipkin",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "otel/opentelemetry-collector",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "otel/opentelemetry-collector-contrib",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "otel/opentelemetry-operator",
     "0.0.0",
   ],
   [

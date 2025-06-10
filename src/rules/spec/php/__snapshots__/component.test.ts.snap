@@ -121,6 +121,7 @@ exports[`php > should match everything 1`] = `
   "novu",
   "okta",
   "openai",
+  "opentelemetry",
   "optimizely",
   "oraclecloud",
   "orysh",
@@ -1006,6 +1007,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "omnipay/stripe",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "open-telemetry/sdk",
     "0.0.0",
   ],
   [

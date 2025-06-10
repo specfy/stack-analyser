@@ -281,6 +281,7 @@ exports[`npm > should match everything 1`] = `
   "ollama",
   "onlineornot",
   "openai",
+  "opentelemetry",
   "optimizely",
   "oraclecloud",
   "orysh",
@@ -1891,6 +1892,16 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@opentelemetry/api",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@opentelemetry/core",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@opentelemetry/exporter-zipkin",
     "0.0.0",
   ],
@@ -1952,6 +1963,16 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@opentelemetry/instrumentation-tedious",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@opentelemetry/sdk-node",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@opentelemetry/semantic-conventions",
     "0.0.0",
   ],
   [

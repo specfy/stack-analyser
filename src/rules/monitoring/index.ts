@@ -9,6 +9,7 @@ import './healthchecksio.js';
 import './hyperdx.js';
 import './newrelic.js';
 import './onlineornot.js';
+import './opentelemetry.js';
 import './papertrail.js';
 import './pingdom.js';
 import './prometheus.js';

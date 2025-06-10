@@ -416,6 +416,7 @@ exports[`all > should match everything 1`] = `
   "ollama",
   "onlineornot",
   "openai",
+  "opentelemetry",
   "optimizely",
   "oraclecloud",
   "orysh",

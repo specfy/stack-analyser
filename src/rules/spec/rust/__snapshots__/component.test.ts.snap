@@ -92,6 +92,7 @@ exports[`rust (component) > should match everything 1`] = `
   "neo4j",
   "notion",
   "okta",
+  "opentelemetry",
   "pagerduty",
   "paypal",
   "pinecone",
@@ -599,6 +600,11 @@ exports[`rust (component) > should match everything 2`] = `
   [
     "rust",
     "onedrive-api",
+    "1.0.0",
+  ],
+  [
+    "rust",
+    "opentelemetry",
     "1.0.0",
   ],
   [
