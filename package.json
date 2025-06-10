@@ -20,6 +20,7 @@
     "build:watch": "tsc -w",
     "dev": "node dist/index.js",
     "cli": "node dist/cli.js",
+    "build-test": "npm run prebuild && npm run test",
     "test": "vitest",
     "lint": "eslint src/"
   },

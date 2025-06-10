@@ -198,6 +198,7 @@ exports[`npm > should match everything 1`] = `
   "hashicorp_vault",
   "headlessui",
   "heremaps",
+  "heroui",
   "hexojs",
   "hostinger",
   "hotjar",
@@ -1534,6 +1535,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@headlessui/react",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@heroui/react",
     "0.0.0",
   ],
   [

@@ -340,6 +340,7 @@ export type AllowedKeys =
   | 'helm'
   | 'heremaps'
   | 'heroku'
+  | 'heroui'
   | 'hetzner'
   | 'hexojs'
   | 'hostinger'

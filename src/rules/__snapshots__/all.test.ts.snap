@@ -303,6 +303,7 @@ exports[`all > should match everything 1`] = `
   "helm",
   "heremaps",
   "heroku",
+  "heroui",
   "hetzner",
   "hexojs",
   "hostinger",
