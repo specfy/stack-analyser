@@ -558,6 +558,7 @@ export type AllowedKeys =
   | 'sequelize'
   | 'sequelruby'
   | 'servicenow'
+  | 'shadcn'
   | 'shopify.hydrogen'
   | 'shopify'
   | 'signoz'

@@ -518,6 +518,7 @@ exports[`all > should match everything 1`] = `
   "sequelize",
   "sequelruby",
   "servicenow",
+  "shadcn",
   "shopify",
   "shopify.hydrogen",
   "signoz",

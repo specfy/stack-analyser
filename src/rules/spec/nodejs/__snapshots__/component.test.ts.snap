@@ -333,6 +333,7 @@ exports[`npm > should match everything 1`] = `
   "sendgrid",
   "sentry",
   "sequelize",
+  "shadcn",
   "shopify",
   "shopify.hydrogen",
   "sitecore",
@@ -2292,6 +2293,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@shadcn/ui",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@shopify/cli",
     "0.0.0",
   ],
@@ -3943,6 +3949,26 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "sequelize",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "shadcn",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "shadcn-nuxt",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "shadcn-svelte",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "shadcn-ui",
     "0.0.0",
   ],
   [
