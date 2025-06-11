@@ -2,7 +2,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
-import core from '@actions/core';
+import { setFailed } from '@actions/core';
 
 import { l } from './common/log.js';
 import { FSProvider, analyser } from './index.js';
@@ -35,8 +35,8 @@ try {
   l.log('Done');
 } catch (err: unknown) {
   if (err instanceof Error) {
-    core.setFailed(err.message);
+    setFailed(err.message);
   } else {
-    core.setFailed('Unknown error');
+    setFailed('Unknown error');
   }
 }

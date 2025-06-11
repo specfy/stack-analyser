@@ -1,7 +1,7 @@
-import { Payload } from '../../index.js';
+import { Payload } from '../../payload/index.js';
 import { register } from '../../register.js';
 
-import type { ComponentMatcher } from '../../index.js';
+import type { ComponentMatcher } from '../../types/rule.js';
 
 /**
  * No other way to detect Shadcn than checking the components.json file.

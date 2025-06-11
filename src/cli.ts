@@ -6,7 +6,7 @@ import timer from 'node:timers/promises';
 import { fileURLToPath } from 'node:url';
 
 import { Command } from 'commander';
-import figures from 'figures';
+import figureSet from 'figures';
 import kleur from 'kleur';
 import ora from 'ora';
 
@@ -29,7 +29,7 @@ const pkg = JSON.parse((await fs.readFile(path.join(dirname, './../package.json'
 program
   .name('stack-analyser')
   .description('CLI to extract metadata from repository')
-  .argument('<path>', 'repository to analyse')
+  .argument('<path>', 'repository to analyze')
   .option('-o, --output <FILENAME>', 'output json to a file', 'output.json')
   .option('--flat', 'flatten the output', false)
   .version(pkg.version)
@@ -42,15 +42,15 @@ program
     try {
       const stat = await fs.stat(root);
       if (!stat.isDirectory()) {
-        l.log(kleur.bold().red(figures.cross), `Path "${root}" is not a folder`);
+        l.log(kleur.bold().red(figureSet.cross), `Path "${root}" is not a folder`);
         process.exit(1);
       }
     } catch {
-      l.log(kleur.bold().red(figures.cross), `Path "${root}" does not exist`);
+      l.log(kleur.bold().red(figureSet.cross), `Path "${root}" does not exist`);
       process.exit(1);
     }
 
-    l.log(kleur.bold().magenta(figures.triangleRight), 'Path', kleur.cyan(root));
+    l.log(kleur.bold().magenta(figureSet.triangleRight), 'Path', kleur.cyan(root));
 
     const spinner = ora(`Analysing`).start();
 
