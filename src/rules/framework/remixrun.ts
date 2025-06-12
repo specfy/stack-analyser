@@ -6,7 +6,6 @@ register({
   type: 'framework',
   dependencies: [
     { type: 'npm', name: '@remix-run/node' },
-    { type: 'npm', name: '@remix-run/react' },
     { type: 'npm', name: '@remix-run/serve' },
   ],
 });

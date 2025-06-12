@@ -441,6 +441,7 @@ exports[`npm > should match everything 1`] = `
   "zapier",
   "zendesk",
   "zipkin",
+  "zod",
   "zoom",
   "zuora",
 ]
@@ -4701,6 +4702,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "zipkin-transport-http",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "zod",
     "0.0.0",
   ],
   [

@@ -710,6 +710,7 @@ export type AllowedKeys =
   | 'zendesk'
   | 'zig'
   | 'zipkin'
+  | 'zod'
   | 'zookeeper'
   | 'zoom'
   | 'zuora';

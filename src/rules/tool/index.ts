@@ -26,3 +26,4 @@ import './turborepo.js';
 import './twig.js';
 import './vite.js';
 import './webpack.js';
+import './zod.js';
