@@ -36,6 +36,7 @@ exports[`docker > should match everything 1`] = `
   "consul",
   "couchbase",
   "cratedb",
+  "crawl4ai",
   "cypressci",
   "datadog",
   "deno",
@@ -1375,6 +1376,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "ubuntu/prometheus",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "unclecode/crawl4ai",
     "0.0.0",
   ],
   [

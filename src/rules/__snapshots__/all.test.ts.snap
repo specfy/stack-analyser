@@ -173,6 +173,7 @@ exports[`all > should match everything 1`] = `
   "coveralls",
   "cplusplus",
   "cratedb",
+  "crawl4ai",
   "crowdin",
   "csharp",
   "css",

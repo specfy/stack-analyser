@@ -24,6 +24,7 @@ exports[`python lockfile: pyproject.toml > should match everything 1`] = `
   "cohereai",
   "composio",
   "convexdb",
+  "crawl4ai",
   "datadog",
   "datadome",
   "dataiku",
@@ -244,6 +245,11 @@ exports[`python lockfile: pyproject.toml > should match everything 2`] = `
   [
     "python",
     "convex",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "crawl4ai",
     "1.0.0",
   ],
   [
@@ -743,6 +749,7 @@ exports[`python lockfile: requirements.txt > should match everything 1`] = `
   "cohereai",
   "composio",
   "convexdb",
+  "crawl4ai",
   "datadog",
   "datadome",
   "dataiku",
@@ -964,6 +971,11 @@ exports[`python lockfile: requirements.txt > should match everything 2`] = `
   [
     "python",
     "convex",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "crawl4ai",
     "1.0.0",
   ],
   [

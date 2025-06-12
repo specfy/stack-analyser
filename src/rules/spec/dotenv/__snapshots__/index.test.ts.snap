@@ -34,6 +34,7 @@ exports[`dotenv > should match all dependencies 1`] = `
   "composio",
   "contentful",
   "convexdb",
+  "crawl4ai",
   "databricks",
   "datadog",
   "deepseek",

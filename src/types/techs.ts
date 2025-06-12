@@ -209,6 +209,7 @@ export type AllowedKeys =
   | 'coveralls'
   | 'cplusplus'
   | 'cratedb'
+  | 'crawl4ai'
   | 'crowdin'
   | 'csharp'
   | 'css'
