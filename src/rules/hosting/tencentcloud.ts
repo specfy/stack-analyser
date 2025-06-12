@@ -10,5 +10,6 @@ register({
       name: 'registry.terraform.io/tencentcloudstack/tencentcloud',
     },
     { type: 'php', name: 'encentcloud/tencentcloud-sdk-php' },
+    { type: 'python', name: 'tencentcloud-sdk-python' },
   ],
 });

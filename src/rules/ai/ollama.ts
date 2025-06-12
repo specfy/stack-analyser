@@ -11,5 +11,6 @@ register({
     { type: 'npm', name: 'genkitx-ollama' },
     { type: 'npm', name: 'ollama' },
     { type: 'python', name: 'langchain-ollama' },
+    { type: 'python', name: 'ollama' },
   ],
 });

@@ -6,6 +6,7 @@ exports[`hosting > should match everything with files 1`] = `
   "expodev",
   "github.pages",
   "koyeb",
+  "kubernetes",
   "platformsh",
   "render",
   "replit",

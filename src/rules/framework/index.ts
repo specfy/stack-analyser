@@ -18,6 +18,7 @@ import './jekyll.js';
 import './laravel.js';
 import './meteorjs.js';
 import './mintlify.js';
+import './mkdocs.js';
 import './nestjs.js';
 import './nextjs.js';
 import './nuxtjs.js';

@@ -9,5 +9,6 @@ register({
     { type: 'npm', name: '@ai-sdk/google-vertex' },
     { type: 'npm', name: '@google-cloud/vertexai' },
     { type: 'npm', name: '@langchain/google-vertexai' },
+    { type: 'python', name: 'vertexai' },
   ],
 });

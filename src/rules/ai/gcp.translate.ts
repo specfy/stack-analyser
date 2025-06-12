@@ -16,5 +16,6 @@ register({
     },
     { type: 'golang', name: 'cloud.google.com/go/translate' },
     { type: 'php', name: 'google/cloud-translate' },
+    { type: 'python', name: 'google-cloud-translate' },
   ],
 });

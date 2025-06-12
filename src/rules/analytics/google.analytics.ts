@@ -21,5 +21,6 @@ register({
     { type: 'php', name: 'theiconic/php-ga-measurement-protocol' },
     { type: 'php', name: 'google/analytics-admin' },
     { type: 'terraform.resource', name: 'airbyte_source_google_analytics_data_api' },
+    { type: 'python', name: 'google-analytics-data' },
   ],
 });

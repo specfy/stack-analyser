@@ -18,5 +18,6 @@ register({
     },
     { type: 'golang', name: 'cloud.google.com/go/cloudbuild' },
     { type: 'php', name: 'google/cloud-build' },
+    { type: 'python', name: 'google-cloud-build' },
   ],
 });

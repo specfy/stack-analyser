@@ -18,5 +18,6 @@ register({
       name: /^aws_opensearch/,
       example: 'aws_opensearch_domain',
     },
+    { type: 'python', name: 'opensearch-py' },
   ],
 });

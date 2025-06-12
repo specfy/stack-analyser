@@ -1,5 +1,5 @@
 import './amplitude.js';
-import './googleanalytics.js';
+import './google.analytics.js';
 import './hotjar.js';
 import './koalaanalytics.js';
 import './logsnag.js';

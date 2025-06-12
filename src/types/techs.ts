@@ -432,6 +432,7 @@ export type AllowedKeys =
   | 'mistralai'
   | 'mithriljs'
   | 'mixpanel'
+  | 'mkdocs'
   | 'mochajs'
   | 'monday'
   | 'mongodb'

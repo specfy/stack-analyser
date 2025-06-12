@@ -16,5 +16,6 @@ register({
     { type: 'npm', name: 'google-auth-library' },
     { type: 'npm', name: 'passport-google-oauth20' },
     { type: 'npm', name: 'passport-google-oauth' },
+    { type: 'python', name: 'google-api-python-client' },
   ],
 });

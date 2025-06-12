@@ -17,6 +17,7 @@ register({
     { type: 'npm', name: '@pulumi/mysql' },
     { type: 'python', name: 'mysql-connector-python' },
     { type: 'python', name: 'PyMySQL' },
+    { type: 'python', name: 'pymysql' }, // sic
     { type: 'python', name: 'mysqlclient' },
     { type: 'terraform.resource', name: 'airbyte_destination_mysql' },
   ],

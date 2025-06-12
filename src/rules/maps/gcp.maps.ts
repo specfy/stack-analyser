@@ -10,5 +10,6 @@ register({
     { type: 'npm', name: /^@googlemaps\//, example: '@googlemaps/places' },
     { type: 'ruby', name: 'google_maps_service' },
     { type: 'golang', name: 'cloud.google.com/go/maps' },
+    { type: 'python', name: 'google-maps-mapsplatformdatasets' },
   ],
 });

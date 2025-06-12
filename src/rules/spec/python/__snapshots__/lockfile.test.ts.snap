@@ -7,6 +7,10 @@ exports[`python lockfile: pyproject.toml > should match everything 1`] = `
   "apideck",
   "apify",
   "asana",
+  "atlassian",
+  "aws",
+  "aws.opensearch",
+  "azure",
   "box",
   "browerbase",
   "browseruse",
@@ -29,9 +33,21 @@ exports[`python lockfile: pyproject.toml > should match everything 1`] = `
   "frontegg",
   "fusionauth",
   "gcp",
+  "gcp.aiplatform",
+  "gcp.bigquery",
+  "gcp.cloudbuild",
   "gcp.gcs",
+  "gcp.maps",
+  "gcp.speech",
+  "gcp.translate",
+  "gcp.vertex",
+  "gcp.vision",
   "geminiai",
   "github",
+  "gitlab",
+  "google",
+  "google.analytics",
+  "google.calendar",
   "gradio",
   "groq",
   "hetzner",
@@ -39,6 +55,7 @@ exports[`python lockfile: pyproject.toml > should match everything 1`] = `
   "huggingface",
   "inngest",
   "kinde",
+  "kubernetes",
   "lago",
   "libsql",
   "linear",
@@ -48,6 +65,7 @@ exports[`python lockfile: pyproject.toml > should match everything 1`] = `
   "milvusdb",
   "mistralai",
   "mixpanel",
+  "mkdocs",
   "mongodb",
   "mysql",
   "neondb",
@@ -75,6 +93,7 @@ exports[`python lockfile: pyproject.toml > should match everything 1`] = `
   "supabase",
   "supertokens",
   "swiftype",
+  "tencentcloud",
   "tensorflow",
   "twitter",
   "withorb",
@@ -153,6 +172,16 @@ exports[`python lockfile: pyproject.toml > should match everything 2`] = `
   ],
   [
     "python",
+    "atlassian-python-api",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "azure-identity",
+    "1.0.0",
+  ],
+  [
+    "python",
     "boxsdk",
     "1.0.0",
   ],
@@ -268,12 +297,72 @@ exports[`python lockfile: pyproject.toml > should match everything 2`] = `
   ],
   [
     "python",
+    "google-analytics-data",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "google-api-python-client",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "google-cloud-aiplatform",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "google-cloud-bigquery-datatransfer",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "google-cloud-bigquery-logging",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "google-cloud-build",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "google-cloud-speech",
+    "1.0.0",
+  ],
+  [
+    "python",
     "google-cloud-storage",
     "1.0.0",
   ],
   [
     "python",
+    "google-cloud-translate",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "google-cloud-vision",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "google-generativeai",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "google-maps-mapsplatformdatasets",
+    "1.0.0",
+  ],
+  [
+    "python",
     "gradio",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "groq",
     "1.0.0",
   ],
   [
@@ -288,12 +377,22 @@ exports[`python lockfile: pyproject.toml > should match everything 2`] = `
   ],
   [
     "python",
+    "huggingface-hub",
+    "1.0.0",
+  ],
+  [
+    "python",
     "inngest",
     "1.0.0",
   ],
   [
     "python",
     "kinde-python-sdk",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "kubernetes",
     "1.0.0",
   ],
   [
@@ -309,6 +408,11 @@ exports[`python lockfile: pyproject.toml > should match everything 2`] = `
   [
     "python",
     "langchain-deepseek",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "langchain-google-calendar-tools",
     "1.0.0",
   ],
   [
@@ -334,6 +438,11 @@ exports[`python lockfile: pyproject.toml > should match everything 2`] = `
   [
     "python",
     "langchain-mistralai",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "langchain-mongodb",
     "1.0.0",
   ],
   [
@@ -383,6 +492,11 @@ exports[`python lockfile: pyproject.toml > should match everything 2`] = `
   ],
   [
     "python",
+    "mkdocs",
+    "1.0.0",
+  ],
+  [
+    "python",
     "mysql-connector-python",
     "1.0.0",
   ],
@@ -403,7 +517,17 @@ exports[`python lockfile: pyproject.toml > should match everything 2`] = `
   ],
   [
     "python",
+    "ollama",
+    "1.0.0",
+  ],
+  [
+    "python",
     "openai",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "opensearch-py",
     "1.0.0",
   ],
   [
@@ -453,7 +577,17 @@ exports[`python lockfile: pyproject.toml > should match everything 2`] = `
   ],
   [
     "python",
+    "pymysql",
+    "1.0.0",
+  ],
+  [
+    "python",
     "pytest-playwright",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "python-gitlab",
     "1.0.0",
   ],
   [
@@ -508,12 +642,22 @@ exports[`python lockfile: pyproject.toml > should match everything 2`] = `
   ],
   [
     "python",
+    "tencentcloud-sdk-python",
+    "1.0.0",
+  ],
+  [
+    "python",
     "tensorflow",
     "1.0.0",
   ],
   [
     "python",
     "tweepy",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "vertexai",
     "1.0.0",
   ],
   [
@@ -536,6 +680,10 @@ exports[`python lockfile: requirements.txt > should match everything 1`] = `
   "apideck",
   "apify",
   "asana",
+  "atlassian",
+  "aws",
+  "aws.opensearch",
+  "azure",
   "box",
   "browerbase",
   "browseruse",
@@ -558,9 +706,21 @@ exports[`python lockfile: requirements.txt > should match everything 1`] = `
   "frontegg",
   "fusionauth",
   "gcp",
+  "gcp.aiplatform",
+  "gcp.bigquery",
+  "gcp.cloudbuild",
   "gcp.gcs",
+  "gcp.maps",
+  "gcp.speech",
+  "gcp.translate",
+  "gcp.vertex",
+  "gcp.vision",
   "geminiai",
   "github",
+  "gitlab",
+  "google",
+  "google.analytics",
+  "google.calendar",
   "gradio",
   "groq",
   "hetzner",
@@ -568,6 +728,7 @@ exports[`python lockfile: requirements.txt > should match everything 1`] = `
   "huggingface",
   "inngest",
   "kinde",
+  "kubernetes",
   "lago",
   "libsql",
   "linear",
@@ -577,6 +738,7 @@ exports[`python lockfile: requirements.txt > should match everything 1`] = `
   "milvusdb",
   "mistralai",
   "mixpanel",
+  "mkdocs",
   "mongodb",
   "mysql",
   "neondb",
@@ -605,6 +767,7 @@ exports[`python lockfile: requirements.txt > should match everything 1`] = `
   "supabase",
   "supertokens",
   "swiftype",
+  "tencentcloud",
   "tensorflow",
   "twitter",
   "withorb",
@@ -683,6 +846,16 @@ exports[`python lockfile: requirements.txt > should match everything 2`] = `
   ],
   [
     "python",
+    "atlassian-python-api",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "azure-identity",
+    "1.0.0",
+  ],
+  [
+    "python",
     "boxsdk",
     "1.0.0",
   ],
@@ -798,12 +971,72 @@ exports[`python lockfile: requirements.txt > should match everything 2`] = `
   ],
   [
     "python",
+    "google-analytics-data",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "google-api-python-client",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "google-cloud-aiplatform",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "google-cloud-bigquery-datatransfer",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "google-cloud-bigquery-logging",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "google-cloud-build",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "google-cloud-speech",
+    "1.0.0",
+  ],
+  [
+    "python",
     "google-cloud-storage",
     "1.0.0",
   ],
   [
     "python",
+    "google-cloud-translate",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "google-cloud-vision",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "google-generativeai",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "google-maps-mapsplatformdatasets",
+    "1.0.0",
+  ],
+  [
+    "python",
     "gradio",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "groq",
     "1.0.0",
   ],
   [
@@ -818,12 +1051,22 @@ exports[`python lockfile: requirements.txt > should match everything 2`] = `
   ],
   [
     "python",
+    "huggingface-hub",
+    "1.0.0",
+  ],
+  [
+    "python",
     "inngest",
     "1.0.0",
   ],
   [
     "python",
     "kinde-python-sdk",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "kubernetes",
     "1.0.0",
   ],
   [
@@ -839,6 +1082,11 @@ exports[`python lockfile: requirements.txt > should match everything 2`] = `
   [
     "python",
     "langchain-deepseek",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "langchain-google-calendar-tools",
     "1.0.0",
   ],
   [
@@ -864,6 +1112,11 @@ exports[`python lockfile: requirements.txt > should match everything 2`] = `
   [
     "python",
     "langchain-mistralai",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "langchain-mongodb",
     "1.0.0",
   ],
   [
@@ -913,6 +1166,11 @@ exports[`python lockfile: requirements.txt > should match everything 2`] = `
   ],
   [
     "python",
+    "mkdocs",
+    "1.0.0",
+  ],
+  [
+    "python",
     "mysql-connector-python",
     "1.0.0",
   ],
@@ -933,7 +1191,17 @@ exports[`python lockfile: requirements.txt > should match everything 2`] = `
   ],
   [
     "python",
+    "ollama",
+    "1.0.0",
+  ],
+  [
+    "python",
     "openai",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "opensearch-py",
     "1.0.0",
   ],
   [
@@ -983,7 +1251,17 @@ exports[`python lockfile: requirements.txt > should match everything 2`] = `
   ],
   [
     "python",
+    "pymysql",
+    "1.0.0",
+  ],
+  [
+    "python",
     "pytest-playwright",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "python-gitlab",
     "1.0.0",
   ],
   [
@@ -1038,12 +1316,22 @@ exports[`python lockfile: requirements.txt > should match everything 2`] = `
   ],
   [
     "python",
+    "tencentcloud-sdk-python",
+    "1.0.0",
+  ],
+  [
+    "python",
     "tensorflow",
     "1.0.0",
   ],
   [
     "python",
     "tweepy",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "vertexai",
     "1.0.0",
   ],
   [

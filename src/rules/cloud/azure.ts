@@ -17,5 +17,9 @@ register({
     { type: 'docker', name: 'webdevops/azure-devops-exporter' },
     { type: 'docker', name: 'webdevops/azure-metrics-exporter' },
     { type: 'npm', name: '@pulumi/azure' },
+    { type: 'python', name: 'azure-identity' },
+    { type: 'npm', name: '@azure/identity' },
+    { type: 'npm', name: '@azure/msal-browser' },
+    { type: 'npm', name: '@azure/msal-node' },
   ],
 });

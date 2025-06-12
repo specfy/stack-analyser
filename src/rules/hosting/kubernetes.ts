@@ -4,6 +4,7 @@ register({
   tech: 'kubernetes',
   name: 'Kubernetes',
   type: 'hosting',
+  files: ['kustomization.yaml'],
   dependencies: [
     { type: 'terraform', name: 'registry.terraform.io/hashicorp/kubernetes' },
     { type: 'rust', name: 'k8s-openapi' },
@@ -15,5 +16,6 @@ register({
     { type: 'githubAction', name: 'azure/k8s-deploy' },
     { type: 'githubAction', name: 'azure/k8s-create-secret' },
     { type: 'npm', name: '@pulumi/kubernetes' },
+    { type: 'python', name: 'kubernetes' },
   ],
 });

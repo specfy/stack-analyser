@@ -18,5 +18,6 @@ register({
     },
     { type: 'golang', name: 'cloud.google.com/go/aiplatform' },
     { type: 'php', name: 'google/cloud-ai-platform' },
+    { type: 'python', name: 'google-cloud-aiplatform' },
   ],
 });

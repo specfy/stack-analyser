@@ -9,6 +9,7 @@ register({
     { type: 'npm', name: 'wrangler' },
     { type: 'npm', name: '@miniflare/cache' },
     { type: 'npm', name: 'miniflare' },
+    { type: 'npm', name: '@cfworker/json-schema' },
     {
       type: 'terraform.resource',
       name: /^cloudflare_workers_/,

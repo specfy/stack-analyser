@@ -73,6 +73,7 @@ exports[`docker > should match everything 1`] = `
   "memcached",
   "metabase",
   "milvusdb",
+  "mkdocs",
   "mongodb",
   "mongoexpress",
   "mysql",
@@ -1253,6 +1254,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "sonarqube",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "squidfunk/mkdocs-material",
     "0.0.0",
   ],
   [

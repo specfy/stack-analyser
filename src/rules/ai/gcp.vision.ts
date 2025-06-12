@@ -13,5 +13,6 @@ register({
     },
     { type: 'golang', name: 'cloud.google.com/go/vision' },
     { type: 'php', name: 'google/cloud-vision' },
+    { type: 'python', name: 'google-cloud-vision' },
   ],
 });

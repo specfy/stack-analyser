@@ -2,7 +2,7 @@ import { register } from '../../register.js';
 
 register({
   tech: 'gcp.kms',
-  name: 'Cloud Key Management',
+  name: 'Cloud KMS',
   type: 'security',
   dependencies: [
     { type: 'npm', name: '@google-cloud/kms' },

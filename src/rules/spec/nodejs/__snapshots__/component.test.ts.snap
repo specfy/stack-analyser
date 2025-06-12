@@ -1060,7 +1060,22 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@azure/identity",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@azure/maps-control",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@azure/msal-browser",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@azure/msal-node",
     "0.0.0",
   ],
   [
@@ -1131,6 +1146,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@calcom/sdk",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@cfworker/json-schema",
     "0.0.0",
   ],
   [
