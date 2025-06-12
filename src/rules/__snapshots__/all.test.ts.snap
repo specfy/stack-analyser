@@ -593,6 +593,7 @@ exports[`all > should match everything 1`] = `
   "tablericon",
   "tailscale",
   "tailwind",
+  "tanstackrouter",
   "tanstackstart",
   "tauri",
   "tdengine",

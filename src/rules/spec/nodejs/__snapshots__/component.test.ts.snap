@@ -394,6 +394,7 @@ exports[`npm > should match everything 1`] = `
   "tablericon",
   "tailscale",
   "tailwind",
+  "tanstackrouter",
   "tanstackstart",
   "tdengine",
   "telegram",
@@ -2724,6 +2725,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@tabler/icons-vue",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@tanstack/react-router",
     "0.0.0",
   ],
   [

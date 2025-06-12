@@ -634,6 +634,7 @@ export type AllowedKeys =
   | 'tablericon'
   | 'tailscale'
   | 'tailwind'
+  | 'tanstackrouter'
   | 'tanstackstart'
   | 'tauri'
   | 'tdengine'
