@@ -403,6 +403,7 @@ export type AllowedKeys =
   | 'logsnag'
   | 'logstash'
   | 'logtoio'
+  | 'lucideicons'
   | 'magento'
   | 'mailchimp'
   | 'mailgun'

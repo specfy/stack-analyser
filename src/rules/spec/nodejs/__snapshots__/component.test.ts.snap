@@ -238,6 +238,7 @@ exports[`npm > should match everything 1`] = `
   "logsnag",
   "logstash",
   "logtoio",
+  "lucideicons",
   "magento",
   "mailchimp",
   "mailgun",
@@ -1634,6 +1635,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@iconify-json/lucide",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@iconify-json/tabler",
     "0.0.0",
   ],
@@ -1740,6 +1746,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@logto/js",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@lucide/svelte",
     "0.0.0",
   ],
   [
@@ -3590,6 +3601,31 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "logsnag",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "lucide-angular",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "lucide-react",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "lucide-react-native",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "lucide-svelte",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "lucide-vue-next",
     "0.0.0",
   ],
   [

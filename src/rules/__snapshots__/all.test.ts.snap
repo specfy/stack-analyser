@@ -363,6 +363,7 @@ exports[`all > should match everything 1`] = `
   "logsnag",
   "logstash",
   "logtoio",
+  "lucideicons",
   "magento",
   "mailchimp",
   "mailgun",
