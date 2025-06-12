@@ -10,4 +10,5 @@ import './react.js';
 import './solidjs.js';
 import './stenciljs.js';
 import './sveltejs.js';
+import './umijs.js';
 import './vue.js';

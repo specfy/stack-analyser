@@ -655,6 +655,7 @@ export type AllowedKeys =
   | 'typescript'
   | 'typesense'
   | 'typesensecloud'
+  | 'umijs'
   | 'upstash.kafka'
   | 'upstash.qstash'
   | 'upstash.redis'

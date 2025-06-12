@@ -401,6 +401,7 @@ exports[`npm > should match everything 1`] = `
   "typeorm",
   "typescript",
   "typesense",
+  "umijs",
   "upstash",
   "upstash.kafka",
   "upstash.qstash",
@@ -2762,6 +2763,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@umijs/route-utils",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@uppy/google-drive-picker",
     "0.0.0",
   ],
@@ -4478,6 +4484,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "typesense-instantsearch-adapter",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "umi",
     "0.0.0",
   ],
   [
