@@ -20,6 +20,7 @@ import './rollup.js';
 import './selenium.js';
 import './socketio.js';
 import './tensorflow.js';
+import './trpc.js';
 import './turborepo.js';
 import './twig.js';
 import './vite.js';

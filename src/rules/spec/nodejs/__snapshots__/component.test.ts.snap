@@ -395,6 +395,7 @@ exports[`npm > should match everything 1`] = `
   "terraform",
   "tinybird",
   "tiptap",
+  "trpc",
   "turborepo",
   "tursodb",
   "twilio",
@@ -2736,6 +2737,26 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@trayio/cdk-cli",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@trpc/client",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@trpc/next",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@trpc/react-query",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@trpc/server",
     "0.0.0",
   ],
   [

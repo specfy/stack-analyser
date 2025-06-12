@@ -645,6 +645,7 @@ export type AllowedKeys =
   | 'traefik'
   | 'travisci'
   | 'trayio'
+  | 'trpc'
   | 'trufflesecurity'
   | 'turborepo'
   | 'tursodb'

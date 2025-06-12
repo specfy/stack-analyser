@@ -604,6 +604,7 @@ exports[`all > should match everything 1`] = `
   "traefik",
   "travisci",
   "trayio",
+  "trpc",
   "trufflesecurity",
   "turborepo",
   "tursodb",
