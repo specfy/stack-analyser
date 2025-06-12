@@ -522,6 +522,7 @@ export type AllowedKeys =
   | 'questdb'
   | 'qwikjs'
   | 'rabbitmq'
+  | 'radixicons'
   | 'radixui'
   | 'rails'
   | 'railway.mongodb'

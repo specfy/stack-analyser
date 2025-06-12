@@ -321,6 +321,7 @@ exports[`npm > should match everything 1`] = `
   "questdb",
   "qwikjs",
   "rabbitmq",
+  "radixicons",
   "radixui",
   "rails",
   "railway",
@@ -2335,7 +2336,22 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@radix-ui/react-context",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@radix-ui/react-icons",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@radix-ui/react-label",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@radix-ui/react-slot",
     "0.0.0",
   ],
   [

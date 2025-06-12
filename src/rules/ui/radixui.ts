@@ -5,7 +5,9 @@ register({
   name: 'Radix UI',
   type: 'ui',
   dependencies: [
-    { type: 'npm', name: /^@radix-ui\//, example: '@radix-ui/react-label' },
+    { type: 'npm', name: '@radix-ui/react-context' },
+    { type: 'npm', name: '@radix-ui/react-slot' },
+    { type: 'npm', name: '@radix-ui/react-label' },
     { type: 'npm', name: 'radix-ui' },
   ],
 });

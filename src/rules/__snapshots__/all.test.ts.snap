@@ -481,6 +481,7 @@ exports[`all > should match everything 1`] = `
   "questdb",
   "qwikjs",
   "rabbitmq",
+  "radixicons",
   "radixui",
   "rails",
   "railway",

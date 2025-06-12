@@ -4,4 +4,5 @@ import './heroicons.js';
 import './lucideicons.js';
 import './muiicons.js';
 import './phosphoreicons.js';
+import './radixicons.js';
 import './tablericon.js';
