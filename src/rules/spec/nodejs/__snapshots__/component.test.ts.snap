@@ -341,6 +341,7 @@ exports[`npm > should match everything 1`] = `
   "redwoodjs",
   "refinedev",
   "relativeci",
+  "remixrouter",
   "remixrun",
   "renovate",
   "replit",
@@ -2508,6 +2509,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@remix-run/react",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@remix-run/router",
     "0.0.0",
   ],
   [

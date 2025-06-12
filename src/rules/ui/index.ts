@@ -12,6 +12,7 @@ import './mantineui.js';
 import './materialui.js';
 import './monacoeditor.js';
 import './radixui.js';
+import './remixrouter.js';
 import './sandpackeditor.js';
 import './shadcn.js';
 import './tailwind.js';

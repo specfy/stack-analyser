@@ -550,6 +550,7 @@ export type AllowedKeys =
   | 'redwoodjs'
   | 'refinedev'
   | 'relativeci'
+  | 'remixrouter'
   | 'remixrun'
   | 'render'
   | 'renovate'
