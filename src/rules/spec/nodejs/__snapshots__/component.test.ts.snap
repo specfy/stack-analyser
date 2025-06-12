@@ -256,6 +256,7 @@ exports[`npm > should match everything 1`] = `
   "mariadb",
   "materialui",
   "mattermost",
+  "mcp",
   "meilisearch",
   "memcached",
   "mergedev",
@@ -1925,6 +1926,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@mistralai/mistralai",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@modelcontextprotocol/sdk",
     "0.0.0",
   ],
   [

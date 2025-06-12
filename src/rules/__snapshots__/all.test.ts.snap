@@ -385,6 +385,7 @@ exports[`all > should match everything 1`] = `
   "materialui",
   "matomo",
   "mattermost",
+  "mcp",
   "meilisearch",
   "meilisearchcloud",
   "memcached",

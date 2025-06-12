@@ -425,6 +425,7 @@ export type AllowedKeys =
   | 'materialui'
   | 'matomo'
   | 'mattermost'
+  | 'mcp'
   | 'meilisearch'
   | 'meilisearchcloud'
   | 'memcached'

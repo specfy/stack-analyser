@@ -1,7 +1,10 @@
 /* eslint-disable vitest/no-conditional-expect */
 import { describe, expect, it } from 'vitest';
 
+import { analyser } from '../analyser/index.js';
+import { FakeProvider } from '../provider/fake.js';
 import { registeredRules } from '../register.js';
+
 import '../autoload.js';
 
 describe('all', () => {
@@ -33,5 +36,20 @@ describe('all', () => {
         files.add(file);
       }
     }
+  });
+
+  it('should not match case insensitive', async () => {
+    const res = await analyser({
+      provider: new FakeProvider({
+        paths: {
+          '/': ['oPenApi.yaml'],
+        },
+        files: {
+          '/oPenApi.yaml': '',
+        },
+      }),
+    });
+
+    expect(res.toJson('').techs).toStrictEqual([]);
   });
 });

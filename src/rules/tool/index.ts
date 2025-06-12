@@ -13,6 +13,7 @@ import './joijs.js';
 import './koa.js';
 import './liquibase.js';
 import './mailhog.js';
+import './mcp.js';
 import './nxjs.js';
 import './openapi.js';
 import './playwright.js';
