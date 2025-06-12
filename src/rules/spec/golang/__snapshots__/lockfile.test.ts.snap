@@ -118,6 +118,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "mixpanel",
   "nats",
   "novu",
+  "openapi",
   "opentelemetry",
   "optimizely",
   "orysh",
@@ -689,6 +690,16 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/go-kit/kit/tracing/zipkin",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/go-openapi/runtime",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/go-openapi/swag",
     "v1.0.0",
   ],
   [

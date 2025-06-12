@@ -296,6 +296,7 @@ exports[`npm > should match everything 1`] = `
   "ollama",
   "onlineornot",
   "openai",
+  "openapi",
   "opentelemetry",
   "optimizely",
   "oraclecloud",
@@ -578,12 +579,22 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@apidevtools/swagger-parser",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@apify/utilities",
     "0.0.0",
   ],
   [
     "npm",
     "@ariakit/react",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@asteasolutions/zod-to-openapi",
     "0.0.0",
   ],
   [
@@ -1269,6 +1280,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@datadog/cli",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@datadog/datadog-api-client",
     "0.0.0",
   ],
   [
@@ -4094,6 +4110,21 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "openai",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "openapi-types",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "openapi-typescript",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "openapi3-ts",
     "0.0.0",
   ],
   [

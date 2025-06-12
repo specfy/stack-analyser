@@ -75,6 +75,7 @@ exports[`python lockfile: pyproject.toml > should match everything 1`] = `
   "novu",
   "ollama",
   "openai",
+  "openapi",
   "opentelemetry",
   "paddle",
   "pinecone",
@@ -544,6 +545,11 @@ exports[`python lockfile: pyproject.toml > should match everything 2`] = `
   ],
   [
     "python",
+    "openapi",
+    "1.0.0",
+  ],
+  [
+    "python",
     "opensearch-py",
     "1.0.0",
   ],
@@ -800,6 +806,7 @@ exports[`python lockfile: requirements.txt > should match everything 1`] = `
   "novu",
   "ollama",
   "openai",
+  "openapi",
   "opentelemetry",
   "paddle",
   "pinecone",
@@ -1266,6 +1273,11 @@ exports[`python lockfile: requirements.txt > should match everything 2`] = `
   [
     "python",
     "openai",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "openapi",
     "1.0.0",
   ],
   [

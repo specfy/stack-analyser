@@ -14,6 +14,7 @@ import './koa.js';
 import './liquibase.js';
 import './mailhog.js';
 import './nxjs.js';
+import './openapi.js';
 import './playwright.js';
 import './puppeteer.js';
 import './pytorch.js';

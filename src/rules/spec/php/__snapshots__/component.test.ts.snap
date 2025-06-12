@@ -121,6 +121,7 @@ exports[`php > should match everything 1`] = `
   "novu",
   "okta",
   "openai",
+  "openapi",
   "opentelemetry",
   "optimizely",
   "oraclecloud",
@@ -1317,6 +1318,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "supabase/postgrest-php",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "swagger-api/swagger-ui",
     "0.0.0",
   ],
   [

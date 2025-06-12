@@ -164,6 +164,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "notion",
   "novu",
   "okta",
+  "openapi",
   "opentelemetry",
   "optimizely",
   "oraclecloud",
@@ -1205,6 +1206,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "omniauth-workos",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "openapi_parser",
     "1.0.0",
   ],
   [
