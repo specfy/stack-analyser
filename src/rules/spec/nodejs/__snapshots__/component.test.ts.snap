@@ -297,6 +297,7 @@ exports[`npm > should match everything 1`] = `
   "paypal",
   "perplexityai",
   "phaserjs",
+  "phosphoreicons",
   "pinecone",
   "pirschanalytics",
   "placekit",
@@ -2113,6 +2114,26 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@paypal/paypal-js",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@phosphor-icons/react",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@phosphor-icons/vue",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@phosphor-icons/web",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@phosphor-icons/webcomponents",
     "0.0.0",
   ],
   [

@@ -478,6 +478,7 @@ export type AllowedKeys =
   | 'percona'
   | 'perplexityai'
   | 'phaserjs'
+  | 'phosphoreicons'
   | 'php'
   | 'phpcomposer'
   | 'phpenv'
