@@ -672,6 +672,7 @@ export type AllowedKeys =
   | 'vercel.analytics'
   | 'vercel.blob'
   | 'vercel.edge'
+  | 'vercel.functions'
   | 'vercel.kv'
   | 'vercel.postgres'
   | 'vercel'

@@ -41,3 +41,4 @@ import './sitecore.js';
 import './supabase.functions.js';
 import './tencentcloud.js';
 import './vercel.edge.js';
+import './vercel.functions.js';

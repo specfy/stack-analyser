@@ -417,6 +417,7 @@ exports[`npm > should match everything 1`] = `
   "vercel.analytics",
   "vercel.blob",
   "vercel.edge",
+  "vercel.functions",
   "vercel.kv",
   "vercel.postgres",
   "veriff",
@@ -2882,6 +2883,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@vercel/functions",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@vercel/gatsby-plugin-vercel-analytics",
     "0.0.0",
   ],
@@ -2893,6 +2899,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@vercel/kv",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@vercel/og",
     "0.0.0",
   ],
   [
