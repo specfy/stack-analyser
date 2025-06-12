@@ -336,6 +336,7 @@ exports[`npm > should match everything 1`] = `
   "react",
   "reactemail",
   "reacticons",
+  "reactrouterdom",
   "reddit",
   "redis",
   "redwoodjs",
@@ -4345,6 +4346,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "react-native-feather",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "react-router-dom",
     "0.0.0",
   ],
   [

@@ -12,6 +12,7 @@ import './mantineui.js';
 import './materialui.js';
 import './monacoeditor.js';
 import './radixui.js';
+import './reactRouterDom.js';
 import './remixRouter.js';
 import './sandpackeditor.js';
 import './shadcn.js';
