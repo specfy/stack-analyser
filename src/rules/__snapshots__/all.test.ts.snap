@@ -304,6 +304,7 @@ exports[`all > should match everything 1`] = `
   "healthchecksio",
   "helm",
   "heremaps",
+  "heroicons",
   "heroku",
   "heroui",
   "hetzner",

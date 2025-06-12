@@ -200,6 +200,7 @@ exports[`npm > should match everything 1`] = `
   "hashicorp_vault",
   "headlessui",
   "heremaps",
+  "heroicons",
   "heroui",
   "hexojs",
   "hostinger",
@@ -1556,6 +1557,16 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@heroicons/react",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@heroicons/vue",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@heroui/react",
     "0.0.0",
   ],
@@ -1612,6 +1623,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@iconify-json/fa6-regular",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@iconify-json/heroicons",
     "0.0.0",
   ],
   [

@@ -342,6 +342,7 @@ export type AllowedKeys =
   | 'healthchecksio'
   | 'helm'
   | 'heremaps'
+  | 'heroicons'
   | 'heroku'
   | 'heroui'
   | 'hetzner'
