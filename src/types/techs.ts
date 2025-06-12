@@ -369,6 +369,7 @@ export type AllowedKeys =
   | 'integrationapp'
   | 'intercom'
   | 'intuit'
+  | 'ionicons'
   | 'java'
   | 'javascript'
   | 'jekyll'

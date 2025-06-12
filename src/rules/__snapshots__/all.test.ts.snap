@@ -330,6 +330,7 @@ exports[`all > should match everything 1`] = `
   "integrationapp",
   "intercom",
   "intuit",
+  "ionicons",
   "java",
   "javascript",
   "jekyll",
