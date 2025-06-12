@@ -53,6 +53,7 @@ export type AllowedKeys =
   | 'angular'
   | 'ansible'
   | 'antd'
+  | 'antdicons'
   | 'anthropic'
   | 'apache_airflow'
   | 'apache_cassandra'

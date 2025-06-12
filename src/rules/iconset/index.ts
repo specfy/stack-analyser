@@ -1,3 +1,4 @@
+import './antdicons.js';
 import './bootstrapicons.js';
 import './feathericons.js';
 import './fontawesome.js';

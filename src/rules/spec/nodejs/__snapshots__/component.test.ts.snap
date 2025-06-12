@@ -11,6 +11,7 @@ exports[`npm > should match everything 1`] = `
   "amplitude",
   "angular",
   "antd",
+  "antdicons",
   "anthropic",
   "apache_cassandra",
   "apache_kafka",
@@ -534,6 +535,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@angular/forms",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@ant-design/icons",
     "0.0.0",
   ],
   [
