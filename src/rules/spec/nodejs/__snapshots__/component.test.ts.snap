@@ -109,6 +109,7 @@ exports[`npm > should match everything 1`] = `
   "cloudflare",
   "cloudflare.r2",
   "cloudflare.workers",
+  "codemirror",
   "cohereai",
   "commercetools",
   "composio",
@@ -1222,6 +1223,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@cloudflare/kv-asset-handler",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@codemirror/view",
     "0.0.0",
   ],
   [
@@ -3212,6 +3218,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "clicksend",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "codemirror",
     "0.0.0",
   ],
   [

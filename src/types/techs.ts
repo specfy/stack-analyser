@@ -197,6 +197,7 @@ export type AllowedKeys =
   | 'cockroachdb'
   | 'codeclimate'
   | 'codecov'
+  | 'codemirror'
   | 'codesandboxci'
   | 'cohereai'
   | 'commercetools'

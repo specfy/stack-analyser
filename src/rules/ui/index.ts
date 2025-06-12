@@ -2,6 +2,7 @@ import './antd.js';
 import './ariakitui.js';
 import './bootstrap.js';
 import './chakraui.js';
+import './codemirror.js';
 import './d3js.js';
 import './daisyui.js';
 import './fluentui.js';
