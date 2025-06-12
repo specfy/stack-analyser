@@ -100,6 +100,7 @@ exports[`python lockfile: pyproject.toml > should match everything 1`] = `
   "valkey",
   "wikipedia",
   "withorb",
+  "wolframalpha",
   "workos",
   "xai",
   "youtube",
@@ -691,6 +692,11 @@ exports[`python lockfile: pyproject.toml > should match everything 2`] = `
   ],
   [
     "python",
+    "wolframalpha",
+    "1.0.0",
+  ],
+  [
+    "python",
     "workos",
     "1.0.0",
   ],
@@ -808,6 +814,7 @@ exports[`python lockfile: requirements.txt > should match everything 1`] = `
   "valkey",
   "wikipedia",
   "withorb",
+  "wolframalpha",
   "workos",
   "xai",
   "youtube",
@@ -1395,6 +1402,11 @@ exports[`python lockfile: requirements.txt > should match everything 2`] = `
   [
     "python",
     "wikipedia",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "wolframalpha",
     "1.0.0",
   ],
   [

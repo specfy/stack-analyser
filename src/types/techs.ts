@@ -689,6 +689,7 @@ export type AllowedKeys =
   | 'wikipedia'
   | 'withorb'
   | 'wiz'
+  | 'wolframalpha'
   | 'woocommerce'
   | 'wordpress'
   | 'workos'

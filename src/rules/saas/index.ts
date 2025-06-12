@@ -24,4 +24,5 @@ import './tailscale.js';
 import './veriff.js';
 import './vialink.js';
 import './withorb.js';
+import './wolframalpha.js';
 import './yousign.js';

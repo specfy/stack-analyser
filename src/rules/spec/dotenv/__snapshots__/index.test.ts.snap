@@ -138,6 +138,7 @@ exports[`dotenv > should match all dependencies 1`] = `
   "webflow",
   "wikipedia",
   "wiz",
+  "wolframalpha",
   "woocommerce",
   "wordpress",
   "workos",
