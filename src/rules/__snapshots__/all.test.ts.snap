@@ -220,6 +220,7 @@ exports[`all > should match everything 1`] = `
   "facebook",
   "fastify",
   "fastly",
+  "feathericons",
   "figma",
   "firebase",
   "firebase.firestore",

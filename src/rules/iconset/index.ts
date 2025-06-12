@@ -1,3 +1,4 @@
+import './feathericons.js';
 import './fontawesome.js';
 import './heroicons.js';
 import './muiicons.js';

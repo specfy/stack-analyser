@@ -140,6 +140,7 @@ exports[`npm > should match everything 1`] = `
   "facebook",
   "fastify",
   "fastly",
+  "feathericons",
   "figma",
   "firebase",
   "fontawesome",
@@ -3263,6 +3264,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "feather-icons",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "firebase",
     "0.0.0",
   ],
@@ -4078,6 +4084,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "react-feather",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "react-ga",
     "0.0.0",
   ],
@@ -4094,6 +4105,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "react-instantsearch",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "react-native-feather",
     "0.0.0",
   ],
   [
