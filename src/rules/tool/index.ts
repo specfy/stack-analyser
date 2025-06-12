@@ -25,6 +25,7 @@ import './tensorflow.js';
 import './trpc.js';
 import './turborepo.js';
 import './twig.js';
+import './valibot.js';
 import './vite.js';
 import './webpack.js';
 import './zod.js';

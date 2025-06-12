@@ -419,6 +419,7 @@ exports[`npm > should match everything 1`] = `
   "upstash.qstash",
   "upstash.redis",
   "useparagon",
+  "valibot",
   "valkey",
   "vercel",
   "vercel.ai",
@@ -4623,6 +4624,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "universal-analytics",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "valibot",
     "0.0.0",
   ],
   [

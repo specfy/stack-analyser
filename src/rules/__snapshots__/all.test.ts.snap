@@ -635,6 +635,7 @@ exports[`all > should match everything 1`] = `
   "uptimekuma",
   "useparagon",
   "vale",
+  "valibot",
   "valkey",
   "vercel",
   "vercel.ai",
