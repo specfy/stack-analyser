@@ -382,6 +382,7 @@ export type AllowedKeys =
   | 'jekyll'
   | 'jenkins'
   | 'jest'
+  | 'joijs'
   | 'joomla'
   | 'jsx'
   | 'k6'

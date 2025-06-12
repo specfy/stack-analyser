@@ -225,6 +225,7 @@ exports[`npm > should match everything 1`] = `
   "intercom",
   "ionicons",
   "jest",
+  "joijs",
   "k6",
   "kentico",
   "kinde",
@@ -3702,6 +3703,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "jira.js",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "joi",
     "0.0.0",
   ],
   [
