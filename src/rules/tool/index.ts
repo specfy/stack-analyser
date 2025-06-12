@@ -10,6 +10,7 @@ import './gitlab.js';
 import './goacmelego.js';
 import './honojs.js';
 import './joijs.js';
+import './jsonschema.js';
 import './koa.js';
 import './liquibase.js';
 import './mailhog.js';

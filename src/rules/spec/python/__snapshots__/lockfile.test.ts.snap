@@ -57,6 +57,7 @@ exports[`python lockfile: pyproject.toml > should match everything 1`] = `
   "hostinger",
   "huggingface",
   "inngest",
+  "jsonschema",
   "kinde",
   "kubernetes",
   "lago",
@@ -402,6 +403,11 @@ exports[`python lockfile: pyproject.toml > should match everything 2`] = `
   [
     "python",
     "inngest",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "jsonschema",
     "1.0.0",
   ],
   [
@@ -794,6 +800,7 @@ exports[`python lockfile: requirements.txt > should match everything 1`] = `
   "hostinger",
   "huggingface",
   "inngest",
+  "jsonschema",
   "kinde",
   "kubernetes",
   "lago",
@@ -1140,6 +1147,11 @@ exports[`python lockfile: requirements.txt > should match everything 2`] = `
   [
     "python",
     "inngest",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "jsonschema",
     "1.0.0",
   ],
   [

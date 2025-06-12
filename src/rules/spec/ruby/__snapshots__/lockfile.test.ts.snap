@@ -136,6 +136,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "influxdb",
   "intercom",
   "jenkins",
+  "jsonschema",
   "kentico",
   "kinde",
   "klarna",
@@ -1002,6 +1003,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "jira-ruby",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "json-schema",
     "1.0.0",
   ],
   [

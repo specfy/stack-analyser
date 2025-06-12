@@ -226,6 +226,7 @@ exports[`npm > should match everything 1`] = `
   "ionicons",
   "jest",
   "joijs",
+  "jsonschema",
   "k6",
   "kentico",
   "kinde",
@@ -2870,6 +2871,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@types/json-schema",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@umijs/route-utils",
     "0.0.0",
   ],
@@ -3071,6 +3077,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "airtable",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "ajv",
     "0.0.0",
   ],
   [
@@ -3736,6 +3747,16 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "jsforce",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "json-schema",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "jsonschema",
     "0.0.0",
   ],
   [

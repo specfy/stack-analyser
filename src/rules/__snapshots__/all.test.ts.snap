@@ -345,6 +345,7 @@ exports[`all > should match everything 1`] = `
   "jest",
   "joijs",
   "joomla",
+  "jsonschema",
   "jsx",
   "k6",
   "kentico",

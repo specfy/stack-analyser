@@ -96,6 +96,7 @@ exports[`php > should match everything 1`] = `
   "influxdb",
   "intercom",
   "joomla",
+  "jsonschema",
   "kinde",
   "klaviyo",
   "kubernetes",
@@ -777,6 +778,11 @@ exports[`php > should match everything 2`] = `
   ],
   [
     "php",
+    "justinrainbow/json-schema",
+    "0.0.0",
+  ],
+  [
+    "php",
     "kinde-oss/kinde-auth-php",
     "0.0.0",
   ],
@@ -1028,6 +1034,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "openzipkin/zipkin",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "opis/json-schema",
     "0.0.0",
   ],
   [

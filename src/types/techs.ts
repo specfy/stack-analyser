@@ -384,6 +384,7 @@ export type AllowedKeys =
   | 'jest'
   | 'joijs'
   | 'joomla'
+  | 'jsonschema'
   | 'jsx'
   | 'k6'
   | 'kentico'

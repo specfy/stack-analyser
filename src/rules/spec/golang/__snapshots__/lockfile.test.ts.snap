@@ -102,6 +102,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "hetzner",
   "hyperdx",
   "inngest",
+  "jsonschema",
   "k6",
   "lago",
   "launchdarkly",
@@ -735,6 +736,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/inngest/inngestgo",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/invopop/jsonschema",
     "v1.0.0",
   ],
   [
