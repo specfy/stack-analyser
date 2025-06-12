@@ -349,6 +349,7 @@ exports[`npm > should match everything 1`] = `
   "rollbar",
   "rollup",
   "salesforce",
+  "sandpackeditor",
   "sanity",
   "sap",
   "scaleway",
@@ -1221,6 +1222,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@cloudflare/kv-asset-handler",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@codesandbox/sandpack-react",
     "0.0.0",
   ],
   [

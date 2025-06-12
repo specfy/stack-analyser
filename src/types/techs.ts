@@ -564,6 +564,7 @@ export type AllowedKeys =
   | 'rubyenv'
   | 'rust'
   | 'salesforce'
+  | 'sandpackeditor'
   | 'sanity'
   | 'sap'
   | 'sas'

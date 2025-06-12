@@ -523,6 +523,7 @@ exports[`all > should match everything 1`] = `
   "rubyenv",
   "rust",
   "salesforce",
+  "sandpackeditor",
   "sanity",
   "sap",
   "sas",
