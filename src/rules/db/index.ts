@@ -87,6 +87,7 @@ import './tursodb.js';
 import './typesense.js';
 import './typesensecloud.js';
 import './upstash.redis.js';
+import './valkey.js';
 import './vercel.blob.js';
 import './vercel.kv.js';
 import './vercel.postgres.js';

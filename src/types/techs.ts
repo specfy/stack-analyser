@@ -662,6 +662,7 @@ export type AllowedKeys =
   | 'uptimekuma'
   | 'useparagon'
   | 'vale'
+  | 'valkey'
   | 'vercel.ai'
   | 'vercel.analytics'
   | 'vercel.blob'

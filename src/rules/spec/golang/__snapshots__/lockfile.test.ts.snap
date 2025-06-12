@@ -152,6 +152,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "terraform",
   "twilio",
   "typesense",
+  "valkey",
   "withorb",
   "workos",
   "zipkin",
@@ -943,6 +944,16 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/typesense/typesense-go/typesense",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/valkey-io/valkey-glide/go",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/valkey-io/valkey-go",
     "v1.0.0",
   ],
   [

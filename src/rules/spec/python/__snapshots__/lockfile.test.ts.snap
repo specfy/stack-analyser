@@ -97,6 +97,7 @@ exports[`python lockfile: pyproject.toml > should match everything 1`] = `
   "tencentcloud",
   "tensorflow",
   "twitter",
+  "valkey",
   "withorb",
   "workos",
   "xai",
@@ -663,6 +664,16 @@ exports[`python lockfile: pyproject.toml > should match everything 2`] = `
   ],
   [
     "python",
+    "valkey",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "valkey-glide",
+    "1.0.0",
+  ],
+  [
+    "python",
     "vertexai",
     "1.0.0",
   ],
@@ -777,6 +788,7 @@ exports[`python lockfile: requirements.txt > should match everything 1`] = `
   "tencentcloud",
   "tensorflow",
   "twitter",
+  "valkey",
   "withorb",
   "workos",
   "xai",
@@ -1339,6 +1351,16 @@ exports[`python lockfile: requirements.txt > should match everything 2`] = `
   [
     "python",
     "tweepy",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "valkey",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "valkey-glide",
     "1.0.0",
   ],
   [
