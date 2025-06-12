@@ -111,6 +111,7 @@ exports[`npm > should match everything 1`] = `
   "cloudflare.workers",
   "cohereai",
   "commercetools",
+  "composio",
   "contentful",
   "convexdb",
   "couchbase",
@@ -1234,6 +1235,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@commercetools/sdk-middleware-http",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@composio/client",
     "0.0.0",
   ],
   [
@@ -3194,6 +3200,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "cohere-ai",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "composio-core",
     "0.0.0",
   ],
   [

@@ -4,6 +4,7 @@ import './apacheFlink.js';
 import './apacheStorm.js';
 import './apideck.js';
 import './aws.glue.js';
+import './composio.js';
 import './databricks.js';
 import './dataiku.js';
 import './gcp.dataflow.js';

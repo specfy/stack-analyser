@@ -200,6 +200,7 @@ export type AllowedKeys =
   | 'codesandboxci'
   | 'cohereai'
   | 'commercetools'
+  | 'composio'
   | 'concourseci'
   | 'consul'
   | 'contentful'
