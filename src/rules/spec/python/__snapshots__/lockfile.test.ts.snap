@@ -4,6 +4,7 @@ exports[`python lockfile: pyproject.toml > should match everything 1`] = `
 [
   "algolia",
   "anthropic",
+  "apachetika",
   "apideck",
   "apify",
   "asana",
@@ -652,6 +653,11 @@ exports[`python lockfile: pyproject.toml > should match everything 2`] = `
   ],
   [
     "python",
+    "tika",
+    "1.0.0",
+  ],
+  [
+    "python",
     "tweepy",
     "1.0.0",
   ],
@@ -677,6 +683,7 @@ exports[`python lockfile: requirements.txt > should match everything 1`] = `
 [
   "algolia",
   "anthropic",
+  "apachetika",
   "apideck",
   "apify",
   "asana",
@@ -1322,6 +1329,11 @@ exports[`python lockfile: requirements.txt > should match everything 2`] = `
   [
     "python",
     "tensorflow",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "tika",
     "1.0.0",
   ],
   [

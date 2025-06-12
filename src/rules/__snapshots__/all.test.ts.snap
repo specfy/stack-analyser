@@ -30,6 +30,7 @@ exports[`all > should match everything 1`] = `
   "apache_spark",
   "apache_storm",
   "apache_thrift",
+  "apachetika",
   "apideck",
   "apify",
   "apiplatform",

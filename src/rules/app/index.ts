@@ -1,4 +1,5 @@
 import './adminer.js';
+import './apacheTika.js';
 import './caddy.js';
 import './consul.js';
 import './discourse.js';
