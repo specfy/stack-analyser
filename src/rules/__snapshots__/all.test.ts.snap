@@ -226,6 +226,7 @@ exports[`all > should match everything 1`] = `
   "firecrawl",
   "flyio",
   "flyway",
+  "fontawesome",
   "freshdesk",
   "frontegg",
   "fusionauth",

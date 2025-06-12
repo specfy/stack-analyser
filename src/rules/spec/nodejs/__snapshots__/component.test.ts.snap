@@ -142,6 +142,7 @@ exports[`npm > should match everything 1`] = `
   "fastly",
   "figma",
   "firebase",
+  "fontawesome",
   "freshdesk",
   "frontegg",
   "fusionauth",
@@ -1294,6 +1295,16 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@fortawesome/react-fontawesome",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@fortawesome/vue-fontawesome",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@frontegg/js",
     "0.0.0",
   ],
@@ -1590,6 +1601,16 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@iamtraction/google-translate",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@iconify-json/fa6-brands",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@iconify-json/fa6-regular",
     "0.0.0",
   ],
   [
