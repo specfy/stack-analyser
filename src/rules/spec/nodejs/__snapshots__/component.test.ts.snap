@@ -358,6 +358,7 @@ exports[`npm > should match everything 1`] = `
   "shadcn",
   "shopify",
   "shopify.hydrogen",
+  "simpleicons",
   "sitecore",
   "sitecore.xmlcloud",
   "slack",
@@ -1685,6 +1686,16 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@iconify-json/tabler",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@iconify/json/simple-icons",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@icons-pack/react-simple-icons",
     "0.0.0",
   ],
   [
@@ -4335,6 +4346,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "shopify-api-node",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "simple-icons",
     "0.0.0",
   ],
   [

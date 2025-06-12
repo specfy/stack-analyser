@@ -587,6 +587,7 @@ export type AllowedKeys =
   | 'shopify.hydrogen'
   | 'shopify'
   | 'signoz'
+  | 'simpleicons'
   | 'sitecore.xmlcloud'
   | 'sitecore'
   | 'slack'
