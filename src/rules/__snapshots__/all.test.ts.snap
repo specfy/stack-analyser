@@ -314,6 +314,7 @@ exports[`all > should match everything 1`] = `
   "heroui",
   "hetzner",
   "hexojs",
+  "honojs",
   "hostinger",
   "hotjar",
   "htmx",

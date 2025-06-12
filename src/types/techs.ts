@@ -352,6 +352,7 @@ export type AllowedKeys =
   | 'heroui'
   | 'hetzner'
   | 'hexojs'
+  | 'honojs'
   | 'hostinger'
   | 'hotjar'
   | 'html'

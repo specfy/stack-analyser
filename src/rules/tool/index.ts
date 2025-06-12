@@ -8,6 +8,7 @@ import './fastify.js';
 import './flyway.js';
 import './gitlab.js';
 import './goacmelego.js';
+import './honojs.js';
 import './koa.js';
 import './liquibase.js';
 import './mailhog.js';

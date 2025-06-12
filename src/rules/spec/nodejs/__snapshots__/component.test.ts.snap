@@ -207,6 +207,7 @@ exports[`npm > should match everything 1`] = `
   "heroicons",
   "heroui",
   "hexojs",
+  "honojs",
   "hostinger",
   "hotjar",
   "htmx",
@@ -3537,6 +3538,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "hexo",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "hono",
     "0.0.0",
   ],
   [
