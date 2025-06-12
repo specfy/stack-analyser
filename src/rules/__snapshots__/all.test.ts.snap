@@ -399,6 +399,7 @@ exports[`all > should match everything 1`] = `
   "mixpanel",
   "mkdocs",
   "mochajs",
+  "monacoeditor",
   "monday",
   "mongodb",
   "mongodbatlas",

@@ -9,6 +9,7 @@ import './headlessui.js';
 import './heroui.js';
 import './mantineui.js';
 import './materialui.js';
+import './monacoeditor.js';
 import './radixui.js';
 import './shadcn.js';
 import './tailwind.js';

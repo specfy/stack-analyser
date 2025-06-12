@@ -439,6 +439,7 @@ export type AllowedKeys =
   | 'mixpanel'
   | 'mkdocs'
   | 'mochajs'
+  | 'monacoeditor'
   | 'monday'
   | 'mongodb'
   | 'mongodbatlas'

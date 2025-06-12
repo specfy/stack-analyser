@@ -268,6 +268,7 @@ exports[`npm > should match everything 1`] = `
   "mithriljs",
   "mixpanel",
   "mochajs",
+  "monacoeditor",
   "monday",
   "mongodb",
   "mongodbatlas",
@@ -1890,6 +1891,16 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@mistralai/mistralai",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@monaco-editor/loader",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@monaco-editor/react",
     "0.0.0",
   ],
   [
@@ -3840,6 +3851,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "mocha",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "monaco-editor",
     "0.0.0",
   ],
   [
