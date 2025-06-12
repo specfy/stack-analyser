@@ -568,6 +568,7 @@ exports[`all > should match everything 1`] = `
   "swift",
   "swiftype",
   "symfony",
+  "tablericon",
   "tailscale",
   "tailwind",
   "tanstackstart",

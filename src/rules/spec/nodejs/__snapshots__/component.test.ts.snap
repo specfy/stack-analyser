@@ -372,6 +372,7 @@ exports[`npm > should match everything 1`] = `
   "surrealdb",
   "sveltejs",
   "swiftype",
+  "tablericon",
   "tailscale",
   "tailwind",
   "tanstackstart",
@@ -1593,6 +1594,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@iconify-json/tabler",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@influxdata/influxdb-client",
     "0.0.0",
   ],
@@ -2453,6 +2459,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@steeze-ui/tabler-icons",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@stencil/core",
     "0.0.0",
   ],
@@ -2509,6 +2520,21 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@sveltejs/vite-plugin-svelte",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@tabler/icons",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@tabler/icons-react",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@tabler/icons-vue",
     "0.0.0",
   ],
   [

@@ -14,6 +14,7 @@ import './etl/index.js';
 import './framework/index.js';
 import './hosting/index.js';
 import './iac/index.js';
+import './iconset/index.js';
 import './language/index.js';
 import './linter/index.js';
 import './maps/index.js';
