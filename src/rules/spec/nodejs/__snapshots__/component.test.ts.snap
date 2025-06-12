@@ -263,6 +263,7 @@ exports[`npm > should match everything 1`] = `
   "mongodb",
   "mongodbatlas",
   "mssql",
+  "muiicons",
   "mysql",
   "n8n",
   "nango",
@@ -1800,7 +1801,17 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@mui/icons-material",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@mui/material",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@mui/types",
     "0.0.0",
   ],
   [

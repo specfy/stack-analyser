@@ -432,6 +432,7 @@ export type AllowedKeys =
   | 'mongodbatlas'
   | 'mongoexpress'
   | 'mssql'
+  | 'muiicons'
   | 'mysql'
   | 'n8n'
   | 'nango'

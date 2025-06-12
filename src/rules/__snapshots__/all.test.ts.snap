@@ -392,6 +392,7 @@ exports[`all > should match everything 1`] = `
   "mongodbatlas",
   "mongoexpress",
   "mssql",
+  "muiicons",
   "mysql",
   "n8n",
   "nango",
