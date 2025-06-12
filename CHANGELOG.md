@@ -1,3 +1,63 @@
+# [1.26.0](https://github.com/specfy/stack-analyser/compare/v1.25.0...v1.26.0) (2025-06-12)
+
+
+### Bug Fixes
+
+* casing ([4527c2e](https://github.com/specfy/stack-analyser/commit/4527c2e8a09f02e8a4bd8ca726556386c0d79f91))
+* import ([0e36f5b](https://github.com/specfy/stack-analyser/commit/0e36f5bc85adb9b76beec5201c2560f7ab7ad6b1))
+* **rules:** add Antd ([6aeb82c](https://github.com/specfy/stack-analyser/commit/6aeb82c103da4a818ab5b4379f122ec5f9dc68cf))
+* **rules:** add AntD Icons ([1f47163](https://github.com/specfy/stack-analyser/commit/1f4716328fbaf1160dda7f418d790d35e0cda084))
+* **rules:** add Apache Tika ([9b5ff90](https://github.com/specfy/stack-analyser/commit/9b5ff901e084e2f887c3c945d19bf24b9f2c610b))
+* **rules:** add AriakitUI ([5abcd5b](https://github.com/specfy/stack-analyser/commit/5abcd5b96145f195f5e4dac3cc381805481826c2))
+* **rules:** add Bootstrap and React icons ([74f1404](https://github.com/specfy/stack-analyser/commit/74f1404fc5a4cb01912ef1cc10fa22e422cf6cf4))
+* **rules:** add category Iconset and Tabler icon ([9e222f8](https://github.com/specfy/stack-analyser/commit/9e222f8596315a0eddd27221fa1ae14aa828c7df))
+* **rules:** add ChakraUI ([6dd05b7](https://github.com/specfy/stack-analyser/commit/6dd05b7e67d7965cca8530e2e1d909662be2a066))
+* **rules:** add CodeMirror ([55cb6ce](https://github.com/specfy/stack-analyser/commit/55cb6cea38aa18993fe4c5e7ec75c0d23365f02e))
+* **rules:** add Composio ([8fadddc](https://github.com/specfy/stack-analyser/commit/8fadddc0d880c1e5761d1cb66b4e0b9d1d76c1dd))
+* **rules:** add Crawl4Ai ([eb48be5](https://github.com/specfy/stack-analyser/commit/eb48be5e03a30716c7ced766f605acdcf8a39245))
+* **rules:** add DaisyUI ([f98feab](https://github.com/specfy/stack-analyser/commit/f98feabc2c9d8150fa5f612273d4f7f47c4295cd))
+* **rules:** add Feather Icons ([6bab856](https://github.com/specfy/stack-analyser/commit/6bab856b54d5982e55b3a51db62b9fbd2cede266))
+* **rules:** add FluentUI ([a2be0f8](https://github.com/specfy/stack-analyser/commit/a2be0f840c164c5427465515e95a3da03841873a))
+* **rules:** add FontAwesome ([656beb3](https://github.com/specfy/stack-analyser/commit/656beb397f527b9a6ac34d73853e9e8f861b8a3a))
+* **rules:** add Headless UI ([80ddbe8](https://github.com/specfy/stack-analyser/commit/80ddbe8a6e3203dd60e413e9ad94c022e4ae577d))
+* **rules:** add Heroicons ([ed407a9](https://github.com/specfy/stack-analyser/commit/ed407a94a2102a8da27ba5916ed70d7dcc11d1b3))
+* **rules:** add HeroUI ([388f96a](https://github.com/specfy/stack-analyser/commit/388f96a7ecfd0cb4ed2ca8a33a2143934ea96d3b))
+* **rules:** add HonoJS ([ebb051e](https://github.com/specfy/stack-analyser/commit/ebb051e4150a3876b1ac5251852245d63d64d6c8))
+* **rules:** add Ionicons ([67ffff0](https://github.com/specfy/stack-analyser/commit/67ffff06b66eebcf5c3d587e94efe55aa3e8d421))
+* **rules:** add Joi ([84b59f1](https://github.com/specfy/stack-analyser/commit/84b59f101fddfff52b5c2b6082c3cbf7ba44d09c))
+* **rules:** add JsonSchema ([859499e](https://github.com/specfy/stack-analyser/commit/859499e8756b6c87405317e4864533de46b775c9))
+* **rules:** add Knex ([74d2f21](https://github.com/specfy/stack-analyser/commit/74d2f21e86e44654a0a9fa4bde228bb101075c20))
+* **rules:** add Lucide icons ([9e69874](https://github.com/specfy/stack-analyser/commit/9e698744adfa3c8080c3623f1e7c9f9513c63e9d))
+* **rules:** add MantineUI ([ab99814](https://github.com/specfy/stack-analyser/commit/ab99814febc2125c3a7a66527d9ac476c27adb90))
+* **rules:** add many popular packages ([1b11a45](https://github.com/specfy/stack-analyser/commit/1b11a4597705f4adb2c37c38c2d8c009ca73a773))
+* **rules:** add MaterialUI ([3c9d9bf](https://github.com/specfy/stack-analyser/commit/3c9d9bf54ab279626c408053553cbdb2a449f1dd))
+* **rules:** add MaterialUI Icons ([7a59dd8](https://github.com/specfy/stack-analyser/commit/7a59dd85264ced28e042e3485eda3ab74a904ec7))
+* **rules:** add MCP ([454842b](https://github.com/specfy/stack-analyser/commit/454842b4d88f8973ed46762f9bbfc407633fe34a))
+* **rules:** add Monaco Editor ([31d3706](https://github.com/specfy/stack-analyser/commit/31d37068c1dc66cc67dcc46ca9557ef088d09384))
+* **rules:** add OpenAPI ([0c7d117](https://github.com/specfy/stack-analyser/commit/0c7d1170862c76cca60727320494bfa395708cbe))
+* **rules:** add OpenTelemetry ([3c35a66](https://github.com/specfy/stack-analyser/commit/3c35a669a717e0b55eb36ff34e2ac0ba5c8b20a7))
+* **rules:** add PhosphoreIcons ([aea1509](https://github.com/specfy/stack-analyser/commit/aea1509033efbe6337cf3a21ceee0c6448ea002d))
+* **rules:** add Radix Icons ([6a47fb8](https://github.com/specfy/stack-analyser/commit/6a47fb8e3b8953b836185b507d8e821187281662))
+* **rules:** add React Router Dom ([99c3a2c](https://github.com/specfy/stack-analyser/commit/99c3a2cfc1ed826811ee968bc301ecf29413a664))
+* **rules:** add Remix Router ([b461ce4](https://github.com/specfy/stack-analyser/commit/b461ce45234ed475e59edc50e02fb6f6476f48d1))
+* **rules:** add Sandpack editor ([c332434](https://github.com/specfy/stack-analyser/commit/c332434d315aba0178973b6079889fc793366790))
+* **rules:** add Shadcn ([f54ea49](https://github.com/specfy/stack-analyser/commit/f54ea49a7b06dee6ea47b04dc6bb02364381311c))
+* **rules:** add SimpleIcons ([e894946](https://github.com/specfy/stack-analyser/commit/e8949463eb7bdd5ed59a617f3e07c168c2b18f23))
+* **rules:** add Tanstack Router ([332df45](https://github.com/specfy/stack-analyser/commit/332df4578a7d2487476cfabca7c000ac31bc6046))
+* **rules:** add tRPC ([9a7f82b](https://github.com/specfy/stack-analyser/commit/9a7f82b506c86dcb06136903c8ef6c50bbd786b4))
+* **rules:** add UmiJS ([cc8a166](https://github.com/specfy/stack-analyser/commit/cc8a166e51fba54cfa5405dcfe38e6caff280181))
+* **rules:** add valibot ([33a2f13](https://github.com/specfy/stack-analyser/commit/33a2f13ccb088f88c23e5c5801c9f6eaa825b27e))
+* **rules:** add Valkey ([3a9686a](https://github.com/specfy/stack-analyser/commit/3a9686a257d6bfb62de55cd909c68c6718daadd6))
+* **rules:** add Vercel Functions ([31b20d5](https://github.com/specfy/stack-analyser/commit/31b20d5c9ae877dbf2acc7c0012ff189f50b5857))
+* **rules:** add Wikipedia ([79f16e5](https://github.com/specfy/stack-analyser/commit/79f16e549560ef8559d5bb2ab1e7e239975686aa))
+* **rules:** add WolframAlpha ([644084a](https://github.com/specfy/stack-analyser/commit/644084ac81e9c90ad6173845b68013d08df6432e))
+* **rules:** add Zod ([3227184](https://github.com/specfy/stack-analyser/commit/322718460d4756b45656b343afb4965b8e369517))
+
+
+### Features
+
+* **rules:** change infisical category ([c867dac](https://github.com/specfy/stack-analyser/commit/c867dacb1bebf6b84ca56cde31aa9b75ccec75e0))
+
 # [1.25.0](https://github.com/specfy/stack-analyser/compare/v1.24.1...v1.25.0) (2025-06-01)
 
 
