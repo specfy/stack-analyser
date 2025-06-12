@@ -1,3 +1,4 @@
+import './bootstrapicons.js';
 import './feathericons.js';
 import './fontawesome.js';
 import './heroicons.js';
@@ -5,4 +6,5 @@ import './lucideicons.js';
 import './muiicons.js';
 import './phosphoreicons.js';
 import './radixicons.js';
+import './reacticons.js';
 import './tablericon.js';

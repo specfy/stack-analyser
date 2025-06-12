@@ -93,6 +93,7 @@ exports[`npm > should match everything 1`] = `
   "biomejs",
   "blitzjs",
   "bootstrap",
+  "bootstrapicons",
   "box",
   "brevo",
   "browserstack",
@@ -327,6 +328,7 @@ exports[`npm > should match everything 1`] = `
   "railway",
   "react",
   "reactemail",
+  "reacticons",
   "reddit",
   "redis",
   "redwoodjs",
@@ -1617,6 +1619,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@iamtraction/google-translate",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@iconify-json/bi",
     "0.0.0",
   ],
   [
@@ -3046,6 +3053,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "bootstrap-icons",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "box-node-sdk",
     "0.0.0",
   ],
@@ -4121,6 +4133,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "react-bootstrap-icons",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "react-calendly",
     "0.0.0",
   ],
@@ -4152,6 +4169,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "react-google-drive-picker",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "react-icons",
     "0.0.0",
   ],
   [
@@ -4342,6 +4364,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "svelte",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "svelte-bootstrap-icons",
     "0.0.0",
   ],
   [
