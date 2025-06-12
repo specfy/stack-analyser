@@ -263,6 +263,7 @@ export type AllowedKeys =
   | 'firebase.firestore'
   | 'firebase'
   | 'firecrawl'
+  | 'fluentui'
   | 'flyio'
   | 'flyway'
   | 'fontawesome'

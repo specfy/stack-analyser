@@ -4,6 +4,7 @@ import './bootstrap.js';
 import './chakraui.js';
 import './d3js.js';
 import './daisyui.js';
+import './fluentui.js';
 import './headlessui.js';
 import './heroui.js';
 import './mantineui.js';

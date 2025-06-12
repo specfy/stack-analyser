@@ -226,6 +226,7 @@ exports[`all > should match everything 1`] = `
   "firebase",
   "firebase.firestore",
   "firecrawl",
+  "fluentui",
   "flyio",
   "flyway",
   "fontawesome",

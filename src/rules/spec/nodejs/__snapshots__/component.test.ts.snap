@@ -144,6 +144,7 @@ exports[`npm > should match everything 1`] = `
   "feathericons",
   "figma",
   "firebase",
+  "fluentui",
   "fontawesome",
   "freshdesk",
   "frontegg",
@@ -1300,6 +1301,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@firebase/auth",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@fluentui/react",
     "0.0.0",
   ],
   [
