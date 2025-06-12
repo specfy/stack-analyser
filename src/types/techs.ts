@@ -680,6 +680,7 @@ export type AllowedKeys =
   | 'wasp'
   | 'webflow'
   | 'webpack'
+  | 'wikipedia'
   | 'withorb'
   | 'wiz'
   | 'woocommerce'

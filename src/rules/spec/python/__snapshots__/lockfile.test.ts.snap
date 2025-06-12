@@ -98,9 +98,11 @@ exports[`python lockfile: pyproject.toml > should match everything 1`] = `
   "tensorflow",
   "twitter",
   "valkey",
+  "wikipedia",
   "withorb",
   "workos",
   "xai",
+  "youtube",
   "zuora",
 ]
 `;
@@ -604,6 +606,11 @@ exports[`python lockfile: pyproject.toml > should match everything 2`] = `
   ],
   [
     "python",
+    "pytube",
+    "1.0.0",
+  ],
+  [
+    "python",
     "qdrant-client",
     "1.0.0",
   ],
@@ -679,7 +686,17 @@ exports[`python lockfile: pyproject.toml > should match everything 2`] = `
   ],
   [
     "python",
+    "wikipedia",
+    "1.0.0",
+  ],
+  [
+    "python",
     "workos",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "youtube-transcript-api",
     "1.0.0",
   ],
   [
@@ -789,9 +806,11 @@ exports[`python lockfile: requirements.txt > should match everything 1`] = `
   "tensorflow",
   "twitter",
   "valkey",
+  "wikipedia",
   "withorb",
   "workos",
   "xai",
+  "youtube",
   "zuora",
 ]
 `;
@@ -1295,6 +1314,11 @@ exports[`python lockfile: requirements.txt > should match everything 2`] = `
   ],
   [
     "python",
+    "pytube",
+    "1.0.0",
+  ],
+  [
+    "python",
     "qdrant-client",
     "1.0.0",
   ],
@@ -1370,7 +1394,17 @@ exports[`python lockfile: requirements.txt > should match everything 2`] = `
   ],
   [
     "python",
+    "wikipedia",
+    "1.0.0",
+  ],
+  [
+    "python",
     "workos",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "youtube-transcript-api",
     "1.0.0",
   ],
   [

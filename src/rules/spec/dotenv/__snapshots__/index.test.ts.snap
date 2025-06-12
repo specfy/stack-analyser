@@ -136,6 +136,7 @@ exports[`dotenv > should match all dependencies 1`] = `
   "upstash.redis",
   "valkey",
   "webflow",
+  "wikipedia",
   "wiz",
   "woocommerce",
   "wordpress",
