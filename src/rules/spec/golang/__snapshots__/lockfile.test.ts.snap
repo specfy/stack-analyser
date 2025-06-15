@@ -59,6 +59,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "chargebee",
   "clerk",
   "clickhouse",
+  "cloudinary",
   "cohereai",
   "coveralls",
   "datadome",
@@ -626,6 +627,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/clerk/clerk-sdk-go/v2",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/cloudinary/cloudinary-go/v2",
     "v1.0.0",
   ],
   [

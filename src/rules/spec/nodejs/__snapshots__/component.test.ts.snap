@@ -109,6 +109,7 @@ exports[`npm > should match everything 1`] = `
   "cloudflare",
   "cloudflare.r2",
   "cloudflare.workers",
+  "cloudinary",
   "codemirror",
   "cohereai",
   "commercetools",
@@ -3279,6 +3280,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "clicksend",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "cloudinary",
     "0.0.0",
   ],
   [

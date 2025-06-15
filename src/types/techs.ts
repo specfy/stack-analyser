@@ -194,6 +194,7 @@ export type AllowedKeys =
   | 'cloudflare.r2'
   | 'cloudflare.workers'
   | 'cloudflare'
+  | 'cloudinary'
   | 'cockroachdb'
   | 'codeclimate'
   | 'codecov'

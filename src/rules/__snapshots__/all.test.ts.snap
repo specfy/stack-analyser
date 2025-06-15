@@ -158,6 +158,7 @@ exports[`all > should match everything 1`] = `
   "cloudflare.pages",
   "cloudflare.r2",
   "cloudflare.workers",
+  "cloudinary",
   "cockroachdb",
   "codeclimate",
   "codecov",

@@ -1,5 +1,6 @@
 import './atlassian.bitbucket.js';
 import './box.js';
+import './cloudinary.js';
 import './docusign.js';
 import './dropbox.js';
 import './figma.js';

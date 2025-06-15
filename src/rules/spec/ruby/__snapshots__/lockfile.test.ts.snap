@@ -74,6 +74,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "clerk",
   "clickhouse",
   "cloudflare",
+  "cloudinary",
   "couchbase",
   "coveralls",
   "cypressci",
@@ -613,6 +614,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "cloudfront-signer",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "cloudinary",
     "1.0.0",
   ],
   [

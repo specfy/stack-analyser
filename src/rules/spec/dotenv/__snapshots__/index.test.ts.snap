@@ -30,6 +30,7 @@ exports[`dotenv > should match all dependencies 1`] = `
   "clickup",
   "cloudbees",
   "cloudflare",
+  "cloudinary",
   "cohereai",
   "composio",
   "contentful",

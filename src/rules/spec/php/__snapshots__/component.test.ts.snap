@@ -39,6 +39,7 @@ exports[`php > should match everything 1`] = `
   "chargebee",
   "clickhouse",
   "cloudflare",
+  "cloudinary",
   "cockroachdb",
   "contentful",
   "couchbase",
@@ -394,6 +395,11 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "cloudflare/sdk",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "cloudinary/cloudinary_php",
     "0.0.0",
   ],
   [

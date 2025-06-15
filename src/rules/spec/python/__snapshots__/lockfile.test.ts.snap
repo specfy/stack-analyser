@@ -21,6 +21,7 @@ exports[`python lockfile: pyproject.toml > should match everything 1`] = `
   "chromadb",
   "clerk",
   "clickhouse",
+  "cloudinary",
   "cohereai",
   "composio",
   "convexdb",
@@ -233,6 +234,11 @@ exports[`python lockfile: pyproject.toml > should match everything 2`] = `
   [
     "python",
     "clickhouse-connect",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "cloudinary",
     "1.0.0",
   ],
   [
@@ -764,6 +770,7 @@ exports[`python lockfile: requirements.txt > should match everything 1`] = `
   "chromadb",
   "clerk",
   "clickhouse",
+  "cloudinary",
   "cohereai",
   "composio",
   "convexdb",
@@ -977,6 +984,11 @@ exports[`python lockfile: requirements.txt > should match everything 2`] = `
   [
     "python",
     "clickhouse-connect",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "cloudinary",
     "1.0.0",
   ],
   [
