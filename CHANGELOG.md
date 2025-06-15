@@ -1,3 +1,11 @@
+## [1.26.1](https://github.com/specfy/stack-analyser/compare/v1.26.0...v1.26.1) (2025-06-15)
+
+
+### Bug Fixes
+
+* **rules:** add Lexical editor ([299aebd](https://github.com/specfy/stack-analyser/commit/299aebdf3f1be53e7ed2be05d4352ab4f749f86a))
+* **rules:** add RemixIcons ([6926915](https://github.com/specfy/stack-analyser/commit/69269156c987782dae2e4acecd2626b95b48aede))
+
 # [1.26.0](https://github.com/specfy/stack-analyser/compare/v1.25.0...v1.26.0) (2025-06-12)
 
 
