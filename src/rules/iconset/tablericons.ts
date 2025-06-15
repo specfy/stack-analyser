@@ -1,7 +1,7 @@
 import { register } from '../../register.js';
 
 register({
-  tech: 'tablericon',
+  tech: 'tablericons',
   name: 'Tabler',
   type: 'iconset',
   dependencies: [

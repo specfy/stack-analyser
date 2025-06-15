@@ -4,5 +4,8 @@ register({
   tech: 'reactrouterdom',
   name: 'React Router DOM',
   type: 'ui',
-  dependencies: [{ type: 'npm', name: 'react-router-dom' }],
+  dependencies: [
+    { type: 'npm', name: 'react-router-dom' },
+    { type: 'npm', name: 'react-router' },
+  ],
 });

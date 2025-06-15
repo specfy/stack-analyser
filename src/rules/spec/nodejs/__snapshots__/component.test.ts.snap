@@ -239,6 +239,7 @@ exports[`npm > should match everything 1`] = `
   "lago",
   "launchdarkly",
   "lemonsqueezy",
+  "lexicaleditor",
   "libsql",
   "lighthouse",
   "linear",
@@ -396,7 +397,7 @@ exports[`npm > should match everything 1`] = `
   "surrealdb",
   "sveltejs",
   "swiftype",
-  "tablericon",
+  "tablericons",
   "tailscale",
   "tailwind",
   "tanstackrouter",
@@ -3821,6 +3822,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "lexical",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "lighthouse",
     "0.0.0",
   ],
@@ -4412,6 +4418,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "react-native-feather",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "react-router",
     "0.0.0",
   ],
   [

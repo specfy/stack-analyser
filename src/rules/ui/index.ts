@@ -8,6 +8,7 @@ import './daisyui.js';
 import './fluentui.js';
 import './headlessui.js';
 import './heroui.js';
+import './lexicaleditor.js';
 import './mantineui.js';
 import './materialui.js';
 import './monacoeditor.js';
