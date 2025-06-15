@@ -556,6 +556,7 @@ export type AllowedKeys =
   | 'redwoodjs'
   | 'refinedev'
   | 'relativeci'
+  | 'remixicons'
   | 'remixrouter'
   | 'remixrun'
   | 'render'

@@ -9,5 +9,6 @@ import './muiicons.js';
 import './phosphoreicons.js';
 import './radixicons.js';
 import './reacticons.js';
+import './remixicons.js';
 import './simpleicons.js';
 import './tablericons.js';
