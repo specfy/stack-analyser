@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'mkdocs',
   name: 'MkDocs',
-  type: 'framework',
+  type: 'ssg',
   files: ['mkdocs.yml'],
   dependencies: [
     { type: 'python', name: 'mkdocs' },

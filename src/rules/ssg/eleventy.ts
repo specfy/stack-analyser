@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'eleventy',
   name: 'Eleventy',
-  type: 'framework',
+  type: 'ssg',
   files: ['.eleventy.js', 'eleventy.config.js', 'eleventy.config.cjs'],
   dependencies: [
     { type: 'npm', name: '@11ty/eleventy' },

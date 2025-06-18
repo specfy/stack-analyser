@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'emberjs',
   name: 'Ember',
-  type: 'framework',
+  type: 'ui_framework',
   files: ['ember-cli-build.js'],
   dependencies: [
     { type: 'npm', name: 'ember-cli' },

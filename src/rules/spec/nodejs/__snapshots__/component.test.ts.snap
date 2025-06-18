@@ -129,6 +129,7 @@ exports[`npm > should match everything 1`] = `
   "digitalocean",
   "discord",
   "docker",
+  "docsify",
   "docusaurus",
   "docusign",
   "drizzleorm",
@@ -2604,12 +2605,32 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@sentry/aws-serverless",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@sentry/browser",
     "0.0.0",
   ],
   [
     "npm",
+    "@sentry/bun",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@sentry/cloudflare",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@sentry/core",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@sentry/electron",
     "0.0.0",
   ],
   [
@@ -2624,7 +2645,22 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@sentry/nestjs",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@sentry/nextjs",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@sentry/node",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@sentry/nuxt",
     "0.0.0",
   ],
   [
@@ -2635,6 +2671,41 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@sentry/react",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@sentry/react-native",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@sentry/remix",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@sentry/replay",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@sentry/serveless",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@sentry/svelte",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@sentry/vercel-edge",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@sentry/vue",
     "0.0.0",
   ],
   [
@@ -3400,6 +3471,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "docsearch.js",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "docsify-cli",
     "0.0.0",
   ],
   [

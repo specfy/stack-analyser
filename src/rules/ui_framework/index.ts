@@ -1,5 +1,7 @@
 import './alpinejs.js';
 import './angular.js';
+import './emberjs.js';
+import './expojs.js';
 import './htmx.js';
 import './infernojs.js';
 import './litjs.js';

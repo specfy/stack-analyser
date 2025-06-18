@@ -3,6 +3,6 @@ import { register } from '../../register.js';
 register({
   tech: 'builtwithfern',
   name: 'Fern',
-  type: 'framework',
+  type: 'ssg',
   files: ['fern.config.json'],
 });

@@ -1,0 +1,14 @@
+import './assemble.js';
+import './astro.js';
+import './docsify.js';
+import './docusaurus.js';
+import './eleventy.js';
+import './fern.js';
+import './gatsby.js';
+import './gridsome.js';
+import './hexojs.js';
+import './hugo.js';
+import './jekyll.js';
+import './mintlify.js';
+import './mkdocs.js';
+import './readthedocs.js';

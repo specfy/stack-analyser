@@ -3,6 +3,6 @@ import { register } from '../../register.js';
 register({
   tech: 'phaserjs',
   name: 'Phaser',
-  type: 'framework',
+  type: 'ui',
   dependencies: [{ type: 'npm', name: 'phaser' }],
 });

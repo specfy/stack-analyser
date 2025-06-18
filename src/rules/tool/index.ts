@@ -1,3 +1,4 @@
+import './apacheThrift.js';
 import './atlasgo.js';
 import './bytebase.js';
 import './checkov.js';

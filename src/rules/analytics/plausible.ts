@@ -7,6 +7,7 @@ register({
   dotenv: ['PLAUSIBLE_'],
   dependencies: [
     { type: 'docker', name: 'plausible/analytics' },
+    { type: 'docker', name: 'ghcr.io/plausible/community-edition' },
     { type: 'npm', name: 'plausible-tracker' },
     { type: 'php', name: 'prestashop_plausible' },
     { type: 'ruby', name: 'plausible_api' },
