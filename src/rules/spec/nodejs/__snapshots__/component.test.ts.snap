@@ -418,6 +418,7 @@ exports[`npm > should match everything 1`] = `
   "twilio",
   "twitch",
   "twitter",
+  "typebox",
   "typeorm",
   "typescript",
   "typesense",
@@ -2729,6 +2730,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@shopify/shopify-api",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@sinclair/typebox",
     "0.0.0",
   ],
   [

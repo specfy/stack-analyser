@@ -675,6 +675,7 @@ export type AllowedKeys =
   | 'twilio'
   | 'twitch'
   | 'twitter'
+  | 'typebox'
   | 'typeorm'
   | 'typescript'
   | 'typesense'

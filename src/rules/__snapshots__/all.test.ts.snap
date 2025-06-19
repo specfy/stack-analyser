@@ -632,6 +632,7 @@ exports[`all > should match everything 1`] = `
   "twilio",
   "twitch",
   "twitter",
+  "typebox",
   "typeorm",
   "typescript",
   "typesense",
