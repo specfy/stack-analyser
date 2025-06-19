@@ -112,6 +112,7 @@ exports[`docker > should match everything 1`] = `
   "sentry",
   "signoz",
   "slack",
+  "slatedocs",
   "snyk",
   "sonarqube",
   "strapi",
@@ -1226,6 +1227,11 @@ exports[`docker > should match everything 2`] = `
   [
     "docker",
     "signoz/signoz-otel-collector",
+    "0.0.0",
+  ],
+  [
+    "docker",
+    "slatedocs/slate",
     "0.0.0",
   ],
   [

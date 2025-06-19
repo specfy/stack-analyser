@@ -12,3 +12,5 @@ import './jekyll.js';
 import './mintlify.js';
 import './mkdocs.js';
 import './readthedocs.js';
+import './slatedocs.js';
+import './vitepress.js';
