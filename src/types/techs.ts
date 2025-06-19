@@ -523,6 +523,7 @@ export type AllowedKeys =
   | 'playwright'
   | 'pnpm'
   | 'poetry'
+  | 'polarsh'
   | 'postgresql'
   | 'postgrest'
   | 'posthog'

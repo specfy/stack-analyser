@@ -324,6 +324,7 @@ exports[`npm > should match everything 1`] = `
   "placekit",
   "plausible",
   "playwright",
+  "polarsh",
   "postgresql",
   "posthog",
   "postman",
@@ -2307,6 +2308,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@playwright/test",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@polar-sh/mcp",
     "0.0.0",
   ],
   [

@@ -83,6 +83,7 @@ exports[`python lockfile: pyproject.toml > should match everything 1`] = `
   "paddle",
   "pinecone",
   "playwright",
+  "polarsh",
   "posthog",
   "propelauth",
   "pulumi",
@@ -593,6 +594,11 @@ exports[`python lockfile: pyproject.toml > should match everything 2`] = `
   ],
   [
     "python",
+    "polar-sdk",
+    "1.0.0",
+  ],
+  [
+    "python",
     "posthog",
     "1.0.0",
   ],
@@ -832,6 +838,7 @@ exports[`python lockfile: requirements.txt > should match everything 1`] = `
   "paddle",
   "pinecone",
   "playwright",
+  "polarsh",
   "posthog",
   "propelauth",
   "pulumi",
@@ -1339,6 +1346,11 @@ exports[`python lockfile: requirements.txt > should match everything 2`] = `
   [
     "python",
     "pinecone",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "polar-sdk",
     "1.0.0",
   ],
   [
