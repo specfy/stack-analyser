@@ -20,6 +20,7 @@ exports[`npm > should match everything 1`] = `
   "apify",
   "apiplatform",
   "ariakitui",
+  "arktype",
   "asana",
   "assemble",
   "astro",
@@ -3223,6 +3224,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "apify-client",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "arktype",
     "0.0.0",
   ],
   [

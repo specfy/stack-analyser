@@ -77,6 +77,7 @@ export type AllowedKeys =
   | 'apple'
   | 'appveyor'
   | 'ariakitui'
+  | 'arktype'
   | 'asana'
   | 'asdf'
   | 'assemble'
