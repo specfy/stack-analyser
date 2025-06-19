@@ -397,6 +397,7 @@ exports[`npm > should match everything 1`] = `
   "supabase.postgres",
   "supabase.realtime",
   "supabase.storage",
+  "superstruct",
   "supertokens",
   "surrealdb",
   "sveltejs",
@@ -4705,6 +4706,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "supabase/functions-php",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "superstruct",
     "0.0.0",
   ],
   [
