@@ -441,6 +441,7 @@ exports[`npm > should match everything 1`] = `
   "vitepress",
   "vitest",
   "vue",
+  "vuepress",
   "webflow",
   "webpack",
   "wikipedia",
@@ -3091,6 +3092,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@vuepress/core",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@vuepress/plugin-docsearch",
     "0.0.0",
   ],
@@ -4832,6 +4838,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "vue-instantsearch",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "vuepress",
     "0.0.0",
   ],
   [

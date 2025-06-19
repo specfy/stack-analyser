@@ -661,6 +661,7 @@ exports[`all > should match everything 1`] = `
   "vitest",
   "vue",
   "vuejs",
+  "vuepress",
   "wasp",
   "webflow",
   "webpack",

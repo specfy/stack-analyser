@@ -14,3 +14,4 @@ import './mkdocs.js';
 import './readthedocs.js';
 import './slatedocs.js';
 import './vitepress.js';
+import './vuepress.js';

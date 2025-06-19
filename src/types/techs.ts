@@ -703,6 +703,7 @@ export type AllowedKeys =
   | 'vitest'
   | 'vue'
   | 'vuejs'
+  | 'vuepress'
   | 'wasp'
   | 'webflow'
   | 'webpack'
