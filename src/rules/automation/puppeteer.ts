@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'puppeteer',
   name: 'Puppeteer',
-  type: 'tool',
+  type: 'automation',
   dependencies: [
     { type: 'npm', name: 'puppeteer' },
     { type: 'npm', name: 'puppeteer-core' },

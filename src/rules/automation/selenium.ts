@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'selenium',
   name: 'Selenium',
-  type: 'tool',
+  type: 'automation',
   dependencies: [
     { type: 'npm', name: 'selenium' },
     { type: 'npm', name: 'selenium-webdriver' },

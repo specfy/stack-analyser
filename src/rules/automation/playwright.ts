@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'playwright',
   name: 'Playwright',
-  type: 'tool',
+  type: 'automation',
   files: ['playwright.config.ts'],
   dependencies: [
     { type: 'npm', name: 'playwright' },
