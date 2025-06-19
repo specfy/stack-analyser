@@ -155,6 +155,7 @@ export type AllowedKeys =
   | 'azure.storage'
   | 'azure'
   | 'babel'
+  | 'baseui'
   | 'bash'
   | 'beehiiv'
   | 'betterauth'

@@ -89,6 +89,7 @@ exports[`npm > should match everything 1`] = `
   "azure.staticwebapps",
   "azure.storage",
   "babel",
+  "baseui",
   "beehiiv",
   "betterauth",
   "betterstack",
@@ -1156,6 +1157,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@babel/core",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@base-ui-components/react",
     "0.0.0",
   ],
   [

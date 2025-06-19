@@ -116,6 +116,7 @@ exports[`all > should match everything 1`] = `
   "azure.staticwebapps",
   "azure.storage",
   "babel",
+  "baseui",
   "bash",
   "beehiiv",
   "betterauth",
