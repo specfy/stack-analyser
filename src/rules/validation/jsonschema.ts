@@ -3,7 +3,7 @@ import { register } from '../../register.js';
 register({
   tech: 'jsonschema',
   name: 'JSON Schema',
-  type: 'tool',
+  type: 'validation',
   dependencies: [
     { type: 'npm', name: '@types/json-schema' },
     { type: 'npm', name: 'json-schema' },

@@ -36,7 +36,8 @@ export type TechType =
   | 'test'
   | 'tool'
   | 'ui_framework'
-  | 'ui';
+  | 'ui'
+  | 'validation';
 
 export type AllowedKeys =
   | 'adminer'

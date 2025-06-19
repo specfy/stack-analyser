@@ -136,6 +136,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "hetzner",
   "influxdb",
   "intercom",
+  "jekyll",
   "jenkins",
   "jsonschema",
   "kentico",
@@ -999,6 +1000,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "jdbc-mssql",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "jekyll",
     "1.0.0",
   ],
   [

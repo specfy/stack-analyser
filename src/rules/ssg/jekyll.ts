@@ -4,5 +4,9 @@ register({
   tech: 'jekyll',
   name: 'Jekyll',
   type: 'ssg',
-  dependencies: [{ type: 'githubAction', name: 'jeffreytse/jekyll-deploy-action' }],
+  files: ['.jekyll-cache'],
+  dependencies: [
+    { type: 'githubAction', name: 'jeffreytse/jekyll-deploy-action' },
+    { type: 'ruby', name: 'jekyll' },
+  ],
 });
