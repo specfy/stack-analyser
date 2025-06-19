@@ -3,6 +3,6 @@ import { register } from '../../register.js';
 register({
   tech: 'rollup',
   name: 'Rollup',
-  type: 'tool',
+  type: 'builder',
   dependencies: [{ type: 'npm', name: 'rollup' }],
 });

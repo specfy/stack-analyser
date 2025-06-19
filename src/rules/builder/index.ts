@@ -1,0 +1,11 @@
+import './babel.js';
+import './esbuild.js';
+import './nxjs.js';
+import './parceljs.js';
+import './rolldown.js';
+import './rollup.js';
+import './rspack.js';
+import './swc.js';
+import './turborepo.js';
+import './vite.js';
+import './webpack.js';

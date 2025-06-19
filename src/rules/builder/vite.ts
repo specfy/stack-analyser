@@ -3,6 +3,6 @@ import { register } from '../../register.js';
 register({
   tech: 'vite',
   name: 'Vite',
-  type: 'tool',
+  type: 'builder',
   dependencies: [{ type: 'npm', name: 'vite' }],
 });

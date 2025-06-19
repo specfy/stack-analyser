@@ -1,4 +1,5 @@
 import './aws.kms.js';
+import './checkov.js';
 import './datadome.js';
 import './gcp.kms.js';
 import './gitguardian.js';

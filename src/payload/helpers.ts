@@ -9,6 +9,8 @@ const notAComponent = new Set<TechType>([
   'runtime',
   'tool',
   'framework',
+  'validation',
+  'builder',
   'linter',
   'test',
   'orm',

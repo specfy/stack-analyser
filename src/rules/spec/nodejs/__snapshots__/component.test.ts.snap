@@ -88,6 +88,7 @@ exports[`npm > should match everything 1`] = `
   "azure.sql",
   "azure.staticwebapps",
   "azure.storage",
+  "babel",
   "beehiiv",
   "betterauth",
   "betterstack",
@@ -311,6 +312,7 @@ exports[`npm > should match everything 1`] = `
   "paddle",
   "pagerduty",
   "papertrail",
+  "parceljs",
   "payloadcms",
   "paypal",
   "perplexityai",
@@ -359,7 +361,9 @@ exports[`npm > should match everything 1`] = `
   "resend",
   "rethinkdb",
   "rollbar",
+  "rolldown",
   "rollup",
+  "rspack",
   "salesforce",
   "sandpackeditor",
   "sanity",
@@ -401,6 +405,7 @@ exports[`npm > should match everything 1`] = `
   "supertokens",
   "surrealdb",
   "sveltejs",
+  "swc",
   "swiftype",
   "tablericons",
   "tailscale",
@@ -1146,6 +1151,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@azure/storage-queue",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@babel/core",
     "0.0.0",
   ],
   [
@@ -2245,6 +2255,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@parcel/core",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@payload/plugin-seo",
     "0.0.0",
   ],
@@ -2580,6 +2595,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@rspack/core",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@salesforce/kit",
     "0.0.0",
   ],
@@ -2831,6 +2851,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@sveltejs/vite-plugin-svelte",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@swc/core",
     "0.0.0",
   ],
   [
@@ -4285,6 +4310,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "parcel",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "passport-facebook",
     "0.0.0",
   ],
@@ -4590,7 +4620,17 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "rolldown",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "rollup",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "rspack",
     "0.0.0",
   ],
   [
