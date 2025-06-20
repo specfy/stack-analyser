@@ -353,6 +353,7 @@ exports[`npm > should match everything 1`] = `
   "redis",
   "redwoodjs",
   "refinedev",
+  "rekaui",
   "relativeci",
   "remixicons",
   "remixrouter",
@@ -3257,6 +3258,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "ant-design-vue",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "antd",
     "0.0.0",
   ],
@@ -4602,6 +4608,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "reka-ui",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "remixicon",
     "0.0.0",
   ],
@@ -4688,6 +4699,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "shadcn-ui",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "shadcn-vue",
     "0.0.0",
   ],
   [

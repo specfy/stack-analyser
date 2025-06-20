@@ -52,5 +52,6 @@ register({
     { type: 'npm', name: 'shadcn' },
     { type: 'npm', name: 'shadcn-nuxt' },
     { type: 'npm', name: 'shadcn-svelte' },
+    { type: 'npm', name: 'shadcn-vue' },
   ],
 });

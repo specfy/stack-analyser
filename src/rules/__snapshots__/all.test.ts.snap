@@ -532,6 +532,7 @@ exports[`all > should match everything 1`] = `
   "redis",
   "redwoodjs",
   "refinedev",
+  "rekaui",
   "relativeci",
   "remixicons",
   "remixrouter",

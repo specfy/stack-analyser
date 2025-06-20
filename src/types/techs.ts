@@ -575,6 +575,7 @@ export type AllowedKeys =
   | 'redis'
   | 'redwoodjs'
   | 'refinedev'
+  | 'rekaui'
   | 'relativeci'
   | 'remixicons'
   | 'remixrouter'

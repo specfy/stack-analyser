@@ -18,6 +18,7 @@ import './phaserjs.js';
 import './radixui.js';
 import './reactRouterDom.js';
 import './refinedev.js';
+import './rekaui.js';
 import './remixRouter.js';
 import './sandpackeditor.js';
 import './shadcn.js';
