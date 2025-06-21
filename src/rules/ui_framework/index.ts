@@ -4,6 +4,7 @@ import './emberjs.js';
 import './expojs.js';
 import './htmx.js';
 import './infernojs.js';
+import './ionic.js';
 import './litjs.js';
 import './mithriljs.js';
 import './preactjs.js';

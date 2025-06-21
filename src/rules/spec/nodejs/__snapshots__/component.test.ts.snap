@@ -104,6 +104,7 @@ exports[`npm > should match everything 1`] = `
   "bugsnag",
   "calcom",
   "calendly",
+  "capacitorjs",
   "chakraui",
   "chargebee",
   "clerk",
@@ -228,6 +229,7 @@ exports[`npm > should match everything 1`] = `
   "inngest",
   "integrationapp",
   "intercom",
+  "ionic",
   "ionicons",
   "jest",
   "joijs",
@@ -1213,6 +1215,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@capacitor/app",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@cfworker/json-schema",
     "0.0.0",
   ],
@@ -1784,6 +1791,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@intercom/intercom-react-native",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@ionic/core",
     "0.0.0",
   ],
   [
