@@ -1,3 +1,31 @@
+# [1.27.0](https://github.com/specfy/stack-analyser/compare/v1.26.1...v1.27.0) (2025-06-21)
+
+
+### Bug Fixes
+
+* **rules:** add Apache Cordova ([7ff8859](https://github.com/specfy/stack-analyser/commit/7ff88591b36d8a5ff47d4db00c39c0cb31e33546))
+* **rules:** add Arktype ([6aecf47](https://github.com/specfy/stack-analyser/commit/6aecf47d2beec43335c3069f16fdc50a12b0f2fc))
+* **rules:** add baseui ([ea1b27c](https://github.com/specfy/stack-analyser/commit/ea1b27cdd840141af6e7c3a778c9d36095b90198))
+* **rules:** add Cloudinary ([75601db](https://github.com/specfy/stack-analyser/commit/75601dbd7c8a19aa11eaf3f925cb5f821bbaf1df))
+* **rules:** add Ionic and Capacitor ([2574210](https://github.com/specfy/stack-analyser/commit/25742107033f6481ab66df4e7b39f43b79b6c65e))
+* **rules:** add Polar.sh ([74014f5](https://github.com/specfy/stack-analyser/commit/74014f51732f85905d110e11a2e75caab37daf5a))
+* **rules:** add Reka UI ([af8cf02](https://github.com/specfy/stack-analyser/commit/af8cf02ba08c4a69fda279d7d7aedd6b0336d78f))
+* **rules:** add Superstruct ([d38a902](https://github.com/specfy/stack-analyser/commit/d38a902de5050bf2dda4a95787c51e89f3b5204c))
+* **rules:** add support for more languages ([0786b57](https://github.com/specfy/stack-analyser/commit/0786b57ab3a50a80ca5562127ff394921e6a1881))
+* **rules:** add Testing library ([2fb1ef0](https://github.com/specfy/stack-analyser/commit/2fb1ef0cfcb1e3e2a97576bde97f13ff7e95d5b0))
+* **rules:** add Typebox ([3bced6a](https://github.com/specfy/stack-analyser/commit/3bced6ae68a4a006085574bc449ef5ce13873172))
+* **rules:** add Vitepress ([a9e369c](https://github.com/specfy/stack-analyser/commit/a9e369ce2b3932f81853efc7f19690807dc6fe73))
+* **rules:** add Vuepress ([f8d4dcf](https://github.com/specfy/stack-analyser/commit/f8d4dcfa637d701b6cac96bf3f3110c371aa6c06))
+
+
+### Features
+
+* add category SSG and move some framework ([1123553](https://github.com/specfy/stack-analyser/commit/112355303ed67fcc2ea024bb679b1a0617e380b5))
+* **rules:** add Category builder/bundler ([d7af188](https://github.com/specfy/stack-analyser/commit/d7af1885c74f06e2eeaff1d72f3c3d9ad19418dc))
+* **rules:** add category Validation ([be26d87](https://github.com/specfy/stack-analyser/commit/be26d873b7ef4cbd0885504c82016d9ca1b797ef))
+* **rules:** change category for Electron ([c71072c](https://github.com/specfy/stack-analyser/commit/c71072c4591eafa73439596d371c60ba7a4a40a3))
+* **rules:** move playwright, selenium, pupepeteer in automation ([9008598](https://github.com/specfy/stack-analyser/commit/9008598c3944efc0186f287524c043e8b918ee40))
+
 ## [1.26.1](https://github.com/specfy/stack-analyser/compare/v1.26.0...v1.26.1) (2025-06-15)
 
 
