@@ -5,4 +5,5 @@ import './mochajs.js';
 import './phppest.js';
 import './phpunit.js';
 import './storybook.js';
+import './testinglibrary.js';
 import './vitest.js';

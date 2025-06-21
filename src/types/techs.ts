@@ -683,6 +683,7 @@ export type AllowedKeys =
   | 'tensorflow'
   | 'terraform'
   | 'terragrunt'
+  | 'testinglibrary'
   | 'tidb'
   | 'timescaledb'
   | 'tinybird'
