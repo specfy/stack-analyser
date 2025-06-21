@@ -5,7 +5,7 @@
 
 This library provide a simple way to extract from any repository: dependencies, languages, infrastructure, SaaS, databases, etc.
 
-Detect more than **+600 technologies** in your code base.
+Detect more than **+700 technologies** in your code base.
 
 - **Full Support:** NodeJS, Docker, Typescript, PHP, Github Actions, Python, Ruby, Rust, Golang
 - Partial Support: Deno, Terraform, Zig, Clojure, c, c++, c#, dart, elixir, java
