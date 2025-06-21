@@ -1,7 +1,6 @@
 import './apacheThrift.js';
 import './atlasgo.js';
 import './bytebase.js';
-import './electron.js';
 import './express.js';
 import './fastify.js';
 import './flyway.js';
