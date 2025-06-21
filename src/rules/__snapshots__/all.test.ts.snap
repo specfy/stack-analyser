@@ -20,6 +20,7 @@ exports[`all > should match everything 1`] = `
   "antd",
   "antdicons",
   "anthropic",
+  "apacheCordova",
   "apache_airflow",
   "apache_cassandra",
   "apache_couchdb",

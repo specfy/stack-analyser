@@ -13,6 +13,7 @@ exports[`npm > should match everything 1`] = `
   "antd",
   "antdicons",
   "anthropic",
+  "apacheCordova",
   "apache_cassandra",
   "apache_kafka",
   "apache_thrift",
@@ -2995,6 +2996,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@types/cordova",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@types/d3",
     "0.0.0",
   ],
@@ -3471,6 +3477,46 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "convex",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "cordova",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "cordova-android",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "cordova-browser",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "cordova-electron",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "cordova-ios",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "cordova-plugin-camera",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "cordova-plugin-file",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "cordova-windows",
     "0.0.0",
   ],
   [

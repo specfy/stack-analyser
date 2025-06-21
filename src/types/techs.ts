@@ -71,6 +71,7 @@ export type AllowedKeys =
   | 'apache_spark'
   | 'apache_storm'
   | 'apache_thrift'
+  | 'apacheCordova'
   | 'apachetika'
   | 'apideck'
   | 'apify'
