@@ -78,6 +78,7 @@ export type AllowedKeys =
   | 'apiplatform'
   | 'apple.maps'
   | 'apple'
+  | 'appsignal'
   | 'appveyor'
   | 'ariakitui'
   | 'arktype'

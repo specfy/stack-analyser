@@ -1,3 +1,4 @@
+import './appsignal.js';
 import './aws.cloudwatch.js';
 import './betterstack.js';
 import './blackfire.js';

@@ -7,6 +7,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "apache_hadoop",
   "apache_kafka",
   "apache_thrift",
+  "appsignal",
   "asana",
   "atlassian",
   "atlassian.jira",
@@ -255,6 +256,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "appengine",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "appsignal",
     "1.0.0",
   ],
   [

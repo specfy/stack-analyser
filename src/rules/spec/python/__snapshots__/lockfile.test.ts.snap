@@ -7,6 +7,7 @@ exports[`python lockfile: pyproject.toml > should match everything 1`] = `
   "apachetika",
   "apideck",
   "apify",
+  "appsignal",
   "asana",
   "atlassian",
   "aws",
@@ -175,6 +176,11 @@ exports[`python lockfile: pyproject.toml > should match everything 2`] = `
   [
     "python",
     "apify",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "appsignal",
     "1.0.0",
   ],
   [
@@ -762,6 +768,7 @@ exports[`python lockfile: requirements.txt > should match everything 1`] = `
   "apachetika",
   "apideck",
   "apify",
+  "appsignal",
   "asana",
   "atlassian",
   "aws",
@@ -931,6 +938,11 @@ exports[`python lockfile: requirements.txt > should match everything 2`] = `
   [
     "python",
     "apify",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "appsignal",
     "1.0.0",
   ],
   [

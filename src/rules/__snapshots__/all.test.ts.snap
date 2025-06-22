@@ -39,6 +39,7 @@ exports[`all > should match everything 1`] = `
   "apiplatform",
   "apple",
   "apple.maps",
+  "appsignal",
   "appveyor",
   "ariakitui",
   "arktype",

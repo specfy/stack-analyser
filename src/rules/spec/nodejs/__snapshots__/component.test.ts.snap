@@ -20,6 +20,7 @@ exports[`npm > should match everything 1`] = `
   "apideck",
   "apify",
   "apiplatform",
+  "appsignal",
   "ariakitui",
   "arktype",
   "asana",
@@ -609,6 +610,36 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@apify/utilities",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@appsignal/angular",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@appsignal/ember",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@appsignal/javascript",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@appsignal/nodejs",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@appsignal/react",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@appsignal/vue",
     "0.0.0",
   ],
   [
@@ -3304,6 +3335,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "apify-client",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "appsignal",
     "0.0.0",
   ],
   [
