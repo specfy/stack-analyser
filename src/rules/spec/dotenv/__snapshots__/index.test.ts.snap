@@ -116,6 +116,7 @@ exports[`dotenv > should match all dependencies 1`] = `
   "reddit",
   "redis",
   "resend",
+  "revenuecat",
   "rollbar",
   "salesforce",
   "segment",

@@ -591,6 +591,7 @@ export type AllowedKeys =
   | 'replit'
   | 'resend'
   | 'rethinkdb'
+  | 'revenuecat'
   | 'rollbar'
   | 'rolldown'
   | 'rollup'

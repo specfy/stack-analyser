@@ -548,6 +548,7 @@ exports[`all > should match everything 1`] = `
   "replit.postgres",
   "resend",
   "rethinkdb",
+  "revenuecat",
   "rollbar",
   "rolldown",
   "rollup",

@@ -367,6 +367,7 @@ exports[`npm > should match everything 1`] = `
   "replit.database",
   "resend",
   "rethinkdb",
+  "revenuecat",
   "rollbar",
   "rolldown",
   "rollup",
@@ -2650,6 +2651,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@replit/database",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@revenuecat/react-native-purchases",
     "0.0.0",
   ],
   [
