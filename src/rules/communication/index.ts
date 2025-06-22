@@ -11,6 +11,7 @@ import './slack.js';
 import './telegram.js';
 import './twitch.js';
 import './twitter.js';
+import './whatsapp.js';
 import './wikipedia.js';
 import './youtube.js';
 import './zendesk.js';

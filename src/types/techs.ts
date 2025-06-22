@@ -736,6 +736,7 @@ export type AllowedKeys =
   | 'wasp'
   | 'webflow'
   | 'webpack'
+  | 'whatsapp'
   | 'wikipedia'
   | 'withorb'
   | 'wiz'

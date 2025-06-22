@@ -459,6 +459,7 @@ exports[`npm > should match everything 1`] = `
   "vuepress",
   "webflow",
   "webpack",
+  "whatsapp",
   "wikipedia",
   "withorb",
   "wordpress",
@@ -2018,6 +2019,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@neondatabase/serverless",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@neoxr/wb",
     "0.0.0",
   ],
   [
@@ -5008,6 +5014,16 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "webpack",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "whatsapp-business",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "whatsapp-web.js",
     "0.0.0",
   ],
   [
