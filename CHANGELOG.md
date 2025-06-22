@@ -1,3 +1,12 @@
+## [1.27.1](https://github.com/specfy/stack-analyser/compare/v1.27.0...v1.27.1) (2025-06-22)
+
+
+### Bug Fixes
+
+* **rules:** add AppSignal ([dcfbbc9](https://github.com/specfy/stack-analyser/commit/dcfbbc9e3adef762fa53c517ac27b907166de966))
+* **rules:** add RevenueCat ([931dbd0](https://github.com/specfy/stack-analyser/commit/931dbd0c0f80b014cc4b415a0cfe4b0c26ba4ea8))
+* **rules:** add Whatsapp ([888d4d9](https://github.com/specfy/stack-analyser/commit/888d4d948b125cbe6eea7452983cfd27a4676722))
+
 # [1.27.0](https://github.com/specfy/stack-analyser/compare/v1.26.1...v1.27.0) (2025-06-21)
 
 
