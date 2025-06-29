@@ -6,6 +6,7 @@ exports[`all > should match everything 1`] = `
   "adminer",
   "adobe",
   "adobe.commercecloud",
+  "adonisjs",
   "adyen",
   "airbyte",
   "aircall",

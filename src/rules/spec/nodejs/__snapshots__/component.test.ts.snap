@@ -2,6 +2,7 @@
 
 exports[`npm > should match everything 1`] = `
 [
+  "adonisjs",
   "adyen",
   "aircall",
   "airtable",
@@ -487,6 +488,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@adobe/magento-storefront-events-sdk",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@adonisjs/core",
     "0.0.0",
   ],
   [
@@ -3267,6 +3273,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@zoom/meetingsdk",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "adonisjs",
     "0.0.0",
   ],
   [

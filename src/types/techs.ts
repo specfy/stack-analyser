@@ -45,6 +45,7 @@ export type AllowedKeys =
   | 'adminer'
   | 'adobe.commercecloud'
   | 'adobe'
+  | 'adonisjs'
   | 'adyen'
   | 'airbyte'
   | 'aircall'

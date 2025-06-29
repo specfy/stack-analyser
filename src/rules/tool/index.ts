@@ -1,3 +1,4 @@
+import './adonisjs.js';
 import './apacheThrift.js';
 import './atlasgo.js';
 import './bytebase.js';
