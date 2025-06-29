@@ -516,6 +516,7 @@ export type AllowedKeys =
   | 'ovh.storage'
   | 'ovh.vps'
   | 'ovh'
+  | 'oxlint'
   | 'paddle'
   | 'pagerduty'
   | 'papertrail'

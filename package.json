@@ -30,29 +30,29 @@
     "access": "public"
   },
   "devDependencies": {
-    "@types/node": "20.17.16",
+    "@types/node": "20.19.2",
     "@types/spdx-expression-parse": "3.0.5",
     "@h1fra/eslint-config": "1.0.12",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
-    "@vitest/coverage-v8": "3.0.9",
-    "package-json": "8.1.1",
-    "tsx": "3.14.0",
-    "typescript": "5.2.2",
-    "vitest": "3.0.9"
+    "@vitest/coverage-v8": "3.2.4",
+    "package-json": "10.0.1",
+    "tsx": "4.20.3",
+    "typescript": "5.8.3",
+    "vitest": "3.2.4"
   },
   "dependencies": {
-    "@actions/core": "1.10.1",
-    "@cdktf/hcl2json": "0.19.0",
+    "@actions/core": "1.11.1",
+    "@cdktf/hcl2json": "0.21.0",
     "@iarna/toml": "2.2.5",
-    "commander": "11.1.0",
+    "commander": "14.0.0",
     "consola": "3.4.2",
-    "dotenv": "16.3.1",
+    "dotenv": "17.0.0",
     "figures": "6.1.0",
     "kleur": "4.1.5",
     "nanoid": "5.1.5",
-    "ora": "7.0.1",
+    "ora": "8.2.0",
     "spdx-expression-parse": "4.0.0",
-    "yaml": "2.7.0"
+    "yaml": "2.8.0"
   }
 }
