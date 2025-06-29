@@ -648,6 +648,7 @@ export type AllowedKeys =
   | 'sonarqube'
   | 'splitio'
   | 'splunk'
+  | 'spotify'
   | 'sqlalchemy'
   | 'sqlite'
   | 'sqreen'

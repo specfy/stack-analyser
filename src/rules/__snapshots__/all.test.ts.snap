@@ -606,6 +606,7 @@ exports[`all > should match everything 1`] = `
   "sonarqube",
   "splitio",
   "splunk",
+  "spotify",
   "sqlalchemy",
   "sqlite",
   "sqreen",

@@ -21,6 +21,7 @@ import './sas.js';
 import './servicenow.js';
 import './splitio.js';
 import './splunk.js';
+import './spotify.js';
 import './tailscale.js';
 import './veriff.js';
 import './vialink.js';

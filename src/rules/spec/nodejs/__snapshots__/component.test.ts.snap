@@ -399,6 +399,7 @@ exports[`npm > should match everything 1`] = `
   "socketio",
   "solidjs",
   "splitio",
+  "spotify",
   "sqlite",
   "sqreen",
   "squarespace",
@@ -4897,6 +4898,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "solid-js",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "spotify-web-api-node",
     "0.0.0",
   ],
   [
