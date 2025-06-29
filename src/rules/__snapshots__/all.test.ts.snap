@@ -5,6 +5,7 @@ exports[`all > should match everything 1`] = `
   "ada",
   "adminer",
   "adobe",
+  "adobe.analytics",
   "adobe.commercecloud",
   "adonisjs",
   "adyen",

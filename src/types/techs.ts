@@ -43,6 +43,7 @@ export type TechType =
 export type AllowedKeys =
   | 'ada'
   | 'adminer'
+  | 'adobe.analytics'
   | 'adobe.commercecloud'
   | 'adobe'
   | 'adonisjs'

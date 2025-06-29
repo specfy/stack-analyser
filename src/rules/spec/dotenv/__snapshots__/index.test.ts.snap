@@ -2,6 +2,8 @@
 
 exports[`dotenv > should match all dependencies 1`] = `
 [
+  "adobe",
+  "adobe.analytics",
   "adyen",
   "aircall",
   "airtable",

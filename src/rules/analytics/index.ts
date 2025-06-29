@@ -1,3 +1,4 @@
+import './adobe.analytics.js';
 import './amplitude.js';
 import './google.analytics.js';
 import './hotjar.js';
