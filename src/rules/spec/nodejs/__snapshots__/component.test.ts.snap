@@ -219,6 +219,7 @@ exports[`npm > should match everything 1`] = `
   "heroicons",
   "heroui",
   "hexojs",
+  "honeybadger",
   "honojs",
   "hostinger",
   "hotjar",
@@ -1736,6 +1737,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@heroui/react",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@honeybadger-io/js",
     "0.0.0",
   ],
   [
@@ -3941,6 +3947,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "hexo",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "honeybadger",
     "0.0.0",
   ],
   [

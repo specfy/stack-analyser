@@ -101,6 +101,7 @@ exports[`golang (lockfile) > should match everything 1`] = `
   "golangcilint",
   "gorm",
   "hetzner",
+  "honeybadger",
   "hyperdx",
   "inngest",
   "jsonschema",
@@ -733,6 +734,11 @@ exports[`golang (lockfile) > should match everything 2`] = `
   [
     "golang",
     "github.com/hetznercloud/hcloud-go/v2/hcloud",
+    "v1.0.0",
+  ],
+  [
+    "golang",
+    "github.com/honeybadger-io/honeybadger-go",
     "v1.0.0",
   ],
   [

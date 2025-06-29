@@ -60,6 +60,7 @@ exports[`dotenv > should match all dependencies 1`] = `
   "google.analytics",
   "groq",
   "heremaps",
+  "honeybadger",
   "hotjar",
   "huggingface",
   "ifttt",

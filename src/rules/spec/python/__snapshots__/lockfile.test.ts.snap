@@ -56,6 +56,7 @@ exports[`python lockfile: pyproject.toml > should match everything 1`] = `
   "gradio",
   "groq",
   "hetzner",
+  "honeybadger",
   "hostinger",
   "huggingface",
   "inngest",
@@ -402,6 +403,11 @@ exports[`python lockfile: pyproject.toml > should match everything 2`] = `
   [
     "python",
     "hcloud",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "honeybadger",
     "1.0.0",
   ],
   [
@@ -823,6 +829,7 @@ exports[`python lockfile: requirements.txt > should match everything 1`] = `
   "gradio",
   "groq",
   "hetzner",
+  "honeybadger",
   "hostinger",
   "huggingface",
   "inngest",
@@ -1170,6 +1177,11 @@ exports[`python lockfile: requirements.txt > should match everything 2`] = `
   [
     "python",
     "hcloud",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "honeybadger",
     "1.0.0",
   ],
   [

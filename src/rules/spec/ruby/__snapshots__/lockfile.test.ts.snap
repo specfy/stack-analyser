@@ -135,6 +135,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "helm",
   "heroku",
   "hetzner",
+  "honeybadger",
   "influxdb",
   "intercom",
   "jekyll",
@@ -987,6 +988,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "hetznercloud",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "honeybadger",
     "1.0.0",
   ],
   [

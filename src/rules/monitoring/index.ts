@@ -7,6 +7,7 @@ import './datadog.js';
 import './dynatrace.js';
 import './gcp.logging.js';
 import './healthchecksio.js';
+import './honeybadger.js';
 import './hyperdx.js';
 import './newrelic.js';
 import './onlineornot.js';
