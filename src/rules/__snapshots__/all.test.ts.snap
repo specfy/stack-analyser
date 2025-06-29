@@ -46,6 +46,7 @@ exports[`all > should match everything 1`] = `
   "appveyor",
   "ariakitui",
   "arktype",
+  "arkui",
   "asana",
   "asdf",
   "aspnet",

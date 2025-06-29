@@ -1,5 +1,6 @@
 import './antd.js';
 import './ariakitui.js';
+import './arkui.js';
 import './baseui.js';
 import './bootstrap.js';
 import './chakraui.js';

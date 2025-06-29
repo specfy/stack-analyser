@@ -85,6 +85,7 @@ export type AllowedKeys =
   | 'appveyor'
   | 'ariakitui'
   | 'arktype'
+  | 'arkui'
   | 'asana'
   | 'asdf'
   | 'aspnet'

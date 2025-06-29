@@ -27,6 +27,7 @@ exports[`npm > should match everything 1`] = `
   "appsignal",
   "ariakitui",
   "arktype",
+  "arkui",
   "asana",
   "assemble",
   "astro",
@@ -669,6 +670,26 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@ariakit/react",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@ark-ui/react",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@ark-ui/solid",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@ark-ui/svelte",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@ark-ui/vue",
     "0.0.0",
   ],
   [
