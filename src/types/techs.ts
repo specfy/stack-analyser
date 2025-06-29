@@ -652,6 +652,7 @@ export type AllowedKeys =
   | 'squarespace'
   | 'squareup'
   | 'stenciljs'
+  | 'storyblok'
   | 'storybook'
   | 'strapi'
   | 'stripe'

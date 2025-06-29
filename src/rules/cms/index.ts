@@ -16,6 +16,7 @@ import './sanity.js';
 import './shopify.js';
 import './sitecore.xmcloud.js';
 import './squarespace.js';
+import './storyblok.js';
 import './strapi.js';
 import './webflow.js';
 import './woocommerce.js';

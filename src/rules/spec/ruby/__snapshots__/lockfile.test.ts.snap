@@ -201,6 +201,7 @@ exports[`ruby (component) > should match everything 1`] = `
   "splitio",
   "sqlite",
   "sqreen",
+  "storyblok",
   "stripe",
   "stytch",
   "swiftype",
@@ -1511,6 +1512,11 @@ exports[`ruby (component) > should match everything 2`] = `
   [
     "ruby",
     "sqreen",
+    "1.0.0",
+  ],
+  [
+    "ruby",
+    "storyblok",
     "1.0.0",
   ],
   [

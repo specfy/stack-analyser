@@ -98,6 +98,7 @@ exports[`python lockfile: pyproject.toml > should match everything 1`] = `
   "sentry",
   "socketio",
   "sqlalchemy",
+  "storyblok",
   "stytch",
   "supabase",
   "supertokens",
@@ -685,6 +686,11 @@ exports[`python lockfile: pyproject.toml > should match everything 2`] = `
   ],
   [
     "python",
+    "storyblok",
+    "1.0.0",
+  ],
+  [
+    "python",
     "stytch",
     "1.0.0",
   ],
@@ -860,6 +866,7 @@ exports[`python lockfile: requirements.txt > should match everything 1`] = `
   "sentry",
   "socketio",
   "sqlalchemy",
+  "storyblok",
   "stytch",
   "supabase",
   "supertokens",
@@ -1443,6 +1450,11 @@ exports[`python lockfile: requirements.txt > should match everything 2`] = `
   [
     "python",
     "sentry_sdk",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "storyblok",
     "1.0.0",
   ],
   [

@@ -609,6 +609,7 @@ exports[`all > should match everything 1`] = `
   "squarespace",
   "squareup",
   "stenciljs",
+  "storyblok",
   "storybook",
   "strapi",
   "stripe",

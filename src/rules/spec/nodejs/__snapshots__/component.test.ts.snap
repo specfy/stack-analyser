@@ -400,6 +400,7 @@ exports[`npm > should match everything 1`] = `
   "sqreen",
   "squarespace",
   "stenciljs",
+  "storyblok",
   "storybook",
   "strapi",
   "stripe",
@@ -2877,6 +2878,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@storyblok/react",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@strapi/strapi",
     "0.0.0",
   ],
@@ -4873,6 +4879,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "sqreen",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "storyblok",
     "0.0.0",
   ],
   [

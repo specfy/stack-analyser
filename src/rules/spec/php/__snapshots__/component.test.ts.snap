@@ -160,6 +160,7 @@ exports[`php > should match everything 1`] = `
   "shopify",
   "slack",
   "squareup",
+  "storyblok",
   "stripe",
   "supabase",
   "supabase.postgres",
@@ -1331,6 +1332,16 @@ exports[`php > should match everything 2`] = `
   [
     "php",
     "stephanecoinon/papertrail",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "storyblok/php-client",
+    "0.0.0",
+  ],
+  [
+    "php",
+    "storyblok/php-content-api-client",
     "0.0.0",
   ],
   [
