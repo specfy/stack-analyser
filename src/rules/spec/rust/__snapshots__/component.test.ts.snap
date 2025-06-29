@@ -62,6 +62,7 @@ exports[`rust (component) > should match everything 1`] = `
   "couchbase",
   "datadog",
   "dieselrs",
+  "dioxus",
   "elasticsearch",
   "fastly",
   "firebase",
@@ -447,6 +448,16 @@ exports[`rust (component) > should match everything 2`] = `
   [
     "rust",
     "diesel",
+    "1.0.0",
+  ],
+  [
+    "rust",
+    "dioxus",
+    "1.0.0",
+  ],
+  [
+    "rust",
+    "dioxus-cli",
     "1.0.0",
   ],
   [

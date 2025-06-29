@@ -1,5 +1,6 @@
 import './apiplatform.js';
 import './blitzjs.js';
+import './dioxus.js';
 import './django.js';
 import './laravel.js';
 import './meteorjs.js';
@@ -9,6 +10,7 @@ import './nuxtjs.js';
 import './rails.js';
 import './redwoodjs.js';
 import './remixrun.js';
+import './sveltekit.js';
 import './symfony.js';
 import './tanstackstart.js';
 import './tauri.js';

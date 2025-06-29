@@ -2,7 +2,7 @@ import { register } from '../../register.js';
 
 register({
   tech: 'daisyui',
-  name: 'saisyUI',
+  name: 'daisyUI',
   type: 'ui',
   dependencies: [{ type: 'npm', name: 'daisyui' }],
 });

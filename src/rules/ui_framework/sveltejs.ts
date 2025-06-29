@@ -5,12 +5,5 @@ register({
   name: 'Svelte',
   type: 'ui_framework',
   files: ['svelte.config.js'],
-  dependencies: [
-    { type: 'npm', name: 'svelte' },
-    {
-      type: 'npm',
-      name: /^@svelte\//,
-      example: '@sveltejs/vite-plugin-svelte',
-    },
-  ],
+  dependencies: [{ type: 'npm', name: 'svelte' }],
 });

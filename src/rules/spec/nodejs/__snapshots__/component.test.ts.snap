@@ -413,6 +413,7 @@ exports[`npm > should match everything 1`] = `
   "supertokens",
   "surrealdb",
   "sveltejs",
+  "sveltekit",
   "swc",
   "swiftype",
   "tablericons",
@@ -2920,7 +2921,7 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
-    "@sveltejs/vite-plugin-svelte",
+    "@sveltejs/kit",
     "0.0.0",
   ],
   [
