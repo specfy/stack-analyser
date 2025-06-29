@@ -1,4 +1,5 @@
 import './adobe.commercecloud.js';
+import './adobe.experiencemanager.js';
 import './bigcommerce.js';
 import './commercetools.js';
 import './contentful.js';

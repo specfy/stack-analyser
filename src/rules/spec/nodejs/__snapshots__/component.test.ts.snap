@@ -4,6 +4,7 @@ exports[`npm > should match everything 1`] = `
 [
   "adobe",
   "adobe.analytics",
+  "adobe.experiencemanager",
   "adonisjs",
   "adyen",
   "aircall",
@@ -3313,6 +3314,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "adonisjs",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "aemsync",
     "0.0.0",
   ],
   [

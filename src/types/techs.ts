@@ -45,6 +45,7 @@ export type AllowedKeys =
   | 'adminer'
   | 'adobe.analytics'
   | 'adobe.commercecloud'
+  | 'adobe.experiencemanager'
   | 'adobe'
   | 'adonisjs'
   | 'adyen'
