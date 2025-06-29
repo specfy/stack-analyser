@@ -1,0 +1,88 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# How to Write Rules
+
+## What Qualifies as a Rule?
+A rule should meet the following criteria:
+
+- **Represents a Popular SaaS, Technology, or Software:** The subject should be a widely-used service, technology, or software that can be integrated or used programmatically in a codebase. This includes anything with an accessible API.
+- **Fits a Defined Category:** The rule must fit within one of the existing categories (as defined in `techs.ts`).
+- **Programmatically Detectable:** There must be a reliable way to detect the technology in a codebase, such as:
+  - Unique configuration files
+  - Identifiable dependencies (in one or more languages)
+  - Distinctive code patterns or usage
+- **Non-Trivial Choice:** The technology should be significant enough to warrant a rule. For example, a popular logger library is not a good fit, but a major database, cloud provider, or SaaS platform is.
+
+## Rule Structure
+Rules in this project are organized in a modular way, with each technology or category having its own directory under `src/rules/`. Each rule follows a consistent pattern:
+
+1. Rules are written in TypeScript (`.ts` files)
+2. Each rule file exports a registration using the `register` function
+3. Rules are organized by category (ai, auth, cloud, etc.)
+
+## Basic Rule Template
+```typescript
+import { register } from '../../register.js';
+
+register({
+  tech: 'technology-name',
+  name: 'Technology Display Name',
+  type: 'category',
+  dependencies: [
+    { type: 'package-manager', name: 'package-name' },
+    // Add more dependencies as needed
+  ],
+});
+```
+
+## Rule Categories
+The project supports various categories of rules:
+- AI (openai, anthropic, etc.)
+- Authentication (auth0, firebase-auth, etc.)
+- Cloud Services (aws, azure, etc.)
+- Databases (postgresql, mongodb, etc.)
+- And many more...
+
+## Best Practices
+1. Keep rule files focused on a single technology
+2. Use consistent naming conventions
+3. Include all relevant dependencies but only if they are maintained and popular
+4. Group related rules in appropriate category directories
+5. Export rules through the category's index.ts file
+6. No comments
+
+## Example Rule
+Here's an example of a rule for a new technology:
+
+```typescript
+import { register } from '../../register.js';
+
+register({
+  tech: 'example-tech',
+  name: 'Example Technology',
+  type: 'category',
+  dependencies: [
+    { type: 'npm', name: 'example-package' },
+    { type: 'python', name: 'example-python-package' },
+  ],
+});
+```
+
+## Directory Structure
+```
+src/rules/
+├── category/
+│   ├── index.ts
+│   ├── technology1.ts
+│   └── technology2.ts
+└── index.ts
+```
+
+## Adding New Rules
+1. Create a new `.ts` file in the appropriate category directory
+2. Implement the rule using the register function
+3. Export the rule in the category's index.ts file
+4. Import the category in the main index.ts file
