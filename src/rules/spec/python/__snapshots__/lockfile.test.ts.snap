@@ -92,6 +92,7 @@ exports[`python lockfile: pyproject.toml > should match everything 1`] = `
   "pytorch",
   "qdrant",
   "rabbitmq",
+  "replicate",
   "resend",
   "sas",
   "segment",
@@ -672,6 +673,11 @@ exports[`python lockfile: pyproject.toml > should match everything 2`] = `
   ],
   [
     "python",
+    "replicate",
+    "1.0.0",
+  ],
+  [
+    "python",
     "resend",
     "1.0.0",
   ],
@@ -866,6 +872,7 @@ exports[`python lockfile: requirements.txt > should match everything 1`] = `
   "pytorch",
   "qdrant",
   "rabbitmq",
+  "replicate",
   "resend",
   "sas",
   "segment",
@@ -1442,6 +1449,11 @@ exports[`python lockfile: requirements.txt > should match everything 2`] = `
   [
     "python",
     "qdrant-client",
+    "1.0.0",
+  ],
+  [
+    "python",
+    "replicate",
     "1.0.0",
   ],
   [

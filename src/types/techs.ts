@@ -593,6 +593,7 @@ export type AllowedKeys =
   | 'remixrun'
   | 'render'
   | 'renovate'
+  | 'replicate'
   | 'replit.database'
   | 'replit.postgres'
   | 'replit'

@@ -371,6 +371,7 @@ exports[`npm > should match everything 1`] = `
   "remixrouter",
   "remixrun",
   "renovate",
+  "replicate",
   "replit",
   "replit.database",
   "resend",
@@ -4802,6 +4803,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "renovate",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "replicate",
     "0.0.0",
   ],
   [

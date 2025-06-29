@@ -23,5 +23,6 @@ import './mistralai.js';
 import './ollama.js';
 import './openai.js';
 import './perplexityai.js';
+import './replicate.js';
 import './vercel.ai.js';
 import './xai.js';

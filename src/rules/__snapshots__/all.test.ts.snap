@@ -551,6 +551,7 @@ exports[`all > should match everything 1`] = `
   "remixrun",
   "render",
   "renovate",
+  "replicate",
   "replit",
   "replit.database",
   "replit.postgres",

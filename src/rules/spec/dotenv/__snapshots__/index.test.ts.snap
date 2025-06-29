@@ -120,6 +120,7 @@ exports[`dotenv > should match all dependencies 1`] = `
   "railway",
   "reddit",
   "redis",
+  "replicate",
   "resend",
   "revenuecat",
   "rollbar",
