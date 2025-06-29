@@ -104,6 +104,7 @@ exports[`dotenv > should match all dependencies 1`] = `
   "pagerduty",
   "papertrail",
   "paypal",
+  "paystack",
   "perplexityai",
   "pinecone",
   "pingdom",

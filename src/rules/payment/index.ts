@@ -5,6 +5,7 @@ import './klarna.js';
 import './lemonsqueezy.js';
 import './paddle.js';
 import './paypal.js';
+import './paystack.js';
 import './polarsh.js';
 import './revenuecat.js';
 import './squareup.js';

@@ -518,6 +518,7 @@ export type AllowedKeys =
   | 'parceljs'
   | 'payloadcms'
   | 'paypal'
+  | 'paystack'
   | 'percona'
   | 'perl'
   | 'perplexityai'

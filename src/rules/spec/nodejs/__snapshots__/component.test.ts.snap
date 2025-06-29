@@ -324,6 +324,7 @@ exports[`npm > should match everything 1`] = `
   "parceljs",
   "payloadcms",
   "paypal",
+  "paystack",
   "perplexityai",
   "phaserjs",
   "phosphoreicons",
@@ -2343,6 +2344,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@paypal/paypal-js",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@paystack/inline-js",
     "0.0.0",
   ],
   [
