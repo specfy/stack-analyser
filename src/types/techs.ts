@@ -291,6 +291,7 @@ export type AllowedKeys =
   | 'fontawesome'
   | 'freshdesk'
   | 'frontegg'
+  | 'fumadocs'
   | 'fusionauth'
   | 'gatsby'
   | 'gcp.aiplatform'

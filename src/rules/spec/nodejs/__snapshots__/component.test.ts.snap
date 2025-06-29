@@ -160,6 +160,7 @@ exports[`npm > should match everything 1`] = `
   "fontawesome",
   "freshdesk",
   "frontegg",
+  "fumadocs",
   "fusionauth",
   "gatsby",
   "gcp",
@@ -3785,6 +3786,21 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "freshdesk-api",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "fumadocs-code",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "fumadocs-mdx",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "fumadocs-ui",
     "0.0.0",
   ],
   [

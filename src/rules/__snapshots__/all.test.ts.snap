@@ -251,6 +251,7 @@ exports[`all > should match everything 1`] = `
   "fontawesome",
   "freshdesk",
   "frontegg",
+  "fumadocs",
   "fusionauth",
   "gatsby",
   "gcp",

@@ -4,6 +4,7 @@ import './docsify.js';
 import './docusaurus.js';
 import './eleventy.js';
 import './fern.js';
+import './fumadocs.js';
 import './gatsby.js';
 import './gridsome.js';
 import './hexojs.js';
