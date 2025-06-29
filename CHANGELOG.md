@@ -1,3 +1,23 @@
+## [1.27.2](https://github.com/specfy/stack-analyser/compare/v1.27.1...v1.27.2) (2025-06-29)
+
+
+### Bug Fixes
+
+* **rules:** add Adobe Analytics ([6bc6675](https://github.com/specfy/stack-analyser/commit/6bc66754dfc4d370b6b930b39cff03d9f0c346a4))
+* **rules:** add adonisjs ([cb83c63](https://github.com/specfy/stack-analyser/commit/cb83c636a9bf774603d64edaec81ccdee329d919))
+* **rules:** add AEM ([5257b76](https://github.com/specfy/stack-analyser/commit/5257b76e6a8898f9cc11e61b33f1e19c74e1ea4b))
+* **rules:** add ArkUi ([119d579](https://github.com/specfy/stack-analyser/commit/119d5790c0030c89045dc7483ea5579f05334d5a))
+* **rules:** add Fumadocs ([831702e](https://github.com/specfy/stack-analyser/commit/831702e2372b337335917967a5e0016bc9939bf1))
+* **rules:** add Google Pay ([9058b5f](https://github.com/specfy/stack-analyser/commit/9058b5f28a74d2c97fd3af22a63794d3bdd3f0c0))
+* **rules:** add Honeybadger ([5a6d663](https://github.com/specfy/stack-analyser/commit/5a6d6639da60a68e04c64f793fe635302f20b01e))
+* **rules:** add Oxlint ([b74b3f8](https://github.com/specfy/stack-analyser/commit/b74b3f85a3ecfcc03ce88357a3a9f3cb3813ff48))
+* **rules:** add Paystack ([f71c30a](https://github.com/specfy/stack-analyser/commit/f71c30af17099d0942818c2e73eff670985e0896))
+* **rules:** add Replicate ([0dd1ae1](https://github.com/specfy/stack-analyser/commit/0dd1ae1e273df8f9be0354cd31017b5f8413224b))
+* **rules:** add Spotify ([6791145](https://github.com/specfy/stack-analyser/commit/679114535424de7573d85f44d3b776c2957ac39b))
+* **rules:** add Storyblok ([d069d46](https://github.com/specfy/stack-analyser/commit/d069d46c353cfcc73f393f3413982aa3d4e0977d))
+* **rules:** add SvelteKit, Dioxus ([02f9950](https://github.com/specfy/stack-analyser/commit/02f9950013ef7e18c80c07ed469395463eb71965))
+* upgrade deps ([6401005](https://github.com/specfy/stack-analyser/commit/6401005957efc20d7d65bb86fdb67094b274b8e2))
+
 ## [1.27.1](https://github.com/specfy/stack-analyser/compare/v1.27.0...v1.27.1) (2025-06-22)
 
 
