@@ -209,6 +209,7 @@ exports[`npm > should match everything 1`] = `
   "google.forms",
   "google.gmail",
   "google.meet",
+  "google.pay",
   "google.sheets",
   "google.slides",
   "google.tasks",
@@ -3096,6 +3097,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@types/google.analytics",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@types/googlepay",
     "0.0.0",
   ],
   [

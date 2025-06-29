@@ -352,6 +352,7 @@ export type AllowedKeys =
   | 'google.gmail'
   | 'google.keep'
   | 'google.meet'
+  | 'google.pay'
   | 'google.sheets'
   | 'google.sites'
   | 'google.slides'
