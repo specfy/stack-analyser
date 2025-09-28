@@ -7,4 +7,5 @@ import './prettier.js';
 import './rubocop.js';
 import './sonarlint.js';
 import './stylelint.js';
+import './ultracite.js';
 import './vale.js';

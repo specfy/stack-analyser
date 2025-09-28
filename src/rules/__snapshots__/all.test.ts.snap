@@ -684,6 +684,7 @@ exports[`all > should match everything 1`] = `
   "typescript",
   "typesense",
   "typesensecloud",
+  "ultracite",
   "umijs",
   "upstash",
   "upstash.kafka",

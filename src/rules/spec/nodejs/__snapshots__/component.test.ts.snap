@@ -457,6 +457,7 @@ exports[`npm > should match everything 1`] = `
   "typeorm",
   "typescript",
   "typesense",
+  "ultracite",
   "umijs",
   "upstash",
   "upstash.kafka",
@@ -5202,6 +5203,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "typesense-instantsearch-adapter",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "ultracite",
     "0.0.0",
   ],
   [

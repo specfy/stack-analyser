@@ -727,6 +727,7 @@ export type AllowedKeys =
   | 'typescript'
   | 'typesense'
   | 'typesensecloud'
+  | 'ultracite'
   | 'umijs'
   | 'upstash.kafka'
   | 'upstash.qstash'
