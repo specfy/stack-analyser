@@ -400,6 +400,7 @@ exports[`all > should match everything 1`] = `
   "logsnag",
   "logstash",
   "logtoio",
+  "lordicon",
   "lua",
   "lucideicons",
   "magento",

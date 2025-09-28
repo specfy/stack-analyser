@@ -442,6 +442,7 @@ export type AllowedKeys =
   | 'logsnag'
   | 'logstash'
   | 'logtoio'
+  | 'lordicon'
   | 'lua'
   | 'lucideicons'
   | 'magento'

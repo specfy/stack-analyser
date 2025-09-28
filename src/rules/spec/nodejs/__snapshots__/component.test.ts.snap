@@ -267,6 +267,7 @@ exports[`npm > should match everything 1`] = `
   "logsnag",
   "logstash",
   "logtoio",
+  "lordicon",
   "lucideicons",
   "magento",
   "mailchimp",
@@ -1977,6 +1978,21 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@logto/js",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@lordicon/element",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@lordicon/react",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@lordicon/web",
     "0.0.0",
   ],
   [

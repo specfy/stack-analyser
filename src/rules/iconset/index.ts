@@ -4,6 +4,7 @@ import './feathericons.js';
 import './fontawesome.js';
 import './heroicons.js';
 import './ionicons.js';
+import './lordicon.js';
 import './lucideicons.js';
 import './muiicons.js';
 import './phosphoreicons.js';
