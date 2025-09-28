@@ -377,6 +377,7 @@ exports[`npm > should match everything 1`] = `
   "remixicons",
   "remixrouter",
   "remixrun",
+  "remult",
   "renovate",
   "replicate",
   "replit",
@@ -1869,12 +1870,22 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@iconify-json/fa",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@iconify-json/fa6-brands",
     "0.0.0",
   ],
   [
     "npm",
     "@iconify-json/fa6-regular",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@iconify-json/fa6-solid",
     "0.0.0",
   ],
   [
@@ -1900,6 +1911,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@iconify-json/ph",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@iconify-json/ri",
     "0.0.0",
   ],
   [
@@ -4900,6 +4916,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "remixicon",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "remult",
     "0.0.0",
   ],
   [

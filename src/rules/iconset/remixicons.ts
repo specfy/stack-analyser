@@ -8,5 +8,6 @@ register({
     { type: 'npm', name: 'remixicon' },
     { type: 'npm', name: '@remixicon/react' },
     { type: 'npm', name: '@remixicon/vue' },
+    { type: 'npm', name: '@iconify-json/ri' },
   ],
 });

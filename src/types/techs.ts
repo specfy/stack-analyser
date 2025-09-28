@@ -599,6 +599,7 @@ export type AllowedKeys =
   | 'remixicons'
   | 'remixrouter'
   | 'remixrun'
+  | 'remult'
   | 'render'
   | 'renovate'
   | 'replicate'

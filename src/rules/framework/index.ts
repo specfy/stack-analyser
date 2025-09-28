@@ -10,6 +10,7 @@ import './nuxtjs.js';
 import './rails.js';
 import './redwoodjs.js';
 import './remixrun.js';
+import './remult.js';
 import './sveltekit.js';
 import './symfony.js';
 import './tanstackstart.js';
