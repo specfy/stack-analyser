@@ -147,6 +147,7 @@ exports[`npm > should match everything 1`] = `
   "drizzleorm",
   "duckdb",
   "dynatrace",
+  "effectjs",
   "elasticsearch",
   "electron",
   "eleventy",
@@ -3843,6 +3844,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "durable-functions",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "effect",
     "0.0.0",
   ],
   [

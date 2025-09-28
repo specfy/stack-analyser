@@ -268,6 +268,7 @@ export type AllowedKeys =
   | 'drupal'
   | 'duckdb'
   | 'dynatrace'
+  | 'effectjs'
   | 'elasticcloud'
   | 'elasticsearch'
   | 'electron'
