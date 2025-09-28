@@ -14,5 +14,6 @@ register({
     { type: 'php', name: 'intercom/oauth2-intercom' },
     { type: 'ruby', name: 'intercom' },
     { type: 'ruby', name: 'intercom-rails' },
+    { type: 'npm', name: '@analytics/intercom' },
   ],
 });

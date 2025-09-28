@@ -11,5 +11,6 @@ import './pirschanalytics.js';
 import './plausible.js';
 import './posthog.js';
 import './segment.js';
+import './simpleanalytics.js';
 import './tinybird.js';
 import './vercel.analytics.js';

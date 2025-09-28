@@ -605,6 +605,7 @@ exports[`all > should match everything 1`] = `
   "shopify",
   "shopify.hydrogen",
   "signoz",
+  "simpleanalytics",
   "simpleicons",
   "sitecore",
   "sitecore.xmlcloud",

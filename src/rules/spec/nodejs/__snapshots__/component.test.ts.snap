@@ -232,6 +232,7 @@ exports[`npm > should match everything 1`] = `
   "hostinger",
   "hotjar",
   "htmx",
+  "hubspot",
   "hugeicons",
   "huggingface",
   "hugo",
@@ -404,6 +405,7 @@ exports[`npm > should match everything 1`] = `
   "shadcn",
   "shopify",
   "shopify.hydrogen",
+  "simpleanalytics",
   "simpleicons",
   "sitecore",
   "sitecore.xmlcloud",
@@ -603,7 +605,37 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@analytics/amplitude",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@analytics/google-analytics",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@analytics/hubspot",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@analytics/intercom",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@analytics/mixpanel",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@analytics/segment",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@analytics/simple-analytics",
     "0.0.0",
   ],
   [

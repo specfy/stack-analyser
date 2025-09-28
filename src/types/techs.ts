@@ -648,6 +648,7 @@ export type AllowedKeys =
   | 'shopify.hydrogen'
   | 'shopify'
   | 'signoz'
+  | 'simpleanalytics'
   | 'simpleicons'
   | 'sitecore.xmlcloud'
   | 'sitecore'

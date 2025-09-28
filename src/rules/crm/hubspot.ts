@@ -8,5 +8,6 @@ register({
     { type: 'npm', name: /^@hubpost\//, example: '@hubspot/api-client' },
     { type: 'php', name: 'hubspot/hubspot-php' },
     { type: 'php', name: 'hubspot/api-client' },
+    { type: 'npm', name: '@analytics/hubspot' },
   ],
 });

@@ -130,6 +130,7 @@ exports[`dotenv > should match all dependencies 1`] = `
   "segment",
   "sentry",
   "signoz",
+  "simpleanalytics",
   "slack",
   "snyk",
   "splunk",

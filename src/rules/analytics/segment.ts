@@ -12,5 +12,6 @@ register({
     { type: 'ruby', name: 'segment-analytics' },
     { type: 'php', name: 'segmentio/analytics-php' },
     { type: 'golang', name: 'github.com/segmentio/analytics-go' },
+    { type: 'npm', name: '@analytics/segment' },
   ],
 });

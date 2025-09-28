@@ -13,5 +13,6 @@ register({
     { type: 'ruby', name: 'mixpanel-ruby' },
     { type: 'golang', name: 'github.com/mixpanel/mixpanel-go' },
     { type: 'terraform.resource', name: 'airbyte_source_mixpanel' },
+    { type: 'npm', name: '@analytics/mixpanel' },
   ],
 });
