@@ -133,6 +133,7 @@ exports[`npm > should match everything 1`] = `
   "cypressci",
   "d3js",
   "daisyui",
+  "databuddy",
   "datadog",
   "datadome",
   "datocms",
@@ -1391,6 +1392,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@crowdin/crowdin-api-client",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@databuddy/sdk",
     "0.0.0",
   ],
   [

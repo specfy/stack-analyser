@@ -40,6 +40,7 @@ exports[`dotenv > should match all dependencies 1`] = `
   "convexdb",
   "crawl4ai",
   "databricks",
+  "databuddy",
   "datadog",
   "deepseek",
   "discord",

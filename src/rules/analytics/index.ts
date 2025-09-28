@@ -1,5 +1,6 @@
 import './adobe.analytics.js';
 import './amplitude.js';
+import './databuddy.js';
 import './google.analytics.js';
 import './hotjar.js';
 import './koalaanalytics.js';

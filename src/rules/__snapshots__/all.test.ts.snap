@@ -198,6 +198,7 @@ exports[`all > should match everything 1`] = `
   "daisyui",
   "dart",
   "databricks",
+  "databuddy",
   "datadog",
   "datadome",
   "dataiku",

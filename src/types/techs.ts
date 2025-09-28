@@ -237,6 +237,7 @@ export type AllowedKeys =
   | 'daisyui'
   | 'dart'
   | 'databricks'
+  | 'databuddy'
   | 'datadog'
   | 'datadome'
   | 'dataiku'
