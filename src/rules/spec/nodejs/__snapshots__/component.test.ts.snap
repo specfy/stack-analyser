@@ -231,6 +231,7 @@ exports[`npm > should match everything 1`] = `
   "hostinger",
   "hotjar",
   "htmx",
+  "hugeicons",
   "huggingface",
   "hugo",
   "hyperdx",
@@ -276,6 +277,7 @@ exports[`npm > should match everything 1`] = `
   "mantineui",
   "mapbox",
   "mariadb",
+  "materialdesignicons",
   "materialui",
   "mattermost",
   "mcp",
@@ -1797,6 +1799,36 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@hugeicons/angular",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@hugeicons/core-free-icons",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@hugeicons/react",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@hugeicons/react-native",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@hugeicons/svelte",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@hugeicons/vue",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@huggingface/inference",
     "0.0.0",
   ],
@@ -1852,7 +1884,22 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@iconify-json/hugeicons",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@iconify-json/lucide",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@iconify-json/mdi",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@iconify-json/ph",
     "0.0.0",
   ],
   [

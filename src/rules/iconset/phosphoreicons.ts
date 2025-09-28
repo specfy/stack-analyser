@@ -9,5 +9,6 @@ register({
     { type: 'npm', name: '@phosphor-icons/vue' },
     { type: 'npm', name: '@phosphor-icons/webcomponents' },
     { type: 'npm', name: '@phosphor-icons/web' },
+    { type: 'npm', name: '@iconify-json/ph' },
   ],
 });
