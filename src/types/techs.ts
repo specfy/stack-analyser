@@ -287,6 +287,7 @@ export type AllowedKeys =
   | 'facebook'
   | 'fastify'
   | 'fastly'
+  | 'fathom'
   | 'feathericons'
   | 'figma'
   | 'firebase.firestore'

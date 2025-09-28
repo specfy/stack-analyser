@@ -51,6 +51,7 @@ exports[`dotenv > should match all dependencies 1`] = `
   "elasticsearch",
   "facebook",
   "fastly",
+  "fathom",
   "figma",
   "firebase",
   "firecrawl",

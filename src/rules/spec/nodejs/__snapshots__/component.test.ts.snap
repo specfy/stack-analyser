@@ -160,6 +160,7 @@ exports[`npm > should match everything 1`] = `
   "facebook",
   "fastify",
   "fastly",
+  "fathom",
   "feathericons",
   "figma",
   "firebase",
@@ -3956,6 +3957,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "fastly/fastly",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "fathom-client",
     "0.0.0",
   ],
   [
