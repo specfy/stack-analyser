@@ -148,6 +148,7 @@ exports[`dotenv > should match all dependencies 1`] = `
   "upstash",
   "upstash.kafka",
   "upstash.redis",
+  "useautumn",
   "valkey",
   "webflow",
   "whatsapp",

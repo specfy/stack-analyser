@@ -733,6 +733,7 @@ export type AllowedKeys =
   | 'upstash.redis'
   | 'upstash'
   | 'uptimekuma'
+  | 'useautumn'
   | 'useparagon'
   | 'vale'
   | 'valibot'

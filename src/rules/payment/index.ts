@@ -11,4 +11,5 @@ import './polarsh.js';
 import './revenuecat.js';
 import './squareup.js';
 import './stripe.js';
+import './useautumn.js';
 import './zuora.js';

@@ -690,6 +690,7 @@ exports[`all > should match everything 1`] = `
   "upstash.qstash",
   "upstash.redis",
   "uptimekuma",
+  "useautumn",
   "useparagon",
   "vale",
   "valibot",

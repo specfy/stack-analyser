@@ -462,6 +462,7 @@ exports[`npm > should match everything 1`] = `
   "upstash.kafka",
   "upstash.qstash",
   "upstash.redis",
+  "useautumn",
   "useparagon",
   "valibot",
   "valkey",
@@ -3531,6 +3532,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "auth0",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "autumn-js",
     "0.0.0",
   ],
   [
