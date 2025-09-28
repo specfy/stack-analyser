@@ -149,6 +149,7 @@ exports[`npm > should match everything 1`] = `
   "elasticsearch",
   "electron",
   "eleventy",
+  "elysiajs",
   "emberjs",
   "esbuild",
   "eslint",
@@ -3755,6 +3756,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "electron",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "elysia",
     "0.0.0",
   ],
   [

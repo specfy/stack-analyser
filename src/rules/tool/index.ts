@@ -2,6 +2,7 @@ import './adonisjs.js';
 import './apacheThrift.js';
 import './atlasgo.js';
 import './bytebase.js';
+import './elysiajs.js';
 import './express.js';
 import './fastify.js';
 import './flyway.js';

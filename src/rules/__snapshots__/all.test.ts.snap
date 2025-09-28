@@ -232,6 +232,7 @@ exports[`all > should match everything 1`] = `
   "electron",
   "eleventy",
   "elixir",
+  "elysiajs",
   "emberjs",
   "equinix",
   "esbuild",

@@ -272,6 +272,7 @@ export type AllowedKeys =
   | 'electron'
   | 'eleventy'
   | 'elixir'
+  | 'elysiajs'
   | 'emberjs'
   | 'equinix'
   | 'esbuild'
