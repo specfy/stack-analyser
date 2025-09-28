@@ -201,6 +201,7 @@ exports[`all > should match everything 1`] = `
   "databuddy",
   "datadog",
   "datadome",
+  "datafast",
   "dataiku",
   "datastax",
   "datocms",

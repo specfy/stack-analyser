@@ -240,6 +240,7 @@ export type AllowedKeys =
   | 'databuddy'
   | 'datadog'
   | 'datadome'
+  | 'datafast'
   | 'dataiku'
   | 'datastax'
   | 'datocms'
