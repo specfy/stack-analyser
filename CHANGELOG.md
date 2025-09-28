@@ -1,3 +1,20 @@
+## [1.27.3](https://github.com/specfy/stack-analyser/compare/v1.27.2...v1.27.3) (2025-09-28)
+
+
+### Bug Fixes
+
+* **rules:** add Autumn ([af9f94f](https://github.com/specfy/stack-analyser/commit/af9f94fe8f2e403cae57e3e6d0f64c7eefcccfda))
+* **rules:** add databuddy ([57df4f9](https://github.com/specfy/stack-analyser/commit/57df4f9800767cbd225f5a183e727eaae91df251))
+* **rules:** add Datafast ([e9259b7](https://github.com/specfy/stack-analyser/commit/e9259b7dfdd0bbad11484f720fd6de26a163b3a4))
+* **rules:** add Effectjs ([be7c540](https://github.com/specfy/stack-analyser/commit/be7c54057a692cdc7eaa9887f8dfe0bdb3e3a047))
+* **rules:** add ElysiaJS ([ac66e14](https://github.com/specfy/stack-analyser/commit/ac66e14d33500a65b983f1e4cd2951a278de8298))
+* **rules:** add Fathom ([872314c](https://github.com/specfy/stack-analyser/commit/872314cd98259a6fc7292a86fbaf6efccfd20e5f))
+* **rules:** add HugeIcons, MaterialDesign icons ([8a150fd](https://github.com/specfy/stack-analyser/commit/8a150fde64b7aa86a63159505cbed084572b7862))
+* **rules:** add LordIcon ([3ad593d](https://github.com/specfy/stack-analyser/commit/3ad593d0f00c1c06d0cc460f5ed7cb5e1bcaedd8))
+* **rules:** add Remult ([27933fe](https://github.com/specfy/stack-analyser/commit/27933fe3b0d7f54a6632f8c50674c0cdc809d241))
+* **rules:** add Simple Analytics ([11dfc96](https://github.com/specfy/stack-analyser/commit/11dfc96398e4e199cf3d22591337580521a7e4d6))
+* **rules:** add Ultracite ([09e0549](https://github.com/specfy/stack-analyser/commit/09e0549f4983eeb91e89c574da8763cf5303f4ae))
+
 ## [1.27.2](https://github.com/specfy/stack-analyser/compare/v1.27.1...v1.27.2) (2025-06-29)
 
 
