@@ -3082,7 +3082,7 @@ export const rawList: LangListItem[] = [
     type: 'programming',
   },
   {
-    extensions: ['.rs', '.rsh'],
+    extensions: ['.rsh'],
     group: null,
     name: 'RenderScript',
     type: 'programming',
@@ -4012,7 +4012,6 @@ export const rawList: LangListItem[] = [
       '.rdf',
       '.res',
       '.resx',
-      '.rs',
       '.rss',
       '.sch',
       '.scxml',
