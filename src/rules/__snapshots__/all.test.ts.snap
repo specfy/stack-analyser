@@ -548,7 +548,7 @@ exports[`all > should match everything 1`] = `
   "react",
   "reactemail",
   "reacticons",
-  "reactrouterdom",
+  "reactrouter",
   "readthedocs",
   "reddit",
   "redis",
