@@ -591,7 +591,7 @@ export type AllowedKeys =
   | 'react'
   | 'reactemail'
   | 'reacticons'
-  | 'reactrouter'
+  | 'reactrouterdom'
   | 'readthedocs'
   | 'reddit'
   | 'redis'

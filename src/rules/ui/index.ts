@@ -17,7 +17,7 @@ import './materialui.js';
 import './monacoeditor.js';
 import './phaserjs.js';
 import './radixui.js';
-import './reactRouter.js';
+import './reactRouterDom.js';
 import './refinedev.js';
 import './rekaui.js';
 import './remixRouter.js';

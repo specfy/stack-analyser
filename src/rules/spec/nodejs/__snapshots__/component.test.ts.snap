@@ -370,7 +370,7 @@ exports[`npm > should match everything 1`] = `
   "react",
   "reactemail",
   "reacticons",
-  "reactrouter",
+  "reactrouterdom",
   "reddit",
   "redis",
   "redwoodjs",
