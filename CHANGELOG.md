@@ -1,3 +1,11 @@
+## [1.27.4](https://github.com/specfy/stack-analyser/compare/v1.27.3...v1.27.4) (2025-11-27)
+
+
+### Bug Fixes
+
+* focus .rs on rust ([ce96034](https://github.com/specfy/stack-analyser/commit/ce96034e975d1f12f70c52755e825dabd22fa239))
+* **rules:** consolidate react router ([#97](https://github.com/specfy/stack-analyser/issues/97)) ([e393ff7](https://github.com/specfy/stack-analyser/commit/e393ff7add4ec0144835338c16a3d2c8b45260ae)), closes [#96](https://github.com/specfy/stack-analyser/issues/96)
+
 ## [1.27.3](https://github.com/specfy/stack-analyser/compare/v1.27.2...v1.27.3) (2025-09-28)
 
 
