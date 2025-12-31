@@ -10,6 +10,7 @@ import figureSet from 'figures';
 import kleur from 'kleur';
 import ora from 'ora';
 
+import { generateAIRuleContent, saveAIRules, supportedAIs } from './ai-rules/index.js';
 import { analyser } from './analyser/index.js';
 import { l } from './common/log.js';
 import { flatten } from './payload/helpers.js';
@@ -32,8 +33,9 @@ program
   .argument('<path>', 'repository to analyze')
   .option('-o, --output <FILENAME>', 'output json to a file', 'output.json')
   .option('--flat', 'flatten the output', false)
+  .option('--ai <AIS>', 'output AI rules instead (comma-separated: cursor,claude,gemini)')
   .version(pkg.version)
-  .action(async (arg: string, options: { output?: string; flat: boolean }) => {
+  .action(async (arg: string, options: { output?: string; flat: boolean; ai?: string }) => {
     const pathAtExecution = process.cwd();
     const root = path.isAbsolute(arg) ? arg : path.join(pathAtExecution, arg);
 
@@ -54,11 +56,31 @@ program
 
     const spinner = ora(`Analysing`).start();
 
-    await timer.setTimeout(500);
+    await timer.setTimeout(100);
     const res = await analyser({
       provider: new FSProvider({ path: root, ignorePaths: [] }),
     });
     spinner.succeed('Analysed');
+
+    if (options.ai) {
+      const aiList = options.ai
+        .split(',')
+        .map((ai) => ai.trim().toLowerCase()) as (typeof supportedAIs)[number][];
+      const invalidAIs = aiList.filter((ai) => !supportedAIs.includes(ai));
+      if (invalidAIs.length > 0) {
+        l.log(
+          kleur.bold().red(figureSet.cross),
+          `Invalid AI names: ${invalidAIs.join(', ')}. Valid options: ${supportedAIs.join(', ')}`
+        );
+        process.exit(1);
+      }
+
+      const output = options.flat ? flatten(res, { merge: true }) : res;
+      const content = generateAIRuleContent(output);
+      await saveAIRules({ content, aiList, outputDir: pathAtExecution });
+
+      l.log('');
+    }
 
     if (options.output) {
       const output = options.flat ? flatten(res, { merge: true }) : res;
