@@ -1,5 +1,6 @@
 import path from 'node:path';
 
+import { cleanPath } from '../common/helpers.js';
 import { detectLang } from '../common/languages.js';
 import { nid } from '../common/nid.js';
 import { rulesComponents } from '../loader.js';
@@ -8,7 +9,6 @@ import { IGNORED_DIVE_PATHS } from '../provider/base.js';
 import { listIndexed } from '../register.js';
 import { findHosting, findImplicitComponent } from './helpers.js';
 import { detectInDotEnv } from '../rules/spec/dotenv/index.js';
-import { cleanPath } from '../tests/helpers.js';
 
 import type { BaseProvider } from '../provider/base.js';
 import type { Analyser, AnalyserJson, Dependency } from '../types/index.js';
