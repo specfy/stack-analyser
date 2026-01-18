@@ -54,18 +54,6 @@ jobs:
 
       - name: Release
         if: (github.event_name == 'workflow_dispatch' && github.event.inputs.dry_run != 'true')
-        id: semantic_release
-        run: |
-          set -euo pipefail
-          npx semantic-release | tee semantic-release.log
-          if grep -q "Published release" semantic-release.log; then
-            echo "published=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "published=false" >> "$GITHUB_OUTPUT"
-          fi
+        run: npx semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Publish to npm (Trusted Publishing / OIDC)
-        if: (github.event_name == 'workflow_dispatch' && github.event.inputs.dry_run != 'true' && steps.semantic_release.outputs.published == 'true')
-        run: npm publish --provenance

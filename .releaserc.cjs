@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-undef
 module.exports = {
   branches: 'main',
   verifyConditions: ['@semantic-release/github'],
