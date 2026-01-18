@@ -7,7 +7,7 @@ on:
         required: true
         type: boolean
         default: true
-        description: 'DryRun?'
+        description: "DryRun?"
 
 permissions:
   contents: read # for checkout
@@ -32,7 +32,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version-file: .nvmrc
-          cache: 'npm'
+          cache: "npm"
           cache-dependency-path: |
             package-lock.json
 
@@ -45,16 +45,17 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
+        run: npm audit signatures
+
       - name: Release (dry run)
         if: (github.event_name == 'workflow_dispatch' && github.event.inputs.dry_run == 'true')
         run: npx semantic-release --dry-run
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Release
         if: (github.event_name == 'workflow_dispatch' && github.event.inputs.dry_run != 'true')
         run: npx semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
