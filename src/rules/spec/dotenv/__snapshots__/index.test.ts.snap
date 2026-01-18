@@ -49,6 +49,7 @@ exports[`dotenv > should match all dependencies 1`] = `
   "dropbox",
   "dynatrace",
   "elasticsearch",
+  "elevenlabs",
   "facebook",
   "fastly",
   "fathom",

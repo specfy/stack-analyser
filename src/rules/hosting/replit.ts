@@ -5,4 +5,5 @@ register({
   name: 'Replit',
   type: 'hosting',
   files: ['.replit', 'replit.nix'],
+  dependencies: [{ type: 'npm', name: /@replit\//, example: '@replit/connectors' }],
 });

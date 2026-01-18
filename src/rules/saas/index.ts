@@ -1,4 +1,5 @@
 import './atlassian.bitbucket.js';
+import './base44.js';
 import './box.js';
 import './cloudinary.js';
 import './docusign.js';
@@ -9,6 +10,7 @@ import './hypertune.js';
 import './lago.js';
 import './launchdarkly.js';
 import './logrocket.js';
+import './lovable.js';
 import './metabase.js';
 import './optimizely.js';
 import './pagerduty.js';

@@ -2,7 +2,7 @@ import { register } from '../../register.js';
 
 register({
   tech: 'betterauth',
-  name: 'Betterauth',
+  name: 'Better Auth',
   type: 'auth',
   dotenv: ['BETTER_AUTH_'],
   dependencies: [

@@ -96,6 +96,7 @@ exports[`npm > should match everything 1`] = `
   "azure.staticwebapps",
   "azure.storage",
   "babel",
+  "base44",
   "baseui",
   "beehiiv",
   "betterauth",
@@ -150,6 +151,7 @@ exports[`npm > should match everything 1`] = `
   "effectjs",
   "elasticsearch",
   "electron",
+  "elevenlabs",
   "eleventy",
   "elysiajs",
   "emberjs",
@@ -272,6 +274,7 @@ exports[`npm > should match everything 1`] = `
   "logstash",
   "logtoio",
   "lordicon",
+  "lovable",
   "lucideicons",
   "magento",
   "mailchimp",
@@ -1291,6 +1294,11 @@ exports[`npm > should match everything 2`] = `
   ],
   [
     "npm",
+    "@base44/sdk",
+    "0.0.0",
+  ],
+  [
+    "npm",
     "@beehiiv/sdk",
     "0.0.0",
   ],
@@ -1522,6 +1530,21 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@elastic/site-search-node",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@elevenlabs/client",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@elevenlabs/react",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@elevenlabs/react-native",
     "0.0.0",
   ],
   [
@@ -2822,6 +2845,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "@remixicon/vue",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "@replit/connectors",
     "0.0.0",
   ],
   [
@@ -4347,6 +4375,11 @@ exports[`npm > should match everything 2`] = `
   [
     "npm",
     "logsnag",
+    "0.0.0",
+  ],
+  [
+    "npm",
+    "lovable-tagger",
     "0.0.0",
   ],
   [

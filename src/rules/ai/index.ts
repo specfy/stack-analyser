@@ -9,6 +9,7 @@ import './aws.translate.js';
 import './azure.openai.js';
 import './cohere.js';
 import './deepseek.js';
+import './elevenlabs.js';
 import './gcp.aiplatform.js';
 import './gcp.dialogflow.js';
 import './gcp.language.js';
