@@ -1,3 +1,10 @@
+## [1.27.6](https://github.com/specfy/stack-analyser/compare/v1.27.5...v1.27.6) (2026-01-18)
+
+
+### Bug Fixes
+
+* test helpers ([46aa82c](https://github.com/specfy/stack-analyser/commit/46aa82ce242ed95153bcf61123d1601540f70416))
+
 ## [1.27.5](https://github.com/specfy/stack-analyser/compare/v1.27.4...v1.27.5) (2026-01-18)
 
 
