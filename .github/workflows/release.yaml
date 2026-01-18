@@ -29,18 +29,16 @@ jobs:
           fetch-depth: 0
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version-file: .nvmrc
           cache: "npm"
           cache-dependency-path: |
             package-lock.json
+          registry-url: "https://registry.npmjs.org"
 
       - name: Install dependencies
         run: npm ci
-
-      # - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
-      #   run: npm audit signatures
 
       - name: Build
         run: npm run build
@@ -56,6 +54,18 @@ jobs:
 
       - name: Release
         if: (github.event_name == 'workflow_dispatch' && github.event.inputs.dry_run != 'true')
-        run: npx semantic-release
+        id: semantic_release
+        run: |
+          set -euo pipefail
+          npx semantic-release | tee semantic-release.log
+          if grep -q "Published release" semantic-release.log; then
+            echo "published=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "published=false" >> "$GITHUB_OUTPUT"
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish to npm (Trusted Publishing / OIDC)
+        if: (github.event_name == 'workflow_dispatch' && github.event.inputs.dry_run != 'true' && steps.semantic_release.outputs.published == 'true')
+        run: npm publish --provenance
