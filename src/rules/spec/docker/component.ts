@@ -10,10 +10,10 @@ import type { AllowedKeys } from '../../../types/techs.js';
 const FILES_REG = /^docker-compose(.*)?\.y(a)?ml$/;
 
 interface DockerCompose {
-  services: Record<string, DockerComposeService>;
+  services: Record<string, DockerComposeService | null>;
 }
 interface DockerComposeService {
-  image?: string;
+  image?: unknown;
   container_name?: string;
 }
 
@@ -42,8 +42,10 @@ export const detectDockerComponent: ComponentMatcher = async (files, provider) =
 
     const pl = new Payload({ name: 'virtual', folderPath: file.fp });
 
-    for (const [name, service] of Object.entries<DockerComposeService>(parsed.services)) {
-      if (!service.image) {
+    for (const [name, service] of Object.entries<DockerComposeService | null>(parsed.services)) {
+      // `image` can be missing, or not a string when a file uses a template
+      // placeholder such as `image: {$IMAGE}`, which YAML parses as a map.
+      if (!service || typeof service.image !== 'string') {
         continue;
       }
 
