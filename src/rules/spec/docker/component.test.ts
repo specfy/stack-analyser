@@ -60,6 +60,29 @@ describe('docker', () => {
     }
   );
 
+  it('should skip services whose image is not a string', async () => {
+    const res = await analyser({
+      provider: new FakeProvider({
+        paths: {
+          '/': ['docker-compose.yml'],
+        },
+        files: {
+          '/docker-compose.yml': `services:
+  broker:
+    image: {$IMAGE}
+  empty:
+  db:
+    image: postgres:16
+`,
+        },
+      }),
+    });
+
+    const merged = flatten(res, { merge: true });
+
+    expect([...merged.techs]).toContain('postgresql');
+  });
+
   it('should ignore file', async () => {
     const res = await analyser({
       provider: new FakeProvider({
